@@ -1,6 +1,6 @@
 ---
 source-git-commit: 04d71f56f9e7147ac91a3135ac2df04cb1eea37a
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Code de conduite Adobe
@@ -39,11 +39,12 @@ Ce Code de conduite s’applique à la fois au sein des espaces du projet ainsi 
 
 ## Application
 
-Les cas de comportements abusifs, de harcèlement ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et étudiées, et donneront lieu à une réponse appropriée aux circonstances. L’équipe du projet est obligée de préserver la confidentialité des informations de la personne qui signale un incident. 
+Les cas de comportements abusifs, de harcèlement ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et étudiées, et donneront lieu à une réponse appropriée aux circonstances. L’équipe du projet est obligée de préserver la confidentialité des informations de la personne qui signale un incident.
 Des informations supplémentaires sur la politique de mise en application des règles peuvent être publiées séparément.
 
 Les membres du projet qui ne suivent ou qui n’appliquent pas le présent Code de conduite de bonne foi s’exposent temporairement ou définitivement à des répercussions définies par d’autres membres de la direction du projet.
 
 ## Attribution
 
-Le présent Code de conduite est une adaptation de la [Convention du contributeur](https://contributor-covenant.org), version 1.4, disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Ce Code de conduite est adapté du[Contributor Covenant](https://contributor-covenant.org), version 1.4,
+disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
