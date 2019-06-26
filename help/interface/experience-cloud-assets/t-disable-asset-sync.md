@@ -5,8 +5,8 @@ seo-description: Découvrez comment désactiver la synchronisation des dossiers 
 seo-title: Désactivation de la synchronisation des dossiers partagés
 solution: Experience Cloud
 title: Désactivation de la synchronisation des dossiers partagés
-uuid: 17 c 42 b 39-614 c -45 e 4-bfb 1-c 6 cb 2 fd 66150
-translation-type: tm+mt
+uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,12 +18,12 @@ Découvrez comment désactiver la synchronisation des dossiers Experience Cloud 
 
 >[!NOTE]
 >
->Vous pouvez désynchroniser uniquement les dossiers que vous possédez.
+>Vous pouvez désynchroniser uniquement les dossiers que vous détenez.
 <p class="head"> <b>Windows</b> </p>
 
 1. Ouvrez l’Explorateur Windows.
 
-1. Sous Favoris, à droite, cliquez sur le dossier **[!UICONTROL Fichiers]** Creative Cloud, puis cliquez **[!UICONTROL sur Sélectionner les dossiers partagés à synchroniser]**.
+1. Sous Favoris, cliquez avec le bouton droit sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
 
    ![](assets/select_sync_folders.png)
 
@@ -35,7 +35,7 @@ Découvrez comment désactiver la synchronisation des dossiers Experience Cloud 
 
 1. Naviguez jusqu’au dossier utilisateur.
 
-1. Cliquez en maintenant la touche Ctrl enfoncée sur les fichiers **[!UICONTROL Creative Cloud]**, puis cliquez **[!UICONTROL sur Sélectionner les dossiers partagés à synchroniser]**.
+1. Cliquez en maintenant la touche Ctrl enfoncée sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
 
    ![](assets/select_sync_folders_mac.png)
 
