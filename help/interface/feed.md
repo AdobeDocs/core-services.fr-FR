@@ -1,12 +1,12 @@
 ---
 description: Découvrez comment partager ou publier des ressources et des rapports Analytics directement sur votre flux Experience Cloud.
 keywords: services principaux
-seo-description: Découvrez comment partager ou publier des ressources et des rapports Adobe Analytics directement avec d'autres personnes à l'aide de votre flux Experience Cloud.
+seo-description: Découvrez comment partager ou publier des ressources et des rapports Adobe Analytics directement sur votre flux Experience Cloud.
 seo-title: Flux
 solution: Experience Cloud
 title: Flux
-uuid: 7 ff 327 d 1-5 a 74-49 fb -8 c 3 c -729034818 ebc
-translation-type: tm+mt
+uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -22,7 +22,7 @@ Le flux peut être vide la première fois que vous vous connectez à Experience 
 
 Les paramètres du flux comprennent les suivants :
 
-* **Rubriques : All\ &lt; organization name\ &gt; :** affiche toutes les publications qui ont été partagées avec vous et toutes les publications auxquelles vous avez accès.
+* **Sujets : tout \&lt;nom de l’organisation\&gt; :** affiche toutes les publications qui ont été partagées avec vous et toutes celles auxquelles vous avez accès.
 * **Gérer les rubriques :** vous permet de suivre, ne plus suivre ou suggérer des rubriques. En outre, les administrateurs peuvent approuver, rejeter, désactiver et créer des rubriques.
 * **Nouvelle publication :** créez des publications que les membres des groupes peuvent voir.
 * **Toutes les publications :** affichez toutes les publications contenues dans votre flux.
@@ -36,9 +36,9 @@ Vous pouvez partager des rapports à partir de [!UICONTROL Reports &amp; Analyti
 
 1. [Connectez-vous](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) à Experience Cloud à l’aide de votre Adobe ID.
 
-1. Accédez à Reports &amp; Analytics, puis [créez un projet](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Accédez à Reports &amp; Analytics, puis [créez un projet](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/?f=freeform_overview).
 
-1. Cliquez **[!UICONTROL sur Plus]** &gt; **[!UICONTROL Partager]**.
+1. Cliquez sur **[!UICONTROL Plus]** &gt; **[!UICONTROL Partager]**.
 
    ![](assets/share_report.png)
 
