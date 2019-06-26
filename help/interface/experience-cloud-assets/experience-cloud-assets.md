@@ -4,8 +4,8 @@ seo-description: Experience Cloud Assets constitue un référentiel unique et 
 seo-title: Assets
 solution: Experience Cloud
 title: Assets
-uuid: 97 a 849 ec -1555-4630-9416-2 ab 484373 f 5 c
-translation-type: tm+mt
+uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -25,7 +25,7 @@ L’utilisation des ressources améliore la cohérence et l’homogénéité de 
 
 * **[!DNL Social]** : publiez du contenu dans les propriétés sociales, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]** : créez du contenu pour des tests A/B et multivariés.
-* **[!DNL Media Optimizer]**: Développer des unités publicitaires sur différents canaux et campagnes
+* **[!DNL Media Optimizer]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
 * **[!DNL Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
 Dans [!UICONTROL Experience Cloud Assets], vous pouvez effectuer les opérations suivantes :
@@ -45,7 +45,7 @@ Dans [!UICONTROL Experience Cloud Assets], vous pouvez effectuer les opérations
 
 ![](assets/asset-nav.png)
 
-## Accès à la barre d&#39;outils {#section_EC2E401D225148818F3753248556BE6B}
+## Accéder à la barre d’outils {#section_EC2E401D225148818F3753248556BE6B}
 
 Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
@@ -53,7 +53,7 @@ La barre d’outils permet d’accéder rapidement aux fonctionnalités telles q
 
 ![](assets/asset-tools.png)
 
-## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modification de ressources  {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La modification d’une ressource active certaines fonctionnalités, notamment les suivantes :
 
@@ -63,44 +63,44 @@ La modification d’une ressource active certaines fonctionnalités, notamment l
 
 ![](assets/asset-edit.png)
 
-## Recherche de fichiers {#section_50FE049010B446FC9640AA6A30E5A730}
+## Recherche de ressources {#section_50FE049010B446FC9640AA6A30E5A730}
 
 Vous pouvez effectuer une recherche par mot clé, type de fichier, taille, date de dernière modification, statut de publication, orientation et style.
 
 ![](assets/asset-search.png)
 
-## Annotation des fichiers {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Annotation de ressources {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Cliquez sur **[!UICONTROL Annoter]en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.**
+Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![](assets/assets-annotate.png)
 
-## Partage d&#39;un fichier sur votre flux {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+## Partage d’une ressource avec votre flux {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-Cliquez **[!UICONTROL sur Partager]** dans la barre d&#39;outils pour partager le fichier comme [flux](../feed.md#concept_9256B8768A294009A777282DD8719213) avec d&#39;autres utilisateurs d&#39;Experience Cloud.
+Cliquez sur **[!UICONTROL Partager]** dans la barre d’outils pour partager le fichier comme [flux](../feed.md#concept_9256B8768A294009A777282DD8719213) avec d’autres utilisateurs d’Experience Cloud.
 
 ![](assets/assets-share-card.png)
 
 Le partage permet d’afficher l’image sur votre page de flux, ainsi que les personnes avec lesquelles vous avez partagé la carte.
 
-## Affichage des fichiers plein écran et zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Affichage des ressources en plein écran et en mode zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Cliquez **[!UICONTROL sur Vues]** &gt; **[!UICONTROL Image]** pour afficher l&#39;image complète de la ressource et activer le zoom.
+Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
 
 ![](assets/asset-zoom.png)
 
-## Affichage des propriétés de la ressource {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## Affichage des propriétés des ressources {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue sous forme de liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez **[!UICONTROL sur Vues]** &gt; **[!UICONTROL Propriétés]** pour afficher les propriétés d&#39;un fichier :
+Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
 
 ![](assets/asset-properties.png)
 
-## Exécution des rapports d&#39;utilisation {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Exécution des rapports sur l’utilisation {#section_15D782FFB8D74CF4A735116CC03AD902}
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Rapport d&#39;utilisation]**
+Cliquez sur **[!UICONTROL Outils]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Rapport d’utilisation]**
 
 ![](assets/assets-usage-report.png)
