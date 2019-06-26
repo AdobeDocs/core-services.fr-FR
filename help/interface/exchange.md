@@ -5,8 +5,8 @@ seo-description: Marketplace est une destination unique où vous pouvez recherch
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
-uuid: 73 db 5 cc 5-5 fb 2-43 a 2-a 164-5 cbca 9 e 9 a 206
-translation-type: tm+mt
+uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Aide]** &gt; **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Aide]** &gt; **[!UICONTROL Exchange]**
 
 <!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
 <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
@@ -35,4 +35,4 @@ Marketplace est une destination unique où vous pouvez rechercher des extensions
 
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
-Pour en savoir plus, voir [Experience Cloud Exchange](https://marketing.adobe.com/exchange).
+Voir [Experience Cloud Exchange](https://marketing.adobe.com/exchange) pour en savoir plus.
