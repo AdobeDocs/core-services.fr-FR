@@ -1,12 +1,12 @@
 ---
 description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
-keywords: attributs du client ; services principaux
+keywords: attributs du client;services principaux
 seo-description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
 seo-title: À propos du fichier de données et des sources de données pour les attributs du client
 solution: Experience Cloud
 title: À propos du fichier de données et des sources de données pour les attributs du client
-uuid: 9 dd 0 e 364-889 b -45 db-b 190-85 c 0930 a 101 e
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
 
-Vous allez devoir accéder à la gestion de la relation client ou à d’autres données du même type de votre société. Les données que vous téléchargez dans Experience Cloud doivent être [!DNL .csv] un fichier. Si vous transférez le fichier par FTP ou sftp, vous transférez également un [!DNL .fin] fichier.
+Vous allez devoir accéder à la gestion de la relation client ou à d’autres données du même type de votre société. Les données que vous transférez vers Experience Cloud doivent être regroupées dans un fichier [!DNL .csv]. Si vous transférez le fichier par FTP ou sFTP, vous devez également transférer un fichier [!DNL .fin].
 
-Attributs du client est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème d&#39;affichage d&#39;un grand nombre de petits fichiers retardés, les fichiers envoyés dans les 30 minutes suivant un lot précédent d&#39;une même organisation sont acheminés vers une file d&#39;attente de priorité inférieure.
+La fonction Attributs du client est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
 <!-- <p>Articulate difference between this and SAINT. </p> -->
 
-## Types de fichiers autorisés et exigences d&#39;attribution de noms {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## Types de fichiers autorisés et exigences en termes d’attribution de noms {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
@@ -49,7 +49,7 @@ Attributs du client est conçu pour gérer quelques fichiers par jour. Pour att�
 </table>
 
 
-## Conditions requises pour les fichiers de données d&#39;attributs {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Conditions requises pour les fichiers de données d’attributs {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
 
 
@@ -81,7 +81,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonne ID de client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un identifiant de client unique. L’identifiant utilisé doit correspondre à l’ID transmis au service d’Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une propriété ou un eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics et Target - Synchronisation de l’ID client </a>) </p> <p> Cet identifiant de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez combien d’attributs transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le transfert, vous pouvez mapper les noms conviviaux aux lignes et colonnes transférées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie les alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de client et états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un identifiant de client unique. L’identifiant utilisé doit correspondre à l’ID transmis au service d’Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une propriété ou un eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics et Target - Synchronisation de l’ID client </a>) </p> <p> Cet identifiant de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez combien d’attributs transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le transfert, vous pouvez mapper les noms conviviaux aux lignes et colonnes transférées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un  <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie les alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://marketing.adobe.com/resources/help/fr_FR/mcvid/?f=mcvid-authenticated-state" format="https" scope="external">ID de client et états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes consécutifs </p> </td> 
@@ -113,19 +113,19 @@ Le même fichier affiché dans un éditeur de texte :
    <td colname="col1"> <p>Consignes relatives au FTP et limites de taille </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">La taille maximale du fichier pour FTP est de 4 Go pour chaque téléchargement. </li> 
-      <li>Taille minimale de fichier limitée à 10 Mo pour chaque téléchargement. </li>
-      <li>Vous pouvez télécharger un fichier toutes les demi-secondes - heure. </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">Pour chaque transfert par FTP, le fichier ne doit pas dépasser 4 Go. </li> 
+      <li>Pour chaque transfert, la limite de la taille minimale de fichier est de 10 Mo. </li>
+      <li>Vous pouvez télécharger un fichier toutes les demi-heures. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Déposez de préférence vos fichiers <span class="filepath">.csv</span> et <span class="filepath">.fin</span> dans le dossier racine du site FTP. </li> 
      </ul> </p> <p> <p>Important : L’espace total autorisé pour le compte FTP est de 40 Go. Il vous appartient de supprimer les fichiers traités. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exigences liées aux fichiers </p> </td> 
-   <td colname="col2"> <p> Chaque source d’attributs doit contenir le même nombre de champs séparés par une virgule. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets simples. </p> <p> Les guillemets doubles dans un champ doivent être précédés d’une barre oblique arrière (\). </p> <p> Les colonnes vierges sont stockées comme <span class="term"> valeur nulle </span>. </p> </td> 
+   <td colname="col2"> <p> Chaque source d’attributs doit contenir le même nombre de champs séparés par une virgule. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets simples. </p> <p> Les guillemets doubles dans un champ doivent être précédés d’une barre oblique arrière (\). </p> <p> Les colonnes vierges sont stockées comme  <span class="term"> valeur nulle </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Plusieurs fichiers </p> </td> 
-   <td colname="col2"> <p>Lors du chargement des données d'attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, assurez-vous que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez le surveiller en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou échoué dans votre compte FTP d'attributs du client. </p> <p> Le fait de ventiler un fichier volumineux en fichiers plus petits et de les envoyer rapidement peut ralentir le traitement, sauf si vous pouvez vérifier que chaque fichier est complètement traité avant d'envoyer le suivant. </p> </td> 
+   <td colname="col1"> <p>Fichiers multiples </p> </td> 
+   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez vous en assurer en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou échoué dans votre compte FTP d’attributs du client. </p> <p> Le fait de diviser un fichier volumineux en fichiers plus petits et de les envoyer rapidement peut ralentir le traitement, sauf si vous pouvez vérifier que chaque fichier est complètement traité avant d’envoyer le suivant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encodage des caractères </p> </td> 
@@ -143,7 +143,7 @@ Le même fichier affiché dans un éditeur de texte :
 </table>
 
 
-## Exploitation de plusieurs sources de données {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
+## Utilisation de plusieurs sources de données {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 Lorsque vous créez, modifiez ou supprimez une source d’attributs cliente, la synchronisation des identifiants avec la nouvelle source de données peut prendre environ une heure.
 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Pour plus d’informations, voir [ID de client et états de l’authentification](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids).)
+(Voir [ID clients et états d’authentification](https://marketing.adobe.com/resources/help/fr_FR/mcvid/?f=mcvid_customer_ids) pour plus d’informations.)
 
-Dans **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personnes]** &gt; **[!UICONTROL Attributs du client]**:
+Dans **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personnes]** &gt; **[!UICONTROL Attributs du client]** :
 
 Créez deux sources d’attributs du client à l’aide des identifiants d’alias uniques qui correspondent aux identifiants client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes
