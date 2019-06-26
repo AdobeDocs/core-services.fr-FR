@@ -1,12 +1,12 @@
 ---
 description: Règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés.
-keywords: partage des ressources ; Creative Cloud ; services principaux
+keywords: partage de ressources;Creative Cloud;services principaux
 seo-description: Règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés.
 seo-title: Comportement des dossiers partagés
 solution: Experience Cloud
 title: Comportement des dossiers partagés
-uuid: 86348401-f 4 b 1-4 efe-acd 1-7 e 73 a 7030 fed
-translation-type: tm+mt
+uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,7 +18,7 @@ Règles relatives au comportement des dossiers partagés lorsqu’ils sont dépl
 
 >[!NOTE]
 >
->Les dossiers et ressources partagés d&#39;Experience Cloud sont mis en miroir sur le bureau Creative Cloud dans une relation 1:1. Si un utilisateur Experience Cloud change un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés vers la corbeille sur l’ordinateur local, d’où vous pouvez les restaurer manuellement.
+>Les dossiers et ressources Experience Cloud partagés sont mis en miroir dans l’application de bureau Creative Cloud dans le cadre d’une relation 1:1. Si un utilisateur Experience Cloud change un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés vers la corbeille sur l’ordinateur local, d’où vous pouvez les restaurer manuellement.
 
 ## Dossier non partagé dans un dossier partagé {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
@@ -94,7 +94,7 @@ Vous déplacez le contenu d’un dossier partagé dans un autre dossier partagé
 
 **Résultat :** le contenu apparaît dans le dossier 2 et est maintenant partagé avec les nouveaux collaborateurs. Le contenu est supprimé du dossier 1 et le propriétaire le voit comme archivé, tandis que les autres collaborateurs n’y ont plus accès.
 
-## Contenu restauré à partir d&#39;une archive {#section_DEA990B3581741F89FBB81D18C2AB449}
+## Contenu restauré issu de l’archive {#section_DEA990B3581741F89FBB81D18C2AB449}
 
 Vous restaurez le contenu d’une archive qui appartenait à un dossier partagé. Vous déteniez le contenu au moment où il a été archivé.
 
