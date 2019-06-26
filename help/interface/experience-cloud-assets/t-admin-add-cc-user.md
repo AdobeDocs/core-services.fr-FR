@@ -1,12 +1,12 @@
 ---
-description: 'Outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. '
-keywords: partage des ressources ; Creative Cloud ; services principaux
-seo-description: 'Outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. '
+description: 'Outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. '
+keywords: partage de ressources;Creative Cloud;services principaux
+seo-description: 'Outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. '
 seo-title: Gestion des utilisateurs Creative Cloud
 solution: Experience Cloud
 title: Gestion des utilisateurs Creative Cloud
-uuid: 11 c 4 de 67-40 c 5-4438-92 fc-e 23761 be 3 f 18
-translation-type: tm+mt
+uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,10 +18,10 @@ Experience Cloud fournit des outils administratifs pour la gestion des utilisate
 
 >[!NOTE]
 >
->Pour effectuer cette procédure, vous devez être un administrateur.
+>Pour effectuer cette procédure, vous devez être administrateur.
 
-1. Dans Experience Cloud, cliquez **[!UICONTROL sur Administration]** &gt; **[!UICONTROL Gérer les collaborateurs Creative Cloud]**.
-1. Cliquez **[!UICONTROL sur Partage de ressources Creative Cloud]**.
-1. Cliquez **[!UICONTROL sur Ajouter un nouvel utilisateur]**. ![](assets/mac_add_icon.png)
+1. Dans Experience Cloud, cliquez sur **[!UICONTROL Administration]** &gt; **[!UICONTROL Gérer les collaborateurs Creative Cloud]**.
+1. Cliquez sur **[!UICONTROL Partage de ressources Creative Cloud]**.
+1. Cliquez sur **[!UICONTROL Ajouter un nouvel utilisateur]**.  ![](assets/mac_add_icon.png)
 1. Entrez une adresse électronique, un nom d’écran, un titre et éventuellement un avatar.
-1. Cliquez **[!UICONTROL sur Créer]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
