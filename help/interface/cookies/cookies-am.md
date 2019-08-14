@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,16 +19,7 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 Audience Manager s’appuie sur quelques cookies simples pour réaliser différentes fonctions. Ces dernières consistent entre autres à attribuer des identifiants, à enregistrer les appels de données, à suivre les erreurs et à tester si les cookies peuvent être définis. Cette section répertorie et décrit les différents cookies définis par Audience Manager.
 
-Contenu :
-
-<ul class="simplelist"> 
- <li> <a href="../cookies/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> Cookie demdex </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> Cookie dextp </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> Cookie dstjs </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local">Cookie _dp</a> </li> 
-</ul>
-
-## Cookie demdex {#section-089407f3e2fe4f489b97164df3cd036c}
+**Cookie demdex**
 
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
@@ -57,7 +48,7 @@ Contenu :
  </tbody> 
 </table>
 
-## Cookie dextp {#section-a71050d788d54350adc6b3f6ebf32398}
+**Cookie dextp**
 
 <table id="table_7343C9C9ADD24D3FA693ECC76E4A4045"> 
  <thead> 
@@ -90,7 +81,7 @@ Contenu :
  </tbody> 
 </table>
 
-**Syntaxe des données du cookie dextp**
+Syntaxe des données du cookie dextp:
 
 Le tableau suivant répertorie et définit les éléments d’un cookie [!DNL dextp] en fonction de leur emplacement dans la chaîne de données.
 
@@ -125,7 +116,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie [!DNL de
  </tbody> 
 </table>
 
-## Cookie dst {#section-670ae9e671874576b528b46e8a1d24ac}
+**Cookie dst**
 
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
@@ -158,14 +149,6 @@ Le tableau suivant répertorie et définit les éléments d’un cookie [!DNL de
  </tbody> 
 </table>
 
-## Cookie _dp{#section-0d1fea09c83249dfa944cc028a8ef840}
+**Cookie _dp**
 
 Il s’agit d’un cookie temporaire. [!DNL Audience Manager] tente de définir [!DNL _dp] le cookie afin de déterminer s'il peut définir d'autres cookies dans le domaine demdex. net dans un contexte tiers. When [!DNL _dp] is set it contains a value of 1. [!DNL Audience Manager] lit cette valeur et supprime immédiatement le cookie. If the [!DNL _dp] cookie is not present, [!DNL Audience Manager] knows it cannot set cookies.
-
->[!MORE_LIKE_THIS]
->
->* [Signification des appels vers le domaine Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [Centre de traitement des données personnelles Adobe](http://www.adobe.com/privacy.html)
->* [Sécurité et confidentialité des données Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [FAQ sur la rétention des données et la confidentialité dans Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
-
