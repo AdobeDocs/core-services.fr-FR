@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -23,12 +23,8 @@ La liste suivante montre de quelle manière la prise en charge des cookies tiers
 
 **Adobe Analytics et Target**
 
-<!--
-Test
--->
-
 * Les clients disposant d’une mise en œuvre propriétaire ne seront globalement pas affectés.
-* Les clients qui n’utilisent pas de mise en œuvre propriétaire peuvent implémenter le [service d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service) pour stocker le cookie d’identification en tant que cookie propriétaire sans mise en œuvre propriétaire.
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 **Adobe Experience Manager**
 
