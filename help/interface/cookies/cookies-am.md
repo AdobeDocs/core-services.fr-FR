@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 ---
 
@@ -22,10 +22,10 @@ Audience Manager s’appuie sur quelques cookies simples pour réaliser différ
 Contenu :
 
 <ul class="simplelist"> 
- <li> <a href="../cookies-overview/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> Cookie demdex </a> </li> 
- <li> <a href="../cookies-overview/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> Cookie dextp </a> </li> 
- <li> <a href="../cookies-overview/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> Cookie dstjs </a> </li> 
- <li> <a href="../cookies-overview/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local">Cookie _dp</a> </li> 
+ <li> <a href="../cookies/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> Cookie demdex </a> </li> 
+ <li> <a href="../cookies/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> Cookie dextp </a> </li> 
+ <li> <a href="../cookies/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> Cookie dstjs </a> </li> 
+ <li> <a href="../cookies/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local">Cookie _dp</a> </li> 
 </ul>
 
 ## Cookie demdex {#section-089407f3e2fe4f489b97164df3cd036c}
