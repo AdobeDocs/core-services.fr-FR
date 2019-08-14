@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Adobe Experience Cloud utilise des cookies pour stocker un identifiant visiteur utilisé dans les solutions Experience Cloud.
 
-## Nom du cookie : s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
+**Nom du cookie : s_ ecid**
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -52,7 +52,7 @@ Adobe Experience Cloud utilise des cookies pour stocker un identifiant visiteur 
  </tbody> 
 </table>
 
-## Nom du cookie : AMCV_###@AdobeOrg {#section-a12aa2a9296940ae82d8921b381b8fb0}
+**Nom du cookie : AMCV_###@AdobeOrg**
 
 The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. Par exemple : `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. Voir également [Cookies et service d’identification](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
