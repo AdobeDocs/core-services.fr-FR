@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Deux options permettent de mettre en œuvre des cookies propriétaires.
 
 * Service d'ID de plateforme Experience. Le service d'ID peut définir le cookie dans le contexte propriétaire à l'aide de JavaScript.
 * Entrées DNS sur le serveur DNS de vos entreprises.
-* Si votre site comporte des pages sécurisées utilisant `https://` le protocole et que vous n'utilisez pas le service d'ID d'Experience Platform, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en œuvre des cookies propriétaires
+* Si votre site comporte des pages sécurisées utilisant `https:` le protocole et que vous n'utilisez pas le service d'ID d'Experience Platform, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en œuvre des cookies propriétaires
 
 Le processus d'octroi de certificat SSL peut souvent être confus et temporel. Par conséquent, Adobe a établi un partenariat avec digicert, une autorité de certification de l'industrie, et a développé un processus intégré par lequel l'achat et la gestion de ces certificats sont automatisés.
 
