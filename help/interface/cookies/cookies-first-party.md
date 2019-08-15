@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21bab04d9df4f75afbd1dc5940842b57c34ecb24
+source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
 
 ---
 
@@ -41,12 +41,10 @@ Voici comment vous implémentez un nouveau certificat SSL propriétaire pour les
 
 1. Remplissez le formulaire de demande et ouvrez un ticket avec le service à la clientèle demandant la configuration des cookies propriétaires dans le programme géré Adobe. Chaque champ est décrit avec des exemples dans le document.
 
-1. Création d'enregistrements CNAME. Lors de la réception du ticket, un spécialiste FPSSL doit vous fournir une paire d'enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu'Adobe puisse acheter le certificat en votre nom. Les CNAMES sont similaires à ce qui suit.
+1. Créez des enregistrements CNAME (voir les instructions ci-dessous). Lors de la réception du ticket, un spécialiste FPSSL doit vous fournir une paire d'enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu'Adobe puisse acheter le certificat en votre nom. Les CNAMES sont similaires à ce qui suit.
 
 * **Sécurisé** : par exemple, le nom d'hôte `smetrics.example.com` pointe vers : `example.com.ssl.d1.omtrdc.net`.
 * **Non sécurisé** : par exemple, le nom d'hôte `metrics.example.com` pointe vers : `example.com.d1.omtrdc.net`.
-
-Voir Création d'enregistrements CNAME pour plus d'informations.
 
 1. Lorsque ces CNAME sont en place, Adobe travaille avec digicert pour acheter et installer un certificat sur les serveurs de production d'Adobe. Si vous disposez d'une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l'environnement de production d'Adobe, vous pourrez mettre à jour les variables de serveur de suivi avec les nouveaux noms d'hôtes. En d'autres termes, si le site n'est pas sécurisé (https), mettez à jour le `s.trackingServer`paramètre. Si le site est sécurisé (https), mettez à jour les deux variables `s.trackingServer` et `s.trackingServerSecure` les variables.
 
