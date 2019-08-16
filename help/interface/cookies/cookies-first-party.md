@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
+source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
 
@@ -39,12 +39,9 @@ Le programme Adobe Managed Certificate vous permet de mettre en œuvre un nouvea
 
 Voici comment vous implémentez un nouveau certificat SSL propriétaire pour les cookies propriétaires :
 
-1. Remplissez le formulaire de demande et ouvrez un ticket avec le service à la clientèle demandant la configuration des cookies propriétaires dans le programme géré Adobe. Chaque champ est décrit avec des exemples dans le document.
+1. Remplissez le formulaire de demande de cookie [propriétaire](/help/interface/cookies/assets/FPC_Request_Form.xlsx) et ouvrez un ticket avec le service à la clientèle demandant la configuration des cookies propriétaires dans le programme géré Adobe. Chaque champ est décrit avec des exemples dans le document.
 
-1. Créez des enregistrements CNAME (voir les instructions ci-dessous). Lors de la réception du ticket, un spécialiste FPSSL doit vous fournir une paire d'enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu'Adobe puisse acheter le certificat en votre nom. Les CNAMES sont similaires à ce qui suit.
-
-* **Sécurisé** : par exemple, le nom d'hôte `smetrics.example.com` pointe vers : `example.com.ssl.d1.omtrdc.net`.
-* **Non sécurisé** : par exemple, le nom d'hôte `metrics.example.com` pointe vers : `example.com.d1.omtrdc.net`.
+1. Créez des enregistrements CNAME (voir les instructions ci-dessous). Lors de la réception du ticket, un spécialiste FPSSL doit vous fournir une paire d'enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu'Adobe puisse acheter le certificat en votre nom. Les CNAMES sont similaires à ce qui suit : **Sécurisé** : par exemple, le nom d'hôte `smetrics.example.com` pointe vers : `example.com.ssl.d1.omtrdc.net`. **Non sécurisé** : par exemple, le nom d'hôte `metrics.example.com` pointe vers : `example.com.d1.omtrdc.net`.
 
 1. Lorsque ces CNAME sont en place, Adobe travaille avec digicert pour acheter et installer un certificat sur les serveurs de production d'Adobe. Si vous disposez d'une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l'environnement de production d'Adobe, vous pourrez mettre à jour les variables de serveur de suivi avec les nouveaux noms d'hôtes. En d'autres termes, si le site n'est pas sécurisé (https), mettez à jour le `s.trackingServer`paramètre. Si le site est sécurisé (https), mettez à jour les deux variables `s.trackingServer` et `s.trackingServerSecure` les variables.
 
@@ -109,9 +106,9 @@ Si les enregistrements CNAME ne sont pas correctement configurés ou pas actifs,
 
 Avant de modifier le code sur votre site pour utiliser des cookies propriétaires, procédez comme suit :
 
-* Demandez un certificat SSL, comme décrit dans Procédure de mise en œuvre du programme Adobe Managed Certificate Program.
-* Création d'enregistrements CNAME.
-* Ping le nom d'hôte.
+* Demandez un certificat SSL, comme décrit ci-dessus dans Procédure de mise en œuvre du programme Adobe Managed Certificate Program.
+* Création d'enregistrements CNAME (voir ci-dessus).
+* Ping le nom d'hôte (voir ci-dessus).
 
 Une fois que vous avez vérifié que vos noms d'hôtes répondent et redirigent vers les serveurs de collecte de données Adobe, vous pouvez modifier votre implémentation afin qu'elle pointe vers vos propres noms d'hôtes de collecte de données.
 
@@ -119,6 +116,7 @@ Une fois que vous avez vérifié que vos noms d'hôtes répondent et redirigent 
 1. Pour mettre à jour votre version de code, remplacez votre fichier`s_code.js/AppMeasurement.js`   dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour les cookies propriétaires, localisez les variables s. trackingserver et s. trackingserversecure (en cas d'utilisation de SSL) et pointez-les vers vos nouveaux noms d'hôtes de collecte de données. Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Téléchargez le fichier JavaScript principal mis à jour sur votre site.
+
 1. Si vous passez à des cookies propriétaires à partir d'une implémentation longue ou si vous changez de nom d'hôte de collection propriétaire différent, il est recommandé de migrer les visiteurs du domaine précédent vers le nouveau domaine.
 
 Voir [Migration des visiteurs](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) dans le Guide de mise en œuvre d'Analytics.
