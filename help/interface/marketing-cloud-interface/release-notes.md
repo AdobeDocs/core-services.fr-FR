@@ -6,8 +6,8 @@ seo-title: Notes de mise à jour cumulatives
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+translation-type: tm+mt
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,9 +18,25 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour obtenir les notes de mise à jour de toutes les solutions, voir [Notes de mise jour Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/).
+Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+
+## Août - 2019
+
+* Correction d’un problème critique de connexion à Experience Cloud en raison duquel la session de certains utilisateurs était fermée. (MCUI-6908)
+* Mise à jour de la connexion Experience Cloud afin d’améliorer les performances et de réduire la latence. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Mise à jour cosmétique de l’interface. (MCUI-6861, MCUI-6911, MCUI-6862)
+* Correction d’un problème lié aux [!UICONTROL Triggers] d’Experience Cloud qui entraînait une interprétation incorrecte de la clause _Like_ dans la définition du [!UICONTROL déclencheur]. (MCUI-6611)
+
+## Avril - 2019
+
+* Mise à jour du sélecteur d’applications pour inclure Marketo dans la suite de solutions Experience Cloud et mise à jour des marques sur Experience Platform. (MCUI-6529)
+* Mise à jour de l’accueil d’Experience Cloud pour inclure les liens de navigation vers les pages de flux et d’administration. (MCUI-6682)
+* Correction d’un problème dans la définition du [!UICONTROL déclencheur] en relation avec l’utilisation correcte de la clause « like ». (MCUI-6611)
+* Améliorations apportées aux attributs du client pour une meilleure connexion au service d’abonnement. (MCUI-6519)
 
 ## Version 19.1.1 - 17 janvier 2019
+
+**Remarque :** En mars 2019, l’interface d’Experience Cloud ne prendra pas en charge Internet Explorer 11.
 
 * Correction d’un problème qui empêchait la recherche d’aide de fournir des résultats. (MCUI-1670)
 * Correction et amélioration de la gestion eVar dans Triggers. (MCUI-6400)
@@ -51,6 +67,7 @@ Pour obtenir les notes de mise à jour de toutes les solutions, voir [Notes de m
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’affichage des ressources partagées par Assets on Demand avec le flux Experience Cloud. (MAC-29955)
+
 
 ## Version 16.2 - 18 février 2016 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -100,7 +117,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 >[!NOTE]
 >
->Microsoft met [fin à la prise en charge](https://microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
+>Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
 ## Version 15.10 - 14 octobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -128,6 +145,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 En raison d’un problème connu, les comptes générés automatiquement sont créés en double dans Audience Manager et automatiquement associés à une identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
+
 ## Version 15.6.1 - 11 juin 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Pas d’informations disponibles.
@@ -146,7 +164,7 @@ Pas d’informations disponibles.
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>Les menus du volet de navigation de gauche ont été actualisés et réorganisés afin que vous puissiez accéder à tous les services principaux et solutions. Changements notables : </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Les menus  <span class="term"> Bibliothèque d’audiences </span> et <span class="term"> Attributs du client </span> se trouvent maintenant sous<span class="term"> Audiences</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Les menus <span class="term"> Bibliothèque d’audiences </span> et <span class="term"> Attributs du client </span> se trouvent maintenant sous<span class="term"> Audiences</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Le menu <span class="term"> Exchange </span> a été déplacé du menu déroulant Aide au rail de navigation de gauche. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Solutions</span> a été supprimé. Toutes les solutions peuvent être lancées à partir du rail de navigation (partie inférieure). </li> 
     </ul> </td> 
@@ -155,7 +173,7 @@ Pas d’informations disponibles.
 </table>
 
 * Correction d’un problème empêchant la synchronisation des attributs de certains clients.
-* Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/) en japonais.
+* Correction d’un problème empêchant l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
 ## Version 15.4.1 - 8 avril 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -229,7 +247,7 @@ Pas d’informations disponibles.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mises à jour de la documentation – Services principaux </p> </td> 
-   <td colname="col2"> <p>Ajout de la rubrique  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation des solutions pour les services principaux</a> qui aide à la mise en œuvre des services principaux. </p> </td> 
+   <td colname="col2"> <p>Ajout de la rubrique <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation des solutions pour les services principaux</a> qui aide à la mise en œuvre des services principaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
