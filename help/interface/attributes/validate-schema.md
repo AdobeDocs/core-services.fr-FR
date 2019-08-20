@@ -6,8 +6,8 @@ seo-title: Validation du schéma
 solution: Experience Cloud
 title: Validation du schéma
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -36,7 +36,7 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
 * **[!UICONTROL Configuration FTP :]** [téléchargez les données par FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL Recherche d’identifiants :]** entrez un ID de client (CID) issu du fichier [!DNL .csv] pour rechercher les informations Experience Cloud relatives à cet identifiant. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
+* **[!UICONTROL Recherche d’identifiants :]** entrez un ID de client (CID) issu du fichier `.csv` pour rechercher les informations Experience Cloud relatives à cet identifiant. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
    * **[!UICONTROL MCID (Experience Cloud ID) :]** s’affiche si vous utilisez le dernier service d’Experience Cloud ID. Si vous avez souscrit au service MCID, mais qu’aucun identifiant n’est répertorié ici, cela signifie qu’Experience Cloud n’a reçu aucun alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
@@ -51,9 +51,9 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
 Vous pouvez également transférer les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format .csv, avec un second fichier .fin pour indiquer que le transfert est terminé.
 
-Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. Pour plus d’informations, voir [Rapport d’attributs du client](https://marketing.adobe.com/resources/help/fr_FR/reference/?f=reports_customer_attributes) dans l’aide [!DNL Analytics].
+Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. See [Customer Attributes Report](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) in [!DNL Analytics] help for more information.
 
-* **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier [!DNL .csv] transféré.
+* **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
 
 * **[!UICONTROL Type :]** type de données, par exemple :
 
