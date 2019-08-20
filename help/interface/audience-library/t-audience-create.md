@@ -6,8 +6,8 @@ seo-title: Création d’une audience
 solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -40,7 +40,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
    ![](assets/audience_create.png)
 
-1. Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Personnes]** &gt; **[!UICONTROL Bibliothèque d’audiences]**.
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
 1. Dans la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
 
 ![Résultat de l’étape](assets/audience_create_new.png)
