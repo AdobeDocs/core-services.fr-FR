@@ -4,7 +4,7 @@ seo-title: Aide et documentation sur les produits d'Adobe Experience Cloud.
 description: Aide et documentation sur les produits d'Adobe Experience Cloud.
 seo-description: Aide d'Experience Cloud
 translation-type: tm+mt
-source-git-commit: 2231240b6697d95ad448cb21c55368ecbe13a517
+source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 ---
 
@@ -41,7 +41,7 @@ Aide et documentation sur Adobe Experience Cloud.
 **Aide d’Audience Manager**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* Administration d'Audience Manager
+* [Administration d'Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
 **Aide de Target**
 
