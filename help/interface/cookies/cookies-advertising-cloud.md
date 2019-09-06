@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ La publicité Cloud utilise des cookies pour mapper les événements d'engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) d'affichage des clics </p> </td> 
+   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) d'affichage des clics</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
-   <td colname="col2"> <p>15 minutes/p &gt; </p> </td> 
+   <td colname="col2"> <p>15 minutes</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
@@ -50,6 +50,39 @@ La publicité Cloud utilise des cookies pour mapper les événements d'engagemen
  </tbody> 
 </table>
 
+## Nom du cookie : _ tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Attribut </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Informations stockées </p> </td> 
+   <td colname="col2"> <p>ID codés et horodatages pour les engagements publicitaires à l'aide du suivi DSP de publicité Cloud </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Expiration </p> </td> 
+   <td colname="col2"> <p>1 an </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Utilisation </p> </td> 
+   <td colname="col2"> <p>Cookie tiers qui stocke des engagements utilisateur avec des publicités, telles que « last seen ad xyz 123 le 30 juin 2016 ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Emplacement </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Taille </p> </td> 
+   <td colname="col2"> <p>Variable ; données codées et généralement inférieures à 1 Ko </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Nom du cookie : adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ La publicité Cloud utilise des cookies pour mapper les événements d'engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>L'identifiant de surfeur, les horodatages de la dernière visite du surfeur sur le site Web de l'annonceur et le dernier clic de recherche du surfeur, ainsi que le ef_ id créé lorsque l'utilisateur a cliqué sur une publicité/p &gt; </p> </td> 
+   <td colname="col2"> <p>L'ID de surfer, les horodatages de la dernière visite du surfeur sur le site Web de l'annonceur et le dernier clic de recherche du surfeur, ainsi que le ef_ id créé lorsque l'utilisateur a cliqué sur une publicité.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -216,37 +249,3 @@ La publicité Cloud utilise des cookies pour mapper les événements d'engagemen
   </tr> 
  </tbody> 
 </table>
-
-## Nom du cookie : _ tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Attribut </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID codés et horodatages pour les engagements publicitaires à l'aide du suivi DSP de publicité Cloud </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Expiration </p> </td> 
-   <td colname="col2"> <p>1 an </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers qui stocke des engagements utilisateur avec des publicités, telles que « last seen ad xyz 123 le 30 juin 2016 ». </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Emplacement </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Taille </p> </td> 
-   <td colname="col2"> <p>Variable ; données codées et généralement inférieures à 1 Ko </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
