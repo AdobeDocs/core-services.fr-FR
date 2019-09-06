@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
+source-git-commit: b6950426a81f22757387b297f349377d34865842
 
 ---
 
@@ -16,6 +16,39 @@ source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 # Publication de cookies Cloud{#advertising-cloud-cookies}
 
 La publicité Cloud utilise des cookies pour mapper les événements d'engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations pour optimiser les offres publicitaires.
+
+## Nom du cookie : id_ adcloud
+
+<table id="id_adcloud"> 
+<thead> 
+<tr> 
+<th colname="col1" class="entry"> Attribut </th> 
+<th colname="col2" class="entry"> Description </th> 
+</tr> 
+</thead>
+<tbody> 
+<tr> 
+<td colname="col1"> <p>Informations stockées </p> </td> 
+<td colname="col2"> <p>L'ID de surfeur </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>Expiration </p> </td> 
+<td colname="col2"> <p>91 jours </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>Utilisation </p> </td> 
+<td colname="col2"> <p>Le cookie est défini dans le domaine propriétaire mais n'est pas encore utilisé </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>Emplacement </p> </td> 
+<td colname="col2"> <p>Domaine de niveau supérieur de l'annonceur (par exemple example.com) </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>Taille </p> </td> 
+<td colname="col2"> <p>16 octets </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 ## Nom du cookie : _ lcc
 
