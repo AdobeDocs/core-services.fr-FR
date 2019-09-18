@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: À propos du fichier de données et des sources de données pour les attributs du client
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ La fonction Attributs du client est conçu pour gérer quelques fichiers par jou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client. </p> <p> <b>Exigences en termes d’attribution de noms :</b> assurez-vous que les extensions de nom de fichier ne contiennent aucun espace blanc. </p> </td> 
+   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client. </p> <p> <b></b> Exigences en matière de dénomination : Assurez-vous que les extensions de nom de fichier ne contiennent aucun espace blanc ni aucun de ces caractères ".", "..", "/", ":" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
