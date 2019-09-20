@@ -2,9 +2,10 @@
 audience: end-user
 user-guide-title: Guide de l’utilisateur des services principaux
 user-guide-url: https://www.adobe.com/fr
+product: services principaux
 index: true
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
@@ -12,7 +13,7 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
 # Guide de l’utilisateur des services principaux {#interface}
 
 + [Documentation du produit Experience Cloud](landing/experience-cloud-home.md)
-+ [Aide d'Experience Cloud et des services principaux](experience-cloud.md)
++ [Aide d’Experience Cloud et des services principaux](experience-cloud.md)
 + À propos des services principaux {#about-core-services}
    + [Présentation des services principaux](core-services-landing.md)
    + [Activation des solutions pour les services principaux](core-services/core-services.md)
@@ -20,17 +21,17 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [À propos des nouveaux noms de cloud dans Experience Cloud](solutions-core-services.md)
 + [Intégrations Experience Cloud](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
-   + [Présentation des Coookies](cookies/cookies-privacy.md)
+   + [Présentation des cookies](cookies/cookies-privacy.md)
    + [Cookies propriétaires](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies des connecteurs de données](cookies/cookies-dc.md)
-   + [Cookies des outils de données](cookies/cookies-insight.md)
+   + [Cookies Connecteurs de données](cookies/cookies-dc.md)
+   + [Cookies Outils de données](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
-   + [Publication de cookies Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies Scene 7](cookies/cookies-s7.md)
-   + [Recherche et promotion des cookies](cookies/cookies-snp.md)
-   + [Cookies Target](cookies/cookies-target.md)
+   + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
+   + [Cookies Scene7](cookies/cookies-s7.md)
+   + [Rechercher et promouvoir les cookies](cookies/cookies-snp.md)
+   + [Ciblage des cookies](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
 + Gérer les utilisateurs et les produits {#manage-users-and-products}
@@ -42,8 +43,8 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [Incorporation de contenu](admin-getting-started/oembed.md)
 + Activation {#activation}
    + [Présentation de l’Activation](activation/activation.md)
-   + [Lancer le guide de l'utilisateur](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Guide de l'utilisateur de DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Lancer le guide de l’utilisateur](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Guide de l’utilisateur de la gestion dynamique des balises](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
    + [Présentation des ressources](experience-cloud-assets/experience-cloud-assets.md)
