@@ -6,7 +6,7 @@ seo-title: Notes de mise à jour cumulatives
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Pour obtenir les notes de mise à jour de toutes les solutions, voir [Notes de mise jour Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/).
 
 ## Août - 2019
 
@@ -68,7 +68,6 @@ Pour consulter les notes de mise à jour traitant de toutes les solutions, voir 
 
 * Correction d’un problème qui empêchait l’affichage des ressources partagées par Assets on Demand avec le flux Experience Cloud. (MAC-29955)
 
-
 ## Version 16.2 - 18 février 2016 {#section_D9610373116C4D77A38F67815C725EA3}
 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
@@ -117,9 +116,9 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 >[!NOTE]
 >
->Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
+>Microsoft met [fin à la prise en charge](https://microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
-## Version 15.10 - 14 octobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 - 14 octobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problèmes connus**
 
@@ -133,7 +132,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 * Correction d’un problème lié à la bibliothèque d’audiences qui empêchait le partage d’audiences à partir de la segmentation Analytics. Ce problème entraînait l’affichage de la mention « Collecte des données » (0 audience). Pour éviter ce problème, Adobe conseille de conserver les tailles des segments en dessous de 50 000 membres d’audience par segment. (MAC-25788)
 * Correction d’un ancien problème connu sur la page Attributs du client – Schéma d’édition qui provoquait une erreur de reconnaissance du contenu lors de la modification d’un nom d’affichage. (MAC-25589, AN-103834)
 
-## Version 15.7 - 22 juillet 2015  {#section_2683A152176944E48EF6C943892975B7}
+## Version 15.7 - 22 juillet 2015 {#section_2683A152176944E48EF6C943892975B7}
 
 * Correction d’un problème qui empêchait les descriptions d’attribut spécifiées dans la page Afficher/modifier le schéma (dans les attributs du client) d’être mises à jour dans les rapports Analytics. (MAC-25985)
 * Correction d’un problème empêchant le rendu des miniatures pour les ressources transférées. (MAC-25863)
@@ -145,8 +144,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 En raison d’un problème connu, les comptes générés automatiquement sont créés en double dans Audience Manager et automatiquement associés à une identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
-
-## Version 15.6.1 - 11 juin 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Version 15.6.1 - 11 juin 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Pas d’informations disponibles.
 
@@ -166,14 +164,14 @@ Pas d’informations disponibles.
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Les menus <span class="term"> Bibliothèque d’audiences </span> et <span class="term"> Attributs du client </span> se trouvent maintenant sous<span class="term"> Audiences</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Le menu <span class="term"> Exchange </span> a été déplacé du menu déroulant Aide au rail de navigation de gauche. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Solutions</span> a été supprimé. Toutes les solutions peuvent être lancées à partir du rail de navigation (partie inférieure). </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Solutions</span> a été supprimé. Toutes les solutions peuvent être lancées à partir du rail de navigation (partie inférieure). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * Correction d’un problème empêchant la synchronisation des attributs de certains clients.
-* Correction d’un problème empêchant l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) en japonais.
+* Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
 ## Version 15.4.1 - 8 avril 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -262,7 +260,7 @@ Correctifs :
 * Correction d’un problème en raison duquel l’icône Ajouter (plus) ne s’affichait pas sous [!UICONTROL Règles] sur la page [!UICONTROL Créer une audience].
 * Amélioration de la prise en charge de l’interface d’Experience Cloud pour Internet Explorer 9.
 
-## Version 15.1.1 - 15 janvier 2015  {#section_F1A352E928AF432E94CC0A289C345184}
+## Version 15.1.1 - 15 janvier 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -302,7 +300,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Certains utilisateurs peuvent rencontrer des problèmes lors de la création d’une audience dans une suite de rapports Analytics une fois les audiences partagées activées.
 * Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
 
-## Version 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Version 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problèmes connus :
 
@@ -315,7 +313,7 @@ Problèmes connus :
 * Les performances de l’interface d’[!DNL Experience Cloud] peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * La synchronisation d’Adobe Experience Manager avec Creative Cloud ne fonctionne pas.
 
-## Version 14.10.1 - 16 octobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
+## Version 14.10.1 - 16 octobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -428,7 +426,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 Rien à signaler.
 
-## Version 14.6.1 - 19 juin 2014  {#marketing_cloud_interface}
+## Version 14.6.1 - 19 juin 2014 {#marketing_cloud_interface}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -515,7 +513,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les utilisateurs n’étaient pas en mesure de partager des fichiers PowerPoint sur des panoramas.
 * Certains utilisateurs affichaient une mise en page visuelle de faible qualité dans Internet Explorer 10.
 
-## Version 14.4.1 - 22 avril 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Version 14.4.1 - 22 avril 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -596,7 +594,7 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 * Certains fichiers PNG ne peuvent pas être restitués sur une carte.
 * Il n’est pas possible d’envoyer des commentaires bêta.
 
-## Version 14.2.1 - 24 février 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Version 14.2.1 - 24 février 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
