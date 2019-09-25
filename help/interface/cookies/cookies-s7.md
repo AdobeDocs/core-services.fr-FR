@@ -1,15 +1,15 @@
 ---
 description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
-keywords: cookies ; confidentialité
-seo-description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu dynamique vers le navigateur.
+keywords: cookies;confidentialité
+seo-description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
 seo-title: Cookies Scene7
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies Scene7
-uuid: f 9 b 9 d 13 a -17 e 5-4139-8 c 84-6 fe 5 d 22 c 4196
+uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ Les nouvelles visionneuses AS3 ne mettent pas en œuvre la persistance de sessio
 | Informations stockées | Définit le cookie de la session. Le composant AuthFilter intégré dans IPS ImageServer (IS, IR, ainsi que les contextes vidéo et SWFs/skins) utilise le cookie pour l’autorisation d’accès. S’il est présent, il autorise le passage des demandes HTTP. Dans le cas contraire, il renvoie « non autorisé ». |
 | Expiration | Ce cookie est un cookie de session. La durée d’expiration de session actuelle est définie sur 45 minutes dans le fichier [!DNL web.xml] de Scene7 IPS. |
 
-**Nom du cookie : s 7 js. flyout. infomessage. displayed`assetId`. state**
+**Nom du cookie : s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ Les nouvelles visionneuses AS3 ne mettent pas en œuvre la persistance de sessio
  </tbody> 
 </table>
 
-**Nom du cookie : s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
+**Nom du cookie : s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 Les cookies de navigateur sont utilisés par les anciennes visionneuses DHTML pour stocker des informations d’état et des données de pense-bête. Ils sont également utilisés par l’affichage déroulant DHTML à écrans multiples pour rendre l’indicateur de message spécifique à la session.
 
