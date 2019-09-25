@@ -1,21 +1,21 @@
 ---
 description: Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
-keywords: cookies ; confidentialité
+keywords: cookies;confidentialité
 seo-description: Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
 seo-title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
-uuid: 27332 e 0 d -6932-4 a 6 e-b 97 b -0 adeced 0 b 050
+uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ?{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ?{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
 
@@ -23,12 +23,12 @@ La liste suivante montre de quelle manière la prise en charge des cookies tiers
 
 ## Adobe Analytics et Adobe Target
 
-* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* Les clients disposant d’une [mise en œuvre propriétaire](/help/interface/cookies/cookies-first-party.md) ne seront globalement pas affectés.
+* Les clients qui n'utilisent pas la mise en œuvre propriétaire peuvent mettre en œuvre [l’ID de service Experience Platform](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation-guides/implementation-guides.html) pour stocker le cookie d’ID en tant que cookie propriétaire sans mise en œuvre propriétaire.
 
 ## Adobe Experience Manager
 
-* Etant donné qu'Adobe Experience Manager fonctionne entièrement dans le domaine du client, il existe une interaction minimale avec les cookies tiers et donc sans impact.
+* Parce que Adobe Experience Manager fonctionne entièrement dans le domaine du client, les interactions avec des cookies tiers sont minimales et l’impact est donc minimal, voire inexistant.
 
 ## Adobe Social
 
