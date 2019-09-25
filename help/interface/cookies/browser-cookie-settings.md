@@ -1,15 +1,15 @@
 ---
 description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
-keywords: cookies ; confidentialité
+keywords: cookies;confidentialité
 seo-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
 seo-title: Activation des paramètres de confidentialité pour les cookies de navigateur
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Activation des paramètres de confidentialité pour les cookies de navigateur
-uuid: f 6 a 56 e 8 b-b 021-49 db -8 eb 4-6 c 14 af 0 c 7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -21,15 +21,15 @@ Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de
 
 Ce paramètre permet de respecter l’intention d’un utilisateur d’arrêter le traitement Analytics s’il bloque tous les cookies dans les paramètres relatifs aux cookies sur son navigateur.
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. Accédez à **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Paramètres de confidentialité]**.
+1. Activez les **[!UICONTROL paramètres de confidentialité]** (pour mobiles ou ordinateurs de bureau).
 
    En activant cette fonction, les données collectées auprès des navigateurs de bureau et mobiles dans lesquels l’utilisateur a bloqué tous les cookies seront exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur, les données seront incluses dans les rapports Analytics.
 
 >[!IMPORTANT]
 >
->Gardez à l'esprit que de nombreuses applications mobiles (comme le navigateur d'applications pour Facebook ou Twitter) peuvent s'afficher comme navigateur mobile standard mais pas comme tous les cookies. En activant cette fonction, vous risquez d’exclure une grande part du trafic mobile des rapports Analytics.
+>De nombreuses applications mobiles (telles que les navigateurs intégrés aux applications Facebook ou Twitter) peuvent ressembler à des navigateurs mobiles de base, mais n’acceptent pas tous les cookies. En activant cette fonction, vous risquez d’exclure une grande part du trafic mobile des rapports Analytics.
 
 **À propos des paramètres de confidentialité des navigateurs**
 
