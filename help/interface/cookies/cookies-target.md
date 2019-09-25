@@ -1,15 +1,15 @@
 ---
 description: Target utilise des cookies pour offrir aux opérateurs du site web la possibilité de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
-keywords: cookies ; confidentialité
+keywords: cookies;confidentialité
 seo-description: Target utilise des cookies pour offrir aux opérateurs du site web la possibilité de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
 seo-title: Cookies Target
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies Target
-uuid: 44 f 7 e 32 e -8 d 99-4682-8 b 54-8364 d 001 b 403
+uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -23,7 +23,7 @@ Vous pouvez modifier ces paramètres, si nécessaire, à l’exception de la dur
 
 >[!NOTE]
 >
->Les utilisateurs Target peuvent également créer des cookies tiers personnalisés.
+>Les utilisateurs de Target peuvent également créer des cookies tiers.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -54,7 +54,7 @@ Vous pouvez modifier ces paramètres, si nécessaire, à l’exception de la dur
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>Si l’un des noms de domaine comprend un code de pays, comme [!DNL mycompany.co.uk], adressez-vous au service clientèle afin de configurer le fichier [!DNL mbox.js] en tenant compte de ce paramètre.
 
 Le cookie conserve certaines valeurs afin de gérer l’expérience des campagnes Target par les visiteurs :
 
