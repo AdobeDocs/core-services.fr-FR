@@ -6,7 +6,7 @@ seo-title: Création d’une source d’attributs du client et transfert du fich
 solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # Création d’une source d’attributs du client et transfert du fichier de données
 
-Créez la source d'attributs du client (fichiers CSV et FIN) et téléchargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target.
+Création d’une source d’attributs du client (fichiers CSV et FIN) et transfert des données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target.
 
 ## Workflow Attributs du client {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
 
 1. Dans [!DNL Experience Cloud], cliquez sur l’icône ![](assets/menu-icon.png) Menu.
-1. Sous **[!DNL Experience Platform]**, cliquez **[!UICONTROL sur Personnes]** &gt; **[!UICONTROL Attributs du client]**.
+1. Sous **[!DNL Experience Platform]**, cliquez sur **[!UICONTROL Personnes]** &gt; **[!UICONTROL Attributs du client]**.
 
    Sur la page [!UICONTROL Attributs du client], vous pouvez gérer et modifier les sources de données d’attributs existantes.
 
@@ -94,9 +94,9 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **Gestion dynamique des balises :** L'ID d'alias correspond à la valeur Code *d'intégration* sous Paramètres client, dans l'outil Service [d'identification d'Experience](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) Cloud.
+      * **Gestion dynamique des balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’outil [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/fr_FR/dtm/?f=macid).
 
-      * **API visiteur :** l’ID d’alias correspond aux [identifiants de client](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API Visiteur :** l’ID d’alias correspond aux [ID clients supplémentaires](https://marketing.adobe.com/resources/help/fr_FR/mcvid/?f=mcvid_customer_ids) que vous pouvez associer à chaque visiteur.
 
          Par exemple, *"crm_ id"* dans :
 
@@ -106,14 +106,14 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
          ```
 
 
-      * **Ios :** L'ID d'alias correspond à *« idtype »* dans [visitorsyncidentifiers : identifiants](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **iOS :** l’ID d’alias correspond à *"idType"* dans [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/fr_FR/mobile/ios/?f=methods).
 
          Par exemple :
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android :** l’ID d’alias correspond à *« Idtype »* dans [syncidentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android :** l’ID d’alias correspond à *"idType"* dans [syncIdentifiers](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/?f=methods).
 
          Par exemple :
 
@@ -140,7 +140,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL ID fournis par le client avec alias pour les identifiants visiteur Experience Cloud :]** Affiche le nombre d’identifiants qui ont reçu un alias vers les ID visiteurs Experience Cloud.
 
-   * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Pour l’instant, le système invalide l’identifiant fourni par le client et ne distribue plus les attributs associés.
+   * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Pour l’instant, le système invalide l’identifiant fourni par le client et ne distribue plus les attributs associés.
 
 
 
@@ -175,7 +175,7 @@ Voir [Configuration des abonnements](../attributes/subscription.md#concept_ECA3C
 
 **Pour activer une source d’attributs, procédez comme suit :**
 
-Sur la page [!UICONTROL Créer [ou Modifier] une source d’attributs cliente], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Activer]**.
+Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs cliente], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Activer]**.
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
 
-Voir [Rapport Attributs du client](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) dans l’aide d’Analytics pour en savoir plus.
+Pour plus d’informations, voir [Rapport des attributs du client](https://marketing.adobe.com/resources/help/fr_FR/reference/?f=reports_customer_attributes) dans l’aide Analytics.
 
 ## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Dans Target, vous pouvez sélectionner un attribut de client à partir de la sec
 
 ![](assets/crs-add-attribute-target.png)
 
-Voir [Création d’une audience](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) dans l’aide de Target.
+Voir [Création d’une nouvelle audience](https://marketing.adobe.com/resources/help/fr_FR/target/target/?f=t_create-audience) dans l’aide Target.
