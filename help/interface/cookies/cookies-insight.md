@@ -1,23 +1,23 @@
 ---
-description: Les outils de données utilisent des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
-keywords: cookies ; confidentialité
-seo-description: Les outils de données utilisent des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
-seo-title: Cookies des outils de données
-solution: Marketing Cloud, Analytics, Target, Social
-title: Cookies des outils de données
-uuid: c 15013 f 4-c 47 d -4950-aa 19-be 9 afd 25 cd 5 f
+description: Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
+keywords: cookies;confidentialité
+seo-description: Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
+seo-title: Cookies des Data Workbench
+solution: Experience Cloud,Analytics,Target,Social
+title: Cookies des Data Workbench
+uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
 
-# Cookies des outils de données{#data-workbench-cookies}
+# Cookies des Data Workbench{#data-workbench-cookies}
 
-Les outils de données utilisent des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
+Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
 
 **Nom du cookie : v1st**
 
