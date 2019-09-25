@@ -1,15 +1,15 @@
 ---
 description: Adobe Analytics utilise des cookies pour différencier les demandes en provenance de divers navigateurs et pour stocker des informations utiles qu’une application pourra utiliser ultérieurement. Ils peuvent également être utilisés pour associer des informations de navigation à des fiches client.
-keywords: cookies ; confidentialité
+keywords: cookies;confidentialité
 seo-description: Adobe Analytics utilise des cookies pour différencier les demandes en provenance de divers navigateurs et pour stocker des informations utiles qu’une application pourra utiliser ultérieurement. Ils peuvent également être utilisés pour associer des informations de navigation à des fiches client.
 seo-title: Cookies Analytics
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies Analytics
-uuid: e 2 d 3 d 61 d -2708-48 b 2-a 7 e 6-2331 f 2 aed 8 e 0
+uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics utilise des cookies pour différencier les demandes en provenan
 
 Analytics utilise notamment des cookies pour définir anonymement les nouveaux visiteurs, aider à analyser les données de parcours de navigation et effectuer le suivi de l’historique des activités sur le site web, comme les réponses à des campagnes particulières ou la durée du cycle de vente.
 
-* [Nom du cookie : s_ ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
+* [Nom du cookie : s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nom du cookie : AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
 * [Nom du cookie : s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Nom du cookie : s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
@@ -32,14 +32,14 @@ Analytics utilise notamment des cookies pour définir anonymement les nouveaux v
 
 Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cookies propriétaires](/help/interface/cookies/cookies-first-party.md).
 
-## Nom du cookie : s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
+## Nom du cookie : s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Contient une copie de l'identifiant d'expérience (ECID) ou MID. Le MID est stocké dans une paire clé-valeur conforme à cette syntaxe, s_ ecid = MCMID | <ECID> |
+| Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | <ECID> |
 | Expiration | 2 ans |
-| Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L'objectif de ce cookie est d'autoriser le suivi des identifiants persistants dans l'état 1 ^ st ^ party et est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d'informations, consultez le cookie AMCV. |
-| Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké sur votre domaine, le même domaine utilisé par CNAME et votre demande d'image Analytics. |
+| Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L'objectif de ce cookie est d'autoriser le suivi des identifiants persistants dans l'état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d'informations, consultez le cookie AMCV. |
+| Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d'image Analytics. |
 | Taille | 45 octets |
 
 ## Nom du cookie : s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
@@ -60,7 +60,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur. |
 | Utilisation | Un seul cookie pour tous les comptes. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
-| Taille | Varie en fonction de la taille de l'URL de la page, mais habituellement de 100 à 200 octets |
+| Taille | Varie en fonction de la taille de l'URL de la page, mais habituellement de 100 à 200 octets |
 
 ## Nom du cookie : s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -74,7 +74,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 
 >[!NOTE]
 >
->Chaque identifiant visiteur Analytics est associé à un profil visiteur sur les serveurs Adobe. Les profils du visiteur sont supprimés après un an d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
+>Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils du visiteur sont supprimés après un an d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
 ## Nom du cookie : s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
@@ -82,7 +82,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 |--- |--- |
 | Informations stockées | Horodatage de secours de l’identifiant de visiteur unique |
 | Expiration | 5 ans |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique si le cookie s_vi standard n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre utilisant des cookies prioritaires. |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique. si le cookie s_vi standard n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre utilisant des cookies prioritaires. |
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire. |
 | Taille | 33 octets |
 
