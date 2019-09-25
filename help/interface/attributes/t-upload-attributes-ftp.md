@@ -6,7 +6,7 @@ seo-title: Facultatif – Transfert du fichier de données par FTP
 solution: Experience Cloud
 title: Facultatif – Transfert du fichier de données par FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez transférer les données après avoir créé une source d’attribut
 Les fichiers peuvent être transférés sur le site FTP des attributs du client selon le protocole FTP ou SFTP.
 
 * Votre client de transfert doit prendre en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Vous pouvez vous connecter avec le protocole SFTP à l’aide du nom d’utilisateur/mot de passe ou d’aucun mot de passe, comme décrit [ici](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
