@@ -3,11 +3,11 @@ description: Les cookies sont utilisés par de nombreux services d’Adobe Expe
 seo-description: Les cookies sont utilisés par de nombreux services d’Adobe Experience Cloud. Un cookie est un petit élément de données présenté par un site web à un navigateur web. Le navigateur stocke cet élément de données, puis le renvoie au site web qui l’a émis. Cette opération est effectuée avec chaque demande de pages et d’images ultérieure.
 seo-title: Cookies utilisés dans Experience Cloud
 title: Cookies utilisés dans Experience Cloud
-uuid: 4255 a 13 a -917 b -4 b 5 f-a 7 d 4-4 b 2 e 7521 d 189
+uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -21,6 +21,6 @@ Les cookies ont pour but de conserver des informations pendant la visite d’un 
 
 >[!NOTE]
 >
->Les lois, réglementations et principes d'autoréglementation peuvent vous demander d'obtenir le consentement des visiteurs avant de pouvoir stocker ou récupérer des informations sur un ordinateur ou un autre appareil connecté au Web. Nous vous invitons à examiner, avec votre conseiller juridique, les lois, réglementations et principes qui régissent l’utilisation des cookies.
+>En vertu des lois, réglementations et principes d’autoréglementation en vigueur, il se peut que vous deviez obtenir l’autorisation des visiteurs avant de pouvoir stocker ou récupérer des informations sur un ordinateur ou tout autre appareil connecté au web. Nous vous invitons à examiner, avec votre conseiller juridique, les lois, réglementations et principes qui régissent l’utilisation des cookies.
 
 Cette documentation décrit les cookies utilisés par la Suite. Elle a été conçue pour vous aider à comprendre vos obligations en matière d’obtention du consentement du visiteur.
