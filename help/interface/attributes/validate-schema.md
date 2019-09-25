@@ -6,7 +6,7 @@ seo-title: Validation du schéma
 solution: Experience Cloud
 title: Validation du schéma
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
 Vous pouvez également transférer les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format .csv, avec un second fichier .fin pour indiquer que le transfert est terminé.
 
-Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. See [Customer Attributes Report](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) in [!DNL Analytics] help for more information.
+Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. Pour plus d’informations, voir [Rapport d’attributs du client](https://marketing.adobe.com/resources/help/fr_FR/reference/?f=reports_customer_attributes) dans l’aide [!DNL Analytics].
 
 * **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
 
