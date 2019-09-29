@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics
 title: Cookies propriétaires
 index: y
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
@@ -119,6 +119,6 @@ Après avoir vérifié que vos noms d’hôtes répondent et procèdent au trans
 
 1. Si vous passez à des cookies propriétaires à partir d'une mise en œuvre de longue date ou passez à un nom d'hôte de collecte propriétaire différent, il est recommandé de migrer les visiteurs du domaine précédent vers le nouveau domaine.
 
-Reportez-vous à [Migration des visiteurs](https://docs.adobe.com/help/fr-FR/analytics/implementation/javascript-implementation/visitor-migration.html) dans le Guide de mise en œuvre d'Analytics.
+See [Visitor Migration](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in the Analytics Implementation Guide.
 
 Après avoir transféré le fichier JavaScript, tout est configuré pour la collecte de données de cookies propriétaires. Nous vous recommandons de surveiller la création de rapports Analytics pour les heures suivantes afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
