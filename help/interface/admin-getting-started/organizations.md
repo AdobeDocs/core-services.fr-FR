@@ -6,7 +6,7 @@ seo-title: Liaison d’organisations et de comptes
 solution: Experience Cloud
 title: Liaison d’organisations et de comptes
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -70,5 +70,5 @@ Aide pour résoudre les problèmes qui se produisent lors de la liaison de compt
 
 En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez effectuer les opérations suivantes :
 
-* [Contactez les services d’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html).
+* [Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * Accédez à votre solution en suivant la procédure de connexion standard tandis que nous réglons le problème.
