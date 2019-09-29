@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -35,7 +35,7 @@ Audience Manager s’appuie sur quelques cookies simples pour réaliser différ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 
-   <td colname="col2"> <p>Le cookie <span class="wintitle">demdex</span> contient un UUID (identifiant utilisateur unique), tel qu’illustré dans l’exemple ci-dessous : </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Voir également <a href="https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index des ID dans Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Le cookie <span class="wintitle">demdex</span> contient un UUID (identifiant utilisateur unique), tel qu’illustré dans l’exemple ci-dessous : </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Voir également <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Index des ID dans Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Autres attributs</b> </p> </td> 
@@ -66,7 +66,7 @@ Audience Manager s’appuie sur quelques cookies simples pour réaliser différ
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 
    <td colname="col2"> <p>Le cookie <span class="wintitle">dextp</span> contient le nom ou l’identifiant du fournisseur de données, ainsi qu’un horodatage UTC UNIX mis en forme en tant que chaînes délimitées par des barres verticales. Dans les exemples, le texte en <i>italique</i> représente un espace réservé de variable. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Ancien style : <span class="codeph"> <span class="varname"> nom du fournisseur de données ici </span>-1490307822097  <span class="varname"> nom du fournisseur de données ici </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">Nouveau style : <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>Voir également la section consacrée à la syntaxe des données dextp ci-dessous. </p> </td> 
   </tr> 
@@ -128,7 +128,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie [!DNL de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Rôle</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/destinations.translate.html#purposes" format="https" scope="external">destination </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">destination </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 
