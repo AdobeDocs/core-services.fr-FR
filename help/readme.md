@@ -1,6 +1,6 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # Instructions
