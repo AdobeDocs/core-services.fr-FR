@@ -6,7 +6,7 @@ seo-title: Questions fréquentes
 solution: Experience Cloud
 title: Questions fréquentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 ---
@@ -22,8 +22,8 @@ Si votre mise en œuvre n’a pas été configurée pour les services principaux
 
 
 1. [Rejoindre Experience Cloud et devenir administrateur](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Mettre en œuvre le service Experience Cloud ID à l’aide du gestionnaire dynamique des balises](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (ou de [Experience Platform Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))
-1. [Mapper des suites de rapports à une organisation Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
+1. [Mettre en œuvre le service d’Experience Cloud ID à l’aide du gestionnaire dynamique de balises](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (ou du nouveau [Launch, d’Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))
+1. [Mapper des suites de rapports à une organisation Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Target uniquement) Moderniser la mise en œuvre d’Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Vérifier la mise en œuvre des services principaux](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
@@ -33,7 +33,7 @@ Si votre mise en œuvre n’a pas été configurée pour les services principaux
 
 
 
-Pour obtenir une aide supplémentaire, [contactez les services d’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html).
+Pour obtenir une aide supplémentaire, [contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 **Y a-t-il des frais pour l’accès à Experience Cloud ?**
 
@@ -45,9 +45,9 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci�
 
 **Comment résoudre les questions liées à la migration de ma société ?**
 
-[Contactez les services d’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html).
+[Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**Qu’est-ce que*`provisioning`* ?**
+**Qu’est-ce que *`provisioning`* ?**
 
 Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui suit :
 
@@ -58,17 +58,17 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 **Comment gérer les utilisateurs et les profils de produits ?**
 
-* Voir le [Guide de l’utilisateur d’Admin Console](https://helpx.adobe.com/fr/enterprise/administering/user-guide.html) pour obtenir de l’aide.
+* Consultez le [Guide de l’utilisateur d’Admin Console](https://helpx.adobe.com/enterprise/administering/user-guide.html) pour obtenir de l’aide.
 
 * La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** Administrateurs Analytics, consultez [Gestion des utilisateurs Analytics dans Admin Console](https://marketing.adobe.com/resources/help/fr_FR/experience-cloud/admin-console/analytics-migration/) pour en savoir plus sur la migration des ID utilisateurs depuis Outils d’administration Analytics vers Admin Console.
+* **Important :** Si vous êtes un administrateur Analytics, consultez [Gestion des utilisateurs Analytics dans Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) pour en savoir plus sur la migration des ID d’utilisateur des outils d’administration Analytics à Admin Console.
 
 **Que faire si quelqu’un ne parvient pas à se connecter à l’interface d’Experience Cloud ?**
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Des courriers électroniques comprenant des instructions de connexion sont envoyés aux utilisateurs.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 **Où peut se rendre un utilisateur pour gérer la liaison de comptes ?**
 
@@ -106,7 +106,7 @@ Leur accès doit être supprimé de la solution. Ils ne pourront plus accéder a
 
 **Qu’est-ce qu’un Adobe ID ?**
 
-Voir [Types d’identités](https://helpx.adobe.com/fr/enterprise/help/identity.html).
+Voir [Types d’identité](https://helpx.adobe.com/enterprise/help/identity.html).
 
 **Puis-je lier les comptes de solution de mes utilisateurs ?**
 
