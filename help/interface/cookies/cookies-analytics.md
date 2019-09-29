@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -50,7 +50,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur. |
 | Utilisation | Un seul cookie pour tous les comptes. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
-| Taille | 4 octets. |
+| Taille | 4 octets |
 
 ## Nom du cookie : s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
