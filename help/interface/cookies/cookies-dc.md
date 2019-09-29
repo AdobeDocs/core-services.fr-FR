@@ -9,7 +9,7 @@ uuid: 5d27ba66-e640-4513-befc-69e8502de941
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
