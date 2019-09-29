@@ -9,7 +9,7 @@ uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -25,7 +25,7 @@ Data Workbench utilise des cookies pour analyser, en temps réel, d’importants
 |---|---|
 | Informations stockées | Horodatage de l’identifiant de visiteur unique. |
 | Expiration | Il s’agit d’un cookie persistant. |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique. |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique.. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | 8 octets ou 13 octets si la partie "name =" (v1st=) est incluse. |
 
