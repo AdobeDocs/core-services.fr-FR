@@ -6,7 +6,7 @@ seo-title: Triggers
 solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -57,7 +57,7 @@ Créez un trigger d’abandon et configurez les conditions du trigger et du scor
    |--- |--- |
    | Nom | Nom convivial du trigger. |
    | Description | Description du trigger, de sa fonction, etc. |
-   | Suite de rapports | La [suite de rapports Analytics](https://marketing.adobe.com/resources/help/fr_FR/analytics/getting-started/?f=report-suites) utilisée pour ce trigger. Ce paramètre identifie les données de rapport à utiliser. |
+   | Suite de rapports | La [suite de rapports](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html) Analytics utilisée pour ce trigger. Ce paramètre identifie les données de rapport à utiliser. |
    | Visite doit inclure<br>Visite ne doit pas inclure<br>Trigger après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire.  Par exemple, des règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>Visite doit inclure : Ajout au panier (mesure) et Existe. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>Visite ne doit pas inclure : passage en caisse</li><li>Trigger après aucune action pendant : 10 minutes</li><li>Inclure les métadonnées : permet d’ajouter une dimension spécifique de Campaign ou des variables qui sont pertinentes pour le comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique Quelconque, Et ou Ou dans ou entre des conteneurs, selon les critères que vous déterminez importants pour la règle. |
    | Conteneur | Vous définissez et stockez des règles, des conditions ou des filtres qui définissent un trigger dans les conteneurs. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau de l’accès.  Par exemple, si deux conteneurs sont associés par l’opérateur Et, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux accès répondent aux exigences. |
    | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
@@ -67,7 +67,7 @@ Créez un trigger d’abandon et configurez les conditions du trigger et du scor
    ![Résultat de l’étape](assets/propensity-scoring.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
-1. Utilisez des triggers pour le [remarketing en temps réel](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) dans [!DNL Adobe Campaign].
+1. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### Exemples de triggers
 
