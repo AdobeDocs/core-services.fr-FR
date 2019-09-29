@@ -4,7 +4,7 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -62,7 +62,7 @@ Cette section contient des astuces pour vous aider à sélectionner l’organisa
 
 **Quelle organisation dois-je choisir ?**
 
-Si le service d’Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service d’Experience Cloud ID](https://marketing.adobe.com/resources/help/fr_FR/mcvid/?f=mcvid-test-verify) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
+Si le service d’Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service d’Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
 
 Si le service d’identification des visiteurs n’est pas encore déployé sur les sites qui collectent des données pour la suite de rapports et que vous déployez ultérieurement le service d’identification des visiteurs Experience Cloud, vous devrez vous assurer que votre déploiement correspond à l’organisation que vous avez sélectionnée dans l’outil de mappage des suites de rapports.
 
@@ -108,7 +108,7 @@ Les suites de rapports mappées s’affichent dans un format non modifiable. Si 
 
 **Que faire si je connais uniquement l’ID d’organisation de mon organisation Experience Cloud ? Comment rechercher le nom associé à mon ID d’organisation ?**
 
-Vous trouverez le nom de votre organisation dans [Paramètres d’organisations et de compte](https://marketing.adobe.com/resources/help/fr_FR/mcloud/?f=organizations).
+Vous trouverez le nom de votre organisation dans [Paramètres des organisations et des comptes](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
 
 **Une date apparaît dans la colonne « Date de mappage ». Qui a procédé au mappage ?**
 
