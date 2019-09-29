@@ -6,7 +6,7 @@ seo-title: Considérations sur la confidentialité – Attributs du client
 solution: Experience Cloud
 title: Considérations sur la confidentialité – Attributs du client
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
