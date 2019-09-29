@@ -6,7 +6,7 @@ seo-title: Création d’une audience
 solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -19,7 +19,7 @@ Découvrez comment utiliser les règles d’attributs pour créer une audience e
 Cet article vous aidera à accomplir ce qui suit :
 
 * Création d’une audience
-* Création d’une règle
+* Créer une règle
 * Utilisation de règles pour définir une audience composite
 
 
