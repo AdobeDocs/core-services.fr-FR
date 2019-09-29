@@ -6,7 +6,7 @@ seo-title: Notes de mise à jour cumulatives
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour obtenir les notes de mise à jour de toutes les solutions, voir [Notes de mise jour Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/).
+Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 
 ## Août - 2019
 
@@ -116,7 +116,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 >[!NOTE]
 >
->Microsoft met [fin à la prise en charge](https://microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
+>Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
 ## Version 15.10 - 14 octobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -171,7 +171,7 @@ Pas d’informations disponibles.
 </table>
 
 * Correction d’un problème empêchant la synchronisation des attributs de certains clients.
-* Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/) en japonais.
+* Correction d’un problème empêchant l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
 ## Version 15.4.1 - 8 avril 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
