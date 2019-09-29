@@ -6,7 +6,7 @@ seo-title: Configuration des abonnements
 solution: Experience Cloud
 title: Configuration des abonnements
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
