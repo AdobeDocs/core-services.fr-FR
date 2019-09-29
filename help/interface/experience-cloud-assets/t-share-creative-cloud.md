@@ -6,7 +6,7 @@ seo-title: Partage d’un dossier de ressources Experience Cloud
 solution: Experience Cloud
 title: Partage d’un dossier de ressources Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -50,8 +50,8 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud n’y ont plus accès.
 Voici quelques autres moyens d’utiliser une ressource partagée :
 
-* Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales. Voir [Page Éditeur](https://marketing.adobe.com/resources/help/fr_FR/social/?f=c_pub_publisher).
-* Chargez ou permutez des ressources dans la [Bibliothèque de contenu](https://marketing.adobe.com/resources/help/fr_FR/target/target/?f=c_manage_content) dans [!DNL Adobe Target] pour les images dans les activités.
+* Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales. Voir [Page Éditeur](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher).
+* Chargez ou permutez des ressources dans la [bibliothèque de contenu](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) d’[!DNL Adobe Target] pour ajouter des images aux activités.
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -59,6 +59,6 @@ Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative 
 
 Aide connexe :
 
-* [Aide de Creative Cloud - Gestion et synchronisation de fichiers](https://helpx.adobe.com/fr/creative-cloud/help/sync-files.html)
-* [Aide de Creative Cloud - Collaboration avec les autres](https://helpx.adobe.com/fr/creative-cloud/help/collaboration.html)
-* [Aide de Creative Cloud - FAQ sur la collaboration](https://helpx.adobe.com/fr/creative-cloud/help/collaboration-faq.html)
+* [Aide de Creative Cloud – Gestion et synchronisation des fichiers](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Aide de Creative Cloud – Collaboration avec d’autres personnes](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Aide de Creative Cloud – Foire aux questions sur la collaboration](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
