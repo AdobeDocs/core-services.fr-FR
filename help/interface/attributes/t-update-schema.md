@@ -4,7 +4,7 @@ seo-description: Comment supprimer et remplacer des attributs dans le schéma.
 seo-title: Mise à jour du schéma (suppression d’un attribut)
 title: Mise à jour du schéma (suppression d’un attribut)
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
