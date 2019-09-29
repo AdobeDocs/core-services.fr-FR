@@ -6,7 +6,7 @@ seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -35,4 +35,4 @@ Marketplace est une destination unique où vous pouvez rechercher des extensions
 
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
-Voir [Experience Cloud Exchange](https://marketing.adobe.com/exchange) pour en savoir plus.
+Pour en savoir plus, voir [Experience Cloud Exchange](https://marketing.adobe.com/exchange).
