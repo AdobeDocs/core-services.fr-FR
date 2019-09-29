@@ -6,7 +6,7 @@ seo-title: Comportement des dossiers partagés
 solution: Experience Cloud
 title: Comportement des dossiers partagés
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
