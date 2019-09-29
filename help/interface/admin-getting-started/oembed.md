@@ -6,7 +6,7 @@ seo-title: Incorporation de contenu
 solution: Experience Cloud
 title: Incorporation de contenu
 uuid: 13b29be9-1d4f-4bf5-900f-9489d3e042d7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
