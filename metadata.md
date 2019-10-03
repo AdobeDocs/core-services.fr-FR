@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution-title: Formation et support
+solution-title: Formation et assistance
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
@@ -9,7 +9,7 @@ getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/g
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/core-services.en
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2e8f97e7834cd92378c1717742a1e8af4bc93df
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: f2e8f97e7834cd92378c1717742a1e8af4bc93df
 
 Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier métadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
-| metadonnées | utilisation |
+| métadonnées | utilisation |
 |--- |--- |
 | solution-title | Utilisé comme lien dans l’en-tête d’article. |
 | solution-hub-url | Ouvre la page hub helpx. |
@@ -33,7 +33,7 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 
 Dans le fichier TOC.md
 
-| metadonnées | utilisation |
+| métadonnées | utilisation |
 |--- |--- |
 | user-guide-title | Utilisé comme lien dans l’en-tête d’article. |
 | user-guide-url | Ouvre la page hub helpx. |
