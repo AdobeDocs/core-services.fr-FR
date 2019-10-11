@@ -4,7 +4,7 @@ seo-title: Aide et documentation produit pour les solutions Adobe Experience Clo
 description: Aide et documentation produit pour les solutions Adobe Experience Cloud.
 seo-description: Aide d’Experience Cloud
 translation-type: tm+mt
-source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -18,8 +18,9 @@ Aide et documentation produit Adobe Experience Cloud.
 * Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * Vidéos de produit : les vidéos de produit sont disponibles sur le site [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html).
 * Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
+* Centre d’aide d’Experience Cloud
 
-## ![Aide d'Experience Cloud](assets/experience_cloud_appicon_32.png) Aide d'Experience Cloud
+## ![Aide d’Experience Cloud](assets/experience_cloud_appicon_32.png) Aide d’Experience Cloud
 
 * [Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de mise à jour d’Experience Cloud (tous les produits)
 * [Aide sur l’interface et les services principaux d’Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -59,8 +60,8 @@ Aide et documentation produit Adobe Experience Cloud.
 
 ## ![Aide de Campaign](assets/mc_campaign_32.png) Aide de Campaign
 
-* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+*  Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+*  Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Aide de Primetime](assets/primetime_app_32.png) Aide de Primetime
 
@@ -72,6 +73,6 @@ L’aide d’Advertising Cloud est accessible dans le produit en cliquant sur l
 
 ## Ressources Experience Cloud supplémentaires
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactez le service clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum communautaire](https://forums.adobe.com/community/experience-cloud)
 * [Experience League](https://landing.adobe.com/experience-league/)
