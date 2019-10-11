@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: Guide de l’utilisateur des services principaux
 user-guide-url: https://www.adobe.com/fr
-product: services principaux
 index: true
 translation-type: tm+mt
-source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 + Activation {#activation}
    + [Présentation de l’Activation](activation/activation.md)
    + [Lancer le guide de l’utilisateur](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM user guide](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Guide de l’utilisateur de la gestion dynamique des balises](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
    + [Présentation des ressources](experience-cloud-assets/experience-cloud-assets.md)
