@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution-title: Formation et assistance
+solution-title: Services principaux
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
@@ -9,8 +9,8 @@ getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/g
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/core-services.en
-translation-type: ht
-source-git-commit: f2e8f97e7834cd92378c1717742a1e8af4bc93df
+translation-type: tm+mt
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
