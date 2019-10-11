@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: À propos du fichier de données et des sources de données pour les attributs du client
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ La fonction Attributs du client est conçu pour gérer quelques fichiers par jou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client. </p> <p> <b></b> Exigences en matière de dénomination : Assurez-vous que les extensions de nom de fichier ne contiennent aucun espace blanc ni aucun de ces caractères ".", "..", "/", ":" </p> </td> 
+   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client. </p> <p> <b>Exigences en termes d’attribution de noms :</b> assurez-vous que les extensions de nom de fichier ne contiennent aucun espace blanc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -43,7 +43,7 @@ La fonction Attributs du client est conçu pour gérer quelques fichiers par jou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> ou <span class="filepath">.zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) ou <span class="filepath">.zip</span> – pour les fichiers compressés. Un fichier <span class="filepath">.zip</span> ne peut pas contenir plus d’un fichier dans l’archive. </p> <p> <b>Exigences en termes d’attribution de nom :</b> le nom du fichier <span class="filepath">.zip</span> ou <span class="filepath">.gz</span> doit correspondre au nom du fichier <span class="filepath">.csv </span>. Si, par exemple, votre fichier <span class="filepath">.csv</span> se nomme <span class="filepath">crm_petit.csv</span>, le fichier <span class="filepath">.zip</span> doit se nommer <span class="filepath">crm_petit.csv.zip </span>. </p> <p>Le fichier .fin doit correspondre au fichier .csv. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) ou <span class="filepath">.zip</span> – pour les fichiers compressés. Un fichier <span class="filepath">.zip</span> ne peut pas contenir plus d’un fichier dans l’archive. </p> <p> <b>Exigences en termes d’attribution de nom :</b> le nom du fichier <span class="filepath">.zip</span> ou <span class="filepath">.gz</span> doit correspondre au nom du fichier <span class="filepath">.csv</span>. Si, par exemple, votre fichier <span class="filepath">.csv</span> se nomme <span class="filepath">crm_petit.csv</span>, le fichier <span class="filepath">.zip</span> doit se nommer <span class="filepath">crm_petit.csv.zip</span>. </p> <p>Le fichier .fin doit correspondre au fichier .csv. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonne ID de client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un identifiant de client unique. L’identifiant utilisé doit correspondre à l’ID transmis au service d’Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une propriété ou un eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics et Target - Synchronisation de l’ID client </a>) </p> <p> Cet identifiant de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez combien d’attributs transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le transfert, vous pouvez mapper les noms conviviaux aux lignes et colonnes transférées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie les alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de client et états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un identifiant de client unique. L’identifiant utilisé doit correspondre à l’ID transmis au service d’Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une propriété ou un eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics et Target - Synchronisation de l’ID client</a>) </p> <p> Cet identifiant de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez combien d’attributs transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le transfert, vous pouvez mapper les noms conviviaux aux lignes et colonnes transférées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie les alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes consécutifs </p> </td> 
@@ -121,7 +121,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exigences liées aux fichiers </p> </td> 
-   <td colname="col2"> <p> Chaque source d’attributs doit contenir le même nombre de champs séparés par une virgule. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets simples. </p> <p> Les guillemets doubles dans un champ doivent être précédés d’une barre oblique arrière (\). </p> <p> Les colonnes vierges sont stockées comme <span class="term"> valeur nulle </span>. </p> </td> 
+   <td colname="col2"> <p> Chaque source d’attributs doit contenir le même nombre de champs séparés par une virgule. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets simples. </p> <p> Les guillemets doubles dans un champ doivent être précédés d’une barre oblique arrière (\). </p> <p> Les colonnes vierges sont stockées comme <span class="term">valeur nulle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers multiples </p> </td> 
@@ -164,4 +164,4 @@ Visitor.setCustomerIDs({
 
 Dans **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personnes]** &gt; **[!UICONTROL Attributs du client]** :
 
-Créez deux sources d’attributs du client à l’aide des identifiants d’alias uniques qui correspondent aux identifiants client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes
+Créez deux sources d’attributs du client à l’aide des identifiants d’alias uniques qui correspondent aux identifiants client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes.
