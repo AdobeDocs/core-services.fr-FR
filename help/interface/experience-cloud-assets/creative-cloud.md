@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -28,14 +28,6 @@ Pour que les utilisateurs Creative Cloud puissent accéder aux ressources, ils d
 
 ## Partage de ressources avec Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource image partagée au moment de permuter des images dans la bibliothèque de contenu.
+When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Voir [Bibliothèque de contenu](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) dans l’aide de [!DNL Target].
-
-## Partage de ressources avec Adobe Social {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
-
-Dans [!DNL Adobe Social], vous pouvez insérer une ressource image partagée à l’aide du [!UICONTROL Sélecteur de ressources] dans l’[!UICONTROL Éditeur]. Vous pouvez rechercher un dossier, le parcourir et joindre la ressource à une publication Facebook ou Twitter.
-
-Voir la [page de l’Éditeur](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher) dans l’aide de [!DNL Social].
-
-Les dossiers et ressources partagés sont automatiquement synchronisés entre les clouds.
+Voir Bibliothèque [d’offres](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) dans [!DNL Target] l’aide.
