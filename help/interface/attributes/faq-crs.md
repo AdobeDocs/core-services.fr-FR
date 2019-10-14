@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ Cette section comporte des consignes et des restrictions applicables à l’util
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target seulement) </b>Comment la fonctionnalité d’attributs client se compare-t-elle à l’API de profil par lots de Target ? </p> </td> 
-   <td colname="col2"> <p> L’<a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">API de profil par lot</a> permet de mettre à jour les profils Target directement via l’API, soit pour un profil individuel, soit par lot. Les capacités sont similaires à celles des attributs client, hormis les quelques différences fondamentales suivantes : </p> 
+   <td colname="col2"> <p> L’<a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">API de profil par lot</a> permet de mettre à jour les profils Target directement via l’API, soit pour un profil individuel, soit par lot. Les capacités sont similaires à celles des attributs client, hormis les quelques différences fondamentales suivantes : </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">L’API de profil est un appel d’API REST, tandis que les attributs du client utilisent le protocole FTP. </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">L’API de profil de Target envoie uniquement les données à Target et non à l’ensemble d’Experience Cloud. </li> 
@@ -95,7 +95,7 @@ Cette section comporte des consignes et des restrictions applicables à l’util
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target seulement)</b> Le transfert des données entre les attributs client et Adobe Target s’étend-il à la durée de vie du profil des visiteurs de Target ? </p> </td> 
-   <td colname="col2"> <p>Oui. Voir <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Durée de vie du profil du visiteur</a> dans l’aide d’Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Oui. Voir <a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">Durée de vie du profil du visiteur</a> dans l’aide d’Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Target seulement)</b> Puis-je cibler les données transférées dans les attributs de client immédiatement après que le visiteur s’est identifié avec son ID de client ? </p> </td> 
