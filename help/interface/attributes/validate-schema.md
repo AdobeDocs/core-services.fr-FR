@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Validation du schéma
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Un schéma est créé d’après ces paramètres. Il permet de valider toutes les données transférées par la suite vers cette source de données. Ce processus de mappage n’altère pas les données originales.
 
-
 >[!NOTE]
 >
 >La mise à jour du schéma après la validation supprime les attributs du client. Voir [Mise à jour du schéma (supprime également les attributs)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
-
 
 **[!UICONTROL Source d’attributs cliente]** &gt; **[!UICONTROL Créer une source d’attributs cliente]** &gt; **[!UICONTROL Afficher/modifier le schéma]**
 
@@ -44,14 +42,9 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
    * **[!UICONTROL Identifiant de visiteur Analytics (AVID) :]** s’affiche si vous utilisez une prop ou une eVar pour le transfert des ID de client. Si ces identifiants sont transmis à Experience Cloud, tous les identifiants de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
 
-
-
-
-
-
 Vous pouvez également transférer les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format .csv, avec un second fichier .fin pour indiquer que le transfert est terminé.
 
-Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. See [Customer Attributes Report](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) in [!DNL Analytics] help for more information.
+Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. See [Customer Attributes Report](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in [!DNL Analytics] help for more information.
 
 * **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
 
@@ -63,12 +56,6 @@ Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros se
 
    * **Nombres :** peuvent contenir jusqu’à deux décimales.
 
-
-
-
 * **[!UICONTROL Nom d’affichage :]** nom convivial de l’attribut. Par exemple, vous pouvez changer l’attribut *âge du client* en *Client depuis*.
 
 * **[!UICONTROL Description :]** description conviviale de l’attribut.
-
-
-
