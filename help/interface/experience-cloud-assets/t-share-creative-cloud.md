@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Partage d’un dossier de ressources Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -50,8 +50,8 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud n’y ont plus accès.
 Voici quelques autres moyens d’utiliser une ressource partagée :
 
-* Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales. Voir [Page Éditeur](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher).
-* Chargez ou permutez des ressources dans la [bibliothèque de contenu](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) d’[!DNL Adobe Target] pour ajouter des images aux activités.
+* Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales.
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
