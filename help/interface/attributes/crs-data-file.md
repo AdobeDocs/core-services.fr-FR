@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: À propos du fichier de données et des sources de données pour les attributs du client
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -160,7 +160,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Pour plus d’informations, voir [ID de client et états de l’authentification.)](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)
+(Pour plus d’informations, voir [ID de client et états de l’authentification.)](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
 Dans **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personnes]** &gt; **[!UICONTROL Attributs du client]** :
 
