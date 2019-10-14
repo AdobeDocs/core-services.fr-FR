@@ -5,7 +5,7 @@ seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -108,7 +108,7 @@ Les suites de rapports mappées s’affichent dans un format non modifiable. Si 
 
 **Que faire si je connais uniquement l’ID d’organisation de mon organisation Experience Cloud ? Comment rechercher le nom associé à mon ID d’organisation ?**
 
-Vous trouverez le nom de votre organisation dans [Paramètres des organisations et des comptes](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Vous trouverez le nom de votre organisation dans [Paramètres des organisations et des comptes](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 **Une date apparaît dans la colonne « Date de mappage ». Qui a procédé au mappage ?**
 
