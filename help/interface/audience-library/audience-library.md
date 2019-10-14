@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audiences
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -30,7 +30,6 @@ Toutes les audiences, quelle que soit leur origine, sont accessibles pour un cib
 * Les audiences historiques dérivant des analyses sont évaluées toutes les 12 heures. Elles comprennent toujours les visiteurs récurrents.
 * Les audiences en temps réel sont issues des audiences Experience Cloud et évaluées en temps réel.
 
-
 ## Utilisation des audiences par les solutions {#concept_01EB9345C5344597BC94A864EDD38EE1}
 
 Le tableau suivant décrit l’utilisation des audiences par les solutions Experience Cloud :
@@ -39,12 +38,11 @@ Le tableau suivant décrit l’utilisation des audiences par les solutions Exper
 |--- |--- |
 | Audiences Experience Cloud | Créez, gérez et partagez des audiences de manière native à l’aide de l’interface [Bibliothèque d’audiences](../audience-library/audience-library.md). Vous pouvez effectuer les opérations suivantes :<ul><li>utiliser des audiences en temps réel à l’aide d’attributs Analytics bruts ;</li><li>combiner des audiences pour en créer des composites, en associant les données en temps réel aux données historiques ;</li><li>afficher des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience que vous souhaitez créer, consultez la section [Audiences Experience Cloud](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis le [publier dans Experience Cloud](../audience-library/audience-library.md). La publication du segment l’affiche sur la page [Audiences](../audience-library/audience-library.md). L’audience est également disponible en tant qu’audience ciblée pour un contenu de campagne fourni par Adobe Target et dans Audience Manager.   Une fois qu’une audience est partagée à partir d’Analytics et sélectionnée en vue d’être utilisée dans une campagne active, tous les profils du visiteur répondant aux critères de définition du segment pour les 90 derniers jours sont envoyés à la plateforme des services d’audience Experience Cloud.   Important : Vous devez limiter à 20 le nombre d’audiences partagées depuis Analytics pour éviter des retards de traitement supplémentaires. Les audiences partagées avec Experience Cloud depuis Analytics ne doivent pas dépasser 20 millions de membres. En outre, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures. |
-| Mobile Services | Analyze mobile traffic using the sunburst visualization in the [Device Types](https://marketing.adobe.com/resources/help/en_US/mobile/?f=reports_devices). |
-| Target | Le [service d’identification](https://marketing.adobe.com/resources/help/en_US/mcvid/) unifie les identifiants et les données du visiteur dans un profil unique pouvant être utilisé à l’échelle de toutes les solutions. La fonction [Publier dans Experience Cloud](../audience-library/audience-library.md), qui s’affiche pendant le processus de création d’un segment dans Adobe Analytics, rend le segment disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans Analytics ou dans Audience Manager peut être utilisé pour des activités dans Target.  Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’Analytics et les segments d’audience créés dans Analytics. |
+| Mobile Services | Analysez le trafic mobile à l’aide de la visualisation du rapport sur les [!UICONTROL types de périphériques]. |
+| Target | Le [service d’identification](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifie les identifiants et les données du visiteur dans un profil unique pouvant être utilisé à l’échelle de toutes les solutions. La fonction [Publier dans Experience Cloud](../audience-library/audience-library.md), qui s’affiche pendant le processus de création d’un segment dans Adobe Analytics, rend le segment disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans Analytics ou dans Audience Manager peut être utilisé pour des activités dans Target.  Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’Analytics et les segments d’audience créés dans Analytics. |
 | Audience Manager | Les audiences partagées sont disponibles dans la segmentation Audience Manager. Toutes les audiences Experience Cloud sont disponibles de manière native dans Audience Manager, qui permet ce qui suit :<ul><li>Automatisation intégrée relative à la façon dont elles sont partagées et consommées dans les processus de solution</li><li>Destinations hors site</li><li>Modélisation analogue</li></ul> |
 | Campaign | <ul><li>Importer les audiences partagées de différentes solutions Adobe Experience Cloud dans Adobe Campaign.</li><li>Exporter les listes de destinataires sous la forme d’audiences partagées. Ces audiences partagées peuvent être utilisées dans les différentes solutions Adobe Experience Cloud que vous utilisez.</li></ul> |
 | Media Optimizer | Utilisez l’audience comme cibles. |
-
 
 >[!IMPORTANT]
 >
@@ -52,13 +50,11 @@ Le tableau suivant décrit l’utilisation des audiences par les solutions Exper
 
 ## Plus d’aide : questions, conseils et cas d’utilisation {#section_C7F151644D8A45F7B6FC54F58845635D}
 
-
 | Aide pour | Ressource |
 |--- |--- |
 | Vous ne trouvez pas Audiences ? | Vérifiez que des privilèges d’accès vous ont été attribués. Voir [Prise en main - Activation de vos solutions pour les services principaux](../core-services/core-services.md).<br>Cliquez [ici](https://www.adobe.com/go/audiences) pour demander l’accès au service principal Profils et audiences (formulaire de configuration des intégrations). |
 | Cas d’utilisation | Pour plus de conseils sur la solution à utiliser, accédez à [Options de création d’audiences](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) dans la base de connaissances. |
 | Forum | Le [forum Audiences](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) constitue une autre ressource d’aide pour les audiences. |
-
 
 ## Éléments de l’interface de la bibliothèque d’audiences {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
