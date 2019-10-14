@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # Gestion des utilisateurs et des produits Experience Cloud {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud.
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ Découvrez-en plus sur la connexion à Admin Console et sur la gestion des auto
 
 Découvrez les dernières fonctionnalités de la gestion des utilisateurs d’Experience Cloud.
 
-
 ## Connexion à Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 Les administrateurs ne peuvent plus gérer les utilisateurs dans les solutions. Désormais, ils doivent gérer les utilisateurs et les produits d’Experience Cloud dans Admin Console.
@@ -46,7 +32,6 @@ Les administrateurs ne peuvent plus gérer les utilisateurs dans les solutions. 
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Saisissez votre [Adobe ID ou Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) et votre mot de passe.
-
 
 Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!UICONTROL Administration]** &gt; **[!UICONTROL Lancer Admin Console]**.
 
@@ -93,9 +78,6 @@ Voir :
 * [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Vidéo : [Mode de configuration des espaces de travail de Target dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## Campaign - profils de produits, clients et groupes de sécurité {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Dans Campaign, un *client* s’affiche comme un *produit* dans la page de produits Admin Console.
@@ -139,7 +121,6 @@ Pour obtenir une aide supplémentaire, consultez les sections suivantes :
 * [Autorisations des utilisateurs Enterprise](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html) dans l’aide Target.
 * Vidéo : [Configuration d’espaces de travail Target dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## Attribution d’autorisations d’accès Analytics à un profil de produits {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 Attribuez des autorisations d’accès aux rapports Analytics (suites de rapports, mesures, dimensions, etc.) à un profil de produits.
@@ -150,7 +131,6 @@ Vous pouvez par exemple créer un profil de produits qui contient plusieurs outi
 1. Dans le profil de produits, cliquez sur **[!UICONTROL Autorisations]** (option réservée aux administrateurs).
 1. Configurez les autorisations du profil :
 
-
 | Élément | Description |
 |--- |--- |
 | Report Suites (Suites de rapports) | Activez les autorisations pour des suites de rapports spécifiques. |
@@ -159,12 +139,8 @@ Vous pouvez par exemple créer un profil de produits qui contient plusieurs outi
 | Outils de suites de rapports | Activez les autorisations d’utilisateurs pour les services web, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord. |
 | Outils Analytics | Activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, les outils, l’accès au service web, le Report Builder et l’intégration des Data Connectors. Les paramètres d’entreprise de la catégorie de personnalisation d’Admin Console ont été déplacés dans les outils Analytics. |
 
-
-
 ## Délégation des rôles d’administration aux utilisateurs {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 Dans Admin Console, vous pouvez déléguer des droits d’administration limités à d’autres membres de votre organisation. Les rôles délégués permettent aux utilisateurs d’administrer l’accès aux logiciels pour les utilisateurs finaux, de fournir l’accès à des fonctionnalités de déploiement et d’intervenir en tant que délégués de soutien.
 
 Par exemple, vous pouvez effectuer les opérations suivantes :
@@ -172,7 +148,6 @@ Par exemple, vous pouvez effectuer les opérations suivantes :
 * Permettre à votre directeur créatif d’accorder l’accès à Creative Cloud.
 * Permettre à votre directeur marketing d’accorder l’accès à Experience Cloud.
 * Maintenir ces deux rôles distincts, afin qu’ils n’empiètent pas l’un sur l’autre.
-
 
 En utilisant ces rôles, vous pouvez déléguer simultanément la gestion à d’autres personnes sans leur attribuer davantage de capacités qu’ils n’en ont besoin.
 
@@ -185,8 +160,6 @@ En utilisant ces rôles, vous pouvez déléguer simultanément la gestion à d�
 
 Cette section répertorie les navigateurs pris en charge dans Experience Cloud.
 
-
-<!-- browsers.xml -->
 **Services principaux Experience Cloud**
 
 * Dernière version d’Internet Explorer de Microsoft. (Microsoft a [cessé la prise en charge](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, Adobe ne corrigera pas les bogues signalés pour ces versions spécifiques d’Internet Explorer.)
@@ -194,14 +167,8 @@ Cette section répertorie les navigateurs pris en charge dans Experience Cloud.
 * Mozilla Firefox
 * Apple Safari
 
-
 **Exigences en matière de produit et de solution**
 
-* [Analysis Workspace et Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (inclut Adobe Social)
-* [Report Builder ](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Analyses ad hoc ](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard ](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (inclut Adobe Social)
+* [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
