@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -94,9 +94,9 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **** Gestion dynamique des balises : L’ID d’alias correspond à la valeur Code *d’* intégration sous Paramètres [!UICONTROL du]client, dans l’outil Service [d’ID d’](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) expérience Cloud.
+      * **** Gestion dynamique des balises : L’ID d’alias correspond à la valeur Code *d’* intégration sous Paramètres [!UICONTROL du]client, dans l’outil Service [d’ID d’](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) expérience Cloud.
 
-      * **API visiteur :** l’ID d’alias correspond aux [identifiants de client](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [identifiants de client](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
          Par exemple, *"crm_ id"* dans :
 
@@ -106,14 +106,14 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
          ```
 
 
-      * **** iOS : L’ID d’alias correspond à *"idType"* dans [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **** iOS : L’ID d’alias correspond à *"idType"* dans [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Par exemple :
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android :** l’ID d’alias correspond à *"idType"* dans [syncIdentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android :** l’ID d’alias correspond à *"idType"* dans [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          Par exemple :
 
@@ -175,7 +175,7 @@ Voir [Configuration des abonnements](../attributes/subscription.md#concept_ECA3C
 
 **Pour activer une source d’attributs, procédez comme suit :**
 
-Sur la page [!UICONTROL Créer [ou Modifier] une source d’attributs cliente], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Activer]**.
+Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs cliente], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Activer]**.
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
 
-Voir [Rapport Attributs du client](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) dans l’aide d’Analytics pour en savoir plus.
+Voir [Rapport Attributs du client](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) dans l’aide d’Analytics pour en savoir plus.
 
 ## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Dans Target, vous pouvez sélectionner un attribut de client à partir de la sec
 
 ![](assets/crs-add-attribute-target.png)
 
-Voir [Création d’une audience](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) dans l’aide de Target.
+Voir [Création d’une audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) dans l’aide de Target.
