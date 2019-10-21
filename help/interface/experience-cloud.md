@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,9 +20,9 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 
 * [Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de mise à jour d’Experience Cloud - tous les produits
 * [Mise à jour](https://www.adobe.com/subscription/priority-product-update.html) prioritaire des produits - abonnement pour recevoir des notes de mise à jour chaque mois)
-* [Formation vidéo Adobe](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Formation vidéo Adobe](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - apprentissage guidé
-* [Contactez le service clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum communautaire](https://forums.adobe.com/community/experience-cloud)
 * [Formation et assistance pour Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
@@ -80,12 +80,12 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 
 ## ![Aide](assets/mc_experiencemanager_32.png) d’Experience Manager
 
-* [Formation et support d’Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
+* [Formation et assistance pour Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Aide](assets/mc_campaign_32.png) sur les campagnes
 
-*  Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-*  Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Aide](assets/advertisingcloud_appicon_32.png) de Advertising Cloud Aide de Advertising Cloud
 
