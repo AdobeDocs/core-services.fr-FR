@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 | Utilisation | Ce cookie permet d’identifier un visiteur unique. si le cookie s_vi standard n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre utilisant des cookies prioritaires. |
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire. |
 | Taille | 33 octets |
+
+## Indicateurs de cookie
+
+Le tableau suivant décrit les indicateurs des cookies Analytics :
+
+| Cookie (défini par) | httpOnly | Sécuriser | MêmeSite |
+|--- |--- |--- |--- |
+| s_vi (http Response) | Non | Oui lorsque SameSite est défini sur "None" et que la connexion utilise HTTPS | "Lx" par défaut lors de l’utilisation de CNAME. "Aucun" lors de l’utilisation de 2o7.net ou omtrdc.net. |
+| s_ecid (http Response) | Non | Non | "Lax" |
+| s_fid (Javascript) | Non | Non | Non défini |
+| s_cc (Javascript) | Non | Non | Non défini |
+| s_sq (Javascript) | Non | Non | Non défini |
+
+*Remarque : Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, la valeur "Aucun" doit être affectée à Siteidentique. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service à la clientèle.*
 
 ## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
