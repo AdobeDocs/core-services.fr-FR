@@ -6,11 +6,8 @@ seo-title: Cookies des Data Workbench
 solution: Experience Cloud,Analytics,Target,Social
 title: Cookies des Data Workbench
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
