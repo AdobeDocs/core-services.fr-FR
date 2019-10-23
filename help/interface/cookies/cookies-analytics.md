@@ -6,11 +6,8 @@ seo-title: Cookies Analytics
 solution: Experience Cloud,Analytics,Target,Social
 title: Cookies Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | <ECID> |
+| Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | `<ECID>` |
 | Expiration | 2 ans |
 | Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L'objectif de ce cookie est d'autoriser le suivi des identifiants persistants dans l'état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d'informations, consultez le cookie AMCV. |
 | Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d'image Analytics. |
@@ -56,7 +53,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Ce cookie est défini et lu par le code JavaScript lors de l’activation des fonctionnalités ClickMap et Activity Map ; il contient des informations sur le lien précédent sur lequel l’utilisateur a cliqué. |
+| Informations stockées | Ce cookie est défini et lu par le code JavaScript lorsque la fonctionnalité ClickMap ou Carte d’activités est activée ; contient des informations sur le lien précédent sur lequel l’utilisateur a cliqué. |
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur. |
 | Utilisation | Un seul cookie pour tous les comptes. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
@@ -69,7 +66,7 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 | Informations stockées | Horodatage de l’identifiant de visiteur unique. |
 | Expiration | 2 ans |
 | Utilisation | Ce cookie permet d’identifier un visiteur unique. |
-| Emplacement | Ce cookie est stocké au niveau du domaine de la demande d’image ; généralement 2O7.net si vous utilisez des cookies tiers ou votre domaine si vous utilisez des cookies propriétaires. |
+| Emplacement | Ce cookie est stocké au niveau du domaine de la demande d’image - généralement sous un sous-domaine spécifique au client sous 2o7.net ou omtrdc.net si vous utilisez des cookies tiers ou si votre domaine utilise des cookies propriétaires. |
 | Taille | 44 octets |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Vous trouverez plus d’informations dans l’aide Analytics au sujet des [cooki
 | Attribut | Description |
 |--- |--- |
 | Informations stockées | Horodatage de secours de l’identifiant de visiteur unique |
-| Expiration | 5 ans |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique. si le cookie s_vi standard n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre utilisant des cookies prioritaires. |
+| Expiration | 2 ans |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique. si le cookie `s_vi` standard n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre utilisant des cookies prioritaires. |
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire. |
 | Taille | 33 octets |
 
@@ -98,7 +95,7 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 | s_cc (Javascript) | Non | Non | Non défini |
 | s_sq (Javascript) | Non | Non | Non défini |
 
-*Remarque : Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, la valeur "Aucun" doit être affectée à Siteidentique. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service à la clientèle.*
+>[!NOTE] Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, la valeur "Aucun" doit être affectée à SiteCatalyst `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service à la clientèle.
 
 ## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
