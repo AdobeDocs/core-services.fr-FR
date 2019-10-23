@@ -6,11 +6,8 @@ seo-title: Comment les modifications liées à la prise en charge des cookies ti
 solution: Experience Cloud,Analytics,Target,Social
 title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
