@@ -6,11 +6,8 @@ seo-title: Activation des paramètres de confidentialité pour les cookies de na
 solution: Experience Cloud,Analytics,Target,Social
 title: Activation des paramètres de confidentialité pour les cookies de navigateur
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
