@@ -6,11 +6,8 @@ seo-title: A propos des cookies et de la confidentialité
 solution: Experience Cloud,Analytics,Target,Social
 title: A propos des cookies et de la confidentialité
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
