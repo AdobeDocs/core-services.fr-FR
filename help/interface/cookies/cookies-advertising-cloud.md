@@ -4,11 +4,8 @@ seo-description: Advertising Cloud utilise des cookies pour mapper les événeme
 seo-title: Cookies Advertising Cloud
 title: Cookies Advertising Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
