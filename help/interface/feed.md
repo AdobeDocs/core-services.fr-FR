@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: Flux
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # Flux
+
+**Le flux Experience Cloud ne sera plus pris en charge à compter du 1er novembre 2019 et sera abandonné d’ici décembre 2019.**
 
 Découvrez comment partager ou publier des ressources et des rapports  Analytics directement sur votre flux Experience Cloud.
 
@@ -31,6 +33,8 @@ Les paramètres du flux comprennent les suivants :
 * **Favoris :** affichez les publications que vous avez marquées comme favorites.
 
 ## Partager un projet Analytics sur le flux {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Le flux Experience Cloud ne sera plus pris en charge à compter du 1er novembre 2019 et sera abandonné d’ici décembre 2019.**
 
 Vous pouvez partager des rapports à partir de [!UICONTROL Reports &amp; Analytics] sur le flux Experience Cloud.
 
