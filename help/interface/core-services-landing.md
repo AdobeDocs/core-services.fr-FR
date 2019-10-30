@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: À propos des services principaux
 uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
 translation-type: tm+mt
-source-git-commit: e2ecca1263999ff309b2ccc40133135c54bffa11
+source-git-commit: d72dde29049ed75f497cb70f0d1b1f077f0712fa
 
 ---
 
@@ -25,6 +25,6 @@ Adobe Experience Platform centralise et normalise les données et le contenu d
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. |
 | [Exchange](https://experiencecloud.adobeexchange.com/) | Développez vos fonctionnalités Adobe Experience Cloud avec les meilleures extensions, scripts et plus encore. Explorez avec la barre de recherche ou triez par produit ou par type d’application. |
 | [Launch](activation/activation.md) | Solution de collecte de données et d’activation de la technologie pour les sites et les applications. Comprend :<ul><li>Experience Platform Launch (la toute dernière solution de gestion des balises)</li><li>Dynamic Tag Management</li><li>Triggers</li></ul> |
-| [Flux](feed.md) | Partagez ou publiez des ressources et des rapports Analytics directement sur votre flux Experience Cloud. |
+| [Flux](feed.md) | **Le flux Experience Cloud ne sera plus pris en charge à compter du 1er novembre 2019 et sera abandonné d’ici décembre 2019.** Partagez ou publiez des ressources et des rapports Analytics directement sur votre flux Experience Cloud. |
 | [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications mobiles. |
 | [Personnes](audience-library/audience-library.md) | Dans la Bibliothèque d’audiences, vous pouvez créer des audiences, combiner les audiences existantes pour créer des audiences composites et afficher toutes les audiences partagées.<br>Dans Attributs du client, vous pouvez également charger des données client d’entreprise dans Experience Cloud. |
