@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
+source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 ---
 
@@ -21,12 +21,12 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 ## Notes de mise à jour et ressources communautaires
 
 * [Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de mise à jour d’Experience Cloud - tous les produits
+* [Page d’accueil de l’aide - Formation et support Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Mise à jour](https://www.adobe.com/subscription/priority-product-update.html) prioritaire des produits - abonnement pour recevoir des notes de mise à jour chaque mois)
 * [Formation vidéo Adobe](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - apprentissage guidé
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum communautaire](https://forums.adobe.com/community/experience-cloud)
-* [Formation et assistance pour Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Blog](https://theblog.adobe.com/customer-experience/) Adobe Customer Experience (blog)
 * [Présentation générale des services principaux](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
