@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 
 ---
 
@@ -52,13 +52,17 @@ Cette section comporte des consignes et des restrictions applicables à l’util
   </tr> 
   <tr> 
    <td colname="col1"> <p> Combien d’attributs de client suis-je autorisé à utiliser ? </p> </td> 
-   <td colname="col2"> <p>Vous pouvez transférer des centaines de colonnes <span class="filepath">.csv</span> vers le service d’attributs du client. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes s’appliquent, selon les solutions que vous détenez : </p> <p> 
-     <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b> : 3 attributs au total </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b> : 200 attributs par suite de rapports </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard :</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium :</b> 200 </li> 
-     </ul> </p> </td> 
+   <td colname="col2"> <p>Vous pouvez transférer des centaines de colonnes <span class="filepath">.csv</span> vers le service d’attributs du client. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les limites suivantes s’appliquent (par suite de rapports), en fonction des solutions que vous détenez :</p> <p> 
+     <ul>
+     <li>Foundation : 0</li>
+     <li>Select : 3</li>
+     <li>Prime : 15</li>
+     <li>Ultimate : 200</li>
+     <li>Standard : 3 au total</li>
+     <li>Premium : 200</li>
+     <li>Target Standard : 5</li>
+     <li>Target Premium : 200</li></ul>
+     </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>La migration vers le service d’Experience Cloud ID est-elle requise ? </p> </td> 
@@ -103,4 +107,3 @@ Cette section comporte des consignes et des restrictions applicables à l’util
   </tr> 
  </tbody> 
 </table>
-
