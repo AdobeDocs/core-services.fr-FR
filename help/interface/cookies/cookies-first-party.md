@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ L'équipe des opérations réseau de votre organisation doit configurer vos serv
 Le spécialiste FPC vous fournit les noms d'hôtes configurés et les enregistrements CNAME vers lesquels ils doivent pointer. Par exemple :
 
 * **Nom d'hôte SSL**:`smetrics.mysite.com`
-* **Enregistrement CNAME SSL**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **Enregistrement CNAME SSL**:`mysite.com.ssl.sc.omtrdc.net`
 * **Nom d’hôte non-SSL**:`metrics.mysite.com`
-* **Enregistrement CNAME non SSL**:`mysite.com.d1.sc.omtrdc.net`
+* **Enregistrement CNAME non SSL**:`mysite.com.sc.omtrdc.net`
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
