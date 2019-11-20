@@ -1,13 +1,13 @@
 ---
 description: Aide personnelle, documentation du produit et documentation technique pour Adobe Experience Cloud. Experience Cloud est la suite intégrée de solutions et de services de marketing numérique d’Adobe.
-keywords: services principaux
+keywords: core services
 seo-description: Cette page fournit de l’aide personnelle, de la documentation sur les produits et de la documentation technique pour Experience Cloud.
 seo-title: Aide d’Adobe Experience Cloud et des services principaux et documentation du produit.
-solution: Adobe Experience Cloud
+solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
+source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 
 ---
 
@@ -18,21 +18,19 @@ source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 Cette page fournit une aide, une assistance et une documentation technique et produit pour les solutions et services Adobe Experience Cloud. Experience Cloud est la suite intégrée de solutions et de services de marketing numérique d’Adobe. Son interface intuitive vous permet d’accéder rapidement à vos solutions de cloud et à vos services principaux.
 
-## Notes de mise à jour et ressources communautaires
+## Que veux-tu apprendre ?
 
-* [Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de mise à jour d’Experience Cloud - tous les produits
-* [Page d’accueil de l’aide - Formation et support Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Mise à jour](https://www.adobe.com/subscription/priority-product-update.html) prioritaire des produits - abonnement pour recevoir des notes de mise à jour chaque mois)
-* [Formation vidéo Adobe](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Adobe Experience League](https://landing.adobe.com/experience-league/) - apprentissage guidé
-* [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum communautaire](https://forums.adobe.com/community/experience-cloud)
-* [Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Blog](https://theblog.adobe.com/customer-experience/) Adobe Customer Experience (blog)
+* [Notes de mise à jour et mises à jour](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) des produits - Nouveautés d’Experience Cloud et abonnement pour obtenir des mises à jour
+* [Didacticiels de mise en oeuvre des services](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) principaux - Découvrir des vidéos et des didacticiels sur les services principaux
+* [Aide d'experts à la Ligue](https://landing.adobe.com/experience-league/) d'expérience - Profitez de l'apprentissage guidé des experts et de la communauté
+* [Éducation et formation](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Demandez à Adobe de vous aider à tirer le meilleur parti de nos produits
+* [Blog](https://theblog.adobe.com/customer-experience/) d’expérience client - Lisez le blog d’Experience Cloud
+* [Aide pour tous les produits](https://helpx.adobe.com/support/experience-cloud.html) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud
+* [Assistance](https://helpx.adobe.com/contact/enterprise-support.ec.html) clientèle - Contactez le service à la clientèle Adobe
+
+## Documentation du produit des services principaux
+
 * [Présentation générale des services principaux](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
-
-## Aide d’Experience Cloud et les services principaux
-
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
