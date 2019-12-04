@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
+source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
 
 ---
 
@@ -19,7 +19,7 @@ Analytics utilise les cookies afin de fournir des informations sur les variables
 
 De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données d’Analytics. Pour prendre en charge le suivi de la manière dont vos visiteurs interagissent avec votre site Web, vous pouvez mettre en oeuvre des cookies propriétaires.
 
-Deux options permettent de mettre en œuvre des cookies propriétaires.
+Deux options sont disponibles pour implémenter les cookies propriétaires :
 
 * Service d'ID Experience Platform. Le service d'ID peut définir le cookie dans le contexte propriétaire à l'aide de JavaScript.
 * Entrées DNS sur le serveur DNS de votre entreprise pour configurer un alias CNAME sur un domaine hébergé par Adobe. Veuillez noter que si divers produits Adobe prennent en charge l’utilisation d’un CNAME, dans tous les cas, le CNAME est utilisé pour créer un point de terminaison propriétaire approuvé pour un client spécifique et appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un point de fin CNAME unique pour effectuer le suivi des utilisateurs sur leurs domaines, mais comme cela nécessite des cookies tiers pour tous les domaines en dehors du domaine CNAME, cela ne fonctionne pas lorsque les cookies tiers sont bloqués et n’est donc pas recommandé. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à des clients différents.
@@ -64,7 +64,7 @@ Les certificats SSL expirent chaque année, ce qui signifie qu'Adobe doit achete
 | **Comment Adobe peut-il acheter un certificat pour notre domaine ?** | Le certificat ne peut être acheté que lorsque vous avez pointé le nom d'hôte spécifié (smetrics.example.com, par exemple) vers un nom d'hôte détenu par Adobe. Cela a essentiellement pour effet de déléguer ce nom d'hôte à Adobe et de permettre à Adobe d'acheter le certificat en votre nom. |
 | **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Vous devez uniquement ouvrir un ticket auprès de l'assistance clientèle pour terminer le processus. |
 | **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe travaillera avec DigiCert pour émettre un certificat SHA-2. |
-| **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe offre ce service à tous les clients actuels d'Analytics sans frais supplémentaires. |
+| **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe propose ce service à tous les clients actuels d’Adobe Digital Experience sans frais supplémentaires. |
 
 ## Créer des enregistrements CNAME
 
@@ -79,7 +79,7 @@ Le spécialiste FPC vous fournit les noms d'hôtes configurés et les enregistre
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
->[!NRemarque :] Le service d'identifiant visiteur Experience Cloud fournit une alternative à la configuration d'un enregistrement CNAME pour activer les cookies propriétaires.
+>[!N] Remarque : Le service d’identification des visiteurs d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’identification d’Experience Cloud.
 
 ## Envoyer une requête ping au nom d'hôte
 
@@ -103,7 +103,7 @@ Si les enregistrements CNAME ne sont pas correctement configurés ou pas actifs,
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NRemarque :] si vous utilisez le protocole `https:// protocol`, le test ping répond uniquement après la date de transfert précisée par le spécialiste FPC. En outre, veillez à effectuer un test ping sur les noms d’hôtes sécurisé et non sécurisé afin de vous assurer qu’ils fonctionnent tous deux correctement avant de mettre à jour la mise en œuvre.
+>[!NRemarque :] si vous utilisez le protocole `https:// protocol`, le test ping répond uniquement après la date de transfert précisée par le spécialiste FPC. En outre, veillez à effectuer un test ping sur le nom d’hôte sécurisé et le nom d’hôte non sécurisé pour vous assurer que les deux fonctionnent correctement avant de mettre à jour votre implémentation.
 
 ## Mettre à jour le code de mise en œuvre
 
@@ -111,7 +111,7 @@ Avant de modifier le code sur votre site pour utiliser des cookies propriétaire
 
 * Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Implémentation* de Cla, dans le programme de certificats gérés *Adobe.*
 * Créez des enregistrements CNAME (voir ci-dessus).
-* Envoyez une requête ping au nom d'hôte (voir ci-dessus).
+* Appuyez sur le ou les nom(s) d’hôte (voir ci-dessus).
 
 Après avoir vérifié que vos noms d’hôtes répondent et procèdent au transfert vers les serveurs de collecte de données d’Adobe, vous pouvez modifier votre mise en œuvre afin de pointer vers vos propres noms d’hôte de collecte de données.
 
