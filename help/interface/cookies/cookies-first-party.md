@@ -1,6 +1,6 @@
 ---
 description: Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur.
-keywords: cookies;confidentialité
+keywords: cookies;privacy
 seo-description: Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur.
 seo-title: Cookies propriétaires
 solution: Experience Cloud,Analytics
@@ -8,26 +8,29 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # À propos des cookies propriétaires
 
-Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Ces cookies inoffensifs, issus d’un domaine hébergé par Adobe, sont des cookies tiers.
+Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Ces cookies inoffensifs, qui proviennent d’un domaine hébergé par Adobe, sont appelés cookies tiers.
 
-De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données d’Analytics. Pour éviter les limitations de suivi imposées par les navigateurs et les programmes, vous pouvez mettre en œuvre des cookies propriétaires.
+De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données d’Analytics. Pour prendre en charge le suivi de la manière dont vos visiteurs interagissent avec votre site Web, vous pouvez mettre en oeuvre des cookies propriétaires.
 
 Deux options permettent de mettre en œuvre des cookies propriétaires.
 
 * Service d'ID Experience Platform. Le service d'ID peut définir le cookie dans le contexte propriétaire à l'aide de JavaScript.
-* Entrées DNS sur le serveur DNS de vos entreprises.
-* Si votre site comporte des pages sécurisées utilisant le protocole `https:` et que vous n'utilisez pas le service d'ID Experience Platform, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en œuvre des cookies propriétaires.
+* Entrées DNS sur le serveur DNS de votre entreprise pour configurer un alias CNAME sur un domaine hébergé par Adobe. Veuillez noter que si divers produits Adobe prennent en charge l’utilisation d’un CNAME, dans tous les cas, le CNAME est utilisé pour créer un point de terminaison propriétaire approuvé pour un client spécifique et appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un point de fin CNAME unique pour effectuer le suivi des utilisateurs sur leurs domaines, mais comme cela nécessite des cookies tiers pour tous les domaines en dehors du domaine CNAME, cela ne fonctionne pas lorsque les cookies tiers sont bloqués et n’est donc pas recommandé. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à des clients différents.
+
+Même si vous utilisez la première option avec le service d’ID d’Experience Cloud, le protocole ITP d’Apple rend les cookies propriétaires éphémères. Il est donc préférable de l’utiliser conjointement avec la seconde option.
+
+Pour la deuxième option utilisant un CNAME, si votre site comporte des pages sécurisées utilisant le `https:` protocole, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en oeuvre des cookies propriétaires. Adobe recommande vivement d’utiliser exclusivement le protocole HTTPS pour la collecte de données, car nous ne prendrons plus en charge la collecte HTTP au cours du second semestre 2020.
 
 Le processus d'octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l'industrie, et a développé un processus intégré par lequel l'achat et la gestion de ces certificats sont automatisés.
 
-Avec votre autorisation, nous collaborerons avec notre autorité de certification pour créer, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continuera à gérer ce certificat et à s'assurer qu'une expiration, une révocation ou une préoccupation sur la sécurité inattendue ne menace pas la disponibilité de la collection sécurisée de vos organisations.
+Avec votre autorisation, nous collaborerons avec notre autorité de certification pour créer, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continuera à gérer ce certificat et à s’assurer qu’une expiration, une révocation ou un problème de sécurité inattendu ne menace pas la disponibilité de la collection sécurisée de votre entreprise.
 
 ## Programme de certificat géré Adobe
 
@@ -51,7 +54,7 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour les 
 
 ### Maintenance et renouvellements
 
-Les certificats SSL expirent chaque année, ce qui signifie qu'Adobe doit acheter tous les ans un nouveau certificat pour chaque mise en œuvre. Tous les utilisateurs pris en charge au sein de votre organisation reçoivent une notification par courrier électronique chaque fois qu'une mise en œuvre arrive à expiration. Pour qu'Adobe renouvelle votre nom d'hôte, un utilisateur pris en charge doit répondre au courrier électronique d'Adobe et indiquer que vous prévoyez de continuer à utiliser le nom d'hôte arrivant à expiration pour la collecte de données. À ce stade, Adobe achète et installe automatiquement un nouveau certificat.
+Les certificats SSL expirent chaque année, ce qui signifie qu'Adobe doit acheter tous les ans un nouveau certificat pour chaque mise en œuvre. Tous les utilisateurs pris en charge au sein de votre organisation reçoivent une notification par courrier électronique chaque fois qu'une mise en œuvre arrive à expiration. Pour qu’Adobe renouvelle votre nom d’hôte, un utilisateur pris en charge doit répondre au courrier électronique d’Adobe et indiquer que vous prévoyez de continuer à utiliser le nom d’hôte qui expire pour la collecte de données. À ce stade, Adobe achète et installe automatiquement un nouveau certificat.
 
 ### Questions fréquentes
 
@@ -106,7 +109,7 @@ Si les enregistrements CNAME ne sont pas correctement configurés ou pas actifs,
 
 Avant de modifier le code sur votre site pour utiliser des cookies propriétaires, procédez comme suit :
 
-* Demandez un certificat SSL, comme décrit ci-dessus dans Étapes de mise en œuvre du programme de certificat géré Adobe.
+* Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Implémentation* de Cla, dans le programme de certificats gérés *Adobe.*
 * Créez des enregistrements CNAME (voir ci-dessus).
 * Envoyez une requête ping au nom d'hôte (voir ci-dessus).
 
