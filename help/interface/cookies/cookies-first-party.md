@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Si les enregistrements CNAME ne sont pas correctement configurés ou pas actifs,
 
 Avant de modifier le code sur votre site pour utiliser des cookies propriétaires, procédez comme suit :
 
-* Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Implémentation* de Cla, dans le programme de certificats gérés *Adobe.*
+* Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Mise en oeuvre* du programme [de certificats gérés](#adobe-managed-certificate-program)Adobe.
 * Créez des enregistrements CNAME (voir ci-dessus).
 * Appuyez sur le ou les nom(s) d’hôte (voir ci-dessus).
 
