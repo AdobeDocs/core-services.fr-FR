@@ -1,35 +1,33 @@
 ---
-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
-keywords: cookies;confidentialité
-seo-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
+description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui se désabonnent de la collecte de données Analytics.
+keywords: cookies;privacy
+seo-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui se désabonnent de la collecte de données Analytics.
 seo-title: Activation des paramètres de confidentialité pour les cookies de navigateur
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Activation des paramètres de confidentialité pour les cookies de navigateur
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 688272e19e9d1828d070889bf8689cab7ed2c9c1
 
 ---
 
 
 # Activation des paramètres de confidentialité pour les cookies de navigateur{#enable-privacy-settings-for-browser-cookies}
 
-Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
+Vous pouvez supprimer les utilisateurs qui ont bloqué tous les cookies sur les navigateurs de bureau et mobiles. Cette fonctionnalité est un paramètre de confidentialité qui exclut les utilisateurs qui se désabonnent de la collecte de données, ce qui vous permet de respecter l’intention d’un utilisateur d’arrêter le traitement Analytics.
 
-Ce paramètre permet de respecter l’intention d’un utilisateur d’arrêter le traitement Analytics s’il bloque tous les cookies dans les paramètres relatifs aux cookies sur son navigateur.
+**Pour activer les paramètres de confidentialité des cookies de navigateur**
 
 1. Accédez à **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Suites de rapports]**.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Paramètres de confidentialité]**.
 1. Activez les **[!UICONTROL paramètres de confidentialité]** (pour mobiles ou ordinateurs de bureau).
 
-   En activant cette fonction, les données collectées auprès des navigateurs de bureau et mobiles dans lesquels l’utilisateur a bloqué tous les cookies seront exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur, les données seront incluses dans les rapports Analytics.
-
 >[!IMPORTANT]
 >
->De nombreuses applications mobiles (telles que les navigateurs intégrés aux applications Facebook ou Twitter) peuvent ressembler à des navigateurs mobiles de base, mais n’acceptent pas tous les cookies. En activant cette fonction, vous risquez d’exclure une grande part du trafic mobile des rapports Analytics.
+>Sachez que de nombreuses applications mobiles (comme le navigateur intégré pour Facebook ou Twitter) peuvent apparaître comme un navigateur mobile standard, mais n’autorisent pas tous les cookies. En activant cette fonction, vous risquez d’exclure une grande part du trafic mobile des rapports Analytics.
 
 **À propos des paramètres de confidentialité des navigateurs**
 
-Les législations et réglementations en vigueur ont stipulé que le fait qu’un utilisateur bloque les cookies revient à se désinscrire du profilage. En activant cette fonction, les données collectées auprès des navigateurs de bureau dans lesquels l’utilisateur a bloqué tous les cookies seront exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur web, les données seront incluses dans les rapports Analytics.
+Les lois et les directives réglementaires ont exprimé le fait que l’action d’un utilisateur consistant à bloquer les cookies est la même que celle d’un utilisateur qui s’est désabonné du profilage. En activant cette fonctionnalité, les données collectées à partir des navigateurs de bureau, où l’utilisateur a défini le navigateur pour bloquer tous les cookies, seront exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur web, les données seront incluses dans les rapports Analytics.
 
-De nombreux législateurs à travers le monde ont stipulé (par recommandations ou par réglementation) que les paramètres du navigateur relatifs aux cookies indiquent que l’utilisateur préfère se désinscrire du profilage. Les législateurs ont précisé que le paramètre du navigateur bloquant les cookies tiers équivaut à une demande d’exclusion du suivi tiers (ayant lieu entre plusieurs sites). Par ailleurs, ils estiment que le blocage de tous les cookies correspond à une demande d’exclusion de toute forme de suivi. Bien que les identifiants côté serveur (tels que l’adresse IP ou l’agent-utilisateur) semblent être une alternative convenable permettant de contourner les paramètres du navigateur relatifs aux cookies, certains législateurs estiment qu’ils vont à l’encontre du choix de l’utilisateur.
+Les législateurs du monde entier ont déclaré (à la fois dans le guide et dans les règlements) que les paramètres des navigateurs de cookies sont une indication de la préférence des utilisateurs à se désinscrire du profilage. Plus précisément, ces législateurs ont déclaré que le paramètre du navigateur pour bloquer les cookies tiers est une demande d’exclusion du suivi tiers (intersite). Le blocage de tous les cookies est une demande d’exclusion pour tout suivi. Bien que les identifiants côté serveur (tels que l’adresse IP ou l’agent-utilisateur) semblent être une alternative convenable permettant de contourner les paramètres du navigateur relatifs aux cookies, certains législateurs estiment qu’ils vont à l’encontre du choix de l’utilisateur.
