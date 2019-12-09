@@ -1,13 +1,13 @@
 ---
 description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités de services principaux tels que les attributs du client et les audiences.
-keywords: services principaux;attributs du client
+keywords: core services;customer attributes
 seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités de services principaux tels que les attributs du client et les audiences.
 seo-title: Activation des solutions Experience Cloud pour les services principaux
-solution: Experience Cloud
+solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Procédez comme suit pour rejoindre Experience Cloud :
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernisez votre mise en œuvre et configurez votre statut d’administrateur.
 
@@ -111,16 +111,16 @@ Chaque fois qu’un visiteur s’authentifie sur votre site ou s’identifie d�
 Par exemple, supposons que Robert a l’identifiant de client `52mc210tr42` dans votre système de gestion de la relation client. Quand Robert s’authentifie sur votre site, vous devez exposer cet identifiant sur la page, puis le synchroniser de l’une des deux façons suivantes :
 
 * Appelez `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` à l’aide du service d’identification des visiteurs. Ou,
-* Renseignez  *`Customer ID (52mc210tr42)`* dans une prop ou une eVar.
+* Renseignez *`Customer ID (52mc210tr42)`* dans une prop ou une eVar.
 
 
 L’identifiant de client doit être défini dans chaque appel au serveur [!DNL Analytics] où il est connu.
 
-**SDK mobiles**
+### SDK mobiles
 
 Voir la section Service *d’ID* Experience Cloud pour obtenir des exemples de syntaxe sur la définition d’identifiants de client supplémentaires dans les applications mobiles [Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) et [iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) .
 
-**Activation des attributs pour les données d’historique**
+### Activation des attributs pour les données d’historique
 
 Les données d’attribut du client sont disponibles une fois les visiteurs connectés. Si vous n’avez pas encore mis en œuvre le dernier service d’Experience Cloud ID et que vous avez effectué le suivi historique des ID client dans une variable prop ou eVar, vous pouvez appeler un processus qui envoie les connexions historiques vers Experience Cloud. Grâce à ce processus, vous pouvez commencer à utiliser immédiatement les attributs du client.
 
