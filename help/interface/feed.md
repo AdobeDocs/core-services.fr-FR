@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment partager ou publier des ressources et des rapports  Analytics directement sur votre flux Experience Cloud.
-keywords: services principaux
+keywords: core services
 seo-description: Découvrez comment partager ou publier des ressources et des rapports Adobe Analytics directement sur votre flux Experience Cloud.
 seo-title: Flux
-solution: Experience Cloud
+solution: Experience Cloud
 title: Flux
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez partager des rapports à partir de [!UICONTROL Reports &amp; Analyti
 
 1. [Connectez-vous](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) à Experience Cloud à l’aide de votre Adobe ID.
 
-1. Accédez à Reports &amp; Analytics, puis [créez un projet](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Accédez à Reports &amp; Analytics, puis [créez un projet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html).
 
 1. Cliquez sur **[!UICONTROL Plus]** &gt; **[!UICONTROL Partager]**.
 
