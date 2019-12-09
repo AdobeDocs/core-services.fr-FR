@@ -1,13 +1,13 @@
 ---
 description: Cette section présente les fonctionnalités, les notes de mise à jour et les problèmes connus de l’interface d’Experience Cloud.
-keywords: services principaux
+keywords: core services
 seo-description: Cette section présente les fonctionnalités, les notes de mise à jour et les problèmes connus de l’interface d’Experience Cloud.
 seo-title: Notes de mise à jour cumulatives
-solution: Experience Cloud
+solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ## Août - 2019
 
@@ -171,7 +171,7 @@ Pas d’informations disponibles.
 </table>
 
 * Correction d’un problème empêchant la synchronisation des attributs de certains clients.
-* Correction d’un problème empêchant l’affichage de la page [Documentation du produit Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) en japonais.
+* Correction d’un problème empêchant l’affichage de la page [Documentation du produit Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
 ## Version 15.4.1 - 8 avril 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 **Correctifs et améliorations**
 
-* Lorsque vous accédez à [!DNL marketing.adobe.com], le processus d’ouverture de session est désormais cohérent avec l’ouverture d’une session Adobe Creative Cloud.
+* Lorsque vous accédez à [!DNL experiencecloud.adobe.com], le processus d’ouverture de session est désormais cohérent avec l’ouverture d’une session Adobe Creative Cloud.
 * Sur la page Gérer les organisations, la méthode de liaison (après réception d’une invitation) est maintenant la même pour chaque solution.
 
 **Problèmes connus**
