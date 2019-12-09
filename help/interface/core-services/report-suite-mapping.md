@@ -5,7 +5,7 @@ seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Les services Experience Cloud (tels que le service Experience Cloud ID et le s
 * définit une organisation Experience Cloud comme l’organisation principale de la suite de rapports ;
 * ne modifie pas les utilisateurs qui peuvent accéder à une suite de rapports (l’accès reste déterminé par le compte de connexion Adobe Analytics de chaque utilisateur).
 
-
 **Conditions**
 
 Vous devez être administrateur Analytics d’une société de connexion ayant accès à la suite de rapports que vous souhaitez mapper. En outre, ce compte doit être [lié à une organisation Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) pour mapper des suites de rapports à cette organisation.
@@ -29,8 +28,6 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 ## Mappage d’une suite de rapports à une organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. Cliquez sur **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Mappage de suites de rapports]**
-
-   Vous pouvez également utiliser une [URL directe](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, cliquez sur **[!UICONTROL Visible pour les connexions d’entreprises]**.
 
@@ -43,8 +40,6 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 ## Mappage de plusieurs suites de rapports à une organisation {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. Cliquez sur **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Mappage de suites de rapports]**.
-
-   Vous pouvez également utiliser une [URL directe](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Sélectionnez les suites de rapports que vous souhaitez mapper.
 
@@ -62,7 +57,7 @@ Cette section contient des astuces pour vous aider à sélectionner l’organisa
 
 **Quelle organisation dois-je choisir ?**
 
-Si le service d’Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service d’Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
+Si le service d’Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service d’Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
 
 Si le service d’identification des visiteurs n’est pas encore déployé sur les sites qui collectent des données pour la suite de rapports et que vous déployez ultérieurement le service d’identification des visiteurs Experience Cloud, vous devrez vous assurer que votre déploiement correspond à l’organisation que vous avez sélectionnée dans l’outil de mappage des suites de rapports.
 
