@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
-keywords: services principaux
+keywords: core services
 seo-description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 seo-title: Connexion et gestion des paramètres du profil
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Connexion et gestion des paramètres du profil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -58,7 +58,7 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 1. Vérifiez auprès de votre administrateur que votre [organisation](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) a reçu les privilèges d’accès dans Experience Cloud.
 
 
-1. Accédez à [Adobe Experience Cloud](https://marketing.adobe.com) ([!DNL marketing.adobe.com]).
+1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Cliquez sur **[!UICONTROL Se connecter avec l’Adobe ID]**.
 
    Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
@@ -141,15 +141,13 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
 Si vous le souhaitez, vous pouvez vous connecter à une page spécifique d’une solution à l’aide de l’authentification fournie par l’interface d’Experience Cloud.
 
+### Modèle d’URL
 
-<!-- mac-deep-linking.xml -->
-**Modèle d’URL**
-
-[!DNL https://<tenantId>.marketing.adobe.com/<solutionname>?destURL=<fullURL>]
+`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
 Exemple d’URL :
 
-[!DNL https://aem62tenant.marketing.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html]
+`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
