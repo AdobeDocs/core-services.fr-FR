@@ -1,13 +1,13 @@
 ---
 description: Aperçu et conditions requises pour le transfert des attributs du client dans Experience Cloud.
-keywords: services principaux;attributs du client
+keywords: core services;customer attributes
 seo-description: Aperçu et conditions requises pour le transfert des attributs du client dans Experience Cloud.
 seo-title: Attributs du client
-solution: Experience Cloud
+solution: Experience Cloud
 title: Attributs du client
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 * **Mbox Target :** mbox.js version 58 ou supérieure est requis pour les attributs du client.
 
 
-   Voir [Mise en œuvre de mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
+   Voir [Mise en œuvre de mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 * **at.js :** n’importe quelle version.
-
-
-
 
 ## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
