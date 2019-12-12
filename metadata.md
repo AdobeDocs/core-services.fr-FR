@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
+solution: Core Services
 solution-title: Services principaux
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
@@ -10,7 +11,7 @@ tutorials-title: Tutoriels
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: ef7f3ea5f42cef8d254080cc33994f4607cfed88
+source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
 
 ---
 
