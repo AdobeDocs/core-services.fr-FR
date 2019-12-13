@@ -5,7 +5,7 @@ seo-title: Cookies Advertising Cloud
 title: Cookies Advertising Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 ---
 
@@ -13,39 +13,6 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 # Cookies Advertising Cloud {#advertising-cloud-cookies}
 
 Advertising Cloud utilise des cookies pour mapper les événements d'engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
-
-## Nom du cookie : id_ adcloud
-
-<table id="id_adcloud"> 
-<thead> 
-<tr> 
-<th colname="col1" class="entry"> Attribut </th> 
-<th colname="col2" class="entry"> Description </th> 
-</tr> 
-</thead>
-<tbody> 
-<tr> 
-<td colname="col1"> <p>Informations stockées </p> </td> 
-<td colname="col2"> <p>L'ID de surfeur </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Expiration </p> </td> 
-<td colname="col2"> <p>91 jours </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Utilisation </p> </td> 
-<td colname="col2"> <p>Le cookie est défini dans le domaine propriétaire mais n'est pas encore utilisé </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Emplacement </p> </td> 
-<td colname="col2"> <p>Domaine de niveau supérieur de l'annonceur (par exemple, exemple.com) </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Taille </p> </td> 
-<td colname="col2"> <p>16 octets </p> </td> 
-</tr> 
-</tbody> 
-</table>
 
 ## Nom du cookie : _lcc
 
@@ -125,7 +92,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>L'ID de surfer, les horodatages de la dernière visite du surfeur sur le site Web de l'annonceur et le dernier clic de recherche du surfeur, et l’ef_id créé lorsque l'utilisateur a cliqué sur une publicité</p> </td> 
+   <td colname="col2"> <p>Horodatage de la dernière visite du surfeur sur le site Web de l’annonceur et du dernier clic de recherche du surfeur, ainsi que ef_id créé lorsque l’utilisateur a cliqué sur une publicité.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
