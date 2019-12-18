@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
+source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
 
 ---
 
@@ -24,7 +24,7 @@ Cette section comporte des consignes et des restrictions applicables à l’util
 | Problème | Description |
 |--- |--- |
 | Restrictions applicables aux abonnements des attributs du client | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur Nombre maximal d’abonnements des attributs s’affiche durant ce délai. |
-| Limite quotidienne du transfert de fréquence | La meilleure pratique consiste à ne pas mettre à jour les attributs du client plus d’une fois par jour. Adobe recommande d’attendre au moins 24 heures pour télécharger un autre fichier de données de profil client (pour le même jeu de profils). |
+| Limite quotidienne du transfert de fréquence | Adobe recommande de ne mettre à jour les attributs du client qu’une seule fois par jour. Vous devez attendre au moins 24 heures pour télécharger un autre fichier de données de profil client pour le même jeu de profils. |
 | Analytics ID personnalisé (s.visitorID) | La définition d’un ID client à l’aide de    s.visitorID est une méthode permettant d’identifier des utilisateurs dans Analytics. Cependant, les intégrations dans lesquelles des données Analytics sont exportées ou importées à l’aide du service d’ID ne fonctionneront pas lorsqu’un visiteur est identifié à l’aide de s.visitorID.<br>Cela comprend, sans s’y limiter, les audiences partagées, Analytics for Target (A4T) et les attributs du client.<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
 | Limites de caractères dans Analytics | Lors de la création d’un abonnement Analytics, la longueur de champ pour les fichiers transférés est limitée à 255 caractères. |
 
