@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ Cette section comporte des consignes et des restrictions applicables à l’util
 | Problème | Description |
 |--- |--- |
 | Restrictions applicables aux abonnements des attributs du client | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur Nombre maximal d’abonnements des attributs s’affiche durant ce délai. |
+| Connexions multiples sur le même périphérique | Lors de l’utilisation des attributs du client pour télécharger des profils du client dans une source de données, Adobe recommande de ne pas autoriser les utilisateurs qui partagent le même périphérique (c’est-à-dire le même ID Experience Cloud). Ce faisant, le service ECID, qui persiste sur le périphérique, peut lier plusieurs utilisateurs sous le même ID Experience Cloud, ce qui entraîne des résultats inattendus [!DNL Target]. **** Remarque : Pour Mobile, l’ECID est permanent une fois l’application Mobile installée. Vous devez réinstaller l’application pour générer un nouvel ECID. Pour le Web, un nouvel ECID est généré une fois le cookie du navigateur effacé. |
 | Limite quotidienne du transfert de fréquence | Adobe recommande de ne mettre à jour les attributs du client qu’une seule fois par jour. Vous devez attendre au moins 24 heures pour télécharger un autre fichier de données de profil client pour le même jeu de profils. |
-| Analytics ID personnalisé (s.visitorID) | La définition d’un ID client à l’aide de    s.visitorID est une méthode permettant d’identifier des utilisateurs dans Analytics. Cependant, les intégrations dans lesquelles des données Analytics sont exportées ou importées à l’aide du service d’ID ne fonctionneront pas lorsqu’un visiteur est identifié à l’aide de s.visitorID.<br>Cela comprend, sans s’y limiter, les audiences partagées, Analytics for Target (A4T) et les attributs du client.<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
+| Custom Analytics ID (`s.visitorID`) | La définition d’un ID de client à l’aide de `s.visitorID` permet d’identifier les utilisateurs dans Analytics. Toutefois, les intégrations dans lesquelles les données Analytics sont exportées ou importées à l’aide du service d’ID ne fonctionneront pas lorsqu’un visiteur est identifié à l’aide de `s.visitorID.`<br>cette méthode, notamment les audiences partagées, Analytics pour Target (A4T) et les attributs du client.<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
 | Limites de caractères dans Analytics | Lors de la création d’un abonnement Analytics, la longueur de champ pour les fichiers transférés est limitée à 255 caractères. |
 
 ## Questions fréquences sur les attributs du client  {#section_E47866EEA83348E09FE43CEC5E44C461}
