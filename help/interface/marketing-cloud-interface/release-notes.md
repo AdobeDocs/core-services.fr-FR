@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -20,17 +20,21 @@ Pour obtenir la liste des mises à jour de la documentation, voir [Experience C
 
 Pour consulter les notes de mise à jour traitant de toutes les solutions, voir [Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
+## Janvier à 2020
+
+* La page Flux a été abandonnée en décembre 2019. Vous trouverez un avis d’obsolescence dans le produit. (MCUI-10039)
+
 ## Août - 2019
 
-* Correction d’un problème critique de connexion à Experience Cloud en raison duquel la session de certains utilisateurs était fermée. (MCUI-6908)
-* Mise à jour de la connexion Experience Cloud afin d’améliorer les performances et de réduire la latence. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Correction d’un problème critique de connexion à Experience Cloud en raison duquel la session de certains utilisateurs était fermée. (MCUI-6908)
+* Mise à jour de la connexion Experience Cloud afin d’améliorer les performances et de réduire la latence. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Mise à jour cosmétique de l’interface. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Correction d’un problème lié aux [!UICONTROL Triggers] d’Experience Cloud qui entraînait une interprétation incorrecte de la clause _Like_ dans la définition du [!UICONTROL déclencheur]. (MCUI-6611)
+* Correction d’un problème lié aux [!UICONTROL Triggers] d’Experience Cloud qui entraînait une interprétation incorrecte de la clause _Like_ dans la définition du [!UICONTROL déclencheur]. (MCUI-6611)
 
 ## Avril - 2019
 
-* Mise à jour du sélecteur d’applications pour inclure Marketo dans la suite de solutions Experience Cloud et mise à jour des marques sur Experience Platform. (MCUI-6529)
-* Mise à jour de l’accueil d’Experience Cloud pour inclure les liens de navigation vers les pages de flux et d’administration. (MCUI-6682)
+* Mise à jour du sélecteur d’applications pour inclure Marketo dans la suite de solutions Experience Cloud et mise à jour des marques sur Experience Platform. (MCUI-6529)
+* Mise à jour de l’accueil d’Experience Cloud pour inclure les liens de navigation vers les pages de flux et d’administration. (MCUI-6682)
 * Correction d’un problème dans la définition du [!UICONTROL déclencheur] en relation avec l’utilisation correcte de la clause « like ». (MCUI-6611)
 * Améliorations apportées aux attributs du client pour une meilleure connexion au service d’abonnement. (MCUI-6519)
 
@@ -95,7 +99,7 @@ Pour consulter les notes de mise à jour traitant de toutes les solutions, voir 
 
 **Problème connu**
 
-Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]**, mais que le compte de votre solution n’est pas lié à Experience Cloud (Adobe ID), vous ne serez pas en mesure de vous connecter à Dynamic Tag Management. Pour éviter ce problème, accédez directement à [!DNL dtm.adobe.com] dans un nouvel onglet du navigateur.
+Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UICONTROL Experience Cloud]** >**[!UICONTROL  Activation]**, mais que le compte de votre solution n’est pas lié à Experience Cloud (Adobe ID), vous ne serez pas en mesure de vous connecter à Dynamic Tag Management. Pour éviter ce problème, accédez directement à [!DNL dtm.adobe.com] dans un nouvel onglet du navigateur.
 
 ## Version 16.1 - 21 janvier 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -505,7 +509,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Lors de la suppression d’une image dans les ressources, aucun message n’avertit que l’image est utilisée dans Adobe Target Essentials, si tel est le cas.
 * Les performances de l’interface d’[!UICONTROL Experience Cloud] étaient faibles lorsque plusieurs utilisateurs l’utilisaient simultanément.
 * La suppression d’une image d’[!UICONTROL Experience Cloud Assets] n’entraînait pas l’affichage d’un avertissement si celle-ci était utilisée dans [!DNL Adobe Target Essentials].
-* Lorsque l’option **[!UICONTROL Mémoriser]** n’était pas sélectionnée lors de la connexion, l’utilisateur était déconnecté au bout de 15 minutes.
+* Lorsque l’option **[!UICONTROL Mémoriser]**n’était pas sélectionnée lors de la connexion, l’utilisateur était déconnecté au bout de 15 minutes.
 * Pour que toutes les modifications d’autorisation et de droit soient prises en compte, les utilisateurs devaient se déconnecter puis se reconnecter.
 * La connexion à [!DNL Experience Cloud] prenait plus d’une seconde.
 * Pour certains utilisateurs, la suppression des fichiers dans [!DNL Experience Cloud] ne s’est pas synchronisée avec [!DNL Digital Asset Management].
@@ -539,7 +543,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 * Après l’ajout d’une balise personnalisée à une ressource, plus aucun changement apporté aux métadonnées ne peut persister.
 * Les utilisateurs doivent actualiser le panorama pour que les cartes supprimées disparaissent de la vue.
-* Si l’option **[!UICONTROL Se souvenir de moi]** n’est pas cochée au cours de l’ouverture de session, l’utilisateur est déconnecté après 15 minutes.
+* Si l’option **[!UICONTROL Se souvenir de moi]**n’est pas cochée au cours de l’ouverture de session, l’utilisateur est déconnecté après 15 minutes.
 * La page d’entrée de la solution [!DNL Analytics] présente des erreurs de mise en forme.
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
 * Lors de la suppression d’une image dans les [!UICONTROL ressources], aucun message n’avertit que l’image est utilisée dans [!DNL Adobe Target Essentials], si tel est le cas.
@@ -574,7 +578,7 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 * Aucun avertissement ne s’affiche lors de la suppression d’une image dans Experience Cloud Assets si l’image est utilisée dans Adobe Target Essentials.
 * L’actualisation d’une carte à partir d’[!DNL Analytics] génère parfois un panier vide dans la carte étendue.
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
-* Lorsque *`Remember me`* n’est pas sélectionné durant l’ouverture de session, l’utilisateur est déconnecté au bout de 15 minutes.
+* Lorsque *`Remember me`*n’est pas sélectionné durant l’ouverture de session, l’utilisateur est déconnecté au bout de 15 minutes.
 * La page d’entrée de la solution [!DNL Analytics] présente des erreurs de mise en forme.
 * Il n’est pas possible de cliquer sur le lien Commentaires sur la carte des ressources.
 * L’interface d’Experience Cloud peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs
@@ -620,5 +624,5 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 
 * Correction d’un problème qui empêchait l’application de filtres de segments sur les rapports [!DNL Analytics] partagés.
 * Correction d’un problème en raison duquel les solutions étaient présentées comme liées sur la page [!UICONTROL Solutions Experience Cloud], même si les comptes de ces solutions n’étaient pas liés.
-* Correction d’un problème qui empêchait les clients d’[!DNL Adobe Target] en Asie de cliquer sur le bouton **[!UICONTROL Continuer vers Experience Cloud]** sur la page de liaison.
+* Correction d’un problème qui empêchait les clients d’[!DNL Adobe Target] en Asie de cliquer sur le bouton **[!UICONTROL Continuer vers Experience Cloud]**sur la page de liaison.
 * Correction d’un problème qui empêchait le partage des vidéos YouTube.
