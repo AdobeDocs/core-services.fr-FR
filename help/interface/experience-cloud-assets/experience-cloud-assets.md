@@ -2,11 +2,11 @@
 description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou de l’audio (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier Photoshop, les diapositives d’un fichier PowerPoint, les pages d’un PDF, les fichiers d’un ZIP).
 seo-description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou de l’audio (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier Photoshop, les diapositives d’un fichier PowerPoint, les pages d’un PDF, les fichiers d’un ZIP).
 seo-title: Assets
-solution: Experience Cloud
-title: Assets
+solution: Experience Cloud
+title: Ressources
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -71,23 +71,23 @@ Vous pouvez effectuer une recherche par mot clé, type de fichier, taille, date 
 
 ## Annotation de ressources {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
+Cliquez sur **[!UICONTROL Annoter]**en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![](assets/assets-annotate.png)
 
-## Partage d’une ressource avec votre flux {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-**Le flux Experience Cloud ne sera plus pris en charge à compter du 1er novembre 2019 et sera abandonné d’ici décembre 2019.**
+**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
 
-Cliquez sur **[!UICONTROL Partager]** dans la barre d’outils pour partager le fichier comme [flux](../feed.md#concept_9256B8768A294009A777282DD8719213) avec d’autres utilisateurs d’Experience Cloud.
+Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
 
-![](assets/assets-share-card.png)
+![](assets/assets-share-card.png) 
 
-Le partage permet d’afficher l’image sur votre page de flux, ainsi que les personnes avec lesquelles vous avez partagé la carte.
+Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
 
 ## Affichage des ressources en plein écran et en mode zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
+Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Image]** pour afficher l’image complète de la ressource et activer le zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +95,7 @@ Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Image]** pour afficher l�
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue sous forme de liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
+Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Propriétés]** pour afficher les propriétés d’une ressource :
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +103,6 @@ Cliquez sur **[!UICONTROL Vues]** &gt; **[!UICONTROL Propriétés]** pour affic
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Rapport d’utilisation]**
+Cliquez sur **[!UICONTROL Outils]** >**[!UICONTROL  Rapports]** > **[!UICONTROL Rapport d’utilisation]**
 
 ![](assets/assets-usage-report.png)
