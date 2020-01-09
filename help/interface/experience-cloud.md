@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -22,7 +22,7 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 
 * [Notes de mise à jour et mises à jour](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) des produits - Nouveautés d’Experience Cloud et abonnement pour obtenir des mises à jour
 * [Didacticiels de mise en oeuvre des services](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) principaux - Découvrir des vidéos et des didacticiels sur les services principaux
-* [Aide d'experts à la Ligue](https://landing.adobe.com/experience-league/) d'expérience - Profitez de l'apprentissage guidé des experts et de la communauté
+* [Aide d&#39;experts à la Ligue](https://landing.adobe.com/experience-league/) d&#39;expérience - Profitez de l&#39;apprentissage guidé des experts et de la communauté
 * [Éducation et formation](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Demandez à Adobe de vous aider à tirer le meilleur parti de nos produits
 * [Blog](https://theblog.adobe.com/customer-experience/) d’expérience client - Lisez le blog d’Experience Cloud
 * [Documentation du produit pour toutes les solutions](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Recherchez de l’aide sur le site de formation et d’assistance Experience Cloud.
@@ -38,10 +38,9 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Débogueur Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
-* [Flux](feed.md)
 * [API relative au Règlement général sur la protection des données (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## Administration et activation
