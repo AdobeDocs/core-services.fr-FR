@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -47,7 +47,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci�
 
 [Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**Qu’est-ce que *`provisioning`* ?**
+**Qu’est-ce que *`provisioning`*?**
 
 Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui suit :
 
@@ -115,7 +115,3 @@ Non. Les utilisateurs doivent lier leurs propres solutions à leurs nom d’util
 **Pourquoi Social est-il visible alors que ma société n’y a pas souscrit ?**
 
 Adobe Social peut être vendu avec Analytics. Par conséquent, cette solution est visible si vous possédez Analytics ; vous ne pourrez toutefois pas y accéder si vous ne l’avez pas achetée.
-
-**Comment partager un rapport ou une campagne dans Experience Cloud ?**
-
-Un rapport Analytics ou une campagne Target sont des exemples de ressources que vous pouvez partager dans le [Flux](../feed.md#concept_9256B8768A294009A777282DD8719213)
