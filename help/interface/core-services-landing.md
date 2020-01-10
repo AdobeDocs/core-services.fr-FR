@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: À propos des services principaux
 uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 97cc8a1fbc63a87f758a4dc0494a6f953be44006
 
 ---
 
@@ -25,6 +25,6 @@ Adobe Experience Platform centralise et normalise les données et le contenu d
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. |
 | [Exchange](https://experiencecloud.adobeexchange.com/) | Développez vos fonctionnalités Adobe Experience Cloud avec les meilleures extensions, scripts et plus encore. Explorez avec la barre de recherche ou triez par produit ou par type d’application. |
 | [Launch](activation/activation.md) | Solution de collecte de données et d’activation de la technologie pour les sites et les applications. Comprend :<ul><li>Experience Platform Launch (la toute dernière solution de gestion des balises)</li><li>Dynamic Tag Management</li><li>Triggers</li></ul> |
-| Flux | **Le flux Experience Cloud ne sera plus pris en charge à compter du 1er novembre 2019 et a été abandonné le 1er décembre 2019.** |
+| [Offres](offer-management/getting-started.md) | Créez, gérez et prenez des décisions sur tous les canaux dans Experience Cloud. [!UICONTROL La gestion des] offres sert de catalogue d’offres central dans lequel vous pouvez associer des règles d’éligibilité et plusieurs éléments de contenu à chaque &quot;objet&quot; d’offre, publier ces offres sur les canaux et les emplacements et proposer la meilleure offre pour chaque client à chaque interaction. |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Mobile Services réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications mobiles. |
 | [Personnes](audience-library/audience-library.md) | Dans la Bibliothèque d’audiences, vous pouvez créer des audiences, combiner les audiences existantes pour créer des audiences composites et afficher toutes les audiences partagées.<br>Dans Attributs du client, vous pouvez également charger des données client d’entreprise dans Experience Cloud. |
