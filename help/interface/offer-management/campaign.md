@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: a0e0b51d731343d5cd4226ab29d917aca63317c2
 
 ---
 
@@ -109,7 +109,7 @@ Insérez une activité d’offre dans une image ou un bloc de texte d’un modè
 * **** Vérification du positionnement : Toutes les offres doivent avoir une représentation de contenu qui correspond à l’emplacement sélectionné dans le cadre de l’activité d’offre. Si un emplacement pour une offre est supprimé entre le moment de création de l’activité et le moment de préparation (si le temps est supérieur à trois minutes), cette offre n’est pas prise en compte.
 * **** Vérification de date : Toutes les offres doivent être valides pour la date actuelle (il _ne s’agit pas_ de la date d’envoi de l’offre). La date de préparation de la campagne par courrier électronique est la date qui détermine l’offre à diffuser. Par exemple, si vous préparez une campagne par courrier électronique le 15/15/17 et que l’une des offres sélectionnées n’est pas valide avant le 16/17, l’offre n’est pas diffusée.
 
-* **** Vérification des règles d’éligibilité : Toutes les offres doivent respecter les règles [d’](offers.md#task_6C4AE487377D424FA133ACCA6AF741D4)éligibilité.
+* **** Vérification des règles d’éligibilité : Toutes les offres doivent respecter les règles [d’](offers.md)éligibilité.
 
 * **** Vérification de priorité : Si un utilisateur est éligible à plusieurs offres, la gestion des [!UICONTROL offres] utilise la priorité définie par l’utilisateur pour déterminer l’offre à présenter à chaque utilisateur.
 
