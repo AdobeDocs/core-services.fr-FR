@@ -71,7 +71,7 @@ Créez une offre à ajouter à votre inventaire d’offres.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maximum cap par utilisateur </p> </td> 
-   <td colname="col2"> <p>durée maximale pendant laquelle une offre peut être proposée à un utilisateur donné. </p> <p>Remarque :  Le nombre de fois où une offre est proposée à un utilisateur donné est calculé au moment de la préparation du courrier électronique. Si, par exemple, vous préparez un courrier électronique avec un certain nombre d’offres, ces nombres sont comptabilisés dans le plafond maximal par utilisateur, que le courrier électronique soit envoyé ou non.</p> </td> 
+   <td colname="col2"> <p>durée maximale pendant laquelle une offre peut être proposée à un utilisateur donné. </p> <p>Remarque :  Le nombre de fois où une offre est proposée à un utilisateur donné est calculé au moment de la préparation du courrier électronique. Si, par exemple, vous préparez un courrier électronique avec un certain nombre d’offres, ces nombres sont comptabilisés dans le plafond maximal par utilisateur, que le courrier électronique soit envoyé ou non.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Étiquettes </p> </td> 
