@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ Cette section comporte des consignes et des restrictions applicables à l’util
   <tr> 
    <td colname="col1"> <p> <b> (Target seulement)</b> Puis-je cibler les données transférées dans les attributs de client immédiatement après que le visiteur s’est identifié avec son ID de client ? </p> </td> 
    <td colname="col2"> <p>Oui. </p> <p>Lors de l’appel de serveur adressé à Target, qui inclut l’ID de fournisseur tiers mbox, toutes les données d’attribut client sont disponibles. </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> (Target uniquement)</b> Que représente la colonne "État de synchronisation" pour les fichiers téléchargés dans la source d’attributs cliente ? </p> </td> 
+   <td colname="col2"> <p> Vous pouvez afficher le nombre d’enregistrements publiés et synchronisés par Target en cliquant sur l’icône Synchroniser l’état en regard d’un fichier d’attributs spécifique. "Sync %" est une mesure en temps réel qui spécifie le pourcentage de profils synchronisés dans Target. </p> <p> <b></b> Remarque : La synchronisation des attributs avec Target peut prendre jusqu’à 24 heures. </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
