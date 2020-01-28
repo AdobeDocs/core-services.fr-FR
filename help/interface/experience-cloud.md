@@ -7,12 +7,12 @@ solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
 
-# Documentation du produit Experience Cloud et des services principaux
+# Experience Cloud et documentation du produit des services principaux
 
 ![Experience Cloud](assets/banner.png)
 
@@ -20,12 +20,12 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 
 ## Que veux-tu apprendre ?
 
+* [Documentation du produit pour toutes les solutions](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Recherchez de l’aide sur le site de formation et d’assistance Experience Cloud.
 * [Notes de mise à jour et mises à jour](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) des produits - Nouveautés d’Experience Cloud et abonnement pour obtenir des mises à jour
 * [Didacticiels de mise en oeuvre des services](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) principaux - Découvrir des vidéos et des didacticiels sur les services principaux
 * [Aide d&#39;experts à la Ligue](https://landing.adobe.com/experience-league/) d&#39;expérience - Profitez de l&#39;apprentissage guidé des experts et de la communauté
 * [Éducation et formation](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Demandez à Adobe de vous aider à tirer le meilleur parti de nos produits
 * [Blog](https://theblog.adobe.com/customer-experience/) d’expérience client - Lisez le blog d’Experience Cloud
-* [Documentation du produit pour toutes les solutions](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Recherchez de l’aide sur le site de formation et d’assistance Experience Cloud.
 * [Assistance](https://helpx.adobe.com/contact/enterprise-support.ec.html) clientèle - Contactez le service à la clientèle Adobe
 
 ## Documentation du produit des services principaux
