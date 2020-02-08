@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -33,7 +33,7 @@ Les administrateurs ne peuvent plus gérer les utilisateurs dans les solutions. 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Saisissez votre [Adobe ID ou Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) et votre mot de passe.
 
-Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!UICONTROL Administration]** >**[!UICONTROL  Lancer Admin Console]**.
+Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Lancer Admin Console]**.
 
 **Aide connexe**
 
@@ -45,7 +45,7 @@ Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!
 
 L’insertion de profils de produits marque un tournant quant à la façon de gérer les produits et services de la solution (en utilisant des groupes). Dans Admin Console, les autorisations reposent sur des profils de produits, qui sont des groupes de produits et de services que vous pouvez affecter aux utilisateurs.
 
-Dans Analytics par exemple, vous pouvez configurer une collection d’outils de création de rapports, tels qu’Analysis Workspace et le Report Builder, parallèlement aux suites de rapports, aux mesures, aux dimensions, etc. Vous pouvez affecter des autorisations d’accès à des utilisateurs en ajoutant ces derniers à un profil de produits. Voir  [Attribution d’autorisations d’accès Analytics à un profil de produits](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+Dans Analytics par exemple, vous pouvez configurer une collection d’outils de création de rapports, tels qu’Analysis Workspace et le Report Builder, parallèlement aux suites de rapports, aux mesures, aux dimensions, etc. Vous pouvez affecter des autorisations d’accès à des utilisateurs en ajoutant ces derniers à un profil de produits. Voir [Attribution d’autorisations d’accès Analytics à un profil de produits](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **Aide connexe**
 
@@ -61,7 +61,7 @@ Gérez dans Admin Console les autorisations des utilisateurs et des produits An
 
 Dans Analytics, les administrateurs peuvent utiliser l’outil de migration des ID d’utilisateur pour migrer des comptes d’utilisateurs de la gestion des utilisateurs Analytics vers [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)
 
-La migration des comptes est en cours de déploiement. Adobe vous avisera lorsqu’il sera temps de migrer vos comptes d’utilisateurs des **[!UICONTROL Outils d’administration]** >**[!UICONTROL  Gestion des utilisateurs]** vers Admin Console et vous aidera à le faire.
+La migration des comptes est en cours de déploiement. Adobe vous avisera lorsqu’il sera temps de migrer vos comptes d’utilisateurs des **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** vers Admin Console et vous aidera à le faire.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Si les utilisateurs tentent de se connecter au moyen des comptes hérités ([!DNL my.omniture.com] et [!DNL sc.omniture.com]), ils sont redirigés vers [!DNL experiencecloud.adobe.com].
 
@@ -88,7 +88,7 @@ Voir [Gestion des groupes et des utilisateurs](https://helpx.adobe.com/campaign/
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch, s’affiche sur la page de produits dans Admin Console. Dans un profil de produits Launch, vous pouvez ajouter d’autres solutions et services principaux.
+Experience Platform Launch, s’affiche sur la page de produits dans Admin Console. Vous pouvez inclure d’autres solutions et services dans un profil de produit Lancer.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -127,8 +127,8 @@ Attribuez des autorisations d’accès aux rapports Analytics (suites de rapport
 
 Vous pouvez par exemple créer un profil de produits qui contient plusieurs outils Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] et [!UICONTROL Report Builder]), avec des autorisations d’accès à des mesures et dimensions spécifiques (y compris les eVars) et à des fonctionnalités telles que la création de segments ou de mesures calculées.
 
-1. Connectez-vous à [Admin Console](https://adminconsole.adobe.com/enterprise), puis cliquez sur **[!UICONTROL Produits]**(ou cliquez sur le nom de votre produit).
-1. Dans le profil de produits, cliquez sur **[!UICONTROL Autorisations]**(option réservée aux administrateurs).
+1. Connectez-vous à [Admin Console](https://adminconsole.adobe.com/enterprise), puis cliquez sur **[!UICONTROL Produits]** (ou cliquez sur le nom de votre produit).
+1. Dans le profil de produits, cliquez sur **[!UICONTROL Autorisations]** (option réservée aux administrateurs).
 1. Configurez les autorisations du profil :
 
 | Élément | Description |
@@ -154,7 +154,7 @@ En utilisant ces rôles, vous pouvez déléguer simultanément la gestion à d�
 1. Dans Admin Console, cliquez sur **[!UICONTROL Utilisateurs]**, puis sur le nom de l’utilisateur.
 1. Cliquez sur **[!UICONTROL Modifier les droits d’administrateur]**.
 1. Configurez les droits d’administrateur de l’utilisateur.
-1. Cliquez sur **[!UICONTROL Suivant]**pour passer en revue les paramètres, puis cliquez sur**[!UICONTROL  Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Suivant]** pour passer en revue les paramètres, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Navigateurs pris en charge et configuration requise {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
@@ -168,7 +168,7 @@ Les navigateurs pris en charge par Experience Cloud sont les suivants :
 * [!DNL Safari]
 * [!DNL Opera]
 
-**** Remarque : Bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas prendre en charge tous les navigateurs. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera]et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
+**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
 
 **Exigences en matière de solution et de produit**
 
