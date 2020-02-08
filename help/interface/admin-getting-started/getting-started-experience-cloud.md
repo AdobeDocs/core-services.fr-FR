@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: Connexion et gestion des paramètres du profil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # Connexion et gestion des paramètres du profil
 
-En vous connectant à Experience Cloud (plutôt qu’à une solution donnée), vous bénéficiez de l’authentification unique pour tous les services principaux et solutions que vous détenez. Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
+La connexion à Experience Cloud (plutôt que la connexion à une seule solution) permet l’authentification unique de toutes les solutions et services que vous détenez. Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 
 <!-- t_sign_in.xml -->
 
