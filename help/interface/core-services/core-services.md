@@ -62,7 +62,6 @@ Voir [Administration des utilisateurs et des produits Experience Cloud](../admi
 
 Pour se connecter à Experience Cloud, les utilisateurs doivent remplir les conditions suivantes :
 
-
 1. Posséder un Adobe ID.
 1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. Appartenir à un groupe de solutions mappé à un groupe d’entreprise.
