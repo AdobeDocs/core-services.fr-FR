@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -71,7 +71,7 @@ Cette section comporte des consignes et des restrictions applicables à l’util
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b> : fortement recommandé </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target :</b> requis. </li> 
-     </ul> </p> <p>Utilisez le service d’identification pour améliorer les fonctionnalités et avoir la possibilité d’utiliser les fonctions les plus récentes d’Experience Cloud, y compris les audiences en temps réel, la modernisation Target, l’intégration d’Analytics et le suivi des pulsations vidéo. </p> <p>Pour plus d’informations, voir <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Services principaux - Comment activer vos solutions</a>. </p> <p> <b>Remarque</b> : Le service <span class="term"> Experience Cloud ID</span> est la mise en œuvre modernisée de l’ancien <span class="term">service d’identification des visiteurs d’Analytics</span>. </p> </td> 
+     </ul> </p> <p>Utilisez le service d’identification pour améliorer les fonctionnalités et avoir la possibilité d’utiliser les fonctions les plus récentes d’Experience Cloud, y compris les audiences en temps réel, la modernisation Target, l’intégration d’Analytics et le suivi des pulsations vidéo. </p> <p>Pour plus d’informations, voir <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Services principaux - Comment activer vos solutions</a>. </p> <p> <b>Remarque</b>: Le service <span class="term"> d’ID</span> Experience Cloud est la mise en oeuvre modernisée de ce qui était auparavant appelé service <span class="term"> d’identification des visiteurs d’</span>Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De quelle façon la fonction d’attributs du client est-elle liée à Adobe Audience Manager ? </p> </td> 
@@ -111,5 +111,17 @@ Cette section comporte des consignes et des restrictions applicables à l’util
    <td colname="col2"> <p> Vous pouvez afficher le nombre d’enregistrements publiés et synchronisés par Target en cliquant sur l’icône Synchroniser l’état en regard d’un fichier d’attributs spécifique. "Sync %" est une mesure en temps réel qui spécifie le pourcentage de profils synchronisés dans Target. </p> <p> <b></b> Remarque : La synchronisation des attributs avec Target peut prendre jusqu’à 24 heures. </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> Que représentent les mesures de transfert de fichiers dans la source des attributs du client ? </p> </td>
+	<td colname="col2"> <p> Vous pouvez vérifier l’état des attributs chargés dans les attributs du client à l’aide des mesures suivantes : </p>
+		<ul>
+			<li> <b> Enregistrements : </b> Nombre d’enregistrements dans le fichier d’attributs. </li>
+			<li> <b> Nouveaux enregistrements : </b> Nombre de nouveaux enregistrements présents dans le fichier d’attributs. </li>
+			<li> <b> Enregistrements mis à jour : </b> Nombre d’enregistrements dans qui existent déjà dans les attributs du client avec des valeurs mises à jour dans le fichier. </li>
+			<li> <b> Toutes les données (enregistrements) : Nombre </b> total d’enregistrements transférés vers les attributs du client. </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
