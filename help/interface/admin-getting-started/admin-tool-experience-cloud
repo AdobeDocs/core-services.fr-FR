@@ -1,2 +1,75 @@
-Experience Cloud Admin Tool
+---
+description: Learn about the Experience Cloud Admin Tool, to  view a sortable and filterable list of all Experience Cloud users.
+keywords: core services
+seo-description: Learn about the Experience Cloud Admin Tool, to  view a sortable and filterable list of all Experience Cloud users.
+seo-title: View Experience Cloud users and user details
+solution: Experience Cloud
+title: View Experience Cloud users and user details
+uuid: 
+---
  
+# Experience Cloud Admin Tool
+
+The Experience Cloud Admin Tool gives System Admins the ability to view a sortable and filterable list of all Experience Cloud users. Each user detail page contains important details about a user’s product access, roles, and last accessed information.  
+
+## Admin Tool User List
+
+A complete list of all users with access to Experience Cloud in your organization, with information about solution entitlement and last login. Search, sort, and filter abilities provides custom views of the user list.
+
+## User List Columns
+
+Element | Description
+---------|----------
+ Name | First and Last name of the user.  Column can be sorted A->Z, Z->A.  Click on a user's name to see more details about the user.
+ Email | Email address associated with the user. Column can be sorted A->Z, Z->A.
+ID Type | Identity type for the user's account.  Filter can be used view specific ID types.  See [Manage identity types](https://helpx.adobe.com/enterprise/using/identity.html) for more information
+Solutions | Summary of Experience Cloud solutions that the user can access. Filters can be used to narrow down list of users with specific solution access.
+Last Login | Time and Date of the most recent user login to the Experience Cloud.  Column can be sorted by Date Descending or Date Ascending.
+
+> [!IMPORTANT]
+> Last Login data was not preserved for longer than 30 days prior to (DATE), so users may not appear to have any information around last login. As of (DATE) - user’s last login data will be kept for 365 days. Use the current information to view current login activity in the Experience Cloud, but not to take action on inactive accounts.  Also, recently created users may not have a last login status.
+
+## Customizing the view of user list
+
+You can customize the view of your user list by using search, sort, or filters applied to columns.
+
+* Search for users by Name or Email.  Search will match text string
+* Sort column by Ascending or Descending values.  Applies to Name, Email, and Last Login Columns
+* Apply multiple filters to list users with specific criteria.  When multiple filter categories are applied, searches contain Email Domain `AND` ID TYPE `AND` Solution
+
+Element | Description
+---------|----------
+ Email Domain Filter | Search strings in Email Column to narrow results to one or multiple domains. Add multiple filters by pressing enter after each search term
+ ID Type Filter | Choose from available ID Types.  Multiple ID types can be used for filter
+ Solution Filter | Choose from available solution.  Multiple Solution types can be selected.  Multiple solution filters searches for results containing Solution 1 `OR` Solution 2
+
+## Admin Tool User Details
+
+A detailed view of each user displays important details about the user’s solution access, admin and product roles, and last accessed information.  Clicking on a user's name from the user list will open up the detail page for that user.
+
+## About Section
+
+This section displays a summary of the user account including:
+
+* User Avatar and System Admin Badge (If applicable)
+* Name
+* Email
+* Username (Federated ID accounts may have usernames differing from Email address)
+* [ID Type](https://helpx.adobe.com/enterprise/using/identity.html)
+* Country
+* Last Login
+
+## Solutions Summary
+
+This section displays a summary of Experience Cloud solutions that the user can access.  Includes Product Admin role when applicable
+
+## Detailed Product Access List
+
+This section displays a complete list of all product profiles membership for the user.
+Element | Description
+---------|----------
+Product | Name of the product associated with the product profile
+Instance | Name of the instance (i.e. login company or tenant) associated with the product and product profile
+Product Profile | Unique name of the product profile.  
+Assigned by Group | Name of the User Group that associates the user to a product profile. Blank results indicate the user was assigned to the product profile directly, not through a group.
+Product Roles | Role assignment of the user within the product profile. Currently, only applies to Target product profiles.
