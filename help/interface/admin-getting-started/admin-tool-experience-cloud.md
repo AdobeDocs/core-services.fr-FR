@@ -6,7 +6,7 @@ seo-title: Affichage des utilisateurs et des détails utilisateur d’Experience
 solution: Experience Cloud
 title: 'Affichage des utilisateurs et des détails utilisateur d’Experience Cloud '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL Courriel] | Adresse électronique associée à l’utilisateur. Vous pouvez trier les colonnes A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Un filtre peut être appliqué pour afficher des types d’ID spécifiques. Voir [Gestion des types](https://helpx.adobe.com/enterprise/using/identity.html) d’identité pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des solutions Experience Cloud auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant d’un accès aux solutions spécifique. |
-| [!UICONTROL Dernière identification] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **** Important : Les données de dernière connexion ne sont pas conservées plus de 30 jours avant la valeur de date. Il est donc possible que les utilisateurs ne semblent pas disposer d’informations concernant la dernière connexion. [!UICONTROL A partir de (DATE)] - Les dernières données de connexion de l’utilisateur sont conservées pendant 365 jours. Vous pouvez utiliser ces informations pour afficher l’activité de connexion actuelle dans Experience Cloud, mais pas pour agir sur les comptes inactifs. En outre, les utilisateurs récemment créés peuvent ne pas avoir le dernier état de connexion. |
+| [!UICONTROL Dernière identification] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **** Important : A compter du 13 janvier 2020, les dernières données de connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de la vue Liste des utilisateurs
 
