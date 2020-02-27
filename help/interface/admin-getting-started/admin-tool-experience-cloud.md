@@ -5,8 +5,9 @@ seo-description: Découvrez l’outil d’administration Experience Cloud pour a
 seo-title: Affichage des utilisateurs et des détails utilisateur d’Experience Cloud
 solution: Experience Cloud
 title: 'Affichage des utilisateurs et des détails utilisateur d’Experience Cloud '
+index: true
 translation-type: tm+mt
-source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -15,11 +16,13 @@ source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 L’outil d’administration Experience Cloud permet aux administrateurs d’afficher une liste pouvant être triée et filtrée de tous les utilisateurs d’Experience Cloud. Chaque page de détails de l’utilisateur contient des détails importants sur l’accès au produit d’un utilisateur, ses rôles et les dernières informations accessibles.  
 
-1. Log in to <https://experience.adobe.com/>.
+1. Log in to `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Dans la page d’accueil d’Experience Cloud, cliquez sur Outil **[!UICONTROL d’administration.]** (Vous pouvez également remplacer _accueil_ par _admin._ dans l’URL de la page d’accueil)
+1. Dans la page d’accueil d’Experience Cloud, cliquez sur Outil **[!UICONTROL d’administration.]**
+
+    (Vous pouvez également remplacer _accueil_ par _admin._ dans l’URL de la page d’accueil)
 
    La page [!UICONTROL Utilisateurs] s’affiche.
 
