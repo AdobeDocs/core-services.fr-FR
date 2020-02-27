@@ -1,13 +1,13 @@
 ---
 description: Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Un schéma est créé d’après ces paramètres. Il permet de valider toutes les données transférées par la suite vers cette source de données. Ce processus de mappage n’altère pas les données originales.
-keywords: attributs du client;services principaux
+keywords: customer attributes;core services
 seo-description: Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Un schéma est créé d’après ces paramètres. Il permet de valider toutes les données transférées par la suite vers cette source de données. Ce processus de mappage n’altère pas les données originales.
 seo-title: Validation du schéma
-solution: Experience Cloud
+solution: Experience Cloud
 title: Validation du schéma
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -20,7 +20,7 @@ Le processus de validation permet de mapper les noms affichés et les descriptio
 >
 >La mise à jour du schéma après la validation supprime les attributs du client. Voir [Mise à jour du schéma (supprime également les attributs)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
-**[!UICONTROL Source d’attributs cliente]** &gt; **[!UICONTROL Créer une source d’attributs cliente]** &gt; **[!UICONTROL Afficher/modifier le schéma]**
+**[!UICONTROL Sources d’attributs clientes]** > **[!UICONTROL Créer une source d’attributs cliente]** > **[!UICONTROL Afficher/modifier le schéma]**
 
 ![](assets/view_edit_schema.png)
 
@@ -32,11 +32,11 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
 * **[!UICONTROL Afficher/modifier le schéma :]** mappez des noms d’affichage aux données d’attribut, comme décrit à l’étape suivante.
 
-* **[!UICONTROL Configuration FTP :]** [téléchargez les données par FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL Configuration FTP :]**[ téléchargez les données par FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 * **[!UICONTROL Recherche d’identifiants :]** entrez un ID de client (CID) issu du fichier `.csv` pour rechercher les informations Experience Cloud relatives à cet identifiant. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
-   * **[!UICONTROL MCID (Experience Cloud ID) :]** s’affiche si vous utilisez le dernier service d’Experience Cloud ID. Si vous avez souscrit au service MCID, mais qu’aucun identifiant n’est répertorié ici, cela signifie qu’Experience Cloud n’a reçu aucun alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
+   * **** MCID (Experience Cloud ID) : S’affiche si vous utilisez le dernier service d’ID Experience Cloud. Si vous avez souscrit au service MCID, mais qu’aucun identifiant n’est répertorié ici, cela signifie qu’Experience Cloud n’a reçu aucun alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
    * **[!UICONTROL ID de client (CID) :]** attributs associés à cet ID de client. Si vous utilisez une prop ou une eVar pour transférer les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 
