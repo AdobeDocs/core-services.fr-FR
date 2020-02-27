@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: À propos des nouveaux noms de cloud dans Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -46,7 +46,7 @@ Inclut les solutions suivantes :
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
+![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
 
 Inclut Media Optimizer et TubeMogul.
 
@@ -54,14 +54,14 @@ Inclut Media Optimizer et TubeMogul.
 
 Les informations suivantes décrivent brièvement les solutions et fournissent des liens permettant d’obtenir de l’aide. Des [cas d’utilisation](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) sont également disponibles pour vous aider avec les processus de marketing numérique.
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Pour commencer à utiliser Analytics :
 
 1. Créez votre première suite de rapports Analytics (référentiel de données) en suivant les étapes indiquées dans la section [Prise en main d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. Déployez ensuite le code Analytics à l’aide de [Launch, d’Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. Déployez ensuite le code Analytics à l’aide du lancement [de la plateforme](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)d’expérience.
 
-Experience Platform Launch, représente la nouvelle génération des fonctionnalités de gestion des balises vous permettant de déployer et de gérer simplement toutes les balises marketing, publicitaires et d’analyse.
+Experience Platform Launch est la nouvelle génération de la gestion des balises et vous offre un moyen simple de déployer et de gérer toutes les balises d’analyse, de marketing et de publicité.
 
 Voir également :
 
@@ -111,7 +111,7 @@ Adobe Primetime est une plateforme TV multi-écrans qui aide les diffuseurs à c
 
 | Service principal | Description |
 |--- |--- |
-| [Activation](activation/activation.md) | Systèmes de gestion des balises (Experience Platform Launch, et Dynamic Tag Management).<br>Avec Triggers, vous pouvez agir en temps réel dans Adobe Campaign en fonction des informations récupérées dans Adobe Analytics. |
+| [Activation](activation/activation.md) | Systèmes de gestion des balises (lancement de la plateforme d’expérience et gestion dynamique des balises).<br>Avec Triggers, vous pouvez agir en temps réel dans Adobe Campaign en fonction des informations récupérées dans Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Gérez les droits des utilisateurs et des produits pour l’ensemble de vos clouds et de vos solutions Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Stockez, synchronisez et partagez aisément toutes vos ressources numériques depuis un emplacement central, afin de gagner du temps et d’offrir une expérience client plus cohérente. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch représente la nouvelle génération des fonctionnalités de gestion des balises d’Adobe. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. |
