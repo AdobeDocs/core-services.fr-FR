@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud Intégrations
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -24,18 +24,18 @@ Décrit comment :
 
 * Habiliter votre société à utiliser Experience Cloud.
 * Devenir administrateur.
-* [Mettre en œuvre le service d’Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* [Mise en oeuvre du service](https://docs.adobe.com/content/help/en/id-service/using/home.html)d’ID d’Experience Cloud.
 * Moderniser vos mises en œuvre Analytics et Target au moyen de la gestion dynamique des balises.
 * Commencer à utiliser les services principaux.
 
 Solutions ou services :
 
-* Activation - Dynamic Tag Management ou Experience Platform Launch
+* Activation - Gestion dynamique des balises ou lancement de la plateforme d’expérience
 * Analytics
 * Target
-* [Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
-## Service Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
+## Service Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 Help: [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
@@ -106,9 +106,9 @@ Utilisez les données des solutions Experience Cloud ou d’autres systèmes ext
 
 **Solutions ou services applicables**
 
-* [Transfert côté serveur d’Analytics](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)
-* [Envoyer des segments Audience Manager vers Analytics](https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html)
-* [Intégration des données de Target](https://marketing.adobe.com/resources/help/en_US/aam/aam-target-integration.html)
+* [Transfert côté serveur d’Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+* [Envoyer des segments Audience Manager vers Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [Intégration des données de Target](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
@@ -116,34 +116,34 @@ Aide : [Prise en main](https://docs.adobelaunch.com/getting-started)
 
 Utilisez les solutions Experience Cloud Activation pour configurer et déboguer vos solutions Experience Cloud.
 
-1. Use [Launch](https://docs.adobelaunch.com) or [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
-1. Utilisez [Adobe Cloud Platform Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/) pour tester vos mises en œuvre.
+1. Use [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. Utilisez [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html) pour tester vos mises en œuvre.
 
 Utilisez l’extension Adobe Experience Cloud Debugger pour déboguer les problèmes détectés par Auditor ou pour consulter d’autres informations sur vos mises en œuvre.
 
 **Solutions ou services applicables**
 
-* [Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/add-adobe-analytics-dtm-tool.html)
-* [Audience Manager](https://marketing.adobe.com/resources/help/en_US/dtm/audiencemgmt.html)
-* [Media Optimizer](https://marketing.adobe.com/resources/help/en_US/dtm/media_optimizer.html)
-* [Target](https://marketing.adobe.com/resources/help/en_US/dtm/target.html)
-* [Service d’identifiant MAC](https://marketing.adobe.com/resources/help/en_US/dtm/macid.html)
-* [Suivi de Nielsen](https://marketing.adobe.com/resources/help/en_US/dtm/nielsen.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Audience Manager](https://docs.adobe.com/content/help/en/dtm/using/tools/audiencemgmt.html)
+* [Media Optimizer](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)
+* [Target](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)
+* [Service d’identifiant MAC](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html)
+* [Suivi de Nielsen](https://docs.adobe.com/content/help/en/dtm/using/tools/nielsen.html)
 
 ## Target {#section_739716AB6022424CBC38724CDED10701}
 
-Help: [Integrating Adobe Target with the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+Help: [Integrating Adobe Target with the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 
 L’intégration d’Adobe Target avec Adobe Analytics et d’autres solutions Experience Cloud permet l’utilisation des mêmes données, audiences, attributs et mesures dans les deux solutions.
 
 **Solutions ou services applicables**
 
-* Attributs du client : configurez l’[abonnement](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) Target pour les attributs du client.
-* Audiences Experience Cloud : [bibliothèque d’audiences Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)
-* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
-* Dynamic Tag Management : [bonnes pratiques recommandées pour la mise en œuvre d’Adobe Target à l’aide de Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/)
-* Audience Manager : [intégration de données Target à Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/aam-target-integration.html)
-* Campaign : [intégration de Target à Campaign](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* Attributs du client : configurez l’[abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Target pour les attributs du client.
+* Audiences Experience Cloud : [bibliothèque d’audiences Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* Dynamic Tag Management : [bonnes pratiques recommandées pour la mise en œuvre d’Adobe Target à l’aide de Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Audience Manager : [intégration de données Target à Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campaign : [intégration de Target à Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
 ## Intégrations Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
@@ -173,11 +173,11 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ado
 
 **Solutions ou services applicables**
 
-* AEM
+* AEM 
 * Creative Cloud
 * [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 
-## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
+## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
 Help (login required): [Integration with Adobe Experience Cloud Solutions and Core Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
@@ -185,9 +185,9 @@ Help (login required): [Integration with Adobe Experience Cloud Solutions and Co
 
 **Analytics :** peut envoyer quotidiennement des données d’engagement et de conversion du site à Media Optimizer, où elles servent à l’optimisation des publicités et à la création de rapports. Par ailleurs, Media Optimizer peut envoyer quotidiennement à Analytics des données de moteur de recherche et de trafic sur les réseaux sociaux, où elles servent au Report Builder dans les fonctionnalités de rapports et analyses, de Report Builder et d’Ad Hoc Analysis.
 
-**Gestionnaire dynamique de balises :** utilisez le [gestionnaire dynamique de balises pour créer des balises de suivi de conversion d’après les pixels Media Optimizer](https://marketing.adobe.com/resources/help/en_US/dtm/t_media_opt_rule.html), ainsi que des balises de suivi tierces, pour vos pages d’entrée de recherche, de réseaux sociaux et de campagne publicitaire. Vous pouvez également créer des balises Media Optimizer directement dans Media Optimizer.
+**Gestionnaire dynamique de balises :** utilisez le [gestionnaire dynamique de balises pour créer des balises de suivi de conversion d’après les pixels Media Optimizer](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html), ainsi que des balises de suivi tierces, pour vos pages d’entrée de recherche, de réseaux sociaux et de campagne publicitaire. Vous pouvez également créer des balises Media Optimizer directement dans Media Optimizer.
 
-**Audiences Experience Cloud :** (publicitaires avec gestion de l’affichage) utilisez n’importe laquelle de vos [audiences Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) comme cibles pour vos campagnes publicitaires. Vous pouvez automatiquement utiliser les audiences que vous avez créées dans Adobe Experience Cloud et les audiences d’Analytics que vous avez publiées sur Adobe Experience Cloud, et vous pouvez utiliser les audiences d’Audience Manager quand le compte Media Optimizer est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à son service principal Profils et audiences, ainsi que sur la configuration initiale entre les audiences Media Optimizer et Adobe Experience Cloud. **Remarque :** Si vous utilisez également Adobe Target, les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour des activités dans Target.
+**Audiences Experience Cloud :** (publicitaires avec gestion de l’affichage) utilisez n’importe laquelle de vos [audiences Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) comme cibles pour vos campagnes publicitaires. Vous pouvez automatiquement utiliser les audiences que vous avez créées dans Adobe Experience Cloud et les audiences d’Analytics que vous avez publiées sur Adobe Experience Cloud, et vous pouvez utiliser les audiences d’Audience Manager quand le compte Media Optimizer est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à son service principal Profils et audiences, ainsi que sur la configuration initiale entre les audiences Media Optimizer et Adobe Experience Cloud. **Remarque :** Si vous utilisez également Adobe Target, les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour des activités dans Target.
 
 **Experience Cloud Assets :** (annonceurs avec gestion des publicités display) utilisez une de vos ressources Adobe Experience Cloud comme élément créatif pour vos publicités display, dans la vue de nouvelle publicité display (version bêta). Vous devez être [connecté à Media Optimizer par l’intermédiaire d’Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm) pour accéder à vos ressources Adobe Experience Cloud. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
 
