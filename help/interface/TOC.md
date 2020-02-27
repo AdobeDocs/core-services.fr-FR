@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
-   + [Gestion des utilisateurs et des produits Experience Cloud](admin-getting-started/admin-getting-started.md)
-   + [Outil Admin](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Gestion des utilisateurs et des produits Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
+   + [Affichage des détails de l’utilisateur Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Questions fréquentes](admin-getting-started/faq.md)
    + [Connexion et gestion des paramètres du profil](admin-getting-started/getting-started-experience-cloud.md)
    + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
