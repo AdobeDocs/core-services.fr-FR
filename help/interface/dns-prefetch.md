@@ -2,11 +2,11 @@
 description: Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement des pages de différents services et solutions.
 seo-description: Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement des pages de différents services et solutions.
 seo-title: Utilisation de la prérécupération DNS avec différents services et solutions
-solution: Experience Cloud
+solution: Experience Cloud
 title: Utilisation de la prérécupération DNS avec différents services et solutions
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast. *`insérer un ID de partenaire ici`*.demdex.net">`
+* **** Service d’ID Experience Cloud : `<link rel="dns-prefetch" href="//fast. *`insérer l&#39;ID de partenaire ici`*.demdex.net">`
 
 * **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens de gestion dynamique des balises sont disponibles dès le chargement de la page.
 
