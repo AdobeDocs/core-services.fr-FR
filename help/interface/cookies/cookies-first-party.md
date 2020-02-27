@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -21,14 +21,14 @@ De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et su
 
 Deux options sont disponibles pour implémenter les cookies propriétaires :
 
-* Service d'ID Experience Platform. Le service d'ID peut définir le cookie dans le contexte propriétaire à l'aide de JavaScript.
+* Service d&#39;ID Experience Platform. Le service d&#39;ID peut définir le cookie dans le contexte propriétaire à l&#39;aide de JavaScript.
 * Entrées DNS sur le serveur DNS de votre entreprise pour configurer un alias CNAME sur un domaine hébergé par Adobe. Veuillez noter que si divers produits Adobe prennent en charge l’utilisation d’un CNAME, dans tous les cas, le CNAME est utilisé pour créer un point de terminaison propriétaire approuvé pour un client spécifique et appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un point de fin CNAME unique pour effectuer le suivi des utilisateurs sur leurs domaines, mais comme cela nécessite des cookies tiers pour tous les domaines en dehors du domaine CNAME, cela ne fonctionne pas lorsque les cookies tiers sont bloqués et n’est donc pas recommandé. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à des clients différents.
 
 Même si vous utilisez la première option avec le service d’ID d’Experience Cloud, le protocole ITP d’Apple rend les cookies propriétaires éphémères. Il est donc préférable de l’utiliser conjointement avec la seconde option.
 
 Pour la deuxième option utilisant un CNAME, si votre site comporte des pages sécurisées utilisant le `https:` protocole, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en oeuvre des cookies propriétaires. Adobe recommande vivement d’utiliser exclusivement le protocole HTTPS pour la collecte de données, car nous ne prendrons plus en charge la collecte HTTP au cours du second semestre 2020.
 
-Le processus d'octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l'industrie, et a développé un processus intégré par lequel l'achat et la gestion de ces certificats sont automatisés.
+Le processus d&#39;octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l&#39;industrie, et a développé un processus intégré par lequel l&#39;achat et la gestion de ces certificats sont automatisés.
 
 Avec votre autorisation, nous collaborerons avec notre autorité de certification pour créer, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continuera à gérer ce certificat et à s’assurer qu’une expiration, une révocation ou un problème de sécurité inattendu ne menace pas la disponibilité de la collection sécurisée de votre entreprise.
 
@@ -44,35 +44,35 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour les 
 
 1. Remplissez le [formulaire de demande de cookie propriétaire](/help/interface/cookies/assets/FPC_Request_Form.xlsx) et ouvrez un ticket auprès de l’assistance clientèle afin de configurer des cookies propriétaires dans le programme géré Adobe. Chaque champ est décrit avec des exemples dans le document.
 
-1. Créez des enregistrements CNAME (voir les instructions ci-dessous). À la réception du billet, un représentant du service à la clientèle doit vous fournir une paire d’enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu'Adobe puisse acheter le certificat en votre nom. Les enregistrements CNAMES sont similaires à ce qui suit : **Sécurisé** - Par exemple, le nom d’hôte `smetrics.example.com` désigne : `example.com.ssl.d1.omtrdc.net`. **Non sécurisé** : Par exemple, le nom d'hôte `metrics.example.com` désigne : `example.com.d1.omtrdc.net`.
+1. Créez des enregistrements CNAME (voir les instructions ci-dessous). À la réception du billet, un représentant du service à la clientèle doit vous fournir une paire d’enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu&#39;Adobe puisse acheter le certificat en votre nom. Les enregistrements CNAMES sont similaires à ce qui suit : **Sécurisé** - Par exemple, le nom d’hôte `smetrics.example.com` désigne : `example.com.ssl.d1.omtrdc.net`. **Non sécurisé** : Par exemple, le nom d&#39;hôte `metrics.example.com` désigne : `example.com.d1.omtrdc.net`.
 
-1. Lorsque ces enregistrements CNAME sont en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d'Adobe. Si vous disposez d'une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l'environnement de production d'Adobe, vous pourrez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d'hôtes. En d'autres termes, si le site n'est pas sécurisé (https), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (https), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
+1. Lorsque ces enregistrements CNAME sont en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d&#39;Adobe. Si vous disposez d&#39;une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l&#39;environnement de production d&#39;Adobe, vous pourrez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d&#39;hôtes. En d&#39;autres termes, si le site n&#39;est pas sécurisé (https), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (https), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
 
-1. Envoyez une requête ping au nom d'hôte (voir ci-dessous).
+1. Envoyez une requête ping au nom d&#39;hôte (voir ci-dessous).
 
 1. Mettez à jour le code de mise en œuvre (voir ci-dessous).
 
 ### Maintenance et renouvellements
 
-Les certificats SSL expirent chaque année, ce qui signifie qu'Adobe doit acheter tous les ans un nouveau certificat pour chaque mise en œuvre. Tous les utilisateurs pris en charge au sein de votre organisation reçoivent une notification par courrier électronique chaque fois qu'une mise en œuvre arrive à expiration. Pour qu’Adobe renouvelle votre nom d’hôte, un utilisateur pris en charge doit répondre au courrier électronique d’Adobe et indiquer que vous prévoyez de continuer à utiliser le nom d’hôte qui expire pour la collecte de données. À ce stade, Adobe achète et installe automatiquement un nouveau certificat.
+Les certificats SSL expirent chaque année, ce qui signifie qu&#39;Adobe doit acheter tous les ans un nouveau certificat pour chaque mise en œuvre. Tous les utilisateurs pris en charge au sein de votre organisation reçoivent une notification par courrier électronique chaque fois qu&#39;une mise en œuvre arrive à expiration. Pour qu’Adobe renouvelle votre nom d’hôte, un utilisateur pris en charge doit répondre au courrier électronique d’Adobe et indiquer que vous prévoyez de continuer à utiliser le nom d’hôte qui expire pour la collecte de données. À ce stade, Adobe achète et installe automatiquement un nouveau certificat.
 
 ### Questions fréquentes
 
 | Question | Réponse |
 |---|---|
-| **Ce processus est-il sécurisé ?** | Oui, le programme géré Adobe est plus sécurisé que notre méthode héritée car aucun certificat ou clé privée ne change de main en dehors d'Adobe et de l'autorité de certification émettrice. |
-| **Comment Adobe peut-il acheter un certificat pour notre domaine ?** | Le certificat ne peut être acheté que lorsque vous avez pointé le nom d'hôte spécifié (smetrics.example.com, par exemple) vers un nom d'hôte détenu par Adobe. Cela a essentiellement pour effet de déléguer ce nom d'hôte à Adobe et de permettre à Adobe d'acheter le certificat en votre nom. |
-| **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Vous devez uniquement ouvrir un ticket auprès de l'assistance clientèle pour terminer le processus. |
+| **Ce processus est-il sécurisé ?** | Oui, le programme géré Adobe est plus sécurisé que notre méthode héritée car aucun certificat ou clé privée ne change de main en dehors d&#39;Adobe et de l&#39;autorité de certification émettrice. |
+| **Comment Adobe peut-il acheter un certificat pour notre domaine ?** | Le certificat ne peut être acheté que lorsque vous avez pointé le nom d&#39;hôte spécifié (smetrics.example.com, par exemple) vers un nom d&#39;hôte détenu par Adobe. Cela a essentiellement pour effet de déléguer ce nom d&#39;hôte à Adobe et de permettre à Adobe d&#39;acheter le certificat en votre nom. |
+| **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Vous devez uniquement ouvrir un ticket auprès de l&#39;assistance clientèle pour terminer le processus. |
 | **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe travaillera avec DigiCert pour émettre un certificat SHA-2. |
 | **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe propose ce service à tous les clients actuels d’Adobe Digital Experience sans frais supplémentaires. |
 
 ## Créer des enregistrements CNAME
 
-L'équipe des opérations réseau de votre organisation doit configurer vos serveurs DNS en créant un ou plusieurs enregistrements CNAME. Chaque nom d'hôte transfère les données aux serveurs de collecte de données d'Adobe.
+L&#39;équipe des opérations réseau de votre organisation doit configurer vos serveurs DNS en créant un ou plusieurs enregistrements CNAME. Chaque nom d&#39;hôte transfère les données aux serveurs de collecte de données d&#39;Adobe.
 
-Le spécialiste FPC vous fournit les noms d'hôtes configurés et les enregistrements CNAME vers lesquels ils doivent pointer. Par exemple :
+Le spécialiste FPC vous fournit les noms d&#39;hôtes configurés et les enregistrements CNAME vers lesquels ils doivent pointer. Par exemple :
 
-* **Nom d'hôte SSL**:`smetrics.mysite.com`
+* **Nom d&#39;hôte SSL**:`smetrics.mysite.com`
 * **Enregistrement CNAME SSL**:`mysite.com.ssl.sc.omtrdc.net`
 * **Nom d’hôte non-SSL**:`metrics.mysite.com`
 * **Enregistrement CNAME non SSL**:`mysite.com.sc.omtrdc.net`
@@ -81,11 +81,11 @@ Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucu
 
 >[!N] Remarque : Le service d’identification des visiteurs d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’identification d’Experience Cloud.
 
-## Envoyer une requête ping au nom d'hôte
+## Envoyer une requête ping au nom d&#39;hôte
 
-Envoyez une requête ping au nom d'hôte pour vérifier que le transfert est correct. Tous les noms d'hôtes doivent répondre à une requête ping pour éviter une perte de données.
+Envoyez une requête ping au nom d&#39;hôte pour vérifier que le transfert est correct. Tous les noms d&#39;hôtes doivent répondre à une requête ping pour éviter une perte de données.
 
-Une fois que les enregistrements CNAME sont correctement configurés et qu'Adobe a confirmé l'installation du certificat, ouvrez une invite de commande et envoyez une requête ping à votre ou vos noms d'hôte. Utilisation d’`mysite.com` comme exemple : `ping metrics.mysite.com`
+Une fois que les enregistrements CNAME sont correctement configurés et qu&#39;Adobe a confirmé l&#39;installation du certificat, ouvrez une invite de commande et envoyez une requête ping à votre ou vos noms d&#39;hôte. Utilisation d’`mysite.com` comme exemple : `ping metrics.mysite.com`
 
 Si tout est correctement configuré, le test renvoie des résultats de ce type :
 
@@ -116,11 +116,11 @@ Avant de modifier le code sur votre site pour utiliser des cookies propriétaire
 Après avoir vérifié que vos noms d’hôtes répondent et procèdent au transfert vers les serveurs de collecte de données d’Adobe, vous pouvez modifier votre mise en œuvre afin de pointer vers vos propres noms d’hôte de collecte de données.
 
 1. Ouvrez votre fichier JavaScript principal (`s_code.js/AppMeasurement.js`).
-1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour les cookies propriétaires, localisez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms d'hôte de collecte de données. Utilisation de mysite.com en tant qu’exemple :`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour les cookies propriétaires, localisez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms d&#39;hôte de collecte de données. Utilisation de mysite.com en tant qu’exemple :`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Transférez le fichier JavaScript principal mis à jour vers votre site.
 
-1. Si vous passez à des cookies propriétaires à partir d'une mise en œuvre de longue date ou passez à un nom d'hôte de collecte propriétaire différent, il est recommandé de migrer les visiteurs du domaine précédent vers le nouveau domaine.
+1. Si vous passez à des cookies propriétaires à partir d&#39;une mise en œuvre de longue date ou passez à un nom d&#39;hôte de collecte propriétaire différent, il est recommandé de migrer les visiteurs du domaine précédent vers le nouveau domaine.
 
 Voir Migration [des](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visiteurs dans le Guide de mise en oeuvre d’Analytics.
 
