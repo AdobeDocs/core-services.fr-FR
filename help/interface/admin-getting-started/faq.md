@@ -22,7 +22,7 @@ Si votre mise en œuvre n’a pas été configurée pour les services principaux
 
 
 1. [Rejoindre Experience Cloud et devenir administrateur](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implement the Experience Cloud ID Service using Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (or the new [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
+1. [Mise en oeuvre du service d’ID Experience Cloud à l’aide du gestionnaire](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) dynamique de balises (ou du nouveau lancement [de la plateforme](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)d’expérience)
 1. [Mapper des suites de rapports à une organisation Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Target uniquement) Moderniser la mise en œuvre d’Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
