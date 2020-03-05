@@ -1,7 +1,7 @@
 ---
-description: Découvrez l’outil d’administration Experience Cloud pour afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud.
+description: Découvrez l’outil d’administration d’Experience Cloud pour afficher une liste pouvant être triée et filtrée de tous les utilisateurs d’Experience Cloud.
 keywords: core services
-seo-description: Découvrez l’outil d’administration Experience Cloud pour afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud.
+seo-description: Découvrez l’outil d’administration d’Experience Cloud pour afficher une liste pouvant être triée et filtrée de tous les utilisateurs d’Experience Cloud.
 seo-title: Affichage des utilisateurs et des détails utilisateur d’Experience Cloud
 solution: Experience Cloud
 title: 'Affichage des utilisateurs et des détails utilisateur d’Experience Cloud '
@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Outil d’administration d’Experience Cloud
+# Affichage des utilisateurs d’Experience Cloud dans l’outil d’administration
 
-L’outil d’administration Experience Cloud permet aux administrateurs d’afficher une liste pouvant être triée et filtrée de tous les utilisateurs d’Experience Cloud. Chaque page de détails de l’utilisateur contient des détails importants sur l’accès au produit d’un utilisateur, ses rôles et les dernières informations accessibles.  
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. (**Remarque :** La gestion des utilisateurs et des produits est configurée dans la Console [d’administration](admin-getting-started.md).)
 
 1. Log in to `https://experience.adobe.com/.`
 
@@ -22,7 +22,7 @@ L’outil d’administration Experience Cloud permet aux administrateurs d’aff
 
 1. Dans la page d’accueil d’Experience Cloud, cliquez sur Outil **[!UICONTROL d’administration.]**
 
-    (Vous pouvez également remplacer _accueil_ par _admin._ dans l’URL de la page d’accueil)
+   (Vous pouvez également remplacer _accueil_ par _admin._ dans l’URL de la page d’accueil)
 
    La page [!UICONTROL Utilisateurs] s’affiche.
 
@@ -38,13 +38,13 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL Courriel] | Adresse électronique associée à l’utilisateur. Vous pouvez trier les colonnes A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Un filtre peut être appliqué pour afficher des types d’ID spécifiques. Voir [Gestion des types](https://helpx.adobe.com/enterprise/using/identity.html) d’identité pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des solutions Experience Cloud auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant d’un accès aux solutions spécifique. |
-| [!UICONTROL Dernière identification] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **** Important : A compter du 13 janvier 2020, les dernières données de connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Dernière identification] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** A compter du 13 janvier 2020, les dernières données de connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
-## Personnalisation de la vue Liste des utilisateurs
+## Personnalisation de l’affichage de la liste des utilisateurs
 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des utilisateurs.
 
-* Recherchez les utilisateurs par nom ou adresse électronique. Les recherches correspondent à la chaîne de texte saisie.
+* Rechercher des utilisateurs par nom ou adresse électronique. Les recherches correspondent à la chaîne de texte saisie.
 * Triez une colonne par valeurs ascendantes ou décroissantes. Cela s’applique aux colonnes [!UICONTROL Nom,] [!UICONTROL Adresse électronique et] Dernière connexion  .
 * Cliquez sur l’icône **[!UICONTROL Filtrer par]** pour appliquer plusieurs filtres à la liste des utilisateurs avec des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la `AND` solution TYPE `AND` d’ID de domaine de courriel.
 
