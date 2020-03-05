@@ -84,7 +84,7 @@ Dans Campaign, un *client* s’affiche comme un *produit* dans la page de produi
 
 Le *groupe de sécurité* s’affiche comme un profil de produits.
 
-Voir [Gestion des groupes et des utilisateurs](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) pour en savoir plus sur les groupes de sécurité et affectation des utilisateurs aux groupes de sécurité.
+Voir [Gestion des groupes et des utilisateurs](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) pour plus d’informations sur les groupes de sécurité et affectation des utilisateurs aux groupes de sécurité.
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
