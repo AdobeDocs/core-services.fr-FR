@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Connexion et gestion des paramètres du profil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 
    Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
 
-1. Sur la page Flux (ou votre page d’entrée par défaut), cliquez sur l’icône de sélecteur ![](assets/menu-icon.png) pour accéder au menu déroulant.
+1. Sur votre , cliquez sur l’icône du sélecteur ![](assets/menu-icon.png) pour accéder au menu déroulant.
 
    ![](assets/experience-cloud-core-services.png)
 
