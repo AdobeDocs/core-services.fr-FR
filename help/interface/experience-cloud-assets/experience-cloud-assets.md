@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Ressources
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -35,7 +35,6 @@ Dans [!UICONTROL Experience Cloud Assets], vous pouvez effectuer les opérations
 * [Modification de ressources ](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Recherche de ressources](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [Annoter des ressources](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [Partager une ressource avec votre flux](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [Afficher des ressources en plein écran et en mode zoom](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Afficher les propriétés des ressources](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Exécuter des rapports sur l’utilisation](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -71,23 +70,13 @@ Vous pouvez effectuer une recherche par mot clé, type de fichier, taille, date 
 
 ## Annotation de ressources {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Cliquez sur **[!UICONTROL Annoter]**en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
+Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## Affichage des ressources en plein écran et en mode zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Image]** pour afficher l’image complète de la ressource et activer le zoom.
+Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Image]** pour afficher l’im
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue sous forme de liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Propriétés]** pour afficher les propriétés d’une ressource :
+Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Cliquez sur **[!UICONTROL Vues]** >**[!UICONTROL  Propriétés]** pour afficher
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** >**[!UICONTROL  Rapports]** > **[!UICONTROL Rapport d’utilisation]**
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport d’utilisation]**
 
 ![](assets/assets-usage-report.png)
