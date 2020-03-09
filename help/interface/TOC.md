@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -34,12 +34,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
    + [Gestion des utilisateurs et des produits Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
-   + [Affichage des détails de l’utilisateur Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Détails de l’utilisateur  Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Questions fréquentes](admin-getting-started/faq.md)
    + [Connexion et gestion des paramètres du profil](admin-getting-started/getting-started-experience-cloud.md)
    + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-   + [Incorporation de contenu](admin-getting-started/oembed.md)
 + Experience Cloud Activation {#activation}
    + [Présentation de l’Activation](activation/activation.md)
    + [Guide de l’utilisateur de Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
@@ -55,7 +54,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Désactivation de la synchronisation des dossiers partagés](experience-cloud-assets/t-disable-asset-sync.md)
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+ Audiences dans Experience Cloud {#audiences}
++   dans Experience Cloud {#audiences}
    + [Présentation des audiences](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
@@ -70,8 +69,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Mise à jour du schéma](attributes/t-update-schema.md)
    + [Considérations sur la confidentialité – Attributs du client](attributes/privacy-mac.md)
 + Gestion des offres {#offer-management}
-   + [Prise en main de la gestion des offres](offer-management/getting-started.md)
-   + [Flux de travaux de gestion des offres](offer-management/offer-management-workflow.md)
+   + [Prise en main de  Gestion  des](offer-management/getting-started.md)
+   + [Flux de travail de gestion  des](offer-management/offer-management-workflow.md)
    + [Offres](offer-management/offers.md)
    + [Étiquettes](offer-management/labels.md)
    + [Emplacements](offer-management/placements.md)
