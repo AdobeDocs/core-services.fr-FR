@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Questions fréquentes et réponses à l’intention des administrateurs dans Exp
 
 Si votre mise en œuvre n’a pas été configurée pour les services principaux, consultez la section [Activation de vos solutions pour les services principaux](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
 
-
 1. [Rejoindre Experience Cloud et devenir administrateur](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mise en oeuvre du service d’ID Experience Cloud à l’aide du gestionnaire](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) dynamique de balises (ou du nouveau lancement [de la plateforme](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)d’expérience)
 1. [Mapper des suites de rapports à une organisation Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Si votre mise en œuvre n’a pas été configurée pour les services principaux
 1. [Vérifier la mise en œuvre des services principaux](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gérer les utilisateurs et les produits](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Commencer à utiliser les services principaux](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 Pour obtenir une aide supplémentaire, [contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
@@ -47,7 +43,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci�
 
 [Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**Qu’est-ce que *`provisioning`*?**
+**Qu’est-ce que _l’approvisionnement ?_**
 
 Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui suit :
 
