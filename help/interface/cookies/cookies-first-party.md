@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -17,12 +17,12 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Ces cookies inoffensifs, qui proviennent d’un domaine hébergé par Adobe, sont appelés cookies tiers.
 
-De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données d’Analytics. Pour prendre en charge le suivi de la manière dont vos visiteurs interagissent avec votre site Web, vous pouvez mettre en oeuvre des cookies propriétaires.
+De nombreux navigateurs et logiciels anti-espion sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données d’Analytics. Pour prendre en charge le suivi de la manière dont vos interagissent avec votre site Web, vous pouvez mettre en oeuvre des cookies propriétaires.
 
 Deux options sont disponibles pour implémenter les cookies propriétaires :
 
 * Service d&#39;ID Experience Platform. Le service d&#39;ID peut définir le cookie dans le contexte propriétaire à l&#39;aide de JavaScript.
-* Entrées DNS sur le serveur DNS de votre entreprise pour configurer un alias CNAME sur un domaine hébergé par Adobe. Veuillez noter que si divers produits Adobe prennent en charge l’utilisation d’un CNAME, dans tous les cas, le CNAME est utilisé pour créer un point de terminaison propriétaire approuvé pour un client spécifique et appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un point de fin CNAME unique pour effectuer le suivi des utilisateurs sur leurs domaines, mais comme cela nécessite des cookies tiers pour tous les domaines en dehors du domaine CNAME, cela ne fonctionne pas lorsque les cookies tiers sont bloqués et n’est donc pas recommandé. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à des clients différents.
+* Les entrées DNS sur votre serveur DNS  de votre pour configurer un alias CNAME sur un domaine hébergé par Adobe. Veuillez noter que si divers produits Adobe prennent en charge l’utilisation d’un CNAME, dans tous les cas, le CNAME est utilisé pour créer un point de terminaison propriétaire approuvé pour un client spécifique et appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un point de fin CNAME unique pour effectuer le suivi des utilisateurs sur leurs domaines, mais comme cela nécessite des cookies tiers pour tous les domaines en dehors du domaine CNAME, cela ne fonctionne pas lorsque les cookies tiers sont bloqués et n’est donc pas recommandé. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à des clients différents.
 
 Même si vous utilisez la première option avec le service d’ID d’Experience Cloud, le protocole ITP d’Apple rend les cookies propriétaires éphémères. Il est donc préférable de l’utiliser conjointement avec la seconde option.
 
@@ -48,7 +48,7 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour les 
 
 1. Lorsque ces enregistrements CNAME sont en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d&#39;Adobe. Si vous disposez d&#39;une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l&#39;environnement de production d&#39;Adobe, vous pourrez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d&#39;hôtes. En d&#39;autres termes, si le site n&#39;est pas sécurisé (https), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (https), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
 
-1. Envoyez une requête ping au nom d&#39;hôte (voir ci-dessous).
+1. Validez le transfert du nom d’hôte (voir ci-dessous).
 
 1. Mettez à jour le code de mise en œuvre (voir ci-dessous).
 
@@ -79,15 +79,29 @@ Le spécialiste FPC vous fournit les noms d&#39;hôtes configurés et les enregi
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
->[!N] Remarque : Le service d’identification des visiteurs d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’identification d’Experience Cloud.
+>[!NRemarque :] Le service d’ID de d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’ID d’Experience Cloud.
 
-## Envoyer une requête ping au nom d&#39;hôte
+## Valider le transfert du nom d’hôte
 
-Envoyez une requête ping au nom d&#39;hôte pour vérifier que le transfert est correct. Tous les noms d&#39;hôtes doivent répondre à une requête ping pour éviter une perte de données.
+Dans le navigateur, cliquez sur <https://sstats.adobe.com/_check>.
 
-Une fois que les enregistrements CNAME sont correctement configurés et qu&#39;Adobe a confirmé l&#39;installation du certificat, ouvrez une invite de commande et envoyez une requête ping à votre ou vos noms d&#39;hôte. Utilisation d’`mysite.com` comme exemple : `ping metrics.mysite.com`
+Vous devriez voir `SUCCESS` revenir. Des erreurs s’affichent si le certificat n’a pas été acheté.
 
-Si tout est correctement configuré, le test renvoie des résultats de ce type :
+Vous pouvez également utiliser [!DNL curl] comme outil de ligne de commande pour la validation :
+
+1. Si vous utilisez [!DNL Windows], installez curl (<https://curl.haxx.se/windows/>).
+1. Si CNAME a toujours besoin d’un certificat, saisissez `curl -k https://sstats.adobe.com/_check` dans la ligne de commande.
+1. Si le certificat est terminé, saisissez `curl https://sstats.adobe.com/_check`.
+
+Vous devriez voir `SUCCESS` revenir.
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,19 +113,19 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-Si les enregistrements CNAME ne sont pas correctement configurés ou pas actifs, le test renvoie les résultats suivants :
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NRemarque :] si vous utilisez le protocole `https:// protocol`, le test ping répond uniquement après la date de transfert précisée par le spécialiste FPC. En outre, veillez à effectuer un test ping sur le nom d’hôte sécurisé et le nom d’hôte non sécurisé pour vous assurer que les deux fonctionnent correctement avant de mettre à jour votre implémentation.
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## Mettre à jour le code de mise en œuvre
 
 Avant de modifier le code sur votre site pour utiliser des cookies propriétaires, procédez comme suit :
 
-* Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Mise en oeuvre* du programme [de certificats gérés](#adobe-managed-certificate-program)Adobe.
+* Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Implémentation* du [de certificats gérés](#adobe-managed-certificate-program)Adobe.
 * Créez des enregistrements CNAME (voir ci-dessus).
-* Appuyez sur le ou les nom(s) d’hôte (voir ci-dessus).
+* Validez le ou les noms d’hôte (voir ci-dessus).
 
 Après avoir vérifié que vos noms d’hôtes répondent et procèdent au transfert vers les serveurs de collecte de données d’Adobe, vous pouvez modifier votre mise en œuvre afin de pointer vers vos propres noms d’hôte de collecte de données.
 
@@ -122,6 +136,6 @@ Après avoir vérifié que vos noms d’hôtes répondent et procèdent au trans
 
 1. Si vous passez à des cookies propriétaires à partir d&#39;une mise en œuvre de longue date ou passez à un nom d&#39;hôte de collecte propriétaire différent, il est recommandé de migrer les visiteurs du domaine précédent vers le nouveau domaine.
 
-Voir Migration [des](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visiteurs dans le Guide de mise en oeuvre d’Analytics.
+Voir Migration [des](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) dans le Guide de mise en oeuvre d’Analytics.
 
 Après avoir transféré le fichier JavaScript, tout est configuré pour la collecte de données de cookies propriétaires. Nous vous recommandons de surveiller la création de rapports Analytics pour les heures suivantes afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
