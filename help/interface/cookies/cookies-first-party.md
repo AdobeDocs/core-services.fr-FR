@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
+source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
 
 ---
 
@@ -26,7 +26,7 @@ Deux options sont disponibles pour implémenter les cookies propriétaires :
 
 Même si vous utilisez la première option avec le service d’ID d’Experience Cloud, le protocole ITP d’Apple rend les cookies propriétaires éphémères. Il est donc préférable de l’utiliser conjointement avec la seconde option.
 
-Pour la deuxième option utilisant un CNAME, si votre site comporte des pages sécurisées utilisant le `https:` protocole, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL afin de mettre en oeuvre des cookies propriétaires. Adobe recommande vivement d’utiliser exclusivement le protocole HTTPS pour la collecte de données, car nous ne prendrons plus en charge la collecte HTTP au cours du second semestre 2020.
+Pour la deuxième option utilisant un CNAME, si votre site comporte des pages sécurisées à l’aide du protocole HTTPS, vous pouvez demander à Adobe d’obtenir un certificat SSL afin de mettre en oeuvre des cookies propriétaires. Adobe recommande vivement d’utiliser exclusivement le protocole HTTPS pour la collecte de données, car nous ne prendrons plus en charge la collecte HTTP au cours du second semestre 2020.
 
 Le processus d&#39;octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l&#39;industrie, et a développé un processus intégré par lequel l&#39;achat et la gestion de ces certificats sont automatisés.
 
@@ -44,13 +44,21 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour les 
 
 1. Remplissez le [formulaire de demande de cookie propriétaire](/help/interface/cookies/assets/FPC_Request_Form.xlsx) et ouvrez un ticket auprès de l’assistance clientèle afin de configurer des cookies propriétaires dans le programme géré Adobe. Chaque champ est décrit avec des exemples dans le document.
 
-1. Créez des enregistrements CNAME (voir les instructions ci-dessous). À la réception du billet, un représentant du service à la clientèle doit vous fournir une paire d’enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu&#39;Adobe puisse acheter le certificat en votre nom. Les enregistrements CNAMES sont similaires à ce qui suit : **Sécurisé** - Par exemple, le nom d’hôte `smetrics.example.com` désigne : `example.com.ssl.d1.omtrdc.net`. **Non sécurisé** : Par exemple, le nom d&#39;hôte `metrics.example.com` désigne : `example.com.d1.omtrdc.net`.
+1. Créez des enregistrements CNAME (voir les instructions ci-dessous).
 
-1. Lorsque ces enregistrements CNAME sont en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d&#39;Adobe. Si vous disposez d&#39;une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l&#39;environnement de production d&#39;Adobe, vous pourrez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d&#39;hôtes. En d&#39;autres termes, si le site n&#39;est pas sécurisé (https), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (https), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
+   À la réception du billet, un représentant du service à la clientèle doit vous fournir une paire d’enregistrements CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu&#39;Adobe puisse acheter le certificat en votre nom. Le CNAMES sera semblable à ce qui suit :
 
-1. Validez le transfert du nom d’hôte (voir ci-dessous).
+   **Secure** - Par exemple, le nom d’hôte `smetrics.example.com` pointe vers : `example.com.ssl.d1.omtrdc.net`.
 
-1. Mettez à jour le code de mise en œuvre (voir ci-dessous).
+   **Non sécurisé** : Par exemple, le nom d&#39;hôte `metrics.example.com` désigne : `example.com.d1.omtrdc.net`.
+
+1. Lorsque ces enregistrements CNAME sont en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d&#39;Adobe.
+
+   Si vous disposez d’une implémentation existante, pensez à la migration des pour conserver vos existants. Une fois que le certificat a été transmis en direct au de production  d’Adobe, vous pouvez mettre à jour les variables de votre serveur de suivi vers les nouveaux noms d’hôtes. Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+
+1. [Validez le transfert](#validate) du nom d’hôte (voir ci-dessous).
+
+1. [Mettre à jour le code](#update) d’implémentation (voir ci-dessous).
 
 ### Maintenance et renouvellements
 
@@ -79,47 +87,39 @@ Le spécialiste FPC vous fournit les noms d&#39;hôtes configurés et les enregi
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
->[!NRemarque :] Le service d’ID de d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’ID d’Experience Cloud.
+>[!NRemarque :]
+>Le service d’ID de d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’ID d’Experience Cloud.
 
-## Valider le transfert du nom d’hôte
+## Valider le transfert du nom d’hôte {#validate}
 
-Dans le navigateur, cliquez sur <https://sstats.adobe.com/_check>.
+Vous pouvez valider le nom d’hôte à l’aide de <https://sstats.adobe.com/_check>. Si vous avez configuré un CNAME et que le certificat est installé, vous pouvez utiliser le navigateur pour la validation. Toutefois, un avertissement de sécurité s’affiche si un certificat n’est pas installé.
 
-Vous devriez voir `SUCCESS` revenir. Des erreurs s’affichent si le certificat n’a pas été acheté.
+**Valider à l’aide de curl**
 
-Vous pouvez également utiliser [!DNL curl] comme outil de ligne de commande pour la validation :
+Adobe recommande d’utiliser [!DNL curl] la ligne de commande. (Si vous vous trouvez sous Windows, vous devez installer [!DNL curl] : <https://curl.haxx.se/windows/>)
 
-1. Si vous utilisez [!DNL Windows], installez curl (<https://curl.haxx.se/windows/>).
-1. Si CNAME a toujours besoin d’un certificat, saisissez `curl -k https://sstats.adobe.com/_check` dans la ligne de commande.
-1. Si le certificat est terminé, saisissez `curl https://sstats.adobe.com/_check`.
+Si vous disposez d’un CNAME mais qu’aucun certificat n’est installé, exécutez :
+`curl -k https://sstats.adobe.com/_check`Réponse : `SUCCESS`
 
-Vous devriez voir `SUCCESS` revenir.
+(**Remarque :** La `-k` valeur désactive l’avertissement de sécurité.)
 
-<!-- ## Ping the hostname
+Si vous avez configuré un CNAME et que le certificat est installé, exécutez :
+`curl https://sstats.adobe.com/_check`Réponse : SUCCÈS
 
-Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+**Valider à l’aide de nslookup**
 
-After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+Vous pouvez utiliser nslookup pour la validation. Utilisation d’`mysite.com` comme exemple : 
 
-If everything is successfully set up, it will return something similar to the following:
+Ouvrez une invite de commande et saisissez `nslookup metrics.mysite.com`
 
-```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
+Si tout est correctement configuré, un retour similaire à :
 
-Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
-```
+nslookup metrics.mysite.comServer :  hiodsibxvip01.corp.adobe.comAdresse :  10.50.112.247
 
-If the CNAME records are not correctly set up or not active, it will return the following:
+Réponse non officielle :
+Nom :    metrics.mysite.comAdresse :  64.136.20,37
 
-`Ping request could not find the host. Please check the name and try again.`
-
->[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
-
-## Mettre à jour le code de mise en œuvre
+## Mettre à jour le code de mise en œuvre {#update}
 
 Avant de modifier le code sur votre site pour utiliser des cookies propriétaires, procédez comme suit :
 
