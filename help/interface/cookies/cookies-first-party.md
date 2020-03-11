@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
+source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
 
 ---
 
@@ -94,15 +94,15 @@ Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucu
 
 Les méthodes suivantes peuvent être validées :
 
-**Validation du navigateur**
+### Validation à l’aide d’un navigateur
 
 Si vous avez configuré un CNAME et que le certificat est installé, vous pouvez utiliser le navigateur pour la validation :
 
-<https://sstats.adobe.com/_check>.
+`https://sstats.adobe.com/_check`
 
-Remarque : Un avertissement de sécurité s’affiche si un certificat n’est pas installé.
+**Remarque :** Un avertissement de sécurité s’affiche si un certificat n’est pas installé.
 
-**Valider à l’aide de[!DNL curl]**
+### Valider à l’aide de [!DNL curl]
 
 Adobe recommande d’utiliser [!DNL [curl](https://curl.haxx.se/)] à partir de la ligne de commande. ([!DNL Windows] les utilisateurs peuvent installer [!DNL curl] à partir de : <https://curl.haxx.se/windows/>)
 
@@ -114,7 +114,7 @@ Si vous disposez d’un CNAME mais qu’aucun certificat n’est installé, exé
 Si vous avez configuré un CNAME et que le certificat est installé, exécutez :
 `curl https://sstats.adobe.com/_check`Réponse : `SUCCESS`
 
-**Valider à l’aide de[!DNL nslookup]**
+### Valider à l’aide de [!DNL nslookup]
 
 Vous pouvez l’utiliser `nslookup` pour la validation. A l’aide `mysite.com`d’un exemple, ouvrez une invite de commande et saisissez `nslookup metrics.mysite.com`
 
