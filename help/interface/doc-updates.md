@@ -1,13 +1,13 @@
 ---
 description: Informations au sujet des mises à jour dans l’aide d’Experience Cloud.
-keywords: services principaux
+keywords: core services
 seo-description: Informations au sujet des mises à jour dans l’aide d’Experience Cloud.
 seo-title: Mises à jour de la documentation – Experience Cloud
-solution: Experience Cloud
+solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 # Mises à jour de la documentation – Experience Cloud
 
 Informations au sujet des mises à jour dans l’aide d’Experience Cloud.
+
+**Mise à jour : 10/03/2020**
+
+Mise à jour de [Valider le transfert](cookies/cookies-first-party.md#validate) du nom d’hôte dans la section des cookies propriétaires.
+
+**Mise à jour : 20/02/2020**
+
+Ajout [des détails utilisateur d’Experience Cloud  (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Mise à jour : 5/09/2018**
 
