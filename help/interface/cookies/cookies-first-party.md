@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,32 +92,43 @@ Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucu
 
 ## Valider le transfert du nom d’hôte {#validate}
 
-Vous pouvez valider le nom d’hôte à l’aide de <https://sstats.adobe.com/_check>. Si vous avez configuré un CNAME et que le certificat est installé, vous pouvez utiliser le navigateur pour la validation. Toutefois, un avertissement de sécurité s’affiche si un certificat n’est pas installé.
+Les méthodes suivantes peuvent être validées :
 
-**Valider à l’aide de curl**
+**Validation du navigateur**
 
-Adobe recommande d’utiliser [!DNL curl] la ligne de commande. (Si vous vous trouvez sous Windows, vous devez installer [!DNL curl] : <https://curl.haxx.se/windows/>)
+Si vous avez configuré un CNAME et que le certificat est installé, vous pouvez utiliser le navigateur pour la validation :
+
+<https://sstats.adobe.com/_check>.
+
+Remarque : Un avertissement de sécurité s’affiche si un certificat n’est pas installé.
+
+**Valider à l’aide de[!DNL curl]**
+
+Adobe recommande d’utiliser [!DNL [curl](https://curl.haxx.se/)] à partir de la ligne de commande. ([!DNL Windows] les utilisateurs peuvent installer [!DNL curl] à partir de : <https://curl.haxx.se/windows/>)
 
 Si vous disposez d’un CNAME mais qu’aucun certificat n’est installé, exécutez :
 `curl -k https://sstats.adobe.com/_check`Réponse : `SUCCESS`
 
-(**Remarque :** La `-k` valeur désactive l’avertissement de sécurité.)
+(La `-k` valeur désactive l’avertissement de sécurité.)
 
 Si vous avez configuré un CNAME et que le certificat est installé, exécutez :
-`curl https://sstats.adobe.com/_check`Réponse : SUCCÈS
+`curl https://sstats.adobe.com/_check`Réponse : `SUCCESS`
 
-**Valider à l’aide de nslookup**
+**Valider à l’aide de[!DNL nslookup]**
 
-Vous pouvez utiliser nslookup pour la validation. Utilisation d’`mysite.com` comme exemple : 
-
-Ouvrez une invite de commande et saisissez `nslookup metrics.mysite.com`
+Vous pouvez l’utiliser `nslookup` pour la validation. A l’aide `mysite.com`d’un exemple, ouvrez une invite de commande et saisissez `nslookup metrics.mysite.com`
 
 Si tout est correctement configuré, un retour similaire à :
 
-nslookup metrics.mysite.comServer :  hiodsibxvip01.corp.adobe.comAdresse :  10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-Réponse non officielle :
-Nom :    metrics.mysite.comAdresse :  64.136.20,37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## Mettre à jour le code de mise en œuvre {#update}
 
