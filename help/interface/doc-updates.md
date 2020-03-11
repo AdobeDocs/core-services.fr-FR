@@ -7,14 +7,14 @@ solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
+source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 ---
 
 
 # Mises à jour de la documentation – Experience Cloud
 
-Informations au sujet des mises à jour dans l’aide d’Experience Cloud.
+Informations sur les mises à jour apportées à la documentation du produit Experience Cloud.
 
 **Mise à jour : 10/03/2020**
 
