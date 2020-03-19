@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Attributs du client
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## Aperçu
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois le transfert effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
@@ -29,16 +29,14 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 
 * **Appartenance au groupe :** pour transférer les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe Adobe Analytics ou Adobe Target.
 
-   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [!DNL Experience Cloud]. Accédez à **[!UICONTROL Administration]** >**[!UICONTROL  Lancer Admin Console]** > **[!UICONTROL Groupes]**. Si les *Attributs du client*sont répertoriés comme l’un des groupes, vous êtes prêt à commencer.
+   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [!DNL Experience Cloud]. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Lancer Admin Console]** > **[!UICONTROL Groupes]**. Si les *Attributs du client* sont répertoriés comme l’un des groupes, vous êtes prêt à commencer.
 
    Les utilisateurs membres du groupe Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
-* **Mbox Target :** mbox.js version 58 ou supérieure est requis pour les attributs du client.
+* **Les attributs du client nécessitent un** Adobe [!DNL at.js] (n’importe quelle version) ou [!DNL mbox.js] la version 58 ou ultérieure.
 
 
-   Voir [Mise en œuvre de mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
-
-* **at.js :** n’importe quelle version.
+   Voir [Comment déployer at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html ou implémentation [de](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)mbox.js).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ L’image suivante est un exemple de fichier de données présentant les donnée
 
 ![](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** >**[!UICONTROL  Attributs du client]**.
+Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
 
 Voir [Transfert des données d’attributs du client](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour en savoir plus sur ce processus.
 
