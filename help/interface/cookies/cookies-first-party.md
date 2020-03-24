@@ -8,7 +8,7 @@ title: Cookies propriétaires
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ Le spécialiste FPC vous fournit les noms d&#39;hôtes configurés et les enregi
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
 >[!NRemarque :]
+>
 >Le service d’ID de d’Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires, mais en raison des récentes modifications Apple ITP, il est toujours recommandé d’allouer un CNAME même lors de l’utilisation du service d’ID d’Experience Cloud.
 
 ## Valider le transfert du nom d’hôte {#validate}
@@ -100,7 +101,9 @@ Si vous avez configuré un CNAME et que le certificat est installé, vous pouvez
 
 `https://sstats.adobe.com/_check`
 
-**Remarque :** Un avertissement de sécurité s’affiche si un certificat n’est pas installé.
+>[!NRemarque :]
+>
+>Un avertissement de sécurité s’affiche si un certificat n’est pas installé.
 
 ### Valider à l’aide de [!DNL curl]
 
