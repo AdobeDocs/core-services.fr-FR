@@ -5,7 +5,7 @@ seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -65,19 +65,22 @@ Si le service d’identification des visiteurs n’est pas encore déployé sur 
 
 Cela indique que vous ne disposez pas des privilèges suffisants pour mapper la suite de rapports à l’organisation grisée. Examinez l’exemple suivant :
 
-![](assets/rs-mapping.png)Sur ce schéma, la clé bleue représente les privilèges d’administrateur. Les lignes grises indiquent la visibilité.
+
+![](assets/rs-mapping.png)
+
+Sur ce schéma, la clé bleue représente les privilèges d’administrateur. Les lignes grises indiquent la visibilité.
 
 Cet utilisateur a accès à deux organisations Experience Cloud. Il a effectué les opérations suivantes :
 
-* Lié son compte administrateur dans la société de connexion Analytics chapek à son compte d’organisation Experience Cloud Chapek Corp.
-* Lié son compte non-administrateur dans la société de connexion Analytics doohan à son compte d’organisation Experience Cloud Chapek Corp.
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * Lié son compte non-administrateur dans la société de connexion Analytics nigel à son compte d’organisation Experience Cloud Nigel Inc.
 
 Les points suivants répertorient les actions de mappage que cet utilisateur peut et ne peut pas effectuer concernant ces suites de rapports :
 
-* La suite de rapports Chapek-prod peut être mappée à l’organisation Chapek Corp, car cet utilisateur est administrateur d’une société de connexion Analytics liée (chapek) et son compte est lié à cette organisation.
-* La suite de rapports Nigel-prod ne peut pas être liée par cet utilisateur, car il n’est pas administrateur d’une société de connexion pour laquelle cette suite de rapports est visible.
-* La suite de rapports Doohan-prod peut être mappée à Chapek Corp, car cet utilisateur est administrateur d’une société de connexion (chapek) liée à l’organisation Experience Cloud (notez qu’il n’est pas administrateur de la société de connexion Analytics doohan). Il est important de souligner que la suite de rapports doohan-prod peut également être mappée à l’organisation Experience Cloud Nigel Inc, même si cet utilisateur ne peut pas procéder au mappage. Dans ce cas, les deux organisations Experience Cloud apparaissent dans la liste, mais Nigel Inc est grisé. Avant le mappage, cet utilisateur doit consulter un administrateur de la société de connexion nigel pour déterminer quelle organisation est la plus adaptée au mappage. L’interface utilisateur affiche un avertissement de conflit potentiel si vous sélectionnez une organisation qui diffère de celle sous laquelle la suite de rapports a été créée à l’origine.
+* [!UICONTROL La suite de rapports Chapek-prod] peut être mappée à [!UICONTROL Chapek] Corp org, car cet utilisateur est l’administrateur d’un de connexion Analytics lié ([!UICONTROL chapek]) et son compte est lié à cette organisation.
+* [!UICONTROL La suite de rapports Nigel-prod ne peut pas être liée par cet utilisateur, car il n’est pas administrateur d’une société de connexion pour laquelle cette suite de rapports est visible.]
+* [!UICONTROL La suite de rapports Doohan-prod] peut être mappée à [!UICONTROL Chapek Corp] car cet utilisateur est l’administrateur d’un  de connexion ([!UICONTROL chapek]) lié à l’organisation Experience Cloud (notez qu’il n’est pas l’administrateur du de connexion Adobe Analytics). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Avant le mappage, cet utilisateur doit consulter un administrateur de la société de connexion nigel pour déterminer quelle organisation est la plus adaptée au mappage. L’interface utilisateur affiche un avertissement de conflit potentiel si vous sélectionnez une organisation qui diffère de celle sous laquelle la suite de rapports a été créée à l’origine.
 
 ## Questions fréquentes {#section_099E485805994C929FF9C9F75219BEE1}
 
