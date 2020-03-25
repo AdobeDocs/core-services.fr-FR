@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: b6bd75d92ce96e852a6e548362988a9b4d529fb9
+source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
 
 ---
 
@@ -24,9 +24,7 @@ Découvrez-en plus sur la connexion à la Console d’administration, la gestion
 
 Découvrez les dernières fonctionnalités de la gestion des utilisateurs d’Experience Cloud.
 
-<!--
-
-### Business ID type
+<!-- ### Business ID type
 
 Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
 
@@ -37,8 +35,7 @@ Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organi
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.)
--->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### Outil Admin
 
