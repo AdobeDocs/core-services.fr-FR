@@ -1,22 +1,22 @@
 ---
 description: Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
-keywords: cookies;confidentialité
+keywords: cookies;privacy
 seo-description: Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
 seo-title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ?{#how-changes-to-third-party-cookie-support-impacts-customers}
+# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Alors que la prise en charge des cookies tiers est de plus en plus limitée sur les navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité sur les différentes solutions Adobe Experience Cloud.
 
-La liste suivante montre de quelle manière la prise en charge des cookies tiers affecte les mises en œuvre actuelles des solutions Adobe Experience Cloud :
+Le suivant  décrit l’impact de la prise en charge des cookies tiers sur les implémentations actuelles des solutions Adobe Experience Cloud :
 
 ## Adobe Analytics et Adobe Target
 
@@ -35,18 +35,17 @@ La liste suivante montre de quelle manière la prise en charge des cookies tiers
 
 * Rechercher:
 
-   * Lorsque la recherche est optimisée en fonction des données Adobe Analytics, elle sera affectée de la même manière qu’Adobe Analytics.
-   * La collecte des données de conversion ne devrait pas affectée.
+   * Lorsque la recherche est optimisée en fonction des données Adobe Analytics, elle est affectée de la même manière qu’Adobe Analytics.
+   * La collecte des données de conversion ne doit pas être affectée.
 
-* Display :
+* Afficher:
 
-   * Aujourd’hui, le remarketing display repose entièrement sur l’utilisation de cookies tiers.
-   * Le display dépend également beaucoup de la disponibilité des différents cookies du réseau publicitaire pour la synchronisation.
-   * L’impact global n’est pas connu. Cependant, en raison du premier point, le display est davantage affecté que d’autres services.
-   * Nous travaillons en interne, ainsi qu’avec nos partenaires publicitaires, pour évaluer l’étendue de l’impact sur la diffusion des publicités.
+   * Le remarketing d’affichage dépend aujourd’hui entièrement de l’utilisation de cookies tiers.
+   * L&#39;affichage dépend également fortement de la disponibilité de divers cookies de réseau publicitaire pour la synchronisation.
+   * L&#39;impact global est inconnu. Toutefois, au premier point, l’affichage est plus affecté que les autres services.
+   * Nous travaillons à l&#39;interne et avec nos partenaires publicitaires pour évaluer l&#39;impact sur les  publicitaires.
 
 * Social:
 
-   * Il n’y a aucun impact sur les publicités de la place de marché Facebook.
-   * Facebook Exchange (FBX) sera affecté de la même manière que la diffusion des publicités display.
-
+   * Les publicités Facebook n’ont aucun impact.
+   * Facebook Exchange (FBX) sera affecté de la même manière que les  d’affichage et d’annonce.
