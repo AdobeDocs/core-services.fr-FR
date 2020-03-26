@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Profitez des fonctions de services principaux suivantes :
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL Personnes] > [!UICONTROl Attributs du client]
+### [!UICONTROL Personnes] > Attributs [!UICONTROL du client]
 
 Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois le transfert effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
