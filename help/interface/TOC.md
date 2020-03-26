@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Cookies des Data Workbench](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies Scene7](cookies/cookies-s7.md)
-   + [Cookies Search&amp;Promote](cookies/cookies-snp.md)
-   + [Cookies Target](cookies/cookies-target.md)
+   + [Cookies [!DNL Scene7]](cookies/cookies-s7.md)
+   + [Cookies [!DNL Search and Promote]](cookies/cookies-snp.md)
+   + [Cookies [!DNL]](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
-   + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
+   + [Impact des modifications apportées à la prise en charge des cookies tiers sur les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
    + [Gestion des utilisateurs et des produits Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
    + [Détails de l’utilisateur  Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -39,7 +39,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Connexion et gestion des paramètres du profil](admin-getting-started/getting-started-experience-cloud.md)
    + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++  d’Experience Cloud {#activation}
    + [Présentation de l’Activation](activation/activation.md)
    + [Guide de l’utilisateur de Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Guide de l’utilisateur du Gestionnaire dynamique de balises](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -68,7 +68,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Configuration des abonnements](attributes/subscription.md)
    + [Mise à jour du schéma](attributes/t-update-schema.md)
    + [Considérations sur la confidentialité – Attributs du client](attributes/privacy-mac.md)
-+ Gestion des offres {#offer-management}
++ Offer Management {#offer-management}
    + [Prise en main de  Gestion  des](offer-management/getting-started.md)
    + [Flux de travail de gestion  des](offer-management/offer-management-workflow.md)
    + [Offres](offer-management/offers.md)
