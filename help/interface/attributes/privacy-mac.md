@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Considérations sur la confidentialité – Attributs du client
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -25,28 +25,28 @@ Considérations et bonnes pratiques relatives aux informations d’identificatio
 * Adresse électronique
 * Numéro de téléphone
 * Numéro de sécurité sociale
-* Autre information permettant de contacter physiquement ou en ligne un individu (varie selon les régions ; vérifiez la législation et les réglementations en vigueur au sujet de la confidentialité et des informations d’identification personnelle pour tous les lieux où vous faites affaire)
+* Autre information permettant de contacter physiquement ou en ligne un individu (varie selon les régions ; Veuillez vérifier et respecter les lois et règlements locaux relatifs à la vie privée et aux informations d’identification personnelle pour tous les endroits où vous faites affaire.)
 
 
-Adobe fournit des outils grâce auxquels les publicitaires peuvent recueillir des informations sur le comportement des visiteurs de leurs sites ou des utilisateurs de leurs applications. Par ailleurs, les publicitaires peuvent utiliser d’autres outils d’Adobe pour compléter ces informations avec des dossiers hors ligne ou externes sur les usagers qu’ils détiennent déjà dans d’autres systèmes de gestion de l’information.
+Adobe fournit des outils grâce auxquels les publicitaires peuvent recueillir des informations sur le comportement des visiteurs de leurs sites ou des utilisateurs de leurs applications. Adobe fournit également des outils qui permettent aux publicitaires d’améliorer ces informations avec des enregistrements de clients hors ligne ou externes que l’annonceur peut avoir dans d’autres systèmes de gestion des informations.
 
-Souvent, les publicitaires ont recours à cette pratique pour préciser les informations disponibles au moment de prendre des décisions marketing et publicitaires appropriées pour leurs clients. Avec Adobe Analytics et Target, les publicitaires peuvent transférer des informations d’identification personnelle (adresses électroniques par exemple) uniquement une fois qu’elles ont été hachées afin qu’il soit impossible de les utiliser pour contacter la personne qu’elles concernent. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. À titre de rappel, Adobe interdit aux publicitaires de lui envoyer des données sensibles, par exemple des dossiers médicaux, des informations de compte financières et des informations sur les mineurs.
+Souvent, les publicitaires ont recours à cette pratique pour préciser les informations disponibles au moment de prendre des décisions marketing et publicitaires appropriées pour leurs clients. Avec Adobe Analytics et Target, les publicitaires peuvent transférer des informations d’identification personnelle (adresses électroniques par exemple) uniquement une fois qu’elles ont été hachées afin qu’il soit impossible de les utiliser pour contacter la personne qu’elles concernent. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. À titre de rappel, Adobe interdit aux publicitaires d’envoyer des informations personnelles sensibles à Adobe, telles que des dossiers médicaux, des informations de compte financier et des informations sur des mineurs.
 
-Adobe réalise que ces types de décisions marketing et publicitaires peuvent avoir des implications sur la vie privée des utilisateurs. C’est pourquoi elle a mis en place des mesures de protection de la vie privée afin d’aider les publicitaires à satisfaire les attentes de leurs clients. Adobe recommande aux publicitaires de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquels ils peuvent utiliser de telles informations.
+Adobe réalise que ces types de décisions marketing et publicitaires peuvent avoir des implications sur la vie privée des utilisateurs. C’est pourquoi elle a mis en place des mesures de protection de la vie privée afin d’aider les publicitaires à satisfaire les attentes de leurs clients. Adobe conseille à ses annonceurs d’examiner attentivement quelles informations sont appropriées à des fins marketing et dans quelles circonstances ils sont autorisés à les utiliser.
 
 **Bonnes pratiques**
 
-Adobe recommande de hacher les informations d’identification personnelle avant de les transférer vers Adobe Analytics ou Target. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. À titre de rappel, Adobe interdit aux publicitaires d’envoyer des données sensibles à Adobe Analytics et Target, par exemple des dossiers médicaux, des informations de compte financières et des informations sur les mineurs.
+Lors du téléchargement d’informations d’identification personnelle vers Adobe Analytics ou  Adobe, Adobe recommande au client de les hacher avant de les transférer vers Adobe. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. À titre de rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe Analytics et aux  Adobe, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
 
-Adobe recommande aux publicitaires de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquels ils peuvent utiliser de telles informations.
+Adobe conseille à ses annonceurs d’examiner attentivement quelles informations sont appropriées à des fins marketing et dans quelles circonstances ils sont autorisés à les utiliser.
 
-La loi relative à la protection de la vie privée ne cessant d’évoluer, Adobe recommande aux publicitaires de respecter trois principes simples :
+La loi sur la protection de la vie privée des consommateurs étant en constante évolution, Adobe recommande aux publicitaires de respecter trois principes communs :
 
 1. Faites ce que vous dites (dans votre politique de confidentialité).
 1. Dites ce que vous faites (dans votre politique de confidentialité).
-1. Ne surprenez pas vos clients.
+1. Ne surprenez pas vos consommateurs.
 
-En tenant compte de ceci, Adobe recommande que lorsqu’il associe des activités de navigation à des informations d’identification personnelle, le publicitaire indique par un avis ou autre que le client est authentifié, en incluant par exemple un message de bienvenue dans l’en-tête du site web. Adobe préconise également aux publicitaires de décrire dans leur politique de confidentialité quel type d’informations de navigation sont associées aux informations d’identification personnelle et dans quelles circonstances elles le sont. Enfin, Adobe recommande vivement aux publicitaires de passer en revue les choix de désinscription qu’ils proposent à leurs clients afin de comprendre si et comment ils peuvent utiliser les informations de profil non authentifiées après désinscription.
+En tenant compte de ceci, Adobe recommande que lorsqu’il associe des activités de navigation à des informations d’identification personnelle, le publicitaire indique par un avis ou autre que le client est authentifié, en incluant par exemple un message de bienvenue dans l’en-tête du site web. Adobe préconise également aux publicitaires de décrire dans leur politique de confidentialité quel type d’informations de navigation sont associées aux informations d’identification personnelle et dans quelles circonstances elles le sont. Enfin, Adobe recommande vivement aux annonceurs d’examiner les choix d’exclusion qu’ils proposent à leurs clients afin de déterminer s’ils peuvent utiliser des  non authentifiés les opt-out de publication d’informations.
 
 <!-- <p> <b>Vinay Geol</b> should help craft privacy regarding how all MAC uses privacy/cookies. Privacy implications around each part of the workflow. Moving from CRM to MAC. Can it include PII? What is PII? What isn't PII? </p> 
 <p>CRM data is Known Data or Info. Going to combine with activity that occurs when visitor was not authenticated. PII wiki: </p> 
