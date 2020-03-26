@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,24 +16,24 @@ source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
 
 Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
 
-Cet article vous aidera à accomplir ce qui suit :
+Cet article vous explique comment :
 
 * Création d’une audience
 * créer une règle ;
-* Utilisation de règles pour définir une audience composite
+* Utiliser des règles pour définir un  composite 
 
-L’illustration ci-après représente deux règles dans une audience composite.
+Le graphique suivant représente deux règles dans un  de  composite.
 
 ![](assets/audience_sharing.png)
 
-Chaque cercle représente une règle qui définit l’adhésion à l’audience. Les visiteurs pouvant être membres dans les deux règles d’audience se confondent pour former une audience définie composite.
+Chaque cercle représente une règle qui définit l’adhésion à l’audience. Les qui remplissent les conditions requises en tant que membres dans les deux  règles  se superposent pour devenir le composite, défini .
 
 >[!NOTE]
 >
 >L’audience est entièrement définie une fois la collecte des données terminée pour la période spécifiée.
-L’exemple suivant explique comment créer des règles pour une audience composite. L’audience se compose comme suit :
+L’exemple suivant explique comment créer des règles pour une audience composite. Ce   est composé des éléments suivants :
 
-* Section Home &amp; Garden (Maison et jardin) dérivée des données de la page ou des données d’Analytics brutes.
+* Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
@@ -46,7 +46,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 1. Dans la page [!UICONTROL Créer une audience], fournissez un titre et une description.
 1. Sous [!UICONTROL Règles], sélectionnez une source d’attribut :
 
-   * **[!UICONTROL Données Analytics en temps réel :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Analytics en temps réel incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+   * **[!UICONTROL Données Analytics en temps réel :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Analytics en temps réel incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure des variables utilisée par la suite de rapports.
    >[!NOTE]
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
@@ -63,7 +63,7 @@ Sous [!UICONTROL Règles], définissez les sélections d’attributs *`Home & Ga
 
 * **[!UICONTROL Source d’attribut :]** données Analytics brutes
 * **[!UICONTROL Suite de rapports :]** suite de rapports 31
-* Dimension = **[!UICONTROL Magasin (Merch) (v6)]** > **[!UICONTROL Égal à]** > **[!UICONTROL Home &amp; Garden (Maison et jardin)]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
 ![](assets/home_garden.png)
 
@@ -78,13 +78,13 @@ Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour affiche
 
 ![](assets/audiences_rule_patio.png)
 
-La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Home &amp; Garden (Maison et jardin). Le segment Patio et meubles donne des informations supplémentaires sur tous les visiteurs qui accèdent à cette section du site.
+La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Home &amp; Garden (Maison et jardin). Le segment Patio et meubles fournit des informations supplémentaires sur tous les qui visitent cette section du site.
 
 ![](assets/defined_audience.png)
 
 * **Historique (estimation) :** (Cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
-* **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager ont 30 jours, le trait devient plein et représente les chiffres réels.
+* **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données  Gestionnaire de  de atteignent 30 jours, la ligne devient pleine et représente les nombres réels.
 
-Une fois la collection des données terminée pour la période spécifiée, les cercles se combinent pour montrer une audience définie.
+Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher un   défini.
 
-Une fois l’audience enregistrée, elle est disponible pour les autres solutions. Par exemple, vous pouvez inclure une audience partagée dans une activité Target.
+Une fois l’audience enregistrée, elle est disponible pour les autres solutions. Vous pouvez, par exemple, inclure un  partagé  dans unde Adobe.
