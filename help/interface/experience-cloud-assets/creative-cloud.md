@@ -1,13 +1,13 @@
 ---
-description: Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des solutions Experience Cloud telles que Social et Target. Le dossier partagé doit provenir d’Experience Cloud.
+description: Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des solutions Experience Cloud telles qu’Adobe Social et Adobe . Le dossier partagé doit provenir d’Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des solutions Experience Cloud telles que Social et Target. Le dossier partagé doit provenir d’Experience Cloud.
+seo-description: Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des solutions Experience Cloud telles qu’Adobe Social et Adobe . Le dossier partagé doit provenir d’Experience Cloud.
 seo-title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
 solution: Experience Cloud
 title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
