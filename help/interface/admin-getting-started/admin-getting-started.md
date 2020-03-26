@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [Migration des identifiants utilisateur Analytics](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target - profils de produit par rapport aux espaces de travail {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Dans Target, un espace de travail est un profil de produits. Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans Adobe Analytics.
+Dans  Adobe, un espace de travail est un  de produit. Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans Adobe Analytics.
 
 Voir :
 * [Autorisations des utilisateurs d’Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Gestion des produits et des  de](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Vidéo : [Comment configurer  espaces de travail dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Vidéo : [Comment configurer les espaces de travail  Adobe dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - profils de produits, clients et groupes de sécurité {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ Lorsque vous invitez un utilisateur à rejoindre une organisation, vous pouvez l
 Pour plus d&#39;informations, consultez :
 
 * [Gestion des produits et des  de](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Autorisations](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) d’utilisateur d’entreprise dans l’ d’aide pour plus d’informations.
-* Vidéo : [Comment configurer  espaces de travail dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Autorisations](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) des utilisateurs d’entreprise dans l’ d’Adobe pour plus d’informations.
+* Vidéo : [Comment configurer les espaces de travail  Adobe dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Attribution d’autorisations d’accès Analytics à un profil de produits {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Vous pouvez par exemple créer un profil de produits qui contient plusieurs outi
 |--- |--- |
 | Report Suites (Suites de rapports) | Activez les autorisations pour des suites de rapports spécifiques. |
 | Mesures | Activez les autorisations pour le trafic, la conversion, les  personnalisées, les  de solution, la reconnaissance du contenu, etc. |
-| Dimensions | Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement. |
+| Dimensions | Personnalisez l’accès des utilisateurs à un niveau détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de chemins. |
 | Outils de suites de rapports | Activez les autorisations utilisateur pour les services Web, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments . |
 | Outils Analytics | Activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, les outils, l’accès au service web, le Report Builder et l’intégration des Data Connectors. Les paramètres d’entreprise de la catégorie de personnalisation d’Admin Console ont été déplacés dans les outils Analytics. |
 
@@ -185,7 +185,7 @@ Les navigateurs pris en charge par Experience Cloud sont les suivants :
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
+**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **Exigences en matière de solution et de produit**
 
