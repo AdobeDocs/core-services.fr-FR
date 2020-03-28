@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: À propos du fichier de données et des sources de données pour les attributs du client
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ Vous allez devoir accéder à la gestion de la relation client ou à d’autres 
 
 La fonction Attributs du client est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## Types de fichiers autorisés et exigences en termes d’attribution de noms {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ La fonction Attributs du client est conçu pour gérer quelques fichiers par jou
  </tbody> 
 </table>
 
-
 ## Conditions requises pour les fichiers de données d’attributs {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **Exemple de fichier CSV**
 
 Le fichier CSV doit respecter le format suivant :
-
-Exemple de fichier CSV :
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ Le même fichier affiché dans un éditeur de texte :
  </tbody> 
 </table>
 
-
 ## Utilisation de plusieurs sources de données {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 Lors de la création, de la modification ou de la suppression de sources d’attributs du client, un délai d’une heure est nécessaire avant que les identifiants ne commencent à se synchroniser avec la nouvelle source de données.
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes.
+Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes..
