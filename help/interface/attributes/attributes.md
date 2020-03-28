@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: Attributs du client
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Attributs du client
-
-## Aperçu
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 ![](assets/custom_reports.png)
 
 ## Conditions requises pour le transfert des attributs du client {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **Activation de la solution :** [activez vos solutions pour les services principaux](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
@@ -34,7 +31,6 @@ Si vous capturez les données clients d’entreprise dans une base de données d
    Les utilisateurs ajoutés au groupe Attributs du client verront l’option de menu Attributs [!UICONTROL du] client sur le côté gauche de l’interface d’Experience Cloud.
 
 * **Les attributs du client nécessitent un** Adobe [!DNL at.js] (n’importe quelle version) ou [!DNL mbox.js] la version 58 ou ultérieure.
-
 
    Voir [Comment déployer at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) ou la mise en oeuvre [de](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)mbox.js.
 
@@ -59,4 +55,4 @@ Par exemple :
 | Solution | Avantages et cas d’utilisation |
 |--- |--- |
 | Adobe Analytics | Les marketeurs et analystes peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces pour vos clients de niveau or.</li><li>Produits recherchés par les clients de niveau or par rapport aux produits recherchés par les clients de niveau platine.</li><li>Si la reconception de votre site a un impact positif sur les  pour les clients plus âgés.</li><li>Quels produits les clients ayant une faible valeur de durée de vie ont tendance à rechercher sur mon site ?</li></ul> |
-| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe  de :<ul><li>Montrez aux membres du club de fidélité des réductions spéciales et   de.</li><li>Recommandez des produits plus chers à vos clients de luxe.</li><li>Pour les clients qui reçoivent déjà des courriers électroniques, affichez un de vente incitative  dans l’espace normalement réservé aux abonnements par courrier électronique.</li></ul> |
+| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe  de :<ul><li>Montrez aux membres du club de fidélité des réductions spéciales et   de.</li><li>Recommandez des produits plus chers à vos clients de luxe.</li><li>Pour les clients qui reçoivent déjà des courriers électroniques, affichez un  de vente incitative  dans l’espace normalement réservé aux abonnements par courrier électronique.</li></ul> |
