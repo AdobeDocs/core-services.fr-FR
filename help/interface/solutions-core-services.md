@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: À propos des nouveaux noms de cloud dans Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -101,23 +101,10 @@ Adobe Campaign vous permet de planifier, de livrer et de mesurer vos campagnes s
 
 ![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
-Adobe Primetime est une plate-forme TV multi-écran qui aide les diffuseurs à créer des expériences télévisuelles et cinématographiques attrayantes, personnalisées pour n’importe quel .
+Adobe Primetime est une plate-forme TV multi-écran qui aide les diffuseurs à créer des expériences télévisuelles et cinématographiques attrayantes personnalisées pour n’importe quel .
 
 ## Que sont les services principaux ?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[Les services principaux](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) incluent des fonctionnalités qui simplifient la mise en œuvre de produits et permettent des processus inter-solutions tels que la segmentation d’audience, le chargement d’attributs du client et les outils de collaboration.
+[Les services principaux](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) incluent des fonctionnalités qui simplifient la mise en œuvre de produits et permettent des processus inter-solutions tels que la segmentation d’audience, le chargement d’attributs du client et les outils de collaboration.
 
 ![](assets/core-services.png)
-
-| Service principal | Description |
-|--- |--- |
-| [Activation](activation/activation.md) | Systèmes de gestion des balises (lancement de la plateforme d’expérience et gestion dynamique des balises).<br>Avec Triggers, vous pouvez agir en temps réel dans Adobe Campaign en fonction des informations récupérées dans Adobe Analytics. |
-| [Administration](admin-getting-started/admin-getting-started.md) | Gérez les droits des utilisateurs et des produits sur tous vos clouds et solutions Adobe. |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Stockez, synchronisez et partagez facilement toutes vos ressources numériques dans un emplacement central, pour gagner du temps et offrir une expérience client plus cohérente. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch représente la nouvelle génération des fonctionnalités de gestion des balises d’Adobe. ] [!UICONTROL Experience Platform ] Launch offre aux clients un moyen simple de déployer et de gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour offrir des expériences client pertinentes. |
-| [Orchestration du parcours](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration est un service d’application intégré à Experience Platform.] |
-| [Service d’emplacement](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Service d’emplacement) est un service de géolocalisation qui permet aux applications mobiles connaissant l’emplacement de comprendre le contexte de l’emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d’une base de données flexible de points d’intérêt (POI). |
-| Offres |  Gestion des  de fournit la création, la gestion et la prise de décision de  de à l’échelle de l’ensemble des dans Experience Cloud. |
-| [Exchange](exchange.md) | Recherchez, parcourez, sélectionnez, payez et téléchargez les extensions Digital Marketing via des applications. |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications mobiles. |
-| Personnes | Créez une vue d’ensemble exhaustive des clients individuels en connectant vos données Adobe et non-Adobe à vos solutions Experience Cloud. Déterminez ce qui importe le plus à leurs yeux quand ils interagissent sur les points tactiles. Reconnaissez les consommateurs réguliers qui visitent votre site à partir de nouveaux appareils. Même regrouper les utilisateurs dans   pour des actions marketing ciblées.<br>[Audiences](audience-library/audience-library.md) : catégorisez les différents types de clients sous forme d’audiences, puis partagez celles-ci dans l’ensemble des solutions Experience Cloud.<br>[Attributs du client](attributes/attributes.md) : enrichissement d’audience qui vous permet de connecter les informations de consommateur que vous avez collectées à l’extérieur du Experience Cloud.<br>[Graphique](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) de périphériques - Collaborez avec les marques les plus populaires du monde pour reconnaître un consommateur familier derrière un périphérique inconnu. (En version bêta, pour les membres de la coopération des dispositifs de Experience Cloud uniquement.) |
