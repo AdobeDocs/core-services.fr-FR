@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
    ![Résultat de l’étape](assets/04_crs_usecase.png)
 1. Sur la page [!UICONTROL Modifier la source d’attributs cliente], configurez les champs suivants :
 
-
    * **[!UICONTROL Nom :]** nom convivial de la source d’attributs de données. Pour [!DNL Adobe Target], les noms d’attribut ne peuvent pas contenir d’espaces. Si un attribut comportant un espace est transmis, [!DNL Target] l’ignore. Les autres caractères non pris en charge sont les suivants :`< , >, ', "`.
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
@@ -97,18 +96,15 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
          Par exemple, *&quot;crm_ id&quot;* dans :
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS :** L’ID d’alias correspond à *&quot;idType&quot;* dans [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Par exemple :
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android :** L’ID d’alias correspond à *&quot;idType&quot;* dans [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
          Pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client, voir [Utilisation de plusieurs sources de données](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
    * **[!UICONTROL Transfert de fichiers :]** faites glisser et déposez le fichier de données `.csv`, ou transférez les données par FTP. (en cas de transfert par FTP, un fichier `.fin` est également requis.) Voir [Transfert des données par FTP.](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)
 
-
       >[!IMPORTANT]
       >
       >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) pour en savoir plus.
 
 
       Après avoir transféré le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Téléchargement du fichier] sur cette page. Vous pouvez valider le, configurer  ou configurer le FTP.
-
-
 
       **Graphique du téléchargement du fichier**
 
@@ -138,13 +131,6 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
    * **[!UICONTROL ID fournis par le client avec alias pour les identifiants visiteur Experience Cloud :]** Affiche le nombre d’identifiants qui ont reçu un alias vers les ID visiteurs Experience Cloud.
 
    * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Pour l’instant, le système invalide l’identifiant fourni par le client et ne distribue plus les attributs associés.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (suppri
 ## (Facultatif) Mise à jour du schéma (suppression des attributs) {#task_6568898BB7C44A42ABFB86532B89063C}.
 
 Suppression des attributs et remplacement des attributs dans le schéma.
-
 
 1. Sur la page [!UICONTROL Modifier la source d’attributs cliente], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous [!UICONTROL Configurer les abonnements]).
 1. [Téléchargez un nouveau fichier de données avec les champs mis à jour](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Les données sont désormais disponibles dans les solutions comme
 Adobe Analytics
 </keyword>, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
-L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs transférés. Ce segment présente les abonnés à Photoshop Lightroom dont le produit le plus souvent lancé est Photoshop.
+L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs transférés. This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Pour plus d’informations, voir Rapport [Attributs](https://docs.adobe.com/help
 
 ## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-Dans Target, vous pouvez sélectionner un attribut de client à partir de la section de profil du visiteur lors de la création d’une audience. Tous les attributs du client auront le préfixe [!DNL crs.] dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience.  Tous les attributs du client auront le préfixe [!DNL crs.] dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![](assets/crs-add-attribute-target.png)
 
