@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Questions fréquentes, restrictions et bonnes pratiques
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -18,11 +18,11 @@ Questions fréquentes et bonnes pratiques sur les attributs du client dans Analy
 
 ## Bonnes pratiques et restrictions  {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Conseils et limites lors de l’utilisation des attributs du client.
+Conseils et limites lors de l’utilisation des attributs [!UICONTROL du]client.
 
 | Problème | Description |
 |--- |--- |
-| Attribut du client   limites | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur Nombre maximal d’abonnements des attributs s’affiche durant ce délai. |
+| [!UICONTROL Attribut] du client  limites  | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur Nombre maximal d’abonnements des attributs s’affiche durant ce délai. |
 | Connexions multiples sur le même périphérique | Lors de l’utilisation des attributs du client pour transférer des  du client dans une source de données, Adobe recommande de ne pas autoriser les utilisateurs qui partagent le même périphérique (c’est-à-dire le même ID Experience Cloud). Ce faisant, le service ECID, qui persiste sur le périphérique, peut lier plusieurs utilisateurs sous le même ID Experience Cloud, ce qui entraîne des résultats inattendus [!DNL Target]. **Remarque :** Pour Mobile, l’ECID est permanent une fois l’application Mobile installée. Vous devez réinstaller l’application pour générer un nouvel ECID. Pour le Web, un nouvel ECID est généré une fois le cookie du navigateur effacé. |
 | Limite quotidienne du transfert de fréquence | Adobe recommande de ne mettre à jour les attributs du client qu’une seule fois par jour. Vous devez attendre au moins 24 heures pour télécharger un autre fichier de données de client pour le même jeu de  de. |
 | Identifiant Analytics personnalisé (`s.visitorID`) | La définition d’un ID de client à l’aide de `s.visitorID` permet d’identifier les utilisateurs dans Analytics. Toutefois, les intégrations dans lesquelles les données Analytics sont exportées ou importées à l’aide du service d’ID ne fonctionneront pas lorsqu’un est identifié à l’aide de `s.visitorID.`<br>cette méthode, notamment les  de  partagées, Analytics pour Adobe (A4T) et les attributs du client.<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
