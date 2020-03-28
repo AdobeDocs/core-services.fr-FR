@@ -1,26 +1,20 @@
 ---
 description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 seo-title: Connexion et gestion des paramètres du profil
-solution: Marketing Cloud
-title: Connexion et gestion des paramètres du profil
+solution: Experience Cloud
+title: Connectez-vous et gérez vos paramètres  Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Connexion et gestion des paramètres du profil
+# Connectez-vous et gérez vos paramètres  Experience Cloud
 
-La connexion à Experience Cloud (plutôt que la connexion à une seule solution) permet l’authentification unique de toutes les solutions et services que vous détenez. Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+La connexion à Experience Cloud (plutôt que la connexion à une seule solution) permet l’authentification unique de toutes les solutions et services que vous détenez. Cette aide décrit la connexion à Experience Cloud, la gestion des mots de passe et des notifications et la spécification d’un  par défaut.
 
 >[!IMPORTANT]
 >
