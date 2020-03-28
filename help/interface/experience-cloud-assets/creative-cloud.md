@@ -5,9 +5,8 @@ seo-description: Partagez des dossiers et des ressources entre Experience Cloud 
 seo-title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
 solution: Experience Cloud
 title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
-uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
