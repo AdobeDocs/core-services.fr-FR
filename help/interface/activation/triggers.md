@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,27 +16,25 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## Présentation de Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*Triggers* vous permet de définir et de surveiller les comportements clés des consommateurs, puis de mettre en place une communication inter-solutions destinée à réengager les visiteurs. Vous pouvez utiliser des triggers pour la personnalisation et les décisions en temps réel.
+*Les déclencheurs* vous permettent d’identifier, de définir et de surveiller les comportements clés des consommateurs, puis de générer une communication inter-solutions pour réengager les. Vous pouvez utiliser des déclencheurs dans les décisions et la personnalisation en temps réel.
 
-* Configurez un remarketing rapide pour les abandons de panier ou les abandons de panier sans suppression de produits.
+* Configuration d’un marketing de relance rapide pour les abandons de panier ou les abandons de panier avec suppression des produits
 * Formulaires et demandes incomplets
-* Actions ou séquence d’actions sur site
+* Actions ou séquence d’actions sur le site
 
 ![](assets/trigger-abandonment-2.png)
 
-**Types de Triggers**
+### Types de Triggers
 
 En règle générale, un trigger peut prendre 15 à 90 minutes pour lancer une campagne marketing. Cela varie selon l’implémentation de la collecte de données, la charge sur le pipeline, la configuration personnalisée du trigger défini et le workflow dans Adobe Campaign.
 
 * **Abandon :** Vous pouvez créer un trigger qui se déclenche lorsqu’un visiteur consulte un produit mais ne l’ajoute pas au panier. Configurez le [score de propension](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334) pour déterminer la tendance des clients à ne pas retourner sur un site après l’abandon d’un panier.
-* **Action :** Vous pouvez créer des triggers, par exemple, pour qu’ils se déclenchent après des inscriptions à une newsletter, des abonnements par e-mail ou des demandes de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
-* **Début et de fin de session :** Créez un trigger pour les événements de début et de fin de session.
+* **Action :** Vous pouvez créer des déclencheurs, par exemple, pour qu’ils se déclenchent après les abonnements au bulletin d’information, les de  par courrier électronique ou les demandes de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans les médias et le divertissement, créez des déclencheurs pour les qui regardent un certain programme, et peut-être souhaitez-vous répondre avec un .
+* **de session et fin de session :** Créez un déclencheur pour les  de session et les  de fin de session.
 
 ## Création d’un trigger Experience Cloud {#task_821F37183AC045E5AC8EED20317598FE}
 
-Créez un trigger d’abandon et configurez les conditions du trigger et du score de propension. Vous pouvez par exemple indiquer les critères des règles d’un trigger pendant une visite, comme des mesures telles que Abandon du panier ou des dimensions telles que le nom du produit. Lorsque les règles sont satisfaites, le trigger s’exécute.
-
-<!-- t_create-trigger.xml -->
+Créez un trigger d’abandon et configurez les conditions du trigger et du score de propension. Vous pouvez par exemple indiquer les critères des règles d’un trigger pendant une visite, comme des mesures telles que Abandon du panier ou des dimensions telles que le nom du produit. Lorsque les règles sont satisfaites, le déclencheur s’exécute.
 
 >[!NOTE]
 >
@@ -53,16 +51,16 @@ Créez un trigger d’abandon et configurez les conditions du trigger et du scor
 
 1. Configurez le trigger en renseignant les champs suivants et en faisant glisser les éléments de mesure et de dimension vers les conteneurs de la règle :
 
-   | Élément | Description |
+   | Elément | Description |
    |--- |--- |
-   | Nom | Nom convivial du trigger. |
-   | Description | Description du trigger, de sa fonction, etc. |
-   | Suite de rapports | La [suite de rapports](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) Analytics utilisée pour ce trigger. Ce paramètre identifie les données de rapport à utiliser. |
-   | Visite doit inclure<br>Visite ne doit pas inclure<br>Trigger après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire.  Par exemple, des règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>Visite doit inclure : Ajout au panier (mesure) et Existe. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>Visite ne doit pas inclure : passage en caisse</li><li>Trigger après aucune action pendant : 10 minutes</li><li>Inclure les métadonnées : permet d’ajouter une dimension spécifique de Campaign ou des variables qui sont pertinentes pour le comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique Quelconque, Et ou Ou dans ou entre des conteneurs, selon les critères que vous déterminez importants pour la règle. |
+   | Nom | Nom convivial de ce déclencheur. |
+   | Description | Description de ce déclencheur, de son utilisation, etc. |
+   | Suite de rapports | Suite [de](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) rapports Analytics utilisée pour ce déclencheur. Ce paramètre identifie les données  du à utiliser. |
+   | Visit must include<br>Visit must not include<br>Trigger after no action<br>Include meta data | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire.  Par exemple, des règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>Visite doit inclure : Ajout au panier (mesure) et Existe. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>Visite ne doit pas inclure : passage en caisse</li><li>Trigger après aucune action pendant : 10 minutes</li><li>Inclure les métadonnées : permet d’ajouter une dimension spécifique de Campaign ou des variables qui sont pertinentes pour le comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique Quelconque, Et ou Ou dans ou entre des conteneurs, selon les critères que vous déterminez importants pour la règle. |
    | Conteneur | Vous définissez et stockez des règles, des conditions ou des filtres qui définissent un trigger dans les conteneurs. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau de l’accès.  Par exemple, si deux conteneurs sont associés par l’opérateur Et, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux accès répondent aux exigences. |
-   | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
+   |  nouvelle session après | Créez un déclencheur pour les  de session et les  de fin de session. |
 
-1. (Facultatif) Dans les triggers d’abandon, vous pouvez appliquer un [score de propension](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
+1. (Optional) In [!UICONTROL Abandonment triggers], you can apply [Propensity Scoring](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
 
    ![Résultat de l’étape](assets/propensity-scoring.png)
 
@@ -71,13 +69,15 @@ Créez un trigger d’abandon et configurez les conditions du trigger et du scor
 
 ### Exemples de triggers
 
-**Trigger d’abandon de panier**
+Exemples de déclencheurs Experience Cloud :
 
-Par exemple, la page suivante montre les règles que vous pouvez utiliser pour un trigger d’abandon de panier, selon les produits consultés lors d’une visite.
+#### Déclencheur d&#39;abandon de panier
+
+Par exemple, la page suivante présente les règles que vous pouvez utiliser pour un trigger d’abandon de panier, en fonction des produits consultés au cours d’une visite.
 
 ![](assets/abandonment-trigger.png)
 
-**Trigger de référent**
+#### Déclencheur de 
 
 Le trigger suivant se déclenche lorqu’un accès est associé au produit Men’s Boots et au référent Facebook. Pour que les deux critères ( *produits* et *référents*) soient évalués dans le même accès, ils doivent être ajoutés au même conteneur.
 
@@ -85,30 +85,28 @@ Le trigger suivant se déclenche lorqu’un accès est associé au produit Men�
 
 ## Score de propension {#concept_A506150674AD45DB98D3CC07E560D334}
 
-<!-- propensity-scoring.xml -->
-
 Déterminez la tendance des clients à retourner sur un site après l’abandon d’un panier. Le score de propension est intégré à Experience Cloud Triggers. Il est disponible pour les triggers d’abandon.
 
 ![Résultat de l’étape](assets/propensity-scoring.png)
 
-Par exemple, certains clients abandonnent leur panier pour bénéficier d’avantages proposés afin de retourner sur le site. Pour limiter la baisse du chiffre d’affaires, l’algorithme du score de propension permet d’identifier les visiteurs ayant abandonné leur panier qui ne retourneront pas sur le site sans offres spéciales.
+Par exemple, certains clients abandonnent leurs paniers d’achat pour profiter des encouragements par courriel pour retourner dans le panier. Pour réduire la perte de recettes, l’algorithme Score de propension permet d’identifier les abandons de panier concernés qui ne reviendraient probablement pas sans l’incitation.
 
 Vous pouvez :
 
-* Éviter de surexposer les clients au remarketing.
-* Identifier les bons clients ayant abandonné leur panier et mapper leur activité au bon message.
-* Accroître le chiffre d’affaires en sachant quels clients reviendront ou non sur le site.
+* Evitez de surexposer vos clients au marketing de relance.
+* Identifiez les bons clients qui abandonnent leur panier et mappez leurs   au bon message.
+* Augmentez les recettes en sachant quels clients reviendront ou non.
 
-## Avantages du score de propension  {#section_CA99874A25434CC0BF01D0DA61608889}
+### Avantages du score de propension  {#section_CA99874A25434CC0BF01D0DA61608889}
 
-Vous pouvez effectuer une découverte de données pour identifier les comportements masqués ou les modèles qui existent dans les données. Le score de propension permet tout particulièrement d’identifier des groupes de clients similaires à l’aide de méthodes plus objectives et ciblées que la segmentation ou le filtrage. En outre, le score de propension permet de configurer des fonctionnalités de prédiction pour identifier le comportement des clients à forte valeur ajoutée de votre entreprise.
+Vous pouvez effectuer une découverte de données pour identifier les comportements ou modèles masqués qui existent dans vos données. Le score de propension permet tout particulièrement d’identifier des groupes de clients similaires à l’aide de méthodes plus objectives et ciblées que la segmentation ou le filtrage. En outre, le score de propension vous permet de configurer des fonctionnalités de prévision pour identifier le comportement de votre  client à forte valeur.
 
-Une fois l’audience à forte valeur ajoutée identifiée, vous pouvez entrer en contact avec elle. Par exemple, si vous êtes une entreprise B2B, vous pouvez disposer de prospects pour des appels commerciaux qui peuvent être comptabilisés et pour lesquels vous pouvez déterminer la probabilité de conversion hors ligne. Dans la mesure où chaque prospect augmente les coûts, la création d’une offre spéciale qui permet d’identifier les clients pour lesquels la probabilité de conversion est la plus élevée est plus efficace et plus rentable en ce qui concerne l’attribution de vos ressources.
+Une fois que vous avez identifié le  à forte valeur , vous pouvez alors l&#39;interagir le plus efficacement possible. Par exemple, si vous êtes une entreprise B2B, vous pouvez disposer de prospects pour des appels commerciaux qui peuvent être comptabilisés et pour lesquels vous pouvez déterminer la probabilité de conversion hors ligne. Chaque prospect augmentant les coûts, la création d&#39;une incitation pour identifier les clients potentiels ayant la plus forte probabilité de conversion d&#39;une vente est la méthode la plus efficace et la moins coûteuse pour concentrer vos ressources.
 
-Le score de propension aide à identifier les facteurs qui permettent le plus de prévoir un score spécifique ou d’augmenter la probabilité qu’un événement ait lieu. Il permet aussi de répondre à des questions spécifiques :
+Le score de propension permet d&#39;identifier les facteurs qui sont les plus prédictifs d&#39;un score particulier ou d&#39;augmenter la probabilité qu&#39;un ait lieu, mais il peut aussi être appliqué pour répondre à des questions spécifiques :
 
-* Le client fera-t-il l’objet d’une conversion ?
-* Le client répondra-t-il à un e-mail ?
-* Le client effectuera-t-il un nouvel achat ?
+* Le client va-t-il effectuer une conversion ?
+* Le client répondra-t-il à un courriel ?
+* Le client rachètera-t-il ?
 
-Le score de propension vous permet de répondre à ces questions et d’identifier les visiteurs ayant tendance à passer à l’action qui peuvent être configurés et comptabilisés.
+Le score de propension vous permet de répondre à ces questions et d’identifier les ayant une tendance à l’action qui peut ensuite être configurée et notée.
