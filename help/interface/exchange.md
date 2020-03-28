@@ -1,38 +1,35 @@
 ---
-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
+description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
 keywords: core services
-seo-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
+seo-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Exchange Marketplace
 
-Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
+Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Aide]** &gt; **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
 
-<!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
-<p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
+* Téléchargez des kits SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
 
-* Téléchargez des kits SDK, lisez de la documentation et envoyez des applications à Digital Marketing pour examen.
-
-* Les clients peuvent rechercher des extensions Digital Marketing, les sélectionner et les installer.
+* Les clients peuvent rechercher, sélectionner et installer les extensions Digital Marketing.
 
 * Les administrateurs peuvent configurer les applications téléchargées.
 
-* Examinez les envois des développeurs, naviguez dans une application et ajoutez des commentaires ou évaluez chaque application.
+* Examinez les envois des développeurs, parcourez l’application et commentez ou évaluez chaque application.
 
-* Refusez ou approuvez des applications.
+* Refusez ou approuvez les applications.
 
-* Publiez-les dans Experience Cloud.
+* Publiez dans Experience Cloud.
 
-* Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
+* Recherchez et filtrez par ,, type, utilisateur, etc.
 
-Pour en savoir plus, voir [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).
+See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
