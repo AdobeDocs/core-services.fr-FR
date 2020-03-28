@@ -1,13 +1,13 @@
 ---
 description: Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
-keywords: partage de ressources;Creative Cloud;services principaux
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
 seo-title: Partage d’un dossier de ressources Experience Cloud
-solution: Experience Cloud
+solution: Experience Cloud
 title: Partage d’un dossier de ressources Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -39,7 +39,7 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 
    ![](assets/asset_comment_cc.png)
 
-   Dans Experience Cloud, cliquez sur une image, puis sur l’icône de frise chronologique pour ajouter un commentaire à l’image. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et dans Experience Cloud.
+   Dans Experience Cloud, cliquez sur une image, puis sur l’icône de frise chronologique pour ajouter un commentaire à l’image. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et Experience Cloud.
 
    ![](assets/asset_comment_mac.png)
 
@@ -48,10 +48,11 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 ![](assets/asset_remove_user.png)
 
 Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud n’y ont plus accès.
+
 Voici quelques autres moyens d’utiliser une ressource partagée :
 
 * Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales.
-* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
+* Chargez ou permutez des fichiers dans la bibliothèque [de  de](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) dans [!DNL Adobe Target] pour les images dans le .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -59,6 +60,6 @@ Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative 
 
 Aide connexe :
 
-* [Aide de Creative Cloud – Gestion et synchronisation des fichiers](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Aide de Creative Cloud – Collaboration avec d’autres personnes](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Aide de Creative Cloud – Foire aux questions sur la collaboration](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Aide de Creative Cloud - Gestion et synchronisation des fichiers](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Aide de Creative Cloud - Collaboration avec d’autres utilisateurs](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Aide de Creative Cloud - FAQ sur la collaboration](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
