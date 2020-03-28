@@ -1,44 +1,43 @@
 ---
-description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou de l’audio (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier Photoshop, les diapositives d’un fichier PowerPoint, les pages d’un PDF, les fichiers d’un ZIP).
-seo-description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou de l’audio (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier Photoshop, les diapositives d’un fichier PowerPoint, les pages d’un PDF, les fichiers d’un ZIP).
+description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Un fichier est un numérique, une image, une vidéo ou de l’audio (ou une partie de celui-ci) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, des calques dans un fichier Photoshop, des diapositives dans un fichier PowerPoint, des pages dans un PDF, des fichiers dans un fichier ZIP).
+seo-description: Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Un fichier est un numérique, une image, une vidéo ou de l’audio (ou une partie de celui-ci) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, des calques dans un fichier Photoshop, des diapositives dans un fichier PowerPoint, des pages dans un PDF, des fichiers dans un fichier ZIP).
 seo-title: Assets
 solution: Experience Cloud
 title: Ressources
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Assets
 
-Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou de l’audio (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier Photoshop, les diapositives d’un fichier PowerPoint, les pages d’un PDF, les fichiers d’un ZIP).
+Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Un fichier est un numérique, une image, une vidéo ou de l’audio (ou une partie de celui-ci) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, des calques dans un [!DNL Photoshop] fichier, des diapositives dans un [!DNL PowerPoint] fichier, des pages dans un PDF, des fichiers dans un ZIP).
 
-<!-- asset.xml -->
-Les services de ressources comprennent ce qui suit :
+Les services d’actifs comprennent :
 
-* Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les solutions).
+* de  de ressources, interface de gestion, interface de sélection incorporée (accessible via les solutions).
 * Intégrations à Creative Cloud, collaboration Experience Cloud et solutions Experience Cloud.
 
-L’utilisation des ressources améliore la cohérence et l’homogénéité de la marque et accélère la mise sur le marché. Vous pouvez rationaliser les processus dans les solutions :
+L’utilisation des ressources améliore la cohérence et l’homogénéité de la marque et accélère la mise sur le marché. Vous pouvez rationaliser les  de dans les solutions :
 
 * **[!DNL Social]** : publiez du contenu dans les propriétés sociales, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]** : créez du contenu pour des tests A/B et multivariés.
 * **[!DNL Media Optimizer]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
 * **[!DNL Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
-Dans [!UICONTROL Experience Cloud Assets], vous pouvez effectuer les opérations suivantes :
+Dans [!UICONTROL Experience Cloud Assets], vous pouvez :
 
 * [Accéder à Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
-* [Accéder à la barre d’outils](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
+* [Accès à la barre d’outils](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Modification de ressources ](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Recherche de ressources](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
-* [Annoter des ressources](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [Afficher des ressources en plein écran et en mode zoom](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
-* [Afficher les propriétés des ressources](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
-* [Exécuter des rapports sur l’utilisation](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [Partager des ressources avec Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
+* [Annoter les ressources](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
+* [les ressources plein écran et le zoom](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
+* [Propriétés de la ressource](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
+* [Exécution des rapports d’utilisation](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
+* [Partage de ressources avec Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## Accéder à Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
@@ -48,17 +47,17 @@ Dans [!UICONTROL Experience Cloud Assets], vous pouvez effectuer les opérations
 
 Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-La barre d’outils permet d’accéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
+La barre d’outils permet d’accéder rapidement à des fonctionnalités telles que la recherche, la chronologie, les rendus, la modification, l’annotation et le téléchargement.
 
 ![](assets/asset-tools.png)
 
 ## Modification de ressources  {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
-La modification d’une ressource active certaines fonctionnalités, notamment les suivantes :
+La modification d’un fichier active des fonctionnalités, notamment :
 
-* Recadrage
+* Recadrer
 * Rotation
-* Retournement
+* Retourner
 
 ![](assets/asset-edit.png)
 
@@ -76,7 +75,7 @@ Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches su
 
 ## Affichage des ressources en plein écran et en mode zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
+Click **[!UICONTROL Views]** > **[!UICONTROL Image]** to view the full asset image and enable zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -84,7 +83,7 @@ Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher l’im
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue sous forme de liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
+Click **[!UICONTROL Views]** > **[!UICONTROL Properties]** to view an asset&#39;s properties:
 
 ![](assets/asset-properties.png)
 
@@ -92,6 +91,6 @@ Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport d’utilisation]**
+Click **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
