@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: À propos des nouveaux noms de cloud dans Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 
 ---
 
