@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
 
 ---
 
@@ -24,18 +24,18 @@ Découvrez-en plus sur la connexion à la Console d’administration, la gestion
 
 Découvrez les dernières fonctionnalités de la gestion des utilisateurs d’Experience Cloud.
 
-<!-- ### Business ID type
+### Type d’ID d’entreprise
 
-Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management while increasing the flexibility of Creative Cloud storage usage among your team (if applicable). Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs (owned by your organization).
+Adobe introduit un type d’identité appelé _Business ID_. Ce type d’identité améliore le contrôle de la gestion des utilisateurs et des produits tout en augmentant la flexibilité de Creative Cloud  l’utilisation des  de votre équipe (le cas échéant). Adobe migre tous les Adobe ID (détenus par des particuliers) utilisés pour l’entreprise vers les nouveaux Enterprise Business ID (détenus par votre entreprise).
 
-If you're an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
+Si vous êtes déjà client Experience Cloud, Adobe migre tous vos utilisateurs de la Console d’administration avec des ID Adobe vers des ID professionnels. Si vous êtes un nouveau client d’entreprise ou d’équipe, vous ajoutez des utilisateurs à la console d’administration à l’aide de l’un des types d’identité disponibles : ID professionnel, Enterprise ID ou Federated ID.
 
-Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
 
-What to do
+Que faire
 
-* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
+* Vos utilisateurs devront accepter les modifications des Conditions d&#39;utilisation avant que les comptes ne soient migrés vers Type2e.
+* Les utilisateurs appartenant à plusieurs organisations peuvent voir un écran de sélection de  pendant le processus de connexion et doivent sélectionner le bon écran. Cela permet de s’assurer qu’ils se connectent à l’organisation appropriée. (Il peut y avoir plusieurs  à choisir si un utilisateur était membre de plusieurs organisations avant la migration.)
 
 ### Outil Admin
 
@@ -148,7 +148,7 @@ Vous pouvez par exemple créer un profil de produits qui contient plusieurs outi
 1. Dans le profil de produits, cliquez sur **[!UICONTROL Autorisations]** (option réservée aux administrateurs).
 1. Configurez les autorisations du profil :
 
-| Elément | Description |
+| Élément | Description |
 |--- |--- |
 | Report Suites (Suites de rapports) | Activez les autorisations pour des suites de rapports spécifiques. |
 | Mesures | Activez les autorisations pour le trafic, la conversion, les  personnalisées, les  de solution, la reconnaissance du contenu, etc. |
