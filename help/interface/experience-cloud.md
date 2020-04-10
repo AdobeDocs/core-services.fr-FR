@@ -7,12 +7,12 @@ solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et les services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
-# Documentation du produit Experience Cloud et des services principaux
+# Documentation sur Experience Cloud et les services principaux
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
@@ -20,27 +20,27 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 
 ## Que veux-tu apprendre ?
 
-* [Documentation du produit pour toutes les solutions](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Recherchez de l’aide sur le site de formation et d’assistance Experience Cloud.
-* [Notes de mise à jour et mises à jour](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) des produits - Nouveautés d’Experience Cloud et abonnement pour obtenir des mises à jour
+* [Documentation du produit pour toutes les solutions](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) Experience Cloud - Recherchez de l’aide sur le site de formation et d’assistance Experience Cloud.
+* [Notes de mise à jour et mises à jour](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html) des produits - Nouveautés d’Experience Cloud et abonnement pour obtenir des mises à jour
 * [Didacticiels de mise en oeuvre des services](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) principaux - Découvrir des vidéos et des didacticiels sur les services principaux
 * [Aide d&#39;experts à la Ligue](https://landing.adobe.com/experience-league/) d&#39;expérience - Profitez de l&#39;apprentissage guidé des experts et de la communauté
-* [Éducation et formation](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Demandez à Adobe de vous aider à tirer le meilleur parti de nos produits
+* [Éducation et formation](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK) - Demandez à Adobe de vous aider à tirer le meilleur parti de nos produits
 * [Blog](https://theblog.adobe.com/customer-experience/) de l’expérience client - Lisez le blog d’Experience Cloud
-* [Assistance](https://helpx.adobe.com/contact/enterprise-support.ec.html) clientèle - Contactez le service à la clientèle Adobe
+* [Assistance](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) clientèle - Contactez le service à la clientèle Adobe
 
 ## Documentation produit des services principaux
 
 * [Présentation](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) des services principaux (blog)
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Adobe Mobile](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)
+* [Audiences](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
-* [Attributs du client](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [Attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
+* [Dynamic Tag Management](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Service Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html)
 * [API relative au Règlement général sur la protection des données (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## Administration et activation
@@ -50,7 +50,7 @@ Cette page fournit une aide, une assistance et une documentation technique et pr
 * [Questions fréquentes](admin-getting-started/admin-getting-started.md)
 * [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
 * [Intégrations](marketing-cloud-integrations.md)
-* [Intégration d’Adobe  avec Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Intégration d’Adobe  avec Experience Cloud](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html)
 * [Vue d’ensemble de la confidentialité et de la sécurité d’Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Gestion des  dans Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
 * [Prérécupération DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
