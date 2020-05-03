@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Guide de l’utilisateur des services principaux
+user-guide-title: Guide de l’utilisateur de l’interface Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # Guide de l’utilisateur des services principaux {#interface}
 
-+ [Documentation sur Experience Cloud et les services principaux](experience-cloud.md)
++ [Experience Cloud et la documentation du produit](experience-cloud.md)
 + Services principaux dans Experience Cloud {#about-core-services}
    + [Présentation des services principaux](core-services-landing.md)
    + [Activation des solutions pour les services principaux](core-services/core-services.md)
@@ -27,22 +27,22 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [Cookies des Data Workbench](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies [!DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies [!DNL]](cookies/cookies-target.md)
+   + [Cookies [ !DNL Scene7]](cookies/cookies-s7.md)
+   + [Cookies [ !DNL Search and Promote]](cookies/cookies-snp.md)
+   + [Cookies [ !Cible DNL]](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Impact des modifications apportées à la prise en charge des cookies tiers sur les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
-   + [Gestion de l’identité utilisateur et des produits Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
-   + [Détails de l’utilisateur  Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Gestion de l’identité et des produits des utilisateurs d’Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
+   + [Détails sur l’utilisateur de Vue Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Questions fréquentes](admin-getting-started/faq.md)
    + [Connexion et gestion des paramètres du profil](admin-getting-started/getting-started-experience-cloud.md)
    + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+  d’Experience Cloud {#activation}
++ Activation d’Experience Cloud {#activation}
    + [Présentation de l’Activation](activation/activation.md)
    + [Guide de l’utilisateur de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
-   + [Guide de l’utilisateur du Gestionnaire dynamique de balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
+   + [Guide de l’utilisateur du gestionnaire dynamique de balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Présentation des ressources d’Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
@@ -54,7 +54,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [Désactivation de la synchronisation des dossiers partagés](experience-cloud-assets/t-disable-asset-sync.md)
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+   dans Experience Cloud {#audiences}
++ Audiences dans Experience Cloud {#audiences}
    + [Présentation des audiences](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
@@ -69,8 +69,8 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [Mise à jour du schéma](attributes/t-update-schema.md)
    + [Considérations sur la confidentialité – Attributs du client](attributes/privacy-mac.md)
 + Offer Management {#offer-management}
-   + [Prise en main de  Gestion  des](offer-management/getting-started.md)
-   + [Flux de travail de gestion  des](offer-management/offer-management-workflow.md)
+   + [Prise en main de la gestion des Offres](offer-management/getting-started.md)
+   + [Processus de gestion des Offres](offer-management/offer-management-workflow.md)
    + [Offres](offer-management/offers.md)
    + [Étiquettes](offer-management/labels.md)
    + [Emplacements](offer-management/placements.md)
