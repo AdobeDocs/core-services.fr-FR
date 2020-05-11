@@ -2,7 +2,7 @@
 title: Prise en charge des attributs du client pour la réglementation générale de la protection des données
 description: Prise en charge des attributs du client pour la réglementation générale de la protection des données
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 1%
@@ -22,11 +22,11 @@ Le règlement [](https://www.adobe.com/privacy/general-data-protection-regulatio
 
 Adobe Experience Cloud agit en tant que traitement de données pour toutes les données personnelles qu’il reçoit et stocke pour le compte de ses clients. En tant que contrôleur de données, vous déterminez les données personnelles traitées et stockées par Adobe Experience Cloud en votre nom.
 
-Ce document décrit comment les attributs  clients prennent en charge les droits d’accès et de suppression des données GDPR des personnes concernées à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
+Ce document décrit comment les attributs [!UICONTROL du] client prennent en charge les droits d’accès et de suppression des données GDPR des personnes concernées à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
 
 Pour plus d&#39;informations sur ce que le RGMD signifie pour votre entreprise, consultez [RGMD et Votre entreprise](https://www.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
-## Configuration requise pour envoyer des demandes d’attributs [!UICONTROL client]
+## Configuration requise pour envoyer des demandes d&#39;attributs [!UICONTROL client]
 
 Pour envoyer des demandes d’accès et de suppression de données pour les attributs du client, vous devez :
 
@@ -39,7 +39,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les attr
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier l’état des requêtes existantes.
 
-## Valeurs de champ requises dans les requêtes JSON d’attributs  client
+## Valeurs de champ requises dans les demandes JSON d’attributs  du client
 
 &quot;contexte de société&quot; :
 
