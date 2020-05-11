@@ -2,7 +2,7 @@
 title: Customer Attributs Support for California Consumer Privacy Act
 description: Customer Attributs Support for California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Prise en charge des attributs du client pour la California Consumer Privacy Act
 
-Cette page décrit la prise en charge des attributs  du client par la California Consumer Privacy Act (CCPA).
+Cette page décrit la prise en charge par les Attributs  du client de la California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ En tant qu’entreprise, vous déterminerez les données personnelles traitées 
 
 En tant que prestataire, Adobe Experience Cloud fournit une assistance à votre entreprise afin qu’elle puisse s’acquitter de ses obligations en vertu de l’ACCP qui s’appliquent à l’utilisation des produits et services Experience Cloud, y compris la gestion des demandes d’accès et de suppression d’informations personnelles.
 
-Ce document décrit comment les attributs  clients prennent en charge les droits d’accès et de suppression des données CCPA de vos personnes à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
+Ce document décrit comment les attributs [!UICONTROL du] client prennent en charge les droits d’accès et de suppression des données CCPA de vos personnes à l’aide de l’API et de l’interface utilisateur de Privacy Service d’Adobe Experience Platform.
 
 Pour plus d’informations sur les services de confidentialité d’Adobe pour CCPA, voir le Centre [de confidentialité d’](https://www.adobe.com/privacy/ccpa.html)Adobe.
 
-## Configuration requise pour envoyer des demandes d’attributs [!UICONTROL client]
+## Configuration requise pour envoyer des demandes d’attributs [!UICONTROL du client]
 
 Pour envoyer des demandes d’accès et de suppression de données pour les attributs du client, vous devez :
 
@@ -41,7 +41,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les attr
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier l’état des requêtes existantes.
 
-## Valeurs de champ requises dans les requêtes JSON d’attributs  client
+## Valeurs de champ requises dans les demandes JSON d’attributs  du client
 
 &quot;contexte de société&quot; :
 
