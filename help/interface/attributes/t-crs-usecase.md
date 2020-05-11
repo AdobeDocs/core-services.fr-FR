@@ -1,13 +1,16 @@
 ---
 description: Créer la source d’attribut client et télécharger les données.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Créer la source d’attribut client et télécharger les données.
 seo-title: Création d’une source d’attributs du client et transfert du fichier de données
 solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 76%
 
 ---
 
@@ -29,15 +32,15 @@ Création d’une source d’attributs du client (fichiers CSV et FIN) et transf
 Une fois la source de données active, vous pouvez accomplir ce qui suit :
 
 * [Utilisation des attributs du client dans Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Utilisation des attributs du client dans Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Utiliser les attributs du client dans Adobe Cible](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
 >[!IMPORTANT]
 >
->Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Les utilisateurs qui sont ajoutés au groupe Attributs du client verront l’option de menu Attributs [!UICONTROL du] client dans , sur le côté gauche de l’interface d’Experience Cloud.
+>Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Les utilisateurs ajoutés au groupe Attributs du client verront l’option de menu Attributs [!UICONTROL du] client dans les [!UICONTROL Audiences], sur le côté gauche de l’interface d’Experience Cloud.
 >
->L’appartenance au groupe de solutions est également requise.
+>L’adhésion au groupe de solutions est également requise.
 
 Pour utiliser la fonction Attributs du client, les utilisateurs doivent appartenir au groupe Attributs du client Adobe dans la gestion des utilisateurs, ainsi qu’aux groupes au niveau de la solution (Analytics ou [!DNL Target]).
 
@@ -45,7 +48,7 @@ Voir [Utilisateurs et groupes](../admin-getting-started/admin-getting-started.md
 
 ## Création d’un fichier de données {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-Ces données des clients de l’entreprise proviennent de votre système de gestion de la relation client. Les données peuvent inclure des données d’abonné pour les produits, y compris les ID de membre, les produits autorisés, les produits les plus lancés, etc.
+Ces données des clients de l’entreprise proviennent de votre système de gestion de la relation client. Les données peuvent inclure des données d’abonné pour les produits, y compris les identifiants de membre, les produits autorisés, les produits les plus lancés, etc.
 
 1. Créez un `.csv`.
 
@@ -90,9 +93,9 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **Gestion dynamique des balises :** L’ID d’alias correspond à la valeur Code *d’* intégration sous Paramètres [!UICONTROL du]client, dans l’outil Service [d’ID d’](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) expérience Cloud.
+      * **Gestion dynamique des balises :** L’ID d’alias correspond à la valeur du code *d’* intégration sous Paramètres [!UICONTROL du]client, dans l’outil Service [d’ID d’](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html) expérience.
 
-      * **API :** L’ID d’alias correspond aux identifiants [de](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) client supplémentaires que vous pouvez associer à chaque.
+      * **API du Visiteur :** L’ID d’alias correspond aux identifiants [](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) de client supplémentaires que vous pouvez associer à chaque visiteur.
 
          Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -100,13 +103,13 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS :** L’ID d’alias correspond à *&quot;idType&quot;* dans [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS :** L’ID d’alias correspond à *&quot;idType&quot;* dans [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/overview.html).
 
          Par exemple :
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android :** L’ID d’alias correspond à *&quot;idType&quot;* dans [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android :** L&#39;ID d&#39;alias correspond à *&quot;idType&quot;* dans [syncIdentifiers](https://docs.adobe.com/content/help/fr-FR/mobile-services/android/overview.html).
 
          Par exemple :
 
@@ -120,7 +123,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
       >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) pour en savoir plus.
 
 
-      Après avoir transféré le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Téléchargement du fichier] sur cette page. Vous pouvez valider le, configurer  ou configurer le FTP.
+      Après avoir transféré le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Téléchargement du fichier] sur cette page. Vous pouvez valider le schéma, configurer des abonnements ou configurer le FTP.
 
       **Graphique du téléchargement du fichier**
 
@@ -161,7 +164,7 @@ Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs cliente], rech
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
-## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Les données sont désormais disponibles dans les solutions comme
 <keyword>
@@ -172,14 +175,14 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 ![](assets/08_crs_usecase.png)
 
-Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
+Lorsque vous publiez un segment dans Experience Cloud, il devient disponible dans Experience Cloud Audiences et Audience Manager.
 
 Pour plus d’informations, voir Rapport [Attributs](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) du client dans l’aide d’Analytics.
 
-## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience.  Tous les attributs du client auront le préfixe [!DNL crs.] dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience.  All Customer Attributes will have the prefix [!DNL crs.] in the list. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![](assets/crs-add-attribute-target.png)
 
-Reportez-vous à la page [Création d’un nouveau ](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) dans l’ [!DNL Target] aide.
+Voir [Création d’une Audience](https://docs.adobe.com/content/help/fr-FR/target/using/audiences/create-audiences/audiences.html) dans l’ [!DNL Target] aide.
