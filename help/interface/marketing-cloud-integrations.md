@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Intégrations Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1521'
+ht-degree: 44%
 
 ---
 
@@ -51,7 +54,7 @@ Le service d’identification fournit un ID persistant universel qui identifie v
 
 Aide : [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Créez et gérez des audiences dans la bibliothèque d’audiences Experience Cloud. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
+Créez et gérez des Audiences dans la bibliothèque d’Audiences d’Experience Cloud. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
 * Nouvelles audiences créées dans [!DNL Experience Cloud].
 * Segments [!DNL Analytics] publiés dans [!DNL Experience Cloud].
@@ -72,7 +75,7 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 **Solutions ou services applicables**
 
 * Adobe Analytics : [Rapport Attributs du client](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
-* Adobe Cible : Configuration d’un [abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Adobe Cible pour les attributs du client
+* Adobe Cible : Configuration de l’ [abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Adobe Cible aux attributs du client
 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
@@ -134,14 +137,14 @@ Utilisez l’extension Adobe Experience Cloud Debugger pour déboguer les pro
 
 Aide : [Intégration d’Adobe Cible à Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
 
-L’intégration d’Adobe Target avec Adobe Analytics et d’autres solutions Experience Cloud permet l’utilisation des mêmes données, audiences, attributs et mesures dans les deux solutions.
+Intégrez Adobe Cible à Adobe Analytics et à d’autres solutions Experience Cloud afin de permettre l’utilisation des mêmes données, Audiences, attributs et mesures dans les deux solutions.
 
 **Solutions ou services applicables**
 
 * Attributs du client : Configuration d’un [abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Adobe Cible pour les attributs du client
 * Audiences d’Experience Cloud : [Bibliothèque d’Audiences Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html)
-* Gestion dynamique des balises : [Bonnes pratiques pour la mise en oeuvre d’Adobe Cible à l’aide de la gestion dynamique des balises](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Gestion dynamique des balises : [Bonnes pratiques pour la mise en oeuvre d’Adobe Cible à l’aide de la gestion dynamique des balises](https://docs.adobe.com/content/help/fr-FR/dtm/implementing/overview.html)
 * Gestionnaire des Audiences : [Intégration des données Adobe Cible avec Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign : [Intégration d’Adobe Cible à Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
@@ -187,7 +190,7 @@ Aide (connexion requise) : [Intégration aux solutions et services principaux Ad
 
 **Gestionnaire dynamique de balises :** Vous pouvez [utiliser le gestionnaire dynamique de balises pour créer des balises de tracking](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)de conversion basées sur les pixels de Media Optimizer, ainsi que des balises de tracking tierces, pour vos landings page de recherche, de réseaux sociaux et d’affichage d’annonce. Vous pouvez également créer des balises Media Optimizer directement dans Media Optimizer.
 
-**Audiences d’Experience Cloud :** (publicitaires avec gestion de l’affichage) Vous pouvez utiliser n’importe quelle de vos audiences [](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud en tant que cibles pour vos publicités. Vous pouvez automatiquement utiliser les audiences que vous avez créées dans Adobe Experience Cloud et les audiences d’Analytics que vous avez publiées sur Adobe Experience Cloud, et vous pouvez utiliser les audiences d’Audience Manager quand le compte Media Optimizer est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour plus d’informations sur l’accès à Adobe Experience Cloud et aux Profils et Audiences, ainsi que sur la configuration initiale entre Media Optimizer et les audiences Adobe Experience Cloud. **Remarque :** Si vous utilisez également Adobe Cible, toutes les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Cible.
+**Audiences d’Experience Cloud :** (publicitaires avec gestion de l’affichage) Vous pouvez utiliser n’importe quelle de vos Audiences [](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud en tant que cibles pour vos publicités. Vous pouvez utiliser automatiquement les Audiences que vous avez créées dans Adobe Experience Cloud et les Audiences d’Analytics que vous avez publiées dans Adobe Experience Cloud. Vous pouvez également utiliser les Audiences d’Audience Manager lorsque le compte Media Optimizer est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour plus d’informations sur l’accès à Adobe Experience Cloud et aux Profils et Audiences, ainsi que sur la configuration initiale entre Media Optimizer et les Audiences Adobe Experience Cloud. **Remarque :** Si vous utilisez également Adobe Cible, toutes les Audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Cible.
 
 **Experience Cloud Assets :** (annonceurs avec gestion des publicités display) utilisez une de vos ressources Adobe Experience Cloud comme élément créatif pour vos publicités display, dans la vue de nouvelle publicité display (version bêta). You must be [logged in to Media Optimizer through Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) to access your Adobe Experience Cloud assets. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
 
