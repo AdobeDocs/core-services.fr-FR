@@ -1,20 +1,23 @@
 ---
 description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions pour des fonctionnalités telles que les attributs et les audiences du client.
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions pour des fonctionnalités telles que les attributs et les audiences du client.
 seo-title: Activation des solutions Experience Cloud pour les services principaux
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 33%
 
 ---
 
 
 # Activation des solutions pour les services principaux
 
-Pour les clients existants, apprenez à moderniser vos implémentations de solution et à mettre en oeuvre Experience Cloud afin que vous puissiez utiliser des fonctionnalités telles que les attributs et les audiences du client. Pour ce faire, vous allez :
+Pour les clients existants, apprenez à moderniser vos implémentations de solution et à mettre en oeuvre Experience Cloud afin que vous puissiez utiliser des fonctionnalités telles que les attributs du client et les audiences. Pour ce faire, vous allez :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mise en oeuvre du service d’ID Experience Cloud](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -117,7 +120,7 @@ Reportez-vous à la section Service *d’ID* Experience Cloud pour obtenir des e
 
 ### Activation des attributs pour les données historiques
 
-Les données d’attribut du client sont disponibles après la connexion des visiteurs. Si vous n’avez pas encore mis en oeuvre le dernier service d’identification d’Experience Cloud et si vous avez toujours suivi les ID de client dans une prop ou une eVar, vous pouvez demander un processus qui envoie les connexions historiques à Experience Cloud. Ce processus vous permet de commencer à utiliser immédiatement les attributs du client.
+Les données d’attribut du client sont disponibles après la connexion des visiteurs. Si vous n’avez pas encore mis en oeuvre le dernier service d’identification d’Experience Cloud et si vous avez toujours suivi les ID de client dans une prop ou une eVar, vous pouvez demander un processus qui envoie les connexions historiques à Experience Cloud. Ce processus vous permet de commencer immédiatement à utiliser les attributs du client.
 
 Contactez le service à la clientèle pour activer les données d’historique.
 
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >Tous les clients Analytics sont déjà configurés pour les services principaux tels que les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
+   >Tous les clients Analytics sont déjà configurés pour des services principaux tels que les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
 
 ## Etape 6. Vérifier la mise en œuvre des services principaux {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
