@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 76%
+source-wordcount: '1177'
+ht-degree: 73%
 
 ---
 
@@ -28,23 +28,18 @@ Création d’une source d’attributs du client (fichiers CSV et FIN) et transf
 1. [Validation du schéma](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Configurez les abonnements et activez la source d’attributs](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 Une fois la source de données active, vous pouvez accomplir ce qui suit :
 
 * [Utilisation des attributs du client dans Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Utiliser les attributs du client dans Adobe Cible](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Les utilisateurs ajoutés au groupe Attributs du client verront l’option de menu Attributs [!UICONTROL du] client dans les [!UICONTROL Audiences], sur le côté gauche de l’interface d’Experience Cloud.
+>Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Accédez à **[!UICONTROL Administration]** > Console **** d’administration > **[!UICONTROL Produits]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Les utilisateurs ajoutés au groupe Attributs du client verront le menu Attributs [!UICONTROL du] client sur le côté gauche de l’interface d’Experience Cloud.
 >
->L’adhésion au groupe de solutions est également requise.
+>Pour utiliser la fonction Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de la solution (Analytics ou [!DNL Target]).
 
-Pour utiliser la fonction Attributs du client, les utilisateurs doivent appartenir au groupe Attributs du client Adobe dans la gestion des utilisateurs, ainsi qu’aux groupes au niveau de la solution (Analytics ou [!DNL Target]).
-
-Voir [Utilisateurs et groupes](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Création d’un fichier de données {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 1. Créez un `.csv`.
 
-
    >[!NOTE]
    >
    >Plus loin dans ce processus, vous allez faire glisser et déplacer le fichier `.csv` pour transférer le fichier. Cependant, si vous effectuez un [transfert par FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), vous devez également créer un fichier `.fin` du même nom que le fichier `.csv`.
-
-
 
    Exemple de fichier de données du client d’entreprise :
 
