@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '3809'
+ht-degree: 70%
 
 ---
 
@@ -131,8 +134,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## Version 15.9 - 10 septembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Correction d’un problème de performance de l’API Audience Manager, qui provoquait des temporisations intermittentes lors du transfert de données d’attributs des clients. (MAC-26305)
-* Correction d’un problème qui empêchait les utilisateurs d’ajouter jusqu’à 200 attributs du client à un abonnement. (MAC-26188)
+* Correction d’un problème de performances de l’API du Gestionnaire d’Audiences qui provoquait des dépassements de délai intermittents lors du transfert des données Attributs du client. (MAC-26305)
+* Correction d’un problème qui empêchait les utilisateurs d’ajouter jusqu’à 200 attributs du client à un abonnement. (MAC-26188)
 * Correction d’un problème lié à la bibliothèque d’audiences qui empêchait le partage d’audiences à partir de la segmentation Analytics. Ce problème entraînait l’affichage de &quot;Collecte de données&quot; (0 audience). Pour éviter ce problème, Adobe conseille de conserver les tailles des segments en dessous de 50 000 membres d’audience par segment. (MAC-25788)
 * Correction d’un ancien problème connu sur la page Attributs du client – Schéma d’édition qui provoquait une erreur de reconnaissance du contenu lors de la modification d’un nom d’affichage. (MAC-25589, AN-103834)
 
@@ -174,7 +177,7 @@ Pas d’informations disponibles.
  </tbody> 
 </table>
 
-* Correction d’un problème empêchant la synchronisation des attributs de certains clients.
+* Correction d’un problème qui empêchait la synchronisation des attributs du client pour certains clients.
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
@@ -236,7 +239,7 @@ Pas d’informations disponibles.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Mappage de groupe </p> </td> 
+   <td colname="col1"> <p>Groupe Mappage </p> </td> 
    <td colname="col2"> <p>La page Gestion des groupes a été repensée en tant qu’interface administrative qui vous permet de créer des groupes, d’ajouter des utilisateurs à des groupes et d’appliquer des autorisations à l’échelle des solutions Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
