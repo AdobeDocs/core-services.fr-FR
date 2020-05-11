@@ -4,7 +4,10 @@ user-guide-title: Guide de l’utilisateur de l’interface Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
@@ -27,9 +30,9 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Cookies des Data Workbench](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [ !DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies [ !DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies [ !Cible DNL]](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Impact des modifications apportées à la prise en charge des cookies tiers sur les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
@@ -61,13 +64,13 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 + Attributs du client dans Experience Cloud {#customer-attributes}
    + [Présentation des attributs du client](attributes/attributes.md)
    + [Questions fréquentes, restrictions et bonnes pratiques](attributes/faq-crs.md)
-   + [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
+   + [A propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
    + [Création d’une source d’attributs du client et transfert du fichier de données](attributes/t-crs-usecase.md)
    + [Facultatif – Transfert du fichier de données par FTP](attributes/t-upload-attributes-ftp.md)
    + [Validation du schéma](attributes/validate-schema.md)
    + [Configuration des abonnements](attributes/subscription.md)
    + [Mise à jour du schéma](attributes/t-update-schema.md)
-   + [Considérations sur la confidentialité – Attributs du client](attributes/privacy-mac.md)
+   + [Considérations relatives à la confidentialité - Attributs du client](attributes/privacy-mac.md)
 + Offer Management {#offer-management}
    + [Prise en main de la gestion des Offres](offer-management/getting-started.md)
    + [Processus de gestion des Offres](offer-management/offer-management-workflow.md)
