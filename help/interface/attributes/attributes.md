@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Attributs du client
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 27%
+source-wordcount: '456'
+ht-degree: 20%
 
 ---
 
@@ -27,11 +27,11 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 
 * **Activation de la solution :** [Activez vos solutions pour les services](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)Experience Platform.
 
-* **Appartenance au groupe :** pour transférer les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe Adobe Analytics ou à une Population cible Adobe.
+* **Appartenance à un groupe :** Pour télécharger les données Attribut du client, les utilisateurs doivent appartenir au groupe [Attributs du](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)client. Vous devez également appartenir à un groupe Adobe Analytics ou à une Population cible Adobe.
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Si les *Attributs du client* sont répertoriés comme l’un des groupes, vous êtes prêt à commencer.
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > Console **** d’administration > **[!UICONTROL Produits]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
 
-   Les utilisateurs ajoutés au groupe Attributs du client verront l’option de menu Attributs [!UICONTROL du] client sur le côté gauche de l’interface d’Experience Cloud.
+   Les utilisateurs ajoutés aux attributs du client verront l’option de menu Attributs [!UICONTROL du] client sur le côté gauche de l’interface d’Experience Cloud.
 
 * **Adobe Cible**[!DNL at.js] (toute version) ou [!DNL mbox.js] version 58 ou ultérieure est requis pour les attributs du client.
 
