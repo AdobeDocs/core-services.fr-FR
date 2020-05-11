@@ -1,13 +1,16 @@
 ---
 description: Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données d’attributs du client vers Experience Cloud par FTP.
-keywords: attributs du client;services principaux
+keywords: Customer Attributes;core services
 seo-description: Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données d’attributs du client vers Experience Cloud par FTP.
 seo-title: Facultatif – Transfert du fichier de données par FTP
-solution: Experience Cloud
+solution: Experience Cloud
 title: Facultatif – Transfert du fichier de données par FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 68%
 
 ---
 
@@ -20,12 +23,12 @@ Vous pouvez transférer les données après avoir créé une source d’attribut
 
 >[!IMPORTANT]
 >
->Consultez [Exigences liées aux fichiers de données pour le transfert des attributs du client](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avant de transférer le fichier.
+>Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
 
-Les fichiers peuvent être transférés sur le site FTP des attributs du client selon le protocole FTP ou SFTP.
+Les téléchargements de fichiers vers le site FTP Attributs du client peuvent être effectués par FTP ou SFTP.
 
-* Votre client de transfert doit prendre en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Vous avez besoin d’un client qui prend en charge les connexions SFTP.
+* Vous pouvez vous connecter au protocole SFTP en utilisant soit le nom d’utilisateur/mot de passe, soit l’absence de mot de passe, comme décrit [ici](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Transfert du fichier de données par FTP**
 
@@ -33,12 +36,12 @@ Les fichiers peuvent être transférés sur le site FTP des attributs du client 
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse [!DNL ftp.adobe.com/<sftpname>].
 
-1. Cliquez sur **[!UICONTROL Actions]** &gt; **[!UICONTROL Téléchargement du fichier]**.
+1. Click **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Transférez un fichier `.fin`, afin que le fichier puisse être récupéré.
 
    Le type de fichier `.fin` est créé par l’utilisateur et signale que le transfert est terminé. Il peut s’agir d’un fichier de bloc-notes vierge. Si, par exemple, vous transférez un fichier [!DNL crs123.csv], vous devez aussi transférer un fichier [!DNL crs123.fin].
 
-   Si le transfert est réussi, les deux fichiers sont déplacés dans un dossier appelé **processed** (traité).
+   Si le téléchargement aboutit, les deux fichiers sont déplacés dans un dossier appelé **traité**.
 
-   Voir [Exigences liées aux fichiers de données pour le transfert des attributs du client](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) pour consulter des informations importantes sur les noms et la structure des fichiers.
+   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
