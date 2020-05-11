@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +21,11 @@ Informations sur les mises à jour apportées à la documentation du produit Exp
 
 **Mise à jour : 10/03/2020**
 
-Mise à jour de [Valider le transfert](cookies/cookies-first-party.md#validate) du nom d’hôte dans la section des cookies propriétaires.
+Mise à jour de [Valider le transfert](cookies/cookies-first-party.md#validate) des noms d’hôte dans la section des cookies propriétaires.
 
 **Mise à jour : 20/02/2020**
 
-Ajout [des détails utilisateur d’Experience Cloud  (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
+Ajout des détails sur l’utilisateur de [Vue Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Mise à jour : 5/09/2018**
 
@@ -30,7 +33,7 @@ Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif
 
 **Mise à jour : 8/06/2018**
 
-Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **Mise à jour : 06/06/2018**
 
