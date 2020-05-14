@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '3809'
-ht-degree: 70%
+source-wordcount: '3929'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,22 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour sur toutes les solutions, reportez-vous à la page Notes [de mise à jour d’](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)Experience Cloud.
+
+## Avril à 2020
+
+* La page [!UICONTROL Flux] d’Experience Cloud était obsolète. (EXC-8505)
+* La page de connexion à Experience Cloud a été mise à jour pour refléter les nouveaux éléments de branding. (EXC-10747)
+
+## Février-2020
+
+| Fonction | Description |
+| -----------| ---------- |
+| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
+
+**Correctifs**
+
+* **Attributs du client** : l’interface utilisateur Attributs du client affiche désormais statuts supplémentaires des profils synchronisés dans Target. (MCUI-10231)
+* **Service principal Triggers** : en raison d’un manque d’utilisation, le score de propension « Probabilité de retour dans 30 jours » lors de la création d’un déclencheur de type Abandon a été supprimé. (MCUI-10056)
 
 ## Janvier à 2020
 
