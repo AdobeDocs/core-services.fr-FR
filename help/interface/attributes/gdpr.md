@@ -2,7 +2,7 @@
 title: Prise en charge des attributs du client pour la réglementation générale de la protection des données
 description: Prise en charge des attributs du client pour la réglementation générale de la protection des données
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 1%
@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# Prise en charge des attributs du client pour le règlement général de protection des données
+# Prise en charge des attributs du client pour la réglementation générale de la protection des données
 
 Cette page décrit comment les attributs du client prennent en charge la réglementation générale de protection des données (GDPR).
 
