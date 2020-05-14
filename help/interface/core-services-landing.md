@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: A propos des services principaux Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 44%
+ht-degree: 41%
 
 ---
 
@@ -37,4 +37,4 @@ Cette aide décrit les produits et services suivants :
 | [Offres](offer-management/getting-started.md) | Créez, gérez et prenez des décisions dans tous les canaux d’Experience Cloud. [!UICONTROL La gestion des] Offres est un catalogue d&#39;offres central où vous pouvez associer des règles d&#39;éligibilité et plusieurs éléments de contenu à chaque &quot;objet&quot; d’offre, publier ces offres entre canaux et emplacements et fournir la meilleure offre pour chaque client à chaque interaction. |
 | [Exchange](exchange.md) | Recherchez, parcourez, sélectionnez, payez et téléchargez les extensions Digital Marketing via des applications. |
 | [Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html) | Adobe Mobile Services réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications mobiles. |
-| Personnes | Créez une vue d’ensemble exhaustive des clients individuels en connectant vos données Adobe et non-Adobe à vos solutions Experience Cloud. Déterminez ce qui importe le plus à leurs yeux quand ils interagissent sur les points tactiles. Reconnaissez les consommateurs réguliers qui visitent votre site à partir de nouveaux appareils. Regroupez même les utilisateurs dans des Audiences pour des actions marketing ciblées.<br>[Audiences](audience-library/audience-library.md) - Classez les différents types de clients en Audiences, puis partagez ces Audiences entre les solutions Marketing Cloud.<br>[Attributs du client](attributes/attributes.md) : enrichissement d’audience qui vous permet de connecter les informations de consommateur que vous avez collectées à l’extérieur du Experience Cloud.<br>[Graphique](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) de périphériques : collaborez avec les marques les plus populaires du monde pour identifier un consommateur familier derrière un périphérique inconnu. (En version bêta, pour les membres de la coopération des dispositifs de Experience Cloud uniquement.) |
+| Personnes | Créez une vue d’ensemble exhaustive des clients individuels en connectant vos données Adobe et non-Adobe à vos solutions Experience Cloud. Déterminez ce qui importe le plus à leurs yeux quand ils interagissent sur les points tactiles. Reconnaissez les consommateurs réguliers qui visitent votre site à partir de nouveaux appareils. Regroupez même les utilisateurs dans des Audiences pour des actions marketing ciblées.<br>[Audiences](audience-library/audience-library.md) - Classez les différents types de clients en Audiences, puis partagez ces Audiences entre les solutions Marketing Cloud.<br>[Attributs](attributes/attributes.md) du client - enrichissement d’audience qui vous permet de connecter les informations sur les consommateurs que vous avez collectées en dehors de Marketing Cloud.<br>[Graphique](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) de périphériques : collaborez avec les marques les plus populaires du monde pour identifier un consommateur familier derrière un périphérique inconnu. (En version bêta, pour les membres de la coopération des dispositifs de Experience Cloud uniquement.) |
