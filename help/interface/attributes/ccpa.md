@@ -2,7 +2,7 @@
 title: Customer Attributs Support for California Consumer Privacy Act
 description: Customer Attributs Support for California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
