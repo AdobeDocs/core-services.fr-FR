@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 80%
+source-wordcount: '251'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 80%
 # Mises à jour de la documentation – Experience Cloud
 
 Informations sur les mises à jour apportées à la documentation du produit Experience Cloud.
+
+**Mise à jour : 19/05/2020**
+
+Documentation sur la gestion des Offres obsolète.
+
+**Mise à jour : 15/05/2020**
+
+Ajout des pages suivantes :
+
+* [Prise en charge de la réglementation générale de la protection des données](attributes/gdpr.md)
+* [Prise en charge de la California Consumer Privacy Act](attributes/ccpa.md)
 
 **Mise à jour : 10/03/2020**
 
