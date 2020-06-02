@@ -1,10 +1,11 @@
 ---
 audience: end-user
 user-guide-title: Guide de l’utilisateur de l’interface Experience Cloud
+user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 67%
