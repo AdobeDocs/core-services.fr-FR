@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 20%
+ht-degree: 71%
 
 ---
 
@@ -27,35 +27,35 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 
 * **Activation de la solution :** [Activez vos solutions pour les services](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)Experience Platform.
 
-* **Appartenance à un groupe :** Pour télécharger les données Attribut du client, les utilisateurs doivent appartenir au groupe [Attributs du](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)client. Vous devez également appartenir à un groupe Adobe Analytics ou à une Population cible Adobe.
+* **Appartenance à un groupe :** Pour télécharger les données Attribut du client, les utilisateurs doivent appartenir au groupe [Attributs du](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)client. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > Console **** d’administration > **[!UICONTROL Produits]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
 
-   Les utilisateurs ajoutés aux attributs du client verront l’option de menu Attributs [!UICONTROL du] client sur le côté gauche de l’interface d’Experience Cloud.
+   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
 
-* **Adobe Cible**[!DNL at.js] (toute version) ou [!DNL mbox.js] version 58 ou ultérieure est requis pour les attributs du client.
+* **Adobe Target** [!DNL at.js] (n’importe quelle version) ou [!DNL mbox.js] la version 58 ou ultérieure est requise pour les attributs du client.
 
-   Voir [Comment déployer at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) ou [Mbox.js Implémentation](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
+   Voir [Comment déployer at.js](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) ou [Implémentation de mbox.js](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
-## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
-Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations telles que les adhésions, le niveau de fidélité, l’âge, le sexe, les produits détenus, les intérêts et la valeur de durée de vie.
+Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations de type adhésions, niveau de fidélité, âge, sexe, produits détenus, intérêts et valeur de durée de vie.
 
-L’image suivante illustre un fichier de données présentant les données des abonnés pour les produits, y compris les identifiants des membres, les produits autorisés, les produits les plus lancés, etc.
+L’image suivante est un exemple de fichier de données présentant les données sur les abonnés pour les produits, y compris les ID de membre, les produits autorisés, les produits les plus lancés, etc.
 
 ![](assets/01_crs_usecase.png)
 
-After you create the data file, you can upload it to the customer attribute source that you create in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
 
 Voir [Transfert des données d’attributs du client](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour en savoir plus sur ce processus.
 
 ## Cas d’utilisation des solutions {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Une fois les données résidant dans Experience Cloud, vous pouvez les personnaliser et les partager dans des solutions de rapports, de segmentation, d’activités et de campagnes.
+Une fois que les données résident dans Experience Cloud, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
 
 Par exemple :
 
 | Solution | Avantages et cas d’utilisation |
 |--- |--- |
-| Adobe Analytics | Les spécialistes du marketing et les analystes peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces pour vos clients de niveau or.</li><li>Produits recherchés par les clients de niveau or par rapport aux produits recherchés par les clients de niveau platine.</li><li>Si la reconception de votre site a un impact positif sur les taux de conversion des clients plus âgés.</li><li>Les produits que les clients ayant une faible valeur de durée de vie ont tendance à rechercher sur mon site.</li></ul> |
-| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Cible de :<ul><li>Montrez aux membres du club de fidélité des remises et des offres spéciales.</li><li>Recommander des produits plus chers à vos clients de luxe.</li><li>Pour les clients qui reçoivent déjà des courriers électroniques, afficher une offre de vente consécutive dans l’espace normalement réservé aux abonnements par courrier électronique.</li></ul> |
+| Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Les produits que les clients pour lesquels la durée de vie est faible tendent à rechercher sur le site.</li></ul> |
+| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>pour les clients recevant déjà des courriers électroniques, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique.</li></ul> |
