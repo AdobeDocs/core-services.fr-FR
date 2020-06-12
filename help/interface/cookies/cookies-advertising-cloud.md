@@ -1,18 +1,21 @@
 ---
-description: Advertising Cloud utilise des cookies pour mapper les événements d'engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
-seo-description: Advertising Cloud utilise des cookies pour mapper les événements d'engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+description: Advertising Cloud utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+seo-description: Advertising Cloud utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
 seo-title: Cookies Advertising Cloud
 title: Cookies Advertising Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
 
 # Cookies Advertising Cloud {#advertising-cloud-cookies}
 
-Advertising Cloud utilise des cookies pour mapper les événements d'engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+Advertising Cloud utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
 
 ## Nom du cookie : _lcc
 
@@ -26,7 +29,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) des clics d'affichage</p> </td> 
+   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) des clics d’affichage</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -34,7 +37,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de clic sur une publicité affichée s'applique à un accès Adobe Analytics </p> </td> 
+   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de clic sur une publicité affichée s’applique à un accès Adobe Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -59,7 +62,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID codés et horodatages des engagements publicitaires à l'aide du suivi DSP Advertising Cloud </p> </td> 
+   <td colname="col2"> <p>ID codés et horodatages des engagements publicitaires à l’aide du suivi Advertising Cloud DSP </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -92,7 +95,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>Horodatage de la dernière visite du surfeur sur le site Web de l’annonceur et du dernier clic de recherche du surfeur, ainsi que ef_id créé lorsque l’utilisateur a cliqué sur une publicité.</p> </td> 
+   <td colname="col2"> <p>La date et l’heure de la dernière visite du surfeur sur le site web de l’annonceur et le dernier clic de recherche du surfeur, et l’ef_id créé lorsque l’utilisateur a cliqué sur une publicité</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -100,11 +103,11 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie propriétaire qui associe l'ID de surfer aux segments d'audience et aux conversions pertinents </p> <p> Les informations sur la dernière visite sont utilisées pour optimiser les temps de chargement des pages en évitant les demandes inutiles aux serveurs Adobe. </p> <p>Les informations sur le dernier clic de recherche permettent de déterminer si un événement de conversion résulte d'un clic ou d'un affichage publicitaire (conversion résultant d'impressions mais pas de clics). </p> </td> 
+   <td colname="col2"> <p>Cookie propriétaire qui associe l’ID de surfeur aux conversions et aux segments d’audience pertinents </p> <p> Les informations sur la dernière visite sont utilisées pour optimiser les temps de chargement des pages en évitant les demandes inutiles aux serveurs Adobe. </p> <p>Les informations sur le dernier clic de recherche permettent de déterminer si un événement de conversion résulte d’un clic ou d’un affichage publicitaire (conversion résultant d’impressions mais pas de clics). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
-   <td colname="col2"> <p>Domaine de niveau supérieur de l'annonceur (par exemple, exemple.com) </p> </td> 
+   <td colname="col2"> <p>Domaine de niveau supérieur de l’annonceur (par exemple, exemple.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Taille </p> </td> 
@@ -135,7 +138,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers spécifique à un échange publicitaire qui synchronise l'ID de surfer Advertising Cloud avec l'échange de publicités partenaire. Il est créé pour les nouveaux surfers et envoie une demande de synchronisation une fois expiré. </p> </td> 
+   <td colname="col2"> <p>Cookie tiers spécifique à un échange publicitaire qui synchronise l’ID de surfeur Advertising Cloud avec l’échange de publicités partenaire. Il est créé pour les nouveaux surfeurs et envoie une demande de synchronisation une fois expiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -160,7 +163,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>Navigateur et ID de surfer </p> </td> 
+   <td colname="col2"> <p>Navigateur et ID de surfeur </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -168,7 +171,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Créé une fois qu'un utilisateur a cliqué initialement sur la publicité d'un client et utilisé pour associer les clics actuels et suivants à d'autres événements sur le site Web du client </p> </td> 
+   <td colname="col2"> <p>Créé une fois qu’un utilisateur a cliqué initialement sur la publicité d’un client et utilisé pour associer les clics actuels et suivants à d’autres événements sur le site web du client </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -193,7 +196,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>L'ID de session </p> </td> 
+   <td colname="col2"> <p>L’ID de session </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -234,7 +237,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers qui stocke l'ID DSP correspondant à l'ID de surfer dans le cookie everest_g_v2 </p> </td> 
+   <td colname="col2"> <p>Cookie tiers qui stocke l’ID DSP correspondant à l’ID de surfeur dans le cookie everest_g_v2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -259,7 +262,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>L'ID de surfeur </p> </td> 
+   <td colname="col2"> <p>L’ID de surfeur </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -267,11 +270,11 @@ Advertising Cloud utilise des cookies pour mapper les événements d'engagement 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Le cookie est défini dans le domaine propriétaire mais n'est pas encore utilisé </p> </td> 
+   <td colname="col2"> <p>Le cookie est défini dans le domaine propriétaire mais n’est pas encore utilisé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
-   <td colname="col2"> <p>Domaine de niveau supérieur de l'annonceur (par exemple, exemple.com) </p> </td> 
+   <td colname="col2"> <p>Domaine de niveau supérieur de l’annonceur (par exemple, exemple.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Taille </p> </td> 
