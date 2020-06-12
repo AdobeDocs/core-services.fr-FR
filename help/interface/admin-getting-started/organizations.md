@@ -1,13 +1,16 @@
 ---
-description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
+description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
 keywords: core services
-seo-description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
+seo-description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
 seo-title: Liaison d’organisations et de comptes
 solution: Marketing Cloud
 title: Liaison d’organisations et de comptes
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Découvrez la gestion des organisations et la liaison de comptes de solution à 
 
 ## Identification de votre organisation {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Une *organisation* est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. La plupart du temps, une organisation est votre  de nom. Cependant, un peut avoir de nombreuses organisations.
+Une *organisation* est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
-Vous devrez peut-être également localiser l’ID d’organisation à des fins d’assistance. Vous pouvez vérifier que vous vous trouvez dans la bonne organisation ou changer d’organisation à l’aide du menu **[!UICONTROL Organisation]**.
+En outre, vous devrez peut-être localiser l’ID d’organisation à des fins d’assistance. Vous pouvez vérifier que vous vous trouvez dans la bonne organisation ou changer d’organisation à l’aide du menu **[!UICONTROL Organisation]**.
 
 ![Résultat de l’étape](assets/organization-switch.png)
 
@@ -28,13 +31,13 @@ Vous devrez peut-être également localiser l’ID d’organisation à des fins 
 
 L’**ID d’organisation** est l’identifiant associé à la société Experience Cloud activée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire).
 
-Pour afficher votre ID d’organisation, accédez à la page d’entrée d’Experience Cloud ou cliquez sur ( ![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
+Pour afficher votre ID d’organisation, accédez à la page d’entrée d’Experience Cloud ou cliquez sur ( ![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
 ## Liaison d’un compte de solution à un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-En général, les administrateurs Experience Cloud accordent l’accès aux solutions et aux services. Dans de rares cas, vous devrez lier les informations d’identification de la solution à un Adobe ID.
+En général, les administrateurs Experience Cloud accordent l’accès aux solutions et aux services. Dans de rares cas, vous devrez peut-être lier les informations de connexion de la solution à un Adobe ID.
 
 1. Suivez les instructions fournies dans votre invitation par courrier électronique pour accéder à Experience Cloud.
 1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
@@ -48,7 +51,7 @@ En général, les administrateurs Experience Cloud accordent l’accès aux solu
    ![](assets/analytics-link-accounts.png)
 
    Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à la solution), mais n’avez pas encore lié votre compte à votre Adobe ID, ce type de message s’affiche.
-1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations d’identification.
+1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations de connexion.
 
 ## Définition d’une organisation et d’une page d’entrée par défaut {#concept_6A191B42A9874A9780882903BA18F071}
 
@@ -64,9 +67,9 @@ Sous l’organisation et la page d’accueil par défaut, vous pouvez personnali
 
 ## Résoudre les problèmes de liaison de comptes {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-Aide sur les problèmes liés à la liaison de comptes.
+Aide pour résoudre les problèmes qui se produisent lors de la liaison de comptes.
 
-En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
+En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
 
-* [Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
-* Accédez à votre solution en suivant la procédure de connexion standard tandis que nous réglons le problème.
+* [contacter l’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html) ;
+* accéder à votre solution en suivant la procédure de connexion standard pendant que nous résolvons le problème.
