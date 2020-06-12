@@ -6,8 +6,11 @@ seo-title: Désactivation de la synchronisation des dossiers partagés
 solution: Experience Cloud
 title: Désactivation de la synchronisation des dossiers partagés
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Découvrez comment désactiver la synchronisation des dossiers Experience Cloud 
 
 1. Ouvrez l’Explorateur Windows.
 
-1. Sous Favoris, cliquez avec le bouton droit sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
+1. Sous Favoris, cliquez avec le bouton droit sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
 
    ![](assets/select_sync_folders.png)
 
@@ -32,14 +35,14 @@ Découvrez comment désactiver la synchronisation des dossiers Experience Cloud 
 
 ## Mac OS
 
-1. Ouvrez une fenêtre du Finder.
+1. Ouvrez le Finder.
 
-1. Accédez au dossier utilisateur.
+1. Naviguez jusqu’au dossier utilisateur.
 
-1. Cliquez en maintenant la touche Ctrl enfoncée sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
+1. Cliquez en maintenant la touche Ctrl enfoncée sur le dossier **[!UICONTROL Creative Cloud Files (Fichiers Creative Cloud)]**, puis cliquez sur **[!UICONTROL Select Shared Folders to Sync (Sélectionner les dossiers partagés à synchroniser)]**.
 
    ![](assets/select_sync_folders_mac.png)
 
 1. Désélectionnez les dossiers que vous ne souhaitez pas synchroniser.
 
-   Une coche apparaît en regard du nom de dossier pour les dossiers synchronisés.
+   Une coche s’affiche près du nom des dossiers synchronisés.
