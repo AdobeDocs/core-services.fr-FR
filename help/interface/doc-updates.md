@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 73%
+ht-degree: 84%
 
 ---
 
 
 # Mises à jour de la documentation – Experience Cloud
 
-Informations sur les mises à jour apportées à la documentation du produit Experience Cloud.
+Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
 **Mise à jour : 19/05/2020**
 
@@ -25,20 +25,20 @@ Documentation sur la gestion des Offres obsolète.
 
 **Mise à jour : 15/05/2020**
 
-Ajout des pages suivantes :
+Ajouté les pages suivantes :
 
 * [Prise en charge de la réglementation générale de la protection des données](attributes/gdpr.md)
 * [Prise en charge de la California Consumer Privacy Act](attributes/ccpa.md)
 
-**Mise à jour : 10/03/2020**
+**Mise à jour : 10/03/2020**
 
-Mise à jour de [Valider le transfert](cookies/cookies-first-party.md#validate) des noms d’hôte dans la section des cookies propriétaires.
+Mise à jour de [Validation du transfert du nom d’hôte](cookies/cookies-first-party.md#validate) dans la section des cookies propriétaires.
 
-**Mise à jour : 20/02/2020**
+**Mise à jour : 20/02/2020**
 
-Ajout des détails sur l’utilisateur de [Vue Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
+Ajout de la section [Affichage des informations sur les utilisateurs d’Experience Cloud (outils d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
 
-**Mise à jour : 5/09/2018**
+**Mise à jour : 05/09/2018**
 
 Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
@@ -88,7 +88,7 @@ Ajout de la section [Activation des solutions pour les services principaux.](cor
 
 **Mise à jour : 15/01/2015**
 
-Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir  [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir   [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Mise à jour : 17/07/2014**
 
