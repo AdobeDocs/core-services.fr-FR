@@ -1,23 +1,23 @@
 ---
-description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
+description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 keywords: core services, sign in to Experience Cloud
 seo-description: Découvrez comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 seo-title: Connexion et gestion des paramètres du profil
 solution: Experience Cloud
-title: Connectez-vous et gérez vos paramètres du profil Experience Cloud.
+title: Connexion et gestion des paramètres du profil Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
 
-# Connectez-vous et gérez vos paramètres du profil Experience Cloud.
+# Connexion et gestion des paramètres du profil Experience Cloud
 
-La connexion à Experience Cloud (plutôt que la connexion à une seule solution) permet l’authentification unique à toutes les solutions et services que vous détenez. Cette aide décrit comment se connecter à Experience Cloud, gérer les mots de passe et les notifications et spécifier un landing page par défaut.
+En vous connectant à Experience Cloud (plutôt qu’à une solution donnée), vous bénéficiez de l’authentification unique pour tous les services et solutions que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 
 >[!IMPORTANT]
 >
@@ -27,11 +27,11 @@ La connexion à Experience Cloud (plutôt que la connexion à une seule solution
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Cliquez sur le menu déroulant Experience Cloud ( ![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**.
+1. Cliquez sur le menu déroulant Experience Cloud (![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**.
 
    ![](assets/admin-link.png)
 
-   Si le lien **[!UICONTROL Administration]** n’apparaît pas, cela signifie que vous n’êtes pas un administrateur Experience Cloud pour l’[organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) affichée (Adobe Corp dans cet exemple). Si vous avez besoin d’aide pour devenir administrateur, contactez l’assistance clientèle ou un autre administrateur Experience Cloud de votre entreprise.
+   Si le lien **[!UICONTROL Administration]** n’apparaît pas, cela signifie que vous n’êtes pas un administrateur Experience Cloud pour l’[organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) affichée (Adobe Corp dans cet exemple). Si vous avez besoin d’aide pour devenir administrateur, contactez l’assistance clientèle ou un autre administrateur Experience Cloud de votre entreprise.
 1. Cliquez sur **[!UICONTROL Administration]**.
 
    ![](assets/admin-landing.png)
@@ -39,13 +39,13 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](.
 
 | Élément | Description |
 |--- |--- |
-| [Concepts de base de la console d’administration](https://helpx.adobe.com/fr/marketing-cloud/how-to/first-time-setup.html) | Découvrez les étapes initiales à suivre pour commencer à utiliser les solutions Experience Cloud. |
-| [Configurer l&#39;identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | Définissez et configurez un système d&#39;identité sur lequel vos utilisateurs finaux seront authentifiés. |
-| [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
-| [Lancement d’Admin Console](../admin-getting-started/admin-getting-started.md) | La console d’administration est l’emplacement central de la gestion des utilisateurs et des droits des produits Adobe au sein de l’ensemble de votre organisation.<br>Vous pouvez également vous connecter à Admin Console à l’aide d’un [lien direct](https://auth.services.adobe.com/fr_FR/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FONESIE1%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fadminconsole.adobe.com%252Fredirect.html%253Ftarget%253D%25252Foverview%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize&amp;client_id=ONESIE1&amp;scope=openid%2CAdobeID%2Cadditional_info.projectedProductContext%2Cread_organizations%2Cread_members%2Cread_countries_regions%2Cadditional_info.roles%2Cadobeio_api%2Cread_auth_src_domains%2CauthSources.rwd&amp;denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2FONESIE1%3Fredirect_uri%3Dhttps%253A%252F%252Fadminconsole.adobe.com%252Fredirect.html%253Ftarget%253D%25252Foverview%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize%26response_type%3Dtoken&amp;relay=6e938255-62f5-42c8-8176-178f6f1ab5bc&amp;locale=fr_FR&amp;flow_type=token&amp;ctx_id=admin_console_logo&amp;idp_flow_type=login#/). |
-| [Gérer les utilisateurs de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permet aux marketeurs de partager des dossiers, de les synchroniser et de collaborer avec les concepteurs et autres créatifs dans Creative Cloud. Vous pouvez gérer ici les utilisateurs Creative Cloud approuvés pour collaborer avec votre entreprise. |
-| [Mappage de vos suites de rapports](../core-services/core-services.md) | (Analytics uniquement) Les services principaux Experience Cloud sont associés à une organisation plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. (Cette tâche fait partie d’un processus permettant l’  [Activation d’Analytics pour les services principaux.](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)) |
-| [Organization ID (ID d’organisation)](../admin-getting-started/organizations.md) | L’*ID d’organisation* se trouve en bas de la page Administration. Il s’agit de l’identifiant associé à la société Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |
+| [Concepts de base d’Admin Console](https://helpx.adobe.com/fr/marketing-cloud/how-to/first-time-setup.html) | Découvrez les premières étapes à suivre pour commencer à utiliser les solutions Experience Cloud. |
+| [Configuration d’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | Définissez et configurez un système d’identités qui déterminera le mode d’authentification de vos utilisateurs finaux. |
+| [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
+| [Lancement d’Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console centralise la gestion de vos utilisateurs et de vos droits sur les produits Adobe au sein de votre organisation dans son intégralité.<br>Vous pouvez également vous connecter à Admin Console à l’aide d’un [lien direct](https://adminconsole.adobe.com). |
+| [Gérer les utilisateurs de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permet aux marketeurs de partager des dossiers, de les synchroniser et de collaborer avec les concepteurs et autres créatifs dans Creative Cloud. Ici, vous pouvez gérer les utilisateurs de Creative Cloud autorisés à collaborer avec votre organisation. |
+| [Mappage de vos suites de rapports](../core-services/core-services.md) | (Analytics uniquement) Les services principaux Experience Cloud sont associés à une organisation plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. (Cette tâche fait partie d’un processus permettant l’   [Activation d’Analytics pour les services principaux.](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)) |
+| [ID d’organisation](../admin-getting-started/organizations.md) | L’*ID d’organisation* se trouve en bas de la page Administration. Il s’agit de l’identifiant associé à la société Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |
 
 ## Connexion à Experience Cloud (utilisateurs) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -55,12 +55,12 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 1. Vérifiez auprès de votre administrateur que votre [organisation](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) a reçu les privilèges d’accès dans Experience Cloud.
 
 
-1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Cliquez sur **[!UICONTROL Se connecter avec l’Adobe ID]**.
 
-   Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
+   Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
 
-1. Sur votre landing page, cliquez sur l’icône de sélection ![](assets/menu-icon.png) pour accéder au menu déroulant.
+1. Sur votre page d’entrée, cliquez sur l’icône de sélecteur ![](assets/menu-icon.png) pour accéder au menu déroulant.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -84,10 +84,10 @@ Recevez des notifications (par courrier électronique ou au sein du produit) con
 
 Pour accéder aux notifications, cliquez sur l’icône **[!UICONTROL Notifications]**![](assets/notifications-icon.png), puis sur l’icône **[!UICONTROL Paramètres]**![](assets/icon_edit_board.png).
 
-Vous pouvez trier l’affichage des notifications d’après les types de messages qui vous intéressent et rechercher des notifications. Vous pouvez également procéder comme suit :
+Vous pouvez trier l’affichage des notifications d’après les types de messages qui vous intéressent et rechercher des notifications. Vous pouvez également réaliser les opérations suivantes :
 
-* Triez par type de message important pour vous.
-* Recherchez des notifications.
+* Trier les messages selon les types qui vous intéressent
+* Rechercher des notifications
 
 
 **Pour activer les notifications**
@@ -123,7 +123,7 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
    ![](assets/edit-profile.png)
 1. Cliquez sur **[!UICONTROL Modifier le profil]**.
 
-   Sur la page Profil et mots de passe, renseignez les champs et options sous Détails personnels.
+   Sur la page Profil et mots de passe, renseignez les champs et les options sous Détails personnels.
 
 ## Récupération du mot de passe  {#task_46541A2806164CB1A4AE8239604E4EB1}
 
@@ -132,11 +132,11 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
    La réinitialisation du mot de passe de la solution résout habituellement les problèmes de liaison de mots de passe pour Experience Cloud.
 
-   For Adobe Analytics users, navigate to [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Pour les utilisateurs d’Adobe Analytics, accédez à la page [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Configuration de la connexion aux solutions à l’aide d’un lien direct {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-Vous pouvez éventuellement vous connecter à une page spécifique d’une solution à l’aide de l’authentification fournie par l’interface Experience Cloud.
+Vous pouvez éventuellement vous connecter à une page spécifique au sein d’une solution à l’aide de l’authentification fournie par l’interface d’Experience Cloud.
 
 ### Modèle d’URL
 
@@ -148,10 +148,10 @@ Exemple d’URL :
 
 >[!NOTE]
 >
->Vous devez coder les URL avant de les transmettre au paramètre `destURL`. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
+>Vous devez coder les URL avant de les transmettre au paramètre `destURL`. (Des sites de codage tels que [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) sont disponibles.)
 
 | Paramètre | Description | Exemple | Obligatoire / Facultatif |
 |--- |--- |--- |--- |
-| locataireId | Nom du client auquel l&#39;utilisateur doit se connecter. | aem62tenant | Facultative |
-| destURL | URL complète vers l’emplacement où l’utilisateur doit être conduit. | https://sc.omniture.com/x/1_7xxzf | Facultative |
-| solutionname | Nom de la solution MAC propriétaire du paramètre destURL. Il est utilisé pour vérifier que l’utilisateur a accès à la solution propriétaire de l’URL.  Il appartient aux solutions de s’assurer que le paramètre solutionname est synchronisé avec le paramètre destURL.  Par exemple : si le paramètre solutionname de l’URL a pour valeur « social » et que le paramètre destURL fourni est une URL Analytics, l’utilisateur sera redirigé vers l’URL même s’il n’a pas accès à Analytics. MAC ne vérifie PAS si le propriétaire de destURL est synchronisé avec le nom de la solution. | analytics | Obligatoire si le paramètre destURL est utilisé. |
+| tenantId | Nom du client auquel l’utilisateur doit se connecter. | aem62tenant | Facultative |
+| destURL | URL complète renvoyant vers l’emplacement auquel l’utilisateur doit accéder. | https://sc.omniture.com/x/1_7xxzf | Facultative |
+| solutionname | Nom de la solution MAC propriétaire du paramètre destURL. Il est utilisé pour vérifier que l’utilisateur a accès à la solution propriétaire de l’URL.  Il appartient aux solutions de s’assurer que le paramètre solutionname est synchronisé avec le paramètre destURL.  Par exemple : si le paramètre solutionname de l’URL a pour valeur « social » et que le paramètre destURL fourni est une URL Analytics, l’utilisateur sera redirigé vers l’URL même s’il n’a pas accès à Analytics. MAC ne vérifie PAS si le propriétaire du destURL est synchronisé avec le nom de la solution. | analytics | Obligatoire si le paramètre destURL est utilisé. |
