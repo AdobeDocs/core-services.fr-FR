@@ -4,8 +4,11 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
+workflow-type: ht
+source-wordcount: '1154'
+ht-degree: 100%
 
 ---
 
@@ -16,20 +19,20 @@ Découvrez comment mapper une ou plusieurs suites de rapports à une organisatio
 
 <!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
-Experience Cloud services (such as Experience Cloud ID Service and [!UICONTROL People]) are associated with an organization instead of an individual report suite. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
+Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL Personnes]) sont associés à une organisation Experience Cloud plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
 
 * Définit une organisation Experience Cloud comme organisation principale pour la suite de rapports.
-* Ne modifie pas qui peut accéder à une suite de rapports (l’accès est toujours déterminé par le compte de connexion Adobe Analytics pour chaque utilisateur).
+* Ne modifie pas les personnes pouvant accéder à une suite de rapports (l’accès est toujours déterminé par le compte de connexion Adobe Analytics pour chaque utilisateur).
 
 ## Conditions
 
-Vous devez être administrateur Analytics d’une société de connexion ayant accès à la suite de rapports que vous souhaitez mapper. De plus, ce compte doit être [lié à une organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) Experience Cloud pour mapper les suites de rapports à cette organisation.
+Vous devez être administrateur Analytics d’une société de connexion ayant accès à la suite de rapports que vous souhaitez mapper. De plus, ce compte doit être [lié à une organisation Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) pour mapper les suites de rapports à cette organisation.
 
 Les organisations sont grisées si vous ne disposez pas des autorisations d’administrateur Analytics pour une société de connexion sous cette organisation ayant accès à la suite de rapports.
 
 ## Mappage d’une suite de rapports à une organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
+1. Cliquez sur **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**
 
 1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, cliquez sur **[!UICONTROL Visible pour les connexions d’entreprises]**.
 
@@ -41,7 +44,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 ## Mappage de plusieurs suites de rapports à une organisation {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
+1. Cliquez sur **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**
 
 1. Sélectionnez les suites de rapports que vous souhaitez mapper.
 
@@ -49,7 +52,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 1. Sélectionnez l’organisation (Outdoors Inc, dans cet exemple), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-   Reportez-vous à la section suivante pour obtenir des conseils sur la sélection d’une organisation Experience Cloud.
+   Reportez-vous à la section suivante pour obtenir des conseils sur la sélection d’une organisation Experience Cloud.
 
 1. Cliquez sur **[!UICONTROL Enregistrer le mappage]**.
 
@@ -57,13 +60,13 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 Cette section contient des conseils pour vous aider à sélectionner l’organisation Experience Cloud à laquelle vous devez mapper une suite de rapports.
 
-### Quelle organisation dois-je choisir ?
+### Quelle organisation dois-je choisir ?
 
-If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. You can use the instructions in [Test and Verify the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) to find the org ID that is being used by the Visitor ID service.
+Si le service Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
 
-Si le service d’identification des Visiteurs n’est pas encore déployé sur les sites qui collectent des données pour la suite de rapports, si vous déployez le service d’identification des Visiteurs d’Experience Cloud à l’avenir, vous devrez vous assurer que votre déploiement correspond à l’organisation que vous avez choisie dans l’outil de mappage des suites de rapports.
+Si le service d’identification des visiteurs n’est pas encore déployé sur les sites qui collectent des données pour la suite de rapports, si vous déployez le service d’identification des visiteurs d’Experience Cloud à l’avenir, vous devrez vous assurer que votre déploiement correspond à l’organisation que vous avez choisie dans l’outil de mappage des suites de rapports.
 
-### Pourquoi certaines organisations sont-elles grisées ?
+### Pourquoi certaines organisations sont-elles grisées ?
 
 Cela indique que vous ne disposez pas des privilèges suffisants pour mapper la suite de rapports à l’organisation grisée. Examinez l’exemple suivant :
 
@@ -72,44 +75,44 @@ Cela indique que vous ne disposez pas des privilèges suffisants pour mapper la 
 
 Sur ce schéma, la clé bleue représente les privilèges d’administrateur. Les lignes grises indiquent la visibilité.
 
-Cet utilisateur a accès à deux organisations Experience Cloud. Il a effectué les tâches suivantes :
+Cet utilisateur a accès à deux organisations Experience Cloud. Il a effectué les tâches suivantes :
 
-* Liait son compte d’administrateur dans la société de connexion [!UICONTROL chapek] Analytics à son compte d’organisation [!UICONTROL Chapek] Corp Experience Cloud.
-* Liait son compte non administrateur dans la société de connexion [!UICONTROL doohan] Analytics à son compte d’organisation [!UICONTROL Chapek] Corp Experience Cloud.
-* Liait son compte non-administrateur dans la société de connexion d’Analytics à son compte d’entreprise Nigel Inc Experience Cloud org.
+* Liaison de son compte d’administrateur dans la société de connexion [!UICONTROL chapek] Analytics à son compte d’organisation [!UICONTROL Chapek] Corp Experience Cloud
+* Liaison de son compte non administrateur dans la société de connexion [!UICONTROL doohan] Analytics à son compte d’organisation [!UICONTROL Chapek] Corp Experience Cloud
+* Liaison de son compte non-administrateur dans la société de connexion d’Analytics à son compte d’entreprise Nigel Inc Experience Cloud org
 
-Les points suivants liste les actions de mappage que cet utilisateur peut et ne peut pas effectuer concernant ces suites de rapports :
+Les points suivants répertorient les actions de mappage que cet utilisateur peut et ne peut pas effectuer concernant ces suites de rapports :
 
 * [!UICONTROL La suite de rapports Chapek-prod] peut être mappée à l’organisation [!UICONTROL Chapek] Corp puisque cet utilisateur est l’administrateur d’une société de connexion Analytics liée ([!UICONTROL chapek]) et que son compte est lié à cette organisation.
-* [!UICONTROL Cette suite de rapports Nigel-prod] ne peut pas être liée par cet utilisateur, puisqu’il n’est pas administrateur dans aucune société de connexion à laquelle cette suite de rapports est visible.
-* [!UICONTROL La suite de rapports Doohan-prod] peut être mappée à [!UICONTROL Chapek Corp] car cet utilisateur est l’administrateur d’une société de connexion ([!UICONTROL chapek]) qui est liée à l’organisation Experience Cloud (notez qu’il n’est pas l’administrateur de la société de connexion doohan Analytics). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Avant le mappage, cet utilisateur doit consulter un administrateur de la société de connexion nigel pour déterminer quelle organisation est la plus adaptée au mappage. L’interface utilisateur affiche un avertissement Conflit possible si vous sélectionnez une organisation différente de l’organisation sous laquelle la suite de rapports a été créée à l’origine.
+* [!UICONTROL La suite de rapports Nigel-prod] ne peut pas être liée par cet utilisateur, puisqu’il n’est administrateur d’aucune société de connexion pour laquelle cette suite de rapports est visible.
+* La suite de rapports [!UICONTROL Doohan-prod] peut être mappée à [!UICONTROL Chapek Corp], car cet utilisateur est administrateur d’une société de connexion ([!UICONTROL chapek]) liée à l’organisation Experience Cloud (notez qu’il n’est pas administrateur de la société de connexion Analytics doohan). Il est important de souligner que la suite de rapports [!UICONTROL doohan-prod] peut également être mappée à l’organisation Experience Cloud Nigel Inc, même si cet utilisateur ne peut pas procéder au mappage. Dans ce cas, les deux organisations Experience Cloud apparaissent dans la liste, mais [!UICONTROL Nigel Inc] est grisé. Avant le mappage, cet utilisateur doit consulter un administrateur de la société de connexion nigel pour déterminer quelle organisation est la plus adaptée au mappage. L’interface utilisateur affiche un avertissement Conflit possible si vous sélectionnez une organisation différente de l’organisation sous laquelle la suite de rapports a été créée à l’origine.
 
 ## Questions fréquentes {#section_099E485805994C929FF9C9F75219BEE1}
 
-### Pourquoi est-ce que je ne vois pas toutes mes Report Suites ?
+### Pourquoi est-ce que je ne vois pas toutes mes suites de rapports ?
 
 Certaines de vos suites de rapports peuvent être visibles sous une autre société de connexion. Vous pouvez modifier la société de connexion actuelle à l’aide de la liste déroulante située en haut de l’écran.
 
-### Que se passe-t-il si je ne reconnais pas certaines des organisations répertoriées dans la liste déroulante pour l’une de mes suites de rapports ?
+### Que se passe-t-il si je ne reconnais pas certaines des organisations répertoriées dans la liste déroulante pour l’une de mes suites de rapports ?
 
-The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. Si vous ne savez pas si la suite de rapports doit être mappée à l’une des suites de rapports grisées de la liste, consultez un administrateur Experience Cloud de votre organisation pour déterminer le meilleur choix.
+La liste répertorie toutes les organisations auxquelles votre suite de rapports *peut* être mappée, même si vous ne disposez pas des autorisations nécessaires pour le faire. Si vous ne savez pas si la suite de rapports doit être mappée à l’une des suites de rapports grisées de la liste, consultez un administrateur Experience Cloud de votre organisation pour déterminer le meilleur choix à effectuer.
 
-### Que se passe-t-il si je ne reconnais pas certaines des Sociétés de connexion répertoriées pour une suite de rapports dans la colonne &quot;Visible to Login Sociétés&quot; ?
+### Que se passe-t-il si je ne reconnais pas certaines des sociétés de connexion répertoriées pour une suite de rapports dans la colonne « Visible pour les connexions d’entreprises » ?
 
 À un moment donné, cette suite de rapports a été partagée avec une autre société de connexion qui peut faire partie d’une autre organisation Experience Cloud.
 
-### Que signifie cette erreur de conflit potentiel de la suite de rapports générée par une autre organisation ? Pourquoi est-ce important ?
+### Que signifie cette erreur de conflit potentiel de la suite de rapports générée par une autre organisation ? Pourquoi est-ce important ?
 
 Il s’agit d’une notification ayant pour but de vous aider à prendre une décision informée concernant le mappage de vos suites de rapports. Nous voulons vous informer que la suite de rapports a été créée à l’origine sous une autre organisation au cas où elle serait plus adaptée à cette suite de rapports.
 
-### Comment savoir si une suite de rapports est mappée ?
+### Comment savoir si une suite de rapports est mappée ?
 
-Les suites de rapports mappées s’affichent dans un format non modifiable. Si vous devez modifier un mappage, contactez le service d’assistance clientèle.
+Les suites de rapports mappées s’affichent dans un format non modifiable. Si vous devez modifier un mappage, contactez l’assistance clientèle.
 
 ### Que faire si je connais uniquement l’ID d’organisation de mon organisation Experience Cloud ? Comment rechercher le nom associé à mon ID d’organisation ?
 
-Vous pouvez trouver le nom de votre organisation dans Paramètres [des](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/organizations.html)organisations et des comptes.
+Vous pouvez trouver le nom de votre organisation dans [Paramètres des organisations et des comptes](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/organizations.html).
 
-### Une date apparaît dans la colonne « Date de mappage ». Qui a fait cette cartographie ?
+### Une date apparaît dans la colonne « Date de mappage ». Qui a effectué ce mappage ?
 
-Vous pouvez vous reporter au journal des modifications de la suite de rapports dans l’interface d’Analytics pour consulter l’ID utilisateur qui a procédé au changement. Recherchez le événement &quot;Suite associée à l&#39;organisation IMS&quot;.
+Vous pouvez vous reporter au journal des modifications de la suite de rapports dans l’interface d’Analytics pour consulter l’ID de l’utilisateur qui a procédé au changement. Recherchez le événement « Suite associée à l’organisation IMS ».
