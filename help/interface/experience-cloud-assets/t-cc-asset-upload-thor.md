@@ -6,8 +6,11 @@ seo-title: Transfert d’une ressource vers un dossier partagé depuis l’appli
 solution: Experience Cloud
 title: Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
+workflow-type: ht
+source-wordcount: '83'
+ht-degree: 100%
 
 ---
 
