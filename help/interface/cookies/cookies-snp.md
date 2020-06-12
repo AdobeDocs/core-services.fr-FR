@@ -6,13 +6,16 @@ seo-title: Cookies Search&Promote
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
 
-# Cookies Search&amp;Promote{#search-and-promote-cookies}
+# Cookies Search&amp;Promote {#search-and-promote-cookies}
 
 Search&amp;Promote utilise des cookies pour comprendre et anticiper les intentions de recherche des visiteurs.
 
@@ -32,30 +35,30 @@ Search&amp;Promote utilise des cookies pour comprendre et anticiper les intentio
   </tr> 
   <tr> 
    <td colname="col1"> <p> Expiration </p> </td> 
-   <td colname="col2"> <p>Configurable dans Search&amp;Promote (<span class="uicontrol">Conception</span> &gt; <span class="uicontrol">Navigation</span> &gt; <span class="uicontrol">Recherches récentes</span>). Vous pouvez sélectionner l’une des options d’expiration de cookie suivantes : </p> <p> 
+   <td colname="col2"> <p>Configurable dans Search&amp;Promote (<span class="uicontrol">Conception</span> &gt; <span class="uicontrol">Navigation</span> &gt; <span class="uicontrol">Recherches récentes</span>). Vous pouvez choisir parmi les options d’expiration des cookies suivantes : </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Fin de session </li> 
-      <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 heures </li> 
-      <li id="li_339475FBAB2248348B54073A2386819D">1 jour </li> 
-      <li id="li_F30E6EF7A7FF467DB995D86AD0DF623B">1 semaine </li> 
-      <li id="li_77E18CF7EF8E4B24BAC5440D2B87844B">2 semaines </li> 
-      <li id="li_E8A5FF4C97F64BB087422B16AD1F61DB">1 mois </li> 
-      <li id="li_C170092F7E5649FE876925B58E6C8580">3 mois </li> 
-      <li id="li_08BD465A900A48BDA1283263047A33FD">6 mois </li> 
-      <li id="li_85FEDE0283F7426B9AF49C72B5089257">1 an </li> 
+      <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 heures </li> 
+      <li id="li_339475FBAB2248348B54073A2386819D">1 jour </li> 
+      <li id="li_F30E6EF7A7FF467DB995D86AD0DF623B">1 semaine </li> 
+      <li id="li_77E18CF7EF8E4B24BAC5440D2B87844B">2 semaines </li> 
+      <li id="li_E8A5FF4C97F64BB087422B16AD1F61DB">1 mois </li> 
+      <li id="li_C170092F7E5649FE876925B58E6C8580">3 mois </li> 
+      <li id="li_08BD465A900A48BDA1283263047A33FD">6 mois </li> 
+      <li id="li_85FEDE0283F7426B9AF49C72B5089257">1 an </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Utilisation </p> </td> 
-   <td colname="col2"> <p>Utilisé par le moteur de recherche pour afficher à nouveau à l’utilisateur ses n derniers  termes. </p> </td> 
+   <td colname="col2"> <p>Utilisé par le moteur de recherche pour présenter à l’utilisateur ses n derniers termes de recherche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Emplacement </p> </td> 
-   <td colname="col2"> <p>dépendant du navigateur. Les cookies sont enregistrés à l’emplacement par défaut spécifié dans le navigateur de l’utilisateur. </p> </td> 
+   <td colname="col2"> <p>Dépendant du navigateur. Les cookies sont enregistrés à l’emplacement par défaut spécifié dans le navigateur de l’utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Taille </p> </td> 
-   <td colname="col2"> <p>Moins de 1 K. </p> </td> 
+   <td colname="col2"> <p>Moins de 1 K. </p> </td> 
   </tr> 
  </tbody> 
 </table>
