@@ -6,21 +6,24 @@ seo-title: Cookies Target
 solution: Marketing Cloud,Analytics,Target,Social
 title: Cookies Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
 
-# Adobe Target Cookies{#target-cookies}
+# Cookies Adobe Target {#target-cookies}
 
-Le Adobe utilise des cookies pour permettre aux opérateurs de site Web de tester quel contenu en ligne et quel  de sont les plus pertinents pour les.
+Adobe Target utilise des cookies pour offrir aux opérateurs du site web la possibilité de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
 
-Vous pouvez modifier ces paramètres si nécessaire, à l’exception de la durée du cookie. Consultez le représentant de votre compte lorsque vous modifiez les paramètres des cookies.
+Vous pouvez modifier ces paramètres si nécessaire, à l’exception de la durée du cookie. Consultez votre gestionnaire de compte lorsque vous modifiez les paramètres des cookies.
 
 >[!NOTE]
 >
->Les utilisateurs d’Adobe  peuvent également créer des cookies tiers personnalisés.
+>Les utilisateurs d’Adobe Target peuvent également créer des cookies tiers.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,11 +43,11 @@ Vous pouvez modifier ces paramètres si nécessaire, à l’exception de la dur�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine du serveur </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, à l’aide du code client pour votre compte de Adobe. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, utilisant le code client de votre compte Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée du cookie </p> </td> 
-   <td colname="col2"> <p>Le cookie reste sur le navigateur  deux ans à compter de sa dernière connexion. Vous ne pouvez pas modifier la durée du cookie. </p> </td> 
+   <td colname="col2"> <p>Le cookie reste sur le navigateur du visiteur deux ans après sa dernière connexion. Vous ne pouvez pas modifier la durée du cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +56,7 @@ Vous pouvez modifier ces paramètres si nécessaire, à l’exception de la dur�
 >
 >Si l’un des noms de domaine comprend un code de pays, comme [!DNL mycompany.co.uk], adressez-vous au service clientèle afin de configurer le fichier [!DNL mbox.js] en tenant compte de ce paramètre.
 
-Le cookie conserve un certain nombre de valeurs afin de gérer la manière dont vos vivent les campagnes de Adobe :
+Le cookie conserve un certain nombre de valeurs afin de gérer la manière dont vos visiteurs expérimentent les campagnes Adobe Target :
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
@@ -65,15 +68,15 @@ Le cookie conserve un certain nombre de valeurs afin de gérer la manière dont 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>ID unique d’une session utilisateur. Par défaut, cette opération dure 30 minutes. </p> </td> 
+   <td colname="col2"> <p>ID unique d’une session d’utilisateur. Dure 30 minutes par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
-   <td colname="col2"> <p>Identifiant semi-permanent pour un navigateur . Durée jusqu’à ce que les cookies soient supprimés manuellement. </p> </td> 
+   <td colname="col2"> <p>ID semi-permanent du navigateur d’un visiteur. Dure jusqu’à ce que les cookies soient supprimés manuellement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
-   <td colname="col2"> <p>Valeur de test simple utilisée pour déterminer si un prend en charge les cookies. Défini chaque fois qu’un demande une page. </p> </td> 
+   <td colname="col2"> <p>Valeur de test simple utilisée pour déterminer si un visiteur prend en charge les cookies. Défini chaque fois qu’un visiteur demande une page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
