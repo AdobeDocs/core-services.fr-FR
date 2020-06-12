@@ -1,40 +1,43 @@
 ---
-description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
+description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
 keywords: cookies;privacy
-seo-description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
+seo-description: Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
 seo-title: Cookies Scene7
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies Scene7
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 
 
-# Cookies Scene7{#scene-cookies}
+# Cookies Scene7 {#scene-cookies}
 
-Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
+Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
 
-Scene7 stocke des informations en local pour certaines anciennes visionneuses Flash AS2.
+Scene7 stocke des informations en local pour certaines visionneuses Flash AS2 plus anciennes.
 
-Pour les visionneuses AS2, les cookies :
+Pour les visionneuses AS2, les cookies :
 
-* Effectuez le suivi de l’état de session d’un utilisateur, tel que la page et l’image affichées, le niveau de zoom actuel, etc.
-* Déterminez combien de temps cela a duré depuis la session précédente de l’utilisateur. Le lecteur utilise ces informations pour décider de poursuivre une session précédente ou d’en  une nouvelle. Ces informations sont également envoyées aux serveurs Scene7, mais elles ne sont pas utilisées.
+* assurent le suivi de l’état de session d’un utilisateur, tel que la page et l’image actuellement consultées, le niveau de zoom actuel, etc. ;
+* déterminent le temps écoulé depuis la session précédente de l’utilisateur. La visionneuse utilise ces informations pour décider s’il convient de poursuivre une session précédente ou d’en débuter une nouvelle. Ces informations sont également envoyées aux serveurs Scene7, mais elles ne sont pas utilisées.
 
-Pour la visionneuse de catalogue électronique Flash AS2, les cookies :
+Pour la visionneuse de catalogue électronique Flash AS2, les cookies :
 
-* Stocker le contenu généré par l’utilisateur (notamment le contenu saisi par l’utilisateur dans la fonction &quot;pense-bête&quot; de la visionneuse de catalogue électronique). Ce contenu est restauré lorsque l’utilisateur reprend une session.
-* Lorsque l’utilisateur lance un courrier électronique pour partager l’catalogue avec un autre utilisateur, le contenu des notes de bas de page de la deuxième puce des visionneuses AS2 est copié sur nos serveurs afin de le fournir au. Lorsque le lance la session du lecteur, le contenu des notes de bas de page est récupéré du serveur et copié dans un cookie. Cette fonction est peu utilisée, elle n’expire donc pas et le contenu obsolète n’est pas supprimé. Actuellement, il persiste indéfiniment sur les serveurs.
+* stockent le contenu généré par l’utilisateur (notamment le contenu saisi par l’utilisateur dans la fonction « pense-bêtes » de la visionneuse de catalogue électronique). Ce contenu est restauré lorsque l’utilisateur reprend une session.
+* lorsque l’utilisateur envoie un e-mail pour partager le catalogue électronique avec un autre utilisateur, le contenu des pense-bêtes provenant de la deuxième puce des visionneuses AS2 est copié sur nos serveurs afin de le fournir au destinataire. Lorsque le destinataire lance la session de la visionneuse, le contenu des pense-bêtes est récupéré sur le serveur et copié dans un cookie. Cette fonction est peu utilisée, de sorte qu’elle n’expire pas et que le contenu obsolète n’est pas supprimé. Actuellement, celle-ci persiste indéfiniment sur les serveurs.
 
-Les nouvelles visionneuses AS3 n’implémentent pas la persistance de session.
+Les nouvelles visionneuses AS3 ne mettent pas en œuvre la persistance de session.
 
-**Nom du cookie : VatLogin.jsp**
+**Nom du cookie : VatLogin.jsp**
 
 | Attribut | Description |
 |---|---|
-| Informations stockées | Définit le cookie de session. AuthFilter intégré dans IPS ImageServer (IS, IR, mais aussi les fichiers SWF/habillages et les  vidéo) utilise le cookie pour l’autorisation d’accès. S’il est présent, il permet aux requêtes HTTP de passer. Sinon, elle renvoie non autorisé. |
+| Informations stockées | Définit le cookie de session. Le composant AuthFilter intégré dans IPS ImageServer (IS, IR, ainsi que les fichiers SWF/skins et les contextes vidéo) utilise le cookie pour l’autorisation d’accès. S’il est présent, il permet aux requêtes HTTP de passer. Sinon, il renvoie « non autorisé ». |
 | Expiration | Ce cookie est un cookie de session. La durée d’expiration de session actuelle est définie sur 45 minutes dans le fichier [!DNL web.xml] de Scene7 IPS. |
 
 **Nom du cookie : s7js.flyout.InfoMessage.displayed`assetId`.state**
@@ -49,7 +52,7 @@ Les nouvelles visionneuses AS3 n’implémentent pas la persistance de session.
  <tbody> 
   <tr> 
    <td colname="col1"> Informations stockées </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; est le nom de la ressource sur laquelle travaille le lecteur. </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt; correspond au nom de la ressource utilisée par la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Expiration </td> 
@@ -60,7 +63,7 @@ Les nouvelles visionneuses AS3 n’implémentent pas la persistance de session.
 
 **Nom du cookie : s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
-Les cookies de navigateur sont utilisés par les anciennes visionneuses DHTML pour stocker des informations d’état et des données de notes de garde. Ils sont également utilisés par la fenêtre déroulante DHTML à plusieurs écrans pour rendre l’indicateur de message spécifique à la session.
+Les cookies de navigateur sont utilisés par les anciennes visionneuses DHTML pour stocker des informations d’état et des données de pense-bête. Ils sont également utilisés par la fenêtre déroulante DHTML à plusieurs écrans pour rendre l’indicateur de message spécifique à la session.
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -72,7 +75,7 @@ Les cookies de navigateur sont utilisés par les anciennes visionneuses DHTML po
  <tbody> 
   <tr> 
    <td colname="col1"> Informations stockées </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; est le nom de la ressource sur laquelle travaille le lecteur et &lt;id&gt; l’index de pense-bête basé sur 0. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; correspond au nom de l’élément actuellement utilisé par la visionneuse et &lt;id&gt; est l’index de pense-bête de base 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Expiration </td> 
