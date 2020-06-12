@@ -1,35 +1,38 @@
 ---
-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
+description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 keywords: core services
-seo-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
+seo-description: Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
 
 # Exchange Marketplace
 
-Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées pour le produit principal d’Adobe, des applications tierces et des rapports.
+Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
 
-* Téléchargez des kits SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
+* Téléchargez des SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
 
-* Les clients peuvent rechercher, sélectionner et installer les extensions Digital Marketing.
+* Les clients peuvent rechercher, sélectionner et installer des extensions Digital Marketing.
 
 * Les administrateurs peuvent configurer les applications téléchargées.
 
-* Examinez les envois des développeurs, parcourez l’application et commentez ou évaluez chaque application.
+* Examinez les envois des développeurs, parcourez une application et ajoutez des commentaires ou évaluez chaque application.
 
-* Refusez ou approuvez les applications.
+* Refusez ou approuvez des applications.
 
-* Publiez dans Experience Cloud.
+* Publiez-les dans Experience Cloud.
 
-* Recherchez et filtrez par ,, type, utilisateur, etc.
+* Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
-See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
+Voir [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) pour en savoir plus.
