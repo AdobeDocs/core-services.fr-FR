@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Guide de l’utilisateur de l’interface Experience Cloud
+user-guide-title: Guide d’utilisation de l’interface Experience Cloud
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
@@ -8,14 +8,14 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
-# Guide de l’utilisateur des services principaux {#interface}
+# Guide d’utilisation des services principaux {#interface}
 
-+ [Experience Cloud et la documentation du produit](experience-cloud.md)
++ [Experience Cloud et documentation du produit](experience-cloud.md)
 + Services principaux dans Experience Cloud {#about-core-services}
    + [Présentation des services principaux](core-services-landing.md)
    + [Activation des solutions pour les services principaux](core-services/core-services.md)
@@ -27,28 +27,28 @@ ht-degree: 67%
    + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies de Data Connectors](cookies/cookies-dc.md)
-   + [Cookies des Data Workbench](cookies/cookies-insight.md)
+   + [Cookies Data Connectors](cookies/cookies-dc.md)
+   + [Cookies Data Workbench](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
    + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
-   + [Impact des modifications apportées à la prise en charge des cookies tiers sur les clients](cookies/cookies-thirdparty.md)
+   + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
-   + [Gestion de l’identité et des produits des utilisateurs d’Experience Cloud (Console d’administration)](admin-getting-started/admin-getting-started.md)
-   + [Détails sur l’utilisateur de Vue Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Gestion de l’identité de l’utilisateur et des produits d’Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Questions fréquentes](admin-getting-started/faq.md)
    + [Connexion et gestion des paramètres du profil](admin-getting-started/getting-started-experience-cloud.md)
    + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Activation d’Experience Cloud {#activation}
-   + [Présentation de l’Activation](activation/activation.md)
-   + [Guide de l’utilisateur de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
-   + [Guide de l’utilisateur du gestionnaire dynamique de balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
++ Experience Cloud Activation {#activation}
+   + [Présentation de l’activation](activation/activation.md)
+   + [Guide d’utilisation de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
+   + [Guide d’utilisation du gestionnaire dynamique de balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
++ Ressources Experience Cloud {#assets}
    + [Présentation des ressources d’Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
    + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestion des utilisateurs Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
@@ -62,12 +62,12 @@ ht-degree: 67%
    + [Présentation des audiences](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
-+ Attributs du client dans Experience Cloud {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [Présentation des attributs du client](attributes/attributes.md)
    + [Questions fréquentes, restrictions et bonnes pratiques](attributes/faq-crs.md)
    + [A propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
    + [Création d’une source d’attributs du client et téléchargement du fichier de données](attributes/t-crs-usecase.md)
-   + [Facultatif – Transfert du fichier de données par FTP](attributes/t-upload-attributes-ftp.md)
+   + [Facultatif – Transfert du fichier de données par FTP](attributes/t-upload-attributes-ftp.md)
    + [Validation du schéma](attributes/validate-schema.md)
    + [Configuration des abonnements](attributes/subscription.md)
    + [Mise à jour du schéma](attributes/t-update-schema.md)
@@ -83,4 +83,4 @@ ht-degree: 67%
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologie](terms.md)
    + [Utilisation de la prérécupération DNS avec différents services et solutions](dns-prefetch.md)
-   + [Mises à jour de la documentation – Experience Cloud](doc-updates.md)
+   + [Mises à jour de la documentation – Experience Cloud](doc-updates.md)
