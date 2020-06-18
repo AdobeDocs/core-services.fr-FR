@@ -6,11 +6,11 @@ seo-title: Comment les modifications liées à la prise en charge des cookies ti
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 ## Adobe Analytics et Adobe Target
 
 * Les clients disposant d’une [mise en œuvre propriétaire](/help/interface/cookies/cookies-first-party.md) ne seront globalement pas affectés.
-* Les clients qui n’utilisent pas la mise en œuvre propriétaire peuvent mettre en œuvre le [service Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) pour stocker le cookie d’ID en tant que cookie propriétaire sans mise en œuvre propriétaire.
+* Les clients qui n’utilisent pas la mise en œuvre propriétaire peuvent mettre en œuvre le [service Experience Platform ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-guides.html) pour stocker le cookie d’ID en tant que cookie propriétaire sans mise en œuvre propriétaire.
 
 ## Adobe Experience Manager
 
@@ -32,7 +32,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 
 ## Adobe Social
 
-* Social ne sera pas affecté tant que le client possède la dernière version du code.
+* Social ne sera pas affecté tant que le client dispose de la version la plus récente du code.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 * Affichage :
 
    * Le remarketing d’affichage dépend aujourd’hui entièrement de l’utilisation de cookies tiers.
-   * L’affichage dépend aussi fortement de la disponibilité de divers cookies réseau publicitaires pour la synchronisation.
+   * L&#39;affichage dépend aussi fortement de la disponibilité de divers cookies réseau publicitaires pour la synchronisation.
    * L’impact global est inconnu. Cependant, au premier point, l’affichage est plus affecté que les autres services.
    * Nous travaillons à l’interne et avec nos partenaires publicitaires pour évaluer l’ampleur de l’impact sur la diffusion publicitaire.
 
