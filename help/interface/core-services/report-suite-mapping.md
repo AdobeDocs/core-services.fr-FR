@@ -4,11 +4,11 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 ## Mappage d’une suite de rapports à une organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Cliquez sur **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**
+1. Accédez à Report Suites pour la gouvernance des données dans [!DNL Analytics] > **[!UICONTROL Administration]** > Gouvernance **[!UICONTROL des]** données (voir [Vue/Gérer les paramètres de gouvernance des données de la suite de rapports).](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, cliquez sur **[!UICONTROL Visible pour les connexions d’entreprises]**.
 
