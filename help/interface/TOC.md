@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,18 @@ ht-degree: 87%
    + [Présentation des audiences](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Attributs du client dans Experience Cloud {#customer-attributes}
    + [Présentation des attributs du client](attributes/attributes.md)
    + [Questions fréquentes, restrictions et bonnes pratiques](attributes/faq-crs.md)
-   + [A propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
-   + [Création d’une source d’attributs du client et téléchargement du fichier de données](attributes/t-crs-usecase.md)
+   + [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
+   + [Création d’une source d’attributs du client et transfert du fichier de données](attributes/t-crs-usecase.md)
    + [Facultatif – Transfert du fichier de données par FTP](attributes/t-upload-attributes-ftp.md)
    + [Validation du schéma](attributes/validate-schema.md)
    + [Configuration des abonnements](attributes/subscription.md)
    + [Mise à jour du schéma](attributes/t-update-schema.md)
-   + [Prise en charge de la réglementation générale de la protection des données](attributes/gdpr.md)
-   + [Prise en charge de la California Consumer Privacy Act](attributes/ccpa.md)
-   + [Considérations relatives à la confidentialité - Attributs du client](attributes/privacy-mac.md)
+   + [Prise en charge du Règlement général sur la protection des données](attributes/gdpr.md)
+   + [Prise en charge du California Consumer Privacy Act](attributes/ccpa.md)
+   + [Considérations sur la confidentialité – Attributs du client](attributes/privacy-mac.md)
 + Notes de mise à jour d’Experience Cloud {#release-notes}
    + [Nouveautés d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)
    + [Notes de mise à jour cumulatives](marketing-cloud-interface/release-notes.md)
