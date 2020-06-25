@@ -1,70 +1,71 @@
 ---
-title: Customer Attributs Support for California Consumer Privacy Act
-description: Customer Attributs Support for California Consumer Privacy Act
-translation-type: tm+mt
+title: Prise en charge des attributs du client pour le California Consumer Privacy Act
+description: Prise en charge des attributs du client pour le California Consumer Privacy Act
+translation-type: ht
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Prise en charge des attributs du client pour la California Consumer Privacy Act
+# Prise en charge des attributs du client pour le California Consumer Privacy Act
 
-Cette page décrit la prise en charge par les Attributs  du client de la California Consumer Privacy Act (CCPA).
+Cette page décrit la prise en charge des [!UICONTROL attributs du client] pour le California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
->Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez votre conseiller juridique pour obtenir des conseils concernant l&#39;ACFPC.
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez votre service juridique pour obtenir des conseils concernant le (CCPA).
 
-L’ACCP est la nouvelle loi californienne sur la protection des renseignements personnels, qui entre en vigueur le 1er janvier 2020. L&#39;ACCP accorde aux résidents de Californie de nouveaux droits concernant leurs renseignements personnels et impose des responsabilités en matière de protection des données à certaines entités qui font des affaires en Californie. L&#39;ACPCS accorde aux consommateurs le droit d&#39;accéder à leurs renseignements personnels et de les supprimer ainsi que le droit de opt-out de certaines activités qui sont admissibles à la &quot;vente&quot; de renseignements personnels à un tiers.
+Le CCPA est la nouvelle loi californienne sur la protection des données confidentielles, qui est entrée en vigueur le 1er janvier 2020. Le CCPA accorde aux résidents de Californie de nouveaux droits concernant leurs données confidentielles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie. Le CCPA accorde aux consommateurs le droit d’accéder à leurs informations personnelles et de les supprimer ainsi que le droit de se désinscrire de certaines activités qualifiées de « vente » d’informations personnelles à un tiers.
 
-En tant qu’entreprise, vous déterminerez les données personnelles traitées et stockées par Adobe Experience Cloud en votre nom.
+En tant qu’entreprise, vous déterminerez les données personnelles qu’Adobe Experience Cloud traite et stocke en votre nom.
 
-En tant que prestataire, Adobe Experience Cloud fournit une assistance à votre entreprise afin qu’elle puisse s’acquitter de ses obligations en vertu de l’ACCP qui s’appliquent à l’utilisation des produits et services Experience Cloud, y compris la gestion des demandes d’accès et de suppression d’informations personnelles.
+En tant que fournisseur, Adobe Experience Cloud fournit une aide à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA qui s’appliquent à l’utilisation des produits et services Experience Cloud, y compris la gestion des demandes d’accès et de suppression des informations personnelles.
 
-Ce document décrit comment les attributs [!UICONTROL du] client prennent en charge les droits d’accès et de suppression des données CCPA de vos personnes à l’aide de l’API et de l’interface utilisateur de Privacy Service d’Adobe Experience Platform.
+Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
 
-Pour plus d’informations sur les services de confidentialité d’Adobe pour CCPA, voir le Centre [de confidentialité d’](https://www.adobe.com/privacy/ccpa.html)Adobe.
+Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Configuration requise pour envoyer des demandes d’attributs [!UICONTROL du client]
+## Configuration requise pour envoyer des requêtes relatives aux [!UICONTROL attributs du client]
 
-Pour envoyer des demandes d’accès et de suppression de données pour les attributs du client, vous devez :
+Pour envoyer des requêtes d’accès et de suppression de données pour les [!UICONTROL attributs du client], vous devez :
 
-1. Identifiez les éléments suivants :
+1. Identifier les éléments suivants :
 
    * Identifiant de l’organisation IMS
-   * ID d&#39;alias de la source de données CRS sur laquelle vous souhaitez agir
-   * ID de gestion de la relation client du profil sur lequel vous souhaitez agir
-   Un ID d’organisation IMS est une chaîne alphanumérique de 24 caractères annexée à @AdobeOrg. Si votre équipe marketing ou votre administrateur système interne Adobe ne connaît pas l’ID d’organisation IMS de votre entreprise, contactez le service à la clientèle Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’ID d’organisation IMS pour envoyer des requêtes à l’API de confidentialité.
+   * ID d’alias de la source de données CRS sur laquelle vous souhaitez agir
+   * ID de gestion de la relation client (CRM) du profil sur lequel vous souhaitez agir
 
-1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier l’état des requêtes existantes.
+   Un identifiant de l’organisation IMS est une chaîne alphanumérique de 24 caractères à laquelle est ajouté @AdobeOrg. Si votre équipe marketing ou votre administrateur système Adobe interne ne connaît pas l’identifiant de l’organisation IMS de votre entreprise, contactez l’Assistance clientèle Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’identifiant de l’organisation IMS pour envoyer des requêtes à l’API de confidentialité.
 
-## Valeurs de champ requises dans les demandes JSON d’attributs  du client
+1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier le statut des requêtes existantes.
 
-&quot;contexte de société&quot; :
+## Valeurs de champ requises dans les demandes JSON relatives aux [!UICONTROL attributs du client]
 
-* &quot;espace de nommage&quot; : **imsOrgID**
-* &quot;value&quot; : &lt;*votre valeur* d’ID d’organisation IMS>
+« contexte de société » :
 
-&quot;users&quot; :
+* « espace de noms » : **imsOrgID**
+* « value » : &lt;*votre valeur d’identifiant de l’organisation IMS*>
 
-* &quot;key&quot; : &lt;*habituellement le nom du client*>
+« utilisateurs » :
 
-* &quot;action&quot; : **accès** ou **supprimer**
+* « clé » : &lt;*habituellement le nom du client*>
 
-* &quot;ID utilisateur&quot; :
+* « action » : **accès** ou **suppression**
 
-   * &quot;espace de nommage&quot; : &lt;ID *d&#39;alias de la source* de données CRS>
+* « identifiants d’utilisateurs » :
 
-   * &quot;type&quot; : **integrationCode**
+   * « espace de noms » : &lt;*ID d’alias de la source de données CRS*>
 
-   * &quot;value&quot; : &lt;ID ** CRM>
+   * « type » : **integrationCode**
 
-* &quot;include&quot; : **CRS** (qui est le produit Adobe qui s’applique à la demande)
+   * « valeur » : &lt;*ID CRM*>
 
-* &quot;réglementation&quot; : **ccpa** (qui est le règlement sur la protection des renseignements personnels qui s&#39;applique à la demande)
+* « inclure » : **CRS** (qui est le produit Adobe qui s’applique à la requête)
+
+* « réglementation » : **ccpa** (qui est le règlement sur la protection des données confidentielles qui s’applique à la requête)
 
 ## Exemple de requête JSON
 
@@ -98,7 +99,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les attr
 }
 ```
 
-## Champs de données renvoyés pour les demandes d’accès
+## Champs de données renvoyés pour les requêtes d’accès
 
 ```
 attributes:
