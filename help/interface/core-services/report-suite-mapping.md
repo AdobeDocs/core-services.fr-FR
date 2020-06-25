@@ -5,15 +5,19 @@ seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
 
 # Mappage de suites de rapports à une organisation {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>La fonctionnalité de mappage des suites de rapports sera abandonnée en novembre 2020. Veuillez mapper les suites de rapports en attente dans >la préparation pour cela. Contactez le service à la clientèle pour toute question.
 
 Découvrez comment mapper une ou plusieurs suites de rapports à une organisation.
 
