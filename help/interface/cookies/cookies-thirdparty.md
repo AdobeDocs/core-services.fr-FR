@@ -6,11 +6,11 @@ seo-title: Comment les modifications liées à la prise en charge des cookies ti
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 
 ## Adobe Social
 
-* Social ne sera pas affecté tant que le client dispose de la version la plus récente du code.
+* Social ne sera pas affecté tant que le client possède la dernière version du code.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 * Affichage :
 
    * Le remarketing d’affichage dépend aujourd’hui entièrement de l’utilisation de cookies tiers.
-   * L&#39;affichage dépend aussi fortement de la disponibilité de divers cookies réseau publicitaires pour la synchronisation.
+   * L’affichage dépend aussi fortement de la disponibilité de divers cookies réseau publicitaires pour la synchronisation.
    * L’impact global est inconnu. Cependant, au premier point, l’affichage est plus affecté que les autres services.
    * Nous travaillons à l’interne et avec nos partenaires publicitaires pour évaluer l’ampleur de l’impact sur la diffusion publicitaire.
 
