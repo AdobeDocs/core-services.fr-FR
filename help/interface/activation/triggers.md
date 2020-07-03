@@ -6,11 +6,11 @@ seo-title: Triggers
 solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
    | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
 
 5. Cliquez sur **[!UICONTROL Enregistrer]**.
-6. Utilisez ces triggers pour le [remarketing en temps réel](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) dans [!DNL Adobe Campaign].
+6. Utilisez ces triggers pour le [remarketing en temps réel](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) dans [!DNL Adobe Campaign].
 
 ### Exemples de triggers
 
