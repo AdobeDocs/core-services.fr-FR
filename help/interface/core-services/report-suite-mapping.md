@@ -4,11 +4,11 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->La fonctionnalité de mappage des suites de rapports sera abandonnée en novembre 2020. Veuillez mapper les suites de rapports en attente dans >la préparation pour cela. Contactez le service à la clientèle pour toute question.
+>La fonctionnalité de mappage de suites de rapports sera abandonnée en novembre 2020. Veuillez mapper les suites de rapports en attente à cette fin. Contactez le service à la clientèle pour toute question.
 
 Découvrez comment mapper une ou plusieurs suites de rapports à une organisation.
 
@@ -36,7 +36,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 ## Mappage d’une suite de rapports à une organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Accédez à Report Suites pour la gouvernance des données dans [!DNL Analytics] > **[!UICONTROL Administration]** > Gouvernance **[!UICONTROL des]** données (voir [Vue/Gérer les paramètres de gouvernance des données de la suite de rapports).](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. Accédez à Suites de rapport pour la gouvernance des données dans [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Gouvernance des données]** (voir [Afficher/Gérer le paramètre de gouvernance des données de la suite de rapports).](https://docs.adobe.com/help/fr-FR/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, cliquez sur **[!UICONTROL Visible pour les connexions d’entreprises]**.
 
@@ -73,7 +73,6 @@ Si le service d’identification des visiteurs n’est pas encore déployé sur 
 ### Pourquoi certaines organisations sont-elles grisées ?
 
 Cela indique que vous ne disposez pas des privilèges suffisants pour mapper la suite de rapports à l’organisation grisée. Examinez l’exemple suivant :
-
 
 ![](assets/rs-mapping.png)
 
