@@ -6,9 +6,9 @@ seo-title: Cookies Analytics
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -98,7 +98,9 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 | s_cc (Javascript) | Non | Non | Non défini |
 | s_sq (Javascript) | Non | Non | Non défini |
 
->[!NOTE] Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service d’assistance clientèle.
+>[!NOTE]
+>
+>Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service d’assistance clientèle.
 
 ## Cookies définis par des modules externes  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
