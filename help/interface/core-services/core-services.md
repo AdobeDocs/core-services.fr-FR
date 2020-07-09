@@ -1,23 +1,23 @@
 ---
-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions pour des fonctionnalités telles que les attributs et les audiences du client.
+description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
 keywords: core services;Customer Attributes
-seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions pour des fonctionnalités telles que les attributs et les audiences du client.
+seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
 seo-title: Activation des solutions Experience Cloud pour les services principaux
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Activation des solutions pour les services principaux
 
-Pour les clients existants, apprenez à moderniser vos implémentations de solution et à mettre en oeuvre Experience Cloud afin que vous puissiez utiliser des fonctionnalités telles que les attributs du client et les audiences. Pour ce faire, vous allez réaliser les opérations suivantes :
+Pour les clients existants, apprenez à moderniser les mises en œuvre de vos solutions et à mettre en œuvre Experience Cloud afin que vous puissiez utiliser des fonctionnalités telles que les attributs du client et les audiences. Pour ce faire, vous allez réaliser les opérations suivantes :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -85,11 +85,9 @@ Le [!UICONTROL service Experience Cloud ID] fournit un ID commun pour une intég
 
 La méthode la plus simple pour activer les services principaux d’Experience Cloud consiste à les activer automatiquement pour Analytics et Adobe Target au moyen de l’[extension du service Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) dans [!UICONTROL Experience Platform Launch], ou au moyen de l’outil ECID dans [!UICONTROL Dynamic Tag Management]. (Experience Platform Launch est vivement conseillé.)
 
-![](assets/menu-activation-shell.png)
-
 Pour accéder à l’aide complète du service Experience Cloud ID (anciennement, identifiant visiteur), [rendez-vous ici](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 
-**Vous n’utilisez ni[!UICONTROL Experience Platform Launch]ni[!UICONTROL Dynamic Tag Management] ?**
+**Vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL Dynamic Tag Management] ?**
 
 Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL Dynamic Tag Management], mettez en œuvre manuellement le service d’ID par le biais du déploiement de JavaScript ([!DNL VisitorAPI.js]) en procédant comme suit :
 
@@ -120,7 +118,7 @@ Reportez-vous à la section *Service Experience Cloud ID* pour consulter des ex
 
 ### Activation des attributs pour les données historiques
 
-Les données d’attribut du client sont disponibles une fois les visiteurs connectés. Si vous n’avez pas encore mis en œuvre le dernier service Experience Cloud ID et que vous avez effectué le suivi historique des ID de client dans une variable prop ou eVar, vous pouvez appeler un processus qui envoie les connexions historiques vers Experience Cloud. Ce processus vous permet de commencer immédiatement à utiliser les attributs du client.
+Les données d’attribut du client sont disponibles une fois les visiteurs connectés. Si vous n’avez pas encore mis en œuvre le dernier service Experience Cloud ID et que vous avez effectué le suivi historique des ID de client dans une variable prop ou eVar, vous pouvez appeler un processus qui envoie les connexions historiques vers Experience Cloud. Grâce à ce processus, vous pouvez commencer à utiliser immédiatement les attributs du client.
 
 Contactez l’assistance clientèle pour activer les données d’historique.
 
@@ -136,7 +134,7 @@ Vérifiez que vous vous trouvez sur le réseau RDC (regional data collection). 
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. Un moyen simple d’accomplir cette procédure consiste à ajouter un outil [!DNL Adobe Analytics] à Dynamic Tag Management, en spécifiant *`Automatic`* comme méthode de configuration.
 
-Dans [!UICONTROL Dynamic Tag Management], cliquez sur **[!UICONTROL <Web Property Name>]**>**[!UICONTROL  Aperçu ]** >**[!UICONTROL  Ajouter un outil ]** >**[!UICONTROL  Adobe Analytics ]**. Voir[Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html)à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
+Dans [!UICONTROL Dynamic Tag Management], cliquez sur **[!UICONTROL <Web Property Name>]** > **[!UICONTROL  Aperçu ]** > **[!UICONTROL  Ajouter un outil ]** > **[!UICONTROL  Adobe Analytics ]**. Voir [Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html) à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
 
 ## Étape 5. (Adobe Target) Mettre à jour la mise en œuvre d’Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
@@ -146,7 +144,7 @@ Dans [!UICONTROL Dynamic Tag Management], cliquez sur **[!UICONTROL <Web Propert
 
    >[!IMPORTANT]
    >
-   >Tous les clients Analytics sont déjà configurés pour des services principaux tels que les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
+   >Tous les clients d’Analytics sont déjà configurés pour les services principaux ainsi que pour les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
 
 ## Étape 6. Vérifier la mise en œuvre des services principaux {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
@@ -187,20 +185,11 @@ Voir [Gestion des utilisateurs et des produits Experience Cloud](../admin-getti
 
 ### Attributs du client
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 Les utilisateurs membres du groupe [!UICONTROL Attributs du client] ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
 ## Étape 8. Commencer à utiliser les services principaux {#section_960C06093623462E8EA247B3E97274A1}
 
 Profitez des fonctionnalités suivantes.
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL Personnes] > [!UICONTROL Attributs du client]
 
