@@ -4,11 +4,11 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->La fonctionnalité de mappage de suites de rapports sera abandonnée en novembre 2020. Veuillez mapper les suites de rapports en attente à cette fin. Contactez le service à la clientèle pour toute question.
+>La fonctionnalité de mappage de suites de rapports sera abandonnée en novembre 2020. Veuillez mettre en correspondance toutes les suites de rapports en suspens en vue de cette opération. Contactez le service à la clientèle pour toute question.
 
 Découvrez comment mapper une ou plusieurs suites de rapports à une organisation.
-
-<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL Personnes]) sont associés à une organisation Experience Cloud plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
 
