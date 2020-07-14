@@ -4,11 +4,11 @@ seo-description: Découvrez comment mapper une ou plusieurs suites de rapports �
 seo-title: Mappage de suites de rapports à une organisation
 title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->La fonctionnalité de mappage de suites de rapports sera abandonnée en novembre 2020. Veuillez mettre en correspondance toutes les suites de rapports en suspens en vue de cette opération. Contactez le service à la clientèle pour toute question.
+>La fonctionnalité de mappage de suites de rapports sera abandonnée en novembre 2020. Veuillez mapper les suites de rapports en attente à cette fin. Contactez le service à la clientèle pour toute question.
 
 Découvrez comment mapper une ou plusieurs suites de rapports à une organisation.
 
-Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL Personnes]) sont associés à une organisation Experience Cloud plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
+Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL People]) sont associés à une organisation Experience Cloud plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
 
 * Définit une organisation Experience Cloud comme organisation principale pour la suite de rapports.
 * Ne modifie pas les personnes pouvant accéder à une suite de rapports (l’accès est toujours déterminé par le compte de connexion Adobe Analytics pour chaque utilisateur).
@@ -84,8 +84,8 @@ Cet utilisateur a accès à deux organisations Experience Cloud. Il a effectué 
 
 Les points suivants répertorient les actions de mappage que cet utilisateur peut et ne peut pas effectuer concernant ces suites de rapports :
 
-* [!UICONTROL La suite de rapports Chapek-prod] peut être mappée à l’organisation [!UICONTROL Chapek] Corp puisque cet utilisateur est l’administrateur d’une société de connexion Analytics liée ([!UICONTROL chapek]) et que son compte est lié à cette organisation.
-* [!UICONTROL La suite de rapports Nigel-prod] ne peut pas être liée par cet utilisateur, puisqu’il n’est administrateur d’aucune société de connexion pour laquelle cette suite de rapports est visible.
+* La suite de rapports [!UICONTROL Chapek-prod] peut être mappée à l’organisation [!UICONTROL Chapek] Corp puisque cet utilisateur est l’administrateur d’une société de connexion Analytics liée ([!UICONTROL chapek]) et que son compte est lié à cette organisation.
+* La suite de rapports [!UICONTROL Nigel-prod] ne peut pas être liée par cet utilisateur, puisqu’il n’est administrateur d’aucune société de connexion pour laquelle cette suite de rapports est visible.
 * La suite de rapports [!UICONTROL Doohan-prod] peut être mappée à [!UICONTROL Chapek Corp], car cet utilisateur est administrateur d’une société de connexion ([!UICONTROL chapek]) liée à l’organisation Experience Cloud (notez qu’il n’est pas administrateur de la société de connexion Analytics doohan). Il est important de souligner que la suite de rapports [!UICONTROL doohan-prod] peut également être mappée à l’organisation Experience Cloud Nigel Inc, même si cet utilisateur ne peut pas procéder au mappage. Dans ce cas, les deux organisations Experience Cloud apparaissent dans la liste, mais [!UICONTROL Nigel Inc] est grisé. Avant le mappage, cet utilisateur doit consulter un administrateur de la société de connexion nigel pour déterminer quelle organisation est la plus adaptée au mappage. L’interface utilisateur affiche un avertissement Conflit possible si vous sélectionnez une organisation différente de l’organisation sous laquelle la suite de rapports a été créée à l’origine.
 
 ## Questions fréquentes {#section_099E485805994C929FF9C9F75219BEE1}
