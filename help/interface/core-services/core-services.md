@@ -6,9 +6,9 @@ seo-title: Activation des solutions Experience Cloud pour les services principau
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ Contactez l’assistance clientèle pour activer les données d’historique.
 
 ## Étape 3. Mapper des suites de rapports à une organisation Experience Cloud {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Les services Experience Cloud (tels que le service Experience Cloud ID et le [!UICONTROL service Personnes]) sont associés à une organisation Experience Cloud plutôt qu’à une suite d’Analytics rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation Experience Cloud.
+Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL People]) sont associés à une organisation Experience Cloud plutôt qu’à une suite d’Analytics rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation Experience Cloud.
 
 Voir [Mappage de suites de rapports à une organisation](report-suite-mapping.md).
 
@@ -205,9 +205,9 @@ Voir [Audiences](../audience-library/audience-library.md#topic_679810123CAA4E0CA
 
 ## Stockage des données et divulgation des données confidentielles
 
-Le recours au profilage d’audiences en temps réel et à d’autres services principaux du composant Personnes d’Adobe [!DNL Experience Cloud] peut avoir une influence sur le centre de données (et le pays) où se trouvent vos données. En particulier, dans la mesure où les services principaux d’Adobe [!DNL Experience Cloud] exploitent Adobe Audience Manager, les données utilisées dans le service [!UICONTROL Personnes] doivent se trouver sur les serveurs Audience Manager situés aux États-Unis.
+Le recours au profilage d’audiences en temps réel et à d’autres services principaux du composant Personnes d’Adobe [!DNL Experience Cloud] peut avoir une influence sur le centre de données (et le pays) où se trouvent vos données. En particulier, dans la mesure où les services principaux d’Adobe [!DNL Experience Cloud] exploitent Adobe Audience Manager, les données utilisées dans le service [!UICONTROL People] doivent se trouver sur les serveurs Audience Manager situés aux États-Unis.
 
-Lors de l’utilisation des services principaux accessibles par le biais du service [!UICONTROL Personnes], les types de données envoyés depuis d’autres produits Adobe à la gestion de l’audience sont les suivants :
+Lors de l’utilisation des services principaux accessibles par le biais du service [!UICONTROL People], les types de données envoyés depuis d’autres produits Adobe à la gestion de l’audience sont les suivants :
 
 * Paires clé/valeur [!DNL Analytics] (Props, eVars, variables de liste, etc.). Par défaut, les lignes des journaux contiennent l’adresse IP, notamment le dernier octet de l’adresse IP (en supposant que l’adresse IP n’a pas été modifiée par les paramètres de masquage d’Adobe [!DNL Analytics]).
 * Caractéristiques et segments pour lesquels les visiteurs sont inclus selon les règles configurées dans Audience Manager.
