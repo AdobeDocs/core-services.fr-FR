@@ -5,24 +5,26 @@ seo-title: Gestion des utilisateurs et services principaux d’Experience Cloud
 solution: Experience Cloud
 title: À propos des services principaux d’Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 90%
 
 ---
 
 
 # À propos d’Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Les services Adobe Experience Cloud comprennent les services [!UICONTROL People] (audiences et attributs du client), Offres, Experience Platform Launch et Mobile Services. Vous pouvez également consulter l’aide sur la gestion des utilisateurs et des produits dans Experience Cloud.
+Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Experience Platform Launch, and Mobile Services. Vous trouverez également de l’aide sur la gestion des utilisateurs et des produits Experience Cloud.
 
 Pour accéder à ces services dans Experience Cloud, cliquez sur le **[!UICONTROL Sélecteur d‘applications]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
-Adobe Experience Platform centralise et normalise les données et le contenu dans l’ensemble de votre entreprise. La documentation du produit destinée aux développeurs d’[!UICONTROL Experience Platform] se trouve sur [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>[!NOTE]
+>
+>La documentation du produit pour l&#39;Experience Platform se trouve [ici](https://docs.adobe.com/content/help/fr-FR/experience-platform/landing/home.html). Technical documentation for [!UICONTROL Experience Platform] developers is located on [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 Cette aide décrit les produits et services suivants :
 
