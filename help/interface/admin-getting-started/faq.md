@@ -2,20 +2,20 @@
 description: Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
-seo-title: Questions fréquentes  À propos des services principaux d’Experience Cloud.
+seo-title: Questions fréquentes sur les services principaux Experience Cloud.
 solution: Adobe Experience Cloud
-title: Questions fréquentes
+title: Questions fréquemment posées
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
 
-# Questions fréquentes  À propos d’Experience Cloud
+# Questions fréquemment posées À propos d’Experience Cloud
 
 Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
 
@@ -28,7 +28,7 @@ Si votre mise en œuvre n’a pas été configurée pour les services principaux
 1. [Mapper des suites de rapports à une organisation Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target uniquement) Moderniser la mise en œuvre d’Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Vérifier la mise en œuvre des services principaux](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Vérification de la mise en œuvre](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gérer les utilisateurs et les produits](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Commencer à utiliser les services principaux](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
