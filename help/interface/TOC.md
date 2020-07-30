@@ -4,21 +4,21 @@ user-guide-title: Guide d’utilisation de l’interface Experience Cloud
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud interface help {#interface}
+# Aide de l’interface d’Experience Cloud {#interface}
 
-+ [Experience Cloud et documentation du produit](experience-cloud.md)
-+ Application services in Experience Cloud {#about-core-services}
++ [Experience Cloud et documentation du produit](experience-cloud.md)
++ Services d’application dans Experience Cloud {#about-core-services}
    + [Présentation des services d’application](core-services-landing.md)
-   + [Activer votre mise en oeuvre pour les services inter-solutions](core-services/core-services.md)
+   + [Activer votre implémentation pour les services intersolutions](core-services/core-services.md)
    + [Mappage de suites de rapports à une organisation](core-services/report-suite-mapping.md)
    + [À propos des nouveaux noms de cloud dans Experience Cloud](solutions-core-services.md)
 + [Intégrations Experience Cloud](marketing-cloud-integrations.md)
@@ -35,7 +35,7 @@ ht-degree: 94%
    + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
-   + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
+   + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
    + [Gestion de l’identité de l’utilisateur et des produits d’Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
