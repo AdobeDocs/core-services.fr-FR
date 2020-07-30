@@ -6,11 +6,11 @@ seo-title: Aide d’Adobe Experience Cloud et des services principaux et documen
 solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et des services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Experience Cloud désigne la famille intégrée de solutions et de services de m
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Cette page donne accès à la documentation du produit pour les fonctionnalités et services suivants :
+Cette page donne accès à la documentation du produit pour les fonctionnalités et services suivants :
 
-* [Bibliothèque d’Audiences](audience-library/audience-library.md)
+* [Bibliothèque d’audiences](audience-library/audience-library.md)
 * [Attributs du client](attributes/attributes.md)
 * [Triggers](activation/triggers.md)
-* [Ressources Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
+* [Ressources Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookies Experience Cloud](cookies/cookies-privacy.md)
 
 ## Administration des utilisateurs et des produits
@@ -41,7 +41,7 @@ Cette page donne accès à la documentation du produit pour les fonctionnalités
 * [Gestion des profils dans Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
 * [Prérécupération DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Aide pour les Experience Cloud associés
+## Aide associée d’Experience Cloud
 
 * [Documentation sur les produits pour toutes les solutions Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud.
 * [Notes de mise à jour et mises à jour des produits](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
