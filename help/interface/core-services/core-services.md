@@ -2,31 +2,31 @@
 description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
 keywords: core services;Customer Attributes
 seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
-seo-title: Activation des solutions Experience Cloud pour les attributs et les audiences du client
+seo-title: Activation des solutions Experience Cloud pour les attributs du client et les audiences
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Activer votre mise en oeuvre pour les services inter-solutions
+# Activation de votre mise en œuvre pour les services inter-solutions
 
-Si vous avez récemment implémenté l’Experience Cloud à l’aide de l’Experience Platform Launch, vous êtes déjà configuré pour les attributs du client et les Audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans l’Admin Console.
+Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experience Platform Launch, vous êtes prêt pour les attributs du client et les audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans Admin Console.
 
-Pour les clients existants, vous devrez peut-être moderniser les implémentations de votre solution et mettre en oeuvre l’Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, l’Audience Manager et l’Adobe Target. Pour ce faire, vous allez réaliser les opérations suivantes :
+Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Pour ce faire, vous allez réaliser les opérations suivantes :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Mapper des suites de rapports à une organisation Experience Cloud](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Mettre à jour votre code Analytics AppMeasurement](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Mettre à jour votre mise en œuvre Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Vérification de la mise en œuvre](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Vérifier la mise en œuvre](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gérer les utilisateurs et les produits](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Commencer à partager les données d’attribut et d’audience](#section_960C06093623462E8EA247B3E97274A1)
 
