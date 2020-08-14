@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: Cookies propriétaires
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Le spécialiste FPC vous fournit les noms d’hôtes configurés et les enregist
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
->[!NRemarque] :
+>[!NOTE]
 >
 >Le service Experience Cloud Visitor ID offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires. En raison des récentes modifications de l’ITP Apple, il est cependant toujours recommandé d’allouer un CNAME même lors de l’utilisation du service Experience Cloud ID.
 
@@ -104,7 +104,7 @@ Si un CNAME est configuré et que le certificat est installé, vous pouvez utili
 
 `https://sstats.adobe.com/_check`
 
->[!NRemarque] :
+>[!NOTE]
 >
 >Un message d’avertissement s’affichera si aucun certificat n’est installé.
 
