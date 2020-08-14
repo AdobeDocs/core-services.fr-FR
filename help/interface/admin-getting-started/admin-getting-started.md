@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
+source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
 workflow-type: tm+mt
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Découvrez les dernières fonctionnalités de la gestion des utilisateurs d’Ex
 
 <!-- ### Business ID type
 
-Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
+Adobe is introducing an identity type called Business ID. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
-
-Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+If you are an existing Experience Cloud customer, Adobe will migrate all your users with Adobe IDs in the Admin Console to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a user was a member of multiple organizations before the migration.)
+
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 ### Outil d’administration
 
@@ -61,7 +61,7 @@ Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!U
 
 [Connectez-vous et gérez vos paramètres de profil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) pour gérer les mots de passe, les organisations et les notifications.
 
-## Profils et groupes de produits  {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Profils et groupes de produits {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 L’insertion de profils de produits marque un tournant quant à la façon de gérer les produits et services de la solution (en utilisant des groupes). Dans Admin Console, les autorisations dépendent des profils de produits, qui sont des groupes de produits et de services que vous pouvez affecter aux utilisateurs.
 
@@ -75,7 +75,7 @@ Dans Analytics par exemple, vous pouvez configurer une collection d’outils de 
 
 Gérez dans Admin Console les autorisations des utilisateurs et des produits Analytics.
 
-[Affectez des autorisations d’accès Analytics à un profil de produits](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)(sur cette page).
+[Affectez des autorisations d’accès Analytics à un profil de produits](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) (sur cette page).
 
 **Migration des comptes d’utilisateurs**
 
@@ -96,7 +96,7 @@ Dans Adobe Target, un espace de travail est un profil de produits. Avec un espac
 Voir :
 * [Autorisations des utilisateurs d’Enterprise](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html)
-* Vidéo : [Configuration d’Adobe Target Workspaces dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - profils de produits, clients et groupes de sécurité {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -112,11 +112,11 @@ Experience Platform Launch s’affiche sur la page de produits dans Admin Consol
 
 Voir [Gestion des utilisateurs](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/admin/user-permissions.html) pour en savoir plus sur les autorisations d’utilisateurs dans Admin Console et pour configurer des options spécifiques à Launch, y compris l’attribution de droits aux profils.
 
-## Experience Manager as a Cloud Service
+## Experience Manager en tant que service cloud
 
-Les clients Adobe Enterprise sont représentés en tant qu’organisations IMS dans la Console d’administration Adobe. Il s’agit du portail utilisé par les clients Adobe pour gérer leurs droits de produit pour leurs utilisateurs et groupes. Les clients AEM peuvent utiliser la console d’administration Adobe pour gérer leurs droits sur les produits et l’authentification IMS vers AEM en tant que service Cloud.
+Les clients Adobe Enterprise sont représentés en tant qu’organisations IMS dans Adobe Admin Console. Il s’agit du portail que les clients Adobe utilisent pour gérer les droits de leurs produits pour leurs utilisateurs et groupes. Les clients AEM peuvent utiliser Adobe Admin Console pour gérer leurs droits sur les produits et l’authentification IMS vers AEM en tant que service cloud.
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+Voir [Prise en charge IMS d’AEM en tant que service cloud](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Gestionnaire dynamique de balises {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -145,7 +145,7 @@ Vous trouverez plus d’aide à l’adresse :
 
 * [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html)
 * [Autorisations des utilisateurs d’entreprise](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/property-channel.html) dans l’aide d’Adobe Target pour plus d’informations.
-* Vidéo : [Configuration d’Adobe Target Workspaces dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Attribution d’autorisations d’accès Analytics à un profil de produits {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
