@@ -6,9 +6,9 @@ seo-title: Gestion des utilisateurs et des produits Experience Cloud
 solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Gérez dans Admin Console les autorisations des utilisateurs et des produits An
 
 **Migration des comptes d’utilisateurs**
 
-Dans Analytics, les administrateurs peuvent utiliser l’outil de migration des ID d’utilisateur pour migrer des comptes d’utilisateurs de la gestion des utilisateurs Analytics vers [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)
+Dans Analytics, les administrateurs peuvent utiliser l’outil de migration des ID d’utilisateur pour migrer des comptes d’utilisateurs de la gestion des utilisateurs Analytics vers [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
 La migration des comptes est en cours de déploiement. Adobe vous avisera lorsqu’il sera temps de migrer vos comptes d’utilisateurs des **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** vers Admin Console et vous aidera à le faire.
 
