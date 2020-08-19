@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Cookies propriétaires
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
 ht-degree: 100%
 
