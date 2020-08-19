@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 95%
 
 ---
 
@@ -19,16 +19,20 @@ ht-degree: 84%
 
 Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
-**Mise à jour : 19/05/2020**
+**Mise à jour : 19/08/2020**
 
-Documentation sur la gestion des Offres obsolète.
+Mise à jour des détails de l’utilisateur Experience Cloud de [Vue (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md) avec les informations de stratégie.
 
-**Mise à jour : 15/05/2020**
+**Mise à jour : 19/05/2020**
 
-Ajouté les pages suivantes :
+Documentation sur la gestion des offres obsolète.
 
-* [Prise en charge de la réglementation générale de la protection des données](attributes/gdpr.md)
-* [Prise en charge de la California Consumer Privacy Act](attributes/ccpa.md)
+**Mise à jour : 15/05/2020**
+
+Ajout des pages suivantes :
+
+* [Prise en charge du Règlement général sur la protection des données](attributes/gdpr.md)
+* [Prise en charge du California Consumer Privacy Act](attributes/ccpa.md)
 
 **Mise à jour : 10/03/2020**
 
@@ -44,7 +48,7 @@ Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif
 
 **Mise à jour : 8/06/2018**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
 
 **Mise à jour : 06/06/2018**
 
@@ -84,11 +88,11 @@ Ajout de la section [Experience Cloud Assets](experience-cloud-assets/experienc
 
 **Mise à jour : 02/03/2015**
 
-Ajout de la section [Activation des solutions pour les services principaux.](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Ajout de la section [Activation des solutions pour les services principaux](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Mise à jour : 15/01/2015**
 
-Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir   [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Mise à jour : 17/07/2014**
 
@@ -98,7 +102,7 @@ Ajout de la section [FAQ Experience Cloud](admin-getting-started/faq.md#concept_
 
 Ajout d’une documentation pour l’interface Audiences.
 
-Voir [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+Voir [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
 
 **Mise à jour : 22/05/2014**
 
