@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,16 +23,22 @@ Pour obtenir la liste des mises à jour de la documentation, voir [Experience C
 
 Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html).
 
-## Avril à 2020
+## Août - 2020
+
+| Fonctionnalité | Description |
+| -----------| ---------- |
+| Outil d’administration - Stratégies | Cette page affiche la liste complète des stratégies Experience Cloud de votre organisation. Il fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des vues personnalisées de la liste de stratégies. Voir l’aide de [l’outil d’administration Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) pour en savoir plus. |
+
+## Avril - 2020
 
 * La page [!UICONTROL Flux] d’Experience Cloud était obsolète. (EXC-8505)
 * La page de connexion à Experience Cloud a été mise à jour pour refléter les nouveaux éléments de branding. (EXC-10747)
 
-## Février-2020
+## Février - 2020
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
+| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) pour en savoir plus. |
 
 **Correctifs**
 
@@ -71,7 +77,7 @@ Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous 
 <table id="table_ABBCE1A66F534059BD728BC2B9AEFA80"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -96,7 +102,7 @@ Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -125,7 +131,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 <table id="table_4223658257DA41C999AC710A10D26771"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -141,7 +147,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 >
 >Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
-## Version 15.10 - 14 octobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 - 14 octobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problèmes connus**
 
@@ -150,24 +156,24 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 
 ## Version 15.9 - 10 septembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Correction d’un problème de performances de l’API Audience Manager qui provoquait des dépassements de délai intermittents lors du transfert des données Attributs du client. (MAC-26305)
-* Correction d’un problème qui empêchait les utilisateurs d’ajouter jusqu’à 200 attributs du client à un abonnement. (MAC-26188)
+* Correction d’un problème de performance de l’API Audience Manager, qui provoquait des temporisations intermittentes lors du transfert de données d’attributs du client. (MAC-26305)
+* Correction d’un problème qui empêchait les utilisateurs d’ajouter jusqu’à 200 attributs du client à un abonnement. (MAC-26188)
 * Correction d’un problème lié à la bibliothèque d’audiences qui empêchait le partage d’audiences à partir de la segmentation Analytics. Ce problème entraînait l’affichage de « Collecte de données » (0 audience). Pour éviter ce problème, Adobe conseille de conserver les tailles des segments en dessous de 50 000 membres d’audience par segment. (MAC-25788)
 * Correction d’un ancien problème connu sur la page Attributs du client – Schéma d’édition qui provoquait une erreur de reconnaissance du contenu lors de la modification d’un nom d’affichage. (MAC-25589, AN-103834)
 
-## Version 15.7 - 22 juillet 2015  {#section_2683A152176944E48EF6C943892975B7}
+## Version 15.7 - 22 juillet 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* Correction d’un problème qui empêchait la mise à jour des descriptions d’attribut spécifiées sur la page Vue/Modifier le Schéma (dans les attributs du client) dans les rapports Analytics. (MAC-25985)
+* Correction d’un problème qui empêchait la mise à jour des descriptions d’attribut spécifiées sur la page Afficher/Modifier le schéma (dans les attributs du client) dans les rapports Analytics. (MAC-25985)
 * Correction d’un problème empêchant le rendu des miniatures pour les ressources transférées. (MAC-25863)
 * Correction d’un problème en raison duquel les segments créés dans les Reports &amp; Analytics n’étaient pas disponibles dans les audiences Experience Cloud. (MAC-25817)
 * Correction d’un problème qui empêchait le partage des audiences à partir d’Analytics lors de l’utilisation du service d’identification des visiteurs. (MAC-25788, MAC-25747)
-* Prise en charge Ajoutée des caractères à plusieurs octets dans les attributs du client. (MAC-25552)
+* Ajout de la prise en charge des caractères à plusieurs octets dans les attributs du client. (MAC-25552)
 
 **Problème connu**
 
 En raison d’un problème connu, les comptes générés automatiquement sont créés en double dans Audience Manager et automatiquement associés à une identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
-## Version 15.6.1 - 11 juin 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Version 15.6.1 - 11 juin 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Pas d’informations disponibles.
 
@@ -176,7 +182,7 @@ Pas d’informations disponibles.
 <table id="table_14E7B35E06C84A258A21D09691B58354"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -193,7 +199,7 @@ Pas d’informations disponibles.
  </tbody> 
 </table>
 
-* Correction d’un problème qui empêchait la synchronisation des attributs du client pour certains clients.
+* Correction d’un problème empêchant la synchronisation des attributs de certains clients.
 * Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
@@ -202,7 +208,7 @@ Pas d’informations disponibles.
 <table id="table_3A6FBAE36558425A803B078150862C92"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -232,7 +238,7 @@ Pas d’informations disponibles.
 <table id="table_54025DBE2D094FF1BE837BA60816C6DF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -249,13 +255,13 @@ Pas d’informations disponibles.
 <table id="table_EB3FFBA2DF904546A5185EC9A63BBA98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Groupe  Mappage </p> </td> 
+   <td colname="col1"> <p>Groupe Mappage </p> </td> 
    <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à l’échelle de plusieurs solutions Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
@@ -283,14 +289,14 @@ Correctifs :
 * Correction d’un problème en raison duquel l’icône Ajouter (plus) ne s’affichait pas sous [!UICONTROL Règles] sur la page [!UICONTROL Créer une audience].
 * Amélioration de la prise en charge de l’interface d’Experience Cloud pour Internet Explorer 9.
 
-## Version 15.1.1 - 15 janvier 2015  {#section_F1A352E928AF432E94CC0A289C345184}
+## Version 15.1.1 - 15 janvier 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
 <table id="table_AD0A8CA760E64227BB04BA6B0E425E80"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -305,7 +311,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 **Correctifs**
 
 * Correction d’un problème en raison duquel les fichiers PNG ne pouvaient pas être restitués sur une carte.
-* Correction d’un problème de transfert par glisser-déplacer des fichiers vers Experience Assets.
+* Correction d’un problème de transfert par glisser-déplacer des fichiers vers Experience Cloud Assets.
 
 **Problèmes connus**
 
@@ -323,7 +329,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Certains utilisateurs peuvent rencontrer des problèmes lors de la création d’une audience dans une suite de rapports Analytics une fois les audiences partagées activées.
 * Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
 
-## Version 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Version 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problèmes connus :
 
@@ -336,14 +342,14 @@ Problèmes connus :
 * Les performances de l’interface d’[!DNL Experience Cloud] peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * La synchronisation d’Adobe Experience Manager avec Creative Cloud ne fonctionne pas.
 
-## Version 14.10.1 - 16 octobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
+## Version 14.10.1 - 16 octobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
 <table id="table_7C1ACE8108D54782AE128ACD35069DF5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -400,7 +406,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 <table id="table_1E7DBEB5E83B4E4285B6FD1D718CD16D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -449,7 +455,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 Aucun à signaler.
 
-## Version 14.6.1 - 19 juin 2014  {#marketing_cloud_interface}
+## Version 14.6.1 - 19 juin 2014 {#marketing_cloud_interface}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -458,7 +464,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 <table id="table_C9BD63436BF0414B97B8D07387D1993B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -490,7 +496,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -536,12 +542,12 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les utilisateurs n’étaient pas en mesure de partager des fichiers PowerPoint sur les panoramas.
 * Certains utilisateurs affichaient une mise en page visuelle de faible qualité dans Internet Explorer 10.
 
-## Version 14.4.1 - 22 avril 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Version 14.4.1 - 22 avril 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -617,12 +623,12 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 * Certains fichiers PNG ne peuvent pas être restitués sur une carte.
 * Les commentaires bêta ne peuvent pas être envoyés.
 
-## Version 14.2.1 - 24 février 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Version 14.2.1 - 24 février 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Fonction </th> 
+   <th colname="col1" class="entry"> Fonctionnalité </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
