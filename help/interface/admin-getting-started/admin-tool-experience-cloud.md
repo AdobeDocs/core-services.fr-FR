@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 
 # Utilisateurs et stratégies Experience Cloud vues dans l’outil d’administration
 
-Les administrateurs peuvent vue une liste pouvant être triée et filtrée de tous les utilisateurs et stratégies Experience Cloud avec des informations détaillées dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Les détails de la stratégie incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration d’une stratégie (profil de produits), ainsi que les autorisations détaillées et les informations de ressources de la stratégie. (**Remarque :** la gestion des utilisateurs et des produits est configurée dans [Admin Console](admin-getting-started.md).)
+Les administrateurs peuvent vue une liste pouvant être triée et filtrée de tous les utilisateurs et stratégies Experience Cloud avec des informations détaillées dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Les détails de la stratégie incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration d’une stratégie (profil de produits), ainsi que les autorisations détaillées et les informations de ressources de la stratégie.
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. Connectez-vous à `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Dans la page d’accueil d’Experience Cloud, cliquez sur **[!UICONTROL Outil d’administration.]**
+1. Sous Accès rapide, cliquez sur **[!UICONTROL Outil d’administration.]**
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
@@ -65,7 +69,7 @@ Sur la page [!UICONTROL Utilisateurs], pour afficher les informations d’un uti
 
 Une vue détaillée de chaque utilisateur affiche des détails importants sur l’accès à la solution de l’utilisateur, les rôles d’administrateur et de produit, ainsi que les dernières informations consultées.
 
-## Section À propos
+## A propos de la section
 
 Cette section présente un résumé du compte d’utilisateur, notamment :
 
@@ -97,6 +101,8 @@ Cette section affiche une liste complète de tous les profils d’adhésion de p
 
 Cette page affiche la liste complète des stratégies Experience Cloud de votre organisation. Il fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des vues personnalisées de la liste de stratégies.
 
+![](assets/admin-tool-policies.png)
+
 | Élément | Description |
 |---|---|
 | [!UICONTROL Profil de produits] | Nom du profil de produits. La colonne peut être triée A->Z, Z->A. Cliquez sur le nom d’un profil de produits pour afficher plus d’informations sur la stratégie. |
@@ -122,9 +128,16 @@ Vous pouvez rechercher, trier ou filtrer les colonnes afin de personnaliser la l
 
 Sur la page [!UICONTROL Stratégies] , pour vue des détails d’une stratégie, cliquez sur le nom du profil de produits.
 
-Une vue détaillée de chaque profil de produits présente des détails importants sur les sujets du profil de produits (utilisateurs, groupes, etc.), ainsi que les autorisations et les ressources activées par le profil de produits.  Les détails du profil du produit peuvent être exportés dans des fichiers CSV.  L’option [!UICONTROL Exporter au format CSV] génère 2 fichiers CSV : Détails du sujet (utilisateurs, groupes d’utilisateurs, développeurs, intégrations, administrateurs) et éléments Autorisations et Ressources.
+![](assets/admin-tool-policy-detail.png)
 
-## Section récapitulative
+Une vue détaillée de chaque profil de produits présente des détails importants sur les sujets du profil de produits (utilisateurs, groupes, etc.). Il affiche également les autorisations et les ressources activées par le profil de produits.
+
+Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Exporter au format CSV] produit deux fichiers CSV :
+
+* Détails du sujet (utilisateurs, groupes d’utilisateurs, développeurs, intégrations, administrateurs)
+* Autorisations et éléments de ressources
+
+## Section Résumé
 
 Cette section présente un récapitulatif du profil de produits, notamment :
 
@@ -134,7 +147,6 @@ Cette section présente un récapitulatif du profil de produits, notamment :
 * Nombre d&#39;intégrations
 * Produits associés
 * Instance
-
 
 ## Liste détaillée du sujet
 
@@ -148,7 +160,6 @@ Cette section présente une liste complète de tous les utilisateurs, groupes d�
 | [!UICONTROL Intégrations] | Liste des intégrations associées au profil de produits. |
 | [!UICONTROL Administrateurs] | Liste des administrateurs associés au profil de produit. |
 
-## Listes détaillées sur les autorisations et les ressources
+## Listes détaillées des autorisations et des ressources
 
-Cette section présente une liste complète des autorisations et des ressources disponibles pour le profil de produits. Les autorisations et les ressources qui ont été incluses dans le profil de produits ont été marquées d&#39;un &quot;&quot;.  Les listes d’autorisations et de ressources ont été classées en onglets et en colonnes pour faciliter l’affichage.  Les onglets et les colonnes affichent la liste des sections qui s’appliquent au produit actif.
-
+Cette section présente une liste complète des autorisations et des ressources disponibles pour le profil de produits. Les autorisations et les ressources qui ont été incluses dans le profil de produits ont été marquées d&#39;un &quot;&quot;. Les listes d’autorisations et de ressources ont été classées en onglets et en colonnes pour faciliter l’affichage. Les onglets et les colonnes affichent la liste des sections qui s’appliquent au produit actif.
