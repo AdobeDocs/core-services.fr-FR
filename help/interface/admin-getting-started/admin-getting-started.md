@@ -6,9 +6,9 @@ seo-title: Gestion des utilisateurs et des produits Experience Cloud
 solution: Experience Cloud
 title: Gestion des utilisateurs et des produits Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Une fois la migration terminée, les utilisateurs se connectent à l’aide de l
 Dans Adobe Target, un espace de travail est un profil de produits. Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans Adobe Analytics.
 
 Voir :
+
 * [Autorisations des utilisateurs d’Enterprise](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html)
 * Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
