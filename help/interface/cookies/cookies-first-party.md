@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Cookies propriétaires
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
+workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ Si un CNAME est configuré et que le certificat est installé, vous pouvez utili
 
 ### Validation à l’aide de [!DNL curl]
 
-Adobe recommande l’utilisation de [!DNL [curl](https://curl.haxx.se/)] dans la ligne de commande. (les utilisateurs de [!DNL Windows] peuvent installer [!DNL curl] à partir de : <https://curl.haxx.se/windows/>)
+Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. (les utilisateurs de [!DNL Windows] peuvent installer [!DNL curl] à partir de : <https://curl.haxx.se/windows/>)
 
 Si vous disposez d’un CNAME mais qu’aucun certificat n’est installé, exécutez :
 `curl -k https://sstats.adobe.com/_check`
