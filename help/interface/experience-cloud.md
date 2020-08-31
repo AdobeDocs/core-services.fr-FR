@@ -6,16 +6,16 @@ seo-title: Aide d’Adobe Experience Cloud et des services principaux et documen
 solution: Adobe Experience Cloud
 title: Aide d’Experience Cloud et des services principaux
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Documentation de l’interface Experience Cloud
+# Documentation de l’interface d’Experience Cloud
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
@@ -26,7 +26,7 @@ Cette page donne accès à la documentation du produit pour les fonctionnalités
 * [[!UICONTROL Bibliothèque d’audiences]](audience-library/audience-library.md)
 * [[!UICONTROL Attributs du client]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [[!UICONTROL Experience Cloud Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Ressources[!UICONTROL Experience Cloud]](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookies Experience Cloud](cookies/cookies-privacy.md)
 
 ## Administration des utilisateurs et des produits
@@ -37,7 +37,7 @@ Cette page donne accès à la documentation du produit pour les fonctionnalités
 * [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
 * [Intégrations](marketing-cloud-integrations.md)
 * [Intégration d’Adobe Target avec Experience Cloud](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html)
-* [Présentation de la confidentialité et de la sécurité des Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Présentation de la confidentialité et de la sécurité d’Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Prérécupération DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Aide associée d’Experience Cloud
@@ -50,15 +50,15 @@ Cette page donne accès à la documentation du produit pour les fonctionnalités
 * [Blog sur l’expérience client](https://theblog.adobe.com/customer-experience/) - Lisez le blog Experience Cloud.
 * [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) - Contactez l’assistance clientèle Adobe.
 
-## Documentation Experience Platform
+## Documentation Experience Platform
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)
 * [[!UICONTROL Audiences]](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
 * [[!UICONTROL Attributs du client]](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
+* [Co-op des dispositifs](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Service Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html)
 * [API relative au Règlement général sur la protection des données (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
+* [[!UICONTROL Gestion dynamique des balises (Dynamic Tag Management)]](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
