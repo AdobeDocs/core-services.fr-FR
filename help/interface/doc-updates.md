@@ -6,11 +6,11 @@ seo-title: Mises à jour de la documentation – Experience Cloud
 solution: Experience Cloud
 title: Mises à jour de la documentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
-**Mise à jour : 19/08/2020**
+**Mise à jour : 19/08/2020**
 
-Mise à jour des détails de l’utilisateur Experience Cloud de [Vue (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md) avec les informations de stratégie.
+Mise à jour de l’[Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md) avec ajout des informations sur la politique.
 
 **Mise à jour : 19/05/2020**
 
@@ -92,7 +92,7 @@ Ajout de la section [Activation des solutions pour les services principaux](core
 
 **Mise à jour : 15/01/2015**
 
-Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir  [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Mise à jour : 17/07/2014**
 
