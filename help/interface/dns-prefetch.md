@@ -5,9 +5,9 @@ seo-title: Utilisation de la prérécupération DNS avec différents services et
 solution: Experience Cloud
 title: Utilisation de la prérécupération DNS avec différents services et solutions
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
