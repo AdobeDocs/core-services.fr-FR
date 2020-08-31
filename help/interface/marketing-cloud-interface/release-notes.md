@@ -6,11 +6,11 @@ seo-title: Notes de mise à jour cumulatives
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous 
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Stratégies | Cette page affiche la liste complète des stratégies Experience Cloud de votre organisation. Il fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des vues personnalisées de la liste de stratégies. Voir l’aide de [l’outil d’administration Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) pour en savoir plus. |
+| Outil d’administration - Politiques | Cette page affiche la liste complète des politiques Experience Cloud de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques. Voir l’aide de [l’outil d’administration Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) pour en savoir plus. |
 
 ## Avril - 2020
 
@@ -147,7 +147,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 >
 >Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
-## Version 15.10 - 14 octobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 - 14 octobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problèmes connus**
 
@@ -161,7 +161,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 * Correction d’un problème lié à la bibliothèque d’audiences qui empêchait le partage d’audiences à partir de la segmentation Analytics. Ce problème entraînait l’affichage de « Collecte de données » (0 audience). Pour éviter ce problème, Adobe conseille de conserver les tailles des segments en dessous de 50 000 membres d’audience par segment. (MAC-25788)
 * Correction d’un ancien problème connu sur la page Attributs du client – Schéma d’édition qui provoquait une erreur de reconnaissance du contenu lors de la modification d’un nom d’affichage. (MAC-25589, AN-103834)
 
-## Version 15.7 - 22 juillet 2015 {#section_2683A152176944E48EF6C943892975B7}
+## Version 15.7 - 22 juillet 2015  {#section_2683A152176944E48EF6C943892975B7}
 
 * Correction d’un problème qui empêchait la mise à jour des descriptions d’attribut spécifiées sur la page Afficher/Modifier le schéma (dans les attributs du client) dans les rapports Analytics. (MAC-25985)
 * Correction d’un problème empêchant le rendu des miniatures pour les ressources transférées. (MAC-25863)
@@ -173,7 +173,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 
 En raison d’un problème connu, les comptes générés automatiquement sont créés en double dans Audience Manager et automatiquement associés à une identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
-## Version 15.6.1 - 11 juin 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Version 15.6.1 - 11 juin 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Pas d’informations disponibles.
 
@@ -261,7 +261,7 @@ Pas d’informations disponibles.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Groupe Mappage </p> </td> 
+   <td colname="col1"> <p>Groupe  Mappage </p> </td> 
    <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à l’échelle de plusieurs solutions Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
@@ -289,7 +289,7 @@ Correctifs :
 * Correction d’un problème en raison duquel l’icône Ajouter (plus) ne s’affichait pas sous [!UICONTROL Règles] sur la page [!UICONTROL Créer une audience].
 * Amélioration de la prise en charge de l’interface d’Experience Cloud pour Internet Explorer 9.
 
-## Version 15.1.1 - 15 janvier 2015 {#section_F1A352E928AF432E94CC0A289C345184}
+## Version 15.1.1 - 15 janvier 2015  {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -329,7 +329,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Certains utilisateurs peuvent rencontrer des problèmes lors de la création d’une audience dans une suite de rapports Analytics une fois les audiences partagées activées.
 * Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
 
-## Version 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Version 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problèmes connus :
 
@@ -342,7 +342,7 @@ Problèmes connus :
 * Les performances de l’interface d’[!DNL Experience Cloud] peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * La synchronisation d’Adobe Experience Manager avec Creative Cloud ne fonctionne pas.
 
-## Version 14.10.1 - 16 octobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
+## Version 14.10.1 - 16 octobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -455,7 +455,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 Aucun à signaler.
 
-## Version 14.6.1 - 19 juin 2014 {#marketing_cloud_interface}
+## Version 14.6.1 - 19 juin 2014  {#marketing_cloud_interface}
 
 Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et de partage d’[!DNL Adobe Experience Cloud].
 
@@ -542,7 +542,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les utilisateurs n’étaient pas en mesure de partager des fichiers PowerPoint sur les panoramas.
 * Certains utilisateurs affichaient une mise en page visuelle de faible qualité dans Internet Explorer 10.
 
-## Version 14.4.1 - 22 avril 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Version 14.4.1 - 22 avril 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -606,7 +606,7 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 * Lorsque *`Remember me`* n’est pas sélectionné durant l’ouverture de session, l’utilisateur est déconnecté au bout de 15 minutes.
 * La page d’entrée de la solution [!DNL Analytics] présente des erreurs de mise en forme.
 * Il n’est pas possible de cliquer sur le lien Commentaires sur la carte des ressources.
-* L’interface d’Experience Cloud peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs
+* L’interface d’Experience Cloud peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * Experience Cloud ne peut pas être lié à [!DNL Adobe Target] si la connexion à [!DNL Adobe Target] peut être utilisée sur plusieurs serveurs Target.
 * La connexion à Experience Cloud dure plus d’une seconde.
 * Après l’ajout d’une balise personnalisée à un fichier, aucune autre modification des métadonnées ne peut être conservée.
@@ -623,7 +623,7 @@ La version 14.3.1 est une version de maintenance principalement centrée autour
 * Certains fichiers PNG ne peuvent pas être restitués sur une carte.
 * Les commentaires bêta ne peuvent pas être envoyés.
 
-## Version 14.2.1 - 24 février 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Version 14.2.1 - 24 février 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
