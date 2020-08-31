@@ -10,24 +10,24 @@ translation-type: tm+mt
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Affichage des utilisateurs et politiques d’Experience Cloud dans l’outil d’administration
 
-Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud avec leurs informations dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Les détails de la politique incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration de la politique (profil de produits), ainsi que les autorisations détaillées et les informations de ressources pour la politique.
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud avec leurs informations dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Les détails de la politique incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration de la politique (profil de produits), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>La gestion des utilisateurs et des produits est configurée dans [Admin Console](admin-getting-started.md).
 
 1. Connectez-vous à `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Sous Accès rapide, cliquez sur **[!UICONTROL Outil d’administration.]**
+1. Sous [!UICONTROL Accès rapide], cliquez sur **[!UICONTROL Outil d’administration.]**
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
@@ -69,7 +69,7 @@ Sur la page [!UICONTROL Utilisateurs], pour afficher les informations d’un uti
 
 Une vue détaillée de chaque utilisateur affiche des détails importants sur l’accès à la solution de l’utilisateur, les rôles d’administrateur et de produit, ainsi que les dernières informations consultées.
 
-## A propos de la section
+## Section À propos
 
 Cette section présente un résumé du compte d’utilisateur, notamment :
 
@@ -130,9 +130,9 @@ Sur la page [!UICONTROL Politiques], pour afficher les détails d’une politiqu
 
 ![](assets/admin-tool-policy-detail.png)
 
-Une vue détaillée de chaque profil de produits présente des détails importants sur les sujets du profil de produits (utilisateurs, groupes, etc.). Il affiche également les autorisations et les ressources activées par le profil de produits.
+Une vue détaillée de chaque profil de produits présente des détails importants sur les sujets du profil de produits (utilisateurs, groupes, etc.). Elle affiche également les autorisations et les ressources activées par le profil de produits.
 
-Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Exporter au format CSV] produit deux fichiers CSV :
+Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Exporter CSV] produit deux fichiers CSV :
 
 * Détails du sujet (utilisateurs, groupes d’utilisateurs, développeurs, intégrations, administrateurs)
 * Autorisations et éléments de ressources
@@ -148,7 +148,7 @@ Cette section présente un résumé du profil de produits, notamment :
 * Produits associés
 * Instance
 
-## Liste détaillée du sujet
+## Liste détaillée des sujets
 
 Cette section présente une liste complète de tous les utilisateurs, groupes d’utilisateurs, développeurs, intégrations et administrateurs affectés au profil de produits.
 
