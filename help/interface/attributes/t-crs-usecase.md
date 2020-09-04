@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -31,15 +31,15 @@ Création d’une source d’attributs du client (fichiers CSV et FIN) et transf
 Une fois la source de données active, vous pouvez accomplir ce qui suit :
 
 * [Utilisation des attributs du client dans Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Utiliser les attributs du client dans Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Utilisation des attributs du client dans Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 >
 >Pour utiliser la fonction Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de la solution (Analytics ou [!DNL Target]).
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+Voir [Gestion des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Création d’un fichier de données {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -156,24 +156,21 @@ Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs du client], re
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Les données sont désormais disponibles dans les solutions comme
-<keyword>
-Adobe Analytics
-</keyword>, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
+Les données étant désormais disponibles dans des solutions comme Adobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
 L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs transférés. Ce segment présente les abonnés à [!DNL Photoshop Lightroom] dont le produit le plus souvent lancé est Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
-Lorsque vous publiez un segment dans Experience Cloud, il devient disponible dans les Audiences Experience Cloud et Audience Manager.
+Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
 
-Pour plus d’informations, voir [Rapport Attributs du client](https://docs.adobe.com/help/fr-FR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) dans l’aide d’Analytics.
+Pour plus d’informations, voir [Rapport Attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html) dans l’aide d’Analytics.
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. All Customer Attributes will have the prefix [!DNL crs.] in the list. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. Tous les attributs du client auront le préfixe [!DNL crs.] dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![](assets/crs-add-attribute-target.png)
 
