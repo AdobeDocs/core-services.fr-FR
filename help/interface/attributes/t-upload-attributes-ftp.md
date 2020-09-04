@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Facultatif – Transfert du fichier de données par FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 85%
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Vous pouvez transférer les données après avoir créé une source d’attribut
 
 >[!IMPORTANT]
 >
->Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
+>Consultez [Exigences liées aux fichiers de données pour le transfert des attributs du client](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avant de transférer le fichier.
 
-Les téléchargements de fichiers vers le site FTP Attributs du client peuvent être effectués par FTP ou SFTP.
+Les fichiers peuvent être transférés sur le site FTP des attributs du client selon le protocole FTP ou SFTP.
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
 * Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://docs.adobe.com/help/fr-FR/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
@@ -34,7 +34,7 @@ Les téléchargements de fichiers vers le site FTP Attributs du client peuvent �
 
 1. [Création d’une source d’attributs du client et transfert du fichier de données...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Vérifiez que vous êtes connecté à votre site FTP à l’adresse [!DNL ftp.adobe.com/<sftpname>].
+   Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
 1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Chargement du fichier]**.
 
@@ -44,4 +44,4 @@ Les téléchargements de fichiers vers le site FTP Attributs du client peuvent �
 
    Si le transfert est réussi, les deux fichiers sont déplacés dans un dossier appelé **processed** (traité).
 
-   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
+   Reportez-vous à la section [Exigences liées aux fichiers de données pour le transfert des attributs du client](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) pour consulter des informations importantes sur les noms et la structure des fichiers.
