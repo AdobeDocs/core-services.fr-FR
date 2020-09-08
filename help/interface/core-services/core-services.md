@@ -6,11 +6,11 @@ seo-title: Activation des solutions Experience Cloud pour les attributs du clie
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Vérifiez que vous vous trouvez sur le réseau RDC (regional data collection). 
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. Un moyen simple d’accomplir cette procédure consiste à ajouter un outil [!DNL Adobe Analytics] à Dynamic Tag Management, en spécifiant *`Automatic`* comme méthode de configuration.
 
-Dans [!UICONTROL Dynamic Tag Management], cliquez sur **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Voir [Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html) à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
+Dans [!UICONTROL Dynamic Tag Management], cliquez sur **`<Web Property Name>`**  > **[!UICONTROL Aperçu]** > **[!UICONTROL Ajouter un outil]** > **[!UICONTROL Adobe Analytics]**. Voir [Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html) à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
 
 ## Étape 5. (Adobe Target) Mettre à jour la mise en œuvre d’Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
