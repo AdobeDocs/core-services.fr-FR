@@ -6,9 +6,9 @@ seo-title: Facultatif – Transfert du fichier de données par FTP
 solution: Experience Cloud
 title: Facultatif – Transfert du fichier de données par FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
