@@ -6,11 +6,11 @@ seo-title: Création d’une source d’attributs du client et transfert du fich
 solution: Experience Cloud
 title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Voir [Validation du schéma](../attributes/validate-schema.md#concept_B3A01A15D0
 
 Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (supprime les attributs)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
-## (Facultatif) Mise à jour du schéma (suppression des attributs) {#task_6568898BB7C44A42ABFB86532B89063C}.
+## (Facultatif) Mise à jour du schéma (suppression des attributs) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 Suppression des attributs et remplacement des attributs dans le schéma.
 
@@ -158,9 +158,9 @@ Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs du client], re
 
 ## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Les données étant désormais disponibles dans des solutions comme Adobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
+Les données étant désormais disponibles dans des solutions telles qu’Adobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
-L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs transférés. Ce segment présente les abonnés à [!DNL Photoshop Lightroom] dont le produit le plus souvent lancé est Photoshop.
+L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs téléchargés. Ce segment présente les abonnés à [!DNL Photoshop Lightroom] dont le produit le plus souvent lancé est Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
