@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Guide d’utilisation de l’interface Experience Cloud
+user-guide-title: Guide de l'interface Experience Cloud
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies [!DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies [!DNL Target]](cookies/cookies-target.md)
+   + Cookies [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies [[!DNL Target] ](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Transférez une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+ Audiences dans Experience Cloud {#audiences}
-   + [Présentation des audiences](audience-library/audience-library.md)
++ Audiences Experience Cloud {#audiences}
+   + [Présentation des Audiences Experience Cloud](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
 + Attributs du client dans Experience Cloud {#customer-attributes}
