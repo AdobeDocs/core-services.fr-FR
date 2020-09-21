@@ -1,39 +1,39 @@
 ---
-description: Présentation et conditions préalables relatives au transfert des attributs du client vers Experience Cloud.
+description: Aperçu et conditions requises pour le téléchargement des attributs du client dans Experience Cloud.
 keywords: core services;Customer Attributes
-seo-description: Présentation et conditions préalables relatives au transfert des attributs du client vers Experience Cloud.
+seo-description: Aperçu et conditions requises pour le téléchargement des attributs du client dans Experience Cloud.
 seo-title: Attributs du client
 solution: Experience Cloud
 title: Attributs du client
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 71%
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
 
-# Attributs du client
+# Attributs du client aperçu
 
-Accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > Attributs **[!UICONTROL du client.]**
+Accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
 Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois le transfert effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 ![](assets/custom_reports.png)
 
-## Conditions requises pour le transfert des attributs du client {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Conditions requises pour le téléchargement des attributs du client {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Activation de la solution :** [Activez vos solutions pour les services](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)Experience Platform.
+* **Activation de la solution :** [activez vos solutions pour les services Experience Platform](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Appartenance à un groupe :** Pour télécharger les données Attribut du client, les utilisateurs doivent appartenir au groupe [Attributs du](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)client. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
+* **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
+   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
 
-   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
+   Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
-* **Adobe Target** [!DNL at.js] (n’importe quelle version) ou [!DNL mbox.js] la version 58 ou ultérieure est requise pour les attributs du client.
+* **Adobe Target** [!DNL at.js] (toute version) ou [!DNL mbox.js] version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
    Voir [Comment déployer at.js](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) ou [Implémentation de mbox.js](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
