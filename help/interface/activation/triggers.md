@@ -3,12 +3,12 @@ description: Configuration d’Experience Cloud Triggers.
 keywords: integrations;Triggers
 seo-description: Configuration d’Experience Cloud Triggers.
 seo-title: Triggers
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
