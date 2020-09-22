@@ -3,12 +3,12 @@ description: Data Connectors utilise des cookies pour fournir aux annonceurs des
 keywords: cookies;privacy
 seo-description: Data Connectors utilise des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
 seo-title: Cookies Data Connectors
-solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud, Analytics, Target
 title: Cookies Data Connectors
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
 
