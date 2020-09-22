@@ -3,12 +3,12 @@ description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les n
 keywords: cookies;privacy
 seo-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui refusent la collecte de données Analytics.
 seo-title: Activation des paramètres de confidentialité pour les cookies de navigateur
-solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud, Analytics, Target, Social
 title: Activation des paramètres de confidentialité pour les cookies de navigateur
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
