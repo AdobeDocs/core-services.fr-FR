@@ -3,12 +3,12 @@ description: Search&Promote utilise des cookies pour comprendre et anticiper les
 keywords: cookies;privacy
 seo-description: Search&Promote utilise des cookies pour comprendre et anticiper les intentions de recherche des visiteurs.
 seo-title: Cookies Search&Promote
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Cookies Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
