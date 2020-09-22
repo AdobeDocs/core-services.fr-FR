@@ -3,12 +3,12 @@ description: Le respect de la vie privée des clients et la sécurité des donn�
 keywords: cookies;privacy
 seo-description: Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe est membre de nombreuses organisations de protection de la vie privée. La société coopère également avec les autorités de réglementation de la confidentialité et respecte des principes d’autoréglementation (tels que le programme AdChoices Digital Advertising Alliance) afin de fournir aux clients des informations sur la manière dont leurs informations sont utilisées et les choix relatifs à leur utilisation.
 seo-title: À propos des cookies et de la confidentialité
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: À propos des cookies et de la confidentialité
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
