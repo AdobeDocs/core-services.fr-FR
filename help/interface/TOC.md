@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 93%
    + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies [[!DNL Target] ](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
@@ -59,7 +59,7 @@ ht-degree: 93%
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
 + Audiences Experience Cloud {#audiences}
-   + [Présentation des Audiences Experience Cloud](audience-library/audience-library.md)
+   + [Présentation des audiences Experience Cloud](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
 + Attributs du client dans Experience Cloud {#customer-attributes}
