@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
 
-# Guide de l&#39;interface Experience Cloud
+# Guide de l’interface d’Experience Cloud
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Le Guide d’administration de Adobe Experience Cloud contient de l’aide sur l’administration des utilisateurs et des produits Experience Cloud, la bibliothèque d’Audiences, les attributs du client et les ressources Experience Cloud. Ce guide contient les articles suivants :
+Le Guide d’administration de Adobe Experience Cloud contient de l’aide sur l’administration des utilisateurs et des produits Experience Cloud, la bibliothèque d’Audiences, les attributs du client et les ressources Experience Cloud. Ce guide contient les articles suivants :
 
 * [[!UICONTROL Bibliothèque d’audiences]](audience-library/audience-library.md)
 * [[!UICONTROL Attributs du client]](attributes/attributes.md)
@@ -39,7 +39,7 @@ Le Guide d’administration de Adobe Experience Cloud contient de l’aide sur l
 
 ## Guides 
 
-Les guides d&#39;Experience Cloud connexes sont les suivants :
+Les guides Experience Cloud associés sont les suivants :
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)
 * [Co-op des dispositifs](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
@@ -48,17 +48,17 @@ Les guides d&#39;Experience Cloud connexes sont les suivants :
 * [Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html)
 * [API relative au Règlement général sur la protection des données (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Gestion dynamique des balises (Dynamic Tag Management)]](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
 
 ## Tutoriels
 
-Tirez parti des didacticiels d’auto-assistance et des instructions rapides dans Experience League :
+Profitez des tutoriels d’aide autonome et des instructions rapides dans Experience League :
 
-* [Tous les didacticiels de la Ligue d&#39;expérience](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Tous les tutoriels dans Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
 * [Tutoriels Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [Plateforme de données clients en temps réel](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
-## Notes de mise à jour et aide des Experience Cloud associés
+## Notes de mise à jour et aide Experience Cloud associée
 
 * [Documentation sur les produits pour toutes les solutions Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud.
 * [Notes de mise à jour et mises à jour des produits](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
