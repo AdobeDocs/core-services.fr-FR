@@ -3,7 +3,7 @@ description: Transférez une ressource vers un dossier partagé depuis le naviga
 keywords: partage de ressources;Creative Cloud;services principaux
 seo-description: Transférez une ressource vers un dossier partagé depuis le navigateur de Creative Cloud.
 seo-title: Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud
-solution: Experience Cloud
+solution: Experience Cloud
 title: Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt

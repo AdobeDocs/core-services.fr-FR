@@ -3,7 +3,7 @@ description: 'Outils administratifs pour la gestion des utilisateurs Creative C
 keywords: partage de ressources;Creative Cloud;services principaux
 seo-description: 'Outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. '
 seo-title: Gestion des utilisateurs Creative Cloud
-solution: Experience Cloud
+solution: Experience Cloud
 title: Gestion des utilisateurs Creative Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt

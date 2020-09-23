@@ -3,7 +3,7 @@ description: Règles relatives au comportement des dossiers partagés lorsqu’i
 keywords: partage de ressources;Creative Cloud;services principaux
 seo-description: Règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés.
 seo-title: Comportement des dossiers partagés
-solution: Experience Cloud
+solution: Experience Cloud
 title: Comportement des dossiers partagés
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt

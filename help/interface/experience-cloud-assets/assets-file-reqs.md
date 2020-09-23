@@ -3,7 +3,7 @@ description: Types et tailles de fichiers autorisés pour le partage de ressourc
 keywords: partage de ressources;Creative Cloud;services principaux
 seo-description: Types et tailles de fichiers autorisés pour le partage de ressources entre Experience Cloud et Creative Cloud.
 seo-title: Exigences relatives aux fichiers de ressources pour le partage
-solution: Experience Cloud
+solution: Experience Cloud
 title: Exigences relatives aux fichiers de ressources pour le partage
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
