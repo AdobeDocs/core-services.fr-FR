@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Administration des Experience Cloud, Audiences et attributs du client
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 94%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 94%
    + [Transférez une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+ Audiences Experience Cloud {#audiences}
++ Bibliothèque d’audiences Experience Cloud {#audiences}
    + [Présentation des audiences Experience Cloud](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
