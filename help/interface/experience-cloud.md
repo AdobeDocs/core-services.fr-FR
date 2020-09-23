@@ -1,27 +1,27 @@
 ---
-description: Aide autonome, documentation du produit et documentation technique pour Adobe Experience Cloud. Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe.
-keywords: core services
-seo-description: Cette page fournit de l’aide autonome, de la documentation sur les produits et de la documentation technique pour Experience Cloud.
-seo-title: Aide d’Adobe Experience Cloud et des services principaux et documentation sur les produits.
-solution: Experience Cloud
-title: Aide d’Experience Cloud et des services principaux
+description: Aide autonome, documentation du produit et documentation technique pour Adobe Experience Cloud. Inclut l’administration des utilisateurs et des produits dans le Admin Console, l’activation de solutions pour les services de plateforme et l’aide sur la bibliothèque d’Audiences, les attributs du client, les ressources Experience Cloud, etc.
+keywords: platform services
+seo-description: Aide sur l’administration des utilisateurs et des produits dans le Admin Console, l’activation de solutions pour les services de plateforme et l’aide sur la bibliothèque d’Audiences, les attributs du client, les ressources Experience Cloud, etc.
+seo-title: Aide sur les services Adobe Experience Cloud et la plate-forme et documentation sur les produits.
+solution: Adobe Experience Cloud
+title: Aide sur les services Experience Cloud et les plateformes
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 75%
 
 ---
 
 
-# Guide de l’interface d’Experience Cloud
+# Administration des Experience Cloud, Audiences et attributs du client
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Le Guide d’administration de Adobe Experience Cloud contient de l’aide sur l’administration des utilisateurs et des produits Experience Cloud, la bibliothèque d’Audiences, les attributs du client et les ressources Experience Cloud. Ce guide contient les articles suivants :
+Ce guide permet d’accéder à l’aide relative à l’administration des produits et des utilisateurs Experience Cloud dans le Admin Console et d’activer ainsi des solutions pour les services de plate-forme. Vous pouvez également accéder à l’aide de la bibliothèque d’Audiences, des attributs du client, des ressources Experience Cloud, etc. :
 
 * [[!UICONTROL Bibliothèque d’audiences]](audience-library/audience-library.md)
 * [[!UICONTROL Attributs du client]](attributes/attributes.md)
