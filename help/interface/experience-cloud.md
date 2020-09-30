@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 
-# Administration des Experience Cloud, Audiences et attributs du client
+# Administration, audiences et attributs du client dans Experience Cloud
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
@@ -26,7 +26,7 @@ Ce guide permet d’accéder à l’aide relative à l’administration des prod
 * [[!UICONTROL Bibliothèque d’audiences]](audience-library/audience-library.md)
 * [[!UICONTROL Attributs du client]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Ressources[!UICONTROL Experience Cloud]](experience-cloud-assets/experience-cloud-assets.md)
+* [Ressources [!UICONTROL Experience Cloud]](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookies Experience Cloud](cookies/cookies-privacy.md)
 * [Gestion des utilisateurs et des produits](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [Activation des solutions pour les services principaux](core-services/core-services.md)
@@ -37,7 +37,7 @@ Ce guide permet d’accéder à l’aide relative à l’administration des prod
 * [Présentation de la confidentialité et de la sécurité d’Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Prérécupération DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Guides 
+## Guides
 
 Les guides Experience Cloud associés sont les suivants :
 
