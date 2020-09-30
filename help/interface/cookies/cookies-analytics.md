@@ -38,7 +38,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 |--- |--- |
 | Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | `<ECID>` |
 | Expiration | 2 ans |
-| Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L’objectif de ce cookie est d’autoriser le suivi des ID persistants dans l’état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d’informations, consultez le cookie AMCV |
+| Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L’objectif de ce cookie est d’autoriser le suivi des ID persistants dans l’état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d’informations, consultez le cookie AMCV. |
 | Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics |
 | Taille | 45 octets |
 
@@ -93,7 +93,7 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 | Cookie (défini par) | httpOnly | Sécurisé | SameSite |
 |--- |--- |--- |--- |
 | s_vi (réponse http) | Non | Oui lorsque SameSite est défini sur « Aucun » et que la connexion utilise le protocole HTTPS | « Lax » par défaut lors de l’utilisation de CNAME. « Aucun » lors de l’utilisation de 2o7.net ou omtrdc.net |
-| s_ecid (réponse http) | Non | Non | &quot;Lax&quot; |
+| s_ecid (réponse http) | Non | Non | « Lax » |
 | s_fid (Javascript) | Non | Non | Non défini |
 | s_cc (Javascript) | Non | Non | Non défini |
 | s_sq (Javascript) | Non | Non | Non défini |
