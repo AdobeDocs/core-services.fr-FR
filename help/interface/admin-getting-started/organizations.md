@@ -41,7 +41,7 @@ En général, les administrateurs Experience Cloud accordent l’accès aux solu
 
 1. Suivez les instructions fournies dans votre invitation par courrier électronique pour accéder à Experience Cloud.
 1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
-1. Cliquez sur le sélecteur de solutions. ( ![](assets/menu-icon.png)).
+1. Cliquez sur le sélecteur de solutions. (![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
