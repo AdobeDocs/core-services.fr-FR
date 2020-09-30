@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Triggers vous permet de définir et de surveiller les comportements clés des consommateurs, puis de mettre en place une communication intersolutions destinée à réengager les visiteurs. Vous pouvez utiliser des triggers pour la personnalisation et les décisions en temps réel.
 
-* Configurez un remarketing rapide pour les abandons de panier ou les abandons de panier sans suppression de produits.
+* Configurez un remarketing rapide pour les abandons de panier ou les abandons de panier sans suppression de produits
 * Formulaires et demandes incomplets
 * Actions ou séquence d’actions sur site
 
@@ -31,7 +31,7 @@ Triggers vous permet de définir et de surveiller les comportements clés des co
 
 En règle générale, un trigger peut prendre 15 à 90 minutes pour lancer une campagne marketing. Cela varie selon l’implémentation de la collecte de données, la charge sur le pipeline, la configuration personnalisée du trigger défini et le workflow dans Adobe Campaign.
 
-* **Abandon :** Vous pouvez créer un trigger qui se déclenche lorsqu’un visiteur consulte un produit mais ne l’ajoute pas au panier.
+* **Abandon :** vous pouvez créer un trigger qui se déclenche lorsqu’un visiteur consulte un produit mais ne l’ajoute pas au panier.
 * **Action :** vous pouvez créer des triggers, par exemple, pour qu’ils se déclenchent après des inscriptions à une newsletter, des abonnements par e-mail ou des demandes de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
 * **Début et fin de session :** créez un trigger pour les événements de début et de fin de session.
 
