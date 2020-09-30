@@ -25,7 +25,7 @@ Data Workbench utilise des cookies pour analyser, en temps réel, d’importants
 |---|---|
 | Informations stockées | Horodatage de l’ID de visiteur unique |
 | Expiration | Il s’agit d’un cookie persistant |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique  |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique.  |
 | Emplacement | Ce cookie est stocké dans le domaine de la page |
 | Taille | 8 octets, ou 13 octets si la partie « name = » (v1st=) est incluse |
 
