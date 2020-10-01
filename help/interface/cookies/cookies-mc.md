@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Cookies Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur
    <td colname="col1"> <p> Taille </p> </td> 
    <td colname="col2"> <p>45 octets </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Il s’agit de la nouvelle valeur par défaut pour les cookies dans Chrome.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Voir aussi [Cookies et service d’ID](https://docs.adobe.com/content/help/fr-FR
   <tr> 
    <td colname="col1"> <p> Taille </p> </td> 
    <td colname="col2"> <p> Variable ; la plupart des clients peuvent s’attendre à une taille d’environ 200 octets. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Aucune valeur ajoutée. Chrome est défini par défaut sur Lax. </p> </td> 
+   <td colname="col2"> <p> Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Il s’agit de la nouvelle valeur par défaut pour les cookies dans Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
