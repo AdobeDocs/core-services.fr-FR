@@ -6,16 +6,16 @@ seo-title: Activation des solutions Experience Cloud pour les attributs du clie
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# Activation de votre mise en œuvre pour les services inter-solutions
+# Activer votre mise en oeuvre pour les services Experience Cloud
 
 Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experience Platform Launch, vous êtes prêt pour les attributs du client et les audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans Admin Console.
 
