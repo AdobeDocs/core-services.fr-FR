@@ -6,11 +6,11 @@ seo-title: Création d’une audience
 solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,8 @@ Chaque cercle représente une règle qui définit l’adhésion à l’audience.
 >[!NOTE]
 >
 >L’audience est entièrement définie une fois la collecte des données terminée pour la période spécifiée.
-L’exemple suivant explique comment créer des règles pour une audience composite. L’audience se compose comme suit :
+
+L’exemple suivant explique comment créer des règles pour une audience composite. Cette audience se compose des éléments suivants :
 
 * Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
