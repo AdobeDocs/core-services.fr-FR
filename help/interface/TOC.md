@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Administration et services Experience Cloud
+user-guide-title: Services d’Experience Cloud et administration
 breadcrumb-title: Experience Cloud Services and Administration
 user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud Services and Administration {#interface}
+# Services d’Experience Cloud et administration {#interface}
 
-+ [Administration et services Experience Cloud](experience-cloud.md)
-+ Experience Cloud services {#about-core-services}
-   + [Présentation des services Experience Cloud](core-services-landing.md)
++ [Services d’Experience Cloud et administration](experience-cloud.md)
++ Services d’Experience Cloud {#about-core-services}
+   + [Présentation des services d’Experience Cloud](core-services-landing.md)
    + [Activer votre implémentation pour les services intersolutions](core-services/core-services.md)
    + [Mappage de suites de rapports à une organisation](core-services/report-suite-mapping.md)
    + [À propos des nouveaux noms de cloud dans Experience Cloud](solutions-core-services.md)
@@ -28,13 +28,13 @@ ht-degree: 93%
    + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies [!DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies [!DNL Target]](cookies/cookies-target.md)
+   + Cookies [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies [[!DNL Target] ](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
@@ -58,7 +58,7 @@ ht-degree: 93%
    + [Transférez une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
    + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+ Bibliothèque d’audiences Experience Cloud {#audiences}
++ Bibliothèque d’audiences Experience Cloud {#audiences}
    + [Présentation des audiences Experience Cloud](audience-library/audience-library.md)
    + [Création d’une audience](audience-library/t-audience-create.md)
    + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
