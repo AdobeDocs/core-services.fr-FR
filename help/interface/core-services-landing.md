@@ -1,20 +1,20 @@
 ---
 description: Découvrez la gestion des utilisateurs et des produits Adobe Experience Cloud ainsi que les services Personnes (audiences et attributs du client), Journey Orchestration, Offres, Places, Experience Platform Launch et Mobile Services.
 seo-description: Découvrez la gestion des utilisateurs et des produits Adobe Experience Cloud ainsi que les services Personnes (audiences et attributs du client), Offres, Experience Platform Launch et Mobile Services.
-seo-title: Services Experience Cloud et gestion des utilisateurs
+seo-title: Gestion des utilisateurs et des services d’Experience Cloud
 solution: Experience Cloud
-title: À propos des services Experience Cloud
+title: À propos des services d’Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# À propos d’Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# À propos d’Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 Les services Adobe Experience Cloud comprennent les services [!UICONTROL People] (audiences et attributs du client), Experience Platform Launch et Mobile Services. Vous trouverez également de l’aide sur la gestion des utilisateurs et des produits Experience Cloud.
 
@@ -38,4 +38,4 @@ Cette aide décrit les produits et services suivants :
 | [Location Service](https://docs.adobe.com/content/help/fr-FR/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) est un service de géolocalisation qui permet aux applications mobiles reconnaissant l’emplacement de l’utilisateur de comprendre le contexte de l’emplacement grâce à l’utilisation d’interfaces SDK enrichies et faciles à utiliser, accompagnées d’une base de données flexible de points ciblés (POI). |
 | [Exchange](exchange.md) | Recherchez, parcourez, sélectionnez, payez et téléchargez les extensions Digital Marketing via des applications. |
 | [Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html) | Adobe Mobile Services réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications mobiles. |
-| People | Créez une vue d’ensemble exhaustive des clients individuels en connectant vos données Adobe et non-Adobe à vos solutions Experience Cloud. Déterminez ce qui importe le plus à leurs yeux quand ils interagissent sur les points tactiles. Reconnaissez les consommateurs réguliers qui visitent votre site à partir de nouveaux appareils. Regroupez les utilisateurs en audiences pour vos efforts de marketing ciblé.<br>[Audiences](audience-library/audience-library.md) : catégorisez les différents types de clients sous forme d’audiences, puis partagez celles-ci dans l’ensemble des Solutions Experience Cloud.<br>[Attributs du client](attributes/attributes.md) : enrichissement d’audience qui vous permet de connecter les informations de consommateur que vous avez collectées à l’extérieur du Experience Cloud.<br>[Device Graph](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) : collaborez avec les marques internationales les plus appréciées pour reconnaître un consommateur familier derrière un appareil inconnu. |
+| People | Créez une vue d’ensemble exhaustive des clients individuels en connectant vos données Adobe et non-Adobe à vos solutions Experience Cloud. Déterminez ce qui importe le plus à leurs yeux quand ils interagissent sur les points tactiles. Reconnaissez les consommateurs réguliers qui visitent votre site à partir de nouveaux appareils. Regroupez les utilisateurs en audiences pour vos efforts de marketing ciblé.<br>[Audiences](audience-library/audience-library.md) : catégorisez les différents types de clients sous forme d’audiences, puis partagez celles-ci dans l’ensemble des Solutions Experience Cloud.<br>[Attributs du client](attributes/attributes.md) : enrichissement d’audience qui vous permet de connecter les informations de consommateur que vous avez collectées à l’extérieur du Experience Cloud.<br>[Device Graph](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) : collaborez avec les marques internationales les plus appréciées pour reconnaître un consommateur familier derrière un appareil inconnu. |
