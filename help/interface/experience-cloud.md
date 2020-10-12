@@ -6,16 +6,16 @@ seo-title: Aide d’Adobe Experience Cloud et des services de plateforme et do
 solution: Experience Cloud
 title: Aide d’Experience Cloud et des services de plateforme
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Administration et services Experience Cloud
+# Services d’Experience Cloud et administration
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
@@ -41,8 +41,8 @@ Ce guide permet d’accéder à l’aide relative à l’administration des prod
 
 Les guides Experience Cloud associés sont les suivants :
 
-* [Adobe Mobile](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)
-* [Graphique coopératif Experience Platform](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
+* [Adobe Mobile](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)
+* [Graphique Co-Op pour Experience Platform](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Service Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
