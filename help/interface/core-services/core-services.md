@@ -6,16 +6,16 @@ seo-title: Activation des solutions Experience Cloud pour les attributs du clie
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Activer votre mise en oeuvre pour les services Experience Cloud
+# Activation de la mise en œuvre pour les services Experience Cloud
 
 Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experience Platform Launch, vous êtes prêt pour les attributs du client et les audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans Admin Console.
 
@@ -136,7 +136,7 @@ Vérifiez que vous vous trouvez sur le réseau RDC (regional data collection). 
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. Un moyen simple d’accomplir cette procédure consiste à ajouter un outil [!DNL Adobe Analytics] à Dynamic Tag Management, en spécifiant *`Automatic`* comme méthode de configuration.
 
-Dans [!UICONTROL Dynamic Tag Management], cliquez sur **`<Web Property Name>`**  > **[!UICONTROL Aperçu]** > **[!UICONTROL Ajouter un outil]** > **[!UICONTROL Adobe Analytics]**. Voir [Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html) à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
+Dans [!UICONTROL Dynamic Tag Management], cliquez sur **`<Web Property Name>`** > **[!UICONTROL Aperçu]** > **[!UICONTROL Ajouter un outil]** > **[!UICONTROL Adobe Analytics]**. Voir [Paramètres d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.html) à la rubrique Dynamic Tag Management pour plus d’informations sur le déploiement.
 
 ## Étape 5. (Adobe Target) Mettre à jour la mise en œuvre d’Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
