@@ -6,11 +6,11 @@ seo-title: Cookies Experience Cloud
 solution: Experience Cloud,Analytics,Target
 title: Cookies Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur
   </tr> 
   <tr> 
    <td colname="col1"> <p> Emplacement </p> </td> 
-   <td colname="col2"> <p>Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics </p> </td> 
+   <td colname="col2"> <p>Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Taille </p> </td> 
