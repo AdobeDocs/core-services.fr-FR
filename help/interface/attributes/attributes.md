@@ -2,20 +2,20 @@
 description: Aperçu et conditions requises pour le téléchargement des attributs du client dans Experience Cloud.
 keywords: core services;Customer Attributes
 seo-description: Aperçu et conditions requises pour le téléchargement des attributs du client dans Experience Cloud.
-seo-title: Attributs du client
+seo-title: Service Attributs du client Experience Cloud
 solution: Experience Cloud
-title: Attributs du client
+title: Service Attributs du client Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 96%
 
 ---
 
 
-# Attributs du client  aperçu
+# Service Attributs du client Experience Cloud
 
 Accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
