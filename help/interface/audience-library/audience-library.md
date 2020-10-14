@@ -1,20 +1,20 @@
 ---
-description: Gérez la traduction des données du visiteur en segmentation d’audience dans la bibliothèque d’audiences Experience Cloud.
-seo-description: Gérez la traduction des données du visiteur en segmentation d’audience dans la bibliothèque d’audiences Experience Cloud.
-seo-title: Présentation des audiences Experience Cloud
+description: Gérez la traduction des données du visiteur en segmentation des audiences dans le service d’Audience Experience Cloud.
+seo-description: Gérez la traduction des données du visiteur en segmentation des audiences dans le service d’Audience Experience Cloud.
+seo-title: Service Audiences Experience Cloud
 solution: Experience Cloud
-title: Présentation des audiences Experience Cloud
+title: 'Audiences Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Présentation des audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Les audiences sont des collections de visiteurs (une liste d’identifiants visiteur). La bibliothèque d’audiences d’Adobe vous permet de gérer la traduction des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de partager les segments d’audience en produits et services dans [!DNL Experience Cloud].
 
