@@ -1,23 +1,23 @@
 ---
 description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
 keywords: core services
-seo-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
+seo-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
 seo-title: Création d’une audience
 solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '494'
+ht-degree: 100%
 
 ---
 
 
 # Création d’une audience
 
-Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
+Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -35,14 +35,14 @@ Chaque cercle représente une règle qui définit l’adhésion à l’audience.
 >
 >L’audience est entièrement définie une fois la collecte des données terminée pour la période spécifiée.
 
-L’exemple suivant explique comment créer des règles pour une audience composite. Cette audience se compose des éléments suivants :
+L’exemple suivant explique comment créer des règles pour une audience composite. L’audience se compose comme suit :
 
 * Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
 
-1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
+1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 1. Dans la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
@@ -50,7 +50,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 1. Dans la page [!UICONTROL Créer une audience], fournissez un titre et une description.
 1. Sous [!UICONTROL Règles], sélectionnez une source d’attribut :
 
-   * **[!UICONTROL Données Analytics en temps réel :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Analytics en temps réel incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+   * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Analytics en temps réel incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
    >[!NOTE]
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
