@@ -5,11 +5,11 @@ seo-title: Service d’audiences Experience Cloud
 solution: Experience Cloud
 title: 'Audiences Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Les audiences peuvent être créées ou dérivées à partir de diverses sources
 
 **Audiences en temps réel et historiques**
 
-Toutes les audiences, quelle que soit leur origine, sont accessibles pour un ciblage en temps réel. Toutefois, les audiences partagées à partir d’Analytics vers Audience Manager ne sont pas accessibles pour le ciblage en temps réel. Le système évalue les audiences de deux manières :
+Toutes les audiences, quelle que soit leur origine, sont accessibles pour un ciblage en temps réel. Cependant, les audiences partagées d’Analytics à l’Audience Manager ne sont pas accessibles pour le ciblage en temps réel. Le système évalue les audiences de deux manières :
 
 * Les audiences historiques d’Analytics sont évaluées toutes les 4 heures. Le temps total de traitement et de partage peut prendre jusqu’à 8 heures.  Les audiences historiques incluent toujours les visiteurs récurrents.
 * Les audiences en temps réel sont issues des audiences Experience Cloud et évaluées en temps réel.
@@ -72,6 +72,6 @@ Le tableau suivant décrit l’utilisation des audiences dans les solutions Expe
 | Nouveau | [Création d’une audience](../audience-library/audience-library.md). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |
-| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** segment créé dans reports &amp; analytics ou ad hoc analysis, puis [publié dans Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences Experience Cloud](../audience-library/audience-library.md).</li><li>**Audience Manager :** les audiences créées par Audience Manager s’affichent automatiquement dans la page Audiences Experience Cloud.</li></ul> |
+| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** Segment créé dans Adobe Analytics, puis [publié dans l’Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences Experience Cloud](../audience-library/audience-library.md).</li><li>**Audience Manager :** les audiences créées par Audience Manager s’affichent automatiquement dans la page Audiences Experience Cloud.</li></ul> |
 | Taille actuelle | Taille actuelle de l’audience. |
 | Actif | État actif du segment. |
