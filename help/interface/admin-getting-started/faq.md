@@ -1,23 +1,31 @@
 ---
-description: Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
+description: Prise en charge des navigateurs, questions courantes et réponses pour les administrateurs dans l’Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
+seo-description: Prise en charge des navigateurs, questions courantes et réponses pour les administrateurs dans l’Experience Cloud.
 seo-title: Questions fréquentes sur les services principaux d’Experience Cloud.
 solution: Experience Cloud
 title: Questions fréquemment posées
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 89%
 
 ---
 
 
 # Questions fréquemment posées À propos d’Experience Cloud
 
-Questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
+Découvrez la prise en charge des navigateurs et les questions et réponses courantes pour les administrateurs dans l’Experience Cloud.
+
+## Quels navigateurs sont pris en charge dans l’Experience Cloud ?
+
+* Microsoft Edge (versions actuelle et antérieures)
+* Google Chrome (versions actuelle et antérieures)
+* Mozilla Firefox (versions actuelle et antérieures)
+* Safari (versions actuelle et antérieures)
+* Opera (versions actuelle et antérieures)
 
 ## Comment savoir si mes solutions sont activées pour les services principaux ?
 
