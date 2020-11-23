@@ -5,11 +5,11 @@ seo-title: Service d’audiences Experience Cloud
 solution: Experience Cloud
 title: 'Audiences Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
