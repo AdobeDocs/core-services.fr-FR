@@ -6,9 +6,9 @@ seo-title: Création d’une audience
 solution: Experience Cloud
 title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
