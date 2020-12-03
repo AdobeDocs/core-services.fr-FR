@@ -113,11 +113,11 @@ Experience Platform Launch s’affiche sur la page de produits dans Admin Consol
 
 Voir [Gestion des utilisateurs](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/admin/user-permissions.html) pour en savoir plus sur les autorisations d’utilisateurs dans Admin Console et pour configurer des options spécifiques à Launch, y compris l’attribution de droits aux profils.
 
-## Experience Manager en tant que service cloud
+## Experience Manager as a Cloud Service
 
-Les clients Adobe Enterprise sont représentés en tant qu’organisations IMS dans Adobe Admin Console. Il s’agit du portail que les clients Adobe utilisent pour gérer les droits de leurs produits pour leurs utilisateurs et groupes. Les clients AEM peuvent utiliser Adobe Admin Console pour gérer leurs droits sur les produits et l’authentification IMS vers AEM en tant que service cloud.
+Les clients Adobe Enterprise sont représentés en tant qu’organisations IMS dans Adobe Admin Console. Il s’agit du portail que les clients Adobe utilisent pour gérer les droits de leurs produits pour leurs utilisateurs et groupes. Les clients AEM peuvent utiliser Adobe Admin Console pour gérer leurs droits sur les produits et l’authentification IMS vers AEM as a Cloud Service.
 
-Voir [Prise en charge IMS d’AEM en tant que service cloud](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+Voir [Prise en charge IMS d’AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Gestionnaire dynamique de balises {#section_3A41CF2BD5994B9891537D063571D4ED}
 
