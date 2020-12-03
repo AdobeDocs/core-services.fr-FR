@@ -1,7 +1,7 @@
 ---
-description: L’activation comprend le dernier produit de la gestion des balises appelé Experience Platform Launch. Dynamic Tag Management et Triggers.
+description: Activation comprend le dernier produit de la gestion des balises appelé Experience Platform Launch. Dynamic Tag Management et Triggers.
 keywords: core services
-seo-description: L’activation comprend le dernier produit de la gestion des balises appelé Experience Platform Launch. Dynamic Tag Management et Triggers.
+seo-description: Activation comprend le dernier produit de la gestion des balises appelé Experience Platform Launch. Dynamic Tag Management et Triggers.
 seo-title: Activation
 solution: Experience Cloud
 title: Activation
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Activation
 
-L’activation comprend le dernier produit de gestion des balises nommé Experience Platform Launch, Dynamic Tag Management (DTM) et Triggers.
+Activation comprend le dernier produit de gestion des balises nommé Experience Platform Launch, Dynamic Tag Management (DTM) et Triggers.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -43,7 +43,7 @@ Pour lancer Dynamic Tag Management, cliquez sur **[!UICONTROL Activation]** et e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guides de mise en œuvre du service Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>Le service d’identification d’Experience Cloud permet des fonctionnalités de base dans les solutions Experience Cloud (y compris les attributs du client, le partage d’audiences et les déclencheurs). Adobe conseille vivement de mettre en œuvre le service d’ID pour tirer parti de ces fonctionnalités. </p> </td> 
+   <td colname="col2"> <p>Le service Experience Cloud ID active des fonctionnalités principales dans les solutions Experience Cloud (notamment les attributs du client, le partage d’audience et les triggers). Adobe conseille vivement de mettre en œuvre le service d’ID pour tirer parti de ces fonctionnalités. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html" format="https" scope="external"> Documentation du produit Dynamic Tag Management </a> </p> </td> 
@@ -68,7 +68,7 @@ Si vous avez besoin d’aide pour la mise en œuvre de Dynamic Tag Management, c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Création d’Experience Cloud Triggers </a> </p> </td> 
-   <td colname="col2"> <p> Cette section contient des instructions détaillées sur la création de triggers Experience Cloud à l’aide des données Adobe Analytics. </p> <p>Les triggers Experience Cloud peuvent être utilisés dans Adobe Campaign. </p> </td>
+   <td colname="col2"> <p> Cette section contient des instructions détaillées sur la création de Triggers Experience Cloud à l’aide des données Adobe Analytics. </p> <p>Les Triggers Experience Cloud peuvent être utilisés dans Adobe Campaign. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>Utilisation de Triggers dans Adobe Campaign </p> </td> 
