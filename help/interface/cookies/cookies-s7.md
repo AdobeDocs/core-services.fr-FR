@@ -40,7 +40,7 @@ Les nouvelles visionneuses AS3 ne mettent pas en œuvre la persistance de sessi
 | Informations stockées | Définit le cookie de session. Le composant AuthFilter intégré dans IPS ImageServer (IS, IR, ainsi que les fichiers SWF/skins et les contextes vidéo) utilise le cookie pour l’autorisation d’accès. S’il est présent, il permet aux requêtes HTTP de passer. Sinon, il renvoie « non autorisé ». |
 | Expiration | Ce cookie est un cookie de session. La durée d’expiration de session actuelle est définie sur 45 minutes dans le fichier [!DNL web.xml] de Scene7 IPS. |
 
-**Nom du cookie : s7js.flyout.InfoMessage.displayed`assetId`.state**
+**Nom du cookie : s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
