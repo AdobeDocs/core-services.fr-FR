@@ -1,9 +1,9 @@
 ---
 title: Publication d’un segment d’audience Analytics
 description: Publiez un segment d’audience Analytics dans Experience Cloud et dans Adobe Target pour les activités de marketing liées aux audiences.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 631cf29b724c6edd8027c772789df72ae2ab5eb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 
