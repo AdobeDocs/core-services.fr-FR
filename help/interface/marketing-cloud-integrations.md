@@ -6,9 +6,9 @@ seo-title: Intégrations Experience Cloud
 solution: Experience Cloud
 title: Intégrations Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
