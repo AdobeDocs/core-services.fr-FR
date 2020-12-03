@@ -6,9 +6,9 @@ seo-title: Connexion et gestion des paramètres du profil
 solution: Experience Cloud
 title: Connexion et gestion des paramètres du profil Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 100%
 
