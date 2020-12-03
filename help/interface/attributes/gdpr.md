@@ -1,9 +1,9 @@
 ---
 title: Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données)
 description: Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données)
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
