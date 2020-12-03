@@ -39,7 +39,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | `<ECID>` |
 | Expiration | 2 ans |
 | Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L’objectif de ce cookie est d’autoriser le suivi des ID persistants dans l’état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d’informations, consultez le cookie AMCV. |
-| Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics |
+| Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics. |
 | Taille | 45 octets |
 
 ## Nom du cookie : s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
