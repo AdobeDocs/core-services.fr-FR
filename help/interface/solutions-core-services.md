@@ -5,9 +5,9 @@ seo-title: À propos des nouveaux noms de cloud dans Experience Cloud
 solution: Experience Cloud
 title: À propos des nouveaux noms de cloud dans Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
