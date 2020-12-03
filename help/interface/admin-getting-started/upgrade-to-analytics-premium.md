@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ La mise à niveau vers la vision à 360 degrés des clients permet l’accès �
 
 Attribution avancée donne l’accès à [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), ainsi qu’à l’attribution algorithmique dans Data Workbench (25 % du volume des appels au serveur).
 
-## Exigences liées à Data Workbench   {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Exigences liées à Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Les utilisateurs peuvent demander à ce que toutes les licences clientes soient mises à jour pour prendre en compte la version Premium en envoyant un courrier électronique à l’adresse `dwb@adobe.com`. Ceci active des fonctionnalités telles que l’attribution algorithmique.
 
@@ -84,7 +84,7 @@ Les logiciels s’exécutant sur site doivent être désactivés, Cela inclut Se
 
 Experience Cloud et les services principaux sont accessibles aux utilisateurs d’Analytics Standard et Premium, à condition que vous ayez suivi la modernisation de la mise en œuvre décrite dans [Prise en main - Activation de vos solutions pour les services principaux](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous permet de moderniser votre mise en œuvre et de devenir administrateur dans Experience Cloud.)
 
-After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
+Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au moyen d’Experience Cloud à l’adresse [!DNL experiencecloud.adobe.com] et commencer à utiliser les services principaux (dont les attributs du client, les audiences et l’analyse d’applications mobiles).
 
 ### Administration des utilisateurs et des groupes
 
