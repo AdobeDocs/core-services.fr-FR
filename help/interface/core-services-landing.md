@@ -5,9 +5,9 @@ seo-title: Gestion des utilisateurs et des services d’Experience Cloud
 solution: Experience Cloud
 title: À propos des services d’Experience Cloud
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
