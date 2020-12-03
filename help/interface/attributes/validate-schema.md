@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Le processus de validation permet de mapper les noms affichés et les descriptio
 
 >[!NOTE]
 >
->La mise à jour du schéma après validation supprime les attributs du client. Voir [Mise à jour du schéma (supprime également les attributs)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>La mise à jour du schéma après la validation supprime les attributs du client. Voir [Mise à jour du schéma (supprime également les attributs)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Source d’attributs du client]** > **[!UICONTROL Créer une source d’attributs du client]** > **[!UICONTROL Afficher/modifier le schéma]**
 
@@ -45,9 +45,9 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
    * **[!UICONTROL ID de visiteur Analytics (AVID) :]** s’affiche si vous utilisez une prop ou une eVar pour le transfert des ID de client. Si ces ID sont transmis à Experience Cloud, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
 
-Vous pouvez également transférer les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format .csv, avec un second fichier .fin pour indiquer que le transfert est terminé
+Vous pouvez également transférer les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format .csv, avec un second fichier .fin pour indiquer que le transfert est terminé.
 
-Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. Pour plus d’informations, voir [Rapport Attributs du client](https://docs.adobe.com/help/fr-FR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) dans l’aide [!DNL Analytics].
+Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. Pour plus d’informations, voir [Rapport Attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html) dans l’aide [!DNL Analytics].
 
 * **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
 
