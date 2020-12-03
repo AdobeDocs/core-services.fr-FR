@@ -6,9 +6,9 @@ seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
 
