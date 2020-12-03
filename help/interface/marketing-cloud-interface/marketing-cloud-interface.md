@@ -6,9 +6,9 @@ seo-title: Nouveautés d’Experience Cloud
 solution: Experience Cloud
 title: Nouveautés d’Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 ## 8 août 2017 {#section_2313A875454044F490B418506DD24593}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 |--- |--- |
 | Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les activités et événements relatifs aux produits et solutions, y compris les notifications concernant l’activité de téléchargement [Attributs du client](../attributes/attributes.md). |
 | Notifications - Notifications de maintenance | Dans les paramètres de notification, vous pouvez activer les notifications de maintenance pour les produits et les solutions. |
@@ -75,14 +75,14 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 ## 22 mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 |--- |--- |
 | Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br>[Le mappage de plusieurs suites de rapports](../core-services/core-services.md) à une organisation unique permet d’activer des fonctionnalités et services intersolutions dans Experience Cloud. |
-| Mises à jour des audiences Experience Cloud | **Application de suite de rapports **<br>Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](../audience-library/t-audience-create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.)<br>**Props et variables**<br>Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
+| Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](../audience-library/t-audience-create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
 
 ## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 |--- |--- |
 | Mise à jour de la section Profil et mots de passe | Les utilisateurs ne peuvent plus modifier les informations de profil utilisateur IMS sous Détails personnels dans Modifier le profil > Profil et mots de passe. Ils sont redirigés à la place vers `accounts.adobe.com`. Tous les types d’identité sont concernés (Adobe ID, Enterprise et Federated). |
 
