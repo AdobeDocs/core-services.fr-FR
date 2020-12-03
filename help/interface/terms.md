@@ -6,9 +6,9 @@ seo-title: Terminologie
 solution: Experience Cloud
 title: Terminologie
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 100%
 
