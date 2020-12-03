@@ -6,9 +6,9 @@ seo-title: Activation des solutions Experience Cloud pour les attributs du clie
 solution: Experience Cloud
 title: Activation des solutions pour les services principaux
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 
