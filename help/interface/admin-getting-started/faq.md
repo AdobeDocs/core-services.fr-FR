@@ -6,16 +6,16 @@ seo-title: Questions fréquentes sur les services principaux d’Experience Clo
 solution: Experience Cloud
 title: Questions fréquemment posées
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 
 ---
 
 
-# Questions fréquemment posées  À propos d’Experience Cloud
+# Questions fréquemment posées À propos d’Experience Cloud
 
 Découvrez la prise en charge des navigateurs ainsi que les questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
 
