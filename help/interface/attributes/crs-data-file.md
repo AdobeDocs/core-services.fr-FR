@@ -1,23 +1,23 @@
 ---
-description: Exigences relatives aux fichiers de données et sources de données multiples pour le transfert des attributs du client vers Experience Cloud.
+description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Exigences relatives aux fichiers de données et sources de données multiples pour le transfert des attributs du client vers Experience Cloud.
-seo-title: A propos du fichier de données et des sources de données pour les attributs du client
+seo-description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
+seo-title: À propos du fichier de données et des sources de données pour les attributs du client
 solution: Experience Cloud
-title: A propos du fichier de données et des sources de données pour les attributs du client
+title: À propos du fichier de données et des sources de données pour les attributs du client
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# A propos du fichier de données et des sources de données pour les attributs du client
+# À propos du fichier de données et des sources de données pour les attributs du client
 
-Exigences relatives aux fichiers de données et sources de données multiples pour le transfert des attributs du client vers Experience Cloud.
+Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
 
 Vous allez devoir accéder à la gestion de la relation client ou à d’autres données du même type de votre société. Les données que vous transférez vers Experience Cloud doivent être regroupées dans un fichier `.csv`. Si vous transférez le fichier par FTP ou sFTP, vous devez également transférer un fichier `.fin`.
 
@@ -39,7 +39,7 @@ La fonction Attributs du client est conçue pour gérer quelques fichiers par jo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Requis) Le fichier <span class="filepath">.fin</span> indique au système quand le transfert des données est terminé. Le nom du fichier <span class="filepath">.fin</span> doit correspondre au nom du fichier <span class="filepath">.csv</span>. </p> <p>Adobe recommande de créer un fichier texte vide avec une extension <span class="filepath">.fin</span>. Un fichier vide permet de gagner de l’espace et d’accélérer le transfert. </p> <p> <p>Remarque : Il n’est pas possible de renommer le fichier <span class="filepath">.fin</span> après son transfert. Le fichier <span class="filepath">.fin</span> doit être transféré séparément ; il ne peut pas s’agir d’un fichier précédemment transféré et renommé. </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). Cette configuration diffère des autres systèmes FTP d’Adobe, qui captent les données moins fréquemment (environ une fois par heure). </p> <p>Le fichier <span class="filepath">.fin</span> n’est pas nécessaire en cas de transfert par glisser-déplacer. </p> </td> 
+   <td colname="col2"> <p>(Requis) Le fichier <span class="filepath">.fin</span> indique au système quand le transfert des données est terminé. Le nom du fichier <span class="filepath">.fin</span> doit correspondre au nom du fichier <span class="filepath">.csv</span>. </p> <p>Adobe recommande de créer un fichier texte vide avec une extension <span class="filepath">.fin</span>. Un fichier vide permet de gagner de l’espace et d’accélérer le transfert. </p> <p> <p>Remarque : Il n’est pas possible de renommer le fichier <span class="filepath">.fin</span> après son transfert. Le fichier <span class="filepath">.fin</span> doit être transféré séparément ; il ne peut pas s’agir d’un fichier précédemment transféré et renommé. </p> </p> <p>Après avoir téléchargé le fichier <span class="filepath">.fin</span> via le système FTP des attributs du client, le système extrait rapidement les données (en moins d’une minute). Cette configuration diffère des autres systèmes FTP d’Adobe, qui captent les données moins fréquemment (environ une fois par heure). </p> <p>Le fichier <span class="filepath">.fin</span> n’est pas nécessaire en cas de transfert par glisser-déplacer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> ou <span class="filepath">.zip </span> </p> </td> 
@@ -76,7 +76,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonne d’ID de client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics et Adobe Target - Synchronisation de l’ID de client </a>) </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisirez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un  <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics et Adobe Target - Synchronisation de l’ID de client </a>) </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisirez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -116,11 +116,11 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exigences relatives aux fichiers </p> </td> 
-   <td colname="col2"> <p> Chaque source d’attribut doit contenir le même nombre de champs séparés par des virgules. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets. </p> <p> Les guillemets doubles d’un champ doivent être précédés d’une séquence d’échappement à l’aide d’une barre oblique inverse (\). </p> <p> Les colonnes vierges sont stockées comme  <span class="term">valeur nulle</span>. </p> </td> 
+   <td colname="col2"> <p> Chaque source d’attribut doit contenir le même nombre de champs séparés par des virgules. </p> <p> Les champs contenant un saut de ligne, un guillemet double ou des virgules doivent être placés entre guillemets. </p> <p> Les guillemets doubles d’un champ doivent être précédés d’une séquence d’échappement à l’aide d’une barre oblique inverse (\). </p> <p> Les colonnes vierges sont stockées comme <span class="term">valeur nulle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers multiples </p> </td> 
-   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez contrôler ce problème en vérifiant si le fichier précédent a été déplacé vers le dossier traité ou échoué dans votre compte FTP Attributs du client. </p> <p> Le fait de diviser un fichier volumineux en fichiers plus petits et de les envoyer rapidement peut ralentir le traitement, sauf si vous pouvez vérifier que chaque fichier est complètement traité avant d’envoyer le suivant. </p> </td> 
+   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez vous en assurer en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP d’attributs du client. </p> <p> Le fait de diviser un fichier volumineux en fichiers plus petits et de les envoyer rapidement peut ralentir le traitement, sauf si vous pouvez vérifier que chaque fichier est complètement traité avant d’envoyer le suivant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encodage des caractères </p> </td> 
@@ -128,7 +128,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
    <tr> 
    <td colname="col1"> <p>Données historiques </p> </td> 
-   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans Analytics. De ce fait, les attributs du client sont associés au visiteur pendant toute la durée de vie de ce profil visiteur dans Analytics. Cela inclut le phénomène qui s’est produit avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de l’entrepôt de données, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans Analytics. Ainsi, les attributs du client sont associés au visiteur pendant toute la durée de vie de ce profil du visiteur dans Analytics. Cela inclut le phénomène qui s’est produit avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de l’entrepôt de données, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flux de données </p> </td> 
@@ -158,4 +158,4 @@ Visitor.setCustomerIDs({
 
 Dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]** :
 
-Créez deux sources d’attributs du client à l’aide d’identifiants d’alias uniques correspondant aux identifiants de client ci-dessus. Cette méthode permet d’envoyer le même ID de référence à plusieurs sources d’attributs clientes.
+Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs du client.
