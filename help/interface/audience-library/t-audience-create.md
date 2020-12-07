@@ -1,16 +1,14 @@
 ---
-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
+description: Découvrez comment utiliser des règles d’attribut pour créer une audience et définir une audience composite dans Adobe Experience Cloud.
 keywords: core services
-seo-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
-seo-title: Création d’une audience
-solution: Experience Cloud
-title: Création d’une audience
+solution: Adobe Experience Cloud
+title: Création d’une audience | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
