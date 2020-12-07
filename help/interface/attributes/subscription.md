@@ -1,21 +1,19 @@
 ---
 description: Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements activent le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et Target).
 keywords: Customer Attributes;core services
-seo-description: Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements activent le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et Target).
-seo-title: Configuration des abonnements
 solution: Experience Cloud
-title: Configuration des abonnements
+title: Configuration des abonnements | Adobe Experience Cloud
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
 
-# Configuration des abonnements
+# Comment configurer des abonnements dans l&#39;Experience Cloud
 
 Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements permettent d’activer le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et [!DNL Target]).
 
