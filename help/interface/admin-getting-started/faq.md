@@ -1,21 +1,19 @@
 ---
-description: Prise en charge des navigateurs, questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
+description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions courantes pour les administrateurs dans le Adobe Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Prise en charge des navigateurs, questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
-seo-title: Questions fréquentes sur les services principaux d’Experience Cloud.
-solution: Experience Cloud
-title: Questions fréquemment posées
+solution: Adobe Experience Cloud
+title: Questions fréquentes sur l’Experience Cloud | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 95%
 
 ---
 
 
-# Questions fréquemment posées À propos d’Experience Cloud
+# Questions fréquentes sur l’Experience Cloud
 
 Découvrez la prise en charge des navigateurs ainsi que les questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
 
