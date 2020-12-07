@@ -4,13 +4,13 @@ keywords: integrations;Triggers
 seo-description: Configuration d’Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: Triggers
+title: Présentation des déclencheurs | Adobe Experience Cloud
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 99%
 
 ---
 
