@@ -4,13 +4,13 @@ keywords: core services
 seo-description: Activation comprend le dernier produit de la gestion des balises appelé Experience Platform Launch. Dynamic Tag Management et Triggers.
 seo-title: Activation
 solution: Experience Cloud
-title: Activation
+title: Services d'Activation dans l'Experience Cloud | Adobe Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 98%
 
 ---
 
