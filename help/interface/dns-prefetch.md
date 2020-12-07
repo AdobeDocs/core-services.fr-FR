@@ -1,15 +1,13 @@
 ---
-description: Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement des pages de différents services et solutions.
-seo-description: Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement des pages de différents services et solutions.
-seo-title: Utilisation de la prérécupération DNS avec différents services et solutions
+description: Comment mettre en oeuvre la prérécupération DNS pour aider à réduire le temps de chargement des pages avec différentes solutions et services dans Adobe Experience Cloud.
 solution: Experience Cloud
-title: Utilisation de la prérécupération DNS avec différents services et solutions
+title: Utilisation de la prérécupération DNS avec différentes solutions et services | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
