@@ -1,11 +1,11 @@
 ---
-title: Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données)
-description: Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données)
+title: Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données) | Adobe Experience Cloud
+description: En savoir plus sur la prise en charge des attributs du client pour la réglementation générale de la protection des données
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
