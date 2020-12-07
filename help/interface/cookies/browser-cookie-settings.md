@@ -1,16 +1,14 @@
 ---
 description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui refusent la collecte de données Analytics.
 keywords: cookies;privacy
-seo-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui refusent la collecte de données Analytics.
-seo-title: Activation des paramètres de confidentialité pour les cookies de navigateur
 solution: Experience Cloud, Analytics, Target, Social
-title: Activation des paramètres de confidentialité pour les cookies de navigateur
+title: Comment activer les paramètres de confidentialité pour les cookies de navigateur | Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 96%
 
 ---
 
