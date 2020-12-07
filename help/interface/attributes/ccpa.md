@@ -1,10 +1,10 @@
 ---
-title: Prise en charge des attributs du client pour le California Consumer Privacy Act
+title: Prise en charge des attributs du client pour le California Consumer Privacy Act | Adobe Experience Cloud
 description: Prise en charge des attributs du client pour le California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
