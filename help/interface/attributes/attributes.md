@@ -1,16 +1,14 @@
 ---
-description: Aperçu et conditions préalables pour le téléchargement des attributs du client dans Adobe Experience Cloud.
+description: Découvrez les attributs du client dans le Adobe Experience Cloud.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
-seo-description: Aperçu et conditions requises pour le téléchargement des attributs du client dans Experience Cloud.
-seo-title: Service Attributs du client Experience Cloud
 solution: Experience Cloud
-title: Adobe Experience Cloud - Service Attributs du client
+title: Service Attributs du client | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
