@@ -1,16 +1,14 @@
 ---
-description: Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe est membre de nombreuses organisations de protection de la vie privée. La société coopère également avec les autorités de réglementation de la confidentialité et respecte des principes d’autoréglementation (tels que le programme AdChoices Digital Advertising Alliance) afin de fournir aux clients des informations sur la manière dont leurs informations sont utilisées et les choix relatifs à leur utilisation.
+description: Découvrez les cookies et la confidentialité dans les solutions et services Adobe Experience Cloud.
 keywords: cookies;privacy
-seo-description: Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe est membre de nombreuses organisations de protection de la vie privée. La société coopère également avec les autorités de réglementation de la confidentialité et respecte des principes d’autoréglementation (tels que le programme AdChoices Digital Advertising Alliance) afin de fournir aux clients des informations sur la manière dont leurs informations sont utilisées et les choix relatifs à leur utilisation.
-seo-title: À propos des cookies et de la confidentialité
 solution: Experience Cloud,Analytics,Target
-title: À propos des cookies et de la confidentialité
+title: Présentation des cookies et de la confidentialité | Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
