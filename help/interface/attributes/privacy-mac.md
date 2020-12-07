@@ -1,21 +1,19 @@
 ---
 description: Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
-seo-title: Considérations sur la confidentialité – Attributs du client
 solution: Experience Cloud
-title: Considérations sur la confidentialité – Attributs du client
+title: Considérations relatives à la confidentialité des attributs du client | Adobe Experience Cloud
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 96%
 
 ---
 
 
-# Considérations sur la confidentialité – Attributs du client
+# Considérations relatives à la confidentialité des attributs du client dans l’Experience Cloud
 
 Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
 
