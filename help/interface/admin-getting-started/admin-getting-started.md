@@ -1,16 +1,14 @@
 ---
-description: Découvrez-en plus sur la connexion à Admin Console, sur la gestion des autorisations d’utilisateurs, sur les profils de produits dans Experience Cloud et sur la prise en charge des navigateurs.
-keywords: core services
-seo-description: Découvrez-en plus sur la connexion à Admin Console, sur la gestion des autorisations d’utilisateurs, sur les profils de produits dans Experience Cloud et sur la prise en charge des navigateurs.
-seo-title: Gestion des utilisateurs et des produits Experience Cloud
-solution: Experience Cloud
-title: Gestion des utilisateurs et des produits Experience Cloud
+description: Découvrez comment vous connecter à Adobe Admin Console, gérer les autorisations d’utilisateur Experience Cloud et les profils de produits, ainsi que la prise en charge des navigateurs.
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: Découvrez comment gérer les utilisateurs et les produits | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
