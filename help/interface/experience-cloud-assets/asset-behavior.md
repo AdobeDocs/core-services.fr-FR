@@ -1,16 +1,14 @@
 ---
-description: Règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés.
+description: Découvrez les règles de comportement des dossiers partagés lors du déplacement, de la suppression et de la restauration dans l’Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés.
-seo-title: Comportement des dossiers partagés
 solution: Experience Cloud
-title: Comportement des dossiers partagés
+title: Comportement des dossiers partagés | Adobe Experience Cloud
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 51%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
