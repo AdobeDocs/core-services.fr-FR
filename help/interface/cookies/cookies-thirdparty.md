@@ -1,16 +1,14 @@
 ---
-description: Alors que la prise en charge des cookies tiers est de plus en plus limitée au niveau des navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité dans les différentes solutions Adobe Experience Cloud.
+description: Découvrez comment la prise en charge des cookies tiers est devenue de plus en plus limitée dans les navigateurs.
 keywords: cookies;privacy
-seo-description: Alors que la prise en charge des cookies tiers est de plus en plus limitée au niveau des navigateurs, Adobe s’est penché sur de nouvelles solutions pour équilibrer les besoins des clients et le droit des utilisateurs à la confidentialité dans les différentes solutions Adobe Experience Cloud.
-seo-title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
 solution: Experience Cloud,Analytics,Target
-title: Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients ?
+title: Impact des modifications apportées à la prise en charge des cookies tiers sur les clients | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
