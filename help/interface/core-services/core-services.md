@@ -1,16 +1,14 @@
 ---
-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
+description: Découvrez comment mettre en oeuvre le Adobe Experience Cloud et devenir administrateur.
 keywords: core services;Customer Attributes
-seo-description: Mettez en œuvre Experience Cloud et devenez administrateur. Ce processus modernise vos solutions en ajoutant des fonctionnalités telles que les attributs du client et les audiences.
-seo-title: Activation des solutions Experience Cloud pour les attributs du client et les audiences
 solution: Experience Cloud
-title: Activation des solutions pour les services principaux
+title: Activation de vos solutions pour les services principaux | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
