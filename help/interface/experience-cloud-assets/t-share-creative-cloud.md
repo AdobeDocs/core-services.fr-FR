@@ -1,16 +1,14 @@
 ---
-description: Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
+description: Comment partager un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
-seo-title: Partage d’un dossier de ressources Experience Cloud
 solution: Experience Cloud
-title: Partage d’un dossier de ressources Experience Cloud
+title: Partage d’un dossier de ressources Experience Cloud | Adobe Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
