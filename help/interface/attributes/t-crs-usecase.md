@@ -1,16 +1,14 @@
 ---
-description: Créez la source d’attributs du client et transférez les données.
+description: Découvrez comment créer la source d’attributs du client et la télécharger vers Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Créez la source d’attributs du client et transférez les données.
-seo-title: Création d’une source d’attributs du client et transfert du fichier de données
 solution: Experience Cloud
-title: Création d’une source d’attributs du client et transfert du fichier de données
+title: Création d’une source d’attributs du client et transfert du fichier de données | Adobe Experience Cloud
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 100%
+source-wordcount: '1168'
+ht-degree: 97%
 
 ---
 
