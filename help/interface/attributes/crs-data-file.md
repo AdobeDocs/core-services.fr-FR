@@ -1,16 +1,14 @@
 ---
-description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
+description: Exigences relatives aux fichiers de données et sources de données multiples pour le transfert des attributs du client vers Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Exigences en matière de fichiers de données et sources de données multiples pour transférer les attributs du client vers Experience Cloud.
-seo-title: À propos du fichier de données et des sources de données pour les attributs du client
 solution: Experience Cloud
-title: À propos du fichier de données et des sources de données pour les attributs du client
+title: En savoir plus sur les fichiers de données et les sources de données pour les attributs du client | Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
