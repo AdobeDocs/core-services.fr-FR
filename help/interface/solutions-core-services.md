@@ -3,12 +3,12 @@ description: Découvrez les dernières mises à jour en termes de branding pour 
 seo-description: Découvrez les dernières mises à jour en termes de branding pour les clouds, comment naviguer dans l’interface et où obtenir de l’aide pour les solutions et les services principaux.
 seo-title: À propos des nouveaux noms de cloud dans Experience Cloud
 solution: Experience Cloud
-title: À propos des nouveaux noms de cloud dans Experience Cloud
+title: À propos des nouveaux noms de cloud dans Experience Cloud | Adobe Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
