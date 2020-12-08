@@ -1,16 +1,12 @@
 ---
-source-git-commit: 05854701fc4de2d0657a09a070322944e713bc57
-workflow-type: ht
-translation-type: ht
-source-wordcount: '509'
+source-git-commit: 9ee72351a36bc545665be727120ee9fe639b9c87
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
 # Article sur les contributions
-
-| EXL-PR | EXL | Aperçu | Activer | Publication | Aide |
-|--- |--- |--- |--- |--- |--- |
-| [![Statut de la version](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/lastBuild/) | [![Statut de la version](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Nous acceptons les contributions de notre communauté ainsi que des employés d’Adobe qui ne font pas partie des équipes de documentation.
 
@@ -24,7 +20,7 @@ Consultez le [Guide du contributeur de documents Adobe](https://docs.adobe.com/h
 
 Votre contribution dépend de qui vous êtes et du type de modifications auxquelles vous souhaitez contribuer :
 
-### Modifications mineures
+### Modifications mineures 
 
 Si vous contribuez à des mises à jour mineures, consultez l’article et cliquez sur le lien **Modifier** de l’article pour accéder à la source GitHub de celui-ci. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
