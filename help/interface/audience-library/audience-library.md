@@ -1,28 +1,28 @@
 ---
-description: Découvrez comment gérer la traduction des données visiteurs en segmentation des audiences dans le service Adobe Experience Cloud Audience de.
+description: Découvrez comment gérer la traduction des données du visiteur en segmentation d’audience dans le service d’audiences d’Adobe Experience Cloud.
 solution: Experience Cloud
 type: Documentation
-title: 'audiences Adobe Experience Cloud '
+title: 'Audiences Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
 source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Les audiences sont des collections de visiteurs (une liste d’identifiants visiteur). La bibliothèque d’audiences d’Adobe vous permet de gérer la traduction des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion des audiences est similaire à la création et à l’utilisation de segments. Vous pouvez également partager le segment audience avec des produits et services dans [!DNL Experience Cloud].
+Les audiences sont des collections de visiteurs (une liste d’identifiants visiteur). La bibliothèque d’audiences d’Adobe vous permet de gérer la traduction des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion d’audiences est similaire à la création et à l’utilisation de segments. Vous pouvez également partager les segments ciblés avec des produits et services dans [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
 * Nouvelles audiences créées dans [!DNL Experience Cloud]
-* [!DNL Analytics] segments publiés sur le [!DNL Experience Cloud]
+* [!DNL Analytics] segments publiés dans [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
 **Audiences en temps réel et historiques**
