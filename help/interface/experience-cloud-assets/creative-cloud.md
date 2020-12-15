@@ -2,12 +2,12 @@
 description: 'Découvrez comment partager des dossiers et des ressources entre Experience Cloud et Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Partager des dossiers et des fichiers Experience Cloud avec le Creative Cloud | Adobe Experience Cloud
+title: 'Partage de dossiers et de ressources Experience Cloud avec Creative Cloud '
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 75%
+source-wordcount: '171'
+ht-degree: 81%
 
 ---
 
