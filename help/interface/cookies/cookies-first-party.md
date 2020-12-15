@@ -2,13 +2,13 @@
 description: Découvrez comment Adobe Analytics utilise les cookies pour fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’image et les sessions de navigateur.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: Utilisation des cookies propriétaires | Adobe Experience Cloud
+title: 'Utilisation des cookies propriétaires '
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 97%
 
 ---
