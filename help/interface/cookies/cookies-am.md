@@ -2,13 +2,13 @@
 description: Découvrez les cookies d'Audience Manager dans Adobe Experience Cloud.
 keywords: cookies
 solution: Experience Cloud, Audience Manager
-title: Cookies d’Audience Manager | Adobe Experience Cloud
+title: 'Cookies Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
