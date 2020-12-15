@@ -2,13 +2,13 @@
 description: Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données d’attributs du client vers Experience Cloud par FTP.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Téléchargement du fichier de données d’attributs du client via FTP | Adobe Experience Cloud
+title: 'Téléchargement du fichier de données d’attributs du client via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 95%
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez transférer les données après avoir créé une source d’attribut
 >
 >Consultez [Exigences liées aux fichiers de données pour le transfert des attributs du client](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avant de transférer le fichier.
 
-Les fichiers peuvent être transférés sur le site FTP des attributs du client selon le protocole FTP ou SFTP.
+Les fichiers peuvent être transférés sur le site FTP des attributs du client selon le protocole FTP ou SFTP:
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
 * Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://docs.adobe.com/help/fr-FR/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
