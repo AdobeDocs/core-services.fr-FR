@@ -2,13 +2,13 @@
 description: Découvrez comment mettre en oeuvre le Adobe Experience Cloud et devenir administrateur.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
-title: Activation de vos solutions pour les services principaux | Adobe Experience Cloud
+title: 'Activation des solutions pour les services principaux '
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 99%
+source-wordcount: '2362'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Pour les clients existants, vous devrez peut-être moderniser les mises en œuvr
 
 ## Étape 1. Rejoindre Experience Cloud et devenir administrateur {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Procédez comme suit pour rejoindre Experience Cloud :
+Ce que vous devez faire pour rejoindre l&#39;Experience Cloud :
 
 ![](assets/step1_icon.png) Assurez-vous d’être en possession des SKU d’Adobe Analytics ou d’Adobe Target appropriées.
 
@@ -94,7 +94,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 | Tâche | Description |
 | -----------| ---------- |  
 | [Mise en œuvre du service Experience Cloud ID pour Analytics](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/setup-analytics.html) | Adobe recommande également de paramétrer des [ID de client](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) supplémentaires. Ces ID sont associés à chaque visiteur ; ils donnent accès aux fonctions existantes et à venir d’Experience Cloud. |
-| Mettez à jour le fichier [!DNL s_code] existant vers la version H.27.3 ou ultérieure ou le fichier [!DNL AppMeasurement.js] vers la version 1.4 ou ultérieure. | Ces fichiers peuvent être téléchargés dans le [Gestionnaire de code](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/code-manager-admin.html) des outils d’administration Analytics.  (Le guide de [mise en œuvre de JavaScript](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/overview.html) est disponible si vous avez besoin d’informations complémentaires sur [!DNL AppMeasurement.js].) |
+| Mettez à jour le fichier [!DNL s_code] existant vers la version H.27.3 ou ultérieure ou le fichier [!DNL AppMeasurement.js] vers la version 1.4 ou ultérieure. | Ces fichiers peuvent être téléchargés dans le [Gestionnaire de code](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/code-manager-admin.html) des outils d’administration Analytics. (Le guide de [mise en œuvre de JavaScript](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/overview.html) est disponible si vous avez besoin d’informations complémentaires sur [!DNL AppMeasurement.js].) |
 | Synchronisez l’ID client pour Analytics | Voir [Analytics - Synchronisation de l’ID client](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (ci-dessous). |
 
 ## Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
@@ -173,7 +173,7 @@ Une fois le service Experience Cloud ID déployé, les nouveaux visiteurs ne re�
 
 Si, par exemple, la section Assistance de votre site est gérée dans un système de gestion de contenu distinct, il se peut que vous ayez un fichier JavaScript Analytics différent pour cette section. Si vous déployez l’Experience Cloud ID sur votre site principal avant de déployer le service d’ID sur le site d’assistance, les nouveaux visiteurs recevront un Analytics ID hérité lorsqu’ils se rendent dans la section d’assistance ; les visites qui portent sur les deux sections du site sont alors signalées comme deux visites distinctes.
 
-Le déploiement du service Experience Cloud ID sur les sites qui utilisent plusieurs fichiers JavaScript ou d’autres technologies (telles que Flash) peut entraîner des problèmes de coordination puisque vous devez activer le service d’Experience Cloud ID en même temps sur toutes les portions de votre site. Si vous configurez une période de grâce, les nouveaux visiteurs peuvent continuer à recevoir un identifiant visiteur Analytics du service d’ID, de sorte que les visiteurs puissent être identifiés de manière cohérente sur les sections de votre site qui n’ont pas été mises à niveau pour utiliser le service d’identification des visiteurs.
+Le déploiement du service d’identification des Experience Cloud sur les sites qui utilisent plusieurs fichiers JavaScript ou d’autres technologies (tels que le Flash) peut entraîner des problèmes de coordination, car vous devez activer le service d’identification des Experience Cloud en même temps sur toutes les parties de votre site. Si vous configurez une période de grâce, les nouveaux visiteurs peuvent continuer à recevoir un identifiant visiteur Analytics du service d’ID, de sorte que les visiteurs puissent être identifiés de manière cohérente sur les sections de votre site qui n’ont pas été mises à niveau pour utiliser le service d’identification des visiteurs.
 
 ## Étape 7. Gérer les utilisateurs et les produits {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ Lors de l’utilisation des services principaux accessibles par le biais du serv
 * Paires clé/valeur [!DNL Analytics] (Props, eVars, variables de liste, etc.). Par défaut, les lignes des journaux contiennent l’adresse IP, notamment le dernier octet de l’adresse IP (en supposant que l’adresse IP n’a pas été modifiée par les paramètres de masquage d’Adobe [!DNL Analytics]).
 * Caractéristiques et segments pour lesquels les visiteurs sont inclus selon les règles configurées dans Audience Manager.
 * (Facultatif) Un ou plusieurs de vos identifiants. Selon votre mise en œuvre du service d’ID, vous envoyez peut-être également un ou plusieurs de vos ID, tels que les ID CRM ou des adresses électroniques hachées. Si ces données sont envoyées à Adobe [!DNL Analytics], elles sont transférées à la gestion de l’audience d’Adobe. Adobe recommande de ne pas fournir de données personnelles à Adobe [!DNL Analytics]. Utilisez un hachage à sens unique pour masquer les données avant de les envoyer à Adobe.
-* Segments provenant d’[!DNL Analytics] au moyen de la fonctionnalité de partage des segments principale.
+* Segments provenant d’[!DNL Analytics] au moyen de la fonctionnalité de partage des segments principale
 * Le cookie demdex.net est défini si les cookies tiers ne sont pas bloqués. Le cookie propriétaire `AMCV_###@AdobeOrg` est toujours défini avec le service Experience Cloud ID.
 
 Tous ces éléments de données sont transmis à Adobe Audience Manager sous forme de fichiers journaux. Audience Manager traite et stocke ces données aux États-Unis. Audience Manager ne permet pas de stocker ni de traiter ces données en dehors des États-Unis.
