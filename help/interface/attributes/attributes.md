@@ -2,12 +2,12 @@
 description: Découvrez le service Attributs du client dans Adobe Experience Cloud et comment télécharger les données en vue de les utiliser dans Analytics et Cible.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Utilisation des attributs du client | Adobe Experience Cloud
+title: 'Utilisation des attributs du client '
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: aceb1ddf150795cc76f246f8a54e9740ebed8916
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '484'
 ht-degree: 79%
 
 ---
