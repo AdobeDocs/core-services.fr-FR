@@ -2,12 +2,12 @@
 description: Découvrez les cookies et la confidentialité dans les solutions et services Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Présentation des cookies et de la confidentialité | Adobe Experience Cloud
+title: 'Présentation des cookies et de la confidentialité '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '332'
 ht-degree: 94%
 
 ---
