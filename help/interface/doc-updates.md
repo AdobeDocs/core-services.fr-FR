@@ -1,5 +1,5 @@
 ---
-description: Informations sur les mises à jour apportées à l’aide de Adobe Experience Cloud.
+description: Informations au sujet des mises à jour dans l’aide d’Adobe Experience Cloud.
 keywords: Experience Cloud services
 solution: Experience Cloud
 title: 'Mises à jour de la documentation – Experience Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
