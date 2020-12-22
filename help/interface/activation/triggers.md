@@ -15,7 +15,7 @@ ht-degree: 99%
 ---
 
 
-# Triggers
+# Déclencheurs
 
 ## Présentation de Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
