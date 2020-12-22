@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment mettre en oeuvre le Adobe Experience Cloud et devenir administrateur.
+description: Découvrez comment implémenter Adobe Experience Cloud et devenir administrateur.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Activation des solutions pour les services principaux '
@@ -99,7 +99,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 
 ## Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://docs.adobe.com/content/help/fr-FR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) dans [!DNL Target].)
 
@@ -225,4 +225,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/opt-out.html).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
