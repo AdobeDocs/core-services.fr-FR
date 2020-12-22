@@ -32,7 +32,7 @@ Remplace *Experience Cloud* comme nom du cloud parent pour tous les services et 
 >
 >Vous pouvez continuer à voir les références à *Experience Cloud* dans son contexte précédent et plus large jusqu’à ce que toutes les interfaces de solution soient redirigées vers *Enterprise Cloud.*
 
-[Marketing Cloud](https://www.adobe.com/fr/marketing-cloud.html)
+[Experience Cloud](https://www.adobe.com/fr/marketing-cloud.html)
 
 Inclut les solutions suivantes :
 
@@ -53,9 +53,9 @@ Inclut les solutions suivantes :
 
 Inclut Media Optimizer et TubeMogul.
 
-## Que sont les solutions ?  {#concept_4F52341A45DC49B2B216824B14D54FDA}
+## Que sont les solutions ? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-Les informations suivantes décrivent brièvement les solutions et fournissent des liens permettant d’obtenir de l’aide. Des [recettes d’exemple d’utilisation](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) sont également disponibles pour vous aider à gérer les workflows de marketing numérique.
+Les informations suivantes décrivent brièvement les solutions et fournissent des liens permettant d’obtenir de l’aide. Des [recettes d’exemple d’utilisation](https://helpx.adobe.com/fr/marketing-cloud/how-to/use-cases.html) sont également disponibles pour vous aider à gérer les workflows de marketing numérique.
 
 [Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html)
 
@@ -84,7 +84,7 @@ Adobe Target s’intègre à Analytics et à d’autres services principaux Expe
 
 En tant que solution de gestion de contenus, Adobe Experience Manager facilite la gestion des ressources et contenus de vos sites web, applications mobiles, communautés et formulaires.
 
-Reportez-vous à [Adobe Experience Manager 6.5](https://helpx.adobe.com/fr/support/experience-manager/6-5.html) pour obtenir de l’aide.
+Reportez-vous à [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) pour obtenir de l’aide.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/aam-home.html)
 
