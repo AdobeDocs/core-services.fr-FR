@@ -1,5 +1,5 @@
 ---
-description: Découvrez l’administration des utilisateurs et des produits dans Adobe Admin Console, activez des solutions pour les services Experience Cloud et découvrez la bibliothèque d’Audiences, les attributs du client, les ressources Experience Cloud, etc.
+description: Découvrez l’administration des utilisateurs et des produits dans Adobe Admin Console, activez des solutions pour les services Experience Cloud et découvrez la bibliothèque d’audiences, les attributs du client, Experience Cloud Assets, etc.
 keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
 title: 'Services d’Experience Cloud et administration '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Profitez des tutoriels d’aide autonome et des instructions rapides dans Experi
 
 * [Documentation sur les produits pour toutes les solutions Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud.
 * [Notes de mise à jour et mises à jour des produits](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
-* [Tutoriels de mise en œuvre des services principaux](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - Visionnez des vidéos et des didacticiels sur les services principaux.
+* [Tutoriels de mise en œuvre des services principaux](https://docs.adobe.com/content/help/fr-FR/core-services-learn/tutorials/overview.html) - Visionnez des vidéos et des didacticiels sur les services principaux.
 * [Aide d’experts Experience League](https://landing.adobe.com/experience-league/) - Obtenez des conseils d’experts et de la communauté.
 * [Éducation et formation](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK) - Contactez Adobe pour tirer le meilleur parti de nos produits.
 * [Blog sur l’expérience client](https://theblog.adobe.com/customer-experience/) - Lisez le blog Experience Cloud.
