@@ -145,7 +145,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UIC
 >
 >Microsoft a officialisé la [cessation de prise en charge](https://www.microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, nous ne corrigerons pas les bogues signalés concernant ces versions spécifiques d’Internet Explorer.
 
-## Version 15.10 - 14 octobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 - 14 octobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problèmes connus**
 
@@ -259,7 +259,7 @@ Pas d’informations disponibles.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Groupe  Mappage </p> </td> 
+   <td colname="col1"> <p>Groupe Mappage </p> </td> 
    <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à l’échelle de plusieurs solutions Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
