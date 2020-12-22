@@ -1,5 +1,5 @@
 ---
-description: Découvrez les cookies et la confidentialité dans les solutions et services Adobe Experience Cloud.
+description: Découvrez les cookies et la confidentialité des solutions et services d’Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Présentation des cookies et de la confidentialité '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
