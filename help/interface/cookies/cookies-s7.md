@@ -1,5 +1,5 @@
 ---
-description: Comment Adobe Scene7 utilise-t-il les cookies pour stocker des informations utiles qui peuvent être utilisées pour diffusion de médias dynamiques au navigateur ?
+description: Comment Adobe Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser des médias dynamiques sur le navigateur.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Scene7 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
