@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications et spécifier un landing page par défaut.
+description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page de destination par défaut.
 keywords: core services, sign in to Experience Cloud
 solution: Experience Cloud
 title: 'Connexion et gestion des paramètres du profil Experience Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Vous pouvez modifier des détails personnels et spécifier une [organisation](..
 
 Recevez des notifications (par courrier électronique ou au sein du produit) concernant les mises à jour du système, les avis de maintenance, les publications, les mentions et les ressources partagées. Vous pouvez également spécifier les produits et les solutions pour lesquels vous souhaitez recevoir des notifications, y compris l’état du chargement des attributs du client.
 
-Pour accéder aux notifications, cliquez sur l’icône **[!UICONTROL Notifications]**  ![](assets/notifications-icon.png), puis sur l’icône **[!UICONTROL Paramètres]** ![](assets/icon_edit_board.png).
+Pour accéder aux notifications, cliquez sur l’icône **[!UICONTROL Notifications]** ![](assets/notifications-icon.png), puis sur l’icône **[!UICONTROL Paramètres]** ![](assets/icon_edit_board.png).
 
 Vous pouvez trier l’affichage des notifications d’après les types de messages qui vous intéressent et rechercher des notifications. Vous pouvez également réaliser les opérations suivantes :
 
@@ -120,7 +120,7 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
    Sur la page Profil et mots de passe, renseignez les champs et les options sous Détails personnels.
 
-## Récupération du mot de passe {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Récupération du mot de passe  {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Naviguez jusqu’à la page d’ouverture de session de votre solution.
 1. Cliquez sur **[!UICONTROL Mot de passe oublié]**.
