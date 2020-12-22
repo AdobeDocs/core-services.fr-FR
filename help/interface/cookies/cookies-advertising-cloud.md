@@ -1,12 +1,12 @@
 ---
-description: Découvrez les cookies Adobe Ad Cloud pour mapper les événements d’engagement publicitaire aux événements de conversion et, éventuellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+description: Découvrez les cookies Adobe Ad Cloud, qui permettent de mapper les événements d’engagement publicitaire avec des événements de conversion et, potentiellement, d’utiliser ces informations afin d’optimiser les offres publicitaires.
 title: 'Cookies Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
