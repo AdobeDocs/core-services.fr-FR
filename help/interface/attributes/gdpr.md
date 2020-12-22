@@ -1,11 +1,11 @@
 ---
-title: 'Prise en charge des attributs du client pour le RGPD (Règlement général sur la protection des données) '
-description: En savoir plus sur la prise en charge des attributs du client pour la réglementation générale de la protection des données
+title: 'Prise en charge des attributs du client pour le Règlement général sur la protection des données '
+description: Découvrez la prise en charge des attributs du client pour le Règlement général sur la protection des données
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour envoyer des requêtes d’accès et de suppression de données pour les [!U
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier le statut des requêtes existantes.
 
-## Valeurs de champ requises dans les requêtes JSON relatives aux [!UICONTROL attributs du client]
+## Valeurs de champ requises dans les demandes JSON relatives aux [!UICONTROL attributs du client]
 
 « contexte de société » :
 
