@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# Comment configurer des abonnements dans l&#39;Experience Cloud
+# Configuration des abonnements dans Experience Cloud
 
 Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements permettent d’activer le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et [!DNL Target]).
 
