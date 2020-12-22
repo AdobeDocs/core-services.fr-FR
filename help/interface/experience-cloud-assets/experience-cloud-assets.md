@@ -1,18 +1,18 @@
 ---
-description: Découvrez les ressources des Experience Cloud que vous pouvez partager entre les solutions.
+description: Découvrez Experience Cloud Assets que vous pouvez partager entre les solutions.
 solution: Experience Cloud
-title: 'Présentation des ressources des Experience Cloud '
+title: 'Présentation d’Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Présentation des ressources des Experience Cloud
+# Présentation d’Experience Cloud Assets
 
 Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
 
