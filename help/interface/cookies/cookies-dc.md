@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment les connecteurs de données d’Adobe utilisent des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux publicitaires.
+description: Découvrez comment les Data Connectors d’Adobe utilisent des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Cookies Data Connectors '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
