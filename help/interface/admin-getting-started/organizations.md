@@ -29,7 +29,7 @@ En outre, vous devrez peut-être localiser l’ID d’organisation à des fins d
 
 L’**ID d’organisation** est l’identifiant associé à la société Experience Cloud activée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire).
 
-Pour afficher votre ID d’organisation, accédez à la page d’entrée d’Experience Cloud ou cliquez sur ( ![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
+Pour afficher votre ID d’organisation, accédez à la page d’entrée d’Experience Cloud ou cliquez sur (![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
