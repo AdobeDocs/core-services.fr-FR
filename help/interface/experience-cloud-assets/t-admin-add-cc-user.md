@@ -8,20 +8,20 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
 # Gestion des utilisateurs Creative Cloud
 
-Experience Cloud fournit des outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. Ces utilisateurs peuvent être invités à participer à un dossier de campagne sur une base ponctuelle. Seuls les utilisateurs qui ont été ajoutés à la liste par un administrateur peuvent être invités à une campagne. Les utilisateurs ajoutés s’afficheront dans la liste d’utilisateur à saisie automatique de l’Experience Cloud.
+Experience Cloud fournit des outils administratifs pour la gestion des utilisateurs Creative Cloud approuvés. Ces utilisateurs peuvent être invités à participer à un dossier de campagne sur une base ponctuelle. Seuls les utilisateurs qui ont été ajoutés à la liste par un administrateur peuvent être invités à une campagne. Les utilisateurs ajoutés s’afficheront dans la liste d’utilisateurs à saisie automatique d’Experience Cloud.
 
 >[!NOTE]
 >
 >Pour effectuer cette procédure, vous devez être administrateur.
 
-1. In the Experience Cloud, click **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
+1. Dans Experience Cloud, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Gérer les collaborateurs Creative Cloud]**.
 1. Cliquez sur **[!UICONTROL Partage de ressources Creative Cloud]**.
 1. Cliquez sur **[!UICONTROL Ajouter un nouvel utilisateur]**.  ![](assets/mac_add_icon.png)
 1. Entrez une adresse électronique, un nom d’écran, un titre et éventuellement un avatar.
