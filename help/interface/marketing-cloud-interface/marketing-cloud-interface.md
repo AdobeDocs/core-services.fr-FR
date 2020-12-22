@@ -50,7 +50,7 @@ Correctifs et améliorations pour juin 2018.
 
 Nouvelles fonctions et correctifs de l’interface [!DNL Adobe Experience Cloud].
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 |--- |--- |
 | Nouvelle page d’entrée d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page d’administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos solutions Experience Cloud et à vos services principaux. |
 
