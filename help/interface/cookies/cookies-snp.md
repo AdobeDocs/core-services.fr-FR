@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment les Search & Promote utilisent les cookies pour comprendre et anticiper les intentions de recherche des visiteurs.
+description: Découvrez comment Search&Promote utilise des cookies pour comprendre et anticiper les intentions de recherche des visiteurs.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Search&Promote '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
