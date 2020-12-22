@@ -1,12 +1,12 @@
 ---
-description: Comment supprimer et remplacer des attributs dans le schéma de Adobe Experience Cloud.
+description: Suppression et remplacement des attributs dans le schéma d’Adobe Experience Cloud.
 title: 'Mise à jour du schéma (suppression d’un attribut) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
