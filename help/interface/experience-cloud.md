@@ -4,9 +4,9 @@ keywords: Adobe Experience Cloud services, customer attributes, audiences, user 
 solution: Experience Cloud
 title: 'Services d’Experience Cloud et administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
 ht-degree: 100%
 
