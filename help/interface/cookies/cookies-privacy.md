@@ -4,11 +4,11 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Présentation des cookies et de la confidentialité '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
