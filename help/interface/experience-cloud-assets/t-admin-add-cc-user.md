@@ -4,9 +4,9 @@ keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Gestion des utilisateurs Creative Cloud '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
