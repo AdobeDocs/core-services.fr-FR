@@ -4,11 +4,11 @@ keywords: Experience Cloud services
 solution: Experience Cloud
 title: 'Découvrez comment gérer les utilisateurs et les produits '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1432'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Ou, dans le menu Experience Cloud (![](assets/menu-icon.png)), cliquez sur **[!U
 
 **Aide connexe**
 
-[Guide d’utilisation d’Administration](https://helpx.adobe.com/fr/enterprise/using/users.html) pour Creative Cloud et Document Cloud. Certaines informations concernent la gestion des utilisateurs d’Experience Cloud, telles que la [gestion des types d’identité](https://helpx.adobe.com/enterprise/help/identity.html).
+[Guide d’utilisation d’Administration](https://helpx.adobe.com/fr/enterprise/using/users.html) pour Creative Cloud et Document Cloud. Certaines informations concernent la gestion des utilisateurs d’Experience Cloud, telles que la [gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/help/identity.html).
 
 [Connectez-vous et gérez vos paramètres de profil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) pour gérer les mots de passe, les organisations et les notifications.
 
@@ -127,7 +127,7 @@ Voir [Utilisateurs et autorisations](https://docs.adobe.com/content/help/fr-FR/d
 
 Créez des utilisateurs d’Audience Manager et affectez-les à des groupes. Vous pouvez également consulter les limites (caractéristiques, segments, destinations et [!DNL AlgoModel]).
 
-Voir [Administration](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) dans l’aide d’Audience Manager.
+Voir [Administration](https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/users.html) dans l’aide d’Audience Manager.
 
 ## Gestion des produits Experience Cloud {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -142,9 +142,9 @@ Lorsque vous invitez un utilisateur à rejoindre une organisation, vous pouvez l
 
 Vous trouverez plus d’aide à l’adresse :
 
-* [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Autorisations des utilisateurs d’entreprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) dans l’aide d’Adobe Target pour plus d’informations.
-* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html)
+* [Autorisations des utilisateurs d’entreprise](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/property-channel.html) dans l’aide d’Adobe Target pour plus d’informations.
+* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Attribution d’autorisations d’accès Analytics à un profil de produits {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +195,6 @@ Navigateurs pris en charge dans Experience Cloud.
 
 ### Exigences des solutions et des produits
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/fr-FR/target/using/implement-target/before-implement/supported-browsers.html)
