@@ -2,14 +2,14 @@
 description: Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
 keywords: Adobe Analytics Premium upgrade
 solution: Experience Cloud
-title: 'Mise à niveau vers Analytics Premium et l’Experience Cloud '
+title: 'Mise à niveau vers Analytics Premium et Experience Cloud '
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](../adm
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
@@ -86,7 +86,7 @@ Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au 
 
 ### Administration des utilisateurs et des groupes
 
-La gestion des utilisateurs s’effectue dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) (lien du produit).
+La gestion des utilisateurs s’effectue dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/help/aedash.html) (lien du produit).
 
 Vous pouvez définir un mappage 1:1 entre un groupe créé dans Adobe Admin Console et un groupe de solutions (comme Adobe Analytics). Par la suite, un nouvel utilisateur ajouté à ce groupe Admin Console mappé aura un compte de solution Analytics automatiquement créé et lié à son Adobe ID. (Les utilisateurs existants doivent lier manuellement les informations de connexion de leur compte de solution pour accéder aux solutions via la connexion à Experience Cloud.)
 
