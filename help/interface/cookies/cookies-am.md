@@ -4,9 +4,9 @@ keywords: cookies
 solution: Experience Cloud, Audience Manager
 title: 'Cookies Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
