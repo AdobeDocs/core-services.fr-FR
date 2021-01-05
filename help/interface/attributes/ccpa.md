@@ -1,9 +1,9 @@
 ---
 title: 'Prise en charge des attributs du client pour le California Consumer Privacy Act '
 description: Prise en charge des attributs du client pour le California Consumer Privacy Act
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -44,28 +44,28 @@ Pour envoyer des requêtes d’accès et de suppression de données pour les [!U
 
 ## Valeurs de champ requises dans les demandes JSON relatives aux [!UICONTROL attributs du client]
 
-« contexte de société » :
+&quot;company context&quot; :
 
-* « espace de noms » : **imsOrgID**
-* « value » : &lt;*votre valeur d’identifiant de l’organisation IMS*>
+* &quot;namespace&quot; : **imsOrgID**
+* &quot;value&quot; : &lt;*votre valeur d’identifiant de l’organisation IMS*>
 
-« utilisateurs » :
+&quot;users&quot; :
 
-* « clé » : &lt;*habituellement le nom du client*>
+* &quot;key&quot; : &lt;*habituellement le nom du client*>
 
-* « action » : **accès** ou **suppression**
+* &quot;action&quot; : **accès** « access » ou **suppression** « delete » 
 
-* « identifiants d’utilisateurs » :
+* &quot;user IDs&quot; :
 
-   * « espace de noms » : &lt;*ID d’alias de la source de données CRS*>
+   * &quot;namespace&quot; : &lt;*ID d’alias de la source de données CRS*>
 
-   * « type » : **integrationCode**
+   * &quot;type&quot; : **integrationCode**
 
-   * « valeur » : &lt;*ID CRM*>
+   * &quot;value&quot; : &lt;*ID CRM*>
 
-* « inclure » : **CRS** (qui est le produit Adobe qui s’applique à la requête)
+* &quot;include&quot; : **CRS** (qui est le produit Adobe qui s’applique à la requête)
 
-* « réglementation » : **ccpa** (qui est le règlement sur la protection des données confidentielles qui s’applique à la requête)
+* &quot;regulation&quot; : **ccpa** (qui est le règlement sur la protection des données confidentielles qui s’applique à la requête)
 
 ## Exemple de requête JSON
 
