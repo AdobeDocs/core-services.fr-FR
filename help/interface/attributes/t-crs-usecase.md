@@ -4,9 +4,9 @@ keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1165'
 ht-degree: 100%
 
