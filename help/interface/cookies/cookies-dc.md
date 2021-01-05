@@ -4,9 +4,9 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Cookies Data Connectors '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
 ht-degree: 100%
 
