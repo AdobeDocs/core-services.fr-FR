@@ -4,11 +4,11 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Utilisation des cookies Adobe Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Informations stockées | Ce cookie est défini et lu par le code JavaScript pour déterminer si les cookies sont activés (simplement défini sur « True »). |
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur |
 | Utilisation | Un seul cookie pour tous les comptes |
-| Emplacement | Ce cookie est stocké au niveau du domaine de la page |
+| Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | 4 octets |
 
 ## Nom du cookie : s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
@@ -57,16 +57,16 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Informations stockées | Ce cookie est défini et lu par le code JavaScript lorsque la fonctionnalité ClickMap ou Activity Map est activée ; contient des informations sur le lien précédent sur lequel l’utilisateur a cliqué. |
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur |
 | Utilisation | Un seul cookie pour tous les comptes |
-| Emplacement | Ce cookie est stocké au niveau du domaine de la page |
+| Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | Varie en fonction de la taille de l’URL de la page, mais habituellement de 100 à 200 octets |
 
 ## Nom du cookie : s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Horodatage de l’ID de visiteur unique |
+| Informations stockées | Horodatage de l’ID de visiteur unique. |
 | Expiration | 2 ans |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la demande d’image ; généralement sous un sous-domaine spécifique au client sous 2o7.net ou omtrdc.net si vous utilisez des cookies tiers ou si votre domaine utilise des cookies propriétaires |
 | Taille | 44 octets |
 
@@ -74,13 +74,13 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 >
 >Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après 1 an d’inactivité, quelle que soit la date d’expiration des cookies d’ID de visiteur.
 
-## Nom du cookie : s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nom du cookie : s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Horodatage de l’ID de visiteur unique de secours |
+| Informations stockées | Horodatage de l’ID de visiteur unique de secours. |
 | Expiration | 2 ans |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique si le cookie standard `s_vi` n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre qui utilisent des cookies propriétaires |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique. si le cookie standard `s_vi` n’est pas disponible en raison de restrictions des cookies tiers. Non utilisé pour les mises en œuvre qui utilisent des cookies propriétaires |
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire |
 | Taille | 33 octets |
 
@@ -100,7 +100,7 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 >
 >Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service d’assistance clientèle.
 
-## Cookies définis par des modules externes  {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 D’autres cookies peuvent être définis en fonction de l’utilisation des modules externes Analytics. Ces cookies sont des fragments de code mis à la disposition du client pour une utilisation dans diverses circonstances. Ces circonstances comprennent la récupération des valeurs de l’URL, la concaténation de valeurs à transmettre à Analytics, la capture de l’abandon de formulaire, etc. Pour plus d’informations sur les cookies définis par chaque module externe, contactez ClientCare. Le cookie [!DNL s_vh] utilisé avec les modules complémentaires *Set Once Per* et *Set and Get Last Value* en est un exemple.
 
