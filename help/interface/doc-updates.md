@@ -4,9 +4,9 @@ keywords: Experience Cloud services
 solution: Experience Cloud
 title: 'Mises à jour de la documentation – Experience Cloud '
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
