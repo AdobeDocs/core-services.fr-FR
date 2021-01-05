@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Activation des solutions pour les services principaux '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour les clients existants, vous devrez peut-être moderniser les mises en œuvr
 
 ## Étape 1. Rejoindre Experience Cloud et devenir administrateur {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Ce que vous devez faire pour rejoindre l&#39;Experience Cloud :
+Procédez comme suit pour rejoindre Experience Cloud :
 
 ![](assets/step1_icon.png) Assurez-vous d’être en possession des SKU d’Adobe Analytics ou d’Adobe Target appropriées.
 
@@ -99,7 +99,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 
 ## Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://docs.adobe.com/content/help/fr-FR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) dans [!DNL Target].)
 
@@ -173,7 +173,7 @@ Une fois le service Experience Cloud ID déployé, les nouveaux visiteurs ne re�
 
 Si, par exemple, la section Assistance de votre site est gérée dans un système de gestion de contenu distinct, il se peut que vous ayez un fichier JavaScript Analytics différent pour cette section. Si vous déployez l’Experience Cloud ID sur votre site principal avant de déployer le service d’ID sur le site d’assistance, les nouveaux visiteurs recevront un Analytics ID hérité lorsqu’ils se rendent dans la section d’assistance ; les visites qui portent sur les deux sections du site sont alors signalées comme deux visites distinctes.
 
-Le déploiement du service d’identification des Experience Cloud sur les sites qui utilisent plusieurs fichiers JavaScript ou d’autres technologies (tels que le Flash) peut entraîner des problèmes de coordination, car vous devez activer le service d’identification des Experience Cloud en même temps sur toutes les parties de votre site. Si vous configurez une période de grâce, les nouveaux visiteurs peuvent continuer à recevoir un identifiant visiteur Analytics du service d’ID, de sorte que les visiteurs puissent être identifiés de manière cohérente sur les sections de votre site qui n’ont pas été mises à niveau pour utiliser le service d’identification des visiteurs.
+Le déploiement du service Experience Cloud ID sur les sites qui utilisent plusieurs fichiers JavaScript ou d’autres technologies (telles que Flash) peut entraîner des problèmes de coordination puisque vous devez activer le service Experience Cloud ID en même temps sur toutes les parties de votre site. Si vous configurez une période de grâce, les nouveaux visiteurs peuvent continuer à recevoir un identifiant visiteur Analytics du service d’ID, de sorte que les visiteurs puissent être identifiés de manière cohérente sur les sections de votre site qui n’ont pas été mises à niveau pour utiliser le service d’identification des visiteurs.
 
 ## Étape 7. Gérer les utilisateurs et les produits {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -225,4 +225,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/opt-out.html).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
