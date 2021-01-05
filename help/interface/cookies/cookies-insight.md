@@ -4,9 +4,9 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Data Workbench '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ Data Workbench utilise des cookies pour analyser, en temps réel, d’importants
 
 | Attribut | Description |
 |---|---|
-| Informations stockées | Horodatage de l’ID de visiteur unique |
-| Expiration | Il s’agit d’un cookie persistant |
-| Utilisation | Ce cookie permet d’identifier un visiteur unique. |
-| Emplacement | Ce cookie est stocké dans le domaine de la page |
+| Informations stockées | Horodatage de l’ID de visiteur unique. |
+| Expiration | Il s’agit d’un cookie persistant. |
+| Utilisation | Ce cookie permet d’identifier un visiteur unique.. |
+| Emplacement | Ce cookie est stocké dans le domaine de la page. |
 | Taille | 8 octets, ou 13 octets si la partie « name = » (v1st=) est incluse |
 
