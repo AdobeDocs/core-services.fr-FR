@@ -4,9 +4,9 @@ keywords: Adobe Experience Cloud services
 solution: Experience Cloud
 title: 'Liaison d’organisations et de comptes '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
 ht-degree: 100%
 
