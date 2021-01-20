@@ -1,11 +1,11 @@
 ---
-title: Que sont les attributs du client ?
+title: Comment utiliser les attributs du client
 description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment télécharger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 9aebc0221b4d35c31968394ebb159f10f82960bd
+source-git-commit: 10635b4eda2fff32ef04878178be3ac88fa32756
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 93%
