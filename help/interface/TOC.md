@@ -1,13 +1,13 @@
 ---
-audience: admin
+audience: administrator
 user-guide-title: 'Services et administration Adobe Experience Cloud '
 breadcrumb-title: Services d’Experience Cloud et administration
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Adobe Experience Cloud et comment utiliser les services Attributs du client et Bibliothèque d’Audiences. En savoir plus sur les cookies et les ressources des Experience Cloud.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies Analytics](cookies/cookies-analytics.md)
    + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies Experience Cloud](cookies/cookies-mc.md)
    + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies [[!DNL Target] ](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
    + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
