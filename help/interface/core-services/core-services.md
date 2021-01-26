@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Activation des solutions pour les services principaux '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ Pour les clients existants, vous devrez peut-être moderniser les mises en œuvr
 
 Procédez comme suit pour rejoindre Experience Cloud :
 
-![](assets/step1_icon.png) Assurez-vous d’être en possession des SKU d’Adobe Analytics ou d’Adobe Target appropriées.
+1. Assurez-vous d’être en possession des SKU d’Adobe Analytics ou d’Adobe Target appropriées.
 
-* **Adobe Analytics :** Standard ou Premium (et non la [!DNL SiteCatalyst] SKU héritée).
-* **Adobe Target :** Standard ou Premium.
+   * **Adobe Analytics :** Standard ou Premium (et non la [!DNL SiteCatalyst] SKU héritée).
+   * **Adobe Target :** Standard ou Premium.
 
->[!NOTE]
->
->Pour [!DNL Target], migrez vers at.js depuis [!DNL mbox.js]. Reportez-vous à la section [Mise à niveau d’at.js 1.x vers at.js 2.x](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >Pour [!DNL Target], migrez vers at.js depuis [!DNL mbox.js]. Reportez-vous à la section [Mise à niveau d’at.js 1.x vers at.js 2.x](https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Modernisez votre mise en œuvre et configurez votre statut d’administrateur.
+1. Modernisez votre mise en œuvre et configurez votre statut d’administrateur.
 
-1. Suivez les étapes ci-dessous dans [Déploiement du [!UICONTROL service Experience Cloud ID]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-1. Contactez votre gestionnaire de compte et entamez le processus de provisionnement pour Experience Cloud.
+   * Suivez les étapes ci-dessous dans [Mise en oeuvre du [!UICONTROL service d’identification des Experience Cloud]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+   * Contactez votre gestionnaire de compte et entamez le processus de provisionnement pour Experience Cloud.
 
-![](assets/step3_icon.png) Gestion des utilisateurs et des produits dans [!UICONTROL Admin Console].
+1. Gestion des utilisateurs et des produits dans [!UICONTROL Admin Console].
 
 ### Connexion d’administrateur
 
@@ -54,18 +54,18 @@ Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [
 
 Le lien **[!UICONTROL Administration]** apparaît dans le menu Experience Cloud.
 
-Voir [Administration des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) pour obtenir de l’aide.
+Voir [Administration des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) pour plus d’informations.
 
 ### Connexion d’utilisateur
 
 Pour se connecter à Experience Cloud, les utilisateurs doivent :
 
-1. posséder un Adobe ID (ou un Enterprise ID pour votre société) ;
-1. se connecter à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) ;
-1. appartenir à un groupe de solutions mappé avec un groupe d’entreprises.
-1. Si nécessaire, liez leurs comptes de solution à leur Adobe ID (comme décrit ci-après).
+* posséder un Adobe ID (ou un Enterprise ID pour votre société) ;
+* se connecter à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) ;
+* appartenir à un groupe de solutions mappé avec un groupe d’entreprises.
+* Si nécessaire, liez leurs comptes de solution à leur Adobe ID (comme décrit ci-après).
 
-![](assets/step4_icon.png) Facultatif : liez les comptes d’utilisateurs existants.
+### Facultatif : liez les comptes d’utilisateurs existants.
 
 Des utilisateurs sont probablement déjà membres de groupes de solutions, par exemple un groupe Analytics que vous avez déjà géré dans [!UICONTROL Analytics] > [!UICONTROL Outils d’administration].
 
