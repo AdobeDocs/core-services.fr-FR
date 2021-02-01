@@ -2,11 +2,11 @@
 description: Découvrez comment mapper une ou plusieurs suites de rapports avec une organisation dans Experience Cloud.
 title: 'Mappage de suites de rapports à une organisation '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->La fonctionnalité de mappage des suites de rapports a été abandonnée en novembre 2020. Contactez le service clientèle pour toute question.
+>La fonctionnalité de mappage de suites de rapports a été abandonnée en novembre 2020. Contactez le Service clientèle pour toute question.
 
 Les services Experience Cloud (tels que le service Experience Cloud ID et le service [!UICONTROL People]) sont associés à une organisation Experience Cloud plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. Processus de mappage :
 
@@ -60,7 +60,7 @@ Cette section contient des conseils pour vous aider à sélectionner l’organis
 
 ### Quelle organisation dois-je choisir ?
 
-Si le service Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
+Si le service Experience Cloud ID est actuellement déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] sur votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation-guides/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
 
 Si le service d’identification des visiteurs n’est pas encore déployé sur les sites qui collectent des données pour la suite de rapports, si vous déployez le service d’identification des visiteurs d’Experience Cloud à l’avenir, vous devrez vous assurer que votre déploiement correspond à l’organisation que vous avez choisie dans l’outil de mappage des suites de rapports.
 
