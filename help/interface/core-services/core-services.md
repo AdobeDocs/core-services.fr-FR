@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment implémenter Adobe Experience Cloud et devenir administrateur.
-keywords: core services;Customer Attributes
+keywords: services principaux ; Attributs du client
 solution: Experience Cloud
 title: 'Activation des solutions pour les services principaux '
 index: true
 translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2352'
+source-wordcount: '2356'
 ht-degree: 99%
 
 ---
@@ -43,7 +43,7 @@ Procédez comme suit pour rejoindre Experience Cloud :
 
 1. Modernisez votre mise en œuvre et configurez votre statut d’administrateur.
 
-   * Suivez les étapes ci-dessous dans [Mise en oeuvre du [!UICONTROL service d’identification des Experience Cloud]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+   * Suivez les étapes ci-dessous dans [Implémentation du [!UICONTROL service Experience Cloud ID]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
    * Contactez votre gestionnaire de compte et entamez le processus de provisionnement pour Experience Cloud.
 
 1. Gestion des utilisateurs et des produits dans [!UICONTROL Admin Console].
@@ -54,7 +54,7 @@ Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [
 
 Le lien **[!UICONTROL Administration]** apparaît dans le menu Experience Cloud.
 
-Voir [Administration des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) pour plus d’informations.
+Voir [Administration des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) pour plus d’informations.
 
 ### Connexion d’utilisateur
 
@@ -71,7 +71,7 @@ Des utilisateurs sont probablement déjà membres de groupes de solutions, par e
 
 Lorsque vous mappez ces groupes avec des groupes d’entreprise d’Experience Cloud, ces utilisateurs doivent associer manuellement les informations de connexion de leur compte de solution avec leur Adobe ID.
 
-Reportez-vous à la section [Liaison de comptes dans Experience Cloud.](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+Reportez-vous à la section [Liaison de comptes dans Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
