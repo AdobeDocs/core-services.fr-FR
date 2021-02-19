@@ -1,14 +1,14 @@
 ---
 description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions fréquentes à l’intention des administrateurs dans Adobe Experience Cloud.
-keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
+keywords: services principaux, Experience Cloud, Experience Platform, Analytics, Cible, gestion des utilisateurs.
 solution: Experience Cloud
 title: 'Questions fréquentes à propos d’Experience Cloud '
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci�
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html).
+[Contactez l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 ## Qu’est-ce que l’_attribution de privilèges d’accès_ ?
 
@@ -73,7 +73,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
