@@ -1,13 +1,13 @@
 ---
 description: 'Découvrez les outils administratifs permettant de gérer les utilisateurs Creative Cloud approuvés dans Experience Cloud. '
-keywords: asset sharing;Creative Cloud;core services
+keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Gestion des utilisateurs Creative Cloud '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '119'
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
