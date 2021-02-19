@@ -1,13 +1,13 @@
 ---
 description: Comment télécharger une ressource vers un dossier partagé du navigateur de Creative Cloud vers Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '83'
+workflow-type: tm+mt
+source-wordcount: '89'
 ht-degree: 100%
 
 ---
