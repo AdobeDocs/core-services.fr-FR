@@ -1,14 +1,14 @@
 ---
 description: Découvrez comment créer la source d’attributs du client et la télécharger vers Adobe Experience Cloud.
-keywords: Customer Attributes;core services
+keywords: Attributs du client ; services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. Identifiant unique utilisé dans le code de la source d’attributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ ID d’alias pour une source d’attributs du client dans l’interface utilisateur d’Experience Cloud doit correspondre aux valeurs transmises à partir de la mise en œuvre (que ce soit par le biais de la gestion dynamique des balises ou du script JavaScript du SDK mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. ID unique utilisé dans le code de la source d’attributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ ID d’alias pour une source d’attributs du client dans l’interface utilisateur d’Experience Cloud doit correspondre aux valeurs transmises à partir de la mise en œuvre (que ce soit par le biais de la gestion dynamique des balises ou du script JavaScript du SDK mobile).
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
