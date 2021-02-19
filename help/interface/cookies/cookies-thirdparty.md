@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment la prise en charge des cookies tiers est devenue de plus en plus limitée dans les navigateurs.
-keywords: cookies;privacy
+keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
 title: 'Impact des modifications apportées à la prise en charge des cookies tiers sur les clients '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '295'
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
