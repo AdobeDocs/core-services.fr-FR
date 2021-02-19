@@ -6,9 +6,9 @@ seo-title: Activation
 solution: Experience Cloud Services
 title: Services Activation dans Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
