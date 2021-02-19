@@ -1,15 +1,15 @@
 ---
 description: Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
-keywords: Adobe Analytics Premium upgrade
+keywords: Mise à niveau de Adobe Analytics Premium
 solution: Experience Cloud
 title: 'Mise à niveau vers Analytics Premium et Experience Cloud '
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](../adm
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
