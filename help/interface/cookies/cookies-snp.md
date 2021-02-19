@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment Search&Promote utilise des cookies pour comprendre et anticiper les intentions de recherche des visiteurs.
-keywords: cookies;privacy
+keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Search&Promote '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '119'
+workflow-type: tm+mt
+source-wordcount: '121'
 ht-degree: 100%
 
 ---
