@@ -1,13 +1,13 @@
 ---
 description: Découvrez les types et tailles de fichiers autorisés pour le partage de ressources entre Adobe Experience Cloud et Creative Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Exigences relatives aux fichiers pour le partage de ressources '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '122'
+workflow-type: tm+mt
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
