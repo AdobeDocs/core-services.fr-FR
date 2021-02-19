@@ -1,9 +1,9 @@
 ---
 title: 'Prise en charge des attributs du client pour le California Consumer Privacy Act '
 description: Prise en charge des attributs du client pour le California Consumer Privacy Act
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
