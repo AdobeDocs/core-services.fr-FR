@@ -1,9 +1,9 @@
 ---
 title: 'Prise en charge des attributs du client pour le Règlement général sur la protection des données '
 description: Découvrez la prise en charge des attributs du client pour le Règlement général sur la protection des données
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
