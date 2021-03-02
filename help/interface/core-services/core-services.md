@@ -1,14 +1,18 @@
 ---
-description: Découvrez comment implémenter Adobe Experience Cloud et devenir administrateur.
+description: '"Moderniser vos solutions Adobe Analytics et Adobe Target pour les services intersolutions. Apprenez à début en utilisant les services Experience Cloud."'
 keywords: services principaux ; Attributs du client
 solution: Experience Cloud
-title: 'Activation des solutions pour les services principaux '
+title: '"Activation de vos solutions pour les services intersolutions"'
 index: true
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 99%
+source-wordcount: '2369'
+ht-degree: 98%
 
 ---
 
