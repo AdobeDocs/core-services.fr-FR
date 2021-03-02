@@ -1,15 +1,18 @@
 ---
-description: Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
+description: Découvrez les conditions requises et les conditions à respecter lors de la mise à niveau vers Analytics Premium.
 keywords: Mise à niveau de Adobe Analytics Premium
 solution: Experience Cloud
-title: 'Mise à niveau vers Analytics Premium et Experience Cloud '
-topic: Premium
+title: 'Mise à niveau vers Analytics Premium et l’Experience Cloud '
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
+feature: Admin Console
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '636'
+ht-degree: 95%
 
 ---
 
