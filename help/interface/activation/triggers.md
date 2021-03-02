@@ -1,16 +1,20 @@
 ---
-description: Configuration d’Experience Cloud Triggers.
+description: Apprenez à configurer les déclencheurs Experience Cloud.
 keywords: intégrations;Triggers
 seo-description: Configuration d’Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Présentation des déclencheurs '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
+feature: Admin Console
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 98%
 
 ---
 
