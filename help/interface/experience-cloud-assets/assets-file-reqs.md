@@ -4,11 +4,15 @@ keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Exigences relatives aux fichiers pour le partage de ressources '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
+feature: Assets
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 99%
 
 ---
 
