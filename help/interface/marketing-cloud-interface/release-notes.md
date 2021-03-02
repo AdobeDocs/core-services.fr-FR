@@ -1,14 +1,18 @@
 ---
-description: Cette section présente les fonctionnalités, les notes de mise à jour et les problèmes connus de l’interface d’Experience Cloud.
+description: '"Dernières fonctionnalités, notes de mise à jour et problèmes connus des services Experience Cloud tels que les attributs du client, les Audiences et la gestion des utilisateurs."'
 keywords: services principaux
 solution: Experience Cloud
 title: 'Notes de mise à jour cumulatives '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
+feature: '"Attributs du client, bibliothèque d’Audiences, Admin Console"'
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 100%
+source-wordcount: '3973'
+ht-degree: 99%
 
 ---
 
