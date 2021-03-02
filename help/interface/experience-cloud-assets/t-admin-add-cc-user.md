@@ -4,11 +4,15 @@ keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Gestion des utilisateurs Creative Cloud '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+feature: Assets
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 99%
 
 ---
 
