@@ -6,11 +6,15 @@ seo-title: Terminologie
 solution: Experience Cloud
 title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
+feature: '"Attributs du client, bibliothèque d’Audiences, Admin Console"'
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 99%
 
 ---
 
