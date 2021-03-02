@@ -4,10 +4,14 @@ keywords: Attributs du client ; services principaux
 solution: Experience Cloud
 title: 'Configuration des abonnements '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '390'
 ht-degree: 98%
 
 ---
