@@ -1,14 +1,18 @@
 ---
-description: Supprimez les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Ce paramètre de confidentialité exclut les utilisateurs qui refusent la collecte de données Analytics.
+description: Découvrez comment activer les paramètres de confidentialité pour les cookies de navigateur. Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
 keywords: cookies;confidentialité
 solution: Experience Cloud, Analytics, Target, Social
-title: 'Comment activer les paramètres de confidentialité pour les cookies de navigateur '
+title: 'Paramètres de confidentialité pour les cookies de navigateur '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
+feature: Cookies
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
