@@ -2,11 +2,15 @@
 description: Suppression et remplacement des attributs dans le schéma d’Adobe Experience Cloud.
 title: 'Mise à jour du schéma (suppression d’un attribut) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 98%
 
 ---
 
