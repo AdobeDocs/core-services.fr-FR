@@ -1,14 +1,18 @@
 ---
-description: Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données d’attributs du client vers Experience Cloud par FTP.
+description: Découvrez comment transférer des données d’attributs du client via FTP vers l’Experience Cloud.
 keywords: Attributs du client ; services principaux
 solution: Experience Cloud
 title: 'Téléchargement du fichier de données d’attributs du client via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 98%
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
