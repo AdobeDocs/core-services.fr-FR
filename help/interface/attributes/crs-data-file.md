@@ -1,14 +1,18 @@
 ---
-description: Exigences en matière de fichiers de données et sources de données multiples pour télécharger les attributs du client dans Adobe Experience Cloud.
+description: Découvrez les exigences en matière de fichiers de données et les sources de données multiples pour télécharger les attributs du client vers l’Experience Cloud.
 keywords: Attributs du client ; services principaux
 solution: Experience Cloud
 title: 'En savoir plus sur les fichiers de données et les sources de données pour les attributs du client '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 99%
+source-wordcount: '1205'
+ht-degree: 98%
 
 ---
 
