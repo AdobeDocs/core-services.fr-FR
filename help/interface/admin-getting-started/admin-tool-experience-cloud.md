@@ -1,14 +1,18 @@
 ---
-description: Découvrez l’outil d’administration d’Experience Cloud pour afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud.
+description: Découvrez l’outil d’administration Experience Cloud. Vue d’une liste pouvant être triée et filtrée de tous les utilisateurs et stratégies Experience Cloud.
 keywords: services principaux
 solution: Experience Cloud
 title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
 index: true
+feature: Admin Console
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
