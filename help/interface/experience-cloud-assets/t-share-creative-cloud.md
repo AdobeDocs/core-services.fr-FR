@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Partage d’un dossier de ressources Experience Cloud '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 
    ![](assets/asset_comment_mac.png)
 
-1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Partager sur Creative Cloud]** (comme à l’[étape 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), supprimez les utilisateurs en cliquant sur l’icône de croix (X), puis cliquez sur **[!UICONTROL Partager]**.
+1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Partager avec le Creative Cloud]** (semblable à [Étape 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), supprimez les utilisateurs en cliquant sur X, puis cliquez sur **[!UICONTROL Partager]**.
 
 ![](assets/asset_remove_user.png)
 
-Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud n’y ont plus accès.
+Une fois que vous avez supprimé tous les utilisateurs Creative Cloud, le dossier n’est plus partagé et les utilisateurs Creative Cloud n’ont plus accès.
 
-Voici quelques autres moyens d’utiliser une ressource partagée :
+Voici d’autres façons d’utiliser une ressource partagée :
 
 * Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales.
 * Chargez ou permutez des fichiers dans la [bibliothèque d’offres](https://docs.adobe.com/help/fr-FR/target/using/experiences/offers/manage-content.html) dans [!DNL Adobe Target] pour les images dans les activités.
