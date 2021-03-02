@@ -2,13 +2,17 @@
 description: Informations au sujet des mises à jour dans l’aide d’Adobe Experience Cloud.
 keywords: Services d’Experience Cloud
 solution: Experience Cloud
-title: 'Mises à jour de la documentation – Experience Cloud '
+title: Mises à jour de la documentation
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
+feature: '"Attributs du client, bibliothèque d’Audiences, Admin Console, ressources"'
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 96%
 
 ---
 
