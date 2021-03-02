@@ -1,13 +1,17 @@
 ---
 description: Découvrez comment gérer les autorisations utilisateur et les profils de produit d’Adobe Experience Cloud. Découvrez comment vous connecter à Adobe Admin Console ainsi que la prise en charge des navigateurs pour Experience Cloud.
 solution: Admin
-title: 'Comment gérer les utilisateurs et les produits '
+title: 'Gestion des utilisateurs et des produits '
 index: true
+feature: Admin Console
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 99%
 
 ---
 
