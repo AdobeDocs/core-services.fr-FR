@@ -2,13 +2,17 @@
 description: Découvrez les cookies Adobe Analytics dans Adobe Experience Cloud.
 keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
-title: 'Utilisation des cookies Adobe Analytics '
+title: 'Cookies Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
+feature: Cookies
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
