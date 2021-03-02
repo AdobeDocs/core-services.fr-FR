@@ -1,14 +1,18 @@
 ---
-description: Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
+description: Considérations et bonnes pratiques concernant les informations d’identification personnelle (PII) téléchargées et utilisées dans l’Experience Cloud.
 keywords: Attributs du client ; services principaux
 solution: Experience Cloud
 title: 'Considérations relatives à la confidentialité des attributs du client '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+feature: 'Attributs du client '
+topic: Administration
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
