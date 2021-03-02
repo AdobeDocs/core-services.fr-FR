@@ -4,17 +4,17 @@ solution: Experience Cloud
 title: 'Présentation d’Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Présentation d’Experience Cloud Assets
 
-Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
+Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Un fichier est un document numérique, une image, une vidéo ou de l’audio (ou une partie de celui-ci) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, des calques dans un fichier [!DNL Photoshop], des diapositives dans un fichier [!DNL PowerPoint], des pages dans un PDF, des fichiers dans un ZIP).
 
 Les services de ressources comprennent ce qui suit :
 
@@ -64,7 +64,7 @@ La modification d’une ressource active plusieurs fonctionnalités, dont les su
 
 ## Recherche de ressources {#section_50FE049010B446FC9640AA6A30E5A730}
 
-Vous pouvez effectuer une recherche par mot clé, type de fichier, taille, date de dernière modification, statut de publication, orientation et style.
+Vous pouvez effectuer des recherches par mot-clé, type de fichier, taille, dernière modification, état de publication, orientation et style.
 
 ![](assets/asset-search.png)
 
