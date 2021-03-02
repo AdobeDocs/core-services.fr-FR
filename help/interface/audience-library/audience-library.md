@@ -4,9 +4,9 @@ type: Documentation
 title: 'Audiences Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Le tableau suivant décrit l’utilisation des audiences dans les solutions Expe
 | [!DNL Target] | Le [service d’ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) regroupe les ID de visiteur et les données dans un profil exploitable unique pouvant être utilisé dans plusieurs solutions différentes. La fonction [Publier dans Experience Cloud](../audience-library/audience-library.md), qui s’affiche pendant le processus de création d’un segment dans Adobe Analytics, rend le segment disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans Analytics ou dans Audience Manager peut être utilisé pour des activités dans [!DNL Target]. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’[!DNL Analytics] et les segments d’audience créés dans [!DNL Analytics]. |
 | Audience Manager | Les audiences partagées sont disponibles dans la segmentation Audience Manager. Toutes les audiences Experience Cloud sont disponibles de manière native dans Audience Manager, qui permet ce qui suit :<ul><li>Automatisation intégrée relative à la façon dont elles sont partagées et consommées dans les workflows de solution</li><li>Destinations hors site</li><li>Modélisation analogue</li></ul> |
 | Campaign | <ul><li>Importer les audiences partagées de différentes solutions Adobe Experience Cloud dans Adobe Campaign.</li><li>Exporter les listes de destinataires sous la forme d’audiences partagées. Ces audiences partagées peuvent être utilisées dans les différentes solutions Adobe Experience Cloud que vous utilisez.</li></ul> |
-| Media Optimizer | Utilisez l’audience comme cibles. |
+| Advertising Cloud | Utilisez l’audience comme cibles. |
 
 >[!IMPORTANT]
 >
