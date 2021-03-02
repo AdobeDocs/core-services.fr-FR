@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Activation des solutions pour les services principaux '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2357'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experience Platform Launch, vous êtes prêt pour les attributs du client et les audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans Admin Console.
 
-Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Pour ce faire, vous allez réaliser les opérations suivantes :
+Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Pour accomplir cette mise en oeuvre, vous allez :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
