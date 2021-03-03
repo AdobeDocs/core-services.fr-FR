@@ -1,15 +1,15 @@
 ---
-description: '"Moderniser vos solutions Adobe Analytics et Adobe Target pour les services intersolutions. Apprenez à début en utilisant les services Experience Cloud."'
+description: Modernisez vos solutions Adobe Analytics et Adobe Target pour les services intersolutions. Découvrez comment début à l’aide de services Experience Cloud.
 keywords: services principaux ; Attributs du client
 solution: Experience Cloud
-title: '"Activation de vos solutions pour les services intersolutions"'
+title: Activation de vos solutions pour les services intersolutions
 index: true
 feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
 level: Expérience
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
