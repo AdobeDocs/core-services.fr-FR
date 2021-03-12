@@ -7,12 +7,12 @@ uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
