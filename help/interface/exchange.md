@@ -4,20 +4,20 @@ keywords: services principaux
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"Attributs du client, bibliothèque d’Audiences, Admin Console"'
+feature: « Attributs du client, bibliothèque dʼaudiences, Admin Console »
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Marketplace
+# Exchange Marketplace
 
 Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent les connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
