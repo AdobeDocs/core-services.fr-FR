@@ -3,16 +3,16 @@ solution: Experience Cloud
 type: Documentation
 title: 'Audiences Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-description: Découvrez comment gérer la traduction des données visiteurs en segmentation des audiences dans le service d’Audience Experience Cloud.
+description: Découvrez comment gérer la traduction des données du visiteur en segmentation dʼaudience dans le service dʼaudiences dʼExperience Cloud.
 feature: Bibliothèque d’audiences
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Le tableau suivant décrit l’utilisation des audiences dans les solutions Expe
 | Aide avec | Ressource |
 |--- |--- |
 | Audiences introuvables ? | Vérifiez que des privilèges d’accès vous ont été attribués. Voir [Prise en main - Activation de vos solutions pour les services principaux](../core-services/core-services.md).<br>Cliquez [ici](https://www.adobe.com/go/audiences) pour demander l’accès au service principal Profils et audiences (formulaire de configuration des intégrations). |
-| Cas d’utilisation | Pour plus d’informations sur la solution à utiliser, consultez [Options de création d’audiences](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) dans la base de connaissances. |
+| Cas d’utilisation | Pour plus d’informations sur la solution à utiliser, consultez [Options de création d’audiences](https://helpx.adobe.com/fr/marketing-cloud-core/kb/People/Audience-Creation-Options.html) dans la base de connaissances. |
 | Forum | Le [forum Audiences](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) est une ressource supplémentaire pour obtenir de l’aide sur les audiences. |
 
 ## Éléments de l’interface de la bibliothèque d’audiences {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
