@@ -1,5 +1,5 @@
 ---
-description: Découvrez l’outil d’administration Experience Cloud. Vue d’une liste pouvant être triée et filtrée de tous les utilisateurs et stratégies Experience Cloud.
+description: Découvrez lʼoutil dʼadministration Experience Cloud. Affichez une liste que vous pouvez trier et filtrer de tous les utilisateurs et politiques dʼExperience Cloud.
 keywords: services principaux
 solution: Experience Cloud
 title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
@@ -7,12 +7,12 @@ index: true
 feature: Admin Console
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 * Nom
 * E-mail
 * Nom d’utilisateur (les comptes Federated ID peuvent avoir des noms d’utilisateur différents de ceux de l’adresse électronique)
-* [Type d’ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Type d’ID](https://helpx.adobe.com/fr/enterprise/using/identity.html)
 * Pays
 * Dernière connexion
 
