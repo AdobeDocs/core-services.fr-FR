@@ -7,12 +7,12 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 >
 >Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après 1 an d’inactivité, quelle que soit la date d’expiration des cookies d’ID de visiteur.
 
-## Nom du cookie : s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nom du cookie : s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Description |
 |--- |--- |
@@ -104,7 +104,7 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 >
 >Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez le service d’assistance clientèle.
 
-## Cookies définis par des modules externes  {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 D’autres cookies peuvent être définis en fonction de l’utilisation des modules externes Analytics. Ces cookies sont des fragments de code mis à la disposition du client pour une utilisation dans diverses circonstances. Ces circonstances comprennent la récupération des valeurs de l’URL, la concaténation de valeurs à transmettre à Analytics, la capture de l’abandon de formulaire, etc. Pour plus d’informations sur les cookies définis par chaque module externe, contactez ClientCare. Le cookie [!DNL s_vh] utilisé avec les modules complémentaires *Set Once Per* et *Set and Get Last Value* en est un exemple.
 
