@@ -1,18 +1,18 @@
 ---
-description: Modernisez vos solutions Adobe Analytics et Adobe Target pour les services intersolutions. Découvrez comment début à l’aide de services Experience Cloud.
-keywords: services principaux ; Attributs du client
+description: Modernisez vos solutions Adobe Analytics et Adobe Target pour obtenir des services inter-solutions. Découvrez comment débuter avec les services Experience Cloud.
+keywords: services principaux ; attributs du client
 solution: Experience Cloud
-title: Activation de vos solutions pour les services intersolutions
+title: Activation des solutions pour des services inter-solutions
 index: true
 feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experience Platform Launch, vous êtes prêt pour les attributs du client et les audiences Experience Cloud. Vous pouvez également gérer les utilisateurs et les produits dans Admin Console.
 
-Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Pour accomplir cette mise en oeuvre, vous allez :
+Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Suivez les étapes suivantes afin de réaliser cette mise en œuvre :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -103,7 +103,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 
 ### Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://docs.adobe.com/content/help/fr-FR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) dans [!DNL Target].)
 
@@ -233,4 +233,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/opt-out.html).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
