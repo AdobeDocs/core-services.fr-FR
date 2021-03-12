@@ -6,11 +6,11 @@ seo-title: Nouveautés d’Experience Cloud
 solution: Experience Cloud
 title: 'Nouveautés d’Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Correctifs et améliorations pour août 2018.
 * Amélioration de la synchronisation des commentaires des ressources dans Creative Cloud et Experience Cloud. (CORE-15971)
 * Ajout d’un indicateur de fonctionnalité permettant de contrôler la synchronisation des ressources Experience Cloud-Creative Cloud. (CORE-15938)
 * Améliorations apportées à la création de segments d’Audience, y compris l’amélioration de la recherche et de l’élaboration de listes. (CORE-5833, CORE-14278)
-* Correction d’un problème de priorité élevée qui bloquait le partage de dossiers de l’Experience Cloud au Creative Cloud. (CORE-16677)
+* Correction dʼun problème à priorité élevée qui bloquait le partage de dossiers depuis Experience Cloud vers Creative Cloud. (CORE-16677)
 
 ## 19 juillet 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
