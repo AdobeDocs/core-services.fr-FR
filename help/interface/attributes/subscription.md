@@ -1,18 +1,18 @@
 ---
 description: Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements activent le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et Target).
-keywords: Attributs du client ; services principaux
+keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Configuration des abonnements '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
