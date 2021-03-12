@@ -7,12 +7,12 @@ uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
