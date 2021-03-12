@@ -7,12 +7,12 @@ uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Bibliothèque d’audiences
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir
 
 ![](assets/chrome_safari.png)
 
-Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour afficher tous les visiteurs d’une section du site telle que Patio et meubles.
+Pour effectuer une comparaison, vous pouvez ajouter une règle *OR* pour afficher tous les visiteurs d’une section du site telle que Patio et meubles.
 
 ![](assets/audiences_rule_patio.png)
 
