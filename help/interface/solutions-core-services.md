@@ -3,17 +3,17 @@ description: Découvrez les dernières mises à jour en termes de branding pour 
 seo-description: Découvrez les dernières mises à jour en termes de branding pour les clouds, comment naviguer dans l’interface et où obtenir de l’aide pour les solutions et les services principaux.
 seo-title: À propos des nouveaux noms de cloud dans Experience Cloud
 solution: Experience Cloud
-title: 'A propos des noms de cloud dans l’Experience Cloud '
+title: 'À propos des noms de cloud dans Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Target s’intègre à Analytics et à d’autres services principaux Expe
 
 En tant que solution de gestion de contenus, Adobe Experience Manager facilite la gestion des ressources et contenus de vos sites web, applications mobiles, communautés et formulaires.
 
-Reportez-vous à [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) pour obtenir de l’aide.
+Reportez-vous à [Adobe Experience Manager 6.5](https://helpx.adobe.com/fr/support/experience-manager/6-5.html) pour obtenir de l’aide.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/aam-home.html)
 
@@ -106,7 +106,7 @@ Adobe Campaign vous permet de planifier, de livrer et de mesurer vos campagnes s
 
 Adobe Primetime est une plateforme TV multiécran qui permet aux diffuseurs de créer des expériences télévisuelles et cinématographiques attrayantes et personnalisables en fonction de l’audience.
 
-## Que sont les services principaux ?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## Que sont les services principaux ? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [Les services principaux](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/core-services-landing.html) incluent des fonctionnalités qui simplifient la mise en œuvre de produits et permettent des processus intersolutions tels que la segmentation d’audience, le chargement d’attributs du client et les outils de collaboration.
 
