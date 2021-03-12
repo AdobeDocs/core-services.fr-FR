@@ -4,15 +4,15 @@ keywords: Services d’Experience Cloud
 solution: Experience Cloud
 title: Mises à jour de la documentation
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: '"Attributs du client, bibliothèque d’Audiences, Admin Console, ressources"'
+feature: « Attributs du client, bibliothèque dʼaudiences, Admin Console, ressources »
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
