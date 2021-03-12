@@ -1,18 +1,18 @@
 ---
 description: Découvrez comment créer la source d’attributs du client et la télécharger vers Adobe Experience Cloud.
-keywords: Attributs du client ; services principaux
+keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
