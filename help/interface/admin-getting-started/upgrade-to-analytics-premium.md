@@ -1,18 +1,18 @@
 ---
-description: Découvrez les conditions requises et les conditions à respecter lors de la mise à niveau vers Analytics Premium.
-keywords: Mise à niveau de Adobe Analytics Premium
+description: Découvrez les conditions requises et ce quʼoffre la mise à niveau vers Analytics Premium.
+keywords: Mise à niveau vers Adobe Analytics Premium
 solution: Experience Cloud
-title: 'Mise à niveau vers Analytics Premium et l’Experience Cloud '
+title: 'Mettez à niveau vers Analytics Premium et Experience Cloud '
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](../adm
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
