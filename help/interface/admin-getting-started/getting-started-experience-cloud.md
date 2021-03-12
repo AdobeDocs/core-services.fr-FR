@@ -1,18 +1,18 @@
 ---
 description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page de destination par défaut.
-keywords: services principaux, connexion à l’Experience Cloud
+keywords: services principaux, connexion à Experience Cloud
 solution: Experience Cloud
 title: 'Connexion et gestion des paramètres du profil Experience Cloud '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
    Sur la page Profil et mots de passe, renseignez les champs et les options sous Détails personnels.
 
-## Récupération du mot de passe  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Récupération du mot de passe {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Naviguez jusqu’à la page d’ouverture de session de votre solution.
 1. Cliquez sur **[!UICONTROL Mot de passe oublié]**.
