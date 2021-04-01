@@ -6,16 +6,16 @@ feature: 'Attributs du client '
 role: Administrateur
 topic: Administration
 level: Expérimenté
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '488'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
 
 
-# Attributs du client dans Experience Cloud
+# Attributs du client  aperçu
 
 Les attributs du client dans Adobe Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez télécharger les données dans une source de données d’attributs du client dans Experience Cloud, puis utiliser ces données dans Adobe Analytics et Adobe Target.
 
