@@ -8,16 +8,16 @@ feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
 level: Expérimenté
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '522'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
 
-# Considérations relatives à la confidentialité des attributs du client dans Experience Cloud
+# Considérations relatives à la confidentialité des attributs du client
 
 Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
 
