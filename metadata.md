@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services
@@ -11,9 +11,9 @@ getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/g
 tutorials-title: Tutoriels
 tutorials-url: https://docs.adobe.com/content/help/fr-FR/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.fr-FR
-translation-type: ht
-source-git-commit: d317fe52be9449592e3d027056af8a4f6a3a7599
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
