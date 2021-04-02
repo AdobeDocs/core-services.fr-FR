@@ -9,9 +9,9 @@ topic: Administration
 role: Administrateur
 level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,3 @@ Voir [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA
 **Mise à jour : 22/05/2014**
 
 Mise à jour de la section [Gestion des utilisateurs et des produits Experience Cloud](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) avec plus d’informations sur la façon de devenir administrateur dans Experience Cloud.
-
-**Mise à jour : 22/05/2014**
-
-Ajout de la section [Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59).
