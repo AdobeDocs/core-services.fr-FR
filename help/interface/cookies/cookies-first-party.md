@@ -9,11 +9,11 @@ feature: Cookies
 topic: Administration
 role: Administrateur
 level: Expérimenté
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,9 @@ Deux options permettent de mettre en œuvre des cookies propriétaires :
 * Service Experience Platform ID. Le service d’ID peut définir le cookie dans le contexte propriétaire à l’aide de JavaScript.
 * Entrées DNS sur le serveur DNS de votre société pour configurer un alias CNAME vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point de terminaison propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur ses domaines. Cette pratique nécessitant toutefois des cookies tiers pour tous les domaines en dehors du domaine CNAME, elle ne fonctionne pas lorsque des cookies tiers sont bloqués : elle n’est donc pas recommandée. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à différents clients.
 
-Même si vous utilisez la première option avec le service Experience Cloud ID, l’ITP d’Apple réduit grandement la durée de vie des cookies propriétaires. Il est donc préférable de combiner leur utilisation à la seconde option.
+>[!NOTE]
+>
+>Pour les deux options, le programme ITP (Intelligent Tracking Prevention) d’Apple rend les cookies propriétaires de courte durée sur les navigateurs qui sont régis par ITP, notamment Safari sur MacOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les deux types de cookies ont une expiration de sept jours. Cette échéance est sujette à modification.
 
 Pour la seconde option utilisant un CNAME, si votre site comporte des pages sécurisées à l’aide du protocole HTTPS, vous pouvez vous rapprocher d’Adobe pour obtenir un certificat SSL dans le but de mettre en œuvre des cookies propriétaires. Adobe recommande vivement l’utilisation exclusive du protocole HTTPS pour la collecte de données, car la prise en charge de la collecte par le biais du protocole HTTP sera abandonnée au cours du second semestre 2020.
 
@@ -94,7 +96,7 @@ Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucu
 
 >[!NOTE]
 >
->Le service Experience Cloud Visitor ID offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires. En raison des récentes modifications de l’ITP Apple, il est cependant toujours recommandé d’allouer un CNAME même lors de l’utilisation du service Experience Cloud ID.
+>Le service d’identification des Visiteurs Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires.
 
 ## Validation du transfert du nom d’hôte {#validate}
 
