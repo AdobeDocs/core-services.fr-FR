@@ -2,14 +2,14 @@
 description: Découvrez la gestion des utilisateurs et des produits Adobe Experience Cloud ainsi que les services Personnes (audiences et attributs du client), Journey Orchestration, Offres, Places, Experience Platform Launch et Mobile Services.
 solution: Experience Cloud
 title: 'Présentation des services Experience Cloud '
-feature: « Attributs du client, bibliothèque dʼaudiences »
+feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
 level: Expérimenté
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '483'
+translation-type: tm+mt
+source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+workflow-type: tm+mt
+source-wordcount: '481'
 ht-degree: 100%
 
 ---
