@@ -10,7 +10,7 @@ topic: Administration
 role: Administrateur
 level: Expérimenté
 translation-type: tm+mt
-source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 95%
