@@ -9,9 +9,9 @@ topic: Administration
 role: Administrateur
 level: Expérimenté
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '3966'
 ht-degree: 100%
 
 ---
@@ -505,7 +505,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Aide</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. </p> <p>Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces, des rapports et des cartes <span class="keyword">Experience Cloud</span>. </p> <p>Voir <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Aide</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. </p> <p>Les applications comprennent les Data Connectors, des configurations personnalisées du produit principal d’Adobe, des applications tierces, des rapports et des cartes <span class="keyword">Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiences Experience Cloud </p> </td> 
