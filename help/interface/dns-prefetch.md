@@ -3,14 +3,14 @@ description: Découvrez comment mettre en œuvre la prérécupération DNS pour 
 solution: Experience Cloud
 title: 'Utilisation de la prérécupération DNS avec différents services et solutions '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: « Attributs du client, bibliothèque dʼaudiences, Admin Console »
+feature: 'Attributs du client '
 topic: Administration
 role: Administrateur
 level: Expérimenté
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '389'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
