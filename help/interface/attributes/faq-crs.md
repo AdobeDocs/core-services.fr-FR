@@ -4,10 +4,10 @@ keywords: 'Attributs du client '
 solution: Experience Cloud
 title: 'Obtenir des réponses aux questions fréquemment posées sur les attributs du client '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-feature: 'Attributs du client '
+feature: Customer Attributes
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

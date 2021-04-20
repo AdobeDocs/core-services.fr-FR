@@ -4,10 +4,10 @@ keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Téléchargement du fichier de données d’attributs du client via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 'Attributs du client '
+feature: Customer Attributes
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

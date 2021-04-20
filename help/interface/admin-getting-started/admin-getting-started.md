@@ -5,8 +5,8 @@ title: 'Gestion des utilisateurs et des produits '
 index: true
 feature: Admin Console
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

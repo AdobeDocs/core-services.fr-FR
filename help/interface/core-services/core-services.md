@@ -4,10 +4,10 @@ keywords: services principaux ; attributs du client
 solution: Experience Cloud
 title: Activation des solutions pour des services inter-solutions
 index: true
-feature: 'Attributs du client '
+feature: Customer Attributes
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: ht

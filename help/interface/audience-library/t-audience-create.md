@@ -4,10 +4,10 @@ keywords: services principaux
 solution: Experience Cloud
 title: 'Création d’une audience '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Bibliothèque d’audiences
+feature: Audience Library
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

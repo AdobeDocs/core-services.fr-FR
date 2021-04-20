@@ -4,10 +4,10 @@ keywords: services principaux
 solution: Experience Cloud
 title: 'Notes de mise à jour cumulatives '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"Attributs du client"'
+feature: "Customer Attributes"
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt

@@ -6,8 +6,8 @@ title: 'Transfert d’une ressource vers un dossier partagé depuis le navigateu
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

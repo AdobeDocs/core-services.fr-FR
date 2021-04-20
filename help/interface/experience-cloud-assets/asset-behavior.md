@@ -6,8 +6,8 @@ title: 'Comportement des dossiers partagés '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

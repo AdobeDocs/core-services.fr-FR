@@ -1,10 +1,10 @@
 ---
 title: 'Prise en charge des attributs du client pour le Règlement général sur la protection des données '
 description: Découvrez la prise en charge des attributs du client pour le Règlement général sur la protection des données
-feature: 'Attributs du client '
+feature: Customer Attributes
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

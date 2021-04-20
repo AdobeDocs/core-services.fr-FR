@@ -6,8 +6,8 @@ title: 'Cookies et confidentialité '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookies
 topic: Administration
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
