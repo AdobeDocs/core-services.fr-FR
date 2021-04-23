@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # Cookies Data Connectors {#data-connectors-cookies}
 
@@ -39,4 +39,3 @@ Data Connectors utilise des cookies pour fournir aux annonceurs des mesures de p
   </tr> 
  </tbody> 
 </table>
-
