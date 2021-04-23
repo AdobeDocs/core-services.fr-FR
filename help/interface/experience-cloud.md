@@ -4,20 +4,20 @@ keywords: Services Adobe Experience Cloud, attributs du client, audiences, admin
 solution: Experience Cloud
 title: 'Services d’Experience Cloud et administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
+feature: '"Attributs du client"'
 topic: Administration
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
-
-# Guide d&#39;administration et de services Experience Cloud
+# Services et guide de lʼadministrateur Experience Cloud
 
 Experience Cloud désigne la famille intégrée de solutions et de services de marketing numérique d’Adobe. Il s’agit également d’une interface intuitive qui vous permet d’accéder rapidement à vos solutions cloud et services principaux.
 
