@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # À propos des cookies et de la confidentialité {#about-cookies-and-privacy}
 
@@ -36,4 +36,3 @@ Le schéma suivant illustre l’utilisation des cookies pour une demande d’ima
 Le schéma suivant illustre l’utilisation des cookies pour une demande d’image directe (utilisée dans les scénarios où un fichier JS n’est pas chargé) :
 
 ![](assets/CookiesProcessGraphic2.png)
-
