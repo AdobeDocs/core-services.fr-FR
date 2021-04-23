@@ -1,6 +1,6 @@
 ---
-title: Composants et services de l’interface utilisateur Experience Cloud
-description: Découvrez les composants de l’interface utilisateur, l’administration des utilisateurs et des produits dans Adobe Admin Console, la bibliothèque d’Audiences, les attributs du client, les ressources des Experience Cloud, etc.
+title: Composants et services de lʼUI Experience Cloud
+description: Découvrez les composants de lʼinterface utilisateur, lʼadministration des utilisateurs et des produits dans Adobe Admin Console, les bibliothèques dʼaudiences, les attributs du client, les ressources Experience Cloud et plus encore.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -17,7 +17,7 @@ translation-type: tm+mt
 source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
