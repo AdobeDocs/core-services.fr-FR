@@ -8,14 +8,14 @@ feature: Assets
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 100%
 
 ---
-
 
 # Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud
 
