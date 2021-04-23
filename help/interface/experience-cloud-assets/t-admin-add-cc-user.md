@@ -8,14 +8,14 @@ feature: Assets
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des utilisateurs Creative Cloud
 
