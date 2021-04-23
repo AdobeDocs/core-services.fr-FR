@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Deux options permettent de mettre en œuvre des cookies propriétaires :
 
 >[!NOTE]
 >
->Pour les deux options, le programme ITP (Intelligent Tracking Prevention) d’Apple rend les cookies propriétaires de courte durée sur les navigateurs qui sont régis par ITP, notamment Safari sur MacOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les deux types de cookies ont une expiration de sept jours. Cette échéance est sujette à modification.
+>Pour les deux options, le programme Intelligent Tracking Prevention (ITP) dʼApple fait en sorte que les cookies propriétaires aient une courte durée de vie sur les navigateurs qui sont régis par lʼITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les deux types de cookies expirent au bout de sept jours. Cette échéance est sujette à modification.
 
 Pour la seconde option utilisant un CNAME, si votre site comporte des pages sécurisées à l’aide du protocole HTTPS, vous pouvez vous rapprocher d’Adobe pour obtenir un certificat SSL dans le but de mettre en œuvre des cookies propriétaires. Adobe recommande vivement l’utilisation exclusive du protocole HTTPS pour la collecte de données, car la prise en charge de la collecte par le biais du protocole HTTP sera abandonnée au cours du second semestre 2020.
 
@@ -102,7 +102,7 @@ Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucu
 
 >[!NOTE]
 >
->Le service d’identification des Visiteurs Experience Cloud offre une alternative à la configuration d’un CNAME pour activer les cookies propriétaires.
+>Le service dʼidentifiant visiteur Experience Cloud fournit une alternative à la configuration dʼun enregistrement CNAME pour activer les cookies propriétaires.
 
 ## Validation du transfert du nom d’hôte {#validate}
 
