@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '350'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
-
 
 # Cookies Experience Cloud {#experience-cloud-cookies}
 
