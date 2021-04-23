@@ -4,18 +4,18 @@ keywords: Attributs du client ; services Experience Cloud
 solution: Experience Cloud
 title: 'Validation du schéma d’attributs du client '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
+feature: 'Attributs du client '
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
-
 
 # Validation du schéma
 
