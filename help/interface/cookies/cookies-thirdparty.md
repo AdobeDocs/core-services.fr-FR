@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
-
 
 # Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ? {#how-changes-to-third-party-cookie-support-impacts-customers}
 
