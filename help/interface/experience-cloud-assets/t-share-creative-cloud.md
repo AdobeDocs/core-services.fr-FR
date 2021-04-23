@@ -8,14 +8,14 @@ feature: Assets
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
-
 
 # Partage d’un dossier de ressources Experience Cloud
 
