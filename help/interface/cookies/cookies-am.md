@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '613'
+source-wordcount: '611'
 ht-degree: 100%
 
 ---
-
 
 # Cookies Audience Manager {#audience-manager-cookies}
 
