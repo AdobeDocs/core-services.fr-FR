@@ -8,14 +8,14 @@ feature: Admin Console
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '782'
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
-
 
 # Questions fréquentes à propos d’Experience Cloud
 
