@@ -8,11 +8,11 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Les actifs sont un service principal hérité, désormais sous maintenance.
+>Assets est un service principal hérité, désormais sous maintenance.
 
 Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document, une image, une vidéo ou de lʼaudio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques dʼun fichier [!DNL Photoshop], les diapositives dʼun fichier [!DNL PowerPoint], les pages dʼun PDF ou les fichiers dʼun ZIP).
 
