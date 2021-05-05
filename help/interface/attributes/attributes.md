@@ -7,11 +7,11 @@ role: Administrator
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
