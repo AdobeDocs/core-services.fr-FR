@@ -9,11 +9,11 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
+workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -56,9 +56,9 @@ Les guides Experience Cloud associés sont les suivants :
 
 Profitez des tutoriels d’aide autonome et des instructions rapides dans Experience League :
 
-* [Tous les tutoriels dans Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Tutoriels Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Plateforme de données clients en temps réel](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Tous les tutoriels dans Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Tutoriels Experience Platform](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Plateforme de données clients en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Notes de mise à jour et aide Experience Cloud associée
 
