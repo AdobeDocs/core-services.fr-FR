@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '3964'
-ht-degree: 100%
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +23,16 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html).
+
+## Mai - 2021
+
+| Fonctionnalité | Date | Description |
+| ------- | ------- | ------- |
+| En-tête et navigation de l’Experience Cloud | 20 mai 2021 | Les mises à jour de Adobe Experience Cloud incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre et au lien pour contrôler les préférences supplémentaires de l’avatar de l’utilisateur dans l’en-tête de l’Experience Cloud. Bien que toutes les applications d’Experience Cloud ne les prennent pas en charge, cette fonctionnalité libère la prise en charge future des thèmes. |
+| Recherche globale Experience Cloud | 20 mai 2021 | Avec cette version, la recherche globale Experience Cloud vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[Experience League](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans Experience Cloud, tel que les segments, les jeux de données, les schémas, etc.). |
+| Préférences de langue Experience Cloud | 20 mai 2021 | Cette mise à jour offre la possibilité de définir vos langues préférées dans les [Préférences](https://experience.adobe.com/preferences) Experience Cloud. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Août - 2020
 
