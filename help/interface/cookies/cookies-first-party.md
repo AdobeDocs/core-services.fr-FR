@@ -10,24 +10,25 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 91%
+source-wordcount: '1629'
+ht-degree: 83%
 
 ---
 
 # À propos des cookies propriétaires
 
-Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Ces cookies inoffensifs, issus d’un domaine hébergé par Adobe, sont des cookies tiers.
+Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Si possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et logiciels anti-espions sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données Analytics. Afin de prendre en charge votre suivi de la manière dont vos visiteurs interagissent avec votre site web, vous pouvez mettre en œuvre des cookies propriétaires.
+De nombreux navigateurs et logiciels anti-espions sont conçus pour rejeter et supprimer les cookies tiers, y compris ceux utilisés dans la collecte de données Analytics. Pour prendre en charge votre suivi de la manière dont vos visiteurs interagissent avec votre site web, vous devez vous assurer que vous avez configuré votre collecte de données pour utiliser des cookies propriétaires :
 
 Deux options permettent de mettre en œuvre des cookies propriétaires :
 
-* Service Experience Platform ID. Le service d’ID peut définir le cookie dans le contexte propriétaire à l’aide de JavaScript.
-* Entrées DNS sur le serveur DNS de votre société pour configurer un alias CNAME vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point de terminaison propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si ce client contrôle plusieurs domaines, il peut utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur ses domaines. Cette pratique nécessitant toutefois des cookies tiers pour tous les domaines en dehors du domaine CNAME, elle ne fonctionne pas lorsque des cookies tiers sont bloqués : elle n’est donc pas recommandée. Les CNAME Adobe ne sont jamais utilisés pour effectuer le suivi d’un individu ou d’un périphérique sur des domaines appartenant à différents clients.
+* Si vous utilisez le service Experience Platform Identity (alias service ECID), il définit automatiquement les cookies dans le contexte propriétaire à l’aide de JavaScript.
+* Si vous utilisez des identifiants Analytics hérités (ou le cookie &quot;s_vi&quot;), cela dépendra de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un [identifiant de secours (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) propriétaire au lieu du cookie &quot;s_vi&quot; standard.
+
+Pour vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME pour laquelle les cookies pourront être définis dans un contexte propriétaire. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par l’Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point de terminaison propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
 
 >[!NOTE]
 >
@@ -53,15 +54,15 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour les 
 
 2. Créez des enregistrements CNAME (voir les instructions ci-dessous).
 
-   Lors de la réception du billet, un représentant du service à la clientèle doit vous fournir un enregistrement CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu’Adobe puisse acheter le certificat en votre nom. Le CNAME sera semblable à ce qui suit :
+   Lors de la réception du ticket, un représentant de l’Assistance clientèle doit vous fournir un enregistrement CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu’Adobe puisse acheter le certificat en votre nom. Le CNAME ressemble à ce qui suit :
 
    **Sécurisé** : par exemple, le nom d’hôte `smetrics.example.com` désigne : `example.com.adobedc.net`.
 
 >[!NOTE]
-> Par le passé, nous avons recommandé aux clients de configurer deux CNAME un pour HTTPS et un autre pour HTTP. Comme il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, il n’est plus recommandé de configurer un CNAME pour le protocole HTTP. Si vous en avez besoin, voici à quoi ressemble :
->    **Non sécurisé** — le nom d’hôte `metrics.example.com` pointe vers : `example.com.adobedc.net`.
+> Par le passé, nous recommandions aux clients de configurer deux CNAME, un pour HTTPS et un autre pour HTTP. Étant donné qu’une bonne pratique consiste à chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne recommandons plus de configurer un CNAME pour ce dernier. Si vous en avez toutefois besoin, voici ce à quoi il devrait ressembler :
+>    **Non sécurisé** - le nom d’hôte `metrics.example.com` désigne : `example.com.adobedc.net`.
 
-1. Une fois le CNAME en place, l’Adobe collaborera avec DigiCert pour acheter et installer un certificat sur les serveurs de production de l’Adobe.
+1. Lorsque ce CNAME est en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d’Adobe.
 
    Si vous disposez d’une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l’environnement de production d’Adobe, vous pouvez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d’hôtes. En d’autres termes, si le site n’est pas sécurisé (HTTP), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (HTTPS), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
 
@@ -87,13 +88,13 @@ Les certificats SSL expirent chaque année, ce qui signifie qu’Adobe doit ache
 
 L’équipe des opérations réseau de votre organisation doit configurer vos serveurs DNS en créant un ou plusieurs enregistrements CNAME. Chaque nom d’hôte transfère les données aux serveurs de collecte de données d’Adobe.
 
-Le spécialiste FPC vous fournit le nom d’hôte configuré et le CNAME auquel il doit pointer. Par exemple :
+Le spécialiste des cookies propriétaires vous fournit le nom d’hôte configuré et le CNAME vers lequel ils doivent pointer. Par exemple :
 
 * **Nom d’hôte SSL** : `smetrics.mysite.com`
 * **Enregistrement CNAME SSL** : `mysite.com.adobedc.net`
 
 >[!NOTE]
-> Si vous utilisez encore non sécurisé, le système ressemblera à ceci.
+> Si vous utilisez encore la version non sécurisée, cela ressemble à ce qui suit.
 > * **Nom d’hôte non-SSL** : `metrics.mysite.com`
 > * **Enregistrement CNAME non SSL** : `mysite.com.adobedc.net`
 
