@@ -6,14 +6,14 @@ feature: '"Composants de l’interface centrale"'
 topic: Administration
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-# Interface d’Experience Cloud 
+# Aide de l’interface d’Experience Cloud
 
 Les composants de l’interface centrale de l’Experience Cloud incluent des fonctionnalités qui vous permettent d’effectuer les opérations suivantes :
 
@@ -43,11 +43,7 @@ Cliquez sur le sélecteur d’applications ![](assets/menu-icon.png) pour accéd
 
 ## Recherche et prise en charge dans Experience Cloud {#search}
 
-La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home). Vous pouvez également rechercher des objets commerciaux, tels que des segments, des jeux de données, des schémas, etc.
-
->[!NOTE]
->
->La recherche d’objets commerciaux est disponible uniquement pour les utilisateurs Experience Platform.
+La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ Dans le menu des préférences du compte, vous pouvez :
 
 ### Gérer les [!UICONTROL Préférences Experience Cloud] {#preferences}
 
-Les préférences de l’Experience Cloud incluent les notifications, les abonnements et les alertes. Vous pouvez configurer comment
+Les préférences de l’Experience Cloud incluent les notifications, les abonnements et les alertes.
 
 Cliquez sur **[!UICONTROL Préférences]** dans le menu ![](assets/preferences-icon-sm.png) de votre compte pour gérer les préférences.
 
