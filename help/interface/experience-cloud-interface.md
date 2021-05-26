@@ -6,22 +6,34 @@ feature: '"Composants de l’interface centrale"'
 topic: Administration
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 6%
 
 ---
 
-# Composants de l’interface centrale Experience Cloud
+# Interface d’Experience Cloud 
 
-Les composants de l’interface centrale d’Experience Cloud incluent des fonctionnalités qui vous permettent d’effectuer les opérations suivantes :
+Les composants de l’interface centrale de l’Experience Cloud incluent des fonctionnalités qui vous permettent d’effectuer les opérations suivantes :
 
-* Accès à vos applications et services
+* Connexion et accès à vos applications et services
 * Recherche d’objets commerciaux et d’aide sur un produit à l’aide d’une recherche globale
 * Gestion des préférences du compte (alertes, notifications et abonnements)
 
-## ![](assets/menu-icon.png) Accès aux applications Experience Cloud {#navigation}
+## Connectez-vous à Experience Cloud
+
+Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](admin-getting-started/organizations.md).
+
+1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html).
+1. Cliquez sur **[!UICONTROL Se connecter avec une Adobe ID]**.
+1. Sur Adobe Experience Cloud, cliquez sur votre organisation.
+
+   ![](assets/organizations-menu.png)
+
+   Votre administrateur peut vous aider à vérifier que vous vous trouvez dans la [organisation](admin-getting-started/organizations.md) appropriée.
+
+## Accès aux applications Experience Cloud {#navigation}
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
@@ -29,7 +41,7 @@ Cliquez sur le sélecteur d’applications ![](assets/menu-icon.png) pour accéd
 
 ![](assets/platform-core-services.png)
 
-## ![](assets/help-icon.png) Recherche et prise en charge dans Experience Cloud {#search}
+## Recherche et prise en charge dans Experience Cloud {#search}
 
 La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home). Vous pouvez également rechercher des objets commerciaux, tels que des segments, des jeux de données, des schémas, etc.
 
@@ -46,7 +58,7 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants :
 * **[!UICONTROL État] :** accédez à  `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel du produit et  [!UICONTROL gérez les abonnements].
 * **[!UICONTROL Developer Connection] :** navigation vers  `adobe.io` et recherche de la documentation destinée aux développeurs.
 
-## ![](assets/preferences-icon.png) Préférences de compte  {#account-menu}
+## Préférences de compte {#account-menu}
 
 Dans le menu des préférences du compte, vous pouvez :
 
@@ -73,6 +85,10 @@ Sur [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fonc
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les emails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
-## ![](assets/notifications.png) Notifications et annonces
+## Notifications et annonces
 
-**** Notifications et  **[!UICONTROL annonces] :** voir les notifications qui vous sont importantes et les annonces d’Adobe. Vous pouvez configurer des notifications dans [préférences Experience Cloud](#preferences).
+Cliquez sur **[!UICONTROL Notifications]** pour afficher les notifications qui sont importantes pour vous et les annonces d’Adobe.
+
+![](assets/notifications-menu-small.png)
+
+Vous pouvez configurer des notifications dans [préférences Experience Cloud](#preferences).
