@@ -9,7 +9,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 **Correctifs et améliorations**
 
-* Lorsque vous accédez à [!DNL experiencecloud.adobe.com], le processus d’ouverture de session est désormais cohérent avec l’ouverture d’une session Adobe Creative Cloud.
+* Lorsque vous accédez à [!DNL experience.adobe.com], le processus d’ouverture de session est désormais cohérent avec l’ouverture d’une session Adobe Creative Cloud.
 * Sur la page Gérer les organisations, l’expérience de liaison (après réception d’une invitation) est maintenant cohérente pour chaque solution.
 
 **Problèmes connus**
