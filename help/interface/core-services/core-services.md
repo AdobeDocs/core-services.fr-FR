@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '2367'
-ht-degree: 100%
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +23,11 @@ Si vous avez récemment mis en œuvre Experience Cloud à l’aide d’Experien
 Pour les clients existants, vous devrez peut-être moderniser les mises en œuvre de votre solution et mettre en œuvre Experience Cloud. Cela vous permet d’exploiter les attributs du client et les fonctions d’audience dans Adobe Analytics, Audience Manager et Adobe Target. Suivez les étapes suivantes afin de réaliser cette mise en œuvre :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Mettre en œuvre le service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
+1. [Implémentation du service Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Mapper des suites de rapports à une organisation Experience Cloud](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Mettre à jour votre code Analytics AppMeasurement](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Mettre à jour votre mise en œuvre Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Vérifier la mise en œuvre](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Vérification de la mise en œuvre](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gérer les utilisateurs et les produits](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Commencer à partager les données d’attribut et d’audience](#section_960C06093623462E8EA247B3E97274A1)
 
@@ -54,9 +53,9 @@ Procédez comme suit pour rejoindre Experience Cloud :
 
 ### Connexion d’administrateur
 
-Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+Une fois que vous êtes administrateur, vous pouvez vous connecter à [experience.adobe.com](https://experience.adobe.com).
 
-Le lien **[!UICONTROL Administration]** apparaît dans le menu Experience Cloud.
+Le lien **[!UICONTROL Admin Console]** s’affiche dans le menu de navigation de l’Experience Cloud.
 
 Voir [Administration des utilisateurs et des produits Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) pour plus d’informations.
 
@@ -65,7 +64,7 @@ Voir [Administration des utilisateurs et des produits Experience Cloud](../admi
 Pour se connecter à Experience Cloud, les utilisateurs doivent :
 
 * posséder un Adobe ID (ou un Enterprise ID pour votre société).
-* se connecter à [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+* Connectez-vous à [experience.adobe.com](https://experience.adobe.com).
 * appartenir à un groupe de solutions mappé avec un groupe d’entreprises.
 * Si nécessaire, liez leurs comptes de solution à leur Adobe ID (comme décrit ci-après).
 
@@ -103,7 +102,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 
 ### Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://docs.adobe.com/content/help/fr-FR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) dans [!DNL Target].)
 
@@ -233,4 +232,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/opt-out.html).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) pour en savoir plus sur l’activation du suivi interdomaines.
