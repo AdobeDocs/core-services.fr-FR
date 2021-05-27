@@ -9,9 +9,8 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](../adm
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analyse des contributions](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
@@ -85,7 +84,7 @@ Les logiciels s’exécutant sur site doivent être désactivés, Cela inclut Se
 
 Experience Cloud et les services principaux sont accessibles aux utilisateurs d’Analytics Standard et Premium, à condition que vous ayez suivi la modernisation de la mise en œuvre décrite dans [Prise en main - Activation de vos solutions pour les services principaux](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous permet de moderniser votre mise en œuvre et de devenir administrateur dans Experience Cloud.)
 
-Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au moyen d’Experience Cloud à l’adresse [!DNL experiencecloud.adobe.com] et commencer à utiliser les services principaux (dont les attributs du client, les audiences et l’analyse d’applications mobiles).
+Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au moyen d’Experience Cloud à l’adresse [!DNL experience.adobe.com] et commencer à utiliser les services principaux (dont les attributs du client, les audiences et l’analyse d’applications mobiles).
 
 ### Administration des utilisateurs et des groupes
 
