@@ -9,7 +9,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 99%
@@ -53,7 +53,7 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 1. Vérifiez auprès de votre administrateur que votre [organisation](../admin-getting-started/organizations.md) a reçu les privilèges d’accès dans Experience Cloud.
 
 
-1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Cliquez sur **[!UICONTROL Se connecter avec l’Adobe ID]**.
 
    Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
@@ -138,11 +138,11 @@ Vous pouvez éventuellement vous connecter à une page spécifique au sein d’u
 
 ### Modèle d’URL
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 Exemple d’URL :
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
