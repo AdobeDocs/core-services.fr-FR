@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -25,8 +24,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 
 ## Adobe Analytics et Adobe Target
 
-* Les clients disposant d’une [mise en œuvre propriétaire](/help/interface/cookies/cookies-first-party.md) ne seront globalement pas affectés.
-* Les clients qui n’utilisent pas la mise en œuvre propriétaire peuvent mettre en œuvre le [service Experience Platform ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-guides.html) pour stocker le cookie d’ID en tant que cookie propriétaire sans mise en œuvre propriétaire.
+* Analytics et Target ne seront en grande partie pas affectés, car la même activité de site repose uniquement sur des cookies propriétaires. Des cookies tiers sont nécessaires pour comprendre l’activité des utilisateurs sur plusieurs domaines. Pour les navigateurs où les cookies tiers sont bloqués, le suivi inter-domaines ne sera pas possible à l’aide des cookies.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
    * L’affichage dépend aussi fortement de la disponibilité de divers cookies réseau publicitaires pour la synchronisation.
    * L’impact global est inconnu. Cependant, au premier point, l’affichage est plus affecté que les autres services.
    * Nous travaillons à l’interne et avec nos partenaires publicitaires pour évaluer l’ampleur de l’impact sur la diffusion publicitaire.
-
-* Social :
-
-   * Il n’y a pas d’impact sur les publicités de marché Facebook.
-   * Facebook Exchange (FBX) sera affecté de la même manière que l’affichage et la diffusion des publicités.
