@@ -6,11 +6,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 66%
 
 ---
 
@@ -22,19 +21,19 @@ Cette page décrit la prise en charge des [!UICONTROL attributs du client] pour 
 >
 >Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez votre service juridique pour obtenir des conseils concernant le (CCPA).
 
-Le CCPA est la nouvelle loi californienne sur la protection des données confidentielles, qui est entrée en vigueur le 1er janvier 2020. Le CCPA accorde aux résidents de Californie de nouveaux droits concernant leurs données confidentielles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie. Le CCPA accorde aux consommateurs le droit d’accéder à leurs informations personnelles et de les supprimer ainsi que le droit de se désinscrire de certaines activités qualifiées de « vente » d’informations personnelles à un tiers.
+Le CCPA est la nouvelle loi californienne sur la protection des données confidentielles, qui est entrée en vigueur le 1er janvier 2020. Le CCPA accorde aux résidents de Californie de nouveaux droits concernant leurs données confidentielles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie. Le CCPA accorde aux consommateurs le droit d’accéder à leurs informations personnelles et de les supprimer ainsi que le droit de se désinscrire de certaines activités qualifiées de &quot;vente&quot; d’informations personnelles à un tiers.
 
-En tant qu’entreprise, vous déterminerez les données personnelles qu’Adobe Experience Cloud traite et stocke en votre nom.
+En tant qu’entreprise, vous déterminez les données personnelles que Adobe Experience Cloud traite et stocke pour vous.
 
-En tant que fournisseur, Adobe Experience Cloud fournit une aide à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA qui s’appliquent à l’utilisation des produits et services Experience Cloud, y compris la gestion des demandes d’accès et de suppression des informations personnelles.
+En tant que fournisseur de services, Adobe Experience Cloud fournit une assistance à votre entreprise pour qu’elle remplisse ses obligations en vertu du CCPA qui s’appliquent à l’utilisation des produits et services Experience Cloud. Cette prise en charge inclut la gestion des demandes d’accès et de suppression des informations personnelles.
 
-Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
+Ce document décrit comment [!UICONTROL Client                   Les droits d’accès et de suppression des données du CCPA de vos sujets des données à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur du Privacy Service.
 
 Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/ccpa.html).
 
 ## Configuration requise pour envoyer des requêtes relatives aux [!UICONTROL attributs du client]
 
-Pour envoyer des requêtes d’accès et de suppression de données pour les [!UICONTROL attributs du client], vous devez :
+Pour envoyer des demandes d’accès et de suppression de données pour [!UICONTROL Attributs du client], vous devez :
 
 1. Identifier les éléments suivants :
 
