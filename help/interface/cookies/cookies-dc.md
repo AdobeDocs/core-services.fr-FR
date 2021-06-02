@@ -9,17 +9,16 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
 # Cookies Data Connectors {#data-connectors-cookies}
 
-Data Connectors utilise des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
+[!UICONTROL Data ] Connectors utilise des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
