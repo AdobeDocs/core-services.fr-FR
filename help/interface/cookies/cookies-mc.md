@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur
 
 **Nom du cookie : AMCV_###@AdobeOrg**
 
-Le [service Experience Platform ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) utilise JavaScript pour stocker un ID de visiteur unique dans un cookie `AMCV_###@AdobeOrg` dans le domaine du site web actuel, où `###` représente une chaîne de caractères aléatoire telle que `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+Le [service Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) utilise JavaScript pour stocker un ID de visiteur unique dans un cookie `AMCV_###@AdobeOrg` dans le domaine du site web actuel, où `###` représente une chaîne de caractères aléatoire telle que `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Voir aussi [Cookies et service d’ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html).
+Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -94,7 +93,7 @@ Voir aussi [Cookies et service d’ID](https://docs.adobe.com/content/help/fr-FR
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aucune valeur ajoutée. Chrome est défini par défaut sur Lax. </p> </td> 
-   <td colname="col2"> <p> Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Il s’agit de la nouvelle valeur par défaut pour les cookies dans Chrome. </p> </td> 
+   <td colname="col2"> <p> Les cookies comprenant ce paramètre sont uniquement envoyés lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Il s’agit de la nouvelle valeur par défaut pour les cookies dans Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
