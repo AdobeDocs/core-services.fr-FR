@@ -2,11 +2,10 @@
 description: Découvrez comment les solutions et services d’Adobe Experience Cloud utilisent les cookies.
 title: 'Utilisation des cookies dans Experience Cloud '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,6 @@ Des cookies sont fournis pour conserver des informations pendant et parfois entr
 
 >[!NOTE]
 >
->En vertu des lois, réglementations et principes d’autoréglementation en vigueur, il se peut que vous deviez obtenir l’autorisation des visiteurs avant de pouvoir stocker ou récupérer des informations sur un ordinateur ou tout autre appareil connecté au web. Nous vous invitons à examiner, avec votre conseiller juridique, les lois, réglementations et principes qui régissent l’utilisation des cookies.
+>En vertu des lois, réglementations et principes d’autoréglementation en vigueur, il se peut que vous deviez obtenir l’autorisation des visiteurs avant de pouvoir stocker ou récupérer des informations sur un ordinateur ou tout autre appareil connecté au web. Adobe vous conseille de vérifier auprès de votre conseiller juridique quelles lois, réglementations et principes régissent l’utilisation des cookies.
 
 Cette documentation décrit les cookies utilisés par la suite. Elle a été conçue pour vous aider à comprendre vos obligations en matière d’obtention du consentement du visiteur.
