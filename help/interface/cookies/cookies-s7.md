@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Pour les visionneuses AS2, les cookies :
 Pour la visionneuse de catalogue électronique Flash AS2, les cookies :
 
 * stockent le contenu généré par l’utilisateur (notamment le contenu saisi par l’utilisateur dans la fonction « pense-bêtes » de la visionneuse de catalogue électronique). Ce contenu est restauré lorsque l’utilisateur reprend une session.
-* lorsque l’utilisateur envoie un e-mail pour partager le catalogue électronique avec un autre utilisateur, le contenu des pense-bêtes provenant de la deuxième puce des visionneuses AS2 est copié sur nos serveurs afin de le fournir au destinataire. Lorsque le destinataire lance la session de la visionneuse, le contenu des pense-bêtes est récupéré sur le serveur et copié dans un cookie. Cette fonction est peu utilisée, de sorte qu’elle n’expire pas et que le contenu obsolète n’est pas supprimé. Actuellement, celle-ci persiste indéfiniment sur les serveurs.
+* lorsque l’utilisateur envoie un e-mail pour partager le catalogue électronique avec un autre utilisateur, le contenu des pense-bêtes provenant de la deuxième puce des visionneuses AS2 est copié sur nos serveurs afin de le fournir au destinataire. Lorsque le destinataire lance la session de la visionneuse, le contenu des pense-bêtes est récupéré sur le serveur et copié dans un cookie. Cette fonction est peu utilisée, de sorte qu’elle n’expire pas et que le contenu obsolète n’est pas supprimé. Actuellement, il persiste indéfiniment sur les serveurs.
 
 Les nouvelles visionneuses AS3 ne mettent pas en œuvre la persistance de session.
 
