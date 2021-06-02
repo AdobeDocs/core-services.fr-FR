@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -38,7 +37,7 @@ Adobe réalise que ces types de décisions marketing et publicitaires peuvent av
 
 Adobe recommande de hacher les informations d’identification personnelle avant de les transférer vers Adobe Analytics ou Adobe Target. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe Analytics et à Adobe Target, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
 
-Adobe recommande aux publicitaires de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquelles ils peuvent utiliser de telles informations.
+Adobe recommande à ses publicitaires de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquelles ils peuvent utiliser ces informations.
 
 La législation relative à la confidentialité des données des consommateurs étant en constante évolution, Adobe recommande aux annonceurs de respecter trois principes communs :
 
@@ -46,4 +45,4 @@ La législation relative à la confidentialité des données des consommateurs �
 1. Dites ce que vous faites (dans votre politique de confidentialité).
 1. Ne surprenez pas vos consommateurs.
 
-En tenant compte de ceci, Adobe recommande que lorsqu’il associe des activités de navigation à des informations d’identification personnelle, le publicitaire indique par un avis ou autre que le client est authentifié, en incluant par exemple un message de bienvenue dans l’en-tête du site web. Adobe préconise également aux publicitaires de décrire dans leur politique de confidentialité quel type d’informations de navigation sont associées aux informations d’identification personnelle et dans quelles circonstances elles le sont. Enfin, Adobe recommande vivement aux annonceurs de passer en revue les choix d’exclusion qu’ils proposent à leurs clients afin de comprendre si et comment ils peuvent utiliser des informations de profil non authentifiées après exclusion.
+En tenant compte de ceci, Adobe recommande que lorsqu’il associe des activités de navigation à des informations d’identification personnelle, le publicitaire indique par un avis ou autre que le client est authentifié, en incluant par exemple un message de bienvenue dans l’en-tête du site web. Adobe préconise également aux publicitaires de décrire dans leur politique de confidentialité quel type d’informations de navigation sont associées aux informations d’identification personnelle et dans quelles circonstances elles le sont. Enfin, Adobe recommande vivement aux annonceurs de passer en revue les choix d’exclusion qu’ils proposent à leurs clients afin de comprendre si et comment ils peuvent utiliser les informations de profil non authentifiées après exclusion.
