@@ -1,5 +1,5 @@
 ---
-description: Comment Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
+description: Comment Data Workbench utilise les cookies pour analyser en temps réel d’importants volumes de données qui évoluent rapidement.
 keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Data Workbench '
@@ -9,24 +9,23 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '91'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 61%
 
 ---
 
 # Cookies Data Workbench {#data-workbench-cookies}
 
-Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
+Data Workbench utilise des cookies pour analyser en temps réel d’importants volumes de données qui évoluent rapidement.
 
 **Nom du cookie : v1st**
 
 | Attribut | Description |
 |---|---|
 | Informations stockées | Horodatage de l’ID de visiteur unique. |
-| Expiration | Il s’agit d’un cookie persistant. |
+| Expiration | Ce cookie est persistant. |
 | Utilisation | Ce cookie permet d’identifier un visiteur unique.. |
 | Emplacement | Ce cookie est stocké dans le domaine de la page. |
 | Taille | 8 octets, ou 13 octets si la partie « name = » (v1st=) est incluse |
