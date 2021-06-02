@@ -7,9 +7,8 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 
@@ -19,5 +18,5 @@ ht-degree: 100%
 
 Comment supprimer et remplacer des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL Modifier la source d’attributs du client], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous [!UICONTROL Configurer les abonnements]).
+1. Sur la page [!UICONTROL Modifier la source d’attributs du client], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
