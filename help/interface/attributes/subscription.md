@@ -9,17 +9,16 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # Configuration des abonnements dans Experience Cloud
 
-Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements permettent d’activer le flux de données d’attributs du client entre Experience Cloud et les solutions (Analytics et [!DNL Target]).
+Découvrez les sources de données des solutions et comment configurer les abonnements. Les abonnements activent le flux de données d’attributs du client entre l’Experience Cloud et les solutions ([!DNL Analytics] et [!DNL Target]).
 
 Par exemple, un abonnement Adobe Analytics active les données d’attribut dans les rapports. Si vous utilisez Adobe Target, vous pouvez charger des attributs de client pour le ciblage et la segmentation.
 
