@@ -9,17 +9,16 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 60%
 
 ---
 
 # Activation des paramètres de confidentialité pour les cookies de navigateur {#enable-privacy-settings-for-browser-cookies}
 
-Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Cette fonctionnalité constitue un paramètre de confidentialité qui exclut les utilisateurs refusant la collecte de données. Il vous permet de respecter l’intention d’un utilisateur d’arrêter le traitement par Analytics.
+Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Cette fonctionnalité est un paramètre de confidentialité qui exclut les utilisateurs qui se sont désinscrits de la collecte de données, ce qui vous permet de respecter l’intention d’un utilisateur d’arrêter le traitement d’Analytics.
 
 **Pour activer les paramètres de confidentialité pour les cookies de navigateur**
 
@@ -29,10 +28,10 @@ Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les na
 
 >[!IMPORTANT]
 >
->De nombreuses applications mobiles (telles que les navigateurs intégrés aux applications Facebook ou Twitter) peuvent ressembler à des navigateurs mobiles de base, mais n’acceptent pas tous les cookies. L’activation de cette fonctionnalité peut exclure une grande partie du trafic mobile des rapports Analytics.
+>De nombreuses applications mobiles (telles que le navigateur intégré à l’application pour Facebook ou Twitter) peuvent apparaître comme navigateur mobile standard, mais n’autorisent pas tous les cookies. L’activation de cette fonctionnalité peut exclure une grande partie du trafic mobile des rapports Analytics.
 
 **À propos des paramètres de confidentialité du navigateur**
 
-Les législations et réglementations en vigueur ont stipulé que le fait qu’un utilisateur bloque les cookies revient à se désinscrire du profilage. En activant cette fonction, les données collectées auprès des navigateurs de bureau dans lesquels l’utilisateur a bloqué tous les cookies seront exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur web, les données seront incluses dans les rapports Analytics.
+Les législations et réglementations en vigueur ont stipulé que le fait qu’un utilisateur bloque les cookies revient à se désinscrire du profilage. En activant cette fonction, les données collectées auprès des navigateurs de bureau, où l’utilisateur a défini le navigateur pour bloquer tous les cookies, sont exclues des rapports Analytics. Si Adobe ne peut pas reconnaître le navigateur web, les données sont incluses dans les rapports [!DNL Analytics].
 
-Les législateurs du monde entier ont déclaré (à la fois dans la réglementation et la jurisprudence) que les paramètres pour les cookies de navigateur indiquent que l’utilisateur choisit de s’exclure du profilage. Plus précisément, ces législateurs ont déclaré que le paramètre du navigateur servant à bloquer les cookies tiers constitue une demande d’exclusion du suivi tiers (intersite). Le blocage de tous les cookies constitue une demande d’exclusion de tout suivi. Bien que les identifiants côté serveur (tels que l’adresse IP ou l’agent utilisateur) puissent représenter une option attrayante pour contourner les paramètres pour les cookies de navigateur, certains législateurs les considèrent comme un moyen d’outrepasser le choix de l’utilisateur.
+Les législateurs du monde entier ont déclaré (à la fois dans la réglementation et la jurisprudence) que les paramètres pour les cookies de navigateur indiquent que l’utilisateur choisit de s’exclure du profilage. Plus précisément, ces législateurs ont déclaré que le paramètre du navigateur servant à bloquer les cookies tiers constitue une demande d’exclusion du suivi tiers (intersite). Le blocage de tous les cookies constitue une demande d’exclusion de tout suivi. Bien que les identifiants côté serveur (tels que l’adresse IP ou l’agent utilisateur) puissent être une option souhaitable qui contourne les paramètres du navigateur de cookies, certains législateurs les considèrent comme un contournement du choix de l’utilisateur.
