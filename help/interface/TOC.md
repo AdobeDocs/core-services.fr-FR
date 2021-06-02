@@ -4,10 +4,10 @@ user-guide-title: 'Composants de l’interface centrale Experience Cloud '
 breadcrumb-title: Composants de l’interface centrale Experience Cloud
 user-guide-description: Découvrez l’interface de l’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et les ressources Experience Cloud.
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
    + [[!DNL Search and Promote]Cookies ](cookies/cookies-snp.md)
    + [[!DNL Target]Cookies ](cookies/cookies-target.md)
    + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
-   + [Comment les modifications liées à la prise en charge des cookies tiers affectent-elles les clients](cookies/cookies-thirdparty.md)
+   + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
 + Gestion des utilisateurs et des produits {#manage-users-and-products}
    + [Gestion de l’identité de l’utilisateur et des produits d’Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
    + [Présentation de l’Activation](activation/activation.md)
-   + [Guide de l’utilisateur d’Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html)
-   + [Guide d’utilisation du gestionnaire dynamique de balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html)
+   + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Guide d’utilisation du gestionnaire dynamique de balises](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Triggers](activation/triggers.md)
 + Ressources Experience Cloud {#assets}
    + [Présentation des ressources d’Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [Prise en charge du California Consumer Privacy Act](attributes/ccpa.md)
    + [Considérations relatives à la confidentialité des attributs du client](attributes/privacy-mac.md)
 + Notes de mise à jour d’Experience Cloud {#release-notes}
-   + [Nouveautés d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)
+   + [Nouveautés d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [Notes de mise à jour cumulatives](marketing-cloud-interface/release-notes.md)
 + Plus de ressources {#more-resources}
-   + [Forum](https://forums.adobe.com/community/experience-cloud)
+   + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
    + [Utilisation de la prérécupération DNS avec différents services et solutions](dns-prefetch.md)
    + [Mises à jour de la documentation](doc-updates.md)
