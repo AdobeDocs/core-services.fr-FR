@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ La fonction Attributs du client est conçue pour gérer quelques fichiers par jo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client. </p> <p> <b>Exigences en matière de nommage :</b> assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. </p> </td> 
+   <td colname="col2"> <p>Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attribut du client. </p> <p> <b>Exigences en matière de nommage :</b> assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -85,7 +85,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limites d’attribut </p> </td> 
-   <td colname="col2"> <p>Vous pouvez transférer des centaines de colonnes <span class="filepath">.csv</span> vers le service d’attributs du client dans Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes s’appliquent, selon les solutions que vous détenez : </p> <p> 
+   <td colname="col2"> <p>Vous pouvez charger des centaines de colonnes <span class="filepath"> .csv </span> dans le service Attribut client de l’Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes s’appliquent, selon les solutions que vous détenez : </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b> : 3 au total </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b> : 200 par suite de rapports </li> 
@@ -121,7 +121,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers multiples </p> </td> 
-   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez le surveiller en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP [!UICONTROL Attributs du client]. </p> <p> La ventilation d’un fichier volumineux en fichiers plus petits et leur envoi en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer que chaque fichier est traité avant d’envoyer le suivant. </p> </td> 
+   <td colname="col2"> <p>Lors du chargement des données d’attributs du client, si vous souhaitez charger plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, assurez-vous que le fichier précédent a été traité avant de charger le fichier suivant. Vous pouvez le surveiller en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP [!UICONTROL Attributs du client]. </p> <p> La ventilation d’un fichier volumineux en fichiers plus petits et leur envoi en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer que chaque fichier est traité avant d’envoyer le suivant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encodage des caractères </p> </td> 
@@ -140,7 +140,7 @@ Le même fichier affiché dans un éditeur de texte :
 
 ## Utilisation de plusieurs sources de données {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des ID avec la nouvelle source de données peut prendre jusqu’à une heure.
+Lors de la création, de la modification ou de la suppression de sources d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données prend environ une heure.
 
 L’ID d’alias de chaque source d’attributs du client doit être unique. Si plusieurs sources de données utilisent le même ID, elles peuvent être configurées comme suit :
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 Dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]** :
 
-Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs du client.
+Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs clientes.
