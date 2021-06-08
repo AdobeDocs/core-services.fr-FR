@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4094'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -256,7 +256,7 @@ Pas d’informations disponibles.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Attributs du client </p> </td> 
-   <td colname="col2"> <p>Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois les données transférées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données transférées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus d’informations sur la modernisation de vos solutions pour les services principaux, voir <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation de vos solutions pour les services principaux</a>. </p> </td> 
+   <td colname="col2"> <p>Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données Attribut client de l’Experience Cloud. Une fois les données transférées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données transférées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus d’informations sur la modernisation de vos solutions pour les services principaux, voir <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation de vos solutions pour les services principaux</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
