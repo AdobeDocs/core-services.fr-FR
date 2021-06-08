@@ -8,14 +8,14 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 31%
 
 ---
 
-# Composants de l’interface centrale Experience Cloud
+# Composants de lʼinterface centrale dʼExperience Cloud
 
 [Famille intégrée d’applications, de produits et de services de marketing numérique d’Experience ](https://experience.adobe.com) Cloud. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 
@@ -30,7 +30,7 @@ Dans l’en-tête de l’Experience Cloud, vous pouvez :
 
 ## Connectez-vous à Experience Cloud
 
-Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](admin-getting-started/organizations.md).
+Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
 1. Cliquez sur **[!UICONTROL Se connecter avec une Adobe ID]**.
@@ -38,7 +38,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](a
 
    ![](assets/organizations-menu.png)
 
-   Votre administrateur peut vous aider à vérifier que vous vous trouvez dans la [organisation](admin-getting-started/organizations.md) appropriée.
+   Votre administrateur peut vous aider à vérifier que vous vous trouvez dans la [organisation](organizations.md) appropriée.
 
 ## Accès aux applications Experience Cloud {#navigation}
 
@@ -75,7 +75,7 @@ La recherche globale est disponible uniquement pour les utilisateurs Experience 
 Les préférences de l’Experience Cloud incluent les notifications, les abonnements et les alertes. Dans le menu des préférences du compte, vous pouvez :
 
 * Spécifiez un thème sombre (toutes les applications ne prennent pas en charge ce thème).
-* Recherchez [Organisations](admin-getting-started/organizations.md)
+* Recherchez [Organisations](organizations.md)
 * Se déconnecter
 * Configuration des préférences, notifications et abonnements du compte
 
@@ -87,13 +87,13 @@ Sur [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fonc
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [organisation](admin-getting-started/organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
+| [organisation](organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
 | [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre email. |
 | [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les emails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
-## Notifications et annonces
+## Notifications et annonces {#notifications}
 
 Cliquez sur **[!UICONTROL Notifications]** pour être averti des mises à jour pertinentes et exploitables, notamment des mises à jour de produits, des avis de maintenance, des articles partagés et des demandes d’approbation.
 
@@ -103,19 +103,19 @@ Cliquez sur **[!UICONTROL Notifications]** pour être averti des mises à jour p
 
 Ce guide permet d’accéder à l’aide relative à l’administration des produits et des utilisateurs Experience Cloud dans Admin Console et d’activer ainsi des solutions pour les services de plateforme. Vous pouvez également accéder à l’aide de la bibliothèque d’audiences, des attributs du client, d’Experience Cloud Assets, etc. :
 
-* [[!UICONTROL Bibliothèque d’audiences]](audience-library/audience-library.md)
-* [[!UICONTROL Attributs du client]](attributes/attributes.md)
-* [[!UICONTROL Triggers]](activation/triggers.md)
-* [Ressources [!UICONTROL Experience Cloud]](experience-cloud-assets/experience-cloud-assets.md)
-* [Cookies Experience Cloud](cookies/cookies-privacy.md)
-* [Gestion des utilisateurs et des produits](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [Activation des solutions pour les services principaux](core-services/core-services.md)
-* [Questions fréquemment posées](admin-getting-started/admin-getting-started.md)
-* [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
+* [[!UICONTROL Bibliothèque d’audiences]](audience-library.md)
+* [[!UICONTROL Attributs du client]](attributes.md)
+* [[!UICONTROL Triggers]](triggers.md)
+* [Ressources [!UICONTROL Experience Cloud]](experience-cloud-assets.md)
+* [Cookies Experience Cloud](cookies-privacy.md)
+* [Gestion des utilisateurs et des produits](admin-getting-started.md) (Admin Console)
+* [Activation des solutions pour les services principaux](core-services.md)
+* [Questions fréquemment posées](admin-getting-started.md)
+* [Liaison d’organisations et de comptes](organizations.md)
 * [Intégrations](marketing-cloud-integrations.md)
 * [Intégration d’Adobe Target avec Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Présentation de la confidentialité et de la sécurité d’Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Prérécupération DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [Prérécupération DNS](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Guides
 
