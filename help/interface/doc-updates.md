@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 93%
+source-wordcount: '247'
+ht-degree: 89%
 
 ---
 
@@ -20,40 +20,44 @@ ht-degree: 93%
 
 Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
+**Mise à jour : 6/4/2021**
+
+Réorganisation de la structure, de la table des matières du guide.
+
 **Mise à jour : 6/1/2021**
 
 Mise à jour de la [landing page](experience-cloud.md) avec nouvelle aide pour l’accès aux notifications, aux recherches globales, aux préférences et aux Experience Cloud.
 
 **Mise à jour : 19/08/2020**
 
-Mise à jour de l’[Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md) avec ajout des informations sur la politique.
+Mise à jour de l’[Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-tool-experience-cloud.md) avec ajout des informations sur la politique.
 
 **Mise à jour : 19/05/2020**
 
-Documentation sur la gestion des offres obsolète.
+Documentation sur la Gestion des offres obsolète.
 
 **Mise à jour : 15/05/2020**
 
 Ajout des pages suivantes :
 
-* [Prise en charge du Règlement général sur la protection des données](attributes/gdpr.md)
-* [Prise en charge du California Consumer Privacy Act](attributes/ccpa.md)
+* [Prise en charge du Règlement général sur la protection des données](gdpr.md)
+* [Prise en charge du California Consumer Privacy Act](ccpa.md)
 
 **Mise à jour : 10/03/2020**
 
-Mise à jour de [Validation du transfert du nom d’hôte](cookies/cookies-first-party.md#validate) dans la section des cookies propriétaires.
+Mise à jour de [Validation du transfert du nom d’hôte](cookies-first-party.md#validate) dans la section des cookies propriétaires.
 
 **Mise à jour : 20/02/2020**
 
-Ajout de la section [Affichage des informations sur les utilisateurs d’Experience Cloud (outils d’administration)](admin-getting-started/admin-tool-experience-cloud.md).
+Ajout de la section [Affichage des informations sur les utilisateurs d’Experience Cloud (outils d’administration)](admin-tool-experience-cloud.md).
 
 **Mise à jour : 05/09/2018**
 
-Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Mise à jour : 8/06/2018**
 
-Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
+Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
 
 **Mise à jour : 06/06/2018**
 
@@ -69,15 +73,15 @@ Révision de la dernière version du guide.
 
 **Mise à jour : 15/03/2017**
 
-Mise à jour de la définition des données Analytics brutes dans [Création d’une audience](audience-library/t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
+Mise à jour de la définition des données Analytics brutes dans [Création d’une audience](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
 
 **Mise à jour : 23/02/2017**
 
-Ajout de la section [Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
+Ajout de la section [Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Mise à jour : 01/02/2017**
 
-Ajout du [mappage des suites de rapports](core-services/core-services.md#concept_apg_zq2_rw) en tant qu’étape pour l’[activation des services principaux](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Ajout du [mappage des suites de rapports](core-services.md#concept_apg_zq2_rw) en tant qu’étape pour l’[activation des services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Mise à jour : 09/05/2016**
 
@@ -85,22 +89,22 @@ Ajout de la section [Intégrations Experience Cloud](marketing-cloud-integration
 
 **Mise à jour : 11/02/2016**
 
-Ajout de la section [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
+Ajout de la section [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
 
 **Mise à jour : 02/03/2015**
 
-Ajout de la section [Activation des solutions pour les services principaux](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Ajout de la section [Activation des solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Mise à jour : 15/01/2015**
 
-Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir [Partage des ressources](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Les utilisateurs Experience Cloud peuvent maintenant partager des dossiers sur Creative Cloud et synchroniser les ressources et commentaires sur les deux clouds. Voir [Partage des ressources](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Mise à jour : 17/07/2014**
 
-Ajout de la section [FAQ Experience Cloud](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) pour les administrateurs.
+Ajout de la section [FAQ Experience Cloud](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) pour les administrateurs.
 
 **Mise à jour : 22/05/2014**
 
 Ajout d’une documentation pour l’interface Audiences.
 
-Voir [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
+Voir [Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
