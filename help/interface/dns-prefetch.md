@@ -8,11 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +21,7 @@ Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement 
 
 ## Présentation de la prérécupération DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Les navigateurs utilisent la prérécupération DNS pour associer automatiquement les noms de domaine d’une page web aux adresses IP correspondantes. Le processus de prérécupération commence lorsque votre navigateur charge une page web. Par exemple, supposons que votre page comporte un lien cliquable vers `www.adobe.com`. Lorsqu’un navigateur charge cette page, il utilise le [système DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) pour rechercher le nom de domaine associé et le convertir en adresse IP numérique correspondante. La prérécupération DNS contribue à améliorer les performances des pages, car le nom de domaine est converti en une adresse IP avant même qu’un visiteur du site ne clique sur un lien ou un bouton. Le processus de prérécupération DNS est transparent pour les utilisateurs.
+Les navigateurs utilisent la prérécupération DNS pour associer automatiquement les noms de domaine d’une page web aux adresses IP correspondantes. Le processus de prérécupération commence lorsque votre navigateur charge une page web. Par exemple, supposons que votre page contient un lien cliquable vers `www.adobe.com`. Lorsqu’un navigateur charge cette page, il utilise le [système DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) pour rechercher le nom de domaine associé et le convertir en adresse IP numérique correspondante. La prérécupération DNS contribue à améliorer les performances des pages, car le nom de domaine est converti en une adresse IP avant même qu’un visiteur du site ne clique sur un lien ou un bouton. Le processus de prérécupération DNS est transparent pour les utilisateurs.
 
 ## Prérécupération DNS et solutions Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -35,7 +34,7 @@ Cependant, vous pouvez mettre en œuvre manuellement la prérécupération DNS a
 
 ## Exemples de code de prérécupération DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Les exemples suivants vous montrent comment effectuer des appels de prérécupération DNS vers différents services et solutions [!DNL Experience Cloud]. Certains appels de prérécupération requièrent votre ID d’organisation [!DNL Adobe] ou des informations relatives au serveur de suivi. Dans ces exemples, le code en *italique* représente une variable. Vous pouvez remplacer ce code par votre propre ID de partenaire [!DNL Adobe], votre code client, des informations sur votre serveur de suivi, etc.
+Les exemples suivants vous montrent comment effectuer des appels de prérécupération DNS vers différents services et solutions [!DNL Experience Cloud]. Certains appels de prérécupération requièrent votre ID d’organisation [!DNL Adobe] ou des informations relatives au serveur de suivi. Dans ces exemples, le code en *italique* représente une variable. Vous pouvez remplacer ce code par votre propre [!DNL Adobe] identifiant de partenaire, code client, informations sur le serveur de suivi, etc.
 
 * **Analytics :** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -45,9 +44,9 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast. *`insérer un ID de partenaire ici`*.demdex.net">`
 
-* **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens de gestion dynamique des balises sont disponibles dès le chargement de la page.
+* **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens de la gestion dynamique des balises sont disponibles au chargement de la page.
 
-* **Media Optimizer (Ad Cloud) :**
+* **Media Optimizer (Advertising Cloud) :**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
