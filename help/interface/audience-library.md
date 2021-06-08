@@ -9,14 +9,14 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Les audiences sont des collections de visiteurs (une liste d’identifiants visiteur). La bibliothèque d’audiences d’Adobe vous permet de gérer la traduction des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion d’audiences est similaire à la création et à l’utilisation de segments. Vous pouvez également partager les segments ciblés avec des produits et services dans [!DNL Experience Cloud].
 
