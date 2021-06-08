@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '2334'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -198,7 +198,7 @@ Profitez des fonctionnalités suivantes.
 
 ### [!UICONTROL Personnes] > [!UICONTROL Attributs du client]
 
-Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données Attribut client de l’Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 Voir [Attributs du client](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
