@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment créer la source d’attributs du client et la télécharger vers Adobe Experience Cloud.
+description: Découvrez comment créer la source d’attributs du client et la charger dans Adobe Experience Cloud.
 keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
@@ -9,16 +9,16 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
 # Création d’une source d’attributs du client et transfert du fichier de données
 
-Création d’une source d’attributs du client (fichiers CSV et FIN) et transfert des données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target.
+Créez la source d’attributs du client (fichiers CSV et FIN) et chargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target.
 
 ## Workflow Attributs du client {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -65,7 +65,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
 >[!IMPORTANT]
 >
->Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez le service à la clientèle ou le service d’assistance clientèle d’Audience Manager pour obtenir des droits d’administration.
+>Lors de la création, de la modification ou de la suppression de sources d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Vous devez disposer de droits d’administration dans Audience Manager pour créer ou modifier des sources d’attributs du client. Contactez le service à la clientèle ou le service d’assistance clientèle d’Audience Manager pour obtenir des droits d’administration.
 
 1. Dans [!DNL Experience Cloud], cliquez sur l’icône ![](assets/menu-icon.png) Menu.
 1. Sous **[!DNL Experience Platform]**, cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
@@ -82,7 +82,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. ID unique utilisé dans le code de la source d’attributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ ID d’alias pour une source d’attributs du client dans l’interface utilisateur d’Experience Cloud doit correspondre aux valeurs transmises à partir de la mise en œuvre (que ce soit par le biais de la gestion dynamique des balises ou du script JavaScript du SDK mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, telle qu’un système CRM spécifique. ID unique utilisé dans le code de la source d’attributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ ID d’alias pour une source d’attributs du client dans l’interface utilisateur de l’Experience Cloud doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par le biais de la gestion dynamique des balises ou du code JavaScript du SDK mobile).
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
