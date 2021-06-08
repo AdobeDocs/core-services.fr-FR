@@ -4,22 +4,22 @@ user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
 breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 user-guide-description: Découvrez l’interface de l’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et les ressources Experience Cloud.
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Composants de l’interface centrale Experience Cloud](experience-cloud.md)
++ [Guide des composants de l’interface centrale d’Experience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
-   + [Présentation des services d’Experience Cloud](core-services-landing.md)
+   + [Services d’Experience Cloud](core-services-landing.md)
    + [Activation de votre mise en œuvre pour les services inter-solutions](core-services.md)
-   + Audiences Experience Cloud {#audiences}
-      + [Service d’audiences Experience Cloud](audience-library.md)
+   + Bibliothèque d’audiences Experience Cloud {#audiences}
+      + [Audiences Experience Cloud](audience-library.md)
       + [Création d’une audience](t-audience-create.md)
       + [Publication d’un segment d’audience Analytics](t-publish-audience-segment.md)
    + Attributs du client Experience Cloud {#customer-attributes}
