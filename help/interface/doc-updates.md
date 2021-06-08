@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Ajout de la section [Affichage des informations sur les utilisateurs d’Experie
 
 **Mise à jour : 05/09/2018**
 
-Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Ajout de la procédure de suppression d’un attribut de client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Mise à jour : 8/06/2018**
 
