@@ -1,26 +1,26 @@
 ---
-description: Découvrez comment transférer les données dʼattributs du client via FTP vers Experience Cloud.
+description: Découvrez comment télécharger des données d’attributs du client via FTP vers l’Experience Cloud.
 keywords: Attributs du client;services principaux
 solution: Experience Cloud
-title: 'Téléchargement du fichier de données d’attributs du client via FTP '
+title: 'Transfert du fichier de données Attribut client par FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 'Attributs du client '
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 90%
+ht-degree: 67%
 
 ---
 
 # Facultatif – Transfert du fichier de données par FTP
 
-Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données d’attributs du client vers Experience Cloud par FTP.
+Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données Attribut client vers l’Experience Cloud par FTP.
 
-Vous pouvez transférer les données après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le transfert est terminé.
+Vous pouvez transférer les données après avoir créé une source d’attributs du client et un compte FTP dans l’Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le transfert est terminé.
 
 >[!IMPORTANT]
 >
