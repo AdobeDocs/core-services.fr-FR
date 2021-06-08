@@ -1,81 +1,78 @@
 ---
 audience: administrator
-user-guide-title: 'Composants de l’interface centrale Experience Cloud '
-breadcrumb-title: Composants de l’interface centrale Experience Cloud
+user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
+breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 user-guide-description: Découvrez l’interface de l’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et les ressources Experience Cloud.
 index: true
-source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
+source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 77%
+source-wordcount: '341'
+ht-degree: 82%
 
 ---
 
 
-# Composants de l’interface centrale Experience Cloud {#interface}
+# Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
 + [Composants de l’interface centrale Experience Cloud](experience-cloud.md)
-+ Services d’Experience Cloud {#about-core-services}
++ Services d’Experience Cloud {#services}
    + [Présentation des services d’Experience Cloud](core-services-landing.md)
-   + [Activation de votre mise en œuvre pour les services inter-solutions](core-services/core-services.md)
-   + [Mappage de suites de rapports à une organisation](core-services/report-suite-mapping.md)
-   + [À propos des nouveaux noms de cloud dans Experience Cloud](solutions-core-services.md)
-+ [Intégrations Experience Cloud](marketing-cloud-integrations.md)
-+ Cookies Experience Cloud {#ec-cookies}
-   + [Présentation des cookies Experience Cloud](cookies/cookies-privacy.md)
-   + [Cookies propriétaires dans Experience Cloud](cookies/cookies-first-party.md)
-   + [Cookies Analytics](cookies/cookies-analytics.md)
-   + [Cookies Audience Manager](cookies/cookies-am.md)
-   + [Cookies [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
-   + [Cookies Experience Cloud](cookies/cookies-mc.md)
-   + [Cookies Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7]Cookies ](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote]Cookies ](cookies/cookies-snp.md)
-   + [[!DNL Target]Cookies ](cookies/cookies-target.md)
-   + [Activation des paramètres de confidentialité pour les cookies de navigateur](cookies/browser-cookie-settings.md)
-   + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ?](cookies/cookies-thirdparty.md)
-+ Gestion des utilisateurs et des produits {#manage-users-and-products}
-   + [Gestion de l’identité de l’utilisateur et des produits d’Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-getting-started/admin-tool-experience-cloud.md)
-   + [Questions fréquemment posées](admin-getting-started/faq.md)
-   + [Liaison d’organisations et de comptes](admin-getting-started/organizations.md)
-   + [Mise à niveau vers Analytics Premium et Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
-   + [Présentation de l’Activation](activation/activation.md)
-   + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
-   + [Guide d’utilisation du gestionnaire dynamique de balises](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
-   + [Triggers](activation/triggers.md)
-+ Ressources Experience Cloud {#assets}
-   + [Présentation des ressources d’Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
-   + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](experience-cloud-assets/creative-cloud.md)
-   + [Gestion des utilisateurs Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
-   + [Partage d’un dossier de ressources Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
-   + [Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
-   + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Exigences relatives aux fichiers de ressources pour le partage](experience-cloud-assets/assets-file-reqs.md)
-   + [Comportement des dossiers partagés](experience-cloud-assets/asset-behavior.md)
-+ Bibliothèque d’audiences Experience Cloud {#audiences}
-   + [Service d’audiences Experience Cloud](audience-library/audience-library.md)
-   + [Création d’une audience](audience-library/t-audience-create.md)
-   + [Publication d’un segment d’audience Analytics](audience-library/t-publish-audience-segment.md)
-+ Attributs du client Experience Cloud {#customer-attributes}
-   + [Attributs du client  aperçu](attributes/attributes.md)
-   + [Questions fréquentes sur les attributs du client](attributes/faq-crs.md)
-   + [À propos du fichier de données et des sources de données pour les attributs du client](attributes/crs-data-file.md)
-   + [Création d’une source d’attributs du client et transfert du fichier de données](attributes/t-crs-usecase.md)
-   + [Facultatif – Transfert du fichier de données par FTP](attributes/t-upload-attributes-ftp.md)
-   + [Validation du schéma](attributes/validate-schema.md)
-   + [Configuration des abonnements](attributes/subscription.md)
-   + [Mise à jour du schéma](attributes/t-update-schema.md)
-   + [Prise en charge du Règlement général sur la protection des données](attributes/gdpr.md)
-   + [Prise en charge du California Consumer Privacy Act](attributes/ccpa.md)
-   + [Considérations relatives à la confidentialité des attributs du client](attributes/privacy-mac.md)
-+ Notes de mise à jour d’Experience Cloud {#release-notes}
+   + [Activation de votre mise en œuvre pour les services inter-solutions](core-services.md)
+   + Audiences Experience Cloud {#audiences}
+      + [Service d’audiences Experience Cloud](audience-library.md)
+      + [Création d’une audience](t-audience-create.md)
+      + [Publication d’un segment d’audience Analytics](t-publish-audience-segment.md)
+   + Attributs du client Experience Cloud {#customer-attributes}
+      + [Attributs du client  aperçu](attributes.md)
+      + [Questions fréquentes sur les attributs du client](faq-crs.md)
+      + [À propos du fichier de données et des sources de données pour les attributs du client](crs-data-file.md)
+      + [Création d’une source d’attributs du client et transfert du fichier de données](t-crs-usecase.md)
+      + [Facultatif – Transfert du fichier de données par FTP](t-upload-attributes-ftp.md)
+      + [Validation du schéma](validate-schema.md)
+      + [Configuration des abonnements](subscription.md)
+      + [Mise à jour du schéma](t-update-schema.md)
+      + [Prise en charge du Règlement général sur la protection des données](gdpr.md)
+      + [Prise en charge du California Consumer Privacy Act](ccpa.md)
+      + [Considérations relatives à la confidentialité des attributs du client](privacy-mac.md)
+   + Experience Cloud Activation {#activation}
+      + [Présentation de l’Activation](activation.md)
+      + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Triggers](triggers.md)
+   + Experience Cloud Assets {#assets}
+      + [Présentation des ressources d’Experience Cloud](experience-cloud-assets.md)
+      + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](creative-cloud.md)
+      + [Gestion des utilisateurs Creative Cloud](t-admin-add-cc-user.md)
+      + [Partage d’un dossier de ressources Experience Cloud](t-share-creative-cloud.md)
+      + [Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud](t-upload-asset-cc.md)
+      + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
+      + [Exigences relatives aux fichiers de ressources pour le partage](assets-file-reqs.md)
+      + [Comportement des dossiers partagés](asset-behavior.md)
++ Administration des Experience Cloud {#administration}
+   + [Gestion de l’identité de l’utilisateur et des produits d’Experience Cloud (Admin Console)](admin-getting-started.md)
+   + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-tool-experience-cloud.md)
+   + [Questions fréquemment posées](faq.md)
+   + [Liaison d’organisations et de comptes](organizations.md)
+   + [Mise à niveau vers Analytics Premium et Experience Cloud](upgrade-to-analytics-premium.md)
+   + [Intégrations Experience Cloud](marketing-cloud-integrations.md)
+   + [Utilisation de la prérécupération DNS avec différents services et solutions](dns-prefetch.md)
+   + Cookies Experience Cloud {#ec-cookies}
+      + [Présentation des cookies Experience Cloud](cookies-privacy.md)
+      + [Cookies propriétaires dans Experience Cloud](cookies-first-party.md)
+      + [Cookies Analytics](cookies-analytics.md)
+      + [Cookies Audience Manager](cookies-am.md)
+      + [Cookies [!UICONTROL Data Connectors]](cookies-dc.md)
+      + [Cookies [!UICONTROL Data Workbench]](cookies-insight.md)
+      + [Cookies Experience Cloud](cookies-mc.md)
+      + [Cookies Advertising Cloud](cookies-advertising-cloud.md)
+      + [[!DNL Scene7]Cookies ](cookies-s7.md)
+      + [[!DNL Search and Promote]Cookies ](cookies-snp.md)
+      + [[!DNL Target]Cookies ](cookies-target.md)
+      + [Activation des paramètres de confidentialité pour les cookies de navigateur](browser-cookie-settings.md)
+      + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ? ](cookies-thirdparty.md)
++ Notes de mise à jour de l’interface utilisateur Experience Cloud {#release-notes}
    + [Nouveautés d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [Notes de mise à jour cumulatives](marketing-cloud-interface/release-notes.md)
+   + [Notes de mise à jour cumulatives](release-notes.md)
 + Plus de ressources {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
-   + [Utilisation de la prérécupération DNS avec différents services et solutions](dns-prefetch.md)
    + [Mises à jour de la documentation](doc-updates.md)
