@@ -7,10 +7,10 @@ role: Administrator
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 85%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL Les ] attributs du client sont un service hérité, désormais sous maintenance.
 
-[!UICONTROL Les attributs du client dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. ] Vous pouvez télécharger les données dans une source de données d’attributs du client dans Experience Cloud, puis utiliser ces données dans Adobe Analytics et Adobe Target.
+[!UICONTROL Les attributs du client dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. ] Vous pouvez charger les données dans une source de données Attribut client dans l’Experience Cloud, puis utiliser les données dans Adobe Analytics et Adobe Target.
 
 Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
@@ -48,7 +48,7 @@ L’image suivante est un exemple de fichier de données présentant les donnée
 
 ![](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
+Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
 
 Voir [Transfert des données d’attributs du client](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour en savoir plus sur ce processus.
 
