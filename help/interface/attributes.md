@@ -2,23 +2,23 @@
 title: Utilisation des attributs du client
 description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment télécharger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud
-feature: 'Attributs du client '
+feature: Attributs du client
 role: Administrator
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
-# Attributs du client  aperçu
+# Attributs du client aperçu
 
 >[!IMPORTANT]
 >
->[!UICONTROL Les ] attributs du client sont un service hérité, désormais sous maintenance.
+>[!UICONTROL Les attributs du client sont un service hérité, désormais sous maintenance.]
 
 [!UICONTROL Les attributs du client dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. ] Vous pouvez charger les données dans une source de données Attribut client dans l’Experience Cloud, puis utiliser les données dans Adobe Analytics et Adobe Target.
 
@@ -62,3 +62,5 @@ Par exemple :
 |--- |--- |
 | Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Les produits que les clients avec une valeur de durée de vie faible tendent à rechercher sur mon site.</li></ul> |
 | Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>pour les clients recevant déjà des courriers électroniques, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
