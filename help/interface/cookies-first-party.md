@@ -10,25 +10,25 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 55%
+source-wordcount: '1579'
+ht-degree: 60%
 
 ---
 
 # À propos des cookies propriétaires
 
-Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Si possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
+Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et logiciels anti-espions sont conçus pour rejeter et supprimer les cookies tiers, y compris les cookies utilisés dans la collecte de données [!DNL Analytics]. Pour prendre en charge votre suivi de la manière dont vos visiteurs interagissent avec votre site web, vous devez vous assurer que vous avez configuré votre collecte de données pour utiliser des cookies propriétaires :
+De nombreux navigateurs et logiciels anti-espions sont conçus pour rejeter et supprimer les cookies tiers, y compris les cookies utilisés dans la collecte de données [!DNL Analytics]. Pour prendre en charge votre suivi de la manière dont vos visiteurs interagissent avec votre site Web, vous devez vous assurer que vous avez configuré votre collecte de données pour utiliser des cookies propriétaires :
 
 Deux options permettent de mettre en œuvre des cookies propriétaires :
 
 * Si vous utilisez le service Experience Platform Identity (service ECID), il définit automatiquement les cookies dans le contexte propriétaire à l’aide de JavaScript.
 * Si vous utilisez des [!DNL Analytics] identifiants hérités (ou le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, [!DNL Analytics] définit un [identifiant de secours (s_fid)](cookies-analytics.md) propriétaire à la place du cookie &quot;s_vi&quot; standard.
 
-Pour vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME à laquelle les cookies peuvent être définis dans un contexte propriétaire. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par l’Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point de terminaison propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas aux cookies de domaine CNAME est défini comme tiers.
+Pour vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME à laquelle les cookies peuvent être définis dans un contexte propriétaire. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas aux cookies de domaine CNAME est défini comme tiers.
 
 >[!NOTE]
 >
@@ -83,6 +83,8 @@ Les certificats SSL expirent chaque année, ce qui signifie qu’Adobe doit ache
 | **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Vous devez uniquement ouvrir un ticket auprès de l’assistance clientèle pour terminer le processus. |
 | **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe travaillera avec DigiCert pour émettre un certificat SHA-2. |
 | **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe offre ce service à tous les clients actuels d’Adobe Digital Experience sans frais supplémentaires. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Créer des enregistrements CNAME
 
