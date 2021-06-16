@@ -9,10 +9,10 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 70%
+source-wordcount: '625'
+ht-degree: 72%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 70%
 
 Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
 
-## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
+## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
 La mise à niveau vers Adobe Analytics Premium vous permet de bénéficier de toutes les fonctionnalités ou de tous les produits disponibles dans Analytics Standard, notamment l’Data Warehouse, les Ad Hoc Analysis, le Report Builder et les Data Connectors.
 
 Analytics Premium offre les avantages suivants :
 
 * Accès à 250 variables de conversion (eVars)
-* [Analyse des applications mobiles](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Analyse des applications mobiles](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=fr)
 * Data Workbench (requête de données visuelle, attribution basée sur des règles, analyses cross-canal)
 
 >[!NOTE]
@@ -38,7 +38,7 @@ Analytics Premium offre les avantages suivants :
 >* L’analyse des contributions est activée par Adobe. Elle ne modifie pas l’emplacement (elle est toujours disponible sur la page Détection des anomalies), mais elle commence automatiquement à analyser tous les points de données.
 
 
-## Analytics Premium : formule complète {#section_BFAD815EDF364845A52B340B2FD5B64C}
+## Analytics Premium : formule complète {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 Dans Analytics Premium Complete, vous bénéficiez de toutes les fonctionnalités d’ [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), ainsi que des mises à niveau suivantes :
 
@@ -47,6 +47,8 @@ Dans Analytics Premium Complete, vous bénéficiez de toutes les fonctionnalité
 | Reports &amp; Analytics | <ul><li>[Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[Attributs du client](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (jusqu’à 200 attributs)</li></ul> |
 | Data Workbench | <ul><li>Attribution algorithmique</li><li>Espaces de travail préconfigurés</li></ul> |
 | Plateforme Analytics | [Flux en direct](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (données brutes, tableaux de bord, triggers) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Intelligence prédictive {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -58,6 +60,8 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](upgrad
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Vision à 360 degrés des clients {#section_3B2AC245388248688067DC9A48957AFB}
 
 La mise à niveau vers la vision à 360 degrés des clients permet l’accès à [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus :
@@ -67,6 +71,8 @@ La mise à niveau vers la vision à 360 degrés des clients permet l’accès �
 | [Attributs du client](attributes.md) | Attributs du client (analyses et partage de segment) |
 | Data Workbench | <ul><li>Attributs du client dérivés</li><li>Espaces de travail préconfigurés pour la détection des audiences</li></ul> |
 | Plateforme Analytics | [Attributs du client](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Attribution avancée {#section_9E4986A8389946CCAA7D003268343296}
 
