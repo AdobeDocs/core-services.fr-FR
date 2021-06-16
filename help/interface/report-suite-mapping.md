@@ -7,7 +7,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Cette section contient des conseils pour vous aider à sélectionner l’organis
 
 ### Quelle organisation dois-je choisir ?
 
-Si le service d’ID Experience Cloud est déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] de votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
+Si le service d’ID Experience Cloud est déployé sur la suite de rapports, assurez-vous que l’organisation que vous sélectionnez dans l’outil de mappage des suites de rapports correspond à celle spécifiée dans le fichier [!DNL visitorAPI.js] de votre site. Vous pouvez suivre les instructions de la section [Test et vérification du service Experience Cloud ID](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) pour trouver l’ID d’organisation utilisé par le service d’identification des visiteurs.
 
 Assurez-vous que votre déploiement correspond à l’organisation que vous avez choisie dans l’outil de mappage des suites de rapports.
 
