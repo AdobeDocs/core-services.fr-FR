@@ -9,9 +9,9 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1181'
 ht-degree: 69%
 
 ---
@@ -32,6 +32,8 @@ Conseils et limites lors de l’utilisation des [!UICONTROL attributs du client]
 | Analytics ID personnalisé (`s.visitorID`) | La définition d’un ID de client à l’aide de `s.visitorID` permet d’identifier les utilisateurs dans Analytics. Cependant, les intégrations dans lesquelles des données [!DNL Analytics] sont exportées ou importées à l’aide du service d’ID ne fonctionnent pas lorsqu’un visiteur est identifié à l’aide de `s.visitorID.`<br>Cela inclut, sans s’y limiter, les audiences partagées, [!DNL Analytics] pour Adobe Target (A4T) et [!UICONTROL Attributs du client].<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
 | Limites de longueur des caractères dans [!DNL Analytics] | Lors de la création d’un abonnement [!DNL Analytics], la longueur des champs des fichiers chargés est tronquée à 255. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Questions fréquentes sur les attributs du client {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | Question | Réponse |
@@ -49,3 +51,5 @@ Conseils et limites lors de l’utilisation des [!UICONTROL attributs du client]
 | **(Adobe Target uniquement)** Puis-je cibler les données transférées dans les attributs du client immédiatement après l’identification du visiteur par l’ID de client ? | Oui. Lors de l’appel du serveur à Adobe Target, qui inclut l’ID tiers de mbox, toutes les données d’attribut du client sont disponibles. |
 | **(Adobe Target uniquement)** Que représente la colonne  **[!UICONTROL État de synchronisation]** pour les fichiers transférés dans la source d’attributs du client ? | Le nombre d’enregistrements publiés et synchronisés par Adobe Target peut être affiché en cliquant sur l’icône État de la synchronisation en regard d’un fichier d’attributs spécifique. `Sync %` est une mesure en temps réel qui spécifie le pourcentage de profils synchronisés dans Adobe Target.<br> **Remarque :** la synchronisation des attributs avec Adobe Target peut prendre jusqu’à 24 heures. |
 | Que représentent les mesures de transfert de fichiers dans la source des attributs du client ? | Vous pouvez vérifier l’état des attributs chargés dans les attributs du client à l’aide des mesures suivantes : <ul><li>Enregistrements : nombre d’enregistrements dans le fichier d’attributs.</li><li>**Nouveaux enregistrements :** nombre de nouveaux enregistrements présents dans le fichier d’attributs.</li> <li>**Enregistrements mis à jour :** nombre d’enregistrements existant dans les attributs du client avec des valeurs mises à jour dans le fichier.</li><li>**Toutes les données (enregistrements) :** nombre total d’enregistrements transférés vers les attributs du client avec succès.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
