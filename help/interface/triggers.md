@@ -11,9 +11,9 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
    | Visite doit inclure<br>Visite ne doit pas inclure<br>Trigger après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire. Par exemple, les règles d’un trigger d’abandon de panier simple peuvent être les suivantes :<ul><li>Visite doit inclure : [!UICONTROL Ajout au panier] (mesure) et [!UICONTROL Existe]. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>Visite ne doit pas inclure :  [!UICONTROL Passage en caisse].</li><li>Trigger après aucune action pendant : 10 minutes</li><li>[!UICONTROL Inclure les métadonnées] : Permet d’ajouter une  [!DNL Campaign] dimension ou des variables spécifiques pertinentes pour le comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier   [!UICONTROL N’importe quel],    Andor    Orlogic dans ou entre des conteneurs, en fonction des critères que vous déterminez importants pour la règle. |
    | [!UICONTROL Conteneur] | [!UICONTROL Vous définissez et stockez des règles, des conditions ou des filtres qui définissent un trigger dans les conteneurs. ] Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau de l’accès. Par exemple, si deux conteneurs sont associés par l’opérateur AND, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux accès répondent aux exigences. |
    | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. Cliquez sur **[!UICONTROL Enregistrer]**.
 6. Utilisez ces triggers pour le [remarketing en temps réel](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) dans [!DNL Adobe Campaign].
