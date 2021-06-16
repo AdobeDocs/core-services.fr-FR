@@ -4,15 +4,15 @@ keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 'Attributs du client '
+feature: Attributs du client
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ Créez la source d’attributs du client (fichiers CSV et FIN) et chargez les do
 1. [Création d’un fichier de données](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Création d’une source d’attributs et transfert du fichier de données](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Validation du schéma](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Configuration des abonnements et activation de la source d’attributs](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Configuration des abonnements et activer la source d’attributs](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Une fois la source de données active, vous pouvez accomplir ce qui suit :
 
@@ -82,11 +82,11 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, telle qu’un système CRM spécifique. ID unique utilisé dans le code de la source d’attributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ ID d’alias pour une source d’attributs du client dans l’interface utilisateur de l’Experience Cloud doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par le biais de la gestion dynamique des balises ou du code JavaScript du SDK mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, telle qu’un système CRM spécifique. [!UICONTROL L’] ID d’alias est un ID unique utilisé dans le code de votre source d’attributs cliente. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans Experience Cloud doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par le biais de la collecte de données (Launch), de la gestion dynamique des balises ou du code JavaScript du SDK mobile).
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en).
+      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=fr).
 
       * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) supplémentaires que vous pouvez associer à chaque visiteur.
 
