@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 61%
+source-wordcount: '95'
+ht-degree: 63%
 
 ---
 
@@ -29,3 +29,5 @@ Data Workbench utilise des cookies pour analyser en temps réel d’importants v
 | Utilisation | Ce cookie permet d’identifier un visiteur unique.. |
 | Emplacement | Ce cookie est stocké dans le domaine de la page. |
 | Taille | 8 octets, ou 13 octets si la partie « name = » (v1st=) est incluse |
+
+{style=&quot;table-layout:auto&quot;}
