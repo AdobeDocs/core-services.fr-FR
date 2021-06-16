@@ -9,9 +9,9 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics. |
 | Taille | 45 octets |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nom du cookie : s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Attribut | Description |
@@ -52,6 +54,8 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Utilisation | Un seul cookie pour tous les comptes |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | 4 octets |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Nom du cookie : s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | Varie en fonction de la taille de l’URL de la page, mais habituellement de 100 à 200 octets |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nom du cookie : s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attribut | Description |
@@ -72,6 +78,8 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Utilisation | Ce cookie permet d’identifier un visiteur unique. |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la demande d’image ; généralement sous un sous-domaine spécifique au client sous 2o7.net ou omtrdc.net si vous utilisez des cookies tiers ou si votre domaine utilise des cookies propriétaires |
 | Taille | 44 octets |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire |
 | Taille | 33 octets |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Indicateurs de cookie
 
 Le tableau suivant décrit les indicateurs des cookies Analytics :
@@ -98,6 +108,8 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 | s_fid (Javascript) | Non | Non | Non défini |
 | s_cc (Javascript) | Non | Non | Non défini |
 | s_sq (Javascript) | Non | Non | Non défini |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
