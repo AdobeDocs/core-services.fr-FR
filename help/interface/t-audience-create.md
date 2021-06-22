@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
+
+**Création d’une audience**
 
 1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 1. Dans la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
