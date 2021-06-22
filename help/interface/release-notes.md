@@ -9,7 +9,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -22,7 +22,7 @@ Fonctionnalités, notes de mise à jour et problèmes connus des composants de l
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
 ## Juin - 2021
 
@@ -414,7 +414,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 **Problèmes connus**
 
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
-* Certains utilisateurs ne peuvent pas créer de carte à partir d’un PDF et la partager sur un panorama.
+* Certains utilisateurs ne peuvent pas créer de carte à partir d’un PDF ni la partager sur un panorama.
 * Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
