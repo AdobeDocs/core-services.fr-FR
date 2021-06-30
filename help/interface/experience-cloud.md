@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ Dans l’en-tête de l’Experience Cloud, vous pouvez :
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Cliquez sur **[!UICONTROL Se connecter avec un Adobe ID]**.
-1. Sur Adobe Experience Cloud, cliquez sur votre organisation.
+1. Sélectionnez **[!UICONTROL Se connecter avec un Adobe ID]**.
+1. Sur Adobe Experience Cloud, sélectionnez votre organisation.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Pour accéder aux services Experience Cloud que vous possédez, cliquez sur le sélecteur d’applications ![](assets/menu-icon.png).
+Pour accéder aux services Experience Cloud que vous possédez, accédez au sélecteur d’applications ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Les préférences Experience Cloud incluent les notifications, les abonnements 
 * Vous déconnecter ;
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 
-Pour gérer les préférences, cliquez sur **[!UICONTROL Préférences]** dans le menu de votre compte ![](assets/preferences-icon-sm.png).
+Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** dans le menu de votre compte ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 
 ## Notifications et annonces {#notifications}
 
-Cliquez sur **[!UICONTROL Notifications]** pour être averti des mises à jour pertinentes et exploitables, notamment des mises à jour de produits, des avis de maintenance, des articles partagés et des demandes d’approbation.
+Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour pertinentes et exploitables, notamment des mises à jour de produits, des avis de maintenance, des articles partagés et des demandes d’approbation.
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,8 +142,8 @@ Profitez des tutoriels d’aide autonome et des instructions rapides dans Experi
 
 ## Notes de mise à jour et aide Experience Cloud associée
 
-* [Documentation sur les produits pour toutes les solutions Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud.
-* [Notes de mise à jour et mises à jour des produits](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
+* [Documentation sur les produits pour toutes les solutions Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=fr) - Recherchez de l’aide sur le site Formation et support d’Experience Cloud.
+* [Notes de mise à jour et mises à jour des produits](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
 * [Tutoriels de mise en œuvre des services principaux](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - Visionnez des vidéos et des didacticiels sur les services principaux.
 * [Aide d’experts Experience League](https://experienceleague.adobe.com/?lang=fr) - Obtenez des conseils d’experts et de la communauté.
 * [Éducation et formation](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)  : interagissez avec l’Adobe pour vous assurer que vous tirez le meilleur parti des produits de l’Adobe.
