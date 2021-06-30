@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Le tableau suivant décrit l’utilisation des audiences dans les solutions Expe
 
 | Aide avec | Ressource |
 |--- |--- |
-| Audiences introuvables ? | Vérifiez que des privilèges d’accès vous ont été attribués. Voir [Prise en main - Activation de vos solutions pour les services principaux](core-services.md).<br>Cliquez [ici](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) pour demander l’accès au service principal Profils et audiences (formulaire de configuration des intégrations). |
+| Audiences introuvables ? | Vérifiez que des privilèges d’accès vous ont été attribués. Voir [Prise en main - Activation de vos solutions pour les services principaux](core-services.md).<br>Accédez  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) ici pour demander l’accès à Profils et audiences (formulaire de configuration des intégrations). |
 | Cas d’utilisation | Pour plus d’informations sur la solution à utiliser, consultez [Options de création d’audiences](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) dans la base de connaissances. |
 | Forum | Le [forum Audiences](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) est une autre ressource pour obtenir de l’aide sur les audiences. |
 
