@@ -7,10 +7,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -35,17 +35,17 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 1. Accédez à Suites de rapport pour la gouvernance des données dans [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Gouvernance des données]** (voir [Afficher/Gérer le paramètre de gouvernance des données de la suite de rapports).](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
 
-1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, cliquez sur **[!UICONTROL Visible pour les connexions d’entreprises]**.
+1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, sélectionnez **[!UICONTROL Visible pour les connexions d’entreprises]**.
 
    Cette vue a pour but de vous aider à prendre une décision éclairée concernant le mappage.
 
-1. Cliquez sur le menu déroulant dans la colonne **[!UICONTROL Organisation mappée]** en regard d’une suite de rapports et sélectionnez l’organisation à laquelle vous souhaitez mapper la suite de rapports.
+1. Sélectionnez la liste déroulante dans la colonne **[!UICONTROL Organisation mappée]** en regard d’une suite de rapports et sélectionnez l’organisation à laquelle vous souhaitez mapper la suite de rapports.
 
    Reportez-vous à la section suivante pour obtenir des conseils sur la sélection d’une organisation Experience Cloud.
 
 ## Mappage de plusieurs suites de rapports à une organisation {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Cliquez sur **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**
+1. Sélectionnez **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**.
 
 1. Sélectionnez les suites de rapports que vous souhaitez mapper.
 
@@ -55,7 +55,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
    Reportez-vous à la section suivante pour obtenir des conseils sur la sélection d’une organisation Experience Cloud.
 
-1. Cliquez sur **[!UICONTROL Enregistrer le mappage]**.
+1. Sélectionnez **[!UICONTROL Enregistrer le mappage]**.
 
 ## Astuces pour sélectionner une organisation Experience Cloud {#mapping-tips}
 
