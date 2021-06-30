@@ -9,21 +9,21 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
-# Activation des paramètres de confidentialité pour les cookies de navigateur {#enable-privacy-settings-for-browser-cookies}
+# Activation des paramètres de confidentialité pour les cookies de navigateur{#enable-privacy-settings-for-browser-cookies}
 
 Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Cette fonctionnalité est un paramètre de confidentialité qui exclut les utilisateurs qui se sont désinscrits de la collecte de données, ce qui vous permet de respecter l’intention d’un utilisateur d’arrêter le traitement d’Analytics.
 
 **Pour activer les paramètres de confidentialité pour les cookies de navigateur**
 
 1. Accédez à **[!UICONTROL Outils d’administration]** > **[!UICONTROL Suites de rapports]**.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Paramètres de confidentialité]**.
+1. Accédez à **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Paramètres de confidentialité]**.
 1. Activez les **[!UICONTROL paramètres de confidentialité]** (pour mobiles ou ordinateurs de bureau).
 
 >[!IMPORTANT]
