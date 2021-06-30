@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ En outre, vous devrez peut-être localiser l’ID d’organisation à des fins d
 
 L’**ID d’organisation** est l’identifiant associé à la société Experience Cloud activée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire).
 
-Pour afficher votre ID d’organisation, accédez à la page d’entrée d’Experience Cloud ou cliquez sur (![](assets/menu-icon.png)), puis sur **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
+Pour afficher votre ID d’organisation, accédez à la page d’entrée de l’Experience Cloud ou cliquez sur ( ![](assets/menu-icon.png)), puis sélectionnez **[!UICONTROL Administration]**. Vous pouvez trouver l’ID d’organisation en bas de la page [!UICONTROL Prise en main d’Experience Cloud] ou de la page [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ En général, les administrateurs Experience Cloud accordent l’accès aux solu
 
 1. Suivez les instructions fournies dans votre invitation par courrier électronique pour accéder à Experience Cloud.
 1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
-1. Cliquez sur le sélecteur de solutions. (![](assets/menu-icon.png)).
+1. Sélectionnez le sélecteur de solutions. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    Les solutions auxquelles vous avez accès sont indiquées en couleur.
-1. Cliquez sur la solution de votre choix.
+1. Sélectionnez la solution souhaitée.
 
    ![](assets/analytics-link-accounts.png)
 
    Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à la solution), mais n’avez pas encore lié votre compte à votre Adobe ID, ce type de message s’affiche.
-1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations de connexion.
+1. Sélectionnez **[!UICONTROL Lier le compte]**, puis fournissez vos informations d’identification.
 
 ## Définition d’une organisation et d’une page d’entrée par défaut {#concept_6A191B42A9874A9780882903BA18F071}
 
 Vous pouvez définir une organisation et une page d’accueil par défaut à utiliser lorsque vous ouvrez une session.
 
-Dans votre profil, cliquez sur **[!UICONTROL Modifier le profil]**.
+Dans votre profil, sélectionnez **[!UICONTROL Modifier le profil]**.
 
 ![](assets/edit-profile.png)
 
