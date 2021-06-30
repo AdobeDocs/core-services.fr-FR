@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 >
 >Lors de la création, de la modification ou de la suppression de sources d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Vous devez disposer de droits d’administration dans Audience Manager pour créer ou modifier des sources d’attributs du client. Contactez le service à la clientèle ou le service d’assistance clientèle d’Audience Manager pour obtenir des droits d’administration.
 
-1. Dans [!DNL Experience Cloud], cliquez sur l’icône ![](assets/menu-icon.png) Menu.
-1. Sous **[!DNL Experience Platform]**, cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
+1. Dans la balise [!DNL Experience Cloud], sélectionnez l&#39;icône Menu ![](assets/menu-icon.png) .
+1. Sous **[!DNL Experience Platform]**, sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
 
    Sur la page [!UICONTROL Attributs du client], vous pouvez gérer et modifier les sources de données d’attributs existantes.
 
    ![Résultat de l’étape](assets/03_crs_usecase.png)
-1. Cliquez sur **[!UICONTROL Nouveau]**.
+1. Sélectionnez **[!UICONTROL Nouvelle]**.
 
    ![Résultat de l’étape](assets/04_crs_usecase.png)
 1. Sur la page [!UICONTROL Modifier la source d’attributs cliente], configurez les champs suivants :
@@ -153,7 +153,7 @@ Voir [Configuration des abonnements](subscription.md#concept_ECA3C44FA6D540C89CC
 
 **Pour activer une source d’attributs, procédez comme suit :**
 
-Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs du client], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Activer]**.
+Sur la page [!UICONTROL Créer [ou Modifier] Source d’attributs cliente], recherchez l’en-tête [!UICONTROL Activer], puis sélectionnez **[!UICONTROL Principale]**.
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
