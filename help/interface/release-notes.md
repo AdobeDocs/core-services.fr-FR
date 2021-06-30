@@ -9,7 +9,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -28,8 +28,8 @@ Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous 
 
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
-| Prise en charge de l’authentification unique pour les Federated ID Adobes | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir d’adresse électronique ou de mot de passe. Pour utiliser cette fonction, ajoutez `#/sso:@domain` à l’URL de l’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine  `adobecustomer.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait : `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Recherche Experience League | 1 juin 2021 | La recherche de documentation Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) et utilisez le champ **[!UICONTROL Rechercher]** pour localiser les tutoriels, la documentation, les cours, etc. |
+| Prise en charge de lʼauthentification unique pour les Federated ID Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir dʼadresse électronique ou de mot de passe. Pour utiliser cette fonction, ajoutez `#/sso:@domain` à l’URL de l’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `adobecustomer.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait : `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) et utilisez le champ **[!UICONTROL Rechercher]** pour trouver des tutoriels, de la documentation, des cours, etc. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -294,7 +294,7 @@ Pas d’informations disponibles.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> Le terme <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> s’affiche maintenant dans le volet de navigation de gauche d’<span class="keyword">Experience Cloud</span>. <span class="wintitle"> </span> Le service  <span class="keyword"> Experience </span> Cloud, qui repose actuellement sur la technologie de gestion dynamique des balises, vous y oriente si vous cliquez dessus. </p> </td> 
+   <td colname="col2"> <p> Le terme <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> s’affiche maintenant dans le volet de navigation de gauche d’<span class="keyword">Experience Cloud</span>. <span class="wintitle"> </span> Le service  <span class="keyword"> Experience </span> Cloud, qui repose actuellement sur la technologie de gestion dynamique des balises, vous y oriente si vous le sélectionnez. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mises à jour de la documentation - Services principaux </p> </td> 
@@ -382,7 +382,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
    <td colname="col1"> <p>Modifier les autorisations d’utilisateurs </p> </td> 
    <td colname="col2"> <p>Les propriétaires d’un panorama peuvent désormais modifier les autorisations d’utilisateurs sur ce panorama. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Sur le panorama, cliquez sur <span class="uicontrol">Paramètres</span>. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Sur le panorama, sélectionnez <span class="uicontrol"> Paramètres</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">En regard de chaque propriétaire, spécifiez <span class="uicontrol">Propriétaire</span>, <span class="uicontrol">Observateur</span> ou <span class="uicontrol">Éditeur</span>. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -553,7 +553,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * [!DNL Experience Cloud] n’était pas lié à [!DNL Adobe Target]. Ce problème se produisait lorsque la connexion à [!DNL Adobe Target] pouvait être utilisée sur plusieurs serveurs [!DNL Target].
 * [!DNL Adobe Media Optimizer] ne créait pas automatiquement des utilisateurs lorsqu’un utilisateur était créé dans [!DNL Experience Cloud].
 * Les options d’ajout de nouveaux utilisateurs dans les listes modifiables disparaissent temporairement lors de la saisie de texte.
-* Il n’était pas possible de cliquer sur le lien Commentaires sur la carte des ressources.
+* Le lien Commentaires sur la carte des ressources n’était pas sélectionnable.
 * Après l’ajout d’une balise personnalisée à un fichier, aucune autre modification des métadonnées n’était conservée.
 * Lors de la suppression d’une image dans les ressources, aucun message n’avertit que l’image est utilisée dans Adobe Target Essentials, si tel est le cas.
 * Les performances de l’interface d’[!UICONTROL Experience Cloud] étaient faibles lorsque plusieurs utilisateurs l’utilisaient simultanément.
@@ -580,9 +580,9 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
    <td colname="col1"> <p>Création de cartes à partir des rubriques d’aide </p> </td> 
    <td colname="col2"> <p>Après avoir activé la fonction Partager sur Adobe Experience Cloud dans la barre d’outils des signets de votre navigateur, vous pouvez désormais partager des pages d’aide à partir de l’URL du microsite. </p> <p> <b>Pour partager une rubrique d’aide</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Dans <span class="keyword">Experience Cloud</span>, cliquez sur <span class="uicontrol">Administration</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Dans l’Experience Cloud <span class="keyword"> </span>, sélectionnez <span class="uicontrol"> Administration</span>. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Faites glisser le bouton <span class="uicontrol">Partager sur Adobe Experience Cloud</span> vers la barre d’outils des signets. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Accédez à une page d’aide (ou restez sur celle-ci), puis cliquez sur <span class="uicontrol">Partager sur Adobe Experience Cloud</span> dans la barre d’outils des signets de votre navigateur. </p> <p>Cette procédure permet de créer une carte que vous pouvez afficher dans <span class="wintitle">Experience Cloud</span>. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Accédez à une page d’aide (ou restez sur celle-ci), puis sélectionnez <span class="uicontrol"> Partager sur Adobe Experience Cloud</span> dans la barre d’outils des signets de votre navigateur. </p> <p>Cette procédure permet de créer une carte que vous pouvez afficher dans <span class="wintitle">Experience Cloud</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -596,7 +596,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * La page d’entrée de la solution [!DNL Analytics] présente des erreurs de mise en forme.
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
 * Lors de la suppression d’une image dans les [!UICONTROL ressources], aucun message n’avertit que l’image est utilisée dans [!DNL Adobe Target Essentials], si tel est le cas.
-* Il n’est pas possible de cliquer sur le lien Commentaires sur la carte des ressources.
+* Le lien Commentaires sur la carte des ressources n’est pas sélectionnable.
 * Les options d’ajout de nouveaux utilisateurs dans les listes modifiables disparaissent temporairement lors de la saisie de texte.
 * La connexion à [!DNL Experience Cloud] dure plus d’une seconde.
 * Les données partagées depuis [!DNL Media Optimizer] sont incorrectement représentées dans [!DNL Experience Cloud].
@@ -629,7 +629,7 @@ La version 14.3.1 est une version de maintenance qui se concentre sur la vitesse
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
 * Lorsque *`Remember me`* n’est pas sélectionné durant l’ouverture de session, l’utilisateur est déconnecté au bout de 15 minutes.
 * La page d’entrée de la solution [!DNL Analytics] présente des erreurs de mise en forme.
-* Il n’est pas possible de cliquer sur le lien Commentaires sur la carte des ressources.
+* Le lien Commentaires en mode Carte des ressources n’est pas sélectionnable.
 * L’interface d’Experience Cloud peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * Experience Cloud ne peut pas être lié à [!DNL Adobe Target] si la connexion à [!DNL Adobe Target] peut être utilisée sur plusieurs serveurs Target.
 * La connexion à Experience Cloud dure plus d’une seconde.
@@ -673,5 +673,5 @@ La version 14.3.1 est une version de maintenance qui se concentre sur la vitesse
 
 * Correction d’un problème qui empêchait l’application de filtres de segments sur les rapports [!DNL Analytics] partagés.
 * Correction d’un problème en raison duquel les solutions étaient présentées comme liées sur la page [!UICONTROL Solutions Experience Cloud], même si les comptes de ces solutions n’étaient pas liés.
-* Correction d’un problème qui empêchait les clients d’[!DNL Adobe Target] en Asie de cliquer sur le bouton **[!UICONTROL Continuer vers Experience Cloud]** sur la page de liaison.
+* Correction d’un problème qui empêchait les clients [!DNL Adobe Target] en Asie de sélectionner le bouton **[!UICONTROL Continuer vers l’Experience Cloud]** sur la page de liaison.
 * Correction d’un problème qui empêchait le partage des vidéos YouTube.
