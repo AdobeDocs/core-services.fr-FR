@@ -4,15 +4,15 @@ keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Transfert du fichier de données Attribut client par FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 'Attributs du client '
+feature: Attributs du client
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -37,7 +37,7 @@ Les fichiers peuvent être transférés sur le site FTP des attributs du client 
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
-1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Chargement du fichier]**.
+1. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Téléchargement du fichier]**.
 
 1. Transférez un fichier `.fin`, afin que le fichier puisse être récupéré.
 
