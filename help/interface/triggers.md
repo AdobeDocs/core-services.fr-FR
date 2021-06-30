@@ -11,10 +11,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -52,9 +52,9 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 >
 >Pour des raisons techniques, le nombre de triggers est actuellement limité à 100.
 
-1. Dans l’Experience Cloud, cliquez sur ![](assets/menu-icon.png), puis sur **[!UICONTROL Collecte de données/Launch]**.
-2. Sur la carte [!UICONTROL Triggers] , cliquez sur **[!UICONTROL Gérer les déclencheurs]**.
-3. Cliquez sur **[!UICONTROL Nouveau trigger]**, puis spécifiez le type de trigger :
+1. Dans l’Experience Cloud, sélectionnez ![](assets/menu-icon.png), puis **[!UICONTROL Collecte de données/Launch]**.
+2. Sur la carte [!UICONTROL Déclencheurs], sélectionnez **[!UICONTROL Gérer les déclencheurs]**.
+3. Sélectionnez **[!UICONTROL Nouvel déclencheur]**, puis spécifiez le type de déclencheur :
 
    ![Résultat de l’étape](assets/add-trigger.png)
 
@@ -71,7 +71,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 
    {style=&quot;table-layout:auto&quot;}
 
-5. Cliquez sur **[!UICONTROL Enregistrer]**.
+5. Sélectionnez **[!UICONTROL Enregistrer]**.
 6. Utilisez ces triggers pour le [remarketing en temps réel](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) dans [!DNL Adobe Campaign].
 
 ### Exemples de triggers
