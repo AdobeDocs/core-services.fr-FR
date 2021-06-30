@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -45,8 +45,8 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 **Création d’une audience**
 
-1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
-1. Dans la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
+1. Dans la [!DNL Experience Cloud], sous [!DNL Experience Platform], sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
+1. Sur la page [!UICONTROL Audiences], sélectionnez **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
    * **[!UICONTROL Experience Cloud :]** données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
-1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Enregistrer].**
+1. Définissez des règles d’audience, puis sélectionnez **[!UICONTROL Enregistrer].**
 
 >[!NOTE]
 >
