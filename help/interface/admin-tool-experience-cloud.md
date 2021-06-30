@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
    ![](assets/admin-tool.png)
 
-1. Sous [!UICONTROL Accès rapide], cliquez sur **[!UICONTROL Outil d’administration.]**
+1. Sous [!UICONTROL Accès rapide], sélectionnez **[!UICONTROL Outil d’administration.]**
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
@@ -42,7 +42,7 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 
 | Élément | Description |
 |---|---|
-| [!UICONTROL Nom] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Cliquez sur le nom d’un utilisateur pour afficher plus de détails à son sujet. |
+| [!UICONTROL Nom] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Sélectionnez le nom d’un utilisateur pour afficher plus de détails sur l’utilisateur. |
 | [!UICONTROL E-mail] | Adresse électronique associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des solutions Experience Cloud auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant d’un accès aux solutions spécifique. |
@@ -64,7 +64,7 @@ Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la list
 
 ## Affichage des informations sur les utilisateurs
 
-Sur la page [!UICONTROL Utilisateurs], pour afficher les informations d’un utilisateur, cliquez sur son adresse e-mail.
+Sur la page [!UICONTROL Utilisateurs], pour afficher les détails d’un utilisateur, sélectionnez son adresse électronique.
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ Cette page affiche la liste complète des politiques Experience Cloud de votre 
 
 | Élément | Description |
 |---|---|
-| [!UICONTROL Profil de produits] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus d’informations sur la stratégie, cliquez sur le nom d’un profil de produit. |
+| [!UICONTROL Profil de produits] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus d’informations sur la stratégie, sélectionnez le nom d’un profil de produits. |
 | [!UICONTROL Produit] | Le produit associé au profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Instance] | L’instance (par exemple, tenant ou société de connexion) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un &quot;-&quot; pour la valeur . La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Nombre d’utilisateurs] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
@@ -118,7 +118,7 @@ Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la list
 
 * Rechercher les profils de produits par nom. Les recherches correspondent à la chaîne de texte que vous saisissez.
 * Triez la colonne par valeurs ascendantes ou descendantes. Ce type s’applique à [!UICONTROL Profil du produit,] [!UICONTROL Produit,] [!UICONTROL Instance,] [!UICONTROL Nombre d’utilisateurs,] et [!UICONTROL Nombre de développeurs,] Colonnes.
-* Cliquez sur l’icône **[!UICONTROL Filtrer par]** pour appliquer plusieurs filtres aux profils de produits avec des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la solution d’`AND` Instance `AND` associée aux groupes.
+* Sélectionnez l’icône **[!UICONTROL Filtrer par]** pour appliquer plusieurs filtres aux profils de produits avec des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la solution d’`AND` Instance `AND` associée aux groupes.
 
 | Élément | Description |
 |---------|----------|
@@ -127,7 +127,7 @@ Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la list
 
 ## Affichage des détails sur la politique
 
-Sur la page [!UICONTROL Politiques], pour afficher les détails d’une politiques, cliquez sur le nom du profil de produits.
+Sur la page [!UICONTROL Stratégies] , pour afficher les détails d’une stratégie, sélectionnez le nom du profil de produit.
 
 ![](assets/admin-tool-policy-detail.png)
 
