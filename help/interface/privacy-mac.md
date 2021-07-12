@@ -6,10 +6,10 @@ title: 'Considérations relatives à la confidentialité des attributs du client
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: 'Attributs du client '
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 84%
