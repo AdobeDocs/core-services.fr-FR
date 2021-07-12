@@ -6,10 +6,10 @@ title: 'Cookies Adobe Target  '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 83%
