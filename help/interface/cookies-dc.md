@@ -6,17 +6,17 @@ title: 'Cookies Data Connectors '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 76%
 
 ---
 
-# Cookies Data Connectors {#data-connectors-cookies}
+# Cookies Data Connectors{#data-connectors-cookies}
 
 [!UICONTROL Data ] Connectors utilise des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
 
