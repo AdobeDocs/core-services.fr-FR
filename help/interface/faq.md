@@ -6,13 +6,13 @@ title: 'Questions fréquentes à propos d’Experience Cloud '
 index: true
 feature: Admin Console
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Découvrez la prise en charge des navigateurs ainsi que les questions fréquente
 
 Si votre mise en œuvre n’a pas été configurée pour les services principaux, consultez la section [Activation de vos solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
 
-1. [Rejoindre Experience Cloud et devenir administrateur](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Rejoindre Experience Cloud et devenir administrateur](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID à l’aide d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
 1. [Mapper des suites de rapports à une organisation Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -70,7 +70,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 * Les droits des utilisateurs et la gestion des produits sont effectués dans la balise [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** pour les administrateurs d’Analytics, voir [Gestion des utilisateurs d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) au sujet de la migration des ID d’utilisateur des outils d’administration Analytics vers Admin Console.
+* **Important :** pour les administrateurs d’Analytics, voir [Gestion des utilisateurs d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateur des outils d’administration Analytics vers Admin Console.
 
 ## Que faire si quelqu’un ne parvient pas à se connecter à l’interface d’Experience Cloud ?
 
