@@ -6,10 +6,10 @@ title: 'Création d’une source d’attributs du client et transfert du fichier
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Attributs du client
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 73%
