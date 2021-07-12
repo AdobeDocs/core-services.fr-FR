@@ -8,10 +8,10 @@ title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 feature: '"Attributs du client"'
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 73%
