@@ -6,10 +6,10 @@ title: Activation des solutions pour des services inter-solutions
 index: true
 feature: Attributs du client
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 72%
@@ -137,7 +137,7 @@ Les services Experience Cloud (tels que le service Experience Cloud ID et le se
 
 ## Mettre à jour votre code Analytics AppMeasurement {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Si vous utilisez Analytics, vérifiez que vous avez recours à la collecte de données régionale (RDC). Si votre domaine de collecte des données est `omtrdc.net` ou si votre CNAME est mappé à `omtrdc.net`, vous utilisez le service RDC. Reportez-vous à la section [Transition vers RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) pour en savoir plus. Si vous utilisez des cookies propriétaires, reportez-vous à la rubrique [CNAME et service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) pour en savoir plus sur les CNAME de collecte de données et le suivi interdomaines.
+Si vous utilisez Analytics, vérifiez que vous avez recours à la collecte de données régionale (RDC). Si votre domaine de collecte des données est `omtrdc.net` ou si votre CNAME est mappé à `omtrdc.net`, vous utilisez le service RDC. Reportez-vous à la section [Transition vers RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=fr) pour en savoir plus. Si vous utilisez des cookies propriétaires, reportez-vous à la rubrique [CNAME et service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) pour en savoir plus sur les CNAME de collecte de données et le suivi interdomaines.
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. La méthode la plus simple consiste à ajouter une [extension Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=fr) dans la collecte de données Experience Platform (Launch).
 
@@ -228,6 +228,6 @@ Le recours au profilage d’audiences en temps réel utilise le cookie d’Audie
 
 Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visiteurs de votre site doivent ajouter l’exclusion d’Audience Manager à votre processus d’exclusion.
 
-Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html).
+Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=fr).
 
 Voir [CNAME de collecte de données et suivi interdomaines](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) pour en savoir plus sur l’activation du suivi interdomaines.
