@@ -4,10 +4,10 @@ title: 'Cookies Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 84%
