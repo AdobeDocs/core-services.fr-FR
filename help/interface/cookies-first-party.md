@@ -7,10 +7,10 @@ index: y
 snippet: y
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 60%
@@ -38,7 +38,7 @@ Pour la seconde option utilisant un CNAME, si votre site comporte des pages séc
 
 Le processus d’octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader dans le secteur, et a développé un processus intégré par lequel l’achat et la gestion de ces certificats sont automatisés.
 
-Avec votre autorisation, nous collaborons avec l’autorité de certification pour émettre, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continue de gérer ce certificat et de s’assurer qu’une expiration, une révocation ou une préoccupation de sécurité inattendue ne menace pas la disponibilité de la collection sécurisée de votre organisation.
+Avec votre autorisation, nous collaborons avec l’autorité de certification pour émettre, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continue de gérer ce certificat et de s’assurer qu’une expiration, une révocation ou une préoccupation sur la sécurité inattendue ne menace pas la disponibilité de la collection sécurisée de votre organisation.
 
 ## Programme de certificat géré par Adobe
 
