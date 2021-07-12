@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Partage de dossiers et de ressources Experience Cloud avec Creative Cloud '
 feature: Assets
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 94%
