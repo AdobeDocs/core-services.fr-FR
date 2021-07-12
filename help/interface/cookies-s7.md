@@ -6,10 +6,10 @@ title: 'Cookies Scene7 '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 85%
