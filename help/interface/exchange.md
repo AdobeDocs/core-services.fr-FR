@@ -6,9 +6,9 @@ title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: '"Attributs du client"'
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 89%
