@@ -6,10 +6,10 @@ title: 'Paramètres de confidentialité pour les cookies de navigateur '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 57%
