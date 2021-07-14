@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ac15aa02eded86f4f64191e22e7cafc4bb6258ad
+source-git-commit: e198879b806aa0765034d6d0cc2fcf2a6f5e856a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 62%
@@ -67,8 +67,9 @@ La recherche globale vous permet de rechercher des objets commerciaux ou des ent
 
 ![](assets/platform-search.png)
 
->!![NOTE]
-La recherche globale est disponible uniquement pour les utilisateurs Experience Platform et Journey Orchestration.
+>[!NOTE]
+>
+>La recherche globale est disponible uniquement pour les utilisateurs Experience Platform et Journey Orchestration.
 
 ## Gestion des préférences de compte {#preferences}
 
