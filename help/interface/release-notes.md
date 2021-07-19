@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 89%
+source-wordcount: '4224'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,10 @@ Fonctionnalités, notes de mise à jour et problèmes connus des composants de l
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Juillet - 2021
+
+La recherche unifiée est mise à jour pour être disponible pour Journey Optimizer, Offres et Experience League. Auparavant, cette fonctionnalité était disponible uniquement pour les utilisateurs Experience Platform.
 
 ## Juin - 2021
 
