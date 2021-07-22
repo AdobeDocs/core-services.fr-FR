@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 79%
 
 ---
@@ -70,10 +70,6 @@ Créez et gérez des audiences dans la bibliothèque d’audiences Experience Cl
 
 Aide : [Attributs du client](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Les attributs du client sont un service hérité, désormais sous maintenance.
-
 Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données Attribut client de l’Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 **Solutions ou services applicables**
@@ -84,10 +80,6 @@ Si vous capturez les données clients d’entreprise dans une base de données d
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Aide : [Partage de dossiers Experience Cloud avec Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Assets est un service principal hérité, désormais sous maintenance.
 
 Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des solutions Experience Cloud telles que [!DNL Social] et [!DNL Target].
 
