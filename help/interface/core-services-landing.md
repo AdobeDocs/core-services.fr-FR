@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Cette aide décrit les produits et services suivants :
 | [Personnes - Attributs du client](attributes.md) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration] est un service d’application intégré à Experience Platform. |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr) | Adobe [!UICONTROL Experience Platform Location Service] est un service de géolocalisation. Il permet aux applications mobiles de comprendre le contexte de l’emplacement grâce à l’utilisation d’interfaces SDK enrichies et faciles à utiliser, accompagnées d’une base de données flexible de points d’intérêt (POI). |
 | [Activation](activation.md) | Activation comprend le dernier produit de gestion des balises appelé Collecte de données Experience Platform (Launch) et Triggers Experience Cloud. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. (Assets est un service hérité, désormais sous maintenance.) |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. |
 | [Administration](admin-getting-started.md) | Découvrez-en plus sur la connexion à Admin Console, sur la gestion des autorisations d’utilisateurs, sur les profils de produits dans Experience Cloud et sur la prise en charge des navigateurs. |
 | [Cookies](cookies-privacy.md) | Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe participe à de multiples organisations de protection de la vie privée et coopère avec les organismes de réglementation de la protection de la vie privée et respecte des principes d’autoréglementation. |
 
