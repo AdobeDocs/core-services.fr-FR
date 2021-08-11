@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 88%
+source-wordcount: '4279'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,12 @@ Fonctionnalités, notes de mise à jour et problèmes connus des composants de l
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les solutions, reportez-vous à la page [Notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Août - 2021
+
+| Fonctionnalité | Date | Description |
+| ------- | ------- | -------|
+| [!UICONTROL Récents unifiés]  : prise en charge étendue des objets commerciaux récemment consultés | 10 août 2021 | [!UICONTROL Unified ] Recentsis s’est étendu à d’autres objets commerciaux dans Journey Optimizer et Experience Platform. Les clients Journey Optimizer peuvent trouver leurs objets récemment consultés (messages, Parcours, segments, schémas, jeux de données, sources de données, événements, actions, sources et destinations) à partir de la page d’accueil de Adobe Journey Optimizer. |
 
 ## Juillet - 2021
 
