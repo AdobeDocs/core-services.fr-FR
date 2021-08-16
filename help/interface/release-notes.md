@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
+source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -39,7 +39,7 @@ La recherche unifiée est mise à jour pour être disponible pour Journey Optimi
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
 | Prise en charge de lʼauthentification unique pour les Federated ID Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir dʼadresse électronique ou de mot de passe. Pour utiliser cette fonction, ajoutez `#/sso:@domain` à l’URL de l’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `adobecustomer.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait : `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) et utilisez le champ **[!UICONTROL Rechercher]** pour trouver des tutoriels, de la documentation, des cours, etc. |
+| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Rechercher]** pour trouver des tutoriels, de la documentation, des cours, etc. |
 
 {style=&quot;table-layout:auto&quot;}
 
