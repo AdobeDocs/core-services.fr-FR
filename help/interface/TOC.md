@@ -4,10 +4,10 @@ user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
 breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 user-guide-description: Découvrez l’interface de l’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et les ressources Experience Cloud.
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
       + [Considérations relatives à la confidentialité des attributs du client](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Présentation de l’Activation](activation.md)
-      + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr)
+      + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Présentation des ressources Experience Cloud](experience-cloud-assets.md)
@@ -47,7 +47,7 @@ ht-degree: 80%
       + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](assets-file-reqs.md)
       + [Comportement des dossiers partagés](asset-behavior.md)
-+ Administration des Experience Cloud {#administration}
++ Experience Cloud administration {#administration}
    + [Gestion de l’identité de l’utilisateur et des produits Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-tool-experience-cloud.md)
    + [Questions fréquemment posées](faq.md)
@@ -71,7 +71,7 @@ ht-degree: 80%
       + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ](cookies-thirdparty.md)
 + Notes de mise à jour de l’interface utilisateur Experience Cloud {#release-notes}
    + [Notes de mise à jour des composants de l’interface centrale](release-notes.md)
-   + [Notes de mise à jour pour tous les Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [Notes de mise à jour pour tous les Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
 + Plus de ressources {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
