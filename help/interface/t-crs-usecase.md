@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 73%
+source-wordcount: '1151'
+ht-degree: 72%
 
 ---
 
@@ -86,7 +86,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=fr).
+      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
 
       * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) supplémentaires que vous pouvez associer à chaque visiteur.
 
