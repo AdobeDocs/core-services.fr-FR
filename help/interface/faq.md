@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Découvrez la prise en charge des navigateurs ainsi que les questions fréquente
 
 ## Quels navigateurs sont pris en charge dans Experience Cloud ?
 
-* Microsoft® Edge (versions actuelle et antérieures)
+* Microsoft® Edge (versions actuelle et antérieures)
 * Google Chrome (versions actuelle et antérieures)
 * Mozilla Firefox (versions actuelle et antérieures)
 * Safari (versions actuelle et antérieures)
@@ -49,7 +49,7 @@ Non. Experience Cloud est inclus sans frais supplémentaires. Toutefois, certain
 
 ## Pourquoi ma société doit-elle se connecter par le biais de l’interface d’Experience Cloud ?
 
-Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. Il s’agit également du chemin d’accès standard aux solutions à l’avenir, qui remplacera éventuellement d’autres flux de connexion de solution individuels. La connexion par l’intermédiaire d’Experience Cloud facilite une transition plus fluide ultérieurement.
+Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. À partir de maintenant, cela constitue également le chemin d’accès standard aux solutions et remplacera à terme d’autres flux individuels de connexion aux solutions. La connexion par le biais d’Experience Cloud facilite une transition ultérieure plus fluide.
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
@@ -68,7 +68,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 * Consultez le [Guide d’utilisation d’Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html) pour obtenir de l’aide.
 
-* Les droits des utilisateurs et la gestion des produits sont effectués dans la balise [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
+* La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
 * **Important :** pour les administrateurs d’Analytics, voir [Gestion des utilisateurs d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateur des outils d’administration Analytics vers Admin Console.
 
@@ -98,13 +98,13 @@ Voir [Recherche de votre ID d’organisation](organizations.md).
 
 L’ID d’organisation est affiché sur la page d’entrée d’Experience Cloud et sur la [page d’entrée Admin Console](https://adminconsole.adobe.com).
 
-Les administrateurs peuvent également se connecter au Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) pour une organisation spécifique. Votre ID d’organisation IMS apparaît alors dans l’URL.
+Les administrateurs peuvent aussi se connecter à Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) pour une organisation spécifique. Votre ID d’organisation IMS apparaît alors dans l’URL.
 
 Par exemple, dans l’URL suivante :
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-L’ID est :
+L’ID est :
 
 `C538193582390300A495CC9@AdobeOrg`
 
