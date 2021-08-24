@@ -12,7 +12,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -46,14 +46,14 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL E-mail] | Adresse électronique associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des solutions Experience Cloud auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant d’un accès aux solutions spécifique. |
-| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les données concernant la dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans l’Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les données concernant la dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de l’affichage de la liste des utilisateurs
 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des utilisateurs.
 
 * Recherchez des utilisateurs par nom ou adresse électronique. Les recherches correspondent à la chaîne de texte que vous saisissez.
-* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux colonnes [!UICONTROL Nom,] [!UICONTROL Email,] et [!UICONTROL Dernière connexion].
+* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux colonnes [!UICONTROL Nom], [!UICONTROL Adresse électronique] et [!UICONTROL Dernière connexion].
 * Pour appliquer plusieurs filtres aux utilisateurs de la liste avec des critères spécifiques, cliquez sur l’icône **[!UICONTROL Filtrer par]** . Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent Domaine de messagerie `AND` TYPE D’ID `AND` Solution.
 
 | Élément | Description |
@@ -77,7 +77,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 * Avatar et badge d’administration système (le cas échéant) de l’utilisateur
 * Nom
 * E-mail
-* Nom d’utilisateur (les comptes de Federated ID peuvent avoir des noms d’utilisateur différents de l’adresse électronique)
+* Nom d’utilisateur (les comptes Federated ID peuvent avoir des noms d’utilisateur différents de ceux de l’adresse électronique)
 * [Type d’ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * Pays
 * Dernière connexion
@@ -95,7 +95,7 @@ Cette section affiche une liste complète de tous les profils d’adhésion de p
 | [!UICONTROL Produit] | Nom du produit associé au profil de produits. |
 | [!UICONTROL Instance] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
 | [!UICONTROL Profil de produits] | Nom unique du profil de produits. |
-| [!UICONTROL Attribué par groupe] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit directement, et non par l’intermédiaire d’un groupe. |
+| [!UICONTROL Attribué par groupe] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit de manière directe, et non par l’intermédiaire d’un groupe. |
 | [!UICONTROL Rôles de produit] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
 
 ## Page Politiques
@@ -108,7 +108,7 @@ Cette page affiche la liste complète des politiques Experience Cloud de votre 
 |---|---|
 | [!UICONTROL Profil de produits] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus d’informations sur la stratégie, sélectionnez le nom d’un profil de produits. |
 | [!UICONTROL Produit] | Le produit associé au profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL Instance] | L’instance (par exemple, tenant ou société de connexion) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un &quot;-&quot; pour la valeur . La colonne peut être triée des manières suivantes : A->Z, Z->A. |
+| [!UICONTROL Instance] | L’instance (par exemple, société de connexion ou client) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un « - » comme valeur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Nombre d’utilisateurs] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
 | [!UICONTROL Nombre de développeurs] | Nombre de rôles de développeur associés au profil de produits. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
 
@@ -117,7 +117,7 @@ Cette page affiche la liste complète des politiques Experience Cloud de votre 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des politiques.
 
 * Rechercher les profils de produits par nom. Les recherches correspondent à la chaîne de texte que vous saisissez.
-* Triez la colonne par valeurs ascendantes ou descendantes. Ce type s’applique à [!UICONTROL Profil du produit,] [!UICONTROL Produit,] [!UICONTROL Instance,] [!UICONTROL Nombre d’utilisateurs,] et [!UICONTROL Nombre de développeurs,] Colonnes.
+* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux colonnes [!UICONTROL Profil de produit], [!UICONTROL Produit], [!UICONTROL Instance], [!UICONTROL Nombre d’utilisateurs] et [!UICONTROL Nombre de développeurs].
 * Sélectionnez l’icône **[!UICONTROL Filtrer par]** pour appliquer plusieurs filtres aux profils de produits avec des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la solution d’`AND` Instance `AND` associée aux groupes.
 
 | Élément | Description |
@@ -155,7 +155,7 @@ Cette section présente une liste complète de tous les utilisateurs, groupes d�
 
 | Tabulation | Description |
 |---------|----------|
-| [!UICONTROL Utilisateurs] | Liste des utilisateurs inclus dans le profil de produits. L’association de groupe d’utilisateurs apparaît dans la colonne [!UICONTROL Attribué par groupe]. |
+| [!UICONTROL Utilisateurs] | Liste des utilisateurs inclus dans le profil de produits. L’association de groupes d’utilisateurs apparaît dans la colonne [!UICONTROL Affecté par groupe]. |
 | [!UICONTROL Groupes d’utilisateurs] | Liste des groupes d’utilisateurs associés au profil de produits. |
 | [!UICONTROL Développeurs] | Liste des développeurs associés au profil de produits. |
 | [!UICONTROL Intégrations] | Liste des intégrations associées au profil de produits. |
