@@ -11,7 +11,7 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Cependant, vous pouvez mettre en œuvre manuellement la prérécupération DNS a
 
 ## Exemples de code de prérécupération DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Les exemples suivants vous montrent comment effectuer des appels de prérécupération DNS vers différents services et solutions [!DNL Experience Cloud]. Certains appels de prérécupération requièrent votre ID d’organisation [!DNL Adobe] ou des informations relatives au serveur de suivi. Dans ces exemples, le code en *italique* représente une variable. Vous pouvez remplacer ce code par votre propre [!DNL Adobe] identifiant de partenaire, code client, informations sur le serveur de suivi, etc.
+Les exemples suivants vous montrent comment effectuer des appels de prérécupération DNS vers différents services et solutions [!DNL Experience Cloud]. Certains appels de prérécupération requièrent votre ID d’organisation [!DNL Adobe] ou des informations relatives au serveur de suivi. Dans ces exemples, le code en *italique* représente une variable. Vous pouvez remplacer ce code par votre propre ID de partenaire [!DNL Adobe], votre code client, des informations sur votre serveur de suivi, etc.
 
 * **Analytics :** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -44,9 +44,9 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast. *`insérer un ID de partenaire ici`*.demdex.net">`
 
-* **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens de la gestion dynamique des balises sont disponibles au chargement de la page.
+* **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens DTM sont disponibles au chargement de la page.
 
-* **Media Optimizer (Advertising Cloud) :**
+* **Media Optimizer (Advertising Cloud) :**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
