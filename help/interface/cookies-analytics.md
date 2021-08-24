@@ -12,7 +12,7 @@ exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 Adobe Analytics utilise des cookies pour différencier les requêtes provenant de différents navigateurs et pour stocker des informations utiles qu’une application peut utiliser ultérieurement. Ils peuvent également être utilisés pour associer des informations de navigation aux dossiers des clients.
 
-Analytics utilise des cookies pour définir anonymement les nouveaux visiteurs, aider à analyser les données de parcours de navigation et suivre l’historique de l’activité sur le site web, comme les réponses à des campagnes particulières ou la durée du cycle de vente.
+Analytics utilise des cookies pour définir anonymement de nouveaux visiteurs, aider à analyser les données de parcours de navigation et suivre l’activité historique sur le site web, comme les réponses à des campagnes particulières ou la durée du cycle de vente.
 
 * [Nom du cookie : s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nom du cookie : AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -49,7 +49,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Ce cookie est défini et lu par le code JavaScript pour déterminer si les cookies sont activés (défini sur &quot;True&quot;). |
+| Informations stockées | Ce cookie est défini et lu par le code JavaScript pour déterminer si les cookies sont activés (défini sur « True »). |
 | Expiration | Ce cookie est un cookie de session qui expire à la fermeture du navigateur |
 | Utilisation | Un seul cookie pour tous les comptes |
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
@@ -113,10 +113,10 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 
 >[!NOTE]
 >
->Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide sur la modification des paramètres des cookies Analytics, contactez l’assistance clientèle.
+>Si vous utilisez un seul CNAME pour effectuer le suivi sur plusieurs domaines ou propriétés, SameSite doit être défini sur « Aucun » pour `s_vi`. Pour obtenir de l’aide afin de modifier les paramètres de cookies Analytics, contactez l’Assistance clientèle.
 
 ## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 D’autres cookies peuvent être définis en fonction de l’utilisation des modules externes Analytics. Ces cookies sont des fragments de code mis à la disposition du client pour une utilisation dans diverses circonstances. Ces circonstances comprennent la récupération des valeurs de l’URL, la concaténation de valeurs à transmettre à Analytics, la capture de l’abandon de formulaire, etc. Pour plus d’informations sur les cookies définis par chaque module externe, contactez ClientCare. Le cookie [!DNL s_vh] utilisé avec les modules complémentaires *Set Once Per* et *Set and Get Last Value* en est un exemple.
 
-Les variables de conversion (eVarX) transmises lors d’une demande d’image sans JavaScript, telles que le code placé dans un courrier électronique, ne sont correctement attribuées que si le client de messagerie et le navigateur web partagent l’espace de cookie.
+Les variables de conversion (eVarX) transmises lors d’une demande d’image sans JavaScript, tel un code placé dans un e-mail, ne sont correctement attribuées que si le client de messagerie et le navigateur web partagent l’espace de cookies.
