@@ -2,24 +2,24 @@
 audience: administrator
 user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
 breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
-user-guide-description: Découvrez l’interface de l’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et les ressources Experience Cloud.
+user-guide-description: Découvrez l’interface d’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et Experience Cloud Assets.
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 81%
+ht-degree: 97%
 
 ---
 
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Guide des composants de l’interface centrale d’Experience Cloud](experience-cloud.md)
++ [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Activation de votre mise en œuvre pour les services inter-solutions](core-services.md)
    + Bibliothèque d’audiences Experience Cloud {#audiences}
-      + [Audiences Experience Cloud](audience-library.md)
+      + [Audiences Experience Cloud](audience-library.md)
       + [Création d’une audience](t-audience-create.md)
       + [Publication d’un segment d’audience Analytics](t-publish-audience-segment.md)
    + Attributs du client Experience Cloud {#customer-attributes}
@@ -47,10 +47,10 @@ ht-degree: 81%
       + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](assets-file-reqs.md)
       + [Comportement des dossiers partagés](asset-behavior.md)
-+ Experience Cloud administration {#administration}
++ Administration d’Experience Cloud {#administration}
    + [Gestion de l’identité de l’utilisateur et des produits Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-tool-experience-cloud.md)
-   + [Questions fréquemment posées](faq.md)
+   + [Questions fréquentes](faq.md)
    + [Liaison d’organisations et de comptes](organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](upgrade-to-analytics-premium.md)
    + [Intégrations Experience Cloud](marketing-cloud-integrations.md)
@@ -68,10 +68,10 @@ ht-degree: 81%
       + [Cookies [!DNL Search and Promote]](cookies-snp.md)
       + [Cookies [!DNL Target]](cookies-target.md)
       + [Activation des paramètres de confidentialité pour les cookies de navigateur](browser-cookie-settings.md)
-      + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients ](cookies-thirdparty.md)
-+ Notes de mise à jour de l’interface utilisateur Experience Cloud {#release-notes}
+      + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients](cookies-thirdparty.md)
++ Notes de mise à jour de l’interface utilisateur d’Experience Cloud {#release-notes}
    + [Notes de mise à jour des composants de l’interface centrale](release-notes.md)
-   + [Notes de mise à jour pour tous les Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
+   + [Notes de mise à jour de l’ensemble des solutions Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
 + Plus de ressources {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
