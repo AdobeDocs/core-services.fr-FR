@@ -12,13 +12,13 @@ exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Cookies Experience Cloud{#experience-cloud-cookies}
 
-Adobe Experience Cloud utilise des cookies pour stocker un identifiant visiteur utilisé dans les applications Experience Cloud.
+Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur utilisé dans les différentes applications Experience Cloud.
 
 **Nom du cookie : s_ecid**
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud utilise des cookies pour stocker un identifiant visiteur 
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre est la nouvelle valeur par défaut des cookies dans Chrome.</p> </td> 
+   <td colname="col2"> <p>Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre représente la nouvelle valeur par défaut pour les cookies dans Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloud utilise des cookies pour stocker un identifiant visiteur 
 
 Le [service Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) utilise JavaScript pour stocker un ID de visiteur unique dans un cookie `AMCV_###@AdobeOrg` dans le domaine du site web actuel, où `###` représente une chaîne de caractères aléatoire telle que `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
+Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,7 +93,7 @@ Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/i
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aucune valeur ajoutée. Chrome est défini par défaut sur Lax. </p> </td> 
-   <td colname="col2"> <p> Les cookies comprenant ce paramètre sont uniquement envoyés lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre est la nouvelle valeur par défaut des cookies dans Chrome. </p> </td> 
+   <td colname="col2"> <p> Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre représente la nouvelle valeur par défaut pour les cookies dans Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
