@@ -12,13 +12,13 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 74%
+ht-degree: 90%
 
 ---
 
 # Connexion et gestion des paramètres du profil Experience Cloud
 
-La connexion à Experience Cloud (au lieu de se connecter à une seule solution) permet l’authentification unique à tous les services et solutions que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
+En vous connectant à Experience Cloud (plutôt qu’à une solution donnée), vous bénéficiez de l’authentification unique pour tous les services et solutions que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 | [Configuration d’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | Définissez et configurez un système d’identités qui déterminera le mode d’authentification de vos utilisateurs finaux. |
 | [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
 | [Lancement d’Admin Console](admin-getting-started.md) | Admin Console centralise la gestion de vos utilisateurs et de vos droits sur les produits Adobe au sein de votre organisation dans son intégralité.<br>Vous pouvez également vous connecter à Admin Console à l’aide d’un [lien direct](https://adminconsole.adobe.com). |
-| [Gérer les utilisateurs de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permet aux marketeurs de partager, de synchroniser et de collaborer sur des dossiers avec des concepteurs et d’autres ressources créatives à l’aide du Creative Cloud. Ici, vous pouvez gérer les utilisateurs de Creative Cloud autorisés à collaborer avec votre organisation. |
+| [Gérer les utilisateurs de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permet aux spécialistes du marketing de partager des dossiers, de les synchroniser et de collaborer avec les concepteurs et autres créatifs dans Creative Cloud. Ici, vous pouvez gérer les utilisateurs de Creative Cloud autorisés à collaborer avec votre organisation. |
 | [Mappage de vos suites de rapports](core-services.md) | (Analytics uniquement) Les services principaux Experience Cloud sont associés à une organisation plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. (Cette tâche fait partie d’un processus permettant l’ [Activation d’Analytics pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [ID d’organisation](organizations.md) | L’*ID d’organisation* se trouve en bas de la page Administration. Il s’agit de l’identifiant associé à la société Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |
 
@@ -151,6 +151,6 @@ Exemple d’URL :
 |--- |--- |--- |--- |
 | `tenantId` | Nom du client auquel l’utilisateur doit se connecter. | aem62tenant | Facultative |
 | `destURL` | URL complète renvoyant vers l’emplacement auquel l’utilisateur doit accéder. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Facultative |
-| `solutionname` | Nom de la solution MAC propriétaire du paramètre `destURL`. Il est utilisé pour vérifier que l’utilisateur a accès à la solution propriétaire de l’URL.  Il est de la responsabilité des solutions de s’assurer que `solutionname` est synchronisé avec le paramètre `destURL`.  Par exemple : Si l’URL contient `solutionname` en tant que réseau social et que `destURL` fourni est une URL d’analyse, l’utilisateur est redirigé vers l’URL même s’il n’a pas accès à Analytics. MAC ne vérifie PAS si le propriétaire de `destURL` est synchronisé avec le nom de la solution. | analytics | Obligatoire si le paramètre `destURL` est utilisé. |
+| `solutionname` | Nom de la solution MAC propriétaire du paramètre `destURL`. Il est utilisé pour vérifier que l’utilisateur a accès à la solution propriétaire de l’URL.  Il appartient aux solutions de s’assurer que `solutionname` est synchronisé avec le paramètre `destURL`.  Par exemple : si l’URL comporte `solutionname` en tant que valeur « social » et que le paramètre `destURL` fourni est une URL Analytics, l’utilisateur est redirigé vers l’URL même s’il n’a pas accès à Analytics. MAC ne vérifie PAS si le propriétaire du paramètre `destURL` est synchronisé avec le nom de la solution. | analytics | Obligatoire si le paramètre `destURL` est utilisé. |
 
 {style=&quot;table-layout:auto&quot;}
