@@ -14,23 +14,23 @@ exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 60%
+ht-degree: 96%
 
 ---
 
 # Activation
 
-Activation comprend le dernier produit de gestion des balises appelé Experience Platform [!UICONTROL Collecte de données] ([!UICONTROL Launch]) et Experience Cloud [!UICONTROL Triggers].
+Activation inclut le dernier produit de gestion des balises, appelé [!UICONTROL Collecte de données] Experience Platform ([!UICONTROL Launch]), ainsi qu’Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Déployez et gérez les balises marketing, publicitaires et d’analyse nécessaires à la création d’expériences clients pertinentes.
 
-Voir [Guide de démarrage rapide Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
+Consultez le [Guide de démarrage rapide d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Les spécialistes marketing ] Triggersenables Experience Cloud peuvent définir et surveiller les comportements clés des consommateurs, puis générer une communication inter-solutions destinée à être utilisée dans les décisions et la personnalisation en temps réel.
+[!UICONTROL Experience Cloud Triggers] permet aux spécialistes du marketing de définir et de surveiller les comportements clés des consommateurs, puis de générer une communication entre solutions destinée à être utilisée pour la personnalisation et les décisions en temps réel.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Voir [Guide de démarrage rapide Experience Platform Launch](https://experiencel
   </tr>
   <tr> 
    <td colname="col1"> <p>Utilisation de Triggers dans Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 offre une intégration au service Triggers. Ce service permet aux utilisateurs professionnels de définir facilement des triggers en fonction des données comportementales en ligne capturées dans Adobe Analytics. Une fois le trigger défini, il est disponible dans Adobe Campaign pour prendre en charge les messages de remarketing qui incitent les interactions et les conversions. Cette nouvelle fonctionnalité prête à l’emploi permet aux marketeurs de déclencher des messages de remarketing au bon moment, en fonction d’événements en ligne tels que l’abandon de panier, les pages vues et les vidéos visionnées. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 offre une intégration au service Triggers. Ce service permet aux utilisateurs professionnels de définir facilement des triggers en fonction des données comportementales en ligne capturées dans Adobe Analytics. Une fois le trigger défini, il devient disponible dans Adobe Campaign afin de prendre en charge les messages de remarketing qui encouragent l’engagement et les conversations. Cette nouvelle fonctionnalité prête à l’emploi permet aux spécialistes du marketing de déclencher des messages de remarketing au bon moment, en fonction d’événements en ligne tels que l’abandon de panier, les vues de pages et les vidéos visionnées. </p> </td>
   </tr>
  </tbody>
 </table>
