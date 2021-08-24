@@ -9,7 +9,7 @@ uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
 
 ## Août 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
-Correctifs et améliorations pour août 2018.
+Correctifs et améliorations pour août 2018.
 
 * Amélioration de la synchronisation des commentaires des ressources dans Creative Cloud et Experience Cloud. (CORE-15971)
 * Ajout d’un indicateur de fonctionnalité permettant de contrôler la synchronisation des ressources Experience Cloud-Creative Cloud. (CORE-15938)
@@ -29,7 +29,7 @@ Correctifs et améliorations pour août 2018.
 
 ## 19 juillet 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
-Correctifs et améliorations pour juillet 2018.
+Correctifs et améliorations pour juillet 2018.
 
 * Déploie une fonctionnalité en arrière-plan pour contrôler le partage d’actif entre Experience Cloud et AEM, ainsi qu’entre Experience Cloud et Creative Cloud. (CORE-14386)
 * Correction d’un problème qui bloquait le provisionnement des nouveaux clients sur certains environnements. (CORE-15509)
@@ -38,14 +38,14 @@ Correctifs et améliorations pour juillet 2018.
 
 ## 14 juin 2018 {#section_7ABC327992CB46B0B8E4A631B8B68899}
 
-Correctifs et améliorations pour juin 2018.
+Correctifs et améliorations pour juin 2018.
 
 * Activation d’un lien d’accès au RGPD pour les administrateurs. (CORE-11731)
 * Mise à jour de la fonction Commentaires bêta afin de limiter les types de fichiers pouvant être joints aux commentaires. (CORE-10474)
 * Correction d’un problème lié à la suppression d’audiences de la bibliothèque d’audiences. (CORE-12792)
 * Correction d’un problème qui faisait s’afficher un écran vide en accédant aux liens Workspace à l’aide de Federated ID. (CORE-11620)
 
-## 10 mai 2018  {#section_498AF78DA17C4720AA0F32B51493E550}
+## 10 mai 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 Nouvelles fonctions et correctifs de l’interface [!DNL Adobe Experience Cloud].
 
@@ -64,9 +64,9 @@ Nouvelles fonctions et correctifs de l’interface [!DNL Adobe Experience Cloud]
 
 **Problème connu**
 
-De nombreuses notifications de maintenance relatives aux mises à jour de maintenances et de produit planifiées ne figurent pas dans le courrier électronique de résumé des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans le courrier électronique de résumé.
+De nombreuses notifications de maintenance relatives aux mises à jour de maintenances et de produit planifiées ne figurent pas dans le courrier électronique de résumé des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans l’e-mail récapitulatif.
 
-## 8 août 2017  {#section_2313A875454044F490B418506DD24593}
+## 8 août 2017 {#section_2313A875454044F490B418506DD24593}
 
 | Fonctionnalité | Description |
 |--- |--- |
@@ -76,7 +76,7 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 {style=&quot;table-layout:auto&quot;}
 
-## 22 mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
+## 22 mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Fonctionnalité | Description |
 |--- |--- |
@@ -85,11 +85,11 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 {style=&quot;table-layout:auto&quot;}
 
-## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Mise à jour de la section Profil et mots de passe | Les utilisateurs ne peuvent plus modifier les informations de profil utilisateur IMS sous Détails personnels dans Modifier le profil > Profil et mots de passe. Ils sont redirigés à la place vers `accounts.adobe.com`. Cette mise à jour s’applique à tous les types d’identité (Adobe ID, Enterprise et Federated). |
+| Mise à jour de la section Profil et mots de passe | Les utilisateurs ne peuvent plus modifier les informations de profil utilisateur IMS sous Détails personnels dans Modifier le profil > Profil et mots de passe. Ils sont redirigés à la place vers `accounts.adobe.com`. Cette mise à jour s’applique à tous les types d’identité (Adobe ID, Enterprise et Federated). |
 
 {style=&quot;table-layout:auto&quot;}
 
