@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,13 @@ Informations au sujet des mises à jour dans la documentation produit d’Experi
 
 Mise à jour des [cookies propriétaires](cookies-first-party.md).
 
-**Mise à jour : 6/4/2021**
+**Mise à jour : 04/06/2021**
 
-Réorganisation de la structure, de la table des matières du guide.
+Réorganisation de la structure et de la table des matières du guide.
 
-**Mise à jour : 6/1/2021**
+**Mise à jour : 01/06/2021**
 
-Mise à jour de la [landing page](experience-cloud.md) avec nouvelle aide pour l’accès aux notifications, aux recherches globales, aux préférences et aux Experience Cloud.
+Mise à jour de la [page de destination](experience-cloud.md) avec ajout d’informations d’aide pour l’accès à Experience Cloud, à la recherche globale, aux préférences et aux notifications.
 
 **Mise à jour : 19/08/2020**
 
@@ -38,7 +38,7 @@ Mise à jour de l’[Affichage des informations sur les utilisateurs d’Experie
 
 **Mise à jour : 19/05/2020**
 
-Documentation sur la Gestion des offres obsolète.
+Documentation sur la gestion des offres obsolète.
 
 **Mise à jour : 15/05/2020**
 
@@ -57,7 +57,7 @@ Ajout de la section [Affichage des informations sur les utilisateurs d’Experie
 
 **Mise à jour : 05/09/2018**
 
-Ajout de la procédure de suppression d’un attribut de client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Mise à jour : 8/06/2018**
 
