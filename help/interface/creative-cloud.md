@@ -11,7 +11,7 @@ exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Pour que les utilisateurs Creative Cloud puissent accéder aux ressources, ils d
 
 Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource image partagée au moment de permuter des images dans la [!UICONTROL bibliothèque d’offres].
 
-Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) dans l’aide [!DNL Target].
+Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans l’aide [!DNL Target].
