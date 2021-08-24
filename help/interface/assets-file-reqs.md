@@ -28,7 +28,7 @@ La plupart des images, documents et fichiers multimédias peuvent être transfé
 
 Les limites de taille de fichier proviennent du navigateur et peuvent varier d’un navigateur à l’autre :
 
-| Browser | Chargement (taille totale) | Téléchargement (par fichier) |
+| Navigateur | Chargement (taille totale) | Téléchargement (par fichier) |
 |--- |--- |--- |
 | Internet Explorer 6 | 2 Go | 2 Go 4 Go pour les transferts mémorisés en bloc ou à fermeture de connexion. |
 | Internet Explorer 7 | 2 Go | 4 Go |
