@@ -1,5 +1,5 @@
 ---
-description: Comment Data Workbench utilise les cookies pour analyser en temps réel d’importants volumes de données qui évoluent rapidement.
+description: Comment Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
 keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Data Workbench '
@@ -12,13 +12,13 @@ exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Cookies Data Workbench{#data-workbench-cookies}
 
-Data Workbench utilise des cookies pour analyser en temps réel d’importants volumes de données qui évoluent rapidement.
+Data Workbench utilise des cookies pour analyser, en temps réel, d’importants volumes de données qui évoluent rapidement.
 
 **Nom du cookie : v1st**
 
