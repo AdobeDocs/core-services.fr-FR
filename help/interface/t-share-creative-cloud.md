@@ -12,7 +12,7 @@ exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -56,7 +56,7 @@ Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier 
 Voici dʼautres moyens dʼutiliser une ressource partagée :
 
 * Utilisez les ressources du [!UICONTROL Sélecteur de ressources] dans [!DNL Adobe Social] pour les publications sociales.
-* Chargez ou permutez des fichiers dans la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) dans [!DNL Adobe Target] pour les images dans les activités.
+* Chargez ou permutez des fichiers dans la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans [!DNL Adobe Target] pour les images dans les activités.
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -64,6 +64,6 @@ Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative 
 
 Aide connexe :
 
-* [Aide de Creative Cloud - Gestion et synchronisation des fichiers](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Aide de Creative Cloud - Collaboration avec d’autres utilisateurs](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Aide de Creative Cloud - FAQ sur la collaboration](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Aide de Creative Cloud - Gestion et synchronisation des fichiers](https://helpx.adobe.com/fr/creative-cloud/help/sync-creative-cloud-files.html)
+* [Aide de Creative Cloud - Collaboration avec d’autres utilisateurs](https://helpx.adobe.com/fr/creative-cloud/help/collaboration.html)
+* [Aide de Creative Cloud - FAQ sur la collaboration](https://helpx.adobe.com/fr/creative-cloud/help/collaboration-faq.html)
