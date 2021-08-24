@@ -12,7 +12,7 @@ exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '1425'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
@@ -47,8 +47,8 @@ Voir [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-s
 
 **Solutions ou services applicables**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=fr)
+* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=fr)
 
 ## Audiences {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -70,7 +70,7 @@ Créez et gérez des audiences dans la bibliothèque d’audiences Experience Cl
 
 Aide : [Attributs du client](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données Attribut client de l’Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois le transfert effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 **Solutions ou services applicables**
 
@@ -141,7 +141,7 @@ L’intégration d’Adobe Target avec Adobe Analytics et d’autres solutions E
 
 **Solutions ou services applicables**
 
-* Attributs du client : Configuration d’Adobe Target pour l’[abonnement](subscription.md) aux attributs du client
+* Attributs du client : configuration d’un [abonnement](subscription.md) Adobe Target pour les attributs du client
 * Audiences d’Experience Cloud : [Bibliothèque d’audiences Experience Cloud](audience-library.md)
 * Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
 * Dynamic Tag Management : [Bonnes pratiques pour la mise en œuvre d’Adobe Target à l’aide de Dynamic Tag Management](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -187,10 +187,10 @@ Aide (connexion requise) : [intégration aux solutions et services Adobe Exper
 
 **Analytics :** peut envoyer quotidiennement des données d’engagement et de conversion du site à [!DNL Adobe Advertising], où elles servent à l’optimisation des publicités et à la création de rapports. Par ailleurs, [!DNL Advertising] peut envoyer quotidiennement à Analytics des données de moteur de recherche et de trafic sur les réseaux sociaux, où elles servent aux rapports dans les fonctionnalités de Reports &amp; Analytics, de Report Builder et d’Ad Hoc Analysis.
 
-**Gestionnaire dynamique de balises :** vous pouvez  [utiliser le gestionnaire dynamique de balises pour créer des balises de suivi de conversion basées sur les pixels](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) Advertising et des balises de suivi tierces pour vos pages d’entrée de recherche, de réseaux sociaux et d’affichage d’annonce. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
+**Dynamic Tag Manager :** vous pouvez [utiliser Dynamic Tag Manager pour créer des balises de suivi de conversion basées sur les pixels d’Advertising](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en), ainsi que des balises de suivi tierces, pour vos pages de destination de recherche, de réseaux sociaux et de publicité display. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
 
-**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](audience-library.md) en tant que cibles pour vos publicités display. Vous pouvez utiliser automatiquement les audiences que vous avez créées dans Experience Cloud et les audiences d’Analytics que vous avez publiées dans Adobe Experience Cloud. Vous pouvez également utiliser Audiences d’Audience Manager lorsque le compte [!DNL Adobe Advertising] est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à Profils et audiences, ainsi que sur la configuration initiale entre [!DNL Adobe Advertising] et les audiences Adobe Experience Cloud. **Remarque :** si vous utilisez également Adobe Target, toutes les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Target.
+**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](audience-library.md) en tant que cibles pour vos publicités display. Vous pouvez utiliser automatiquement les audiences que vous avez créées dans Experience Cloud ainsi que les audiences d’Analytics que vous avez publiées dans Adobe Experience Cloud. Vous pouvez également utiliser les audiences d’Audience Manager lorsque le compte [!DNL Adobe Advertising] est configuré pour l’autoriser. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à Profils et audiences, ainsi que sur la configuration initiale entre [!DNL Adobe Advertising] et les audiences Adobe Experience Cloud. **Remarque :** si vous utilisez également Adobe Target, toutes les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Target.
 
 **Experience Cloud Assets :** (annonceurs avec gestion des publicités display) utilisez une de vos ressources Adobe Experience Cloud comme élément créatif pour vos publicités display, dans la vue de nouvelle publicité display (version bêta). Vous devez être [connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) pour accéder à vos ressources Adobe Experience Cloud. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
 
-**Notifications Experience Cloud :** à partir du lien de notifications situé en haut de chaque page, vous pouvez afficher toutes les alertes générées à partir de vos modèles d’alertes bêta de recherche. Vous pouvez également obtenir des mises à jour système, des publications, des mentions et des ressources Experience Cloud partagées. Vous devez être [connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) pour accéder à vos notifications. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
+**Notifications Experience Cloud :** à partir du lien de notifications situé en haut de chaque page, vous pouvez afficher toutes les alertes générées à partir de vos modèles d’alertes bêta de recherche. Vous pouvez également obtenir des mises à jour du système Experience Cloud, des publications, des mentions et des ressources partagées. Vous devez être [connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) pour accéder à vos notifications. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
