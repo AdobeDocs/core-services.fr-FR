@@ -12,7 +12,7 @@ exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 1. Dans la page [!UICONTROL Créer une audience], fournissez un titre et une description.
 1. Sous [!UICONTROL Règles], sélectionnez une source d’attribut :
 
-   * **[!UICONTROL Données Real-Time Analytics :]**  (ou données brutes) il s’agit de données d’attribut provenant de demandes d’image Real-Time Analytics et qui incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+   * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Real-Time Analytics incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
    >[!NOTE]
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
