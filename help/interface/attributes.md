@@ -1,6 +1,6 @@
 ---
 title: Utilisation des attributs du client
-description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment télécharger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
+description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment transférer des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud
 feature: Attributs du client
 role: Admin
@@ -10,13 +10,13 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Attributs du client aperçu
 
-[!UICONTROL Les attributs du client dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. ] Vous pouvez charger les données dans une source de données Attribut client dans l’Experience Cloud, puis utiliser les données dans Adobe Analytics et Adobe Target.
+[!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
 
 Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
@@ -30,13 +30,13 @@ Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]**
 
    Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
 
-   Les utilisateurs ajoutés aux attributs du client voient l’option de menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface de l’Experience Cloud.
+   Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
-   Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) ou [Implémentation de mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en).
+   Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=fr) ou [Implémentation de mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=fr).
 
-## Que sont les données des clients d’entreprise ?  {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations de type adhésions, niveau de fidélité, âge, sexe, produits détenus, intérêts et valeur de durée de vie.
 
@@ -56,7 +56,7 @@ Par exemple :
 
 | Solution | Avantages et cas d’utilisation |
 |--- |--- |
-| Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Les produits que les clients avec une valeur de durée de vie faible tendent à rechercher sur mon site.</li></ul> |
+| Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Produits que les clients dont la valeur de durée de vie est faible ont tendance à rechercher sur le site.</li></ul> |
 | Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>pour les clients recevant déjà des courriers électroniques, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
