@@ -1,8 +1,8 @@
 ---
 description: Découvrez comment valider le schéma d’attributs du client dans Adobe Experience Cloud.
-keywords: Attributs du client ; services Experience Cloud
+keywords: Attributs du client;services Experience Cloud
 solution: Experience Cloud
-title: 'Validation du schéma d’attribut du client '
+title: 'Validation du schéma d’attributs du client '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Attributs du client
 topic: Administration
@@ -12,7 +12,7 @@ exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
    * **[!UICONTROL ID de visiteur Analytics (AVID) :]** s’affiche si vous utilisez une prop ou une eVar pour le transfert des ID de client. Si ces ID sont transmis à Experience Cloud, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
 
-Vous pouvez également transférer des données par FTP après avoir créé une source d’attributs du client et un compte FTP dans l’Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le transfert est terminé.
+Vous pouvez également transférer les données via FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le transfert est terminé.
 
-Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics]. 
+Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics].
 
 * **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
 
@@ -60,6 +60,6 @@ Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros se
 
    * **Nombres :** peuvent contenir jusqu’à deux décimales.
 
-* **[!UICONTROL Nom d’affichage :]** nom convivial de l’attribut. Par exemple, vous pouvez remplacer un attribut *âge du client* par *Client depuis*.
+* **[!UICONTROL Nom d’affichage :]** nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *Client depuis*.
 
 * **[!UICONTROL Description :]** description conviviale de l’attribut.
