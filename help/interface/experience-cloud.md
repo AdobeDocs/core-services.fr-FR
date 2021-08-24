@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Bien que toutes les équipes d’applications se soient engagées dans la prise 
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à l’apprentissage et à l’aide à l’aide de l’icône d’aide (![asset](assets\help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets d’assistance prioritaires.
+Accédez à l’apprentissage et à l’aide à l’aide de l’icône d’aide (![asset](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets d’assistance prioritaires.
 
 ![](assets/search-menu.png)
 
