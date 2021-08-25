@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,7 +98,7 @@ Voir [Recherche de votre ID d’organisation](organizations.md).
 
 L’ID d’organisation est affiché sur la page d’entrée d’Experience Cloud et sur la [page d’entrée Admin Console](https://adminconsole.adobe.com).
 
-Les administrateurs peuvent aussi se connecter à Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) pour une organisation spécifique. Votre ID d’organisation IMS apparaît alors dans l’URL.
+Les administrateurs peuvent aussi se connecter à Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) pour une organisation spécifique. Votre ID d’organisation IMS apparaît alors dans l’URL.
 
 Par exemple, dans l’URL suivante :
 
