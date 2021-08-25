@@ -1,19 +1,19 @@
 ---
 description: Découvrez les termes utilisés dans Adobe Experience Cloud et la façon dont ils diffèrent de ceux utilisés dans Creative Cloud.
 keywords: partage de ressources;services d’audience;Creative Cloud;services principaux
-seo-description: valeur nulle
-seo-title: Terminologie
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Attributs du client"'
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1453'
 ht-degree: 98%
 
 ---
@@ -40,7 +40,7 @@ Référence terminologique à l’intention des utilisateurs d’Experience Clou
 | [!UICONTROL Experience Platform Identity Service] | Aucun usage particulier. | Le service qui lie les identités. Il s’agit du service de liaison de périphériques pour la gestion de l’expérience basée sur les personnes. |
 | Liaison | Aucun usage particulier. La liaison se rapporte à la navigation sur des liens hypertexte, ainsi qu’à la liaison d’éléments tels que des polices, des propriétés, des calques, etc. | Dans Experience Cloud, la liaison se rapporte généralement à la liaison de différents comptes de solution à l’interface.<br>Voir [Liaison d’organisations et de comptes](organizations.md).<br>La liaison se rapporte également aux URL standard pour les rapports Analytics envoyés à d’autres utilisateurs. |
 | Emplacements | Dans Creative Cloud, l’emplacement fait référence aux emplacements de fichiers ou à un emplacement sur une image ou un document ouvert. | Dans Experience Cloud, les emplacements sont les endroits où le contenu est visible par les audiences (et les endroits où les audiences peuvent interagir avec le contenu). L’association entre les emplacements et le contenu peut être plus ou moins statique ou peut être gérée de manière dynamique, selon les règles d’une campagne. Un emplacement appartient toujours à un canal spécifique, qui détermine la manière dont le contenu peut être diffusé et dont les mesures peuvent être collectées.<br>Par exemple :<ul><li>Sites</li><li>Propriétés (sociales)</li><li>Inventaire d’affichage</li><li>Pages d’entrée</li><li>Applications mobiles</li><li>Emplacements (vidéo)</li></ul> |
-| Mesures | Non utilisé dans Creative Cloud. | Agrègent les chiffres relatifs à des concepts clés et à des objectifs. Dans Analytics, les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes et les recettes. Voir [Description des mesures](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=fr). |
+| Mesures | Non utilisé dans Creative Cloud. | Agrègent les chiffres relatifs à des concepts clés et à des objectifs. Dans Analytics, les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes et les recettes. |
 | Organisation | Non utilisé dans Creative Cloud. | Une organisation est une entité Experience Cloud qui permet à un administrateur de configurer des utilisateurs et des produits, et de contrôler l’authentification unique dans Experience Cloud. La plupart du temps, l’organisation est la société de facturation. |
 | Portefeuille | Un groupe de plusieurs fichiers ou ressources. | Un conteneur de campagnes. |
 | Profil de produits | Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products.html). | Pour qu’un utilisateur ait le droit d’utiliser un produit ou un service, il doit appartenir à un profil de produit. L’administrateur de produit attribue des licences à un profil de produits en l’associant à une formule que vous avez achetée.<br>Un utilisateur peut appartenir à plusieurs profils de produits, chacun lui conférant différentes licences. L’éligibilité finale d’un utilisateur est l’union de toutes les licences attribuées par chaque profil de produits à cet utilisateur. |
