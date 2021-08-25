@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 70%
+source-wordcount: '1614'
+ht-degree: 69%
 
 ---
 
@@ -166,6 +166,6 @@ Après avoir vérifié que vos noms d’hôtes répondent et procèdent au trans
 
 1. Si vous passez à la collecte de données propriétaires à partir d’une mise en oeuvre de longue date ou passez à un nom d’hôte de collecte propriétaire différent, Adobe recommande de migrer les visiteurs du domaine précédent vers le nouveau domaine.
 
-Voir [Migration des Visiteurs](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=fr) dans le Guide de mise en œuvre d’Analytics.
+Voir [Migration des Visiteurs](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) dans le Guide de mise en œuvre d’Analytics.
 
 Une fois le fichier JavaScript chargé, tout est configuré pour la collecte de données propriétaires. Adobe vous recommande de surveiller le compte rendu des performances d’Analytics durant les heures qui suivent afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
