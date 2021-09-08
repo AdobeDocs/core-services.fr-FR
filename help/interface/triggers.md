@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 >
 >Pour des raisons techniques, le nombre de triggers est actuellement limité à 100.
 
-1. Dans l’Experience Cloud, sélectionnez ![](assets/menu-icon.png), puis **[!UICONTROL Collecte de données/Launch]**.
-2. Sur la carte [!UICONTROL Déclencheurs], sélectionnez **[!UICONTROL Gérer les déclencheurs]**.
-3. Sélectionnez **[!UICONTROL Nouvel déclencheur]**, puis spécifiez le type de déclencheur :
+1. Dans Experience Cloud, sélectionnez ![](assets/menu-icon.png), puis choisissez **[!UICONTROL Collecte de données/Launch]**.
+2. Sur la carte [!UICONTROL Triggers], sélectionnez **[!UICONTROL Gérer les triggers]**.
+3. Sélectionnez **[!UICONTROL Nouveau trigger]**, puis spécifiez le type de trigger :
 
    ![Résultat de l’étape](assets/add-trigger.png)
 
