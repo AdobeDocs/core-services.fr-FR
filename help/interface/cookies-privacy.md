@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
 
-# À propos des cookies et de la confidentialité{#about-cookies-and-privacy}
+# À propos des cookies et de la confidentialité {#about-cookies-and-privacy}
 
 Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe s’associe à de multiples organisations œuvrant à la protection de la vie privée. En outre, l’entreprise travaille en coopération avec des organismes réglementant la protection de la vie privée et respecte les principes d’autoréglementation. Cette coopération comprend le programme AdChoices de Digital Advertising Alliance, qui fournit aux clients des informations sur l’utilisation de leurs informations personnelles et les choix qu’ils peuvent faire concernant cette utilisation.
 
