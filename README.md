@@ -1,8 +1,8 @@
 ---
 source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Article sur les contributions
@@ -21,7 +21,7 @@ Votre contribution dépend de qui vous êtes et du type de modifications auxquel
 
 ### Modifications mineures
 
-Si vous contribuez à des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** de l’article qui renvoie à la source GitHub de celui-ci. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Si vous contribuez bénévolement à des mises à jour mineures, consultez lʼarticle et sélectionnez le lien **Modifier** de lʼarticle pour accéder à la source GitHub associée. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Les corrections mineures ou les clarifications que vous envoyez à titre d’exemple de documentation et de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
