@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Conseils et limites lors de l’utilisation des [!UICONTROL attributs du client]
 | **(Adobe Target uniquement)** Comment la fonctionnalité des [!UICONTROL attributs du client] se compare-t-elle à l’API de profil par lot d’Adobe Target ? | L’API de profil par lot permet de mettre à jour les profils Adobe Target directement via l’API, soit pour un profil individuel, soit par lot. La fonctionnalité est similaire aux attributs du client, avec les différences clés suivantes :<ul><li>L’API de profil est un appel API REST, tandis que les attributs du client utilisent le protocole FTP.</li><li>L’API profil d’Adobe Target envoie uniquement des données à Adobe Target plutôt qu’à l’ensemble d’Experience Cloud.</li><li>Les attributs du client offrent une interface simple pour créer et gérer ces données externes.</li></ul> |
 | **(Adobe Target uniquement)** Le transfert de données à partir des attributs du client vers Adobe Target s’étend-il à la durée de vie du profil des visiteurs d’Adobe Target ? | Oui. Voir [Durée de vie du profil du visiteur](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=fr) dans l’aide d’Adobe Target. |
 | **(Adobe Target uniquement)** Puis-je cibler les données transférées dans les attributs du client immédiatement après l’identification du visiteur par l’ID de client ? | Oui. Lors de l’appel du serveur à Adobe Target, qui inclut l’ID tiers de la mbox, toutes les données d’attributs du client sont disponibles. |
-| **(Adobe Target uniquement)** Que représente la colonne **[!UICONTROL État de synchronisation]** pour les fichiers transférés dans la source d’attributs du client ? | Le nombre d’enregistrements publiés et synchronisés par Adobe Target peut être affiché en sélectionnant l’icône État de synchronisation en regard d’un fichier d’attributs spécifique. `Sync %` est une mesure en temps réel qui spécifie le % de profils synchronisés dans Adobe Target.<br> **Remarque :** la synchronisation des attributs avec Adobe Target peut prendre jusqu’à 24 heures. |
+| **(Adobe Target uniquement)** Que représente la colonne **[!UICONTROL État de synchronisation]** pour les fichiers transférés dans la source d’attributs du client ? | Le nombre dʼenregistrements publiés et synchronisés par Adobe Target peut être affiché en sélectionnant lʼicône Statut de la synchronisation en regard dʼun fichier dʼattributs spécifique. `Sync %` est une mesure en temps réel qui spécifie le % de profils synchronisés dans Adobe Target.<br> **Remarque :** la synchronisation des attributs avec Adobe Target peut prendre jusqu’à 24 heures. |
 | Que représentent les mesures de transfert de fichiers dans la source des attributs du client ? | Vous pouvez vérifier l’état des attributs chargés dans les attributs du client à l’aide des mesures suivantes : <ul><li>Enregistrements : nombre d’enregistrements dans le fichier d’attributs.</li><li>**Nouveaux enregistrements :** nombre de nouveaux enregistrements présents dans le fichier d’attributs.</li> <li>**Enregistrements mis à jour :** nombre d’enregistrements qui existent dans les attributs du client avec des valeurs mises à jour dans le fichier.</li><li>**Toutes les données (enregistrements) :** nombre total d’enregistrements transférés vers les attributs du client avec succès.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
