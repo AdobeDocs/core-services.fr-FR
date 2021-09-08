@@ -13,7 +13,7 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 69%
+ht-degree: 99%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 69%
 
 Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et logiciels anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe s’assure que les cookies peuvent toujours être définis même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (ou cookie s_vi) :
+De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe sʼassure que les cookies peuvent toujours être définis, même si les cookies tiers sont bloqués. Les cookies sont définis de manière différente selon que vous utilisez le service dʼidentités dʼExperience Platform (service ECID) ou les identifiants hérités dʼAnalytics (ou cookie s_vi) :
 
-* Le [service d’identité Experience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non à votre domaine de site. S’ils ne correspondent pas, Identity Service utilisera JavaScript pour définir des cookies dans le domaine de votre site.
-* Si vous utilisez [les identifiants hérités Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (ou le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un [identifiant de secours (s_fid)](cookies-analytics.md) propriétaire au lieu du cookie &quot;s_vi&quot; standard.
+* Le [Service dʼidentités dʼExperience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non au domaine de votre site. Sʼils ne correspondent pas, le service dʼidentités utilisera JavaScript pour définir les cookies sur le domaine de votre site.
+* Si vous utilisez des [identifiants Analytics hérités](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=fr) (soit le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un [identifiant de secours (s_fid)](cookies-analytics.md) propriétaire au lieu du cookie « s_vi » standard.
 
-Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra le transfert depuis un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte d’Adobe. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par l’Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point d’entrée CNAME pour effectuer le suivi des utilisateurs sur leurs domaines. Toutefois, lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
+Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra de transférer les données dʼun domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte dʼAdobe. Cela implique des modifications des paramètres DNS de votre société pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point d’entrée CNAME pour effectuer le suivi des utilisateurs sur leurs domaines. Toutefois, lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
 
 >[!NOTE]
 >
->Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple rend les cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME ont également la même expiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
+>Que votre domaine de collecte corresponde ou non au domaine de votre site, le programme de prévention intelligente du suivi (ITP, Intelligent Tracking Prevention) dʼApple réduit drastiquement la durée de vie des cookies propriétaires définis par Adobe sur les navigateurs régis par lʼITP, notamment Safari sous macOS et tous les navigateurs sous iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
 
-Si vous souhaitez établir un CNAME pour la collecte de données et si votre site comporte des pages sécurisées à l’aide du protocole HTTPS, vous pouvez collaborer avec Adobe pour obtenir un certificat SSL.
+Si vous souhaitez établir un CNAME pour la collecte de données et si votre site utilise le protocole HTTPS pour la navigation sécurisée, vous pouvez demander à Adobe dʼobtenir un certificat SSL.
 
 Le processus d’octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l’industrie, et a développé un processus intégré permettant d’automatiser l’achat et la gestion de ces certificats.
 
@@ -40,15 +40,15 @@ Avec votre autorisation, nous collaborons avec cette autorité de certification 
 
 ## Programme de certificat géré par Adobe
 
-Le programme de certificat géré Adobe est le processus recommandé pour configurer le certificat SSL propriétaire nécessaire à une mise en oeuvre CNAME, qui garantit que votre serveur de collecte d’Adobes correspond au domaine de votre site.
+Le programme de certificat géré Adobe est lʼétape recommandée pour configurer le certificat SSL propriétaire nécessaire à une mise en œuvre CNAME, qui garantit que votre serveur de collecte Adobe correspond au domaine de votre site.
 
-Le programme Adobe Managed Certificate vous permet de mettre en oeuvre un nouveau certificat SSL propriétaire sans frais supplémentaires (pour vos 100 premiers CNAME). Si vous disposez actuellement de votre propre certificat SSL géré par le client, contactez l’Assistance clientèle d’Adobe au sujet de la migration vers le programme de certificat géré par Adobe.
+Le programme de certificat géré Adobe permet de mettre en œuvre un nouveau certificat SSL propriétaire, sans frais supplémentaires (pour vos 100 premiers CNAME). Si vous disposez actuellement de votre propre certificat SSL géré par le client, contactez l’Assistance clientèle d’Adobe au sujet de la migration vers le programme de certificat géré par Adobe.
 
 ### Mise en œuvre
 
-Voici comment mettre en oeuvre un nouveau certificat SSL propriétaire pour la collecte de données propriétaires :
+Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la collecte de données propriétaire :
 
-1. Remplissez le [formulaire de demande de domaine propriétaire](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) et ouvrez un ticket auprès de l’assistance clientèle afin de configurer la collecte de données propriétaires sur le programme géré par l’Adobe. Chaque champ est décrit avec des exemples dans le document.
+1. Remplissez le [formulaire de demande de domaine propriétaire](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) et ouvrez un ticket auprès de lʼAssistance clientèle afin de configurer la collecte de données propriétaire dans le programme géré par Adobe. Chaque champ est décrit avec des exemples dans le document.
 
 2. Créez des enregistrements CNAME (voir les instructions ci-dessous).
 
@@ -151,7 +151,7 @@ Address: 54.187.216.46
 
 ## Mettre à jour le code de mise en œuvre {#update}
 
-Avant de modifier le code de votre site pour utiliser la collecte de données propriétaires, procédez comme suit :
+Avant de modifier le code de votre site pour utiliser la collecte de données propriétaire, procédez comme suit :
 
 * Demandez un certificat SSL en suivant les étapes décrites ci-dessus dans la section *Implémentation* du [Programme de certificat géré par Adobe](#adobe-managed-certificate-program).
 * Créez des enregistrements CNAME (voir ci-dessus).
@@ -160,12 +160,12 @@ Avant de modifier le code de votre site pour utiliser la collecte de données pr
 Après avoir vérifié que vos noms d’hôtes répondent et procèdent au transfert vers les serveurs de collecte de données d’Adobe, vous pouvez modifier votre implémentation afin de pointer vers vos propres noms d’hôtes de collecte de données.
 
 1. Ouvrez votre fichier JavaScript principal (`s_code.js/AppMeasurement.js`).
-1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour la collecte de données propriétaires, recherchez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms d’hôtes de collecte de données. Utilisation de mysite.com en tant qu’exemple : `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour la collecte de données propriétaire, localisez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms dʼhôte de collecte de données. Utilisation de mysite.com en tant qu’exemple :`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Transférez le fichier JavaScript principal mis à jour vers votre site.
 
-1. Si vous passez à la collecte de données propriétaires à partir d’une mise en oeuvre de longue date ou passez à un nom d’hôte de collecte propriétaire différent, Adobe recommande de migrer les visiteurs du domaine précédent vers le nouveau domaine.
+1. Si vous passez à la collecte de données propriétaire à partir dʼune implémentation de longue date ou si vous modifiez le nom dʼhôte de la collecte propriétaire, Adobe vous recommande dʼeffectuer la migration des visiteurs du domaine précédent vers le nouveau domaine.
 
 Voir [Migration des Visiteurs](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) dans le Guide de mise en œuvre d’Analytics.
 
-Une fois le fichier JavaScript chargé, tout est configuré pour la collecte de données propriétaires. Adobe vous recommande de surveiller le compte rendu des performances d’Analytics durant les heures qui suivent afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
+Après avoir transféré le fichier JavaScript, tout est configuré pour la collecte de données propriétaire. Adobe vous recommande de surveiller le compte rendu des performances d’Analytics durant les heures qui suivent afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.

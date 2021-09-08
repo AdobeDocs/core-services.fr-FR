@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Découvrez la prise en charge des navigateurs ainsi que les questions fréquente
 Si votre mise en œuvre n’a pas été configurée pour les services principaux, consultez la section [Activation de vos solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Mettre en œuvre le service Experience Cloud ID à l’aide d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
+1. [Mettre en œuvre le service Experience Cloud ID à l’aide d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=fr).
 1. [Mapper des suites de rapports à une organisation Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target uniquement) Moderniser la mise en œuvre d’Adobe Target](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)

@@ -2,14 +2,14 @@
 description: 'Découvrez comment vous connecter et à propos des composants de l’interface centrale dans Experience Cloud. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans l’interface et obtenir de l’aide. '
 solution: Experience Cloud
 title: 'Composants de l’interface utilisateur centrale Experience Cloud '
-feature: « Composants de l’interface centrale »
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 51%
+source-wordcount: '714'
+ht-degree: 56%
 
 ---
 
@@ -59,7 +59,7 @@ Bien que toutes les équipes d’applications se soient engagées dans la prise 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Sélectionnez **[!UICONTROL Se connecter avec un Adobe ID]**.
+1. Sélectionnez **[!UICONTROL Se connecter avec un Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
    ![](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Sélectionnez le sélecteur d’applications ![](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous détenez.
+Sélectionnez le sélecteur dʼapplications ![](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous détenez.
 
 ![](assets/platform-core-services.png)
 
@@ -122,7 +122,7 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 
 ## Notifications et annonces {#notifications}
 
-Sélectionnez **[!UICONTROL Notifications]** pour afficher les notifications qui sont importantes pour vous et les annonces d’Adobe.
+Sélectionnez **[!UICONTROL Notifications]** pour afficher les notifications qui sont importantes pour vous et les annonces dʼAdobe.
 
 ![](assets/notifications-menu-small.png)
 

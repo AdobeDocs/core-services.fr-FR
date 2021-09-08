@@ -4,15 +4,15 @@ keywords: Services d’Experience Cloud
 solution: Experience Cloud
 title: Mises à jour de la documentation
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Attributs du client
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -24,9 +24,9 @@ Informations au sujet des mises à jour dans la documentation produit d’Experi
 
 Mise à jour de la [page Composants centraux](experience-cloud.md) (page d’entrée de ce guide). Ajout de la prise en charge des navigateurs et des langues, mises à jour des organisations, connexion et ajout d’informations sur les domaines.
 
-**Mise à jour de 8/6/2021**
+**Mise à jour : 06/08/2021**
 
-Mise à jour des [cookies propriétaires](cookies-first-party.md).
+Mise à jour des [First Party Cookies](cookies-first-party.md).
 
 **Mise à jour : 04/06/2021**
 
