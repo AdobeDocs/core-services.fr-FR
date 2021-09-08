@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
 ht-degree: 100%
 
 ---
 
-# Cookies Audience Manager{#audience-manager-cookies}
+# Cookies Audience Manager {#audience-manager-cookies}
 
 Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fonctions. Ces dernières consistent entre autres à attribuer des ID, à enregistrer les appels de données, à suivre les erreurs et à tester si les cookies peuvent être définis. Cette section répertorie et décrit les différents cookies définis par Audience Manager.
 
