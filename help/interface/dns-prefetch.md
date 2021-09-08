@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Mettez en œuvre la prérécupération DNS pour réduire le temps de chargement 
 
 ## Présentation de la prérécupération DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Les navigateurs utilisent la prérécupération DNS pour associer automatiquement les noms de domaine d’une page web aux adresses IP correspondantes. Le processus de prérécupération commence lorsque votre navigateur charge une page web. Par exemple, supposons que votre page contient un lien sélectionnable vers `www.adobe.com`. Lorsqu’un navigateur charge cette page, il utilise le [système DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) pour rechercher le nom de domaine associé et le convertir en adresse IP numérique correspondante. La prérécupération DNS contribue à améliorer les performances des pages, car le nom de domaine est converti en une adresse IP avant même qu’un visiteur du site ne clique sur un lien ou un bouton. Le processus de prérécupération DNS est transparent pour les utilisateurs.
+Les navigateurs utilisent la prérécupération DNS pour associer automatiquement les noms de domaine d’une page web aux adresses IP correspondantes. Le processus de prérécupération commence lorsque votre navigateur charge une page web. Par exemple, supposons que votre page comporte un lien sélectionnable vers `www.adobe.com`. Lorsqu’un navigateur charge cette page, il utilise le [système DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) pour rechercher le nom de domaine associé et le convertir en adresse IP numérique correspondante. La prérécupération DNS contribue à améliorer les performances des pages, car le nom de domaine est converti en une adresse IP avant même qu’un visiteur du site ne clique sur un lien ou un bouton. Le processus de prérécupération DNS est transparent pour les utilisateurs.
 
 ## Prérécupération DNS et solutions Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
