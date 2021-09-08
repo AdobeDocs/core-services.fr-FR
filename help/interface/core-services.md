@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2272'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Les sections suivantes expliquent comment moderniser votre mise en œuvre. Ceci 
 
 Le [!UICONTROL service Experience Cloud ID] fournit un ID commun pour une intégration intersolutions. Il offre une identification des visiteurs interdomaines ainsi qu’un chemin d’accès pour le ciblage et la personnalisation interpériphérique/des navigateurs basés sur les données de gestion de la relation client transférées par le biais d’[!UICONTROL Attributs du client].
 
-La méthode la plus simple pour activer les services principaux d’Experience Cloud consiste à les activer automatiquement pour Analytics et Adobe Target à l’aide de l’[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) dans [!UICONTROL Experience Platform Launch].
+La méthode la plus simple pour activer les services principaux d’Experience Cloud consiste à les activer automatiquement pour Analytics et Adobe Target à l’aide de l’[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) dans [!UICONTROL Experience Platform Launch].
 
 Pour accéder à l’aide complète du service Experience Cloud ID (anciennement, identifiant visiteur), [rendez-vous ici](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr#intro).
 
@@ -104,7 +104,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL D
 
 ### Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=fr) dans [!DNL Target].)
 
@@ -139,12 +139,12 @@ Les services Experience Cloud (tels que le service Experience Cloud ID et le se
 
 Si vous utilisez Analytics, vérifiez que vous avez recours à la collecte de données régionale (RDC). Si votre domaine de collecte des données est `omtrdc.net` ou si votre CNAME est mappé à `omtrdc.net`, vous utilisez le service RDC. Reportez-vous à la section [Transition vers RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=fr) pour en savoir plus. Si vous utilisez des cookies propriétaires, reportez-vous à la rubrique [CNAME et service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=fr) pour en savoir plus sur les CNAME de collecte de données et le suivi interdomaines.
 
-Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. La méthode la plus simple consiste à ajouter une [extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) dans la collecte de données Experience Platform (Launch).
+Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. La méthode la plus simple consiste à ajouter une [extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) dans la collecte de données Experience Platform (Launch).
 
 ## Mettre à jour votre mise en œuvre Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Il est recommandé d’ajouter une [extension Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en) dans [!UICONTROL Experience Platform Launch] afin de permettre l’extraction automatique de votre bibliothèque. Vous pouvez également configurer l’[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) pour Adobe Target (et d’autres solutions) à l’aide d’[!UICONTROL Experience Platform Launch]. Le [!UICONTROL service Experience Cloud ID] **doit être mis à jour** pour qu’Adobe Target puisse utiliser les services principaux.
-* Si vous n’utilisez pas [!UICONTROL Experience Platform Launch], [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en) manuellement.
+* Il est recommandé d’ajouter une [extension Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=fr) dans [!UICONTROL Experience Platform Launch] afin de permettre l’extraction automatique de votre bibliothèque. Vous pouvez également configurer l’[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour Adobe Target (et d’autres solutions) à l’aide d’[!UICONTROL Experience Platform Launch]. Le [!UICONTROL service Experience Cloud ID] **doit être mis à jour** pour qu’Adobe Target puisse utiliser les services principaux.
+* Si vous nʼutilisez pas [!UICONTROL Experience Platform Launch], [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=fr) manuellement.
 * Demandez l’accès afin d’utiliser Adobe Analytics comme source de création de rapports pour [!DNL Adobe Target]. Les données de [!DNL Target] et d’[!DNL Analytics] sont combinées dans le même appel serveur durant le traitement afin que les visiteurs soient connectés entre les deux solutions. Voir [Implémentation d’Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr).
 
    >[!IMPORTANT]
@@ -153,7 +153,7 @@ Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant
 
 ## Vérification de la mise en œuvre {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-Procédez comme suit pour vous assurer que le service d’ID Experience Cloud est correctement mis en oeuvre sur votre site.
+Appliquez la procédure suivante pour vérifier que le service Experience Cloud ID est correctement mis en œuvre sur votre site.
 
 1. Effacez les cookies de votre site afin de pouvoir visualiser la requête du service Experience Cloud ID (cette requête est émise lors de la première visite, puis une fois par visiteur et par semaine).
 1. À l’aide d’un analyseur de paquets ou du volet des réseaux dans un débogueur de navigateur web, recherchez une requête envoyée à [!DNL dpm.demdex.net].
@@ -230,4 +230,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=fr).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=fr) pour en savoir plus sur l’activation du suivi interdomaines.
