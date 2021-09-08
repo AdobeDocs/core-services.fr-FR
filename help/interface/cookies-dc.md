@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
-# Cookies Data Connectors{#data-connectors-cookies}
+# Cookies Data Connectors {#data-connectors-cookies}
 
 Les [!UICONTROL Data Connectors] utilisent des cookies pour fournir aux annonceurs des mesures de performances de conversion et de campagne optimisées sur plusieurs canaux de publicité.
 
