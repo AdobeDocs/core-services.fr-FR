@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!UICONTROL Personnes] (audiences et attributs du client), la gestion des utilisateurs et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
-Pour accéder à ces services en Experience Cloud, sélectionnez le **[!UICONTROL sélecteur d’applications]**
+Pour accéder à ces services dans Experience Cloud, sélectionnez le **[!UICONTROL Sélecteur dʼapplications]**
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
