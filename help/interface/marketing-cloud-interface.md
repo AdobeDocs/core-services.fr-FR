@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Nouveautés d’Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
 ht-degree: 100%
 
