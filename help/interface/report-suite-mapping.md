@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 1. Accédez à Suites de rapport pour la gouvernance des données dans [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Gouvernance des données]** (voir [Afficher/Gérer le paramètre de gouvernance des données de la suite de rapports).](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=fr)
 
-1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, sélectionnez **[!UICONTROL Visible pour les connexions d’entreprises]**.
+1. Pour afficher les sociétés de connexion ayant accès à chaque suite de rapports, sélectionnez **[!UICONTROL Visible par les sociétés de connexion]**.
 
    Cette vue a pour but de vous aider à prendre une décision éclairée concernant le mappage.
 
-1. Sélectionnez la liste déroulante dans la colonne **[!UICONTROL Organisation mappée]** en regard d’une suite de rapports et sélectionnez l’organisation à laquelle vous souhaitez mapper la suite de rapports.
+1. Sélectionnez le menu déroulant dans la colonne **[!UICONTROL Organisation mappée]** en regard dʼune suite de rapports et sélectionnez lʼorganisation à laquelle vous souhaitez mapper la suite de rapports.
 
    Reportez-vous à la section suivante pour obtenir des conseils sur la sélection d’une organisation Experience Cloud.
 
 ## Mappage de plusieurs suites de rapports à une organisation {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Sélectionnez **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**.
+1. Sélectionnez **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Mappage de suites de rapports]**.
 
 1. Sélectionnez les suites de rapports que vous souhaitez mapper.
 
