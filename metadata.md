@@ -14,9 +14,9 @@ tutorials-title: Tutoriels
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.fr-FR
 source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
