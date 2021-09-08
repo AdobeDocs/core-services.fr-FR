@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
 ---
 
-# Cookies Experience Cloud{#experience-cloud-cookies}
+# Cookies Experience Cloud {#experience-cloud-cookies}
 
 Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur utilisé dans les différentes applications Experience Cloud.
 
