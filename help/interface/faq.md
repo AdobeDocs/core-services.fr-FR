@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci�
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support).
 
 ## Qu’est-ce que l’_attribution de privilèges d’accès_ ?
 
@@ -76,7 +76,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
