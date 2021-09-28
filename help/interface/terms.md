@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1453'
 ht-degree: 100%
 
@@ -45,9 +45,9 @@ Référence terminologique à l’intention des utilisateurs d’Experience Clou
 | Portefeuille | Un groupe de plusieurs fichiers ou ressources. | Un conteneur de campagnes. |
 | Profil de produits | Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products.html). | Pour qu’un utilisateur ait le droit d’utiliser un produit ou un service, il doit appartenir à un profil de produit. L’administrateur de produit attribue des licences à un profil de produits en l’associant à une formule que vous avez achetée.<br>Un utilisateur peut appartenir à plusieurs profils de produits, chacun lui conférant différentes licences. L’éligibilité finale d’un utilisateur est l’union de toutes les licences attribuées par chaque profil de produits à cet utilisateur. |
 | Planning | Peut se rapporter à une séquence de scène dans Adobe Story ou à des tâches planifiées dans ColdFusion. | Dans Experience Cloud, une planification correspond à la date de début (année, mois, jour) et à une date de fin pour l’activation des campagnes, des canaux et des activités. Les planifications d’activité sont précises à la minute près. La modification d’une planification entraîne la création d’une carte.<br>Par exemple :<ul><li>Planifications de campagne</li><li>Planifications de canal</li><li>Planifications d’activité</li></ul> |
-| Segment | S.O. | Le résultat d’un ensemble de règles pour qualifier une audience. Dans Analytics, les [segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) peuvent éventuellement être utilisés pour définir une audience qui peut être transmise à Experience Cloud. <br>Dans Audience Manager, un segment est un ensemble de [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) et de tous les critères qui permettent aux visiteurs d’être membres ou inclus dans ce segment. C’est aussi un ensemble d’individus qui partagent ces attributs communs. |
+| Segment | S.O. | Le résultat d’un ensemble de règles pour qualifier une audience. Dans Analytics, les [segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) peuvent éventuellement être utilisés pour définir une audience qui peut être transmise à Experience Cloud. <br>Dans Audience Manager, un segment est un ensemble de [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) et de tous les critères qui permettent aux visiteurs d’être membres ou inclus dans ce segment. C’est aussi un ensemble d’individus qui partagent ces attributs communs. |
 | Partage | Dans Creative Cloud, vous pouvez partager des fichiers à l’externe sur plusieurs plateformes (réseaux sociaux, communautés, messageries électroniques, etc.). | Dans Experience Cloud, vous pouvez partager une ressource uniquement sous forme de carte, au sein de panoramas dans l’interface. Les personnes connectées au site peuvent utiliser le partage. |
 | Solution | Aucun usage particulier. | Dans Experience Cloud, les solutions sont connues sous le nom de produits du type Adobe Analytics, Adobe Social, Adobe Target, etc. |
-| Caractéristique | S.O. | Paire clé-valeur, par exemple color=blue. Dans Audience Manager, les [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en) sont utilisées pour créer des segments. |
+| Caractéristique | S.O. | Paire clé-valeur, par exemple color=blue. Dans Audience Manager, les [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) sont utilisées pour créer des segments. |
 
 {style=&quot;table-layout:auto&quot;}
