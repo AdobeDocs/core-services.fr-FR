@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 91%
 
 Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
-**Mise à jour de 8/24/2021**
+**Mise à jour : 24/08/2021**
 
-Mise à jour de la [page Composants centraux](experience-cloud.md) (page d’entrée de ce guide). Ajout de la prise en charge des navigateurs et des langues, mises à jour des organisations, connexion et ajout d’informations sur les domaines.
+Mise à jour de la page [Composants de lʼinterface centrale](experience-cloud.md) (page de destination de ce guide). Ajout de la prise en charge des navigateurs et des langues, mises à jour des organisations, de la connexion et ajout dʼinformations relatives aux domaines.
 
 **Mise à jour : 06/08/2021**
 
