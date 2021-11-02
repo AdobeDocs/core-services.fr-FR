@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 83%
 
 Informations au sujet des mises à jour dans la documentation produit d’Experience Cloud.
 
-**28/10/2021 mis à jour**
+**Mise à jour : 28/10/2021**
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Page d’accueil | Les informations de pied de page d’accueil des Experience Cloud ont été déplacées vers la carte de profil utilisateur, y compris les Avis juridiques et la sélection de la langue dans les préférences. |
-| Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations de graphiques dans le flux de création de widgets Experience Platform. Compte tenu d&#39;une sélection de données (actuellement sélection de données variables uniques), helios recommande une visualisation appropriée pour accompagner cette sélection de données. |
-| Tableaux de bord AEP | [!DNL Instory] fournit des commentaires écrits et des légendes basés sur ML pour les graphiques. Il décore les graphiques de la page Tableaux de bord AEP avec des puces appropriées appelant les changements et incidents majeurs dans les données graphiques. |
+| Page d’accueil | Les informations au bas de la page d’accueil d’Experience Cloud ont été déplacées vers la vignette du profil utilisateur. Cela inclut les informations juridiques et la sélection de la langue dans la section des préférences. |
+| Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations de graphiques dans le workflow de création de widgets d’Experience Platform. Helios recommande une visualisation appropriée pour accompagner une sélection de données spécifique (actuellement sélection de données à variable unique). |
+| Tableaux de bord AEP | [!DNL Instory] fournit des commentaires écrits et des légendes basés sur le machine learning pour les graphiques. Il enrichit les graphiques de la page Tableaux de bord AEP avec des puces appropriées, qui mettent en évidence les modifications et incidents majeurs dans les données graphiques. |
 
-**Mise à jour du 13/10/2021**
+**Mise à jour : 13/10/2021**
 
 | Fonctionnalité | Description |
 | ------- | ------- |
