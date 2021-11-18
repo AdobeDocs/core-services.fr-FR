@@ -4,15 +4,15 @@ keywords: services principaux
 solution: Experience Cloud
 title: 'Création d’une audience '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Bibliothèque d’audiences
+feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Cet article vous aidera à accomplir ce qui suit :
 
 Le graphique suivant représente deux règles dans une audience composite.
 
-![](assets/audience_sharing.png)
+![Deux règles dans une audience composite](assets/audience_sharing.png)
 
 Chaque cercle représente une règle qui définit l’adhésion à l’audience. Les visiteurs qui remplissent les conditions requises pour devenir membres dans les deux règles d’audience se chevauchent pour devenir l’audience composite définie.
 
@@ -41,7 +41,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 * Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
 
-   ![](assets/audience_create.png)
+   ![Création de règles pour une audience composite](assets/audience_create.png)
 
 **Création d’une audience**
 
@@ -72,26 +72,26 @@ Sous [!UICONTROL Règles], définissez les sélections d’attributs *`Home & Ga
 * **[!UICONTROL Suite de rapports :]** suite de rapports 31
 * Dimension = **[!UICONTROL Magasin (Merch) (v6)]** > **[!UICONTROL Égal à]** > **[!UICONTROL Maison et jardin]**
 
-![](assets/home_garden.png)
+![Sélections d’attributs dans la bibliothèque d’audiences](assets/home_garden.png)
 
 Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir d’Analytics :
 
 * **[!UICONTROL Source d’attribut :]** Experience Cloud
 * **[!UICONTROL Dimension :]** visiteurs Chrome et Safari
 
-![](assets/chrome_safari.png)
+![Visiteurs Chrome et Safari](assets/chrome_safari.png)
 
 Pour effectuer une comparaison, vous pouvez ajouter une règle *OR* pour afficher tous les visiteurs d’une section du site telle que Patio et meubles.
 
-![](assets/audiences_rule_patio.png)
+![Règle OU pour une audience](assets/audiences_rule_patio.png)
 
 La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Maison et jardin. Le segment Patio et meubles fournit des informations supplémentaires sur tous les visiteurs qui visitent cette section du site.
 
-![](assets/defined_audience.png)
+![Audience définie dans Experience Cloud](assets/defined_audience.png)
 
 * **Historique (estimation) :** (cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
 * **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour les autres solutions. Par exemple, vous pouvez inclure une audience partagée dans une activité Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications. Par exemple, vous pouvez inclure une audience partagée dans une activité Adobe Target.

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -28,9 +28,9 @@ Découvrez la prise en charge des navigateurs ainsi que les questions fréquente
 * Safari (versions actuelle et antérieures)
 * Opera (versions actuelle et antérieures)
 
-## Comment savoir si mes solutions sont activées pour les services principaux ?
+## Comment savoir si mes applications sont activées pour les services principaux ?
 
-Si votre mise en œuvre n’a pas été configurée pour les services principaux, consultez la section [Activation de vos solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
+Si votre mise en oeuvre n’a pas été configurée pour les services principaux, reportez-vous à la section [Activation des applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
 
 1. [Rejoindre Experience Cloud et devenir administrateur](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service Experience Cloud ID à l’aide d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=fr).
@@ -49,20 +49,20 @@ Non. Experience Cloud est inclus sans frais supplémentaires. Toutefois, certain
 
 ## Pourquoi ma société doit-elle se connecter par le biais de l’interface d’Experience Cloud ?
 
-Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. À partir de maintenant, cela constitue également le chemin d’accès standard aux solutions et remplacera à terme d’autres flux individuels de connexion aux solutions. La connexion par le biais d’Experience Cloud facilite une transition ultérieure plus fluide.
+Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. Il s’agit également du chemin standard d’accès aux applications, qui remplacera par la suite d’autres flux de connexion d’applications individuels. La connexion par le biais d’Experience Cloud facilite une transition ultérieure plus fluide.
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support).
+[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## Qu’est-ce que l’_attribution de privilèges d’accès_ ?
 
 Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui suit :
 
-* Vos utilisateurs peuvent commencer à se connecter à [!DNL Experience Cloud] et à lier des solutions.
+* Vos utilisateurs peuvent commencer à se connecter au [!DNL Experience Cloud] et la liaison d’applications.
 * Ils peuvent commencer à utiliser les fonctionnalités disponibles dans Experience Cloud, telles que Personnes.
-* Vous pouvez vous préparer à supprimer votre processus de connexion spécifique à une solution.
-* Vous pouvez conserver le contrôle de l’accès aux solutions.
+* Vous pouvez vous préparer à mettre fin à votre processus de connexion spécifique à l’application.
+* Vous pouvez conserver le contrôle d’accès aux applications.
 
 ## Comment gérer les utilisateurs et les profils de produits ?
 
@@ -76,13 +76,13 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qui
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
-Il se peut que certains utilisateurs doivent lier leur compte de solution (Analytics) à leur Adobe ID ou à leur Enterprise ID.
+Certains utilisateurs devront peut-être lier leur compte d’application (Analytics) à Adobe ID ou Enterprise ID.
 
-Reportez-vous à la section [Liaison d’un compte de solution à un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)
+Voir [Liaison d’un compte d’application à une Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 ## Comment gérer les profils de comptes d’utilisateurs et les organisations ?
 
@@ -90,7 +90,7 @@ Reportez-vous à la page [Gestion des comptes d’utilisateurs](organizations.md
 
 ## Qu’est-ce qu’une organisation ?
 
-Une *organisation* est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
+Une *organisation* est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend à tous les produits et applications Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
 ## Où trouver mon ID d’organisation IMS ?
 
@@ -110,16 +110,16 @@ L’ID est :
 
 ## Que faire quand l’un de mes utilisateurs quitte ma société ?
 
-Son accès doit être supprimé de la solution. Il ne pourra plus accéder au produit par l’intermédiaire d’Experience Cloud ni par connexion directe. Vous devez également le supprimer au niveau d’Experience Cloud.
+Leur accès doit être supprimé de l’application elle-même. Il ne pourra plus accéder au produit par l’intermédiaire d’Experience Cloud ni par connexion directe. Vous devez également le supprimer au niveau d’Experience Cloud.
 
 ## Qu’est-ce qu’un Adobe ID ?
 
 Voir [Types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
-## Puis-je lier les comptes de solution de mes utilisateurs ?
+## Puis-je lier des comptes d’application pour mes utilisateurs ?
 
-Non. Les utilisateurs doivent lier leurs propres solutions à leurs noms d’utilisateur et mots de passe.
+Non. Les utilisateurs doivent lier leurs propres applications à leurs noms d’utilisateur et mots de passe.
 
 ## Pourquoi Social est-il visible alors que ma société n’y a pas souscrit ?
 
-Adobe Social peut être vendu avec Analytics. Par conséquent, si vous disposez d’Analytics, vous verrez cette solution, mais vous n’y aurez pas accès, sauf si vous l’avez achetée.
+Adobe Social peut être vendu avec Analytics. Par conséquent, si vous disposez d’Analytics, vous verrez cette application, mais vous n’y aurez pas accès, sauf si vous l’avez achetée.

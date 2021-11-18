@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1119'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Les organisations sont grisées si vous ne disposez pas des autorisations d’ad
 
 1. Sélectionnez les suites de rapports que vous souhaitez mapper.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![Sélectionnez les suites de rapports que vous souhaitez mapper](assets/rs-mapping-multiple.png)
 
 1. Sélectionnez l’organisation (Outdoors Inc, dans cet exemple), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
@@ -71,7 +71,7 @@ Assurez-vous que votre déploiement correspond à l’organisation que vous avez
 
 Le grisage d’une organisation indique que vous ne disposez pas des privilèges suffisants pour la mapper à la suite de rapports grisée. Examinez l’exemple suivant :
 
-![](assets/rs-mapping.png)
+![Pourquoi certaines organisations sont-elles grisées ?](assets/rs-mapping.png)
 
 Sur ce schéma, la clé bleue représente les privilèges d’administrateur. Les lignes grises indiquent la visibilité.
 

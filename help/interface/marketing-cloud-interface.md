@@ -1,15 +1,15 @@
 ---
 description: Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
 keywords: services principaux
-seo-description: Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
-seo-title: Nouveautés d’Experience Cloud
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Nouveautés d’Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ Nouvelles fonctions et correctifs de l’interface [!DNL Adobe Experience Cloud]
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouvelle page d’entrée d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page d’administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos solutions Experience Cloud et à vos services principaux. |
+| Nouvelle page d’entrée d’administration | Lorsque vous vous connectez à l’Experience Cloud et accédez à la page Administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos applications et services principaux Experience Cloud. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,8 +70,8 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les activités et événements relatifs aux produits et solutions, y compris les notifications concernant l’activité de téléchargement [Attributs du client](attributes.md). |
-| Notifications - Notifications de maintenance | Dans les paramètres de notification, vous pouvez activer les notifications de maintenance pour les produits et les solutions. |
+| Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les activités et événements relatifs aux produits et aux applications, y compris les notifications relatives aux [Attributs du client](attributes.md) activité de chargement. |
+| Notifications - Notifications de maintenance | Dans les paramètres de notification, vous pouvez activer les notifications de maintenance pour les produits et les applications. |
 | Admin Console pour les solutions Experience Cloud | Les nouveaux clients d’Experience Cloud peuvent commencer à utiliser Admin Console, qui centralise la gestion de vos droits Adobe au sein de votre organisation tout entière.<br>La migration vers Admin Console pour la gestion des utilisateurs sera effectuée par vagues. Adobe vous contacte (administrateurs système) lorsqu’il est temps de procéder à la migration.<br>Si vous êtes administrateur d’Analytics, reportez-vous à [Migration pour Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,7 +80,7 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br>[Le mappage de plusieurs suites de rapports](core-services.md) à une organisation unique permet d’activer des fonctionnalités et services intersolutions dans Experience Cloud. |
+| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br>[Mappage de suites de rapports](core-services.md) à une seule organisation qui permet d’activer les fonctionnalités et services inter-applications dans l’Experience Cloud. |
 | Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](t-audience-create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
 
 {style=&quot;table-layout:auto&quot;}

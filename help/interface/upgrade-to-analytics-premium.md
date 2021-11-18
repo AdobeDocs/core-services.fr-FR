@@ -9,10 +9,10 @@ feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](upgrad
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr) |
+| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
 | Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
@@ -88,7 +88,7 @@ Les logiciels s’exécutant sur site doivent être désactivés, Ces logiciels 
 
 ## Experience Cloud - Administration des utilisateurs et des produits {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud et les services principaux sont accessibles aux utilisateurs d’Analytics Standard et Premium, à condition que vous ayez suivi la modernisation de l’implémentation décrite dans [Prise en main - Activation de vos solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous permet de moderniser votre mise en œuvre et de devenir administrateur dans Experience Cloud.)
+Si vous avez suivi la modernisation de l’implémentation décrite dans la section [Prise en main - Activation des applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous permet de moderniser votre mise en œuvre et de devenir administrateur dans Experience Cloud.)
 
 Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au moyen d’Experience Cloud à l’adresse [!DNL experience.adobe.com] et commencer à utiliser les services principaux (dont les attributs du client, les audiences et l’analyse d’applications mobiles).
 
@@ -96,8 +96,8 @@ Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au 
 
 La gestion des utilisateurs s’effectue dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) (lien du produit).
 
-Vous pouvez définir un mappage 1:1 entre un groupe créé dans Adobe Admin Console et un groupe de solutions (comme Adobe Analytics). Par la suite, un nouvel utilisateur ajouté à ce groupe Admin Console mappé dispose d’un compte de solutions Analytics créé et lié automatiquement à son Adobe ID. (Les utilisateurs existants doivent lier manuellement les informations de connexion de leur compte de solution pour accéder aux solutions via la connexion à Experience Cloud.)
+Vous pouvez définir un mappage 1:1 entre un groupe créé dans Adobe Admin Console et un groupe de solutions (comme Adobe Analytics). Par la suite, un nouvel utilisateur ajouté au groupe de Admin Console mappés dispose d’un compte d’application Analytics automatiquement créé et lié à l’Adobe ID de l’utilisateur. (Les utilisateurs existants doivent lier manuellement les informations d’identification de leur compte d’application pour accéder aux applications via la connexion Experience Cloud.)
 
 >[!NOTE]
 >
->Vous pouvez mapper plusieurs groupes de solutions à un groupe Admin Console. Adobe recommande toutefois un mappage 1:1. Le mappage préalable des groupes vous permet d’inviter, de créer, d’autoriser et d’ajouter plusieurs utilisateurs en chargeant un fichier CSV.
+>Vous pouvez mapper plusieurs groupes d’applications à un groupe de Admin Console. Adobe recommande toutefois un mappage 1:1. Le mappage préalable des groupes vous permet d’inviter, de créer, d’autoriser et d’ajouter plusieurs utilisateurs en chargeant un fichier CSV.

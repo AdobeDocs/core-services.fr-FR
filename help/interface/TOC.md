@@ -4,10 +4,10 @@ user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
 breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 user-guide-description: Découvrez l’interface d’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et Experience Cloud Assets.
 index: true
-source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
-   + [Activation de votre mise en œuvre pour les services inter-solutions](core-services.md)
+   + [Activation de votre mise en oeuvre pour les services inter-applications](core-services.md)
    + Bibliothèque d’audiences Experience Cloud {#audiences}
       + [Audiences Experience Cloud](audience-library.md)
       + [Création d’une audience](t-audience-create.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
    + [Liaison d’organisations et de comptes](organizations.md)
    + [Mise à niveau vers Analytics Premium et Experience Cloud](upgrade-to-analytics-premium.md)
    + [Intégrations Experience Cloud](marketing-cloud-integrations.md)
-   + [Utilisation de la prérécupération DNS avec différents services et solutions](dns-prefetch.md)
+   + [Utilisation de la prérécupération DNS avec différents services et applications](dns-prefetch.md)
    + Cookies Experience Cloud {#ec-cookies}
       + [Présentation des cookies Experience Cloud](cookies-privacy.md)
       + [Cookies propriétaires dans Experience Cloud](cookies-first-party.md)

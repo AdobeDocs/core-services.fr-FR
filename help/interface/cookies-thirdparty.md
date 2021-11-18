@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 90%
 
 ---
 
 # Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-La prise en charge des cookies tiers est devenue plus limitée dans les navigateurs. C’est pourquoi Adobe travaille sur de nouvelles solutions permettant d’offrir un équilibre minutieux entre les besoins des clients et le droit des consommateurs à la vie privée dans les applications Experience Cloud.
+La prise en charge des cookies tiers est devenue plus limitée dans les navigateurs. Par conséquent, Adobe a travaillé sur de nouvelles applications qui équilibrent soigneusement les besoins des clients avec le droit des consommateurs à la confidentialité dans les applications Experience Cloud.
 
 La liste suivante décrit l’impact de la prise en charge des cookies tiers sur les implémentations actuelles des solutions Experience Cloud :
 

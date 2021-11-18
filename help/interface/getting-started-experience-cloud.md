@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '939'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 83%
 
 ---
 
 # Connexion et gestion des paramètres du profil Experience Cloud
 
-En vous connectant à Experience Cloud (plutôt qu’à une solution donnée), vous bénéficiez de l’authentification unique pour tous les services et solutions que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
+La connexion à Experience Cloud (plutôt que la connexion à une seule application) permet l’authentification unique à toutes les applications et services que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 | Élément | Description |
 |--- |--- |
-| [Concepts de base d’Admin Console](experience-cloud.md) | Découvrez les premières étapes à suivre pour commencer à utiliser les solutions Experience Cloud. |
+| [Concepts de base d’Admin Console](experience-cloud.md) | Découvrez les étapes initiales à suivre pour commencer à utiliser les applications Experience Cloud. |
 | [Configuration d’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | Définissez et configurez un système d’identités qui déterminera le mode d’authentification de vos utilisateurs finaux. |
 | [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
 | [Lancement d’Admin Console](admin-getting-started.md) | Admin Console centralise la gestion de vos utilisateurs et de vos droits sur les produits Adobe au sein de votre organisation dans son intégralité.<br>Vous pouvez également vous connecter à Admin Console à l’aide d’un [lien direct](https://adminconsole.adobe.com). |
@@ -64,7 +64,7 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 
    ![](assets/experience-cloud-core-services.png)
 
-   Les services et solutions qui s’affichent dans ce menu dépendent de vos privilèges d’application définis par votre [administrateur](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+   Les applications et services qui s’affichent dans ce menu dépendent de vos privilèges d’application définis par votre [administrator](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## Configuration des paramètres du compte personnel par défaut {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ Vous pouvez modifier des détails personnels et spécifier une [organisation](ad
 
 1. Connectez-vous à Experience Cloud, puis sélectionnez votre icône de profil.
 
-   ![](assets/edit-profile.png)
+   ![Icône Sélectionner votre profil](assets/edit-profile.png)
 1. Sélectionnez **[!UICONTROL Modifier le profil]**.
 
-   ![](assets/default-organization.png)
+   ![Organisation et page d’entrée par défaut dans Experience Cloud](assets/default-organization.png)
 1. Continuez à configurer et à modifier les informations personnelles, puis sélectionnez **[!UICONTROL Enregistrer les modifications]**.
 
 ## Activation des notifications {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Recevez des notifications (par courrier électronique ou au sein du produit) concernant les mises à jour du système, les avis de maintenance, les publications, les mentions et les ressources partagées. Vous pouvez également spécifier les produits et les solutions pour lesquels vous souhaitez recevoir des notifications, y compris l’état du chargement des attributs du client.
+Recevez des notifications (par courrier électronique ou au sein du produit) concernant les mises à jour du système, les avis de maintenance, les publications, les mentions et les ressources partagées. Vous pouvez également spécifier les produits et les applications pour lesquels vous souhaitez recevoir des notifications, y compris l’état de chargement des attributs du client.
 
 Pour accéder aux notifications, sélectionnez lʼicône **[!UICONTROL Notifications]**![](assets/notifications-icon.png), puis choisissez lʼicône **[!UICONTROL Paramètres]**![](assets/icon_edit_board.png).
 
@@ -89,7 +89,7 @@ Vous pouvez trier l’affichage des notifications d’après les types de messag
 * Trier les messages selon les types qui vous intéressent
 * Rechercher des notifications
 
-![](assets/notifications-admin.png)
+![Notifications Experience Cloud](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
 1. Dans Experience Cloud, sélectionnez la photo de votre profil.
 
-   ![](assets/edit-profile.png)
+   ![Modification de votre profil d’Experience Cloud](assets/edit-profile.png)
 1. Sélectionnez **[!UICONTROL Modifier le profil]**.
 
    Sur la page Profil et mots de passe, renseignez les champs et les options sous Détails personnels.
@@ -131,7 +131,7 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 
    Pour les utilisateurs d’Adobe Analytics, accédez à la page [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
-## Configuration de la connexion aux solutions à l’aide d’un lien direct {#concept_8BE493A08786469B88B210E13F78FF2F}
+## Configuration de la connexion à l’application à l’aide d’un lien direct {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 Vous pouvez éventuellement vous connecter à une page spécifique au sein d’une solution à l’aide de l’authentification fournie par l’interface d’Experience Cloud.
 
@@ -151,6 +151,6 @@ Exemple d’URL :
 |--- |--- |--- |--- |
 | `tenantId` | Nom du client auquel l’utilisateur doit se connecter. | aem62tenant | Facultative |
 | `destURL` | URL complète renvoyant vers l’emplacement auquel l’utilisateur doit accéder. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Facultative |
-| `solutionname` | Nom de la solution MAC propriétaire du paramètre `destURL`. Il est utilisé pour vérifier que l’utilisateur a accès à la solution propriétaire de l’URL.  Il appartient aux solutions de s’assurer que `solutionname` est synchronisé avec le paramètre `destURL`.  Par exemple : si l’URL comporte `solutionname` en tant que valeur « social » et que le paramètre `destURL` fourni est une URL Analytics, l’utilisateur est redirigé vers l’URL même s’il n’a pas accès à Analytics. MAC ne vérifie PAS si le propriétaire du paramètre `destURL` est synchronisé avec le nom de la solution. | analytics | Obligatoire si le paramètre `destURL` est utilisé. |
+| `solutionname` | Nom de la solution MAC propriétaire du paramètre `destURL`. Il est utilisé pour vérifier que l’utilisateur a accès à l’application propriétaire de l’URL.  Il incombe aux applications de s’assurer que la variable `applicationname` est synchronisé avec la variable `destURL` .  Par exemple : si l’URL comporte `solutionname` en tant que valeur « social » et que le paramètre `destURL` fourni est une URL Analytics, l’utilisateur est redirigé vers l’URL même s’il n’a pas accès à Analytics. Mac ne vérifie PAS si le propriétaire de la variable `destURL` est synchronisé avec le nom de l’application. | analytics | Obligatoire si le paramètre `destURL` est utilisé. |
 
 {style=&quot;table-layout:auto&quot;}

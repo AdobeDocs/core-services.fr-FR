@@ -1,7 +1,7 @@
 ---
 description: Découvrez comment configurer Experience Cloud Triggers.
 keywords: intégrations;Triggers
-seo-description: Configuration d’Experience Cloud Triggers.
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Présentation des Triggers '
@@ -11,16 +11,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] d’Experience Cloud vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre solutions destinée à réengager les visiteurs.
+[!UICONTROL Triggers] dans Experience Cloud vous permet d’identifier, de définir et de surveiller les comportements clés des consommateurs, puis de générer une communication inter-applications pour réengager les visiteurs.
 
 ## Présentation de Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser des triggers pour la personnalisation et les décisions en 
 * Formulaires et demandes incomplets
 * Actions ou séquence d’actions sur site
 
-![](assets/trigger-abandonment-2.png)
+![Exemple de déclencheur](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Exemples de Triggers Experience Cloud :
 
 Par exemple, la page suivante montre les règles que vous pouvez utiliser pour un trigger d’[!UICONTROL abandon de panier], selon les produits consultés lors d’une visite.
 
-![](assets/abandonment-trigger.png)
+![Déclencheur d’abandon de panier](assets/abandonment-trigger.png)
 
 #### Trigger de référent
 
 Le trigger suivant se déclenche lorsqu’un accès est associé au produit Men’s Boots et au référent Facebook. Pour que les deux critères (*produits* et *référent*) soient évalués dans le même accès, ils doivent être ajoutés au même conteneur.
 
-![](assets/fb-boots-promo.png)
+![Déclencheur de référent](assets/fb-boots-promo.png)

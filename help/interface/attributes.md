@@ -2,14 +2,14 @@
 title: Utilisation des attributs du client
 description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment transférer des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud
-feature: Attributs du client
+feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
-![](assets/custom_reports.png)
+![Présentation du service Attribut du client](assets/custom_reports.png)
 
 ## Conditions requises pour le téléchargement des attributs du client {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,9 +42,9 @@ Les données d’entreprise résident dans d’autres systèmes. Cela peut être
 
 L’image suivante est un exemple de fichier de données présentant les données sur les abonnés pour les produits, y compris les ID de membre, les produits autorisés, les produits les plus lancés, etc.
 
-![](assets/01_crs_usecase.png)
+![Que sont les données des clients d’entreprise ?](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le transférer vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
+Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
 
 Voir [Transfert des données d’attributs du client](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour en savoir plus sur ce processus.
 
@@ -57,6 +57,6 @@ Par exemple :
 | Solution | Avantages et cas d’utilisation |
 |--- |--- |
 | Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Produits que les clients dont la valeur de durée de vie est faible ont tendance à rechercher sur le site.</li></ul> |
-| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>pour les clients recevant déjà des courriers électroniques, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique.</li></ul> |
+| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>Pour les clients recevant déjà des e-mails, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}

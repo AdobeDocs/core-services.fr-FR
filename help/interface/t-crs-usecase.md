@@ -4,15 +4,15 @@ keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Attributs du client
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1151'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Créez la source d’attributs du client (fichiers CSV et FIN) et téléchargez 
 
 ## Workflow Attributs du client {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![Workflow Attributs du client](assets/crs.png)
 
 1. [Création d’un fichier de données](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Création d’une source d’attributs et transfert du fichier de données](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ Une fois la source de données active, vous pouvez accomplir ce qui suit :
 >
 >Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 >
->Pour utiliser la fonction Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de la solution (Analytics ou [!DNL Target]).
+>Pour utiliser la fonction Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de l’application (Analytics ou [!DNL Target]).
 
 Voir [Gestion des utilisateurs et des produits Experience Cloud](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -54,7 +54,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
    Exemple de fichier de données du client d’entreprise :
 
-   ![](assets/01_crs_usecase.png)
+   ![Exemple de fichier de données client d’entreprise](assets/01_crs_usecase.png)
 
 1. Avant de poursuivre, passez en revue les informations importantes dans [Exigences liées aux fichiers de données](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avant de télécharger le fichier.
 1. [Créez une source d’attributs du client et téléchargez les données](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78), comme décrit ci-dessous.
@@ -109,7 +109,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
          Pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client, voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
-   * **[!UICONTROL Transfert de fichiers :]** faites glisser et déposez le fichier de données `.csv`, ou transférez les données par FTP. (en cas de transfert par FTP, un fichier `.fin` est également requis.) Voir [Transfert des données par FTP.](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)
+   * **[!UICONTROL Téléchargement du fichier :]** faites glisser et déposez le fichier de données `.csv`, ou chargez les données par FTP. (En cas de chargement par FTP, un fichier `.fin` est également requis.) Voir [Chargement des données par FTP.](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)
 
       >[!IMPORTANT]
       >
@@ -129,7 +129,6 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
    * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’ID fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Alors, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
 
 
-
 ## Validation du schéma {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
 Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Vous pouvez également supprimer des attributs en mettant à jour le schéma.
@@ -142,12 +141,12 @@ Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (suppri
 
 Suppression des attributs et remplacement des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL Modifier la source d’attributs du client], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous [!UICONTROL Configurer les abonnements]).
+1. Sur la page [!UICONTROL Modifier la source d’attributs cliente], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous [!UICONTROL Configurer les abonnements]).
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
 
 ## Configuration des abonnements et activation de la source d’attributs {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configuration des abonnements configure le flux de données entre Experience Cloud et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
+La configuration d’un abonnement configure le flux de données entre l’Experience Cloud et les applications. L’activation de la source d’attributs permet aux données d’affluer vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
 Voir [Configuration des abonnements](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -159,11 +158,11 @@ Sur la page [!UICONTROL Créer [ou Modifier] Source dʼattributs du client], rec
 
 ## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Les données étant désormais disponibles dans des solutions telles qu’Adobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
+Les données étant désormais disponibles dans des applications telles qu’Adobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
 L’exemple suivant présente un segment [!DNL Analytics] d’après les attributs téléchargés. Ce segment présente les abonnés à [!DNL Photoshop Lightroom] dont le produit le plus souvent lancé est Photoshop.
 
-![](assets/08_crs_usecase.png)
+![Segment Analytics basé sur les attributs chargés](assets/08_crs_usecase.png)
 
 Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
 
@@ -171,6 +170,6 @@ Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans le
 
 Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. Tous les attributs du client comportent le préfixe `crs.` dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
-![](assets/crs-add-attribute-target.png)
+![Utilisation des attributs du client dans Adobe Target](assets/crs-add-attribute-target.png)
 
 Voir [Création d’une audience](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=fr) dans l’aide de [!DNL Target].

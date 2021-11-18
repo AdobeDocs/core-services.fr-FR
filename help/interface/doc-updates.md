@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Informations au sujet des mises à jour dans la documentation produit d’Experi
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Page d’accueil | Les informations au bas de la page d’accueil d’Experience Cloud ont été déplacées vers la vignette du profil utilisateur. Cela inclut les informations juridiques et la sélection de la langue dans la section des préférences. |
+| Page d’accueil | Les informations figurant au pied de la page dʼaccueil dʼExperience Cloud ont été déplacées vers la vignette du profil utilisateur. Les Informations juridiques et la sélection de la langue se retrouvent désormais dans la section Préférences. |
 | Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations de graphiques dans le workflow de création de widgets d’Experience Platform. Helios recommande une visualisation appropriée pour accompagner une sélection de données spécifique (actuellement sélection de données à variable unique). |
-| Tableaux de bord AEP | [!DNL Instory] fournit des commentaires écrits et des légendes basés sur le machine learning pour les graphiques. Il enrichit les graphiques de la page Tableaux de bord AEP avec des puces appropriées, qui mettent en évidence les modifications et incidents majeurs dans les données graphiques. |
+| Tableaux de bord AEP | [!DNL Instory] fournit une narration écrite basée sur le machine learning et des légendes pour les graphiques. Il enrichit les graphiques de la page Tableaux de bord AEP avec des puces appropriées, qui mettent en évidence les modifications et incidents majeurs dans les données graphiques. |
 
 **Mise à jour : 13/10/2021**
 
@@ -118,7 +118,7 @@ Ajout de la section [Experience Cloud Assets](experience-cloud-assets.md#concep
 
 **Mise à jour : 02/03/2015**
 
-Ajout de la section [Activation des solutions pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Ajout [Activation des applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Mise à jour : 15/01/2015**
 
