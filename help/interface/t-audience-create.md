@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Sous [!UICONTROL Règles], définissez les sélections d’attributs *`Home & Ga
 * **[!UICONTROL Suite de rapports :]** suite de rapports 31
 * Dimension = **[!UICONTROL Magasin (Merch) (v6)]** > **[!UICONTROL Égal à]** > **[!UICONTROL Maison et jardin]**
 
-![Sélections d’attributs dans la bibliothèque d’audiences](assets/home_garden.png)
+![Sélections dʼattributs dans la bibliothèque dʼaudiences](assets/home_garden.png)
 
 Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir d’Analytics :
 
@@ -81,9 +81,9 @@ Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir
 
 ![Visiteurs Chrome et Safari](assets/chrome_safari.png)
 
-Pour effectuer une comparaison, vous pouvez ajouter une règle *OR* pour afficher tous les visiteurs d’une section du site telle que Patio et meubles.
+Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour afficher tous les visiteurs dʼune section du site telle que Patio et meubles.
 
-![Règle OU pour une audience](assets/audiences_rule_patio.png)
+![Règle OU dʼune audience](assets/audiences_rule_patio.png)
 
 La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Maison et jardin. Le segment Patio et meubles fournit des informations supplémentaires sur tous les visiteurs qui visitent cette section du site.
 
@@ -94,4 +94,4 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications. Par exemple, vous pouvez inclure une audience partagée dans une activité Adobe Target.
+Une fois lʼaudience enregistrée, elle est disponible pour les autres applications. Par exemple, vous pouvez inclure une audience partagée dans une activité Adobe Target.
