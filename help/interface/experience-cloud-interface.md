@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 
 ## Prise en charge linguistique dans Experience Cloud {#languages}
 
-Experience Cloud prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
+Experience Cloud prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
 
 * Chinois
 * Anglais
@@ -64,9 +64,9 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
    ![Vérification de votre organisation](assets/organizations-menu.png)
 
-   Pour vérifier que vous vous êtes connecté à l&#39;[organisation](organizations.md) appropriée, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
+   Pour vérifier que vous vous êtes connecté à l’[organisation](organizations.md) appropriée, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
 
-   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l&#39;URL d&#39;Experience Cloud (`https://experience.adobe.com`).
+   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`).
 
    Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -106,7 +106,7 @@ Les préférences Experience Cloud incluent les notifications, les abonnements 
 
 Sélectionnez **[!UICONTROL Préférences]** dans le menu ![](assets/preferences-icon-sm.png) de votre compte pour gérer les préférences.
 
-![Gérer l’Experience Cloud](assets/preferences-page.png)
+![Gestion dʼExperience Cloud](assets/preferences-page.png)
 
 Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fonctionnalités suivantes :
 
@@ -126,4 +126,4 @@ Sélectionnez **[!UICONTROL Notifications]** pour afficher les notifications qui
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Vous pouvez configurer des notifications dans [Préférences Experience Cloud](#preferences).
+Vous pouvez configurer des notifications dans les [Préférences Experience Cloud](#preferences).
