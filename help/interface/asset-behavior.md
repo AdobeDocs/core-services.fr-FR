@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Vous déplacez un dossier partagé dans un dossier non partagé.
 
 ## Contenu du dossier non partagé dans un dossier partagé {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
 
-Vous déplacez le contenu d’un dossier non partagé dans un dossier partagé.
+Vous déplacez le contenu dʼun dossier non partagé dans un dossier partagé.
 
 ![Contenu du dossier non partagé dans un dossier partagé](assets/03_assets_move.png)
 
@@ -58,7 +58,7 @@ Vous archivez ou supprimez du contenu résidant dans un dossier partagé.
 
 ## Contenu partagé détenu dans un dossier non partagé {#section_3810A364B67E4B8C9CA244BC52BF91BB}
 
-Vous déplacez le contenu d’un dossier partagé que vous détenez dans un dossier non partagé.
+Vous déplacez le contenu dʼun dossier partagé que vous détenez dans un dossier non partagé.
 
 ![Contenu partagé détenu dans un dossier non partagé](assets/05_assets_move.png)
 
@@ -66,7 +66,7 @@ Vous déplacez le contenu d’un dossier partagé que vous détenez dans un doss
 
 ## Contenu non détenu dans un dossier non partagé {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
-Vous déplacez le contenu d’un dossier partagé détenu par une autre personne dans un dossier non partagé.
+Vous déplacez le contenu dʼun dossier partagé détenu par une autre personne dans un dossier non partagé.
 
 ![Contenu non détenu dans un dossier non partagé](assets/06_assets_move.png)
 
@@ -76,7 +76,7 @@ Contrairement aux observateurs, les propriétaires et éditeurs peuvent déplace
 
 ## Dossier détenu archivé ou supprimé {#section_B314B13512A5409C87C49DFDB7602E14}
 
-Vous archivez (via le Web) ou supprimez (via le bureau) un dossier partagé que vous détenez.
+Vous archivez (via le Web) ou supprimez (via le bureau) un dossier partagé que vous détenez.
 
 ![Dossier détenu archivé ou supprimé](assets/07_assets_move.png)
 
@@ -88,11 +88,11 @@ Vous déplacez un dossier partagé que vous détenez dans un autre dossier parta
 
 ![Dossier partagé dans un autre dossier partagé](assets/09_assets_move.png)
 
-**Résultat :** lorsque le dossier est déplacé dans le dossier 2, il est alors partagé avec les nouveaux collaborateurs.
+**Résultat :** lorsque le dossier est déplacé dans le dossier 2, il est alors partagé avec les nouveaux collaborateurs.
 
 ## Contenu partagé dans un autre dossier partagé {#section_69F6C312792A4CD2831BD14A340F850E}
 
-Vous déplacez le contenu d’un dossier partagé dans un autre dossier partagé.
+Vous déplacez le contenu dʼun dossier partagé dans un autre dossier partagé.
 
 ![Contenu partagé dans un autre dossier partagé](assets/11_assets_move.png)
 
@@ -102,6 +102,6 @@ Vous déplacez le contenu d’un dossier partagé dans un autre dossier partagé
 
 Vous restaurez le contenu d’une archive qui appartenait à un dossier partagé. Vous déteniez le contenu au moment de son archivage.
 
-![Contenu restauré issu de l’archive](assets/12_assets_move.png)
+![Contenu restauré à partir dʼune archive](assets/12_assets_move.png)
 
 **Résultat :** le contenu est restauré dans le dossier partagé et tous les collaborateurs peuvent de nouveau y accéder. Si le dossier partagé n’existe plus, le contenu est placé dans une copie non partagée de son ou ses dossier(s) parent(s) d’origine.
