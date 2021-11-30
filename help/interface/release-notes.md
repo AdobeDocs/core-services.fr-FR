@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Pour consulter les notes de mise à jour de toutes les applications, voir [Notes de mise à jour de l’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
 ## Août - 2021
 
@@ -92,7 +92,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 ## Avril - 2019
 
-* Mise à jour du sélecteur d’applications afin d’inclure Marketo dans la suite d’applications Experience Cloud et mise à jour de la marque dans Experience Platform. (MCUI-6529)
+* Mise à jour du sélecteur dʼapplications pour inclure Marketo dans la suite dʼapplications Experience Cloud et mise à jour des marques sur Experience Platform. (MCUI-6529)
 * Mise à jour de l’accueil d’Experience Cloud pour inclure les liens de navigation vers les pages de flux et d’administration. (MCUI-6682)
 * Correction d’un problème dans la définition du [!UICONTROL déclencheur] en relation avec l’utilisation correcte de la clause « like ». (MCUI-6611)
 * Améliorations apportées aux attributs du client pour une meilleure connexion au service d’abonnement. (MCUI-6519)
@@ -147,7 +147,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
   </tr> 
   <tr> 
    <td colname="col1"> <p>Amélioration de la liaison des comptes </p> </td> 
-   <td colname="col2"> <p>Amélioration de l’interface pour la liaison des comptes de l’application à l’Experience Cloud (Adobe ID). Cette nouvelle organisation de l’interface permet de localiser tous les comptes d’un utilisateur associés à une organisation et de choisir les comptes à lier. Nous avons également rationalisé l’expérience de liaison de comptes afin que vous n’ayez plus à accéder à la page Gérer les organisations pour lier manuellement les comptes. </p> </td> 
+   <td colname="col2"> <p>Amélioration de lʼinterface pour la liaison des comptes d’applications à Experience Cloud (Adobe ID). Cette nouvelle organisation de lʼinterface permet de localiser tous les comptes dʼun utilisateur associés à une organisation et de choisir les comptes à lier. Nous avons également rationalisé l’expérience de liaison de comptes afin que vous n’ayez plus à accéder à la page Gérer les organisations pour lier manuellement les comptes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,11 +223,11 @@ Pas d’informations disponibles.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Les menus du volet de navigation de gauche ont été actualisés et réorganisés afin de permettre l’accès à tous les services principaux et applications. Les modifications notables sont les suivantes : </p> 
+   <td colname="col2"> <p>Les menus du volet de navigation de gauche ont été actualisés et réorganisés afin que vous puissiez accéder à tous les services principaux et applications. Les modifications notables sont les suivantes : </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">La <span class="term"> bibliothèque d’audiences </span> et les <span class="term"> attributs du client</span> se trouvent maintenant sous <span class="term"> Audiences</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Le menu <span class="term"> Exchange </span> a été déplacé du menu déroulant Aide au rail de navigation de gauche. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Solutions</span> a été supprimé. Vous pouvez lancer toutes les applications à partir de la moitié inférieure du rail de navigation. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Solutions</span> a été supprimé. Toutes les applications peuvent être lancées à partir du rail de navigation (partie inférieure). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,7 +279,7 @@ Pas d’informations disponibles.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Attributs du client </p> </td> 
-   <td colname="col2"> <p>Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois les données transférées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données transférées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus d’informations sur la modernisation de vos applications pour les services principaux, voir <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation des applications pour les services principaux</a>. </p> </td> 
+   <td colname="col2"> <p>Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois les données transférées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données transférées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus dʼinformations sur la modernisation de vos applications pour les services principaux, consultez la section <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activation de vos applications pour les services principaux</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,11 +296,11 @@ Pas d’informations disponibles.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Groupe Mappage </p> </td> 
-   <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à l’échelle d’applications Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à lʼéchelle de plusieurs applications Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mappage de type « un à plusieurs » </p> </td> 
-   <td colname="col2"> <p>Lorsque vous liez des comptes d’application dans l’Experience Cloud, si vous disposez de plusieurs applications et organisations, vous pouvez désormais mapper plusieurs produits et services à une seule organisation. </p> </td> 
+   <td colname="col1"> <p>Mappage de type « un à plusieurs » </p> </td> 
+   <td colname="col2"> <p>Lors de la liaison de comptes dʼapplication dans Experience Cloud, si vous disposez de plusieurs applications et organisations, vous pouvez désormais mapper plusieurs produits et services à une seule organisation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
@@ -308,7 +308,7 @@ Pas d’informations disponibles.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mises à jour de la documentation - Services principaux </p> </td> 
-   <td colname="col2"> <p>Ajout de la rubrique <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Activation des applications pour les services principaux</a> pour vous aider à mettre en oeuvre les services principaux. </p> </td> 
+   <td colname="col2"> <p>Ajout de la rubrique <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activation des applications pour les services principaux</a> qui aide à lʼimplémentation des services principaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 **Correctifs et améliorations**
 
 * Lorsque vous accédez à [!DNL experience.adobe.com], le processus d’ouverture de session est désormais cohérent avec l’ouverture d’une session Adobe Creative Cloud.
-* Sur la page Gérer les organisations , l’expérience de liaison (après réception d’une invitation) est désormais cohérente pour chaque application.
+* Sur la page Gérer les organisations, lʼexpérience de liaison (après réception dʼune invitation) est maintenant cohérente pour chaque application.
 
 **Problèmes connus**
 
@@ -603,7 +603,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Après l’ajout d’une balise personnalisée à un fichier, aucune autre modification des métadonnées ne peut être conservée.
 * Les utilisateurs doivent actualiser le panorama pour que les cartes supprimées disparaissent de la vue.
 * Si l’option **[!UICONTROL Se souvenir de moi]** n’est pas cochée au cours de l’ouverture de session, l’utilisateur est déconnecté après 15 minutes.
-* [!DNL Analytics] la page d’entrée de l’application affiche des erreurs de mise en forme.
+* La page de destination de lʼapplication [!DNL Analytics] présente des erreurs de mise en forme.
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
 * Lors de la suppression d’une image dans les [!UICONTROL ressources], aucun message n’avertit que l’image est utilisée dans [!DNL Adobe Target Essentials], si tel est le cas.
 * Il nʼest pas possible de sélectionner le lien Commentaires sur la carte des ressources.
@@ -638,7 +638,7 @@ La version 14.3.1 est une version de maintenance axée sur la vitesse, la stabi
 * L’actualisation d’une carte à partir d’[!DNL Analytics] génère parfois un panier vide dans la carte étendue.
 * Les utilisateurs doivent se déconnecter puis se reconnecter pour que tous les changements apportés aux autorisations et aux droits entrent en vigueur.
 * Lorsque *`Remember me`* n’est pas sélectionné durant l’ouverture de session, l’utilisateur est déconnecté au bout de 15 minutes.
-* [!DNL Analytics] la page d’entrée de l’application affiche des erreurs de mise en forme.
+* La page de destination de lʼapplication [!DNL Analytics] présente des erreurs de mise en forme.
 * Il nʼest pas possible de sélectionner le lien Commentaires sur la vue de la carte des ressources.
 * L’interface d’Experience Cloud peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * Experience Cloud ne peut pas être lié à [!DNL Adobe Target] si la connexion à [!DNL Adobe Target] peut être utilisée sur plusieurs serveurs Target.
@@ -674,7 +674,7 @@ La version 14.3.1 est une version de maintenance axée sur la vitesse, la stabi
   <tr> 
    <td colname="col1"> <p>Actualiser les données </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->Le <span class="uicontrol"> Actualiser les données</span> L’icône d’un graphique sur une carte est désormais masquée si l’application n’autorise pas l’actualisation des données. </p> </td> 
+     <!--MAC-18174-->Lʼicône <span class="uicontrol">Actualiser les données</span> pour un graphique sur une carte est maintenant masquée si lʼapplication ne permet pas dʼactualiser les données. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -682,6 +682,6 @@ La version 14.3.1 est une version de maintenance axée sur la vitesse, la stabi
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’application de filtres de segments sur les rapports [!DNL Analytics] partagés.
-* Correction d’un problème en raison duquel les applications s’affichaient sur le [!UICONTROL Solutions Experience Cloud] comme étant liée, même si les comptes des applications n’étaient pas liés.
+* Correction dʼun problème en raison duquel les applications étaient présentées comme liées sur la page [!UICONTROL Solutions Experience Cloud], même si les comptes de ces applications nʼétaient pas liés.
 * Correction dʼun problème qui empêchait les clients dʼ[!DNL Adobe Target] en Asie de sélectionner le bouton **[!UICONTROL Continuer vers Experience Cloud]** sur la page de liaison.
 * Correction d’un problème qui empêchait le partage des vidéos YouTube.
