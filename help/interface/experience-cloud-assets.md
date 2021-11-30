@@ -1,5 +1,5 @@
 ---
-description: Découvrez les ressources Experience Cloud que vous pouvez partager dans toutes les applications.
+description: Découvrez les ressources Experience Cloud Assets que vous pouvez partager entre les applications.
 solution: Experience Cloud
 title: Présentation des ressources
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,22 +9,22 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Présentation d’Experience Cloud Assets
+# Présentation dʼExperience Cloud Assets
 
-Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les applications. Une ressource est un document, une image, une vidéo ou de lʼaudio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques dʼun fichier [!DNL Photoshop], les diapositives dʼun fichier [!DNL PowerPoint], les pages dʼun PDF ou les fichiers dʼun ZIP).
+Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de lʼaudio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques dʼun fichier [!DNL Photoshop], les diapositives dʼun fichier [!DNL PowerPoint], les pages dʼun PDF ou les fichiers dʼun ZIP).
 
 Les services de ressources comprennent ce qui suit :
 
-* Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible via les applications).
-* Intégrations à des applications Creative Cloud, Experience Cloud et Experience Cloud.
+* Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les applications).
+* Intégrations à Creative Cloud, collaboration Experience Cloud et applications Experience Cloud.
 
-L’utilisation des ressources améliore la cohérence et l’homogénéité de la marque et accélère la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
+Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 
 * **[!DNL Social]** : publiez du contenu dans les propriétés sociales, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]** : créez du contenu pour des tests A/B et multivariés.
@@ -45,15 +45,15 @@ Dans [!UICONTROL Experience Cloud Assets], vous pouvez réaliser les opérations
 
 ## Accéder à Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
-![Accéder à Experience Cloud Assets](assets/asset-nav.png)
+![Accès à Experience Cloud Assets](assets/asset-nav.png)
 
-## Accéder à la barre d’outils {#section_EC2E401D225148818F3753248556BE6B}
+## Accès à la barre dʼoutils {#section_EC2E401D225148818F3753248556BE6B}
 
 Accédez à une ressource (ou un répertoire de ressources), puis choisissez **[!UICONTROL Sélectionner]**.
 
-La barre d’outils permet d’accéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
+La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
 
-![Accéder à la barre d’outils](assets/asset-tools.png)
+![Accès à la barre dʼoutils](assets/asset-tools.png)
 
 ## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -63,7 +63,7 @@ La modification d’une ressource active plusieurs fonctionnalités, dont les su
 * Pivoter
 * Retourner
 
-![Modifier des ressources ](assets/asset-edit.png)
+![Modification de ressources](assets/asset-edit.png)
 
 ## Recherche de ressources {#section_50FE049010B446FC9640AA6A30E5A730}
 
@@ -97,4 +97,4 @@ Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombr
 
 Sélectionnez **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport dʼutilisation]**.
 
-![Exécution des rapports sur l’utilisation](assets/assets-usage-report.png)
+![Exécution des rapports sur lʼutilisation](assets/assets-usage-report.png)
