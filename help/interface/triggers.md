@@ -12,15 +12,15 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Triggers
+# Experience Cloud Triggers
 
-[!UICONTROL Triggers] dans Experience Cloud vous permet d’identifier, de définir et de surveiller les comportements clés des consommateurs, puis de générer une communication inter-applications pour réengager les visiteurs.
+[!UICONTROL Triggers] dʼExperience Cloud vous permet dʼidentifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs.
 
 ## Présentation de Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser des triggers pour la personnalisation et les décisions en 
 * Formulaires et demandes incomplets
 * Actions ou séquence d’actions sur site
 
-![Exemple de déclencheur](assets/trigger-abandonment-2.png)
+![Exemple de trigger](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Exemples de Triggers Experience Cloud :
 
 Par exemple, la page suivante montre les règles que vous pouvez utiliser pour un trigger d’[!UICONTROL abandon de panier], selon les produits consultés lors d’une visite.
 
-![Déclencheur d’abandon de panier](assets/abandonment-trigger.png)
+![Trigger dʼabandon de panier](assets/abandonment-trigger.png)
 
 #### Trigger de référent
 
 Le trigger suivant se déclenche lorsqu’un accès est associé au produit Men’s Boots et au référent Facebook. Pour que les deux critères (*produits* et *référent*) soient évalués dans le même accès, ils doivent être ajoutés au même conteneur.
 
-![Déclencheur de référent](assets/fb-boots-promo.png)
+![Trigger de référent](assets/fb-boots-promo.png)
