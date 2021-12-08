@@ -1,22 +1,22 @@
 ---
 title: Utilisation des attributs du client
-description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment transférer des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
+description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment transférer des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
+source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
+workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Attributs du client aperçu
 
-[!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
+[!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
 
 Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
@@ -24,15 +24,15 @@ Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]**
 
 ## Conditions requises pour le téléchargement des attributs du client {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Activation de la solution :** [activez vos solutions pour les services Experience Platform](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+* **Activation de la solution :** [activez vos solutions pour les services Experience Platform](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
+* **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
+   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
 
-   Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
+   Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
-* **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
+* **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
    Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=fr) ou [Implémentation de mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=fr).
 
@@ -44,19 +44,19 @@ L’image suivante est un exemple de fichier de données présentant les donnée
 
 ![En quoi consistent les données client d’entreprise ?](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
+Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]**.
 
-Voir [Transfert des données d’attributs du client](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour en savoir plus sur ce processus.
+Voir [Chargement des données d’attributs du client](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) pour découvrir ce processus.
 
 ## Exemples d’attributs du client dans Analytics et Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Une fois que les données résident dans Experience Cloud, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
+Une fois que les données résident dans Experience Cloud, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
 
 Par exemple :
 
 | Solution | Avantages et cas d’utilisation |
 |--- |--- |
-| Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Produits que les clients dont la valeur de durée de vie est faible ont tendance à rechercher sur le site.</li></ul> |
-| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>Pour les clients recevant déjà des e-mails, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique</li></ul> |
+| Adobe Analytics | Les analystes et spécialistes du marketing peuvent comprendre :<ul><li>Les campagnes en ligne les plus efficaces sur vos clients de niveau Or.</li><li>Les produits recherchés par votre clientèle Or par rapport à votre clientèle Platine.</li><li>L’impact positif ou non de la refonte de votre site sur les taux de conversion liés à la tranche d’âge supérieure de votre clientèle.</li><li>Produits que les clients dont la valeur de durée de vie est faible ont tendance à rechercher sur le site.</li></ul> |
+| Adobe Target | Les données d’attribut permettent aux utilisateurs d’Adobe Target de :<ul><li>proposer des remises et des offres spéciales aux membres du club de fidélité .</li><li>recommander des produits plus coûteux à votre clientèle la plus aisée .</li><li>Pour les clients recevant déjà des e-mails, afficher une offre de mise à niveau dans l’espace normalement réservé aux inscriptions par courrier électronique</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
