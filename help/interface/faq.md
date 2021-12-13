@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci
 ## Comment résoudre les questions liées à la migration de ma société ?
 
 [Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+
+## How can [!DNL Adobe Support] access my Adobe cloud environment to troubleshoot an issue ?
+
+[!DNL Adobe Support] Vous pouvez envoyer une demande d’emprunt d’identité pour laquelle vous recevez un courrier électronique de marque Adobe (exemple ci-dessous) à la recherche de votre autorisation explicite. L’accès est accordé pendant une durée limitée. Une fois accordé, vous pouvez à tout moment révoquer l’accès. Adobe consigne toutes les actions entreprises par les représentants de l’Adobe.
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## Qu’est-ce que l’_attribution de privilèges d’accès_ ?
 
