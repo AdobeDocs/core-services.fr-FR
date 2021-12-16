@@ -55,7 +55,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci
 
 [Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
-## How can [!DNL Adobe Support] access my Adobe cloud environment to troubleshoot an issue ?
+## Comment [!DNL Adobe Support] accéder à mon environnement cloud Adobe pour résoudre un problème ?
 
 [!DNL Adobe Support] Vous pouvez envoyer une demande d’emprunt d’identité pour laquelle vous recevez un courrier électronique de marque Adobe (exemple ci-dessous) à la recherche de votre autorisation explicite. L’accès est accordé pendant une durée limitée. Une fois accordé, vous pouvez à tout moment révoquer l’accès. Adobe consigne toutes les actions entreprises par les représentants de l’Adobe.
 
