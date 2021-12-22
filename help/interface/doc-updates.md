@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Informations au sujet des mises à jour dans la documentation produit d’Experi
 
 **Mise à jour : 13/12/2021**
 
-Mise à jour de la [FAQ sur l’administration](faq.md) avec des informations sur la manière dont l’assistance à l’Adobe peut accéder à votre environnement cloud Adobe pour résoudre un problème.
+Mise à jour de la [FAQ sur l’administration](faq.md) avec des informations sur la manière dont l’assistance Adobe peut accéder à votre environnement cloud Adobe pour résoudre un problème.
 
 **Mise à jour : 28/10/2021**
 
@@ -84,7 +84,7 @@ Ajout de la section [Affichage des informations sur les utilisateurs d’Experie
 
 Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif) Mise à jour du schéma (suppression des attributs)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
-**Mise à jour : 8/06/2018**
+**Mise à jour : 08/06/2018**
 
 Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
 
