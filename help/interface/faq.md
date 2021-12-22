@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support).
 
-## Comment [!DNL Adobe Support] accéder à mon environnement cloud Adobe pour résoudre un problème ?
+## Comment [!DNL Adobe Support] peut accéder à mon environnement cloud Adobe pour résoudre un problème ?
 
-[!DNL Adobe Support] Vous pouvez envoyer une demande d’emprunt d’identité pour laquelle vous recevez un courrier électronique de marque Adobe (exemple ci-dessous) à la recherche de votre autorisation explicite. L’accès est accordé pendant une durée limitée. Une fois accordé, vous pouvez à tout moment révoquer l’accès. Adobe consigne toutes les actions entreprises par les représentants de l’Adobe.
+[!DNL Adobe Support] peut envoyer une demande d’emprunt d’identité pour laquelle vous recevez un e-mail de la part dʼAdobe (exemple ci-dessous) vous demandant votre autorisation explicite. L’accès est accordé pour une durée limitée. Une fois cet accès accordé, vous pouvez le révoquer à tout moment. Adobe consigne toutes les actions entreprises par les représentants dʼAdobe.
 
 ![](/help/interface/admin-getting-started/assets/support-email.png)
 
@@ -82,7 +82,7 @@ Dans Experience Cloud, lʼattribution de privilèges dʼaccès signifie ce qui 
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
@@ -102,7 +102,7 @@ Une *organisation* est lʼentité qui permet à un administrateur de configurer 
 
 Voir [Recherche de votre ID d’organisation](organizations.md).
 
-L’ID d’organisation est affiché sur la page d’entrée d’Experience Cloud et sur la [page d’entrée Admin Console](https://adminconsole.adobe.com).
+L’ID d’organisation est affiché sur la page d’entrée d’Experience Cloud et sur la [page de destination Admin Console](https://adminconsole.adobe.com).
 
 Les administrateurs peuvent aussi se connecter à Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) pour une organisation spécifique. Votre ID d’organisation IMS apparaît alors dans l’URL.
 
