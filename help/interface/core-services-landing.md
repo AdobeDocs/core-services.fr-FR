@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Services d’Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Services Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Cette documentation s’applique aux fonctionnalités de l’en-tête unifié de l’Experience Cloud, telles que le [!UICONTROL Personnes] service (audiences et attributs du client), gestion des utilisateurs et des produits pour les Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
+Cette documentation s’applique aux fonctionnalités de l’en-tête unifié Experience Cloud, telles que le service [!UICONTROL Personnes] (audiences et attributs du client), la gestion des utilisateurs et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder à ces services dans Experience Cloud, sélectionnez le **[!UICONTROL Sélecteur dʼapplications]**
 ![Sélecteur de services](assets/menu-icon.png).
@@ -35,7 +35,7 @@ Cette aide décrit les produits et services suivants :
 | [Activation](activation.md) | Activation inclut le dernier produit de gestion des balises, appelé Collecte de données Experience Platform (Launch), ainsi qu’Experience Cloud Triggers. |
 | [Assets](experience-cloud-assets.md) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. |
 | [Administration](admin-getting-started.md) | Découvrez-en plus sur la connexion à Admin Console, sur la gestion des autorisations d’utilisateurs, sur les profils de produits dans Experience Cloud et sur la prise en charge des navigateurs. |
-| [Cookies ](cookies-privacy.md) | Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe s’associe à de multiples organisations œuvrant à la protection de la vie privée. En outre, l’entreprise travaille en coopération avec des organismes réglementant la protection de la vie privée et respecte les principes d’autoréglementation. |
+| [Cookies](cookies-privacy.md) | Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe s’associe à de multiples organisations œuvrant à la protection de la vie privée. En outre, l’entreprise travaille en coopération avec des organismes réglementant la protection de la vie privée et respecte les principes d’autoréglementation. |
 
 {style=&quot;table-layout:auto&quot;}
 
