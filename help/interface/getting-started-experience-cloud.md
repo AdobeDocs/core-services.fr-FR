@@ -1,24 +1,24 @@
 ---
-description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page de destination par défaut.
-keywords: services principaux, connexion à Experience Cloud
+description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page de destination par défaut.
+keywords: services principaux, connexion à Experience Cloud
 solution: Experience Cloud
-title: 'Connexion et gestion des paramètres du profil Experience Cloud '
+title: 'Connexion et gestion des paramètres du profil Experience Cloud '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '955'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 97%
 
 ---
 
-# Connexion et gestion des paramètres du profil Experience Cloud
+# Connexion et gestion des paramètres du profil Experience Cloud
 
-En vous connectant à Experience Cloud (plutôt quʼà une application donnée), vous bénéficiez de lʼauthentification unique pour tous les services et applications que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
+En vous connectant à Experience Cloud (plutôt quʼà une application donnée), vous bénéficiez de lʼauthentification unique pour tous les services et applications que vous détenez. Cette aide explique comment vous connecter à Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page d’entrée par défaut.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 1. Sélectionnez le menu Experience Cloud (![](assets/menu-icon.png)), puis **[!UICONTROL Administration]**.
 
-   Si le lien **[!UICONTROL Administration]** n’apparaît pas, cela signifie que vous n’êtes pas un administrateur Experience Cloud pour l’[organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) affichée. Si vous avez besoin d’aide pour devenir administrateur, contactez l’assistance clientèle ou un autre administrateur Experience Cloud de votre entreprise.
+   Si le lien **[!UICONTROL Administration]** n’apparaît pas, cela signifie que vous n’êtes pas un administrateur Experience Cloud pour l’[organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) affichée. Si vous avez besoin d’aide pour devenir administrateur, contactez l’assistance clientèle ou un autre administrateur Experience Cloud de votre entreprise.
 1. Sélectionnez **[!UICONTROL Administration]**.
 
 1. Poursuivez en sélectionnant lʼun des liens suivants :
@@ -39,11 +39,11 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 |--- |--- |
 | [Concepts de base d’Admin Console](experience-cloud.md) | Découvrez les premières étapes à suivre pour commencer à utiliser les applications Experience Cloud. |
 | [Configuration d’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | Définissez et configurez un système d’identités qui déterminera le mode d’authentification de vos utilisateurs finaux. |
-| [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
+| [Gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html) | Découvrez-en plus sur la connexion à Admin Console et sur la gestion des autorisations d’utilisateurs et sur les profils de produits dans Experience Cloud. |
 | [Lancement d’Admin Console](admin-getting-started.md) | Admin Console centralise la gestion de vos utilisateurs et de vos droits sur les produits Adobe au sein de votre organisation dans son intégralité.<br>Vous pouvez également vous connecter à Admin Console à l’aide d’un [lien direct](https://adminconsole.adobe.com). |
-| [Gérer les utilisateurs de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permet aux spécialistes du marketing de partager des dossiers, de les synchroniser et de collaborer avec les concepteurs et autres créatifs dans Creative Cloud. Ici, vous pouvez gérer les utilisateurs de Creative Cloud autorisés à collaborer avec votre organisation. |
-| [Mappage de vos suites de rapports](core-services.md) | (Analytics uniquement) Les services principaux Experience Cloud sont associés à une organisation plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. (Cette tâche fait partie d’un processus permettant l’ [Activation d’Analytics pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [ID d’organisation](organizations.md) | L’*ID d’organisation* se trouve en bas de la page Administration. Il s’agit de l’identifiant associé à la société Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |
+| [Gérer les utilisateurs de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permet aux spécialistes du marketing de partager des dossiers, de les synchroniser et de collaborer avec les concepteurs et autres créatifs dans Creative Cloud. Ici, vous pouvez gérer les utilisateurs de Creative Cloud autorisés à collaborer avec votre organisation. |
+| [Mappage de vos suites de rapports](core-services.md) | (Analytics uniquement) Les services principaux Experience Cloud sont associés à une organisation plutôt qu’à une suite de rapports individuelle. Afin de garantir le bon fonctionnement de ces services, chaque suite de rapports Analytics doit être mappée à une organisation. (Cette tâche fait partie d’un processus permettant l’ [Activation d’Analytics pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [ID d’organisation](organizations.md) | Le *ID d’organisation* se trouve dans l’URL lorsque dans le Admin Console. Vous pouvez également l’afficher sur la page [!UICONTROL Débogueur de données utilisateur] pop-up (`ctrl+i` ou `cmd+i`) de n’importe quelle page à l’adresse `https://experience.adobe.com`. Il s’agit de l’identifiant associé à la société Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -52,13 +52,13 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 Cette section vise à aider les utilisateurs non-administrateurs qui se connectent à Experience Cloud.
 
 
-1. Vérifiez auprès de votre administrateur que votre [organisation](organizations.md) a reçu les privilèges d’accès dans Experience Cloud.
+1. Vérifiez auprès de votre administrateur que votre [organisation](organizations.md) a reçu les privilèges d’accès dans Experience Cloud.
 
 
-1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
+1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Sélectionnez **[!UICONTROL Se connecter avec lʼAdobe ID]**.
 
-   Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
+   Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
 
 1. Sur votre page dʼentrée, sélectionnez lʼicône de sélecteur ![](assets/menu-icon.png) pour accéder au menu déroulant.
 
@@ -70,7 +70,7 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 
 Vous pouvez modifier des détails personnels et spécifier une [organisation](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) et une page d’entrée par défaut, qui s’afficheront une fois que vous serez connecté à Experience Cloud.
 
-1. Connectez-vous à Experience Cloud, puis sélectionnez votre icône de profil.
+1. Connectez-vous à Experience Cloud, puis sélectionnez votre icône de profil.
 
    ![Sélection de votre icône de profil](assets/edit-profile.png)
 1. Sélectionnez **[!UICONTROL Modifier le profil]**.
@@ -127,13 +127,13 @@ Vous pouvez modifier votre profil Experience Cloud, définir une organisation e
 1. Naviguez jusqu’à la page d’ouverture de session de votre solution.
 1. Sélectionnez **[!UICONTROL Mot de passe oublié]**.
 
-   La réinitialisation du mot de passe de la solution résout habituellement les problèmes de liaison de mots de passe pour Experience Cloud.
+   La réinitialisation du mot de passe de la solution résout habituellement les problèmes de liaison de mots de passe pour Experience Cloud.
 
-   Pour les utilisateurs d’Adobe Analytics, accédez à la page [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Pour les utilisateurs d’Adobe Analytics, accédez à la page [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Configuration de la connexion aux applications à lʼaide dʼun lien direct {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-Vous pouvez éventuellement vous connecter à une page spécifique au sein d’une solution à l’aide de l’authentification fournie par l’interface d’Experience Cloud.
+Vous pouvez éventuellement vous connecter à une page spécifique au sein d’une solution à l’aide de l’authentification fournie par l’interface d’Experience Cloud.
 
 ### Modèle d’URL
 

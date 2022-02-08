@@ -1,6 +1,6 @@
 ---
-description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
-keywords: Services Adobe Experience Cloud
+description: Découvrez-en plus sur les organisations et sur la liaison de comptes de solution à Experience Cloud.
+keywords: Services Adobe Experience Cloud
 solution: Experience Cloud
 title: 'Liaison d’organisations et de comptes '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 87%
 
 ---
 
-# Organisations dans Experience Cloud
+# Organisations dans Experience Cloud
 
-Découvrez comment gérer et changer dʼorganisation dans Experience Cloud.
+Découvrez comment gérer et changer dʼorganisation dans Experience Cloud.
 
 ## Identification de votre organisation {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
@@ -26,28 +26,38 @@ Une *organisation* est lʼentité qui permet à un administrateur de configurer 
 
 Pour vérifier que vous êtes connecté à la bonne organisation, cliquez sur votre avatar de profil afin dʼafficher le nom de lʼorganisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
 
-Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`).
+Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`).
 
-Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![Résultat de l’étape](assets/organization-switch.png)
 
-## Obtention de votre ID d’organisation {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Recherche de votre ID d’organisation {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Vous devrez peut-être localiser lʼID dʼorganisation à des fins dʼassistance. Vous pouvez vérifier que vous vous trouvez dans la bonne organisation ou changer d’organisation à l’aide du menu **[!UICONTROL Organisation]**.
 
-L’**ID d’organisation** est l’identifiant associé à la société Experience Cloud activée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire).
+L’ID d’organisation est l’identifiant associé à la société Experience Cloud activée. Cet identifiant est une chaîne alphanumérique de 24 caractères, suivie de (et doit inclure) `@AdobeOrg`.
 
-Pour afficher votre ID dʼorganisation, accédez à la page de destination dʼExperience Cloud ou sélectionnez (![](assets/menu-icon.png)), puis choisissez **[!UICONTROL Administration]**. Vous pouvez trouver lʼID dʼorganisation en bas de la page [!UICONTROL Prise en main dʼExperience Cloud] ou de la page [!UICONTROL Administration].
+Vous pouvez afficher l’ID d’organisation ainsi que d’autres informations de compte à l’aide du raccourci clavier **Ctrl+i** de n’importe quelle page à `https://experience.adobe.com`, puis cliquez sur le bouton **[!UICONTROL Organisation affectée]** dans la boîte de dialogue.
 
-![](assets/administration-page.png)
+![Identifiant d’organisation attribué](assets/assigned-organization.png)
+
+Les administrateurs peuvent également se connecter au Admin Console (en accédant à [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) et affichez votre ID d’organisation IMS dans l’URL.
+
+Par exemple, dans l’URL suivante :
+
+`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+L’ID est :
+
+`C538193582390300A495CC9@AdobeOrg`
 
 ## Liaison dʼun compte dʼapplication à un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
 En général, les administrateurs Experience Cloud accordent lʼaccès aux applications et aux services. Dans de rares cas, vous devrez peut-être lier les informations de connexion de lʼapplication à un Adobe ID.
 
-1. Suivez les instructions fournies dans votre invitation par courrier électronique pour accéder à Experience Cloud.
-1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
+1. Suivez les instructions fournies dans votre invitation par courrier électronique pour accéder à Experience Cloud.
+1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
 1. Sélectionnez le sélecteur dʼapplications (![](assets/menu-icon.png)).
 
    ![Liaison dʼun compte dʼapplication à un Adobe ID](assets/solutions-active.png)
@@ -76,7 +86,7 @@ Sous Organisation et page de destination par défaut, vous pouvez personnaliser 
 
 Aide pour résoudre les problèmes qui se produisent lors de la liaison de comptes.
 
-En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
+En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
 
 * [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) ;
 * accéder à votre application en suivant la procédure de connexion standard pendant que nous résolvons le problème.
