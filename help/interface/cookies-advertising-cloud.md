@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: ht
-source-wordcount: '571'
+source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
+workflow-type: tm+mt
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
 
 >[!NOTE]
 >
->La version Beta de la balise JavaScript Advertising Cloud utilisant le [service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des [cookies s_ecid Experience Cloud propriétaires](cookies-first-party.md), et non des cookies Advertising Cloud.
+>La version Beta de la balise JavaScript Advertising Cloud utilisant le [service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des [cookies s_ecid Experience Cloud propriétaires](cookies-first-party.md), et non des cookies Advertising Cloud.
 
 ## Nom du cookie : _lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) des sélections dʼaffichage</p> </td> 
+   <td colname="col2"> <p>ID et horodatages (au format aaaammjj) des clics d’affichage</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de sélection sur une publicité display sʼapplique à un accès Adobe Analytics </p> </td> 
+   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de clic sur une publicité affichée s'applique à un accès Adobe Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>La date et lʼheure de la dernière visite de l’internaute sur le site Web de lʼannonceur et la dernière sélection de recherche de l’internaute, et lʼef_id créé lorsque lʼutilisateur a sélectionné une publicité</p> </td> 
+   <td colname="col2"> <p>La date et l’heure de la dernière visite du surfeur sur le site web de l’annonceur et le dernier clic de recherche du surfeur, et l’ef_id créé lorsque l’utilisateur a cliqué sur une publicité</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
