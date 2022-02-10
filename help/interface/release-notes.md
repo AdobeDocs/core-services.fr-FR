@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: ht
-source-wordcount: '4525'
-ht-degree: 100%
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+workflow-type: tm+mt
+source-wordcount: '4606'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,14 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Février - 2022
+
+| Fonctionnalité | Description |
+| ------- |-------|
+| Raccourcis (**[!UICONTROL Récents]**) ajouté à [Experience Cloud](https://experience.adobe.com/home) home | Vous pouvez accéder à des raccourcis pour accéder à votre travail Journey Optimizer et Experience Platform le plus récent sous la nouvelle _Récents_ sur la landing page. Cette mise à jour inclut également une mise en page générale et des améliorations de réactivité. |
+| **[!UICONTROL Environnements de test]** déplacé vers la barre d’en-tête ; | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications d’interface Experience Platform. Voir [Environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform pour plus d’informations. |
+
 
 ## Novembre - 2021
 
