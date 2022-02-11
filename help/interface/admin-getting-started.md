@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1567'
 ht-degree: 69%
 
 ---
@@ -141,7 +141,8 @@ Une fois la migration terminée, les utilisateurs se connectent à lʼaide de le
 
 **Aide connexe**
 
-Pour plus d’informations, voir [Migration des ID d’utilisateur Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr).
+* [Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Migration de l’ID d’utilisateur Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr)
 
 ## Gestion d’Adobe Target - Profils de produit par rapport aux espaces de travail {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -189,7 +190,7 @@ Voir [Administration](https://experienceleague.adobe.com/docs/audience-manager/u
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les applications individuelles ne les prennent pas tous en charge. (Par exemple, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=fr) ne prend pas en charge [!DNL Opera] et [ Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=fr) ne prend pas en charge [!DNL Safari].)
+**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les applications individuelles ne les prennent pas tous en charge. (Par exemple, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) ne prend pas en charge [!DNL Opera] et [ Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=fr) ne prend pas en charge [!DNL Safari].)
 
 ### Exigences des solutions et des produits
 
