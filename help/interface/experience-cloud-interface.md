@@ -6,8 +6,8 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ Les composants de l’interface centrale d’Experience Cloud incluent des fonc
 * Recherche d’objets commerciaux et d’aide sur un produit à l’aide d’une recherche globale
 * Gestion des préférences du compte (alertes, notifications et abonnements)
 
-## Prise en charge des navigateurs dans Experience Cloud {#browser}
+## Prise en charge des navigateurs dans Experience Cloud {#browser}
 
-Pour des performances optimales, Experience Cloud est optimisé pour les navigateurs les plus populaires, notamment la dernière version, ainsi que les deux versions précédentes.
+Pour des performances optimales, Experience Cloud est optimisé pour les navigateurs les plus populaires, notamment la dernière version, ainsi que les deux versions précédentes.
 
 * Chrome
 * Edge
@@ -35,11 +35,11 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 
 >[!NOTE]
 >
->Toutes les applications s’exécutant sur un domaine Experience Cloud ne prennent pas en charge tous les navigateurs. Si vous n’êtes pas sûr, consultez la documentation d’une application spécifique.
+>Toutes les applications s’exécutant sur un domaine Experience Cloud ne prennent pas en charge tous les navigateurs. Si vous n’êtes pas sûr, consultez la documentation d’une application spécifique.
 
-## Prise en charge linguistique dans Experience Cloud {#languages}
+## Prise en charge linguistique dans Experience Cloud {#languages}
 
-Experience Cloud prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
+Experience Cloud prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
 
 * Chinois
 * Anglais
@@ -52,7 +52,7 @@ Experience Cloud prend en charge les langues préférées de chaque utilisateur,
 * Espagnol
 * Taïwanais
 
-Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application Experience Cloud, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Accédez aux [Préférences utilisateur dʼExperience Cloud](https://experience.adobe.com/preferences) pour effectuer ces actions.
+Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application Experience Cloud, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Accédez aux [Préférences utilisateur dʼExperience Cloud](https://experience.adobe.com/preferences) pour effectuer ces actions.
 
 ## Connectez-vous à Experience Cloud {#signin}
 
@@ -66,9 +66,9 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
    Pour vérifier que vous vous êtes connecté à l’[organisation](organizations.md) appropriée, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
 
-   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`).
+   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Pour cela, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`).
 
-   Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ## Accès aux applications Experience Cloud {#navigation}
 
@@ -78,7 +78,7 @@ Sélectionnez le sélecteur dʼapplications ![](assets/menu-icon.png) pour accé
 
 ![Accès aux applications Experience Cloud](assets/platform-core-services.png)
 
-## Recherche et assistance dans Experience Cloud {#search}
+## Recherche et assistance dans Experience Cloud {#search-support}
 
 La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 
