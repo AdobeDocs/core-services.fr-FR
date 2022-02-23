@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -33,13 +33,13 @@ Dans l’en-tête d’Experience Cloud, vous pouvez :
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Saisissez votre adresse électronique d’Adobe, puis sélectionnez **[!UICONTROL Continuer]**.
+1. Saisissez votre adresse e-mail Adobe, puis sélectionnez **[!UICONTROL Continuer]**.
 
-   Administrateurs, voir [Authentification des utilisateurs Experience Cloud](admin-getting-started.md#migration) pour les mises à jour importantes des types d’identité (identifiant de l’entreprise).
+   Administrateurs, voir [Authentification des utilisateurs Experience Cloud](admin-getting-started.md#migration) pour les mises à jour importantes des types d’identité (Business ID).
 
 1. Sélectionnez un compte.
 1. Saisissez votre mot de passe.
-1. Vérifiez que vous vous trouvez dans la bonne organisation.
+1. Assurez-vous que vous êtes dans la bonne organisation.
 
    ![Vérification que vous vous trouvez dans la bonne organisation](assets/organizations-menu.png)
 
@@ -197,7 +197,7 @@ Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi 
 | Technologie | Domaines |
 |--- |--- |
 | Domaines Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
-| Service Adobe IDentity Management (IMS) | `adobelogin.com` |
+| Service Adobe Identity Management (IMS) | `adobelogin.com` |
 | Polices Experience Cloud | `typekit.net` |
 | Gainsight (pour obtenir des conseils sur les produits et de lʼaide) | `esp.aptrinsic.com` |
 
@@ -238,7 +238,7 @@ Profitez des tutoriels d’aide autonome et des instructions rapides dans Experi
 
 * [Tous les tutoriels dans Experience League](https://experienceleague.adobe.com/?lang=fr#quick-how-tos)
 * [Tutoriels Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
-* [Plateforme de données clients en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 
 ## Notes de mise à jour et aide Experience Cloud associée
 
