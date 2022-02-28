@@ -1,22 +1,23 @@
 ---
 audience: administrator
-user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
-breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
-user-guide-description: Découvrez l’interface d’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et Experience Cloud Assets.
+user-guide-title: 'Composants de lʼinterface centrale dʼExperience Cloud '
+breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
+user-guide-description: Découvrez l’interface d’Experience Cloud, configurez les préférences, recherchez de l’aide et des objets commerciaux. Obtenez de l’aide sur la gestion des utilisateurs et des produits, les attributs du client, la bibliothèque d’audiences, les cookies et Experience Cloud Assets.
 index: true
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 98%
 
 ---
 
 
-# Composants de lʼinterface centrale dʼExperience Cloud {#interface}
+# Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
++ [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
-   + [Services d’Experience Cloud](core-services-landing.md)
+   + [Services d’Experience Cloud](core-services-landing.md)
+   + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
    + [Activation de votre implémentation pour les services entre applications](core-services.md)
    + Bibliothèque d’audiences Experience Cloud {#audiences}
       + [Audiences Experience Cloud](audience-library.md)
@@ -38,7 +39,7 @@ ht-degree: 100%
       + [Présentation de l’Activation](activation.md)
       + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
       + [Triggers](triggers.md)
-   + Experience Cloud Assets {#assets}
+   + Experience Cloud Assets {#assets}
       + [Présentation des ressources Experience Cloud](experience-cloud-assets.md)
       + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](creative-cloud.md)
       + [Gestion des utilisateurs Creative Cloud](t-admin-add-cc-user.md)
@@ -47,7 +48,7 @@ ht-degree: 100%
       + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](assets-file-reqs.md)
       + [Comportement des dossiers partagés](asset-behavior.md)
-+ Administration d’Experience Cloud {#administration}
++ Administration d’Experience Cloud {#administration}
    + [Gestion de l’identité de l’utilisateur et des produits Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Affichage des informations sur les utilisateurs d’Experience Cloud (outil d’administration)](admin-tool-experience-cloud.md)
    + [Questions fréquentes](faq.md)

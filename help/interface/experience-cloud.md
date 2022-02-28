@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 82%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants 
 * **[!UICONTROL Commentaires] :** partagez vos commentaires au sujet de votre expérience relative à Experience Cloud. Vos commentaires sont utilisés pour améliorer les produits et services d’Adobe.
 * **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL gérez les abonnements].
 * **[!UICONTROL Developer Connection] :** navigation vers `adobe.io` et recherche de la documentation destinée aux développeurs.
-
-## [!UICONTROL Recherche unifiée] pour les objets et les entités {#globally-search}
-
-Le [!UICONTROL Recherche unifiée] La recherche vous permet de rechercher des objets ou des entités métier pouvant faire l’objet de recherches dans une expérience transparente, cohérente et en un clic. Cette recherche fait apparaître vos objets récemment consultés.
-
-![Recherche globale dʼobjets et dʼentités](assets/platform-search.png)
-
-### Disponibilité
-
-La recherche unifiée s’affiche en haut de la page (dans l’en-tête de l’Experience Cloud) et est toujours visible pour les produits pris en charge, qui sont actuellement :
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-À mesure que davantage de contenu est indexé, cette fonctionnalité est ajoutée aux applications pertinentes.
-
-### Objets et champs pouvant faire l’objet d’une recherche
-
-Au fur et à mesure que vous tapez, le résultat supérieur correspondant est celui des objets que vous avez accès à afficher.
-
-![Recherche unifiée dans Experience Cloud](assets/unified-search-results.png)
-
-Les objets métier pouvant faire l’objet d’une recherche incluent :
-
-* Segments (nom, description)
-* Schéma (nom, description)
-* Jeux de données (nom, description)
-* Sources (nom, description)
-* Destinations (nom, description)
-* Requêtes (Nom, Description)
-* Messages (Nom, Description)
-* Offres (nom, description)
-* Composants (nom, description)
-* Parcours (nom, description)
-
-Si un mot-clé correspond à une page de navigation, vous pouvez obtenir un lien d’accès rapide aux exemples de jeux de données de la page de navigation.
-
-Vous trouverez également les articles d’aide d’ Experience League et de Communities . Les requêtes en langues naturelles sont prises en charge.
-
-Par exemple : _Création d’un schéma_ produit des résultats de l’Experience League sous _[!UICONTROL Formation]_:
-
-![Recherche unifiée dans l’aide de l’Experience Cloud](assets/unified-search-learning.png)
-
-Les algorithmes de recherche affichent d’abord les enregistrements les plus pertinents. L’ordre des résultats dépend de plusieurs facteurs, tels que :
-
-* Autorisations utilisateur d’accès aux objets
-* Pourcentage correspondant
-* Correspondances exactes
-* Le _[!UICONTROL Résultats principaux]_ La section affiche les 30 premiers résultats.
-
-Pour affiner votre recherche, cliquez sur l’une des options suivantes :
-
-* **[!UICONTROL Tout apprentissage]**: Ouvre la recherche dans Experience League.
-* **[!UICONTROL Tout afficher...]**: Vous permet d’affiner et de filtrer les résultats.
 
 ## Préférences de profil utilisateur et de compte {#preferences}
 
