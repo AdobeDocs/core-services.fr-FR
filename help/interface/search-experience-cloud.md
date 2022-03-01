@@ -7,17 +7,17 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
 
 # [!UICONTROL Recherche unifiée] pour les objets et les entités {#globally-search}
 
-Le [!UICONTROL Recherche unifiée] La recherche vous permet de rechercher des objets ou des entités métier pouvant faire l’objet de recherches dans une expérience transparente, cohérente et en un clic. Cette recherche fait apparaître vos objets récemment consultés.
+Le [!UICONTROL Recherche unifiée] La recherche vous permet de rechercher des objets ou des entités métier pouvant faire l’objet de recherches dans une expérience transparente, cohérente et en un clic. Cette recherche fait également apparaître vos objets récemment consultés.
 
 ![Recherche globale dʼobjets et dʼentités](assets/platform-search.png)
 
@@ -44,16 +44,16 @@ Votre capacité et vos autorisations d’objet Pourcentage correspondant S’il 
 
 Les objets métier pouvant faire l’objet d’une recherche incluent :
 
-* Segments (nom, description)
-* Schéma (nom, description)
-* Jeux de données (nom, description)
-* Sources (nom, description)
-* Destinations (nom, description)
-* Requêtes (Nom, Description)
-* Messages (Nom, Description)
-* Offres (nom, description)
-* Composants (nom, description)
-* Parcours (nom, description)
+* Segments (nom, description, ID)
+* Schéma (nom, description, ID)
+* Jeux de données (nom, description, identifiant)
+* Sources (nom, description, ID)
+* Destinations (nom, description, ID)
+* Requêtes (Nom, Description, ID)
+* Messages (Nom, Description, ID)
+* Offres (nom, description, ID)
+* Composants (nom, description, ID)
+* Parcours (nom, description, ID)
 
 Si un mot-clé correspond à une page de navigation, vous pouvez obtenir un lien d’accès rapide aux exemples de jeux de données de la page de navigation. La section des résultats supérieurs affiche les 30 premiers résultats.
 
