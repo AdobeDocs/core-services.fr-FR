@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ Pour obtenir la liste des mises à jour de la documentation, voir [Experience C
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
-## Février - 2022
+## Février 2022
 
 | Fonctionnalité | Description |
 | ------- |-------|
-| Raccourcis (**[!UICONTROL Récents]**) ajouté à [Experience Cloud](https://experience.adobe.com/home) home | Vous pouvez accéder à des raccourcis pour accéder à votre travail Journey Optimizer et Experience Platform le plus récent sous la nouvelle _Récents_ sur la landing page. Cette mise à jour inclut également une mise en page générale et des améliorations de réactivité. |
-| **[!UICONTROL Environnements de test]** déplacé vers la barre d’en-tête ; | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications d’interface Experience Platform. Voir [Environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform pour plus d’informations. |
+| Raccourcis (**[!UICONTROL Récents]**) ajoutés à la page dʼaccueil dʼ[Experience Cloud](https://experience.adobe.com/home?lang=fr). | Vous pouvez accéder à des raccourcis vers vos travaux Journey Optimizer et Experience Platform les plus récents sous le nouvel en-tête _Récents_ de la page de destination. Cette mise à jour comprend également des améliorations générales de la disposition et de la réactivité. |
+| Les **[!UICONTROL sandbox]** ont été déplacés vers la barre d’en-tête. | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications de l’interface dʼExperience Platform. Pour plus d’informations, consultez la section [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform. |
 
 ## Novembre - 2021
 
