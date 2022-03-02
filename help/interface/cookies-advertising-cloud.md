@@ -1,6 +1,6 @@
 ---
 description: Découvrez les cookies Adobe Ad Cloud, qui permettent de mapper les événements d’engagement publicitaire avec des événements de conversion et, potentiellement, d’utiliser ces informations afin d’optimiser les offres publicitaires.
-title: 'Cookies Advertising Cloud '
+title: 'Cookies Advertising Cloud  '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de clic sur une publicité affichée s'applique à un accès Adobe Analytics </p> </td> 
+   <td colname="col2"> <p>Cookie tiers utilisé pour déterminer si un événement de clic sur une publicité affichée s’applique à un accès Adobe Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
