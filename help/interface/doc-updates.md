@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Informations au sujet des mises à jour dans la documentation produit d’Experi
 
 Ajout d’une page pour [Recherche unifiée](search-experience-cloud.md)
 
-**Mise à jour de 2/8/2022**
+**Mise à jour : 08/02/2022**
 
-Mises à jour de la manière dont vous pouvez trouver votre [ID d’organisation](organizations.md).
+Mises à jour de la façon dont vous pouvez trouver votre [ID d’organisation](organizations.md).
 
 **Mise à jour : 13/12/2021**
 

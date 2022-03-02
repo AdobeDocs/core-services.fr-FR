@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ Les guides Experience Cloud associés sont les suivants :
 Profitez des tutoriels d’aide autonome et des instructions rapides dans Experience League :
 
 * [Tous les tutoriels dans Experience League](https://experienceleague.adobe.com/?lang=fr#quick-how-tos)
-* [Tutoriels Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Tutoriels Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=fr)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=fr)
 
 ## Notes de mise à jour et aide Experience Cloud associée
@@ -193,5 +193,5 @@ Profitez des tutoriels d’aide autonome et des instructions rapides dans Experi
 * [Tutoriels de mise en œuvre des services principaux](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Visionnez des vidéos et des didacticiels sur les services principaux.
 * [Aide d’experts Experience League](https://experienceleague.adobe.com/?lang=fr) - Obtenez des conseils d’experts et de la communauté.
 * [Éducation et formation](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK) - Contactez Adobe pour vous assurer de tirer le meilleur parti des produits de la marque.
-* [Blog sur l’expérience client](https://blog.adobe.com/en/topics/digital-transformation) - Lisez le blog Experience Cloud.
+* [Blog sur l’expérience client](https://blog.adobe.com/fr/topics/digital-transformation) - Lisez le blog Experience Cloud.
 * [Assistance clientèle](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) - Contactez l’assistance clientèle Adobe.
