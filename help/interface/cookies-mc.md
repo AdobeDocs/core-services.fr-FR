@@ -1,8 +1,8 @@
 ---
-description: Découvrez comment le service d’ID est stocké et utilisé dans les applications Experience Cloud.
+description: Découvrez comment le service d’ID est stocké et utilisé dans les applications Experience Cloud.
 keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
-title: 'Cookies Experience Cloud '
+title: 'Cookies Experience Cloud '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -11,14 +11,14 @@ level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '349'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
-# Cookies Experience Cloud {#experience-cloud-cookies}
+# Cookies Experience Cloud{#experience-cloud-cookies}
 
-Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur utilisé dans les différentes applications Experience Cloud.
+Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur utilisé dans les différentes applications Experience Cloud.
 
 **Nom du cookie : s_ecid**
 
@@ -32,7 +32,7 @@ Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p> Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Expiration </p> </td> 
@@ -59,7 +59,7 @@ Adobe Experience Cloud utilise des cookies pour stocker l’identifiant visiteur
 
 **Nom du cookie : AMCV_###@AdobeOrg**
 
-Le [service Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) utilise JavaScript pour stocker un ID de visiteur unique dans un cookie `AMCV_###@AdobeOrg` dans le domaine du site web actuel, où `###` représente une chaîne de caractères aléatoire telle que `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+Le [service Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) utilise JavaScript pour stocker un ID de visiteur unique dans un cookie `AMCV_###@AdobeOrg` dans le domaine du site web actuel, où `###` représente une chaîne de caractères aléatoire telle que `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
@@ -73,7 +73,7 @@ Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/i
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p> ID de visiteur uniques utilisés par les solutions Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> ID de visiteur uniques utilisés par les solutions Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Expiration </p> </td> 
