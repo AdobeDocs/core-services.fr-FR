@@ -25,7 +25,7 @@ Découvrez comment vous connecter à Admin Console, gérer les autorisations d�
 
 Vous pouvez afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs informations dans l’outil d’administration. Voir [Affichage des utilisateurs d’Experience Cloud dans l’outil d’administration](admin-tool-experience-cloud.md).
 
-## Authentification des utilisateurs d’Experience Cloud (migration planifiée) {#migration}
+## Authentification des utilisateurs d’Experience Cloud (migration planifiée){#migration}
 
 Depuis février 2022, Adobe met à jour son système de gestion des profils afin de permettre aux entreprises de mieux gérer les droits de l’entreprise sur les profils individuels. Ainsi, tous les utilisateurs disposant d’un profil personnel, qui correspond à un Adobe ID individuel (Type1), seront migrés vers un nouveau profil professionnel. Ce profil correspond à un _Identifiant professionnel_ (Type2e).
 
