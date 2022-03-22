@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Adobe Experience Cloud.
+description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Adobe Experience Cloud.
 keywords: services principaux
 solution: Experience Cloud
 title: 'Création d’une audience '
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Création d’une audience
 
-Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
+Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -58,7 +58,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
 
-   * **[!UICONTROL Experience Cloud :]** données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud :]** données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
 1. Définissez les règles dʼaudience, puis sélectionnez **[!UICONTROL Enregistrer].**
 
@@ -76,7 +76,7 @@ Sous [!UICONTROL Règles], définissez les sélections d’attributs *`Home & Ga
 
 Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir d’Analytics :
 
-* **[!UICONTROL Source d’attribut :]** Experience Cloud
+* **[!UICONTROL Source d’attribut :]** Experience Cloud
 * **[!UICONTROL Dimension :]** visiteurs Chrome et Safari
 
 ![Visiteurs Chrome et Safari](assets/chrome_safari.png)
@@ -90,7 +90,7 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 ![Audience définie dans Experience Cloud](assets/defined_audience.png)
 
 * **Historique (estimation) :** (cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
-* **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.
+* **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
