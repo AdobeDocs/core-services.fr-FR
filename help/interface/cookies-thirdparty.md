@@ -16,17 +16,17 @@ ht-degree: 100%
 
 ---
 
-# Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients {#how-changes-to-third-party-cookie-support-impacts-customers}
+# Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 La prise en charge des cookies tiers est désormais plus limitée dans les navigateurs. Cʼest pourquoi Adobe travaille sur de nouvelles applications permettant dʼoffrir un équilibre minutieux entre les besoins des clients et le droit des consommateurs à la vie privée dans les applications Experience Cloud.
 
-La liste suivante décrit l’impact de la prise en charge des cookies tiers sur les implémentations actuelles des solutions Experience Cloud :
+La liste suivante décrit l’impact de la prise en charge des cookies tiers sur les implémentations actuelles des solutions Experience Cloud :
 
-## Adobe Analytics et Adobe Target
+## Adobe Analytics et Adobe Target
 
 * Analytics et Target ne sont affectés que de manière extrêmement limitée, car la même activité de site repose uniquement sur des cookies propriétaires. Des cookies tiers sont nécessaires pour comprendre l’activité des utilisateurs sur plusieurs domaines. Pour les navigateurs sur lesquels les cookies tiers sont bloqués, le suivi inter-domaines n’est pas possible à l’aide des cookies.
 
-## Adobe Experience Manager
+## Adobe Experience Manager
 
 * Parce que Adobe Experience Manager fonctionne entièrement dans le domaine du client, les interactions avec des cookies tiers sont minimales et l’impact est donc minimal, voire inexistant.
 
@@ -38,7 +38,7 @@ La liste suivante décrit l’impact de la prise en charge des cookies tiers sur
 
 * Recherche :
 
-   * Lorsque la recherche est optimisée en fonction des données Adobe Analytics, elle est affectée de la même manière qu’Adobe Analytics.
+   * Lorsque la recherche est optimisée en fonction des données Adobe Analytics, elle est affectée de la même manière qu’Adobe Analytics.
    * La collecte des données de conversion ne doit pas être affectée.
 
 * Affichage :
