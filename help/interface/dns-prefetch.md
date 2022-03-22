@@ -40,9 +40,9 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
    Ajoutez une balise distincte pour chaque nom DNS si vous utilisez des serveurs de suivi sécurisés et non sécurisés.
 
-* **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
+* **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast. *`insérer un ID de partenaire ici`*.demdex.net">`
+* **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast. *`insérer un ID de partenaire ici`*.demdex.net">`
 
 * **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens DTM sont disponibles au chargement de la page.
 
