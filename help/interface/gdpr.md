@@ -1,14 +1,14 @@
 ---
 title: 'Prise en charge des attributs du client pour le Règlement général sur la protection des données '
 description: Découvrez la prise en charge des attributs du client pour le Règlement général sur la protection des données
-feature: Attributs du client
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '433'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,9 @@ Cette page décrit comment les [!UICONTROL attributs du client] prennent en char
 
 Le [Règlement général sur la protection des données](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html), qui est entré en vigueur le 25 mai 2018, donne à tous les particuliers (personnes concernées) à l’intérieur des frontières de l’Union européenne (UE) le contrôle de leurs données à caractère personnel. Il simplifie également l’environnement réglementaire pour le commerce international. Cette loi s’applique à toutes les entreprises (contrôleur de données) qui offrent des biens ou des services consistant à contrôler le comportement de ou à collecter des données personnelles sur, des individus situés à l’intérieur des frontières de l’UE, au moment du traitement de leurs données à caractère personnel, quel que soit le lieu d’activité du contrôleur de données.
 
-Adobe Experience Cloud agit en tant que responsable du traitement de données pour toutes les données personnelles qu’il reçoit et stocke pour le compte de ses clients. En tant que contrôleur de données, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke pour vous.
+Adobe Experience Cloud agit en tant que responsable du traitement de données pour toutes les données personnelles qu’il reçoit et stocke pour le compte de ses clients. En tant que contrôleur de données, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke pour vous.
 
-Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données des personnes concernées selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
+Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données des personnes concernées selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
 
 Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
