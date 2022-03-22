@@ -1,8 +1,8 @@
 ---
-description: Comment partager un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
+description: Comment partager un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
-title: 'Partage d’un dossier de ressources Experience Cloud '
+title: 'Partage d’un dossier de ressources Experience Cloud '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 ---
 
-# Partage d’un dossier de ressources Experience Cloud
+# Partage d’un dossier de ressources Experience Cloud
 
-Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
+Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
 
 1. Sur un dossier de ressources, sélectionnez **[!UICONTROL Partager sur Creative Cloud]**.
 
@@ -43,7 +43,7 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creativ
 
    ![Ajout dʼun commentaire à lʼimage](assets/asset_comment_cc.png)
 
-   Dans Experience Cloud, sélectionnez une image, puis choisissez lʼicône de frise chronologique pour ajouter un commentaire à lʼimage. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et Experience Cloud.
+   Dans Experience Cloud, sélectionnez une image, puis choisissez lʼicône de frise chronologique pour ajouter un commentaire à lʼimage. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et Experience Cloud.
 
    ![Ajout dʼun commentaire à l’image](assets/asset_comment_mac.png)
 
