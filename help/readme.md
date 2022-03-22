@@ -1,9 +1,8 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Instructions
@@ -51,4 +50,4 @@ ht-degree: 98%
 
 ## Plus d’informations
 
-Pour obtenir des instructions supplémentaires sur la publication, des guides de style, des exemples et d’autres ressources, consultez la documentation [Référentiel de documentation collaborative](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Pour obtenir des instructions supplémentaires sur la publication, des guides de style, des exemples et d’autres ressources, consultez la documentation [Référentiel de documentation collaborative](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions).
