@@ -1,8 +1,8 @@
 ---
-description: Découvrez les cookies Audience Manager dans Adobe Experience Cloud.
+description: Découvrez les cookies Audience Manager dans Adobe Experience Cloud.
 keywords: Cookies
 solution: Experience Cloud, Audience Manager
-title: 'Cookies Audience Manager '
+title: 'Cookies Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
 topic: Administration
@@ -11,14 +11,14 @@ level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
 
-# Cookies Audience Manager {#audience-manager-cookies}
+# Cookies Audience Manager{#audience-manager-cookies}
 
-Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fonctions. Ces dernières consistent entre autres à attribuer des ID, à enregistrer les appels de données, à suivre les erreurs et à tester si les cookies peuvent être définis. Cette section répertorie et décrit les différents cookies définis par Audience Manager.
+Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fonctions. Ces dernières consistent entre autres à attribuer des ID, à enregistrer les appels de données, à suivre les erreurs et à tester si les cookies peuvent être définis. Cette section répertorie et décrit les différents cookies définis par Audience Manager.
 
 **Cookie demdex**
 
@@ -32,7 +32,7 @@ Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Rôle</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie pour attribuer un ID unique au visiteur d’un site. Le cookie <span class="wintitle">demdex</span> aide <span class="keyword">Audience Manager</span> à effectuer des fonctions de base, comme l’identification des visiteurs, la synchronisation des identifiants, la segmentation, la modélisation, le compte rendu des performances, etc. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie pour attribuer un ID unique au visiteur d’un site. Le cookie <span class="wintitle">demdex</span> aide <span class="keyword">Audience Manager</span> à effectuer des fonctions de base, comme l’identification des visiteurs, la synchronisation des identifiants, la segmentation, la modélisation, le compte rendu des performances, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 
@@ -43,7 +43,7 @@ Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fo
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Durée de vie : le cookie <span class="wintitle">demdex</span> a un intervalle TTL (« time-to live », durée de vie) de 180 jours. La durée de vie est réinitialisée à 180 jours à chaque interaction de l’utilisateur avec un site web partenaire. Le cookie expire si un utilisateur ne revient pas sur votre site pendant l’intervalle TTL. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">« Ne pas utiliser Adobe Target »</span> si un utilisateur s’exclut de la collecte des données. Dans ce cas, la durée de vie du cookie est définie sur 10 ans. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">Ne pas cibler</span> si un utilisateur s’exclut de la collecte des données. Dans ce cas, la durée de vie du cookie est définie sur 10 ans. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fo
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Durée de vie : le cookie <span class="wintitle">dextp</span> a un intervalle TTL (« time-to-live », durée de vie) de 180 jours. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">« Ne pas utiliser Adobe Target »</span> si un utilisateur s’exclut de la collecte des données. Dans ce cas, la durée de vie du cookie est définie sur 10 ans. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">Ne pas cibler</span> si un utilisateur s’exclut de la collecte des données. Dans ce cas, la durée de vie du cookie est définie sur 10 ans. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Durée de vie : le cookie <span class="wintitle">dst</span> a un intervalle TTL (« time-to live », durée de vie) de 180 jours. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">« Ne pas utiliser Adobe Target »</span> si un utilisateur s’exclut de la collecte des données. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Exclusion : <span class="keyword">Audience Manager</span> réinitialise le cookie avec une chaîne <span class="codeph">Ne pas cibler</span> si un utilisateur s’exclut de la collecte des données. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
