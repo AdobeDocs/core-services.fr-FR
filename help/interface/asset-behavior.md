@@ -1,5 +1,5 @@
 ---
-description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans Experience Cloud.
+description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans Experience Cloud.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Comportement des dossiers partagés '
@@ -22,7 +22,7 @@ Règles relatives au comportement des dossiers partagés lorsqu’ils sont dépl
 
 >[!NOTE]
 >
->Les dossiers et ressources Experience Cloud partagés sont mis en miroir dans l’application de bureau Creative Cloud dans le cadre d’une relation 1:1. Si un utilisateur Experience Cloud change un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés dans la corbeille de l’ordinateur local, où vous pouvez les restaurer manuellement sur votre machine.
+>Les dossiers et ressources Experience Cloud partagés sont mis en miroir dans l’application de bureau Creative Cloud dans le cadre d’une relation 1:1. Si un utilisateur Experience Cloud change un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés dans la corbeille de l’ordinateur local, où vous pouvez les restaurer manuellement sur votre machine.
 
 ## Dossier non partagé dans un dossier partagé {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
