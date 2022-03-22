@@ -1,14 +1,14 @@
 ---
 title: 'Prise en charge des attributs du client pour le California Consumer Privacy Act '
 description: Découvrez la prise en charge des attributs du client pour le California Consumer Privacy Act
-feature: Attributs du client
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '434'
 ht-degree: 100%
 
 ---
@@ -19,15 +19,15 @@ Cette page décrit la prise en charge des [!UICONTROL attributs du client] pour 
 
 >[!IMPORTANT]
 >
->Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez votre service juridique pour obtenir des conseils concernant le (CCPA).
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à en remplacer un. Consultez votre service juridique pour obtenir des conseils concernant le CCPA.
 
 Le CCPA est la nouvelle loi californienne sur la protection des données confidentielles, qui est entrée en vigueur le 1er janvier 2020. Le CCPA accorde aux résidents de Californie de nouveaux droits concernant leurs données confidentielles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie. Le CCPA accorde aux consommateurs le droit d’accéder à leurs informations personnelles et de les supprimer ainsi que le droit de se désinscrire de certaines activités qualifiées de « vente » d’informations personnelles à un tiers.
 
-En tant qu’entreprise, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke en votre nom.
+En tant qu’entreprise, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke en votre nom.
 
-En tant que fournisseur, Adobe Experience Cloud fournit une assistance à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA, obligations qui s’appliquent à l’utilisation des produits et services Experience Cloud. Cette assistance inclut la gestion des demandes d’accès et de suppression des informations personnelles.
+En tant que fournisseur, Adobe Experience Cloud fournit une assistance à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA, obligations qui s’appliquent à l’utilisation des produits et services Experience Cloud. Cette assistance inclut la gestion des demandes d’accès et de suppression des informations personnelles.
 
-Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
+Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API et de l’interface utilisateur d’Adobe Experience Platform Privacy Service.
 
 Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/ccpa.html).
 
