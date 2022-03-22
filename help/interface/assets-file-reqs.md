@@ -1,5 +1,5 @@
 ---
-description: Découvrez les types et tailles de fichiers autorisés pour le partage de ressources entre Adobe Experience Cloud et Creative Cloud.
+description: Découvrez les types et tailles de fichiers autorisés pour le partage de ressources entre Adobe Experience Cloud et Creative Cloud.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Exigences relatives aux fichiers pour le partage de ressources '
@@ -11,14 +11,14 @@ level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
 
 # Exigences relatives aux fichiers pour le partage de ressources
 
-Types et tailles de fichiers autorisés pour le partage de ressources entre Experience Cloud et Creative Cloud.
+Types et tailles de fichiers autorisés pour le partage de ressources entre Experience Cloud et Creative Cloud.
 
 ## Types de fichiers autorisés pour le transfert {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
