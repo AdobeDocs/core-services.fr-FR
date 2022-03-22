@@ -1,8 +1,8 @@
 ---
-description: 'Découvrez comment partager des dossiers et des ressources entre Experience Cloud et Creative Cloud. '
+description: 'Découvrez comment partager des dossiers et des ressources entre Experience Cloud et Creative Cloud. '
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
-title: 'Partage de dossiers et de ressources Experience Cloud avec Creative Cloud '
+title: 'Partage de dossiers et de ressources Experience Cloud avec Creative Cloud '
 feature: Assets
 topic: Administration
 role: Admin
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ---
 
-# Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
+# Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
 
-Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez et annotez des ressources partagées, puis utilisez-les dans des applications Experience Cloud telles quʼAdobe Social et Adobe Target. Le dossier partagé doit provenir dʼExperience Cloud.
+Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez et annotez des ressources partagées, puis utilisez-les dans des applications Experience Cloud telles quʼAdobe Social et Adobe Target. Le dossier partagé doit provenir dʼExperience Cloud.
 
 ## Avantages du partage {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
@@ -27,7 +27,7 @@ Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud
 * Optimisation de la sécurité de l’entreprise
 * Partage, enregistrement et envoi faciles de fichiers entre les créatifs et les marketeurs
 
-Pour que les utilisateurs Creative Cloud puissent accéder aux ressources, ils doivent figurer sur la liste blanche d’Experience Cloud. Voir [Gestion des utilisateurs Creative Cloud](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
+Pour que les utilisateurs Creative Cloud puissent accéder aux ressources, ils doivent figurer sur la liste blanche d’Experience Cloud. Voir [Gestion des utilisateurs Creative Cloud](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
 
 ## Partage de ressources avec Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
