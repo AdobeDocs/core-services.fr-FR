@@ -2,7 +2,7 @@
 description: Découvrez lʼoutil dʼadministration Experience Cloud. Affichez une liste que vous pouvez trier et filtrer de tous les utilisateurs et politiques dʼExperience Cloud.
 keywords: services principaux
 application: Experience Cloud
-title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
+title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
 index: true
 feature: Admin Console
 topic: Administration
@@ -36,7 +36,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
 ## Page Utilisateurs
 
-Cette page affiche la liste complète des utilisateurs ayant accès à Experience Cloud dans votre entreprise. Elle fournit des informations sur les droits de lʼapplication et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
+Cette page affiche la liste complète des utilisateurs ayant accès à Experience Cloud dans votre entreprise. Elle fournit des informations sur les droits de lʼapplication et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
 
 ![Page des utilisateurs dʼAdmin Console](assets/admin-tool-users.png)
 
@@ -46,7 +46,7 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL E-mail] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des applications Experience Cloud auxquelles lʼutilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
-| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les données concernant la dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les données concernant la dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de l’affichage de la liste des utilisateurs
 
@@ -96,7 +96,7 @@ Cette section affiche une liste complète de tous les profils d’adhésion de p
 | [!UICONTROL Instance] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
 | [!UICONTROL Profil de produits] | Nom unique du profil de produits. |
 | [!UICONTROL Attribué par groupe] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit de manière directe, et non par l’intermédiaire d’un groupe. |
-| [!UICONTROL Rôles de produit] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
+| [!UICONTROL Rôles de produit] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
 
 ## Page Politiques
 
