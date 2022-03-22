@@ -11,12 +11,12 @@ level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
 
-# Activation des paramètres de confidentialité pour les cookies de navigateur {#enable-privacy-settings-for-browser-cookies}
+# Activation des paramètres de confidentialité pour les cookies de navigateur{#enable-privacy-settings-for-browser-cookies}
 
 Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles. Cette fonctionnalité constitue un paramètre de confidentialité qui exclut les utilisateurs refusant la collecte de données. Il vous permet de respecter l’intention d’un utilisateur d’arrêter le traitement par Analytics.
 
