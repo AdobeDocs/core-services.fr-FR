@@ -34,11 +34,11 @@ Vous pouvez utiliser des triggers pour la personnalisation et les décisions en 
 
 >[!NOTE]
 >
->Retrouvez plus d’informations sur l’utilisation de [!UICONTROL Triggers] dans [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr).
+>Retrouvez plus d’informations sur l’utilisation de [!UICONTROL Triggers] dans [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr).
 
 ### Types de Triggers
 
-En règle générale, un trigger peut prendre 15 à 90 minutes pour lancer une campagne marketing. Ce délai varie en fonction de l’implémentation de la collecte de données, de la charge sur le pipeline, de la configuration personnalisée du trigger défini et du workflow dans Adobe Campaign.
+En règle générale, un trigger peut prendre 15 à 90 minutes pour lancer une campagne marketing. Ce délai varie en fonction de l’implémentation de la collecte de données, de la charge sur le pipeline, de la configuration personnalisée du trigger défini et du workflow dans Adobe Campaign.
 
 * **Abandon :** vous pouvez créer un trigger qui se déclenche lorsqu’un visiteur consulte un produit mais ne l’ajoute pas au panier.
 * **Action :** vous pouvez créer des triggers, par exemple, pour qu’ils se déclenchent après des inscriptions à une newsletter, des abonnements par e-mail ou des demandes de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
@@ -52,7 +52,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 >
 >Pour des raisons techniques, le nombre de triggers est actuellement limité à 100.
 
-1. Dans Experience Cloud, sélectionnez ![](assets/menu-icon.png), puis choisissez **[!UICONTROL Collecte de données/Launch]**.
+1. Dans Experience Cloud, sélectionnez ![](assets/menu-icon.png), puis choisissez **[!UICONTROL Collecte de données/Launch]**.
 2. Sur la carte [!UICONTROL Triggers], sélectionnez **[!UICONTROL Gérer les triggers]**.
 3. Sélectionnez **[!UICONTROL Nouveau trigger]**, puis spécifiez le type de trigger :
 
@@ -65,7 +65,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
    | [!UICONTROL Nom] | Nom convivial du trigger. |
    | [!UICONTROL Description] | Description du trigger, de sa fonction, etc. |
    | [!UICONTROL Suite de rapports] | La [suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) Analytics utilisée pour ce trigger. Ce paramètre identifie les données de rapport à utiliser. |
-   | Visite doit inclure<br>Visite ne doit pas inclure<br>Trigger après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire. Par exemple, les règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>La visite doit inclure : [!UICONTROL Ajout au panier] (mesure) et [!UICONTROL Existe]. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>La visite ne doit pas inclure : [!UICONTROL Passage en caisse].</li><li>Trigger après aucune action pendant : 10 minutes</li><li>[!UICONTROL Inclure les métadonnées] : permet d’ajouter une dimension spécifique de [!DNL Campaign] ou des variables qui sont pertinentes par rapport au comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique [!UICONTROL Quelconque], [!UICONTROL Et] ou [!UICONTROL Ou] dans ou entre des conteneurs, selon les critères que vous déterminez comment étant importants pour la règle. |
+   | Visite doit inclure<br>Visite ne doit pas inclure<br>Trigger après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire. Par exemple, les règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>La visite doit inclure : [!UICONTROL Ajout au panier] (mesure) et [!UICONTROL Existe]. (Vous pouvez affiner davantage la règle avec une consultation de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>La visite ne doit pas inclure : [!UICONTROL Passage en caisse].</li><li>Trigger après aucune action pendant : 10 minutes</li><li>[!UICONTROL Inclure les métadonnées] : permet d’ajouter une dimension spécifique de [!DNL Campaign] ou des variables qui sont pertinentes par rapport au comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique [!UICONTROL Quelconque], [!UICONTROL Et] ou [!UICONTROL Ou] dans ou entre des conteneurs, selon les critères que vous déterminez comment étant importants pour la règle. |
    | [!UICONTROL Conteneur] | Vous définissez et stockez des règles, des conditions ou des filtres qui définissent un trigger dans les [!UICONTROL Conteneurs]. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau de l’accès. Par exemple, si deux conteneurs sont associés par l’opérateur AND, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux accès répondent aux exigences. |
    | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
 
@@ -76,7 +76,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 
 ### Exemples de triggers
 
-Exemples de Triggers Experience Cloud :
+Exemples de triggers Experience Cloud :
 
 #### Trigger d’abandon de panier
 
