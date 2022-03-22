@@ -1,10 +1,10 @@
 ---
-description: Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
+description: Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
 keywords: services principaux
 seo-description: An overview of new features and updates in the Experience Cloud.
 seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
-title: 'Nouveautés d’Experience Cloud '
+title: 'Nouveautés d’Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: ht
@@ -14,24 +14,24 @@ ht-degree: 100%
 ---
 
 
-# Nouveautés d’Experience Cloud
+# Nouveautés d’Experience Cloud
 
-Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
+Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
 
 ## Août 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
 Correctifs et améliorations pour août 2018.
 
-* Amélioration de la synchronisation des commentaires des ressources dans Creative Cloud et Experience Cloud. (CORE-15971)
+* Amélioration de la synchronisation des commentaires des ressources dans Creative Cloud et Experience Cloud. (CORE-15971)
 * Ajout d’un indicateur de fonctionnalité permettant de contrôler la synchronisation des ressources Experience Cloud-Creative Cloud. (CORE-15938)
 * Améliorations apportées à la création de segments d’Audience, y compris l’amélioration de la recherche et de l’élaboration de listes. (CORE-5833, CORE-14278)
-* Correction dʼun problème à priorité élevée qui bloquait le partage de dossiers depuis Experience Cloud vers Creative Cloud. (CORE-16677)
+* Correction dʼun problème à priorité élevée qui bloquait le partage de dossiers depuis Experience Cloud vers Creative Cloud. (CORE-16677)
 
 ## 19 juillet 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
 Correctifs et améliorations pour juillet 2018.
 
-* Déploie une fonctionnalité en arrière-plan pour contrôler le partage d’actif entre Experience Cloud et AEM, ainsi qu’entre Experience Cloud et Creative Cloud. (CORE-14386)
+* Déploie une fonctionnalité en arrière-plan pour contrôler le partage d’actif entre Experience Cloud et AEM, ainsi qu’entre Experience Cloud et Creative Cloud. (CORE-14386)
 * Correction d’un problème qui bloquait le provisionnement des nouveaux clients sur certains environnements. (CORE-15509)
 * Correction d’un problème qui redirigeait les utilisateurs vers [!DNL experiencecloud.adobe.com] lors de l’accès à [!DNL experiencecloud.adobe.com] via [!DNL http] au lieu de [!DNL https] (sécurisée). (CORE-15587)
 * Correction d’un problème qui bloquait les notifications pour certains nouveaux clients. (CORE-15240)
@@ -72,7 +72,7 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 |--- |--- |
 | Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les événements et activités des produits et des applications, y compris les notifications sur lʼactivité de transfert [Attributs du client](attributes.md). |
 | Notifications - Notifications de maintenance | Dans les paramètres de notification, vous pouvez activer les notifications de maintenance pour les produits et applications. |
-| Admin Console pour les solutions Experience Cloud | Les nouveaux clients d’Experience Cloud peuvent commencer à utiliser Admin Console, qui centralise la gestion de vos droits Adobe au sein de votre organisation tout entière.<br>La migration vers Admin Console pour la gestion des utilisateurs sera effectuée par vagues. Adobe vous contacte (administrateurs système) lorsqu’il est temps de procéder à la migration.<br>Si vous êtes administrateur d’Analytics, reportez-vous à [Migration pour Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr). |
+| Admin Console pour les solutions Experience Cloud | Les nouveaux clients d’Experience Cloud peuvent commencer à utiliser Admin Console, qui centralise la gestion de vos droits Adobe au sein de votre organisation tout entière.<br>La migration vers Admin Console pour la gestion des utilisateurs sera effectuée par vagues. Adobe vous contacte (administrateurs système) lorsqu’il est temps de procéder à la migration.<br>Si vous êtes administrateur d’Analytics, reportez-vous à [Migration pour Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -95,5 +95,5 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 **Correctifs**
 
-* Correction d’un problème lié aux mots de passe techniques qui engendrait une erreur lors du partage de dossiers entre Creative Cloud et Experience Cloud. (MAC-31067, MAC-32014)
+* Correction d’un problème lié aux mots de passe techniques qui engendrait une erreur lors du partage de dossiers entre Creative Cloud et Experience Cloud. (MAC-31067, MAC-32014)
 * Correction d’un problème lié au téléchargement de certains types de fichiers (fichiers PDF compris) qui a été détecté dans Assets Core Service après la version d’octobre. (MAC-32517)
