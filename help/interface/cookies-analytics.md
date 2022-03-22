@@ -1,5 +1,5 @@
 ---
-description: Découvrez les cookies Adobe Analytics dans Adobe Experience Cloud.
+description: Découvrez les cookies Adobe Analytics dans Adobe Experience Cloud.
 keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies Analytics '
@@ -11,12 +11,12 @@ level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
 
-# Cookies Analytics {#analytics-cookies}
+# Cookies Analytics{#analytics-cookies}
 
 Adobe Analytics utilise des cookies pour différencier les requêtes provenant de différents navigateurs et pour stocker des informations utiles qu’une application peut utiliser ultérieurement. Ils peuvent également être utilisés pour associer des informations de navigation aux dossiers des clients.
 
@@ -37,7 +37,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 
 | Attribut | Description |
 |--- |--- |
-| Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | `<ECID>` |
+| Informations stockées | Contient une copie du MID ou de l’Experience Cloud ID (ECID). Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID | `<ECID>` |
 | Expiration | 2 ans |
 | Utilisation | Ce cookie est défini par le domaine du client après la définition du cookie AMCV par le client. L’objectif de ce cookie est d’autoriser le suivi des ID persistants dans l’état propriétaire et il est utilisé comme ID de référence si le cookie AMCV a expiré. Pour plus d’informations, consultez le cookie AMCV. |
 | Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics. |
