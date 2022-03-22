@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment créer la source d’attributs du client et la transférer vers Adobe Experience Cloud.
+description: Découvrez comment créer la source d’attributs du client et la transférer vers Adobe Experience Cloud.
 keywords: Attributs du client;services principaux
 solution: Experience Cloud
 title: 'Création d’une source d’attributs du client et transfert du fichier de données '
@@ -31,12 +31,12 @@ Créez la source d’attributs du client (fichiers CSV et FIN) et téléchargez 
 
 Une fois la source de données active, vous pouvez accomplir ce qui suit :
 
-* [Utilisation des attributs du client dans Adobe Analytics](t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Utilisation des attributs du client dans Adobe Target](t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Utilisation des attributs du client dans Adobe Analytics](t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Utilisation des attributs du client dans Adobe Target](t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
+>Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produits Attributs du client (Attributs du client – Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 >
 >Pour utiliser la fonctionnalité Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de lʼapplication (Analytics ou [!DNL Target]).
 
@@ -61,7 +61,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et transfert du fichier de données {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Effectuez les étapes ci-après sur la page Créer une source d’attributs cliente dans Experience Cloud.
+Effectuez les étapes ci-après sur la page Créer une source d’attributs cliente dans Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -82,11 +82,11 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. Lʼ[!UICONTROL ID dʼalias] est un ID unique utilisé dans le code de la source dʼattributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID dʼalias] pour une source dʼattributs du client dans Experience Cloud doit correspondre aux valeurs transmises à partir de lʼimplémentation (que ce soit par le biais de la collecte de données (Launch), de Dynamic Tag Management ou du script JavaScript du SDK mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. Lʼ[!UICONTROL ID dʼalias] est un ID unique utilisé dans le code de la source dʼattributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID dʼalias] pour une source dʼattributs du client dans Experience Cloud doit correspondre aux valeurs transmises à partir de lʼimplémentation (que ce soit par le biais de la collecte de données (Launch), de Dynamic Tag Management ou du script JavaScript du SDK mobile).
 
       L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
-      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
+      * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
       * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
 
@@ -124,9 +124,9 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL ID de client unique :]** indique combien d’ID uniques vous avez transférés vers cette source d’attributs.
 
-   * **[!UICONTROL ID fournis par le client avec alias pour les ID de visiteurs Experience Cloud :]** affiche le nombre d’ID qui ont reçu un alias vers les ID de visiteurs Experience Cloud.
+   * **[!UICONTROL ID fournis par le client avec alias pour les ID de visiteurs Experience Cloud :]** affiche le nombre d’ID qui ont reçu un alias vers les ID de visiteurs Experience Cloud.
 
-   * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’ID fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Alors, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
+   * **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’ID fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Alors, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
 
 
 ## Validation du schéma {#task_404AAC411B0D4E129AB3AC8B7BE85859}
@@ -156,7 +156,7 @@ Sur la page [!UICONTROL Créer [ou Modifier] Source dʼattributs du client], rec
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 
-## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Les données étant désormais disponibles dans des applications telles quʼAdobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
@@ -166,7 +166,7 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 Lorsque vous publiez un segment dans Experience Cloud, il est accessible dans les audiences Experience Cloud et dans Audience Manager.
 
-## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Utilisation des attributs du client dans Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. Tous les attributs du client comportent le préfixe `crs.` dans la liste. Suivant les besoins, combinez ces attributs avec dʼautres attributs de données afin de créer des audiences.
 
