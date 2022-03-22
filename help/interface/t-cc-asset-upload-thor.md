@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment télécharger une ressource vers un dossier partagé de l’application de bureau Creative Cloud vers Experience Cloud.
+description: Découvrez comment télécharger une ressource vers un dossier partagé de l’application de bureau Creative Cloud vers Experience Cloud.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: 'Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud '
