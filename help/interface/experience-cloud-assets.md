@@ -31,9 +31,9 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 * **[!DNL Media Optimizer]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
 * **[!DNL Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
-Dans [!UICONTROL Experience Cloud Assets], vous pouvez réaliser les opérations suivantes :
+Dans [!UICONTROL Experience Cloud Assets], vous pouvez réaliser les opérations suivantes :
 
-* [Accéder à Experience Cloud Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [Accéder à Experience Cloud Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Accéder à la barre d’outils](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Modification de ressources](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Recherche de ressources](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -41,9 +41,9 @@ Dans [!UICONTROL Experience Cloud Assets], vous pouvez réaliser les opérations
 * [Affichage des ressources en plein écran et en mode zoom](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Affichage des propriétés des ressources](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Exécution des rapports sur l’utilisation](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [Partager des ressources avec Experience Manager](experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
+* [Partager des ressources avec Experience Manager](experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
-## Accéder à Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Accéder à Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![Accès à Experience Cloud Assets](assets/asset-nav.png)
 
