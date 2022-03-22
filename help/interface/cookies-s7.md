@@ -11,12 +11,12 @@ level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '415'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
-# Cookies Scene7 {#scene-cookies}
+# Cookies Scene7{#scene-cookies}
 
 Scene7 utilise des cookies pour stocker des informations utiles qui servent à diffuser du contenu multimédia dynamique vers le navigateur.
 
