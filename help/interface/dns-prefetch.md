@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '381'
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -46,11 +46,10 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens DTM sont disponibles au chargement de la page.
 
-* **Media Optimizer (Advertising Cloud) :**
+* **Advertising Cloud:**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
-
 
 * **[!DNL Target] :** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 

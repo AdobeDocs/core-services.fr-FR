@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Présentation dʼExperience Cloud Assets
 
-Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de lʼaudio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques dʼun fichier [!DNL Photoshop], les diapositives dʼun fichier [!DNL PowerPoint], les pages dʼun PDF ou les fichiers dʼun ZIP).
+Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
 
 Les services de ressources comprennent ce qui suit :
 
@@ -26,10 +26,9 @@ Les services de ressources comprennent ce qui suit :
 
 Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 
-* **[!DNL Social]** : publiez du contenu dans les propriétés sociales, Facebook, Twitter, LinkedIn, Google+.
-* **[!DNL Target]** : créez du contenu pour des tests A/B et multivariés.
-* **[!DNL Media Optimizer]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
-* **[!DNL Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
+* **[!DNL Adobe Target]** : créez du contenu pour des tests A/B et multivariés.
+* **[!DNL Ad Cloud]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
+* **[!DNL Adobe Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
 Dans [!UICONTROL Experience Cloud Assets], vous pouvez réaliser les opérations suivantes :
 
@@ -55,7 +54,9 @@ La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que
 
 ![Accès à la barre dʼoutils](assets/asset-tools.png)
 
-! Pour supprimer des ressources qui ont été utilisées ou qui sont utilisées dans Target, vous devez supprimer toutes les utilisations de cette ressource.
+>[!NOTE]
+>
+>Les ressources doivent être supprimées des activités Adobe Target avant que vous puissiez les supprimer de [!DNL Target].
 
 ## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

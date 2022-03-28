@@ -9,8 +9,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
-workflow-type: ht
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Vous pouvez trier l’affichage des notifications d’après les types de messag
 </ul> 
 <p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
-<p> <b>Media Optimizer</b> </p> 
+<p> <b>Advertising Cloud</b> </p> 
 <p>Performance alerts </p> 
 <p> <b>Dynamic Tag Manager</b> </p> 
 <ul id="ul_9ACDA418933E40918744D9C32A57DD4B"> 
