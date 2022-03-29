@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ Cette aide décrit les produits et services suivants :
 
 >[!NOTE]
 >
->La documentation produit pour Experience Platform se trouve [ici](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr). La documentation technique destinée aux développeurs d’[!UICONTROL Experience Platform] se trouve sur [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>La documentation produit pour Experience Platform se trouve [ici](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr). Documentation technique pour [!UICONTROL Experience Platform] Les développeurs se trouvent sur [Développeur d’Adobes](https://developer.adobe.com/apis).
