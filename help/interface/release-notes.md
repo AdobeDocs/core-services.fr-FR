@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Certains utilisateurs peuvent rencontrer des problèmes lors du transfert de certains types de fichiers volumineux vers Experience Cloud Assets.
-* Il se peut que les utilisateurs ne disposent pas de liens sur leurs cartes d’Experience Cloud d’Advertising Cloud.
+* Certains liens Advertising Cloud peuvent être manquants sur les cartes Experience Cloud des utilisateurs.
 * Certains administrateurs peuvent rencontrer des problèmes lors de la liaison de leurs comptes après acceptation d’une invitation à rejoindre Experience Cloud.
 * Les performances de l’interface d’Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par plusieurs utilisateurs.
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
