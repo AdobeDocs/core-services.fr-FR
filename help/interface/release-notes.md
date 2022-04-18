@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '4640'
-ht-degree: 100%
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+workflow-type: tm+mt
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Avril - 2022
+
+| Fonctionnalité | Description |
+| ------- |-------|
+| Recherche de langage naturel | Obtenez des réponses instantanées à toutes vos questions d’aide, par le biais d’une seule interface, via la recherche unifiée. Cette fonctionnalité est toujours disponible sur chaque page de [!DNL Experience Platform] et [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Mars 2022
 
