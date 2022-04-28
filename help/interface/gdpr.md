@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud agit en tant que responsable du traitement de données 
 
 Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données des personnes concernées selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
 
-Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html).
+Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
 ## Configuration requise pour envoyer des requêtes relatives aux [!UICONTROL attributs du client]
 
@@ -35,11 +35,11 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!UI
 
 1. Identifier les éléments suivants :
 
-   * Identifiant de l’organisation IMS
+   * [Organization ID (ID d’organisation)](#organizations.md)
    * ID d’alias de la source de données CRS sur laquelle vous souhaitez agir
    * ID de gestion de la relation client (CRM) du profil sur lequel vous souhaitez agir
 
-   Un identifiant de l’organisation IMS est une chaîne alphanumérique de 24 caractères à laquelle est ajouté @AdobeOrg. Si votre équipe marketing ou votre administrateur système Adobe interne ne connaît pas l’identifiant de l’organisation IMS de votre entreprise, contactez l’Assistance clientèle Adobe à l’adresse gdprsupport@adobe.com. Vous avez besoin de l’identifiant d’organisation IMS pour envoyer des requêtes à l’API Privacy.
+   Votre [ID d’organisation](#organizations.md) est une chaîne alphanumérique de 24 caractères accompagnée de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des demandes à l’API de confidentialité. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’identifiant.
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier le statut des requêtes existantes.
 

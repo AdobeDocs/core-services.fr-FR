@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
@@ -37,11 +37,11 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!UI
 
 1. Identifier les éléments suivants :
 
-   * Identifiant de l’organisation IMS
+   * [Organization ID (ID d’organisation)](#organizations.md)
    * ID d’alias de la source de données CRS sur laquelle vous souhaitez agir
    * ID de gestion de la relation client (CRM) du profil sur lequel vous souhaitez agir
 
-   Un identifiant de l’organisation IMS est une chaîne alphanumérique de 24 caractères à laquelle est ajouté @AdobeOrg. Si votre équipe marketing ou votre administrateur système Adobe interne ne connaît pas l’identifiant de l’organisation IMS de votre entreprise, contactez l’Assistance clientèle Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’ID org. IMS pour envoyer des requêtes à l’API Privacy.
+   Votre [ID d’organisation](#organizations.md) est une chaîne alphanumérique de 24 caractères accompagnée de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des demandes à l’API de confidentialité. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’identifiant.
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier le statut des requêtes existantes.
 
@@ -50,7 +50,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!UI
 &quot;company context&quot; :
 
 * &quot;namespace&quot; : **imsOrgID**
-* &quot;value&quot; : &lt;*votre valeur d’identifiant de l’organisation IMS*>
+* &quot;value&quot; : &lt;*valeur de l’ID d’organisation*>
 
 &quot;users&quot; :
 
