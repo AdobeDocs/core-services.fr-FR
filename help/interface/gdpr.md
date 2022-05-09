@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud agit en tant que responsable du traitement de données 
 
 Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données des personnes concernées selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
 
-Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
 ## Configuration requise pour envoyer des requêtes relatives aux [!UICONTROL attributs du client]
 
@@ -35,11 +35,11 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!UI
 
 1. Identifier les éléments suivants :
 
-   * [Organization ID (ID d’organisation)](#organizations.md)
+   * [ID d’organisation](#organizations.md)
    * ID d’alias de la source de données CRS sur laquelle vous souhaitez agir
    * ID de gestion de la relation client (CRM) du profil sur lequel vous souhaitez agir
 
-   Votre [ID d’organisation](#organizations.md) est une chaîne alphanumérique de 24 caractères accompagnée de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des demandes à l’API de confidentialité. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’identifiant.
+   Votre [ID d’organisation](#organizations.md) consiste en une chaîne alphanumérique de 24 caractères suivie de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des requêtes à l’API Privacy. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’ID.
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des requêtes d’accès et de suppression aux attributs du client, et vérifier le statut des requêtes existantes.
 
