@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Si vous souhaitez vous assurer que votre serveur de collecte correspond au domai
 
 >[!NOTE]
 >
->Que votre domaine de collecte corresponde ou non au domaine de votre site, le programme de prévention intelligente du suivi (ITP, Intelligent Tracking Prevention) dʼApple réduit drastiquement la durée de vie des cookies propriétaires définis par Adobe sur les navigateurs régis par lʼITP, notamment Safari sous macOS et tous les navigateurs sous iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
+>Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple définit les cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
 
 Si vous souhaitez établir un CNAME pour la collecte de données et si votre site utilise le protocole HTTPS pour la navigation sécurisée, vous pouvez demander à Adobe dʼobtenir un certificat SSL.
 
