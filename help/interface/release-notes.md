@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Juillet - 2022
+
+Mises à jour prévues : **11 juillet 2022**
+
+| Fonctionnalité | Description |
+| ------- | ------- |
+| Accueil unifié - Widget d’accès rapide | **Accédez plus rapidement :** Vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications à portée de main. Utilisez la nouvelle fonction d’épinglage pour sélectionner les applications qui apparaissent au premier plan et qui sont centrées sur vos [!UICONTROL Accès rapide]. <br>**Tenez-vous informé par l’épinglage intelligent :** Vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées affichent une _Nouveau_ badge et auto-pin pour [!UICONTROL Accès rapide]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Avril 2022
 
