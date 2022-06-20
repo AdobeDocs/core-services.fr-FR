@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: ht
-source-wordcount: '1567'
+source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Découvrez comment vous connecter à Admin Console, gérer les autorisations d�
 
 Vous pouvez afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs informations dans l’outil d’administration. Voir [Affichage des utilisateurs d’Experience Cloud dans l’outil d’administration](admin-tool-experience-cloud.md).
 
-## Authentification des utilisateurs d’Experience Cloud (migration planifiée){#migration}
+## Authentification des utilisateurs d’Experience Cloud (migration planifiée) {#migration}
 
 Depuis février 2022, Adobe met à jour son système de gestion des profils afin de permettre aux entreprises de mieux gérer les droits de l’entreprise sur les profils individuels. Ainsi, tous les utilisateurs disposant d’un profil personnel, qui correspond à un Adobe ID individuel (Type1), seront migrés vers un nouveau profil professionnel. Ce profil correspond à un _Identifiant professionnel_ (Type2e).
 
@@ -88,7 +88,7 @@ Pour plus d’informations (et pour obtenir de l’aide sur la gestion des produ
 
 * [Gérez les produits et les profils](https://helpx.adobe.com/fr/enterprise/admin-guide.html/fr/enterprise/using/manage-products.ug.html) dans le Guide d’utilisation de l’administrateur.
 * [Autorisations des utilisateurs d’entreprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=fr) dans l’aide d’Adobe Target pour plus d’informations.
-* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=fr)
 
 ## Délégation des rôles d’administration aux utilisateurs {#delegate-rights}
 
@@ -150,9 +150,9 @@ Dans Adobe Target, un espace de travail est un profil de produits. Avec un espa
 
 Voir :
 
-* [Autorisations des utilisateurs d’Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=fr)
-* [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/admin-guide.html/fr/enterprise/using/manage-products.ug.html)
-* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://helpx.adobe.com/fr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Autorisations des utilisateurs d’Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* Vidéo : [Configuration des espaces de travail Adobe Target dans Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## Gestion des profils de produits, clients et groupes de sécurité de Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -194,6 +194,6 @@ Voir [Administration](https://experienceleague.adobe.com/docs/audience-manager/u
 
 ### Exigences des solutions et des produits
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=fr)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=fr)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=fr)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
