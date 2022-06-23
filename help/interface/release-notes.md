@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 ## Juillet - 2022
 
-Mises à jour prévues : **11 juillet 2022**
+Publication prévue le : **11 juillet 2022**
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Accueil unifié - Widget d’accès rapide | **Accédez plus rapidement :** Vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications à portée de main. Utilisez la nouvelle fonction d’épinglage pour sélectionner les applications qui apparaissent au premier plan et qui sont centrées sur vos [!UICONTROL Accès rapide]. <br>**Tenez-vous informé par l’épinglage intelligent :** Vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées affichent une _Nouveau_ badge et auto-pin pour [!UICONTROL Accès rapide]. |
+| Widget unifié - Accueil/accès rapide | **Naviguez plus rapidement :** à présent, vous pouvez personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Accès rapide]. <br>**Tenez-vous informé grâce à l’épinglage intelligent :** les nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées dans [!UICONTROL Accès rapide]. |
 
 {style=&quot;table-layout:auto&quot;}
 
