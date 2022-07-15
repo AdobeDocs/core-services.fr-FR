@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 | Aide avec | Ressource |
 |--- |--- |
 | Audiences introuvables ? | Vérifiez que des privilèges d’accès vous ont été attribués. Voir [Prise en main - Activation de vos applications pour les services principaux](core-services.md).<br>Dirigez-vous [ici](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) pour demander lʼaccès au service principal Profils et audiences (formulaire de configuration des intégrations). |
-| Cas dʼutilisation | Pour plus dʼinformations sur lʼapplication à utiliser, consultez [Options de création dʼaudiences](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr) dans la base de connaissances. |
+| Cas dʼutilisation | Pour plus dʼinformations sur lʼapplication à utiliser, consultez [Options de création dʼaudiences](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) dans la base de connaissances. |
 | Forum | Le [forum des Audiences](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) offre une ressource supplémentaire pour obtenir de l’aide au sujet des audiences. |
 
 {style=&quot;table-layout:auto&quot;}
