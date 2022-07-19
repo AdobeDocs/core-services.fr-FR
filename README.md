@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 92%
 
 ---
 # Article sur les contributions
@@ -27,7 +27,7 @@ Les corrections mineures ou les clarifications que vous envoyez à titre d’exe
 
 ### Modifications majeures ou nouveaux articles de membres de la communauté
 
-Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou soumettre des modifications majeures, veuillez utiliser l’onglet Problèmes du référentiel Git pour soumettre un problème afin de commencer une conversation avec l’équipe de documentation. Une fois que vous avez accepté un plan, vous devez collaborer avec un employé pour intégrer ce nouveau contenu par le biais d’une combinaison de travaux dans les référentiels publics et privés.
+Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou soumettre des modifications majeures, veuillez utiliser l’onglet Problèmes du référentiel Git pour soumettre un problème afin de commencer une conversation avec l’équipe de documentation. Une fois que vous avez accepté un plan, vous pouvez collaborer avec un employé pour intégrer ce nouveau contenu par le biais d’une combinaison de travaux dans les référentiels publics et privés.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -56,5 +56,5 @@ Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vou
 
 Dans le référentiel public, des étiquettes automatisées sont assignées à des requêtes de tirage afin de nous aider à gérer le workflow de requête de tirage et à vous aider à savoir ce qui se passe avec votre requête de tirage :
 
-* **Modification envoyée à l’auteur** : l’auteur a été informé de la requête de tirage en attente.
-* **Prêt à fusionner** : prêt à être analysé par notre équipe d’analyse de demande de tirage.
+* **Change sent to author** : l’auteur a été informé de la requête de tirage en attente.
+* **ready-to-merge** : prêt à être analysé par notre équipe d’analyse de demande de tirage.
