@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: ht
-source-wordcount: '4750'
-ht-degree: 100%
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+workflow-type: tm+mt
+source-wordcount: '4767'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,15 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 ## Juillet - 2022
 
+**Avis de mise à jour de configuration à l’intention des administrateurs**
+
+* Voir [Avis de mise à jour de configuration](admin-getting-started.md#provisioning) pour connaître les mises à jour importantes de la configuration dans Experience Cloud.
+
 Publication prévue le : **11 juillet 2022**
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Widget unifié - Accueil/accès rapide | **Naviguez plus rapidement :** à présent, vous pouvez personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Accès rapide]. <br>**Tenez-vous informé grâce à l’épinglage intelligent :** les nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées dans [!UICONTROL Accès rapide]. |
+| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonction d’épinglage pour sélectionner les applications qui apparaîtront au premier plan et au centre sur votre [!UICONTROL Accès rapide]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées affichent un _nouveau_ badge et l’épinglage automatique pour un [!UICONTROL accès rapide]. |
 
 {style=&quot;table-layout:auto&quot;}
 
