@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Contribution
@@ -21,11 +21,12 @@ Commencez par soumettre un problème. Les validateurs existants à ce projet s�
 
 ## Contrat de licence du contributeur
 
-Toutes les contributions tierces à ce projet doivent être accompagnées d’un contrat de licence de contributeur signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. [Signez notre contrat de licence du contributeur](http://opensource.adobe.com/cla.html). Vous n’envoyez un CLA d’Adobe qu’une seule fois. Par conséquent, si vous en avez déjà soumis un, vous pouvez y aller !
+Toutes les contributions tierces à ce projet doivent être accompagnées d’un contrat de licence de contributeur signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. [Signez notre contrat de licence du contributeur](http://opensource.adobe.com/cla.html). Vous ne devez envoyer le contrat de licence de contributeur Adobe qu’une seule fois. Si vous l’avez déjà envoyé, tout est déjà en ordre.
 
 ## Révisions du code
 
-Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les validateurs de projet. Lisez la [documentation sur la requête de tirage de GitHub](https://help.github.com/fr/articles/about-pull-requests/) pour en savoir plus sur l’envoi de requêtes de tirage.
+Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées
+par les contributeurs au projet. Lisez la [documentation sur la requête de tirage de GitHub](https://help.github.com/fr/articles/about-pull-requests/) pour en savoir plus sur l’envoi de requêtes de tirage.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
