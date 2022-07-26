@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Pour obtenir de l’aide, [contactez l’assistance d’Adobe](https://experienc
 
 Non. Experience Cloud est inclus sans frais supplémentaires. Toutefois, certains services de base pourraient entraîner des coûts supplémentaires.
 
-## Pourquoi ma société doit-elle se connecter par le biais de l’interface Experience Cloud ?
+## Pourquoi ma société doit-elle se connecter par le biais de l’interface Experience Cloud ?
 
 Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. À partir de maintenant, cela constitue également le chemin dʼaccès standard aux applications et remplacera à terme dʼautres flux individuels de connexion aux applications. La connexion par le biais d’Experience Cloud facilite une transition ultérieure plus fluide.
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support).
 
 ## Comment [!DNL Adobe Support] peut accéder à mon environnement cloud Adobe pour résoudre un problème ?
 
@@ -82,11 +82,11 @@ Dans Experience Cloud, lʼattribution de privilèges dʼaccès signifie ce qui 
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [Contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
-Certains utilisateurs devront peut-être lier leur compte d’application (Analytics) à Adobe ID ou Enterprise ID.
+Il se peut que certains utilisateurs doivent lier leur compte dʼapplication (Analytics) à leur Adobe ID ou à leur Enterprise ID.
 
 Reportez-vous à la section [Liaison dʼun compte dʼapplication à un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
