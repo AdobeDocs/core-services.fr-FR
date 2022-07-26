@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 # Article sur les contributions
@@ -27,7 +27,7 @@ Les corrections mineures ou les clarifications que vous envoyez à titre d’exe
 
 ### Modifications majeures ou nouveaux articles de membres de la communauté
 
-Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou soumettre des modifications majeures, veuillez utiliser l’onglet Problèmes du référentiel Git pour soumettre un problème afin de commencer une conversation avec l’équipe de documentation. Une fois que vous avez accepté un plan, vous pouvez collaborer avec un employé pour intégrer ce nouveau contenu par le biais d’une combinaison de travaux dans les référentiels publics et privés.
+Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou soumettre des modifications majeures, veuillez utiliser l’onglet Problèmes du référentiel Git pour soumettre un problème afin de commencer une conversation avec l’équipe de documentation. Une fois que vous avez accepté un plan, vous devez travailler avec un employé pour vous aider à introduire ce nouveau contenu à l’aide de travaux réalisés dans les référentiels publics et privés.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
