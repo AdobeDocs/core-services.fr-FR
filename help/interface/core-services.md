@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '2294'
-ht-degree: 100%
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+workflow-type: tm+mt
+source-wordcount: '2381'
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ Si vous n’utilisez ni [!UICONTROL Experience Platform Launch] ni [!UICONTROL 
 
 ### Analytics et Adobe Target - Synchronisation de l’ID client {#section_AD473A6A21C1446498E700363F9A8437}
 
-Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) avec Experience Cloud.
+Dans le cadre de la configuration du service Experience Cloud ID, Adobe recommande, pour Analytics et [!DNL Target], de synchroniser vos [ID client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) avec Experience Cloud.
 
 Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et l’envoyer à [!DNL Target]. (Reportez-vous à la section [Utilisation des attributs du client](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=fr) dans [!DNL Target].)
 
@@ -116,6 +116,11 @@ Par exemple, supposons que Robert a l’identifiant de client `52mc210tr42` dans
 * renseignez le *`Customer ID (52mc210tr42)`* dans une variable prop ou eVar.
 
 L’ID de client doit être défini dans chaque appel au serveur [!DNL Analytics] où il est connu.
+
+#### Analytics : Synchronisation de l’ID client avec la méthode de renvoi du Data Warehouse
+
+Lorsque les attributs du client sont devenus disponibles pour la première fois, certains clients n’avaient pas encore mis en oeuvre le service d’ID d’Experience Cloud et ne pouvaient pas utiliser facilement les attributs du client. Pour résoudre ce problème, Adobe a créé un moyen d’effectuer un renvoi des synchronisations des identifiants à l’aide de l’entrepôt de données Adobe Analytics. Cette fonctionnalité est appelée &quot;renvoi de l’entrepôt de données&quot;. Désormais, le renvoi de l’entrepôt de données n’est généralement plus nécessaire et ne sera donc plus disponible à compter d’octobre 2022.
+
 
 ### SDK mobiles
 
@@ -143,7 +148,7 @@ Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant
 
 ## Mettre à jour votre mise en œuvre Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Il est recommandé dʼajouter une [extension Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=fr) dans [!UICONTROL Experience Platform Launch] afin de permettre lʼextraction automatique de votre bibliothèque. Vous pouvez également configurer lʼ[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour Adobe Target (et dʼautres applications) à lʼaide dʼ[!UICONTROL Experience Platform Launch]. Le [!UICONTROL service Experience Cloud ID] **doit être mis à jour** pour qu’Adobe Target puisse utiliser les services principaux.
+* Il est recommandé dʼajouter une [extension Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=fr) dans [!UICONTROL Experience Platform Launch] afin de permettre lʼextraction automatique de votre bibliothèque. Vous pouvez également configurer lʼ[extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) pour Adobe Target (et dʼautres applications) à lʼaide dʼ[!UICONTROL Experience Platform Launch]. Le [!UICONTROL service Experience Cloud ID] **doit être mis à jour** pour qu’Adobe Target puisse utiliser les services principaux.
 * Si vous nʼutilisez pas [!UICONTROL Experience Platform Launch], [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=fr) manuellement.
 * Demandez lʼaccès afin dʼutiliser Adobe Analytics comme source de création de rapports pour [!DNL Adobe Target]. Les données de [!DNL Target] et dʼ[!DNL Analytics] sont combinées dans le même appel au serveur durant le traitement afin que les visiteurs soient connectés entre les deux applications. Voir [Implémentation d’Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr).
 
@@ -230,4 +235,4 @@ Si vous souhaitez proposer la fonctionnalité d’exclusion adaptée, les visite
 
 Pour obtenir des instructions, reportez-vous au document [Adobe Experience Cloud : mise en œuvre des exclusions Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=fr).
 
-Voir [CNAME de collecte de données et suivi interdomaines](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=fr) pour en savoir plus sur l’activation du suivi interdomaines.
+Voir [CNAME de collecte de données et suivi interdomaines](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) pour en savoir plus sur l’activation du suivi interdomaines.

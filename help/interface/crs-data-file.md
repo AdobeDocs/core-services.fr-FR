@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1203'
-ht-degree: 100%
+source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonne d’ID de client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics et Adobe Target - Synchronisation de l’ID de client </a>) </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, il s’agit de la valeur setCustomerID. (Voir <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics et Adobe Target - Synchronisation de l’ID de client </a>) </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à transférer. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet ID sert également de clé dans le fichier de gestion de la relation client qui est transféré vers Experience Cloud. Un <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">ID d’alias</a> est un nom convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -129,7 +129,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
    <tr> 
    <td colname="col1"> <p>Données historiques </p> </td> 
-   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Ainsi, les [!UICONTROL Customer Attributes] sont associés au visiteur pendant toute la durée de vie du profil de ce visiteur dans [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Ainsi, les [!UICONTROL Customer Attributes] sont associés au visiteur pendant toute la durée de vie du profil de ce visiteur dans [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> <p> Notez que la méthode de renvoi du Data Warehouse ne sera plus disponible à compter d’octobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flux de données </p> </td> 
