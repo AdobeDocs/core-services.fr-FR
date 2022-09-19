@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités, consultez leurs p
 
 * [Collecte de données](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=fr)
 * [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr)
-* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde?lang=fr)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=fr)
 * [Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr)
 * [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr)
 * [Modèle de données d’expérience](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)
@@ -81,7 +81,7 @@ Voir [Types d’identité dans Adobe Admin Console](https://helpx.adobe.com/fr/e
 
 Au moment de la migration, les administrateurs de l’organisation recevront un e-mail de notification 30 jours avant la migration.
 
-* La migration sera planifiée entre 10 heures du soir et 6 heures du matin, en fonction du fuseau horaire principal de l’organisation ou pendant le week-end.
+* La migration sera planifiée entre 22h00. - 6h00, selon le fuseau horaire Principal de l’entreprise ou le week-end.
 * Pendant la migration, l’application Experience Cloud peut être inaccessible pendant environ 15 minutes et Admin Console jusquʼà 30 minutes. Sinon, cette migration sera transparente.
 
 ### Modifications après la migration
