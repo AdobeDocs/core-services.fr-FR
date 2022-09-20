@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 99%
+source-wordcount: '1285'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Pour accéder aux applications et services Experience Cloud configurés pour vous au sein de votre entreprise, utilisez le sélecteur dʼapplications ![](assets/menu-icon.png).
+Pour accéder aux applications et services Experience Cloud configurés pour vous au sein de votre entreprise, accédez au sélecteur d’applications ![menu](assets/menu-icon.png).
 
 ![Accès aux applications Experience Cloud](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Les préférences Experience Cloud incluent les notifications, les abonnements 
 * Vous déconnecter ;
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 
-Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** dans le menu de votre compte ![](assets/preferences-icon-sm.png).
+Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** depuis le menu de votre compte ![préférences](assets/preferences-icon-sm.png).
 
 ![Préférences de profil utilisateur et de compte](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour
 
 ## Domaines Experience Cloud {#domains}
 
-Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi que pour améliorer les performances et lʼexpérience du produit. Adobe recommande dʼajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale. Dʼautres domaines peuvent également être utilisés pour des applications Experience Cloud spécifiques, comme Adobe Analytics. Pour plus dʼinformations, consultez la documentation se rappportant à ces applications.
+Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi que pour améliorer les performances et lʼexpérience du produit. Adobe recommande d’ajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale. Dʼautres domaines peuvent également être utilisés pour des applications Experience Cloud spécifiques, comme Adobe Analytics. Pour plus dʼinformations, consultez la documentation se rappportant à ces applications.
 
 | Technologie | Domaines |
 |--- |--- |

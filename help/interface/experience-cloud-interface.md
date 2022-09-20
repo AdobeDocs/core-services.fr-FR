@@ -1,15 +1,15 @@
 ---
-description: 'Découvrez comment vous connecter et les composants de lʼinterface centrale dʼExperience Cloud. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans lʼinterface et obtenir de lʼaide. '
+description: Découvrez comment vous connecter et les composants de lʼinterface centrale dʼExperience Cloud. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans lʼinterface et obtenir de lʼaide.
 solution: Experience Cloud
-title: 'Composants de l’interface utilisateur centrale Experience Cloud '
-feature: Central Interface Components
+title: Composants de l’interface utilisateur centrale Experience Cloud
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 94%
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
    Pour vérifier que vous vous êtes connecté à l’[organisation](organizations.md) appropriée, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
 
-   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse électronique et votre mot de passe. Ajouter `#/sso:@domain` à l’URL de l’Experience Cloud (`https://experience.adobe.com`) pour accomplir cette tâche.
+   Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`) pour accomplir cette tâche.
 
    Par exemple, pour une organisation avec des Federated ID et le domaine `adobecustomer.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@adobecustomer.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -74,7 +74,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Sélectionnez le sélecteur dʼapplications ![](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous détenez.
+Sélectionner le sélecteur d’applications ![menu](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous possédez.
 
 ![Accès aux applications Experience Cloud](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Dans le menu des préférences du compte, vous pouvez :
 
 Les préférences Experience Cloud incluent les notifications, les abonnements et les alertes.
 
-Sélectionnez **[!UICONTROL Préférences]** dans le menu ![](assets/preferences-icon-sm.png) de votre compte pour gérer les préférences.
+Sélectionner **[!UICONTROL Préférences]** depuis le menu de votre compte ![préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
 
 ![Gestion dʼExperience Cloud](assets/preferences-page.png)
 

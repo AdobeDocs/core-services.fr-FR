@@ -2,17 +2,17 @@
 description: Découvrez comment créer la source d’attributs du client et la transférer vers Adobe Experience Cloud.
 keywords: Attributs du client;services principaux
 solution: Experience Cloud
-title: 'Création d’une source d’attributs du client et transfert du fichier de données '
+title: Création d’une source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 >
 >Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, le démarrage de la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez le service à la clientèle ou le service d’assistance clientèle d’Audience Manager pour obtenir des droits d’administration.
 
-1. Dans [!DNL Experience Cloud], sélectionnez lʼicône ![](assets/menu-icon.png) Menu.
+1. Dans le [!DNL Experience Cloud], sélectionnez le menu .  ![menu](assets/menu-icon.png) icône .
 1. Sous **[!DNL Experience Platform]**, sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
 
    Sur la page [!UICONTROL Attributs du client], vous pouvez gérer et modifier les sources de données d’attributs existantes.
@@ -120,7 +120,7 @@ Effectuez les étapes ci-après sur la page Créer une source d’attributs clie
 
       **Graphique du téléchargement du fichier**
 
-      ![](assets/file_upload_attributes.png)
+      Attributs ![](assets/file_upload_attributes.png)
 
    * **[!UICONTROL ID de client unique :]** indique combien d’ID uniques vous avez transférés vers cette source d’attributs.
 

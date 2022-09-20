@@ -2,17 +2,17 @@
 description: Découvrez comment vous connecter à Adobe Experience Cloud, gérer les mots de passe et les notifications, puis spécifier une page de destination par défaut.
 keywords: services principaux, connexion à Experience Cloud
 solution: Experience Cloud
-title: 'Connexion et gestion des paramètres du profil Experience Cloud '
+title: Connexion et gestion des paramètres du profil Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ En vous connectant à Experience Cloud (plutôt quʼà une application donnée
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Sélectionnez le menu Experience Cloud (![](assets/menu-icon.png)), puis **[!UICONTROL Administration]**.
+1. Sélectionnez le menu Experience Cloud ( ![préférences](assets/menu-icon.png)), puis sélectionnez **[!UICONTROL Administration]**.
 
    Si le lien **[!UICONTROL Administration]** n’apparaît pas, cela signifie que vous n’êtes pas un administrateur Experience Cloud pour l’[organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) affichée. Si vous avez besoin d’aide pour devenir administrateur, contactez l’assistance clientèle ou un autre administrateur Experience Cloud de votre entreprise.
 1. Sélectionnez **[!UICONTROL Administration]**.
@@ -60,9 +60,9 @@ Cette section vise à aider les utilisateurs non-administrateurs qui se connecte
 
    Votre administrateur Experience Cloud peut vous aider à déterminer le type de compte (Adobe ID ou Enterprise ID).
 
-1. Sur votre page dʼentrée, sélectionnez lʼicône de sélecteur ![](assets/menu-icon.png) pour accéder au menu déroulant.
+1. Sur votre landing page, sélectionnez l&#39;icône de sélecteur  ![menu](assets/menu-icon.png) pour accéder au menu déroulant.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![menu](assets/experience-cloud-core-services.png)
 
    Les services et applications qui sʼaffichent dans ce menu dépendent de vos privilèges dʼapplication, définis par votre [administrateur](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -82,7 +82,7 @@ Vous pouvez modifier des détails personnels et spécifier une [organisation](ad
 
 Recevez des notifications (par courrier électronique ou au sein du produit) concernant les mises à jour du système, les avis de maintenance, les publications, les mentions et les ressources partagées. Vous pouvez également spécifier les produits et les applications pour lesquels vous souhaitez recevoir des notifications, y compris lʼétat du chargement des attributs du client.
 
-Pour accéder aux notifications, sélectionnez lʼicône **[!UICONTROL Notifications]** ![](assets/notifications-icon.png), puis choisissez lʼicône **[!UICONTROL Paramètres]** ![](assets/icon_edit_board.png).
+Pour accéder aux notifications, sélectionnez l’option **[!UICONTROL Notifications]** icon  ![notifications](assets/notifications-icon.png), puis sélectionnez la variable **[!UICONTROL Paramètres]** icon  ![edit](assets/icon_edit_board.png).
 
 Vous pouvez trier l’affichage des notifications d’après les types de messages qui vous intéressent et rechercher des notifications. Vous pouvez également réaliser les opérations suivantes :
 

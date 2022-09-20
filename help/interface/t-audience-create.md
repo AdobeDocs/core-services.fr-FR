@@ -2,16 +2,16 @@
 description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Adobe Experience Cloud.
 keywords: services principaux
 solution: Experience Cloud
-title: 'Création d’une audience '
+title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 **Création d’une audience**
 
 1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque dʼaudiences].**
-1. Dans la page [!UICONTROL Audiences], sélectionnez **[!UICONTROL Nouveau]**. ![](assets/add_icon_small.png)
+1. Dans la page [!UICONTROL Audiences], sélectionnez **[!UICONTROL Nouveau]**. ![add](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
 
