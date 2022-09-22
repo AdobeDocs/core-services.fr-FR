@@ -145,7 +145,7 @@ Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi 
 | Domaines Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
 | Service Adobe Identity Management (IMS) | `adobelogin.com` |
 | Polices Experience Cloud | `typekit.net` |
-| Adobe de la collecte de données (pour obtenir des conseils et de l’aide sur les produits) | `adobedtm.com` |
+| Collecte de données par Adobe (pour obtenir de l’aide et des conseils sur les produits) | `adobedtm.com` |
 | Gainsight (pour obtenir des conseils sur les produits et de lʼaide) | `esp.aptrinsic.com` |
 
 ## Obtention dʼaide au sujet de lʼadministration et des services entre applications
