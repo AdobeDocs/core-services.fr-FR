@@ -3,12 +3,12 @@ description: Découvrez les composants de l’interface centrale d’Experience�
 solution: Experience Cloud
 title: Aide et documentation de l’interface Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 96%

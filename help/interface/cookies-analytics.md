@@ -1,17 +1,16 @@
 ---
 description: Découvrez les cookies Adobe Analytics dans Adobe Experience Cloud.
-keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics,Target
-title: 'Cookies Analytics '
+title: Cookies Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '767'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---

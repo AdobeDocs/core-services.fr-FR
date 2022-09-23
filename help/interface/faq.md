@@ -1,17 +1,16 @@
 ---
 description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions fréquentes à l’intention des administrateurs dans Adobe Experience Cloud.
-keywords: services principaux, Experience Cloud, Experience Platform, Analytics, Target, gestion des utilisateurs.
 solution: Experience Cloud
-title: 'Questions fréquentes à propos d’Experience Cloud '
+title: Questions fréquentes à propos d’Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '775'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---
@@ -53,7 +52,7 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci
 
 ## Comment résoudre les questions liées à la migration de ma société ?
 
-[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support).
+[Contactez l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## Comment [!DNL Adobe Support] peut accéder à mon environnement cloud Adobe pour résoudre un problème ?
 
@@ -82,7 +81,7 @@ Dans Experience Cloud, lʼattribution de privilèges dʼaccès signifie ce qui 
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 ## Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 

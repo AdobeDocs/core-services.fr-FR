@@ -1,17 +1,15 @@
 ---
 description: Découvrez comment transférer les données dʼattributs du client vers Experience Cloud via FTP.
-keywords: Attributs du client;services principaux
 solution: Experience Cloud
-title: 'Transfert du fichier de données d’attributs du client via FTP '
-uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
+title: Transfert du fichier de données d’attributs du client via FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '268'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
 
 ---

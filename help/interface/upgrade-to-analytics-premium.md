@@ -1,17 +1,16 @@
 ---
 description: Découvrez les conditions requises et ce quʼoffre la mise à niveau vers Analytics Premium.
-keywords: Mise à niveau vers Adobe Analytics Premium
 solution: Experience Cloud
-title: 'Mettez à niveau vers Analytics Premium et Experience Cloud '
+title: Mettez à niveau vers Analytics Premium et Experience Cloud
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '622'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -56,9 +55,9 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](upgrad
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr) |
+| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
-| Analytics Platform | Flux en direct (tableaux de bord et triggers) |
+| Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,7 +69,7 @@ La mise à niveau vers la vision à 360 degrés des clients permet l’accès �
 |--- |--- |
 | [Attributs du client](attributes.md) | Attributs du client (analyses et partage de segment) |
 | Data Workbench | <ul><li>Attributs du client dérivés</li><li>Espaces de travail préconfigurés pour la détection des audiences</li></ul> |
-| Analytics Platform | [Attributs du client](attributes.md) |
+| Plateforme Analytics | [Attributs du client](attributes.md) |
 
 {style=&quot;table-layout:auto&quot;}
 

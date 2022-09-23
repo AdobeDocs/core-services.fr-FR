@@ -2,11 +2,11 @@
 description: Découvrez comment vous connecter et les composants de lʼinterface centrale dʼExperience Cloud. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans lʼinterface et obtenir de lʼaide.
 solution: Experience Cloud
 title: Composants de l’interface utilisateur centrale Experience Cloud
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 96%

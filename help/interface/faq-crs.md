@@ -1,17 +1,16 @@
 ---
 description: Questions fréquentes sur les attributs du client dans Adobe Experience Cloud, pour Adobe Analytics et Adobe Target.
-keywords: Attributs du client
 solution: Experience Cloud
-title: 'Obtenir des réponses aux questions fréquemment posées sur les attributs du client '
+title: Obtenir des réponses aux questions fréquemment posées sur les attributs du client
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1178'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---

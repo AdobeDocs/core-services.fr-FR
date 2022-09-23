@@ -1,18 +1,17 @@
 ---
-description: Considérations et bonnes pratiques relatives aux informations dʼidentification personnelle transférées et utilisées dans Experience Cloud.
-keywords: Attributs du client;services principaux
+description: Découvrez les points à prendre en compte et les bonnes pratiques concernant les informations d’identification personnelle (PII) téléchargées et utilisées dans Experience Cloud.
 solution: Experience Cloud
-title: 'Considérations relatives à la confidentialité des attributs du client '
+title: Considérations relatives à la confidentialité des attributs du client
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 

@@ -1,17 +1,16 @@
 ---
 description: Découvrez les intégrations dʼapplications disponibles dans Adobe Experience Cloud.
-keywords: intégrations
 solution: Experience Cloud
-title: 'Intégrations Experience Cloud '
+title: Intégrations Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1421'
 ht-degree: 99%
 
 ---

@@ -1,24 +1,23 @@
 ---
 description: Découvrez lʼoutil dʼadministration Experience Cloud. Affichez une liste que vous pouvez trier et filtrer de tous les utilisateurs et politiques dʼExperience Cloud.
-keywords: services principaux
 application: Experience Cloud
-title: 'Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud '
+title: Affichage des utilisateurs et des informations sur les utilisateurs d’Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
 # Affichage des utilisateurs et politiques d’Experience Cloud dans l’outil d’administration
 
-Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud avec leurs informations dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Les détails de la politique incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration de la politique (profil de produits), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud avec leurs informations dans l’outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, les rôles et les informations de dernier accès. Les détails de la politique incluent l’utilisateur, le groupe, le développeur, l’intégration et la liste d’administration de la politique (profil de produits), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
 
 >[!NOTE]
 >
@@ -46,7 +45,7 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL E-mail] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des applications Experience Cloud auxquelles lʼutilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
-| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les données concernant la dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** À compter du 13 janvier 2020, les données de dernière connexion de l’utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de l’affichage de la liste des utilisateurs
 
@@ -68,7 +67,7 @@ Sur la page [!UICONTROL Utilisateurs], pour afficher les informations dʼun util
 
 ![Affichage des informations sur les utilisateurs dans Admin Console](assets/admin-tool-user-details.png)
 
-Une vue détaillée de chaque utilisateur affiche des détails importants sur lʼaccès à lʼapplication de lʼutilisateur, les rôles dʼadministrateur et de produit, ainsi que les dernières informations consultées.
+Une vue détaillée de chaque utilisateur affiche des détails importants sur l’accès à l’application de l’utilisateur, les rôles d’administrateur et de produit, ainsi que les dernières informations consultées.
 
 ## Section À propos
 
@@ -78,7 +77,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 * Nom
 * E-mail
 * Nom d’utilisateur (les comptes Federated ID peuvent avoir des noms d’utilisateur différents de ceux de l’adresse e-mail)
-* [Type d’ID](https://helpx.adobe.com/fr/enterprise/using/identity.html)
+* [Type d’ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * Pays
 * Dernière connexion
 
@@ -131,7 +130,7 @@ Sur la page [!UICONTROL Stratégies], pour afficher les détails dʼune stratég
 
 ![Affichage des détails sur la politique dans Admin Console](assets/admin-tool-policy-detail.png)
 
-Une vue détaillée de chaque profil de produits présente des détails importants sur les sujets du profil de produits (utilisateurs, groupes, etc.). Elle affiche également les autorisations et les ressources activées par le profil de produits.
+Une vue détaillée de chaque profil de produit affiche des détails importants sur les sujets du profil de produit (utilisateurs, groupes, etc.). Elle affiche également les autorisations et les ressources activées par le profil de produits.
 
 Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Exporter CSV] produit deux fichiers CSV :
 

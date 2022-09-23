@@ -1,8 +1,5 @@
 ---
 description: Découvrez le dernier produit de la gestion des balises appelé Experience Platform Launch.
-keywords: services principaux
-seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
-seo-title: Activation
 solution: Experience Cloud Services
 title: Services Activation dans Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
@@ -11,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '245'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '243'
 ht-degree: 100%
 
 ---

@@ -1,15 +1,12 @@
 ---
-description: Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
-keywords: services principaux
-seo-description: An overview of new features and updates in the Experience Cloud.
-seo-title: What's new in the Experience Cloud
+description: Découvrez les nouvelles fonctionnalités et mises à jour de l’Experience Cloud.
 solution: Experience Cloud
-title: 'Nouveautés d’Experience Cloud '
+title: Nouveautés d’Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 

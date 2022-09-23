@@ -1,16 +1,15 @@
 ---
 description: Découvrez Exchange Marketplace, une destination unique où vous pouvez rechercher des extensions de marketing numérique, les parcourir, les sélectionner, les payer et les télécharger via des applications.
-keywords: services principaux
 solution: Experience Cloud
-title: 'Exchange Marketplace '
+title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '133'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '131'
 ht-degree: 100%
 
 ---

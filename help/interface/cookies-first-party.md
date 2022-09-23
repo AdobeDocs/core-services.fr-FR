@@ -1,8 +1,7 @@
 ---
 description: Découvrez comment Adobe Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne sont pas conservés entre les demandes d’images et les sessions de navigateur.
-keywords: cookies;confidentialité
 solution: Experience Cloud,Analytics
-title: '"Cookies propriétaires "'
+title: "Cookies propriétaires "
 index: y
 snippet: y
 feature: Cookies
@@ -10,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 91%
+source-wordcount: '1602'
+ht-degree: 85%
 
 ---
 
@@ -21,16 +20,16 @@ ht-degree: 91%
 
 Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe sʼassure que les cookies peuvent toujours être définis, même si les cookies tiers sont bloqués. Les cookies sont définis de manière différente selon que vous utilisez le service dʼidentités dʼExperience Platform (service ECID) ou les identifiants hérités dʼAnalytics (ou cookie s_vi) :
+De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe sʼassure que les cookies peuvent toujours être définis, même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (ou cookie s_vi) :
 
-* Le [Service dʼidentités dʼExperience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non au domaine de votre site. Sʼils ne correspondent pas, le service dʼidentités utilisera JavaScript pour définir les cookies sur le domaine de votre site.
+* Le [Service dʼidentités dʼExperience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non au domaine de votre site. S’ils ne correspondent pas, Identity Service utilisera JavaScript pour définir des cookies dans le domaine de votre site.
 * Si vous utilisez des [identifiants Analytics hérités](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=fr) (soit le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un [identifiant de secours (s_fid)](cookies-analytics.md) propriétaire au lieu du cookie « s_vi » standard.
 
-Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra de transférer les données dʼun domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte dʼAdobe. Cela implique des modifications des paramètres DNS de votre société pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point d’entrée CNAME pour effectuer le suivi des utilisateurs sur leurs domaines. Toutefois, lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
+Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra le transfert depuis un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte d’Adobe. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point d’entrée CNAME pour effectuer le suivi des utilisateurs sur leurs domaines. Toutefois, lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
 
 >[!NOTE]
 >
->Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple définit les cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
+>Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple effectue des cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
 
 Si vous souhaitez établir un CNAME pour la collecte de données et si votre site utilise le protocole HTTPS pour la navigation sécurisée, vous pouvez demander à Adobe dʼobtenir un certificat SSL.
 
