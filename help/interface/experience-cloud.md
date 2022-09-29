@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Pour accéder aux applications et services Experience Cloud configurés pour vous au sein de votre entreprise, accédez au sélecteur d’applications ![menu](assets/menu-icon.png).
+Pour accéder aux applications et services Experience Cloud configurés pour vous au sein de votre entreprise, accédez au ![menu](assets/menu-icon.png) du sélecteur dʼapplications.
 
 ![Accès aux applications Experience Cloud](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Les préférences Experience Cloud incluent les notifications, les abonnements 
 * Vous déconnecter ;
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 
-Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** depuis le menu de votre compte ![préférences](assets/preferences-icon-sm.png).
+Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** dans les ![Préférences](assets/preferences-icon-sm.png) du menu de votre compte.
 
 ![Préférences de profil utilisateur et de compte](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour
 
 ## Domaines Experience Cloud {#domains}
 
-Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi que pour améliorer les performances et lʼexpérience du produit. Adobe recommande d’ajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale. Dʼautres domaines peuvent également être utilisés pour des applications Experience Cloud spécifiques, comme Adobe Analytics. Pour plus dʼinformations, consultez la documentation se rappportant à ces applications.
+Experience Cloud utilise les hôtes suivants pour diffuser lʼapplication ainsi que pour améliorer les performances et lʼexpérience du produit. Adobe recommande dʼajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale. Dʼautres domaines peuvent également être utilisés pour des applications Experience Cloud spécifiques, comme Adobe Analytics. Pour plus dʼinformations, consultez la documentation se rappportant à ces applications.
 
 | Technologie | Domaines |
 |--- |--- |
@@ -190,7 +190,7 @@ Profitez des tutoriels d’aide autonome et des instructions rapides dans Experi
 
 * [Documentation sur les produits pour toutes les applications Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=fr) - Recherchez de lʼaide sur le site Formation et support dʼExperience Cloud.
 * [Notes de mise à jour et mises à jour des produits](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr) - Découvrez les nouveautés d’Experience Cloud et abonnez-vous pour vous tenir informé.
-* [Tutoriels de mise en œuvre des services principaux](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Visionnez des vidéos et des didacticiels sur les services principaux.
+* [Tutoriels de mise en œuvre des services principaux](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=fr) - Visionnez des vidéos et des didacticiels sur les services principaux.
 * [Aide d’experts Experience League](https://experienceleague.adobe.com/?lang=fr) - Obtenez des conseils d’experts et de la communauté.
 * [Éducation et formation](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK) - Contactez Adobe pour vous assurer de tirer le meilleur parti des produits de la marque.
 * [Blog sur l’expérience client](https://blog.adobe.com/fr/topics/digital-transformation) - Lisez le blog Experience Cloud.
