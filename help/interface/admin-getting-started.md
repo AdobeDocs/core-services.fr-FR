@@ -1,6 +1,6 @@
 ---
 title: Gérer les utilisateurs et les produits
-description: Connectez-vous au Admin Console et gérez les autorisations utilisateur et produits Experience Cloud (profils de produit). Découvrez comment déléguer des droits d’administration aux utilisateurs Experience Cloud et comment obtenir de l’aide pour les navigateurs dans Experience Cloud.
+description: Connectez-vous à Admin Console et gérez les autorisations utilisateur et produits Experience Cloud (profils de produit). Découvrez comment déléguer des droits d’administration aux utilisateurs Experience Cloud et comment obtenir de l’aide pour les navigateurs dans Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1891'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
