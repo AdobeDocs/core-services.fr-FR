@@ -1,5 +1,5 @@
 ---
-description: Découvrez les dernières fonctionnalités, les notes de mise à jour et les problèmes connus des services Experience Cloud tels que les attributs du client, les audiences et la gestion des utilisateurs.
+description: Découvrez les dernières fonctionnalités, notes de mise à jour et problèmes connus pour les services Experience Cloud tels que les attributs du client, les audiences et la gestion des utilisateurs.
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, les rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](admin-tool-experience-cloud.md) pour en savoir plus. |
+| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Voir l’aide de [l’outil d’administration Experience Cloud](admin-tool-experience-cloud.md) pour en savoir plus. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -149,7 +149,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 * Mise à jour du sélecteur dʼapplications pour inclure Marketo dans la suite dʼapplications Experience Cloud et mise à jour des marques sur Experience Platform. (MCUI-6529)
 * Mise à jour de l’accueil d’Experience Cloud pour inclure les liens de navigation vers les pages de flux et d’administration. (MCUI-6682)
-* Correction d’un problème dans la variable [!UICONTROL Déclencheur] définition pour une utilisation correcte de la clause &quot;like&quot;. (MCUI-6611)
+* Résolution d’un problème dans la définition du [!UICONTROL déclencheur] en relation avec l’utilisation correcte de la clause « aimer ». (MCUI-6611)
 * Améliorations apportées aux attributs du client pour une meilleure connexion au service d’abonnement. (MCUI-6519)
 
 ## Version 19.1.1 - 17 janvier 2019
