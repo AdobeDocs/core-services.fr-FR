@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la c
 
 Trente jours avant l’expiration de votre certificat propriétaire, Adobe valide si le CNAME est toujours valide et en cours d’utilisation. Si tel est le cas, Adobe suppose que vous souhaitez continuer à utiliser le service et renouvelle automatiquement le certificat en votre nom.
 
-À l’heure actuelle, si le CNAME a été supprimé et n’est plus valide, l’Adobe ne renouvelle pas le certificat et l’entrée dans notre système est marquée pour suppression. Si le CNAME a été supprimé, l’Adobe sait que le suivi ne s’est pas produit en utilisant cette URL et qu’il est donc sans risque de le supprimer.
+>[!NOTE]
+> Si le CNAME a été supprimé et/ou n’est plus valide (ne correspond pas au nom d’hôte SSL de l’Adobe fourni), l’Adobe ne peut pas renouveler le certificat et l’entrée dans notre système est marquée pour suppression sans autre communication.
 
 ### Questions fréquemment posées
 
