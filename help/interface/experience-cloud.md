@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -123,8 +123,8 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 | Fonctionnalité | Description |
 |--- |--- |
 | [Organisation](organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
-| [!UICONTROL Collecte de données de produit] | Sélectionnez les technologies que l’Adobe peut utiliser pour collecter des données sur la manière dont vous utilisez vos produits Adobe. |
-| [!UICONTROL Recommandations et promotions d’apprentissage personnalisées] | Sélectionnez l’emplacement où vous souhaitez recevoir une aide personnalisée pour votre ou vos produits Adobe. Cette aide est disponible par courrier électronique, dans le produit et dans les communautés Experience League. [En savoir plus.](personalized-learning-preferences.md) |
+| [!UICONTROL Collecte de données de produit] | Sélectionnez les technologies qu’Adobe peut utiliser pour collecter des données sur la manière dont vous utilisez vos produits Adobe. |
+| [!UICONTROL Promotions et recommandations d’apprentissage personnalisées] | Sélectionnez l’emplacement où vous souhaitez recevoir une aide personnalisée pour votre ou vos produit(s) Adobe. Cette aide est disponible par e-mail, dans le produit et dans les communautés Experience League. [En savoir plus.](personalized-learning-preferences.md) |
 | [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et sur votre adresse e-mail. |
 | [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
