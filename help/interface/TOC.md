@@ -6,9 +6,9 @@ title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 98%
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
    + [Activation de votre implémentation pour les services entre applications](core-services.md)
-   + [Préférences d’apprentissage personnalisées des Experience Cloud](personalized-learning-preferences.md)
+   + [Préférences d’apprentissage personnalisées Experience Cloud](personalized-learning-preferences.md)
    + Bibliothèque d’audiences Experience Cloud {#audiences}
       + [Audiences Experience Cloud](audience-library.md)
       + [Création d’une audience](t-audience-create.md)
       + [Publication d’un segment d’audience Analytics](t-publish-audience-segment.md)
    + Attributs du client Experience Cloud {#customer-attributes}
-      + [Attributs du client aperçu](attributes.md)
+      + [Présentation des Attributs du client](attributes.md)
       + [Questions fréquentes sur les attributs du client](faq-crs.md)
       + [À propos du fichier de données et des sources de données pour les attributs du client](crs-data-file.md)
       + [Création d’une source d’attributs du client et transfert du fichier de données](t-crs-usecase.md)
