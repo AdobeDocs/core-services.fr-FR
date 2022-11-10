@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Préférences d’apprentissage personnalisées Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 94%
+source-wordcount: '410'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté �
 * Les fonctionnalités que vous utiliserez probablement
 * Et bien plus encore !
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des préférences utilisateur](https://experience.adobe.com/preferences/).
@@ -37,8 +37,6 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 <tbody>
   <tr>
     <td colspan="3">Recevez les bonnes pratiques, conseils et astuces pertinents, des explications utiles, et plus encore en fonction de votre utilisation des produits Adobe de chacune de ces trois façons...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Dans vos produits Adobe...<br></td>
@@ -51,7 +49,7 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
   </tr>
   <tr>
     <td>Dans l’e-mail qu’Adobe vous envoie...</td>
-    <td>Affichage du contenu d’apprentissage associé à votre travail dans votre ou vos produit(s)</td>
+    <td>Affichage du contenu d’apprentissage associé à votre travail dans votre ou vos produit(s).</td>
   </tr>
   <tr>
     <td>Dans les communautés Experience League..</td>
@@ -72,8 +70,6 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 <tbody>
   <tr>
     <td colspan="3">Recevez des opportunités personnalisées pour des événements d’apprentissage, des sessions de recherche et des intégrations basées sur votre travail de chacune de ces trois façons..</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Dans vos produits Adobe...<br></td>
@@ -97,6 +93,9 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Consultez des exemples d’apparence de ces informations d’apprentissage personnalisées.
 
 
@@ -111,3 +110,5 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 ### Dans les communautés Experience League
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
