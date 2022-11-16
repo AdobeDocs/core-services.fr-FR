@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Préférences d’apprentissage personnalisées Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '390'
+ht-degree: 94%
 
 ---
 
@@ -26,18 +26,15 @@ Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté �
 Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des préférences utilisateur](https://experience.adobe.com/preferences/).
 
 
+
+
+
 ## Recommandations de formation et d’assistance personnalisées pour vos produits et services Adobe
 
+Recevez les bonnes pratiques, conseils et astuces pertinents, des explications utiles, et plus encore en fonction de votre utilisation des produits Adobe de chacune de ces trois façons...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Recommandations de formation et d’assistance personnalisées pour vos produits et services Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Recevez les bonnes pratiques, conseils et astuces pertinents, des explications utiles, et plus encore en fonction de votre utilisation des produits Adobe de chacune de ces trois façons...</td>
-  </tr>
   <tr>
     <td>Dans vos produits Adobe...<br></td>
     <td>Voir les fenêtres contextuelles et les info-bulles pour obtenir de l’aide en temps réel.</td>
@@ -59,18 +56,13 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 </table>
 
 
+
 ## Informations personnalisées sur les produits, services, événements et promotions Adobe
 
+Recevez des opportunités personnalisées pour des événements d’apprentissage, des sessions de recherche et des intégrations basées sur votre travail de chacune de ces trois façons..
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Informations personnalisées sur les produits, services, événements et promotions Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Recevez des opportunités personnalisées pour des événements d’apprentissage, des sessions de recherche et des intégrations basées sur votre travail de chacune de ces trois façons..</td>
-  </tr>
   <tr>
     <td>Dans vos produits Adobe...<br></td>
     <td>Consultez les fenêtres contextuelles et les info-bulles pour connaître les invitations et les opportunités qui vous intéressent.</td>
@@ -96,6 +88,9 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## Consultez des exemples d’apparence de ces informations d’apprentissage personnalisées.
 
 
@@ -103,9 +98,13 @@ Vous pouvez mettre à jour vos sélections à tout moment dans [Paramètres des 
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### Dans l’e-mail qu’Adobe vous envoie
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### Dans les communautés Experience League
 
