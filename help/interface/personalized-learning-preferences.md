@@ -5,15 +5,15 @@ title: Préférences d’apprentissage personnalisées Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
-workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # Promotions et recommandations d’apprentissage personnalisées
 
-Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Sélectionnez vos préférences parmi les options ci-dessous. Des informations d’apprentissage pertinentes vous seront fournies pour :
+Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Sélectionnez vos préférences parmi les options ci-dessous, Des informations d’apprentissage pertinentes vous seront fournies pour:
 
 * Votre niveau de compétence et votre rôle
 * Vos workflows
@@ -46,10 +46,10 @@ Recevez les bonnes pratiques, conseils et astuces pertinents, des explications u
   </tr>
   <tr>
     <td>Dans l’e-mail qu’Adobe vous envoie...</td>
-    <td>Affichage du contenu d’apprentissage associé à votre travail dans votre ou vos produit(s).</td>
+    <td>Affichage du contenu d’apprentissage associé à votre travail dans votre ou vos produit (s).</td>
   </tr>
   <tr>
-    <td>Dans les communautés Experience League..</td>
+    <td>Dans les communautés Experience League...</td>
     <td>Consultez les recommandations personnalisées pour les publications et articles en fonction de vos activités.</td>
   </tr>
 </tbody>
@@ -59,7 +59,7 @@ Recevez les bonnes pratiques, conseils et astuces pertinents, des explications u
 
 ## Informations personnalisées sur les produits, services, événements et promotions Adobe
 
-Recevez des opportunités personnalisées pour des événements d’apprentissage, des sessions de recherche et des intégrations basées sur votre travail de chacune de ces trois façons..
+Recevez des opportunités personnalisées pour des événements d’apprentissage, des sessions de recherche et des intégrations basées sur votre travail de chacune de ces trois façons...
 
 <table>
 <tbody>
@@ -78,8 +78,8 @@ Recevez des opportunités personnalisées pour des événements d’apprentissag
     <td>Obtenez des informations opportunes de la part d’Adobe sur les possibilités d’apprentissage supplémentaires.</td>
   </tr>
   <tr>
-    <td>Dans les communautés Experience League..</td>
-    <td>Consultez des recommandations personnalisées pour des événements et des services afin d’améliorer votre apprentissage.</td>
+    <td>Dans les communautés Experience League...</td>
+    <td>Consultez les recommandations personnalisées pour des événements et services destinés à améliorer votre apprentissage.</td>
   </tr>
 </tbody>
 </table>
