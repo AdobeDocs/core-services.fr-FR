@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la c
 
    Lors de la réception du ticket, un représentant de l’Assistance clientèle doit vous fournir un enregistrement CNAME. Ces enregistrements doivent être configurés sur le serveur DNS de votre entreprise pour qu’Adobe puisse acheter le certificat en votre nom. Le CNAME ressemble à ce qui suit :
 
-   **Sécurisé** : par exemple, le nom d’hôte `smetrics.example.com` désigne : `example.com.adobedc.net`.
+   **Sécurisé** : par exemple, le nom d’hôte `smetrics.example.com` désigne : `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > Auparavant, Adobe recommandait aux clients de configurer deux CNAME, l’un pour HTTPS et l’autre pour HTTP. Comme il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne vous recommandons plus de configurer un CNAME pour le protocole HTTP. Il est désormais recommandé de définir les deux `trackingServer` et `trackingServerSecure` avec le même CNAME. Par exemple, les deux `trackingServer` et `trackingServerSecure` est défini sur `smetrics.example.com`. HTTP est autorisé uniquement pour les noms d’hôte tiers.
@@ -94,12 +94,12 @@ L’équipe des opérations réseau de votre organisation doit configurer vos se
 Le spécialiste des cookies propriétaires vous fournit le nom d’hôte configuré et le CNAME vers lequel ils doivent pointer. Par exemple :
 
 * **Nom d’hôte SSL** : `smetrics.mysite.com`
-* **Enregistrement CNAME SSL** : `mysite.com.adobedc.net`
+* **Enregistrement CNAME SSL** : `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Si vous utilisez encore la version non sécurisée, cela ressemble à ce qui suit :
 > * **Nom d’hôte non-SSL** : `metrics.mysite.com`
-> * **Enregistrement CNAME non SSL** : `mysite.com.adobedc.net`
+> * **Enregistrement CNAME non SSL** : `[random-10-character-string].data.adobedc.net`
 
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
