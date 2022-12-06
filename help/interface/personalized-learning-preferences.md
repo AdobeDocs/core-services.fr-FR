@@ -5,15 +5,15 @@ title: Préférences d’apprentissage personnalisées Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Promotions et recommandations d’apprentissage personnalisées
 
-Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Sélectionnez vos préférences parmi les options ci-dessous, Des informations d’apprentissage pertinentes vous seront fournies pour:
+Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Sélectionnez vos préférences parmi les options ci-dessous, Des informations d’apprentissage pertinentes vous seront fournies pour :
 
 * Votre niveau de compétence et votre rôle
 * Vos workflows
@@ -23,7 +23,7 @@ Vous pouvez choisir de nous permettre de vous fournir du contenu utile adapté �
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Vous pouvez mettre à jour vos sélections à tout moment dans la section Utilisation et collection des données de produit de votre [Paramètres des préférences utilisateur](https://experience.adobe.com/preferences/).
+Vous pouvez mettre à jour vos sélections à tout moment dans la section Utilisation et collecte des données de produit de vos [Paramètres des préférences utilisateur](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ Recevez les bonnes pratiques, conseils et astuces pertinents, des explications u
   <tr>
     <td>Dans vos produits Adobe...<br></td>
     <td>Voir les fenêtres contextuelles et les info-bulles pour obtenir de l’aide en temps réel.</td>
-    <td rowspan="3">Cela pourrait inclure... <ul><li>Guides détaillés et conseils utiles d’experts en Adobe</li> 
+    <td rowspan="3">Cela pourrait inclure... <ul><li>Guides détaillés et conseils utiles d’experts Adobe</li> 
     <li>Tutoriels vidéo et présentation détaillée</li> 
     <li>Formation et éducation approfondies</li> 
     <li>Recommandations pour les vidéos et les publications</li>
