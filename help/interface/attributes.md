@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Attributs du client aperçu
+# Présentation des Attributs du client
 
 [!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
 
