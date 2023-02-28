@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Composants de lʼinterface centrale dʼExperience Cloud guide](experience-cloud.md)
++ [Composants de l’interface centrale Experience Cloud guide](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
