@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment Adobe Target utilise des cookies pour offrir aux opérateurs de sites web la possibilité de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Cookies Adobe Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 65e4b6739568ea06b86744e891d30c3917f02bcc
+source-git-commit: 323a8a6f53e659369df867f19170c199aee3ac40
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '442'
 ht-degree: 89%
 
 ---
@@ -32,7 +32,7 @@ Si besoin est, vous pouvez modifier ces paramètres, à l’exception de celui r
 | Server domain (Domaine du serveur) | `clientcode.tt.omtrdc.net`, à l’aide du code client de votre [!DNL Adobe Target] compte. |
 | Durée du cookie | Le cookie reste sur le navigateur du visiteur durant deux ans suite à sa dernière connexion. Vous ne pouvez pas modifier la durée du cookie. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -47,4 +47,4 @@ Le cookie conserve certaines valeurs afin de gérer la manière dont vos visiteu
 | check | Valeur de test simple utilisée pour déterminer si un visiteur prend en charge les cookies. Défini chaque fois qu’un visiteur demande une page. |
 | disable | Définie si le temps de chargement d’un visiteur dépasse le délai configuré dans le fichier at.js. Ce délai est d’une heure par défaut. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
