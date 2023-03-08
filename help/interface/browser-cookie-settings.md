@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment activer les paramètres de confidentialité pour les cookies de navigateur. Vous pouvez supprimer les utilisateurs ayant bloqué tous les cookies sur les navigateurs de bureau et mobiles.
-solution: Experience Cloud, Analytics, Target, Social
+solution: Experience Cloud, Analytics, Target
 title: Paramètres de confidentialité pour les cookies de navigateur
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
