@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Clients CNAME uniquement. Non applicable pour les scénarios tiers. Le cookie est stocké dans votre domaine, le même domaine utilisé par CNAME et votre demande d’image Analytics. |
 | Taille | 45 octets |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nom du cookie : s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | 4 octets |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nom du cookie : s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké au niveau du domaine de la page. |
 | Taille | Varie en fonction de la taille de l’URL de la page, mais habituellement de 100 à 200 octets |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nom du cookie : s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké au niveau du domaine de la demande d’image ; généralement sous un sous-domaine spécifique au client sous 2o7.net ou omtrdc.net si vous utilisez des cookies tiers ou si votre domaine utilise des cookies propriétaires |
 | Taille | 44 octets |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Pour plus d’informations, reportez-vous à l’aide d’Analytics sur les [coo
 | Emplacement | Ce cookie est stocké sur votre domaine en tant que cookie propriétaire |
 | Taille | 33 octets |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Indicateurs de cookie
 
@@ -108,7 +108,7 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 | s_cc (Javascript) | Non | Non | Non défini |
 | s_sq (Javascript) | Non | Non | Non défini |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ Le tableau suivant décrit les indicateurs des cookies Analytics :
 
 ## Cookies définis par des modules externes {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-D’autres cookies peuvent être définis en fonction de l’utilisation des modules externes Analytics. Ces cookies sont des fragments de code mis à la disposition du client pour une utilisation dans diverses circonstances. Ces circonstances comprennent la récupération des valeurs de l’URL, la concaténation de valeurs à transmettre à Analytics, la capture de l’abandon de formulaire, etc. Pour plus d’informations sur les cookies définis par chaque module externe, contactez ClientCare. Le cookie [!DNL s_vh] utilisé avec les modules complémentaires *Set Once Per* et *Set and Get Last Value* en est un exemple.
+{{plug-in}}
+
+D’autres cookies peuvent être définis en fonction de l’utilisation des modules externes Analytics. Ces cookies sont des fragments de code mis à la disposition du client pour une utilisation dans diverses circonstances. Ces circonstances comprennent la récupération des valeurs de l’URL, la concaténation de valeurs à transmettre à Analytics, la capture de l’abandon de formulaire, etc. Le cookie [!DNL s_vh] utilisé avec les modules complémentaires *Set Once Per* et *Set and Get Last Value* en est un exemple.
 
 Les variables de conversion (eVarX) transmises lors d’une demande d’image sans JavaScript, tel un code placé dans un e-mail, ne sont correctement attribuées que si le client de messagerie et le navigateur web partagent l’espace de cookies.
