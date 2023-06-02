@@ -5,9 +5,9 @@ breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 100%
       + [Création d’une audience](t-audience-create.md)
       + [Publication d’un segment d’audience Analytics](t-publish-audience-segment.md)
    + Attributs du client Experience Cloud {#customer-attributes}
-      + [Présentation des Attributs du client](attributes.md)
+      + [Attributs du client dans Experience Cloud](attributes.md)
       + [Questions fréquentes sur les attributs du client](faq-crs.md)
       + [À propos du fichier de données et des sources de données pour les attributs du client](crs-data-file.md)
-      + [Création d’une source d’attributs du client et transfert du fichier de données](t-crs-usecase.md)
-      + [Facultatif – Transfert du fichier de données par FTP](t-upload-attributes-ftp.md)
+      + [Création d’une source d’attributs du client et chargement du fichier de données](t-crs-usecase.md)
+      + [Facultatif – Chargement du fichier de données par FTP](t-upload-attributes-ftp.md)
       + [Validation du schéma](validate-schema.md)
       + [Configuration des abonnements](subscription.md)
       + [Mise à jour du schéma](t-update-schema.md)
@@ -46,8 +46,8 @@ ht-degree: 100%
       + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](creative-cloud.md)
       + [Gestion des utilisateurs Creative Cloud](t-admin-add-cc-user.md)
       + [Partage d’un dossier de ressources Experience Cloud](t-share-creative-cloud.md)
-      + [Transfert d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud](t-upload-asset-cc.md)
-      + [Transfert d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
+      + [Chargement d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud](t-upload-asset-cc.md)
+      + [Chargement d’une ressource vers un dossier partagé depuis l’application de bureau Creative Cloud](t-cc-asset-upload-thor.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](assets-file-reqs.md)
       + [Comportement des dossiers partagés](asset-behavior.md)
 + Administration d’Experience Cloud {#administration}

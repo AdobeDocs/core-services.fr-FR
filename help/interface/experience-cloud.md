@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
-workflow-type: ht
-source-wordcount: '1337'
-ht-degree: 100%
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 Dans l’en-tête d’Experience Cloud, vous pouvez :
 
 * Accéder à vos applications et services
-* Rechercher de la documentation sur les produits, des tutoriels et des publications de la communauté
-* Effectuer une recherche globale d’objets commerciaux (pour les utilisateurs Experience Platform uniquement)
+* Dans le menu Aide, recherchez la documentation du produit, des tutoriels et des publications de la communauté. Afficher les résultats dans Experience League.
+* Recherchez globalement des objets commerciaux à l’aide d’une recherche globale (utilisateurs Experience Platform uniquement) dans le champ Rechercher .
 * Gestion des préférences du compte (alertes, notifications et abonnements)
 
 ## Connectez-vous à Experience Cloud {#signin}
@@ -130,7 +130,7 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Notifications et annonces {#notifications}
 

@@ -1,22 +1,22 @@
 ---
-title: Utilisation des attributs du client
-description: Découvrez le service Attributs du client dans Adobe Experience Cloud. Découvrez comment transférer des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
-solution: Experience Cloud
+title: Attributs du client
+description: Découvrez le Attributs du client dans  Experience Cloud. Découvrez comment charger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
+solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: e7c487b9139262b8ba02584b5e8517a3919b8fb2
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
 
-# Présentation des Attributs du client
+# Attributs du client dans Experience Cloud
 
-[!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données GRC. Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
+[!UICONTROL Les attributs du client] dans Experience Cloud vous permettent de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez charger les données dans une source de données d’attributs du client dans Experience Cloud, puis les utiliser dans Adobe Analytics et Adobe Target.
 
 Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**
 
