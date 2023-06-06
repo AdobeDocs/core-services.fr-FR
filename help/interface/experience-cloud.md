@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 Dans l’en-tête d’Experience Cloud, vous pouvez :
 
 * Accéder à vos applications et services
-* Dans le menu Aide, recherchez la documentation du produit, des tutoriels et des publications de la communauté. Afficher les résultats dans Experience League.
-* Recherchez globalement des objets commerciaux à l’aide d’une recherche globale (utilisateurs Experience Platform uniquement) dans le champ Rechercher .
+* Dans le menu Aide, recherchez la documentation du produit, des tutoriels et des publications de la communauté. Affichez les résultats dans Experience League.
+* Effectuez une recherche globale d’objets métier dans le champ de recherche (pour les utilisateurs et utilisatrices d’Experience Platform uniquement).
 * Gestion des préférences du compte (alertes, notifications et abonnements)
 
 ## Connectez-vous à Experience Cloud {#signin}
