@@ -6,7 +6,7 @@ title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
