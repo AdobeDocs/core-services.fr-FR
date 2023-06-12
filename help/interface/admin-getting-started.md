@@ -1,5 +1,5 @@
 ---
-title: Gérer les utilisateurs et les produits
+title: Gérer les utilisateurs, les utilisatrices et les produits
 description: Connectez-vous à Admin Console et gérez les autorisations utilisateur et produits Experience Cloud (profils de produit). Découvrez comment déléguer des droits d’administration aux utilisateurs Experience Cloud et comment obtenir de l’aide pour les navigateurs dans Experience Cloud.
 solution: Admin
 index: true
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Une fois la migration terminée, les utilisateurs se connectent à lʼaide de le
 **Aide connexe**
 
 * [Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr)
-* [Migration de l’ID d’utilisateur Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Migration de l’ID d’utilisateur Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=fr)
 
 ## Gestion d’Adobe Target - profils de produits ou espaces de travail {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -236,9 +236,9 @@ Voir [Administration](https://experienceleague.adobe.com/docs/audience-manager/u
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les applications individuelles ne les prennent pas tous en charge. (Par exemple, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) ne prend pas en charge [!DNL Opera] et [!DNL Adobe Target]   ne prend pas en charge [!DNL Safari].)
+**Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les applications individuelles ne les prennent pas tous en charge. (Par exemple, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=fr) ne prend pas en charge [!DNL Opera] et [!DNL Adobe Target]  ne prend pas en charge [!DNL Safari].)
 
 ### Exigences des solutions et des produits
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=fr)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=fr)
