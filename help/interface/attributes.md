@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ Pour localiser cette fonctionnalité, accédez à **[!DNL Experience Platform]**
 
 * **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-   Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si les *Attributs du client* sont répertoriés comme l’un des [!UICONTROL profils de produits], vous êtes prêt à commencer.
 
-   Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
+  Les utilisateurs membres des Attributs du client ont accès aux options du menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
-   Voir [Déploiement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Voir [Déploiement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
 
 ## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
