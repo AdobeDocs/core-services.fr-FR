@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,28 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Juillet - Août 2023
+
+Version : **20 juillet - 31 août 2023**
+
+Adobe met à jour son approvisionnement pour fournir tous les [!DNL Experience Cloud] l&#39;accès des clients aux capacités fondamentales qui facilitent l&#39;interopérabilité entre certains [!DNL Experience Cloud] produits. Les utilisateurs auront [!DNL Experience Platform] comme nouveau droit ajouté à leur [!DNL Experience Cloud] organisations, avec [Collecte de données](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=fr) en tant que service inclus. [!DNL Experience Platform] [!UICONTROL Collecte de données] comprend des balises pour simplifier la gestion universelle des balises et offre une infrastructure de données de diffusion en continu fiable, robuste et complète. Cette mise à jour simplifie la collecte de données d’expérience et simplifie la diffusion de l’expérience.
+
+Avec cette mise à jour, les administrateurs peuvent voir des modifications ou des ajouts au Admin Console :
+
+* L&#39;Adobe [!DNL Experience Platform] La carte de produit dans le Admin Console comprend : [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=fr), [Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr), [Environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr), [Modèle de données d’expérience](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr), [Schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr), et [ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr).
+
+   * Pour les organisations qui n’utilisent pas actuellement [!DNL Experience Platform], vous verrez désormais le [!DNL Experience Platform] dans le [!UICONTROL Admin Console], y compris les fonctionnalités répertoriées ci-dessus.
+
+   * Pour les organisations qui utilisent actuellement [!DNL Experience Platform], [!UICONTROL Places] est consolidée dans la variable [!DNL Experience Platform] carte.
+
+* Adobe [!DNL Experience Platform] [Collecte de données](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=fr) (anciennement [!DNL Launch]) et [Confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr) continuera à apparaître sous la forme de leurs propres cartes de produits, distinctes des autres [!DNL Experience Platform] fonctionnalités
+
+## Mai 2023
+
+Publication : le **25 mai 2023**
+
+* Dans le menu d’**[!UICONTROL Aide]** d’[!DNL Experience Cloud], la recherche de contenu a été mise à jour afin de filtrer par application dans les résultats de la recherche sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 
 ## Juillet - 2022
 
@@ -35,7 +57,7 @@ Publication prévue le : **11 juillet 2022**
 | ------- | ------- |
 | Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Accès rapide]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées dans [!UICONTROL Accès rapide]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Avril 2022
 
@@ -43,7 +65,7 @@ Publication prévue le : **11 juillet 2022**
 | ------- |-------|
 | Recherche en langage naturel | Grâce à la recherche unifiée et son interface unique, obtenez des réponses instantanées à toutes vos questions d’aide. Retrouvez cette fonctionnalité sur chaque page d’[!DNL Experience Platform] et de [!DNL Journey Optimizer]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mars 2022
 
@@ -66,7 +88,7 @@ Publication prévue le : **11 juillet 2022**
 | Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations pour les graphiques dans le workflow de création de widgets dʼExperience Platform. En fonction dʼune sélection de données (actuellement une sélection de données à variable unique), [!DNL Helios] recommande une visualisation appropriée pour accompagner cette sélection de données. |
 | Tableaux de bord AEP | [!DNL Instory] fournit une narration écrite basée sur le machine learning et des légendes pour les graphiques. Il agrémente les graphiques sur la page des tableaux de bord AEP avec des points à puces pertinents, qui reflètent tout changement et incident majeur dans les données du graphique. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Octobre - 2021
 
@@ -77,7 +99,7 @@ Publication prévue le : **11 juillet 2022**
 | Navigation vers Experience Cloud [!UICONTROL Triggers] | La navigation directe vers [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=fr) est possible à partir du sélecteur dʼapplication dans lʼen-tête pour les utilisateurs provisionnés. |
 | **Remarque :** mise à jour prévue de lʼinterface de navigation | En novembre 2021, la fonctionnalité de navigation _[!UICONTROL Accéder à Launch/Collecte de données]_ sera supprimée de la page <https://experience.adobe.com/implement>. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Août - 2021
 
@@ -94,9 +116,9 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
 | Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir d’adresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `adobecustomer.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Recherche Experience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Rechercher]** pour trouver des tutoriels, de la documentation, des cours, etc. |
+| Recherche Experience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Rechercher]** pour localiser les tutoriels, la documentation, les cours, etc. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mai - 2021
 
@@ -106,7 +128,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Recherche globale Experience Cloud | 20 mai 2021 | Avec cette version, la recherche globale Experience Cloud vous permet de rechercher n’importe quels cours, documentation et tutoriels d’[Experience League](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel élément commercial dans Experience Cloud, tel que les segments, les ensembles de données, les schémas, etc.). |
 | Préférences de langue Experience Cloud | 20 mai 2021 | Cette mise à jour offre la possibilité de définir vos langues préférées dans les [Préférences](https://experience.adobe.com/preferences) Experience Cloud. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Août - 2020
 
@@ -114,7 +136,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | -----------| ---------- |
 | Outil d’administration - Politiques | Cette page affiche la liste complète des politiques Experience Cloud de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques. Voir l’aide de [l’outil d’administration Experience Cloud](admin-tool-experience-cloud.md) pour en savoir plus. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Avril - 2020
 
@@ -127,7 +149,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | -----------| ---------- |
 | Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Voir l’aide de [l’outil d’administration Experience Cloud](admin-tool-experience-cloud.md) pour en savoir plus. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correctifs**
 
@@ -245,7 +267,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 
 ## Version 15.9 - 10 septembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Correction d’un problème de performance de l’API Audience Manager, qui provoquait des temporisations intermittentes lors du transfert de données d’attributs du client. (MAC-26305)
+* Correction d’un problème de performance de l’API Audience Manager, qui provoquait des temporisations intermittentes lors du chargement de données d’attributs du client. (MAC-26305)
 * Correction d’un problème qui empêchait les utilisateurs d’ajouter jusqu’à 200 attributs du client à un abonnement. (MAC-26188)
 * Correction d’un problème lié à la bibliothèque d’audiences qui empêchait le partage d’audiences à partir de la segmentation Analytics. Ce problème entraînait l’affichage de « Collecte de données » (0 audience). Pour éviter ce problème, Adobe conseille de conserver les tailles des segments en dessous de 50 000 membres d’audience par segment. (MAC-25788)
 * Correction d’un ancien problème connu sur la page Attributs du client – Schéma d’édition qui provoquait une erreur de reconnaissance du contenu lors de la modification d’un nom d’affichage. (MAC-25589, AN-103834)
@@ -253,7 +275,7 @@ Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!U
 ## Version 15.7 - 22 juillet 2015 {#section_2683A152176944E48EF6C943892975B7}
 
 * Correction d’un problème qui empêchait la mise à jour des descriptions d’attribut spécifiées sur la page Afficher/Modifier le schéma (dans les attributs du client) dans les rapports Analytics. (MAC-25985)
-* Correction d’un problème empêchant le rendu des miniatures pour les ressources transférées. (MAC-25863)
+* Correction d’un problème empêchant le rendu des miniatures pour les ressources chargées. (MAC-25863)
 * Correction d’un problème en raison duquel les segments créés dans les Reports &amp; Analytics n’étaient pas disponibles dans les audiences Experience Cloud. (MAC-25817)
 * Correction d’un problème qui empêchait le partage des audiences à partir d’Analytics lors de l’utilisation du service d’identification des visiteurs. (MAC-25788, MAC-25747)
 * Ajout de la prise en charge des caractères à plusieurs octets dans les attributs du client. (MAC-25552)
@@ -334,7 +356,7 @@ Pas d’informations disponibles.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Attributs du client </p> </td> 
-   <td colname="col2"> <p>Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Une fois les données transférées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données transférées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus dʼinformations sur la modernisation de vos applications pour les services principaux, consultez la section <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activation de vos applications pour les services principaux</a>. </p> </td> 
+   <td colname="col2"> <p>Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les charger dans une source de données d’attributs du client dans Experience Cloud. Une fois les données chargées, vous pouvez exécuter les rapports <span class="uicontrol">Profil du visiteur</span> &gt; <span class="uicontrol">Attributs du client</span> dans Analytics. </p> <p>Vous pouvez également utiliser les données chargées sous forme d’un segment d’audience dans <span class="keyword">Adobe Target</span>. </p> <p>Reportez-vous à la documentation du produit <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Attributs du client</a>. </p> <p> Pour plus dʼinformations sur la modernisation de vos applications pour les services principaux, consultez la section <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activation de vos applications pour les services principaux</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,13 +422,13 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 **Correctifs**
 
 * Correction d’un problème en raison duquel les fichiers PNG ne pouvaient pas être restitués sur une carte.
-* Correction d’un problème de transfert par glisser-déplacer des fichiers vers Experience Cloud Assets.
+* Correction d’un problème de chargement par glisser-déplacer des fichiers vers Experience Cloud Assets.
 
 **Problèmes connus**
 
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
-* Certains utilisateurs peuvent rencontrer des problèmes lors du transfert de certains types de fichiers volumineux vers Experience Cloud Assets.
+* Certains utilisateurs peuvent rencontrer des problèmes lors du chargement de certains types de fichiers volumineux vers Experience Cloud Assets.
 * Certains liens Advertising Cloud peuvent être manquants sur les cartes Experience Cloud des utilisateurs.
 * Certains administrateurs peuvent rencontrer des problèmes lors de la liaison de leurs comptes après acceptation d’une invitation à rejoindre Experience Cloud.
 * Les performances de l’interface d’Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par plusieurs utilisateurs.
@@ -416,7 +438,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Pour certains utilisateurs, la notification qui survient lorsqu’un dossier est partagé d’Experience Cloud vers Creative Cloud peut être retardée.
 * Certains utilisateurs peuvent rencontrer un problème lors du partage d’un dossier entre Experience Cloud et Creative Cloud.
 * Certains utilisateurs peuvent rencontrer des problèmes lors de la création d’une audience dans une suite de rapports Analytics une fois les audiences partagées activées.
-* Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
+* Certains utilisateurs peuvent rencontrer des difficultés lors du chargement de ressources vers un panorama.
 
 ## Version 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
@@ -424,7 +446,7 @@ Problèmes connus :
 
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
 * Certains fichiers [!DNL .png] ne peuvent pas être restitués sur une carte.
-* Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
+* Certains utilisateurs peuvent rencontrer des difficultés lors du chargement de ressources vers un panorama.
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Les administrateurs doivent se déconnecter puis se reconnecter pour voir les modifications apportées dans les paramètres du compte.
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
@@ -460,7 +482,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 **Problèmes connus**
 
-* Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
+* Certains utilisateurs peuvent rencontrer des difficultés lors du chargement de ressources vers un panorama.
 * Certains fichiers [!DNL .png] ne peuvent pas être restitués sur une carte.
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Certains utilisateurs peuvent ne pas être en mesure de créer une carte à partir d’un PDF et de la partager sur un panorama.
@@ -480,7 +502,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Certains utilisateurs ne peuvent pas créer de carte à partir dʼun PDF et la partager sur un panorama.
-* Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
+* Certains utilisateurs peuvent rencontrer des difficultés lors du chargement de ressources vers un panorama.
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
 * Certains fichiers [!DNL .png] ne peuvent pas être restitués sur une carte.
@@ -511,7 +533,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Certains utilisateurs peuvent ne pas être en mesure de créer une carte à partir d’un PDF et de la partager sur un panorama.
-* Certains utilisateurs peuvent rencontrer des difficultés lors du transfert de ressources vers un panorama.
+* Certains utilisateurs peuvent rencontrer des difficultés lors du chargement de ressources vers un panorama.
 * Certains utilisateurs peuvent ne pas être en mesure de se connecter à [!DNL Target] depuis [!DNL Experience Cloud].
 * Certains utilisateurs Audience Manager ne peuvent pas se connecter à [!DNL Experience Cloud].
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
@@ -531,7 +553,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les fichiers supprimés dans [!DNL Experience Cloud] ne le sont pas dans [!DNL Digital Asset Management].
 * Le nom de certains utilisateurs d’[!UICONTROL Exchange] dans les commentaires peut apparaître sous forme d’un long identifiant à la place de leur nom réel.
 * Certains fichiers [!DNL .png] ne peuvent pas être restitués sur une carte.
-* La méthode de transfert de fichiers par glisser-déplacer prend en charge davantage de types de fichier. Pour de meilleurs résultats, transférez les fichiers à l’aide du composant [!UICONTROL Assets].
+* La méthode de transfert de fichiers par glisser-déplacer prend en charge davantage de types de fichier. Pour de meilleurs résultats, chargez les fichiers à l’aide du composant [!UICONTROL Assets].
 * La liaison [!DNL Search&Promote] n’est pas accessible sur la page [!UICONTROL Organisations et accès aux produits].
 * Les utilisateurs d’[!DNL Exchange] doivent effacer leurs cookies pour améliorer leurs conditions d’utilisation.
 * L’interface d’[!DNL Experience Cloud] peut ralentir lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
@@ -569,7 +591,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 **Problèmes connus**
 
 * Les fichiers supprimés dans [!DNL Experience Cloud] ne le sont pas dans [!DNL Digital Asset Management].
-* La méthode de transfert de fichiers par glisser-déplacer prend en charge davantage de types de fichier. Pour de meilleurs résultats, transférez les fichiers à l’aide du composant Assets.
+* La méthode de transfert de fichiers par glisser-déplacer prend en charge davantage de types de fichier. Pour de meilleurs résultats, chargez les fichiers à l’aide du composant Assets.
 * La liaison [!DNL Search&Promote] n’est pas accessible sur la page [!UICONTROL Organisations et accès aux produits].
 * Les filtres appliqués aux rapports de tendance d’[!DNL Analytics] ne s’appliquent pas aux cartes dans [!DNL Experience Cloud].
 * Certains utilisateurs ne sont pas en mesure de lier leur compte de gestion de l’audience à leur compte [!DNL Experience Cloud].
@@ -578,7 +600,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 
 **Correctifs**
 
-* Correction d’un problème empêchant le transfert des vidéos vers les applications.
+* Correction d’un problème empêchant le chargement des vidéos vers les applications.
 
 ## Version 14.5.1 - 22 mai 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
@@ -672,7 +694,7 @@ Nouvelles fonctionnalités et correctifs dans l’interface de collaboration et 
 * Les cartes de simulation [!DNL Adobe Advertising Cloud] ne sont pas correctement restituées.
 * Les filtres appliqués aux rapports de tendance d’[!DNL Analytics] ne sont pas appliqués aux cartes dans [!DNL Experience Cloud].
 * Les filtres appliqués aux rapports de tendance d’Analytics ne sont pas appliqués aux cartes dans Experience Cloud.
-* Certains fichiers Excel ou CSV ne peuvent pas être transférés sur un panorama.
+* Certains fichiers Excel ou CSV ne peuvent pas être chargés sur un panorama.
 * Certains utilisateurs peuvent ne pas arriver à lier leur compte de gestion de l’audience à leur compte [!DNL Experience Cloud].
 * Certains utilisateurs peuvent rencontrer des erreurs lors du partage de segments [!DNL Analytics] dans [!DNL Experience Cloud].
 * Certains utilisateurs peuvent ne pas parvenir à accéder aux sous-dossiers dans le [!UICONTROL sélecteur de ressources].
@@ -707,7 +729,7 @@ La version 14.3.1 est une version de maintenance axée sur la vitesse, la stabi
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * La liaison [!DNL Search&Promote] n’est pas accessible dans les [!UICONTROL organisations et l’accès aux produits].
 * Les utilisateurs doivent actualiser le panorama pour que les cartes supprimées disparaissent de la vue.
-* Certains fichiers Excel ou CSV ne peuvent pas être transférés sur un panorama.
+* Certains fichiers Excel ou CSV ne peuvent pas être chargés sur un panorama.
 * Les cartes de simulation [!DNL Adobe Advertising Cloud] ne sont pas correctement restituées.
 * Certains fichiers PNG ne peuvent pas être restitués sur une carte.
 * Les commentaires bêta ne peuvent pas être envoyés.
