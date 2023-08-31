@@ -1,26 +1,26 @@
 ---
-description: Découvrez les cookies Adobe Ad Cloud, qui permettent de mapper les événements d’engagement publicitaire avec des événements de conversion et, potentiellement, d’utiliser ces informations afin d’optimiser les offres publicitaires.
-title: 'Cookies Advertising Cloud '
+description: Découvrez les cookies d’Adobe Advertising pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+title: Cookies d’Adobe Advertising
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Cookies Advertising Cloud{#advertising-cloud-cookies}
+# Cookies d’Adobe Advertising{#advertising-cloud-cookies}
 
-Advertising Cloud utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
+Adobe Advertising (anciennement Adobe Advertising Cloud) utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
 
 >[!NOTE]
 >
->La version Beta de la balise JavaScript Advertising Cloud utilisant le [service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des [cookies s_ecid Experience Cloud propriétaires](cookies-first-party.md), et non des cookies Advertising Cloud.
+>La balise JavaScript de l’Adobe Advertising bêta qui utilise la variable [Service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée [cookies s_ecid Experience Cloud propriétaires](cookies-first-party.md), pas d’Adobe Advertising des cookies.
 
 ## Nom du cookie : _lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID codés et horodatages des engagements publicitaires à l’aide du suivi Advertising Cloud DSP </p> </td> 
+   <td colname="col2"> <p>ID codés et horodatages des engagements publicitaires à l’aide du suivi des Adobes Advertising DSP </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
-   <td colname="col2"> <p>Les cookies définis le 24 février 2021 ou précédemment expirent au bout de 730 jours. Les cookies définis le 25 février 2021 ou ultérieurement expirent au bout de 364 jours.</p> </td> 
+   <td colname="col2"> <p>1 an</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie propriétaire qui associe l’ID de surfeur aux conversions et aux segments d’audience pertinents </p> <p> Les informations sur la dernière visite sont utilisées pour optimiser les temps de chargement des pages en évitant les demandes inutiles aux serveurs Adobe. </p> <p>Les informations sur le dernier clic de recherche permettent de déterminer si un événement de conversion résulte d’un clic ou d’un affichage publicitaire (conversion résultant d’impressions mais pas de clics). </p> </td> 
+   <td colname="col2"> <p>Cookie propriétaire qui associe l’ID de surfeur aux conversions et aux segments d’audience pertinents </p> <p> Les informations sur la dernière visite sont utilisées pour optimiser les temps de chargement des pages en évitant les requêtes inutiles à la variable [!DNL Adobe] serveurs. </p> <p>Les informations sur le dernier clic de recherche permettent de déterminer si un événement de conversion résulte d’un clic ou d’un affichage publicitaire (conversion résultant d’impressions mais pas de clics). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
  </tbody> 
 </table>
 
-## Nom du cookie : ev_sync_*
+## Nom du cookie : ev_sync_&#42;
 
 (ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
@@ -143,7 +143,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
-   <td colname="col2"> <p>Cookie tiers spécifique à un échange publicitaire qui synchronise l’ID de surfeur Advertising Cloud avec l’échange de publicités partenaire. Il est créé pour les nouveaux surfeurs et envoie une demande de synchronisation une fois expiré. </p> </td> 
+   <td colname="col2"> <p>Cookie tiers spécifique à l’échange publicitaire qui synchronise l’ID de surfeur d’Adobe Advertising avec l’échange publicitaire partenaire. Il est créé pour les nouveaux surfeurs et envoie une demande de synchronisation une fois expiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Emplacement </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
-   <td colname="col2"> <p>2 ans </p> </td> 
+   <td colname="col2"> <p>1 an </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilisation </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud utilise des cookies pour mapper les événements d’engagemen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p>ID DSP (Demand Side Platform) Advertising Cloud </p> </td> 
+   <td colname="col2"> <p>ID d’Adobe Advertising DSP (Demand Side Platform) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration </p> </td> 
