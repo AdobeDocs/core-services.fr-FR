@@ -5,17 +5,17 @@ breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: ht
+source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
+workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Composants de l’interface centrale Experience Cloud guide](experience-cloud.md)
++ [Composants de lʼinterface centrale dʼExperience Cloud guide](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
@@ -66,7 +66,7 @@ ht-degree: 100%
       + [Cookies [!UICONTROL Data Connectors]](cookies-dc.md)
       + [Cookies [!UICONTROL Data Workbench]](cookies-insight.md)
       + [Cookies Experience Cloud](cookies-mc.md)
-      + [Cookies Advertising Cloud](cookies-advertising-cloud.md)
+      + [Adobe Advertising des cookies](cookies-advertising-cloud.md)
       + [Cookies [!DNL Scene7]](cookies-s7.md)
       + [Cookies [!DNL Search and Promote]](cookies-snp.md)
       + [Cookies [!DNL Target]](cookies-target.md)
