@@ -1,11 +1,11 @@
 ---
-audience: administrator
+role: User,Admin
 user-guide-title: Composants de lʼinterface centrale dʼExperience Cloud
 breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
-description: Découvrez l’interface ainsi que les préférences du compte utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
+description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
+source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
 workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
