@@ -1,14 +1,13 @@
 ---
 description: Découvrez les composants de l’interface centrale d’Experience Cloud. Cette aide inclut l’administration des utilisateurs et des produits dans Admin Console, l’activation d’applications pour les services Experience Cloud et des informations pour obtenir de l’aide au sujet de la bibliothèque d’audiences, des attributs du client, d’Experience Cloud Assets, etc.
-solution: Experience Cloud
 title: Aide et documentation de l’interface Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
 workflow-type: ht
 source-wordcount: '1347'
 ht-degree: 100%
@@ -77,7 +76,7 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 
 ## Prise en charge linguistique dans Experience Cloud {#languages}
 
-Experience Cloud prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
+Experience Cloud prend en charge les langues préférées de chaque utilisateur ou utilisatrice, telles que définies dans les préférences de votre compte d’utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
 
 * Chinois
 * Anglais
