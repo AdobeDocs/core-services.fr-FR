@@ -1,17 +1,16 @@
 ---
 description: Découvrez comment implémenter la prérécupération DNS pour réduire le temps de chargement des pages de différents services et applications dans Experience Cloud.
 solution: Experience Cloud
-title: 'Utilisation de la prérécupération DNS avec différents services et applications '
+title: Utilisation de la prérécupération DNS avec différents services et applications
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ Les navigateurs utilisent la prérécupération DNS pour associer automatiquemen
 
 ## Prérécupération DNS et applications Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec les différents services et applications [!UICONTROL Experience Cloud], car :
+La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec des [!UICONTROL Experience Cloud] applications et services car :
 
 * Chaque application ou service Experience Cloud génère de manière dynamique des appels DNS au fur et à mesure du chargement de la page.
 * Le navigateur ne peut pas convertir les noms de domaine en adresse IP avant ces appels.
@@ -38,7 +37,7 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Analytics :** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   Ajoutez une balise distincte pour chaque nom DNS si vous utilisez des serveurs de suivi sécurisés et non sécurisés.
+  Ajoutez une balise distincte pour chaque nom DNS si vous utilisez des serveurs de suivi sécurisés et non sécurisés.
 
 * **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 >[!MORELIKETHIS]
 >
 >* [Prérécupération DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
-

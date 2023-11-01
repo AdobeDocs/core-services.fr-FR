@@ -3,12 +3,12 @@ description: Modernisez vos applications Adobe Analytics et Adobe Target pour ob
 solution: Experience Cloud
 title: Activation des applications pour les services entre applications
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -116,7 +116,7 @@ Par exemple, supposons que Robert a l’identifiant de client `52mc210tr42` dans
 
 L’ID de client doit être défini dans chaque appel au serveur [!DNL Analytics] où il est connu.
 
-#### Analytics : Synchronisation de l’ID client avec la méthode de renvoi du Data Warehouse
+#### Analytics : synchronisation de l’ID client avec la méthode de renvoi du Data Warehouse
 
 Lorsque les attributs du client sont devenus disponibles pour la première fois, certains clients n’avaient pas encore mis en oeuvre le service d’ID d’Experience Cloud et ne pouvaient pas utiliser facilement les attributs du client. Pour résoudre ce problème, Adobe a créé un moyen d’effectuer un renvoi des synchronisations des identifiants à l’aide du Data Warehouse Adobe Analytics. Cette fonctionnalité est connue sous le nom de renvoi du Data Warehouse. Le renvoi du Data Warehouse n’est désormais généralement plus nécessaire et ne sera donc plus disponible à partir d’octobre 2022.
 
@@ -151,9 +151,9 @@ Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant
 * Si vous nʼutilisez pas [!UICONTROL Experience Platform Launch], [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=fr) manuellement.
 * Demandez lʼaccès afin dʼutiliser Adobe Analytics comme source de création de rapports pour [!DNL Adobe Target]. Les données de [!DNL Target] et dʼ[!DNL Analytics] sont combinées dans le même appel au serveur durant le traitement afin que les visiteurs soient connectés entre les deux applications. Voir [Implémentation d’Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr).
 
-   >[!IMPORTANT]
-   >
-   >Tous les clients d’Analytics sont déjà configurés pour les services principaux ainsi que pour les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
+  >[!IMPORTANT]
+  >
+  >Tous les clients d’Analytics sont déjà configurés pour les services principaux ainsi que pour les attributs du client. Si vous n’êtes pas client d’Analytics, contactez le service à la clientèle pour demander à recevoir les privilèges d’accès.
 
 ## Vérification de la mise en œuvre {#section_E641782A0F4F44AF8C9C91216BE330D5}
 

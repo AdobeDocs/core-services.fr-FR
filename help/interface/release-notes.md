@@ -3,12 +3,13 @@ description: Découvrez les dernières fonctionnalités, notes de mise à jour e
 solution: Experience Cloud
 title: Notes de mise à jour cumulatives
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: Customer Attributes
+feature-set: Experience Cloud
+feature: Release Notes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '4770'
 ht-degree: 100%
@@ -374,7 +375,7 @@ Pas d’informations disponibles.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Groupe Mappage </p> </td> 
+   <td colname="col1"> <p>Mappage de groupe </p> </td> 
    <td colname="col2"> <p>La page Gestion des groupes a été remodelée en une interface administrative dans laquelle vous pouvez créer des groupes, ajouter des utilisateurs aux groupes et appliquer des autorisations à lʼéchelle de plusieurs applications Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
