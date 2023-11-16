@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
+source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1616'
 ht-degree: 79%
 
 ---
@@ -58,7 +58,7 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la c
    **Sécurisé** : par exemple, le nom d’hôte `smetrics.example.com` désigne : `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
-   > Auparavant, Adobe recommandait aux clients de configurer deux CNAME, l’un pour HTTPS et l’autre pour HTTP. Comme il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne vous recommandons plus de configurer un CNAME pour le protocole HTTP. Il est désormais recommandé de définir les deux `trackingServer` et `trackingServerSecure` avec le même CNAME. Par exemple, les deux `trackingServer` et `trackingServerSecure` est défini sur `smetrics.example.com`. HTTP est autorisé uniquement pour les noms d’hôte tiers.
+   > Auparavant, Adobe recommandait aux clients de configurer deux CNAME, l’un pour HTTPS et l’autre pour HTTP. Comme il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne vous recommandons plus de configurer un CNAME pour le protocole HTTP. Il est désormais recommandé de définir les deux `trackingServer` et `trackingServerSecure` avec le même CNAME. Par exemple, les deux `trackingServer` et `trackingServerSecure` est défini sur `smetrics.example.com`. HTTP n’est autorisé que pour les noms d’hôte tiers.
 
 1. Lorsque ce CNAME est en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d’Adobe.
 
@@ -83,9 +83,9 @@ Trente jours avant l’expiration de votre certificat propriétaire, Adobe valid
 | **Comment Adobe peut-il acheter un certificat pour notre domaine ?** | Le certificat ne peut être acheté que lorsque vous avez pointé le nom d’hôte spécifié (par exemple `telemetry.example.com`) vers un nom d’hôte détenu par Adobe. Cela a essentiellement pour effet de déléguer ce nom d’hôte à Adobe et de permettre à Adobe d’acheter le certificat en votre nom. |
 | **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Ouvrez un ticket auprès de l’assistance clientèle pour terminer l’opération. |
 | **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe fonctionne avec DigiCert pour émettre un certificat SHA-2. |
-| **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe offre ce service à tous les clients actuels d’Adobe Digital Experience sans frais supplémentaires. |
+| **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe offre ce service à tous les clients actuels de l’expérience digitale d’Adobe sans frais supplémentaires. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Créer des enregistrements CNAME
 
@@ -93,14 +93,14 @@ L’équipe des opérations réseau de votre organisation doit configurer vos se
 
 Le spécialiste des cookies propriétaires vous fournit le nom d’hôte configuré et le CNAME vers lequel ils doivent pointer. Par exemple :
 
-* **Nom d’hôte SSL** : `smetrics.mysite.com`
+* **Nom d’hôte SSL** : `smetrics.example.com`
 * **Enregistrement CNAME SSL** : `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Si vous utilisez encore la version non sécurisée, cela ressemble à ce qui suit :
-> * **Nom d’hôte non-SSL** : `metrics.mysite.com`
+>
+> * **Nom d’hôte non-SSL** : `metrics.example.com`
 > * **Enregistrement CNAME non SSL** : `[random-10-character-string].data.adobedc.net`
-
 
 Tant que le code de mise en œuvre n’est pas altéré, cette étape n’a aucune incidence sur la collecte de données et peut avoir lieu à tout moment après la mise à jour du code de mise en œuvre.
 
@@ -163,12 +163,17 @@ Avant de modifier le code de votre site pour utiliser la collecte de données pr
 Après avoir vérifié que vos noms d’hôtes répondent et procèdent au transfert vers les serveurs de collecte de données d’Adobe, vous pouvez modifier votre implémentation afin de pointer vers vos propres noms d’hôtes de collecte de données.
 
 1. Ouvrez votre fichier JavaScript principal (`s_code.js/AppMeasurement.js`).
-1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour la collecte de données propriétaire, localisez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms dʼhôte de collecte de données. Utilisation de mysite.com en tant qu’exemple :`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Pour mettre à jour votre version de code, remplacez votre fichier `s_code.js/AppMeasurement.js` dans son intégralité par la version la plus récente, puis remplacez des modules externes ou personnalisations (le cas échéant). **Ou**, si vous souhaitez mettre à jour le code uniquement pertinent pour la collecte de données propriétaire, localisez les variables s.trackingServer et s.trackingServerSecure (si vous utilisez SSL) et pointez-les vers vos nouveaux noms dʼhôte de collecte de données. Par exemple :
 
-1. Transférez le fichier JavaScript principal mis à jour vers votre site.
+   ```js
+   s.trackingServer = "metrics.example.com";
+   s.trackingServerSecure = "smetrics.example.com";
+   ```
+
+1. Chargez le fichier JavaScript principal mis à jour vers votre site.
 
 1. Si vous passez à la collecte de données propriétaire à partir dʼune implémentation de longue date ou si vous modifiez le nom dʼhôte de la collecte propriétaire, Adobe vous recommande dʼeffectuer la migration des visiteurs du domaine précédent vers le nouveau domaine.
 
 Voir [Migration des Visiteurs](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=fr) dans le Guide de mise en œuvre d’Analytics.
 
-Après avoir transféré le fichier JavaScript, tout est configuré pour la collecte de données propriétaire. Adobe vous recommande de surveiller le compte rendu des performances d’Analytics durant les heures qui suivent afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
+Après avoir chargé le fichier JavaScript, tout est configuré pour la collecte de données propriétaire. Adobe vous recommande de surveiller le compte rendu des performances d’Analytics durant les heures qui suivent afin de vous assurer que la collecte de données se poursuit normalement. Si ce n’est pas le cas, vérifiez que toutes les étapes ci-dessus sont terminées et demandez à l’assistance utilisateurs de votre entreprise de contacter l’assistance clientèle.
