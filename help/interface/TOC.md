@@ -5,9 +5,9 @@ breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '341'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [Cookies [!DNL Target]](cookies-target.md)
       + [Activation des paramètres de confidentialité pour les cookies de navigateur](browser-cookie-settings.md)
       + [Comment les modifications apportées à la prise en charge des cookies tiers affectent-elles les clients](cookies-thirdparty.md)
++ [Experience Cloud Triggers](triggers.md)
 + Notes de mise à jour de l’interface utilisateur d’Experience Cloud {#release-notes}
    + [Notes de mise à jour des composants de l’interface centrale](release-notes.md)
    + [Notes de mise à jour de l’ensemble des solutions Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
