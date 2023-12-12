@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 97%
+source-wordcount: '524'
+ht-degree: 99%
 
 ---
 
@@ -44,8 +44,6 @@ Mise à jour de la [FAQ sur l’administration](faq.md) avec des informations su
 | ------- | ------- |
 | Recherche unifiée | La recherche unifiée continue dʼajouter des types dʼobjets à lʼindex de recherche. Cette mise à jour permet désormais à la recherche globale dʼeffectuer des recherches dans lʼensemble du contenu dʼExperience League et dans les types dʼobjets Journey Optimizer suivants : <ul><li>Jeux de données</li><li>Destinations</li><li>Requêtes</li><li>Schémas</li><li>Segments</li><li>Sources</li><li>Offres</li><li>Composants</li><li>Messages</li><li>Parcours</li></ul> |
 | Consentement pour les données dʼutilisation des produits | Lors de la première connexion, vous êtes invité à indiquer vos préférences sur la manière dont Adobe vous propose un contenu utile et personnalisé, tel que des tutoriels, des guides, des conseils rapides, des recommandations, des vidéos dʼapprentissage et autres, en fonction des données dʼutilisation des produits Experience Cloud. Cette demande comprend également une mise à jour de vos préférences en matière de collecte et dʼutilisation de ces données à lʼadresse <https://experience.adobe.com/preferences>. |
-| Navigation vers Experience Cloud [!UICONTROL Triggers] | La navigation directe vers [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=fr) est possible à partir du sélecteur dʼapplication dans lʼen-tête pour les utilisateurs provisionnés. |
-| **Remarque :** mise à jour prévue de lʼinterface de navigation | En novembre 2021, la _[!UICONTROL Accès à la collecte de données]_ La fonction de navigation sera supprimée de <https://experience.adobe.com/implement>. |
 
 **Mise à jour : 24/08/2021**
 
@@ -109,10 +107,6 @@ Révision de la dernière version du guide.
 **Mise à jour : 15/03/2017**
 
 Mise à jour de la définition des données Analytics brutes dans [Création d’une audience](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
-
-**Mise à jour : 23/02/2017**
-
-Ajout de la section [Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Mise à jour : 01/02/2017**
 
