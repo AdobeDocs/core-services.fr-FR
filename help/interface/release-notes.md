@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
-workflow-type: ht
-source-wordcount: '4770'
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+workflow-type: tm+mt
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ Publication prévue le : **11 juillet 2022**
 | ------- | ------- |
 | Recherche unifiée | La recherche unifiée continue dʼajouter des types dʼobjets à lʼindex de recherche. Cette mise à jour permet désormais à la recherche globale dʼeffectuer des recherches dans lʼensemble du contenu dʼExperience League et dans les types dʼobjets Journey Optimizer suivants : <ul><li>Jeux de données</li><li>Destinations</li><li>Requêtes</li><li>Schémas</li><li>Segments</li><li>Sources</li><li>Offres</li><li>Composants</li><li>Messages</li><li>Parcours</li></ul> |
 | Consentement pour les données dʼutilisation des produits | Lors de la première connexion, vous êtes invité à indiquer vos préférences sur la manière dont Adobe vous propose un contenu utile et personnalisé, tel que des tutoriels, des guides, des conseils rapides, des recommandations, des vidéos dʼapprentissage et autres, en fonction des données dʼutilisation des produits Experience Cloud. Cette demande comprend également une mise à jour de vos préférences en matière de collecte et dʼutilisation de ces données à lʼadresse <https://experience.adobe.com/preferences>. |
-| Navigation vers Experience Cloud [!UICONTROL Triggers] | La navigation directe vers [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=fr) est possible à partir du sélecteur dʼapplication dans lʼen-tête pour les utilisateurs provisionnés. |
-| **Remarque :** mise à jour prévue de lʼinterface de navigation | En novembre 2021, la fonctionnalité de navigation _[!UICONTROL Accéder à Launch/Collecte de données]_ sera supprimée de la page <https://experience.adobe.com/implement>. |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 **Correctifs**
 
 * Correction d’un problème qui empêchait la liaison et l’authentification unique d’Analytics. Ce problème affichait « Avertissement : Message d’erreur : Échec de l’authentification unique IMS : Impossible de trouver la société liée. »
-
-**Problème connu**
-
-Si vous accédez à Dynamic Tag Management par le biais de l’interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]**, mais que le compte de votre solution n’est pas lié à Experience Cloud (Adobe ID), vous ne serez pas en mesure de vous connecter à Dynamic Tag Management. Pour éviter ce problème, accédez directement à `dtm.adobe.com` dans un nouvel onglet du navigateur.
 
 ## Version 16.1 - 21 janvier 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Pas d’informations disponibles.
    <td colname="col1"> <p>Mappage de type « un à plusieurs » </p> </td> 
    <td colname="col2"> <p>Lors de la liaison de comptes dʼapplication dans Experience Cloud, si vous disposez de plusieurs applications et organisations, vous pouvez désormais mapper plusieurs produits et services à une seule organisation. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> Le terme <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> s’affiche maintenant dans le volet de navigation de gauche d’<span class="keyword">Experience Cloud</span>. Le service <span class="wintitle">Activation</span> dʼ<span class="keyword">Experience Cloud</span> repose actuellement sur la technologie Dynamic Tag Management et vous y oriente si vous cliquez dessus. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Mises à jour de la documentation - Services principaux </p> </td> 
    <td colname="col2"> <p>Ajout de la rubrique <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activation des applications pour les services principaux</a> qui aide à lʼimplémentation des services principaux. </p> </td> 
   </tr> 
