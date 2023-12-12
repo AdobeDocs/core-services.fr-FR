@@ -5,17 +5,17 @@ breadcrumb-title: Composants de lʼinterface centrale dʼExperience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 98%
 
 ---
 
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Composants de lʼinterface centrale dʼExperience Cloud guide](experience-cloud.md)
++ [Guide des composants de l’interface centrale Experience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [Prise en charge du Règlement général sur la protection des données](gdpr.md)
       + [Prise en charge du California Consumer Privacy Act](ccpa.md)
       + [Considérations relatives à la confidentialité des attributs du client](privacy-mac.md)
-   + Experience Cloud Activation {#activation}
-      + [Présentation de l’Activation](activation.md)
-      + [Guide de l’utilisateur d’Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)
-      + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Présentation des ressources Experience Cloud](experience-cloud-assets.md)
       + [Partage de dossiers et de ressources Experience Cloud avec Creative Cloud](creative-cloud.md)

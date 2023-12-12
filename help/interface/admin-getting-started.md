@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ Les administrateurs peuvent voir les modifications ou les ajouts à Admin Conso
    * Flux de données
    * Visitor ID (Identifiant visiteur)
 
-   Pour les organisations qui n’utilisent pas actuellement Experience Platform, le produit _Adobe Experience Platform_ s’affichera désormais dans Admin Console, y compris les fonctionnalités répertoriées ci-dessus.
+  Pour les organisations qui n’utilisent pas actuellement Experience Platform, le produit _Adobe Experience Platform_ s’affichera désormais dans Admin Console, y compris les fonctionnalités répertoriées ci-dessus.
 
-   Pour les organisations qui utilisent actuellement Experience Platform, _Places_ sera désormais consolidée dans la carte Experience Platform.
+  Pour les organisations qui utilisent actuellement Experience Platform, _Places_ sera désormais consolidée dans la carte Experience Platform.
 
 * La collecte de données Adobe Experience Platform (anciennement Launch) et la confidentialité continueront à apparaître en tant que cartes de produits distinctes des autres fonctionnalités d’Experience Platform.
 
@@ -92,7 +92,7 @@ Admin Console
 * Les utilisateurs d’Adobe ID individuels seront mis à jour pour passer au Business ID.
 * Le répertoire Business ID sera ajouté dans **[!UICONTROL Paramètres]** > **[!UICONTROL Identité]** > **[!UICONTROL Répertoires]**.
 
-   ![Identité d’Admin Console - Business ID](assets/identity-home.png)
+  ![Identité d’Admin Console - Business ID](assets/identity-home.png)
 
 ### Connexion après la migration
 
@@ -208,13 +208,13 @@ Un *client* dans Campaign s’affiche en tant que *produit* sur la page de produ
 
 Voir [Gestion des groupes et des utilisateurs](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=fr) pour en savoir plus sur les groupes de sécurité et l’affectation d’utilisateurs à des groupes de sécurité.
 
-## Gestion de la collecte de données Experience Platform (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Gestion de la collecte de données Experience Platform {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) s’affiche sur la page [!UICONTROL Produits] dans [!UICONTROL Admin Console]. Vous pouvez inclure dʼautres applications et services dans un profil de produits Launch.
+Experience Platform [!UICONTROL Collecte de données] s’affiche sur la [!UICONTROL Produits] dans la [!UICONTROL Admin Console]. Vous pouvez inclure d’autres applications et services dans un profil de produit de collecte de données.
 
-Invitez des utilisateurs dans [!UICONTROL Platform Launch] et attribuez des rôles et des droits d’utilisateur.
+Invitation d’utilisateurs à [!UICONTROL Collecte de données de plateforme] et affecter des rôles et des droits utilisateur.
 
-Voir [Autorisations des utilisateurs](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr) pour en savoir plus sur les autorisations d’utilisateurs dans Admin Console et pour configurer des options spécifiques à Launch, y compris l’attribution de droits aux profils.
+Voir [Autorisations des utilisateurs](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr) pour plus d’informations sur les autorisations utilisateur dans le Admin Console et sur la configuration des droits sur les profils.
 
 ## Experience Manager as a Cloud Service
 
