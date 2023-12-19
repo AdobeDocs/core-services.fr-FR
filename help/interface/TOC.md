@@ -8,14 +8,14 @@ index: true
 source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Composants de lʼinterface centrale dʼExperience Cloud {#interface}
 
-+ [Guide des composants de l’interface centrale Experience Cloud](experience-cloud.md)
++ [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
    + [Services d’Experience Cloud](core-services-landing.md)
    + [Recherche unifiée dans Experience Cloud](search-experience-cloud.md)
