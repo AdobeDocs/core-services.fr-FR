@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment configurer les Triggers Experience Cloud.
+description: Découvrez comment configurer des déclencheurs Experience Cloud.
 solution: Experience Cloud
 title: Présentation des Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '677'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 >
 >Pour des raisons techniques, le nombre de triggers est actuellement limité à 100.
 
-1. Dans l’Experience Cloud, sélectionnez ![menu](assets/menu-icon.png), puis sélectionnez **[!UICONTROL Collecte de données/lancement]**.
+1. Dans Experience Cloud, sélectionnez ![menu](assets/menu-icon.png), puis sélectionnez **[!UICONTROL Collecte de données/Launch]**.
 2. Sur la carte [!UICONTROL Triggers], sélectionnez **[!UICONTROL Gérer les triggers]**.
 3. Sélectionnez **[!UICONTROL Nouveau trigger]**, puis spécifiez le type de trigger :
 
@@ -66,7 +66,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
    | [!UICONTROL Conteneur] | Vous définissez et stockez des règles, des conditions ou des filtres qui définissent un trigger dans les [!UICONTROL Conteneurs]. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau de l’accès. Par exemple, si deux conteneurs sont associés par l’opérateur AND, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux accès répondent aux exigences. |
    | Démarrer une nouvelle session après | Créez un trigger pour les événements de début et de fin de session. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. Sélectionnez **[!UICONTROL Enregistrer]**.
 6. Utilisez ces triggers pour le [remarketing en temps réel](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=fr) dans [!DNL Adobe Campaign].

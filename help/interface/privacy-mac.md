@@ -1,5 +1,5 @@
 ---
-description: Découvrez les considérations et bonnes pratiques relatives aux informations dʼidentification personnelle (IIP) transférées et utilisées dans Experience Cloud.
+description: Découvrez les considérations et bonnes pratiques relatives aux informations dʼidentification personnelle (IIP) chargées et utilisées dans Experience Cloud.
 solution: Experience Cloud
 title: Considérations relatives à la confidentialité des attributs du client
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
-# Considérations relatives à la confidentialité des attributs du client
+# Considérations relatives à la confidentialité pour [!DNL Customer Attributes]
 
-Considérations et bonnes pratiques relatives aux informations d’identification personnelle transférées et utilisées dans Adobe Experience Cloud.
+Considérations et bonnes pratiques relatives aux informations d’identification personnelle chargées et utilisées dans Adobe Experience Cloud.
 
 * Prénom et nom
 * Adresse du domicile ou autre adresse physique
@@ -28,13 +28,13 @@ Considérations et bonnes pratiques relatives aux informations d’identificatio
 
 Adobe fournit des outils grâce auxquels les annonceurs peuvent recueillir des informations sur le comportement des visiteurs de leurs sites ou des utilisateurs de leurs applications. Adobe propose également des outils qui permettent d’améliorer ces informations avec des enregistrements de clients hors ligne ou externes que l’annonceur peut avoir dans d’autres systèmes de gestion de l’information.
 
-Souvent, les publicitaires ont recours à cette pratique pour préciser les informations disponibles au moment de prendre des décisions marketing et publicitaires appropriées pour leurs clients. Avec Adobe Analytics et Target, les publicitaires peuvent transférer des informations d’identification personnelle (adresses électroniques par exemple) uniquement une fois qu’elles ont été hachées afin qu’il soit impossible de les utiliser pour contacter la personne qu’elles concernent. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
+Souvent, les publicitaires ont recours à cette pratique pour préciser les informations disponibles au moment de prendre des décisions marketing et publicitaires appropriées pour leurs clients. Avec Adobe Analytics et Target, les publicitaires peuvent charger des informations d’identification personnelle (adresses électroniques par exemple) uniquement une fois qu’elles ont été hachées afin qu’il soit impossible de les utiliser pour contacter la personne qu’elles concernent. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
 
 Adobe réalise que ces types de décisions marketing et publicitaires peuvent avoir des implications sur la vie privée des utilisateurs. C’est pourquoi elle a mis en place des mesures de protection de la vie privée afin d’aider les publicitaires à satisfaire les attentes de leurs clients. Adobe recommande aux annonceurs de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquelles ils peuvent utiliser de telles informations.
 
 ## Bonnes pratiques
 
-Adobe recommande de hacher les informations d’identification personnelle avant de les transférer vers Adobe Analytics ou Adobe Target. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe Analytics et à Adobe Target, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
+Adobe recommande de hacher les informations d’identification personnelle avant de les charger vers Adobe Analytics ou Adobe Target. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe Analytics et à Adobe Target, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
 
 Adobe recommande aux annonceurs de bien réfléchir aux informations appropriées à des fins marketing et aux circonstances dans lesquelles ils peuvent utiliser de telles informations.
 

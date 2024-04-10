@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 * Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
 * Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) dans [!DNL Experience Cloud].
 
-   ![Création de règles pour une audience composite](assets/audience_create.png)
+  ![Création de règles pour une audience composite](assets/audience_create.png)
 
 **Création d’une audience**
 
 1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque dʼaudiences].**
-1. Dans la page [!UICONTROL Audiences], sélectionnez **[!UICONTROL Nouveau]**. ![add](assets/add_icon_small.png)
+1. Le [!UICONTROL Audiences] page, sélectionner **[!UICONTROL Nouveau]**. ![ajouter](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
    * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Real-Time Analytics incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
    >[!NOTE]
    >
-   >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
+   >En raison de la mise en cache, les suites de rapports supprimées dans Analytics nécessitent 12 heures avant que la suppression ne s’affiche dans Experience Cloud.
 
    * **[!UICONTROL Experience Cloud :]** données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 

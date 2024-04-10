@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
 # Présentation des intégrations Experience Cloud
 
-Cette page décrit plusieurs façons de commencer à intégrer des applications Experience Cloud. Pour plus d’informations, consultez notre bibliothèque de [tutoriels vidéo d’intégration](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) sur Experience League.
+Cette page décrit plusieurs façons de commencer à intégrer des applications Experience Cloud. Pour plus d’informations, consultez notre bibliothèque de [tutoriels vidéo sur l’intégration](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) sur Experience League.
 
 ## Activation des applications Experience Cloud pour les services Platform {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
@@ -25,11 +25,11 @@ Aide : [Activation de vos applications pour les services Platform](core-service
 
 Décrit comment :
 
-* Habiliter votre entreprise à utiliser Experience Cloud
+* Approvisionnement de votre société en Experience Cloud.
 * Devenir un administrateur
 * [Mettre en œuvre le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
-* Moderniser votre [!DNL Analytics] et [!DNL Target] Mise en oeuvre via [!UICONTROL Collecte de données de plateforme].
-* Commencez à utiliser les services Experience Cloud tels que [!UICONTROL Attributs du client] et [!UICONTROL Audiences].
+* Moderniser votre [!DNL Analytics] et [!DNL Target] implémentations via [!UICONTROL Collecte de données Platform].
+* Commencer à utiliser des services Experience Cloud comme [[!DNL Customer Attributes]](attributes.md) et [[!DNL Audience Library]](audience-library.md).
 
 Solutions ou services :
 
@@ -40,7 +40,7 @@ Solutions ou services :
 
 ## Service Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Le service dʼID fournit un ID persistant universel qui identifie vos visiteurs dans toutes les applications Experience Cloud. Il peut remplacer le code de génération des ID pour des services tels qu’Analytics, Audience Manager, Adobe Target, le suivi de pulsation vidéo et d’autres applications et produits Experience Cloud.
+Le service d’ID fournit un ID persistant universel qui identifie vos visiteurs dans toutes les applications dans Experience Cloud. Il peut remplacer le code de génération des ID pour des services tels qu’Analytics, Audience Manager, Adobe Target, le suivi de pulsation vidéo et d’autres applications et produits Experience Cloud.
 
 Voir [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
@@ -53,7 +53,7 @@ Voir [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-s
 
 Aide : [Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Création et gestion des audiences dans l’Experience Cloud [!UICONTROL Bibliothèque d’audiences]. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
+Création et gestion des audiences dans Experience Cloud [!UICONTROL Bibliothèque d’audiences]. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
 * Nouvelles audiences créées dans [!DNL Experience Cloud].
 * Segments [!DNL Analytics] publiés dans [!DNL Experience Cloud].
@@ -69,7 +69,7 @@ Création et gestion des audiences dans l’Experience Cloud [!UICONTROL Bibliot
 
 Aide : [Attributs du client](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Si vous capturez des données clients d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les charger dans une source de données d’attributs du client dans Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+Si vous capturez des données client d’entreprise dans une base de données de gestion de la relation client (CRM), vous pouvez les charger dans une source de données d’attributs du client dans Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 **Solutions ou services applicables**
 
@@ -114,7 +114,7 @@ Utilisez les données des applications Experience Cloud ou dʼautres systèmes e
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Aide : [Intégration d’Adobe Target à Experience Cloud](audience-library.md)
+Aide : [Intégration d’Adobe Target à Experience Cloud](audience-library.md)
 
 Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications Experience Cloud permet lʼutilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 
@@ -129,7 +129,7 @@ Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications 
 
 ## Intégrations Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-* Tutoriels vidéo : [Intégrations de Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
+* Tutoriels vidéo : [Intégrations Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
 * Documentation du produit : [Documentation du Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
 
@@ -149,15 +149,15 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ad
 
 * Aide (connexion requise) : [intégration aux solutions et services Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentation Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html?lang=en) sur Experience League
+* [Documentation sur l’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html?lang=en) sur Experience League
 
 **Applications ou services applicables**
 
 **Analytics :** peut envoyer quotidiennement des données d’engagement et de conversion du site à [!DNL Adobe Advertising], où elles servent à l’optimisation des publicités et à la création de rapports. Par ailleurs, [!DNL Advertising] peut envoyer quotidiennement à Analytics des données de moteur de recherche et de trafic sur les réseaux sociaux, où elles servent aux rapports dans les fonctionnalités de Reports &amp; Analytics, de Report Builder et d’Ad Hoc Analysis.
 
-**Balises :** Vous pouvez utiliser [Balises Experience Platform pour créer des balises de suivi de conversion basées sur les pixels Advertising](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr), ainsi que des balises de suivi tierces, pour vos pages d’entrée de recherche, de réseaux sociaux et d’affichage d’annonce. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
+**Balises :** Vous pouvez utiliser [Balises Experience Platform pour créer des balises de suivi de conversion basées sur les pixels d’Advertising](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr)et des balises de suivi tierces pour vos pages de destination de recherche, de réseaux sociaux et d’affichage d’annonce. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
 
-**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](audience-library.md) en tant que cibles pour vos publicités display. Vous pouvez utiliser automatiquement les audiences que vous avez créées dans Experience Cloud et les audiences d’Analytics que vous avez publiées sur Experience Cloud. Vous pouvez également utiliser les audiences de l’Audience Manager lorsque la variable [!DNL Adobe Advertising] est configuré pour l’autoriser.
+**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](audience-library.md) en tant que cibles pour vos publicités display. Vous pouvez automatiquement utiliser les audiences que vous avez créées dans Experience Cloud et les audiences d’Analytics que vous avez publiées dans Experience Cloud. Vous pouvez également utiliser les audiences d’Audience Manager lorsque la variable [!DNL Adobe Advertising] Le compte est configuré pour l’autoriser.
 
 Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à Profils et audiences, ainsi que sur la configuration initiale entre [!DNL Adobe Advertising] et les audiences Adobe Experience Cloud. **Remarque :** si vous utilisez également Adobe Target, toutes les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Target.
 

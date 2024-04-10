@@ -1,23 +1,23 @@
 ---
 description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions fréquentes à l’intention des administrateurs dans Adobe Experience Cloud.
 solution: Experience Cloud
-title: Questions fréquentes à propos d’Experience Cloud
+title: Questions fréquentes sur Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # Questions fréquentes à propos d’Experience Cloud
 
-Découvrez la prise en charge des navigateurs ainsi que les questions fréquentes et réponses à l’intention des administrateurs dans Experience Cloud.
+Découvrez la prise en charge des navigateurs et les questions et réponses fréquentes à l’intention des administrateurs dans Experience Cloud.
 
 ## Quels navigateurs sont pris en charge dans Experience Cloud ?
 
@@ -31,7 +31,7 @@ Découvrez la prise en charge des navigateurs ainsi que les questions fréquente
 
 Si votre implémentation nʼa pas été configurée pour les services principaux, consultez la section [Activation de vos applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), qui décrit comment :
 
-1. [Rejoindre Experience Cloud et devenir administrateur ou administratrice](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Rejoindre l’Experience Cloud et devenir administrateur](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Mettre en œuvre le service d’identifiant Experience Cloud à l’aide des balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=fr).
 1. [Mapper des suites de rapports à une organisation Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics uniquement) Moderniser le code AppMeasurement d’Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ Les fonctions de l’interface d’Experience Cloud seront utiles à votre soci
 
 ## Qu’est-ce que l’_attribution de privilèges d’accès_ ?
 
-Dans Experience Cloud, lʼattribution de privilèges dʼaccès signifie ce qui suit :
+L’approvisionnement dans l’Experience Cloud signifie :
 
 * Vos utilisateurs peuvent commencer à se connecter à [!DNL Experience Cloud] et à lier des applications.
-* Ils peuvent commencer à utiliser les fonctionnalités disponibles dans Experience Cloud, telles que Personnes.
+* Ils peuvent commencer à utiliser les fonctionnalités disponibles dans l’Experience Cloud, telles que Personnes.
 * Vous pouvez vous préparer à supprimer votre processus de connexion spécifique à une application.
 * Vous pouvez conserver le contrôle de lʼaccès aux applications.
 
@@ -77,7 +77,7 @@ Dans Experience Cloud, lʼattribution de privilèges dʼaccès signifie ce qui 
 
 * **Important :** pour les administrateurs d’Analytics, voir [Gestion des utilisateurs d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateur des outils d’administration Analytics vers Admin Console.
 
-## Que faire si quelqu’un ne parvient pas à se connecter à l’interface d’Experience Cloud ?
+## Que faire si quelqu’un ne parvient pas à se connecter à l’Experience Cloud ?
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
@@ -95,7 +95,7 @@ Reportez-vous à la page [Gestion des comptes d’utilisateurs](organizations.md
 
 ## Qu’est-ce qu’une organisation ?
 
-Une [organisation](organizations.md) est lʼentité qui permet à un administrateur de configurer des groupes et des utilisateurs, ainsi que de contrôler lʼauthentification unique dans Experience Cloud. Lʼorganisation fonctionne comme une société de connexion qui couvre tous les produits et applications Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
+Une [organisme](organizations.md) est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et applications Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
 ## Où trouver mon ID d’organisation IMS ?
 
@@ -103,7 +103,7 @@ Pour plus d’informations, consultez la section [Afficher l’ID de votre organ
 
 ## Que faire quand lʼun de mes utilisateurs quitte ma société ?
 
-Son accès doit être supprimé de lʼapplication. Ils ne pourront plus accéder au produit par l’intermédiaire d’Experience Cloud ni par connexion directe. Vous devez également le supprimer au niveau d’Experience Cloud.
+Son accès doit être supprimé de lʼapplication. Ils ne pourront pas accéder au produit par Experience Cloud ou par connexion directe. Vous devez également le supprimer au niveau d’Experience Cloud.
 
 ## Qu’est-ce qu’un Adobe ID ?
 

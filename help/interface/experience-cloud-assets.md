@@ -1,17 +1,17 @@
 ---
 description: Découvrez les ressources Experience Cloud Assets que vous pouvez partager entre les applications.
 solution: Experience Cloud
-title: Présentation des ressources
+title: Présentation d’Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que
 
 >[!NOTE]
 >
->Les ressources doivent être supprimées des activités Adobe Target avant que vous puissiez les supprimer de [!DNL Target].
+>Les ressources doivent être supprimées des activités Adobe Target avant de pouvoir les supprimer de [!DNL Target].
 
 ## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -87,7 +87,7 @@ Sélectionnez **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher lʼi
 
 ## Affichage des propriétés des ressources {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
-Choisissez entre l’affichage des cartes avec les propriétés, la vue sous forme de liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
+Choisissez entre l’affichage des cartes avec les propriétés, la vue Liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
 Sélectionnez **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher les propriétés dʼune ressource :
 

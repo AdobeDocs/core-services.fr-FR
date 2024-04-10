@@ -2,17 +2,17 @@
 description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans Experience Cloud.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
-title: 'Comportement des dossiers partagés '
+title: Comportement des dossiers partagés
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 99%
 
 ---
 

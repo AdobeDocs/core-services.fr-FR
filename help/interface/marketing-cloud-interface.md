@@ -1,19 +1,19 @@
 ---
-description: Découvrez les nouvelles fonctionnalités et mises à jour de l’Experience Cloud.
+description: Découvrez les nouvelles fonctionnalités et les mises à jour dans Experience Cloud.
 solution: Experience Cloud
-title: Nouveautés d’Experience Cloud
+title: Nouveautés d’Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
 
-# Nouveautés d’Experience Cloud
+# Nouveautés d’Experience Cloud
 
-Aperçu des nouvelles fonctionnalités et mises à jour d’Experience Cloud.
+Aperçu des nouvelles fonctionnalités et mises à jour dans Experience Cloud.
 
 ## Août 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -48,9 +48,9 @@ Nouvelles fonctions et correctifs de l’interface [!DNL Adobe Experience Cloud]
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouvelle page d’entrée d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page dʼadministration, une nouvelle interface intuitive vous aide à accéder rapidement à vos applications Experience Cloud et à vos services principaux. |
+| Nouvelle page de destination d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page d’administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos applications Experience Cloud et à vos services principaux. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correctifs**
 
@@ -67,20 +67,20 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les événements et activités des produits et des applications, y compris les notifications sur lʼactivité de transfert [Attributs du client](attributes.md). |
+| Notifications - Paramètres granulaires | Vous pouvez activer les notifications pour les événements et activités des produits et des applications, y compris les notifications sur lʼactivité de chargement [Attributs du client](attributes.md). |
 | Notifications - Notifications de maintenance | Dans les paramètres de notification, vous pouvez activer les notifications de maintenance pour les produits et applications. |
 | Admin Console pour les solutions Experience Cloud | Les nouveaux clients d’Experience Cloud peuvent commencer à utiliser Admin Console, qui centralise la gestion de vos droits Adobe au sein de votre organisation tout entière.<br>La migration vers Admin Console pour la gestion des utilisateurs sera effectuée par vagues. Adobe vous contacte (administrateurs système) lorsqu’il est temps de procéder à la migration.<br>Si vous êtes administrateur d’Analytics, reportez-vous à [Migration pour Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 22 mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  Le <br>[mappage de plusieurs suites de rapports](core-services.md) à une organisation unique permet dʼactiver des fonctionnalités et services entre applications dans Experience Cloud. |
+| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br>[Mappage de suites de rapports](core-services.md) à une seule organisation permet d’activer des fonctionnalités et services inter-applications dans Experience Cloud. |
 | Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](t-audience-create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -88,7 +88,7 @@ De nombreuses notifications de maintenance relatives aux mises à jour de mainte
 |--- |--- |
 | Mise à jour de la section Profil et mots de passe | Les utilisateurs ne peuvent plus modifier les informations de profil utilisateur IMS sous Détails personnels dans Modifier le profil > Profil et mots de passe. Ils sont redirigés à la place vers `accounts.adobe.com`. Cette mise à jour s’applique à tous les types d’identité (Adobe ID, Enterprise et Federated). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correctifs**
 

@@ -1,7 +1,7 @@
 ---
 description: Découvrez comment Adobe Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne sont pas conservés entre les demandes d’images et les sessions de navigateur.
 solution: Experience Cloud,Analytics
-title: "Cookies propriétaires "
+title: Cookies propriétaires
 index: y
 snippet: y
 feature: Cookies
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 72%
 
 Analytics utilise les cookies afin de fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’images et les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe garantit que les cookies peuvent toujours être définis même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (ou cookie s_vi) :
+De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. L’Adobe permet de toujours définir des cookies, même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identités Experience Platform (service ECID) ou les identifiants hérités d’Analytics (ou cookie s_vi) :
 
-* Le [Service dʼidentités dʼExperience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non au domaine de votre site. S’ils ne correspondent pas, Identity Service utilisera JavaScript pour définir des cookies dans le domaine de votre site.
+* Le [service dʼidentités d’Experience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que votre domaine de collecte corresponde ou non au domaine de votre site. S’ils ne correspondent pas, Identity Service utilise JavaScript pour définir les cookies dans le domaine de votre site.
 * Si vous utilisez des [identifiants Analytics hérités](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=fr) (soit le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un [identifiant de secours (s_fid)](cookies-analytics.md) propriétaire au lieu du cookie « s_vi » standard.
 
-Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra le transfert depuis un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte d’Adobe. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
+Si vous souhaitez vous assurer que votre serveur de collection correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permettra le transfert d’un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collection d’Adobe. Cela implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point d’entrée CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
 
 >[!NOTE]
 >
->Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple effectue des cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
+>Que votre domaine de collection corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple réduit la durée de vie des cookies propriétaires définis par l’Adobe sur les navigateurs régis par l’ITP, qui incluent Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
 
 Si vous souhaitez établir un CNAME pour la collecte de données et si votre site utilise le protocole HTTPS pour la navigation sécurisée, vous pouvez demander à Adobe dʼobtenir un certificat SSL.
 
 Le processus d’octroi de certificat SSL peut souvent être confus et long. Par conséquent, Adobe a établi un partenariat avec DigiCert, une autorité de certification leader de l’industrie, et a développé un processus intégré permettant d’automatiser l’achat et la gestion de ces certificats.
 
-Avec votre autorisation, nous collaborons avec une autorité de certification pour émettre, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continue à gérer ce certificat et à s’assurer qu’une expiration, une révocation ou un problème de sécurité inattendu ne menace pas la disponibilité de la collecte sécurisée de votre organisation.
+Avec votre autorisation, nous travaillons avec une autorité de certification pour émettre, déployer et gérer un nouveau certificat SSL SHA-2 pour vous. Adobe continue à gérer ce certificat et à s’assurer qu’une expiration, une révocation ou un problème de sécurité inattendu ne menace pas la disponibilité de la collecte sécurisée de votre organisation.
 
 ## Programme de certificat géré par Adobe
 
@@ -47,7 +47,7 @@ Le programme de certificat géré Adobe permet de mettre en œuvre un nouveau ce
 
 Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la collecte de données propriétaire :
 
-1. Remplissez la variable [Formulaire de demande de domaine propriétaire](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) et ouvrez un ticket auprès de l’assistance clientèle afin de configurer la collecte de données propriétaires sur le programme géré par l’Adobe.
+1. Remplissez le [Formulaire de requête de domaine propriétaire](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) et ouvrez un ticket auprès de l’assistance clientèle afin de configurer la collecte de données propriétaire sur le programme géré par l’Adobe.
 
    Chaque champ est décrit avec des exemples dans le document.
 
@@ -58,11 +58,11 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la c
    **Sécurisé** : par exemple, le nom d’hôte `smetrics.example.com` désigne : `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
-   > Auparavant, Adobe recommandait aux clients de configurer deux CNAME, l’un pour HTTPS et l’autre pour HTTP. Comme il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne vous recommandons plus de configurer un CNAME pour le protocole HTTP. Il est désormais recommandé de définir les deux `trackingServer` et `trackingServerSecure` avec le même CNAME. Par exemple, les deux `trackingServer` et `trackingServerSecure` est défini sur `smetrics.example.com`. HTTP n’est autorisé que pour les noms d’hôte tiers.
+   > Par le passé, Adobe recommandait aux clients de configurer deux CNAME, l’un pour HTTPS et l’autre pour HTTP. Étant donné qu’il est recommandé de chiffrer le trafic et que la plupart des navigateurs découragent fortement le protocole HTTP, nous ne recommandons plus de configurer un CNAME pour ce dernier. Il est désormais considéré comme une bonne pratique de définir les deux `trackingServer` et `trackingServerSecure` avec le même CNAME. Par exemple, les `trackingServer` et `trackingServerSecure` serait défini sur `smetrics.example.com`. HTTP n’est autorisé que pour les noms d’hôte tiers.
 
 1. Lorsque ce CNAME est en place, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de production d’Adobe.
 
-   Si vous disposez d’une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat publié dans l’environnement de production d’Adobe, vous pouvez mettre à jour vos variables de serveur de suivi avec les nouveaux noms d’hôtes. En d’autres termes, si le site n’est pas sécurisé (HTTP), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (HTTPS), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
+   Si vous disposez d’une mise en œuvre existante, envisagez la migration des visiteurs pour conserver vos visiteurs existants. Une fois le certificat envoyé dans l’environnement de production d’Adobe, vous pouvez mettre à jour les variables de votre serveur de suivi vers les nouveaux noms d’hôtes. En d’autres termes, si le site n’est pas sécurisé (HTTP), mettez à jour la variable `s.trackingServer`. Si le site est sécurisé (HTTPS), mettez à jour les variables `s.trackingServer` et `s.trackingServerSecure`.
 
 1. [Validation du transfert de nom d’hôte](#validate) (voir ci-dessous).
 
@@ -70,10 +70,10 @@ Voici comment mettre en œuvre un nouveau certificat SSL propriétaire pour la c
 
 ### Maintenance et renouvellements
 
-Trente jours avant l’expiration de votre certificat propriétaire, Adobe valide si le CNAME est toujours valide et en cours d’utilisation. Si tel est le cas, Adobe suppose que vous souhaitez continuer à utiliser le service et renouvelle automatiquement le certificat en votre nom.
+Trente jours avant l’expiration de votre certificat propriétaire, l’Adobe valide si le CNAME est toujours valide et en cours d’utilisation. Si tel est le cas, Adobe suppose que vous souhaitez continuer à utiliser le service et renouvelle automatiquement le certificat en votre nom.
 
 >[!NOTE]
-> Si le CNAME a été supprimé et/ou n’est plus valide (ne correspond pas au nom d’hôte SSL de l’Adobe fourni), l’Adobe ne peut pas renouveler le certificat et l’entrée dans notre système est marquée pour suppression sans autre communication.
+> Si le CNAME a été supprimé et/ou n’est plus valide (ne correspond pas au nom d’hôte SSL fourni), l’Adobe ne peut pas renouveler le certificat et l’Adobe dans notre système est marqué pour suppression sans autre communication.
 
 ### Questions fréquemment posées
 
@@ -81,8 +81,8 @@ Trente jours avant l’expiration de votre certificat propriétaire, Adobe valid
 |---|---|
 | **Ce processus est-il sécurisé ?** | Oui, le programme géré par Adobe est plus sécurisé que notre méthode héritée, car aucun certificat ou clé privée ne change de main en dehors d’Adobe et de l’autorité de certification émettrice. |
 | **Comment Adobe peut-il acheter un certificat pour notre domaine ?** | Le certificat ne peut être acheté que lorsque vous avez pointé le nom d’hôte spécifié (par exemple `telemetry.example.com`) vers un nom d’hôte détenu par Adobe. Cela a essentiellement pour effet de déléguer ce nom d’hôte à Adobe et de permettre à Adobe d’acheter le certificat en votre nom. |
-| **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous êtes autorisé à demander la révocation du certificat. Ouvrez un ticket auprès de l’assistance clientèle pour terminer l’opération. |
-| **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe fonctionne avec DigiCert pour émettre un certificat SHA-2. |
+| **Puis-je demander la révocation du certificat ?** | Oui, en tant que propriétaire du domaine, vous avez le droit de demander la révocation du certificat. Ouvrez un ticket auprès de l’assistance clientèle pour que cette opération soit terminée. |
+| **Ce certificat utilisera-t-il le chiffrement SHA-2 ?** | Oui, Adobe travaille avec DigiCert pour délivrer un certificat SHA-2. |
 | **Cela engendre-t-il des frais supplémentaires ?** | Non, Adobe offre ce service à tous les clients actuels de l’expérience digitale d’Adobe sans frais supplémentaires. |
 
 {style="table-layout:auto"}

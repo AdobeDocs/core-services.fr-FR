@@ -1,16 +1,16 @@
 ---
 description: Découvrez comment mapper une ou plusieurs suites de rapports avec une organisation dans Experience Cloud.
-title: 'Mappage de suites de rapports à une organisation '
+title: Mappage de suites de rapports à une organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -89,19 +89,19 @@ Les points suivants répertorient les actions de mappage que cet utilisateur peu
 
 ## Questions fréquentes {#section_099E485805994C929FF9C9F75219BEE1}
 
-### Pourquoi est-ce que je ne vois pas toutes mes suites de rapports ?
+### Pourquoi toutes mes suites de rapports ne s’affichent-elles pas ?
 
 Certaines de vos suites de rapports peuvent être visibles sous une autre société de connexion. Vous pouvez modifier la société de connexion actuelle à l’aide de la liste déroulante située en haut de l’écran.
 
-### Que se passe-t-il si je ne reconnais pas certaines des organisations répertoriées dans la liste déroulante pour l’une de mes suites de rapports ?
+### Que se passe-t-il si je ne reconnais pas certaines des organisations répertoriées dans la liste déroulante de l’une de mes suites de rapports ?
 
-La liste répertorie toutes les organisations auxquelles votre suite de rapports *peut* être mappée, même si vous ne disposez pas des autorisations nécessaires pour le faire. Si vous ne savez pas si la suite de rapports doit être mappée à l’une des suites de rapports grisées de la liste, contactez un administrateur Experience Cloud au sein de votre organisation pour déterminer le meilleur choix à effectuer.
+La liste affiche tous les *possible* organisations auxquelles votre suite de rapports peut être mappée, même si vous n’êtes pas autorisé à mapper toutes ces suites de rapports. Si vous ne savez pas si la suite de rapports doit être mappée à l’une des suites de rapports grisées de la liste, contactez un administrateur Experience Cloud au sein de votre organisation pour déterminer le meilleur choix à effectuer.
 
-### Que se passe-t-il si je ne reconnais pas certaines des sociétés de connexion répertoriées pour une suite de rapports dans la colonne « Visible pour les connexions d’entreprises » ?
+### Que se passe-t-il si je ne reconnais pas certaines des sociétés de connexion répertoriées pour une suite de rapports dans la colonne « Visible par les sociétés de connexion » ?
 
 À un moment donné, cette suite de rapports a été partagée avec une autre société de connexion qui peut faire partie d’une autre organisation Experience Cloud.
 
-### Que signifie cette erreur de conflit potentiel de la suite de rapports générée par une autre organisation ? Pourquoi est-ce important ?
+### Qu’est-ce que cette erreur « Conflit possible » concernant la suite de rapports générée par une autre organisation ? Pourquoi est-ce important ?
 
 Cette notification vous permet de prendre une décision informée concernant le mappage de votre suite de rapports. Nous voulons vous informer que la suite de rapports a été créée à l’origine sous une autre organisation au cas où elle serait plus adaptée à cette suite de rapports.
 
@@ -113,6 +113,6 @@ Les suites de rapports mappées s’affichent dans un format non modifiable. Si 
 
 Vous pouvez trouver le nom de votre organisation dans [Paramètres des organisations et des comptes](organizations.md).
 
-### Une date apparaît dans la colonne « Date de mappage ». Qui a effectué ce mappage ?
+### Une date apparaît dans la colonne « Date mappée ». Qui a effectué ce mappage ?
 
-Vous pouvez vous reporter au journal des modifications de la suite de rapports dans l’interface d’Analytics pour consulter l’ID de l’utilisateur qui a procédé au changement. Recherchez le événement « Suite associée à l’organisation IMS ».
+Vous pouvez vous reporter au journal des modifications de la suite de rapports dans l’interface d’Analytics pour consulter l’ID de l’utilisateur qui a procédé au changement. Recherchez l’événement « Suite associée à l’organisation IMS ».

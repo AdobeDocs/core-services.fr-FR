@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Les navigateurs utilisent la prérécupération DNS pour associer automatiquemen
 
 ## Prérécupération DNS et applications Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec des [!UICONTROL Experience Cloud] applications et services car :
+La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec les [!UICONTROL Experience Cloud] applications et services pour les raisons suivantes :
 
 * Chaque application ou service Experience Cloud génère de manière dynamique des appels DNS au fur et à mesure du chargement de la page.
 * Le navigateur ne peut pas convertir les noms de domaine en adresse IP avant ces appels.
@@ -45,7 +45,7 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Gestionnaire dynamique de balises** (DTM) : non requis. Les liens DTM sont disponibles au chargement de la page.
 
-* **Advertising Cloud:**
+* **ADVERTISING CLOUD :**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`

@@ -1,23 +1,23 @@
 ---
 description: Découvrez les conditions requises et ce quʼoffre la mise à niveau vers Analytics Premium.
 solution: Experience Cloud
-title: Mettez à niveau vers Analytics Premium et Experience Cloud
+title: Mettre à niveau vers Analytics Premium et Experience Cloud
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 90%
 
 ---
 
-# Mise à niveau vers Analytics Premium et Experience Cloud
+# Mise à niveau vers Analytics Premium et Experience Cloud
 
-Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
+Les administrateurs peuvent prendre connaissance des exigences et conditions prévisibles lors de la mise à niveau vers Analytics Premium et trouver de l’aide en tant qu’administrateur d’Experience Cloud.
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
@@ -36,7 +36,6 @@ Analytics Premium offre les avantages suivants :
 >* Les eVars 76-250 et 100-250 (Standard) sont visibles dans les outils d’administration, mais ne sont pas activées.
 >* L’analyse des contributions est activée par Adobe. Son emplacement n’est pas modifié (elle est toujours accessible sur la page de détection des anomalies), mais elle commence à analyser automatiquement tous les points de données.
 
-
 ## Analytics Premium : formule complète {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 Dans Analytics Premium Complete, vous bénéficiez de toutes les fonctionnalités d’ [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), ainsi que des mises à niveau suivantes :
@@ -47,7 +46,7 @@ Dans Analytics Premium Complete, vous bénéficiez de toutes les fonctionnalité
 | Data Workbench | <ul><li>Attribution algorithmique</li><li>Espaces de travail préconfigurés</li></ul> |
 | Analytics Platform | [Flux en direct](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (données brutes, tableaux de bord, triggers) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Intelligence prédictive {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ La mise à niveau vers Predictive Intelligence active [Analytics Premium](upgrad
 
 | Produit | Mises à niveau |
 |---|---|
-| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr) |
 | Data Workbench | Espaces de travail préconfigurés pour les qualifications en audience et le marketing prédictif |
-| Plateforme Analytics | Flux en direct (tableaux de bord et triggers) |
+| Analytics Platform | Flux en direct (tableaux de bord et triggers) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vision à 360 degrés des clients {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -69,9 +68,9 @@ La mise à niveau vers la vision à 360 degrés des clients permet l’accès �
 |--- |--- |
 | [Attributs du client](attributes.md) | Attributs du client (analyses et partage de segment) |
 | Data Workbench | <ul><li>Attributs du client dérivés</li><li>Espaces de travail préconfigurés pour la détection des audiences</li></ul> |
-| Plateforme Analytics | [Attributs du client](attributes.md) |
+| Analytics Platform | [Attributs du client](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Attribution avancée {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -87,9 +86,9 @@ Les logiciels s’exécutant sur site doivent être désactivés, Ces logiciels 
 
 ## Experience Cloud - Administration des utilisateurs et des produits {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud et les services principaux sont accessibles aux utilisateurs dʼAnalytics Standard et Premium, à condition que vous ayez suivi la modernisation de lʼimplémentation décrite dans [Prise en main - Activation de vos applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous permet de moderniser votre mise en œuvre et de devenir administrateur dans Experience Cloud.)
+Experience Cloud et les services principaux sont accessibles aux utilisateurs dʼAnalytics Standard et Premium, à condition que vous ayez suivi la modernisation de lʼimplémentation décrite dans [Prise en main - Activation de vos applications pour les services principaux](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ce processus vous aide à moderniser votre mise en œuvre et vous permet de devenir administrateur dans Experience Cloud.)
 
-Une fois que vous avez rejoint Experience Cloud, vous pouvez vous connecter au moyen d’Experience Cloud à l’adresse [!DNL experience.adobe.com] et commencer à utiliser les services principaux (dont les attributs du client, les audiences et l’analyse d’applications mobiles).
+Après avoir rejoint Experience Cloud, vous pouvez vous connecter via Experience Cloud à l’adresse [!DNL experience.adobe.com] et commencez à utiliser les services principaux (notamment les attributs du client, les audiences et l’analyse des applications mobiles).
 
 ### Administration des utilisateurs et des groupes
 

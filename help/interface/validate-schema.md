@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 84%
 
 ---
 
 # Validation du schéma
 
-Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Un schéma est créé d’après ces paramètres. Il permet de valider toutes les données transférées par la suite vers cette source de données. Le processus de mappage ne modifie pas les données d’origine.
+Le processus de validation permet de mapper les noms affichés et les descriptions aux attributs chargés (chaînes, nombres entiers, numéros, etc.). Un schéma est créé d’après ces paramètres. Il permet de valider toutes les données chargées par la suite vers cette source de données. Le processus de mappage ne modifie pas les données d’origine.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Le processus de validation permet de mapper les noms affichés et les descriptio
 
 ![Modification dʼun schéma](assets/view_edit_schema.png)
 
-Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente une colonne du fichier CSV transféré.
+Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente une colonne du fichier CSV chargé.
 
 ![Page de validation du schéma dans Experience Cloud](assets/06_crs_usecase.png)
 
-* **[!UICONTROL Ajouter des données :]** transférez de nouvelles données d’attribut vers cette source de données.
+* **[!UICONTROL Ajouter des données :]** chargez de nouvelles données d’attribut vers cette source de données.
 
 * **[!UICONTROL Afficher/modifier le schéma :]** mappez des noms d’affichage aux données d’attribut, comme décrit à l’étape suivante.
 
@@ -39,17 +39,17 @@ Sur la page [!UICONTROL Valider le schéma], chaque ligne du schéma représente
 
 * **[!UICONTROL Recherche d’ID :]** saisissez un ID de client (CID) issu du fichier `.csv` pour rechercher les informations Experience Cloud relatives à cet ID. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
-   * **[!UICONTROL ECID (Experience Cloud ID) :]** s’affiche si vous utilisez le dernier service Experience Cloud ID. Si vous avez souscrit au service MCID, mais qu’aucun identifiant n’est répertorié ici, cela signifie qu’Experience Cloud n’a reçu aucun alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
+   * **[!UICONTROL ECID (Experience Cloud ID) :]** s’affiche si vous utilisez le dernier service Experience Cloud ID. Si vous êtes sur le service MCID mais qu’aucun ID n’est répertorié ici, l’Experience Cloud n’a pas reçu d’alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
-   * **[!UICONTROL ID de client (CID) :]** attributs associés à cet ID de client. Si vous utilisez une prop ou une eVar pour transférer les ID de client (AVID) et que les attributs sont affichés, mais pas les ID AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
+   * **[!UICONTROL ID de client (CID) :]** attributs associés à cet ID de client. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 
-   * **[!UICONTROL ID de visiteur Analytics (AVID) :]** s’affiche si vous utilisez une prop ou une eVar pour le transfert des ID de client. Si ces ID sont transmis à Experience Cloud, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
+   * **[!UICONTROL ID de visiteur Analytics (AVID) :]** s’affiche si vous utilisez une prop ou une eVar pour le chargement des ID de client. Si ces ID sont transmis à l’Experience Cloud, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
 
-Vous pouvez également transférer les données via FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers transférés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le transfert est terminé.
+Vous pouvez également charger les données par FTP après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers chargés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le chargement est terminé.
 
 Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics].
 
-* **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` transféré.
+* **[!UICONTROL Attribut :]** données d’attribut lues à partir du fichier `.csv` chargé.
 
 * **[!UICONTROL Type :]** type de données, par exemple :
 
