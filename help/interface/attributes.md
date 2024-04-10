@@ -1,44 +1,44 @@
 ---
-title: «[!DNL Customer Attributes]«
-description: En savoir plus sur [!DNL Customer Attributes] en Experience Cloud. Découvrez comment télécharger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
+title: "[!DNL Customer Attributes]"
+description: En savoir plus [!DNL Customer Attributes] dans Experience Cloud. Découvrez comment télécharger des données d’attributs du client pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
+source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 73%
 
 ---
 
-# [!DNL Customer Attributes] en Experience Cloud
+# [!DNL Customer Attributes] dans Experience Cloud
 
-[!DNL Customer Attributes] dans Experience Cloud vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez charger les données dans une source de données d’attributs du client dans Experience Cloud, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+[!DNL Customer Attributes] dans Experience Cloud vous permet de charger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (CRM). Vous pouvez transférer les données dans une source de données d’attributs du client dans Experience Cloud, puis utiliser les données de la [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
-## Localisez le [!DNL Customer Attributes] fonctionnalité
+## Recherchez la variable [!DNL Customer Attributes] fonctionnalité
 
 1. Connectez-vous à Experience Cloud.
 
-1. Accéder à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
+1. Accédez à **[!DNL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
 
 ![Présentation des Attributs du client](assets/custom_reports.png)
 
-## Conditions préalables pour le chargement [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Conditions préalables au téléchargement [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 * **Activation de la solution :** [activez vos solutions pour les services Experience Platform](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 * **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. If *[!DNL Customer Attributes]* s’affiche comme l’une des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
-  Utilisateurs ajoutés à [!DNL Customer Attributes] voir le [!UICONTROL Attributs du client] élément de menu sur le côté gauche de l’interface de l’Experience Cloud.
+  Utilisateurs ajoutés à [!DNL Customer Attributes] voir la [!UICONTROL Attributs du client] sur le côté gauche de l’interface de l’Experience Cloud.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Voir [Déploiement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -54,7 +54,7 @@ Voir [Charger des données d’attributs du client](t-crs-usecase.md#task_BCC327
 
 ## Exemples d’attributs du client dans Analytics et Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Une fois que les données se trouvent dans l’Experience Cloud, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
+Une fois que les données résident dans Experience Cloud, vous pouvez les personnaliser et les partager dans les solutions pour la création de rapports, la segmentation, les activités et les campagnes.
 
 Par exemple :
 
