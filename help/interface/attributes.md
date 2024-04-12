@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 73%
 
 * **Appartenance à un groupe :** pour télécharger les données d’attributs du client, les utilisateurs doivent appartenir au [groupe Attributs du client](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. If *[!DNL Customer Attributes]* s’affiche comme l’une des [!UICONTROL profils de produit], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL Experience Cloud] doit ouvrir une session dans [Experience Cloud](https://experience.adobe.com?lang=fr). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. If *[!DNL Customer Attributes]* s’affiche comme l’une des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
   Utilisateurs ajoutés à [!DNL Customer Attributes] voir la [!UICONTROL Attributs du client] sur le côté gauche de l’interface de l’Experience Cloud.
 
-* **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
+* **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
-  Voir [Déploiement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
 
 ## Que sont les données des clients d’entreprise ? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
