@@ -1,7 +1,7 @@
 ---
 role: User,Admin
-user-guide-title: Interface Experience Cloud et guide d’administration
-breadcrumb-title: Interface Experience Cloud et guide d’administration
+user-guide-title: Guide d’administration et interface d’Experience Cloud
+breadcrumb-title: Guide d’administration et interface d’Experience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
@@ -13,7 +13,7 @@ ht-degree: 94%
 ---
 
 
-# Interface Experience Cloud et guide d’administration {#interface}
+# Guide d’administration et interface d’Experience Cloud {#interface}
 
 + [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 + Services d’Experience Cloud {#services}
