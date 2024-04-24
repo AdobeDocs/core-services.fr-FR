@@ -1,7 +1,7 @@
 ---
-description: Découvrez les ressources Experience Cloud Assets que vous pouvez partager entre les applications.
+description: Découvrez les ressources Experience Cloud Assets que vous pouvez partager entre les applications.
 solution: Experience Cloud
-title: Présentation d’Assets
+title: Vue d’ensemble d’Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que
 
 >[!NOTE]
 >
->Les ressources doivent être supprimées des activités Adobe Target avant de pouvoir les supprimer de [!DNL Target].
+>Les ressources doivent d’abord être supprimées des activités Adobe Target pour pouvoir les supprimer de [!DNL Target].
 
 ## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

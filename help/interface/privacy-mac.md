@@ -1,7 +1,7 @@
 ---
-description: Découvrez les considérations et bonnes pratiques relatives aux informations dʼidentification personnelle (IIP) chargées et utilisées dans Experience Cloud.
+description: Découvrez les considérations et bonnes pratiques relatives aux informations dʼidentification personnelle (IIP) chargées et utilisées dans Experience Cloud.
 solution: Experience Cloud
-title: Considérations relatives à la confidentialité des attributs du client
+title: Considérations relatives à la confidentialité des attributs du client et de la cliente
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
@@ -9,13 +9,13 @@ role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Considérations relatives à la confidentialité pour [!DNL Customer Attributes]
+# Considérations relatives à la confidentialité des [!DNL Customer Attributes]
 
 Considérations et bonnes pratiques relatives aux informations d’identification personnelle chargées et utilisées dans Adobe Experience Cloud.
 

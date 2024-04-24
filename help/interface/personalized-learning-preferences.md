@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Préférences d’apprentissage personnalisées Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
 ht-degree: 100%
 

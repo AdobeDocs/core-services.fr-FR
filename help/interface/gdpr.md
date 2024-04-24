@@ -1,21 +1,21 @@
 ---
-title: «[!DNL Customer Attributes] Prise en charge du règlement général sur la protection des données »
-description: Découvrez la prise en charge des attributs du client pour le Règlement général sur la protection des données
+title: « Prise en charge des [!DNL Customer Attributes] pour le Règlement général sur la protection des données »
+description: Découvrir la prise en charge des attributs du client ou de la cliente pour le Règlement général sur la protection des données
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# [!DNL Customer Attributes] prise en charge du règlement général sur la protection des données
+# Prise en charge des [!DNL Customer Attributes] pour le Règlement général sur la protection des données
 
-Cette page décrit comment [!DNL Customer Attributes] prend en charge le Règlement général sur la protection des données (RGPD).
+Cette page décrit comment les [!DNL Customer Attributes] prennent en charge le Règlement général sur la protection des données (RGPD).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Le [Règlement général sur la protection des données](https://business.adobe.
 
 Adobe Experience Cloud agit en tant que responsable du traitement de données pour toutes les données personnelles qu’il reçoit et stocke pour le compte de ses clients. En tant que contrôleur de données, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke pour vous.
 
-Ce document décrit comment [!DNL Customer Attributes] prend en charge les droits d’accès et de suppression des données des titulaires de données selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur du Privacy Service.
+Ce document décrit comment les [!DNL Customer Attributes] prennent en charge les droits d’accès et de suppression des données des personnes titulaires de données selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
 
 Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
-## Configuration requise pour envoyer des demandes pour [!DNL Customer Attributes]
+## Configuration requise pour envoyer des demandes relatives aux [!DNL Customer Attributes]
 
-Pour envoyer des demandes d’accès et de suppression de données pour [!DNL Customer Attributes], vous devez :
+Pour envoyer des demandes d’accès et de suppression de données pour les [!DNL Customer Attributes], vous devez procéder comme suit :
 
 1. Identifier les éléments suivants :
 
@@ -41,9 +41,9 @@ Pour envoyer des demandes d’accès et de suppression de données pour [!DNL Cu
 
    Votre [ID d’organisation](#organizations.md) consiste en une chaîne alphanumérique de 24 caractères suivie de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des requêtes à l’API Privacy. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’ID.
 
-1. In [!UICONTROL Privacy Service], vous pouvez envoyer des demandes d’accès et de suppression à [!DNL Customer Attributes], et vérifiez le statut des requêtes existantes.
+1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des demandes d’accès et de suppression pour les [!DNL Customer Attributes], et vérifier le statut des demandes existantes.
 
-## Valeurs de champ obligatoires dans [!DNL Customer Attributes] Requêtes JSON
+## Valeurs de champ requises dans les demandes JSON relatives aux [!DNL Customer Attributes]
 
 &quot;company context&quot; :
 
