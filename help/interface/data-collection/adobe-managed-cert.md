@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 10%
 
 ---
@@ -155,7 +155,7 @@ Les clients suivants sont connus pour ne pas pouvoir se connecter à l’ensembl
 
 +++Quels types de certificat HTTPS sont pris en charge ?
 
-Adobe prend en charge les types de certificats RSA et ECC pour répondre à différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA et ECC sont recommandés. Les clients modernes prennent en charge RSA et ECC. En règle générale, les clients suivants prennent uniquement en charge les certificats RSA :
+Adobe prend en charge les types de certificats RSA et ECC pour répondre à différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA est requis et ECC est recommandé. Les clients modernes prennent en charge RSA et ECC. En règle générale, les clients suivants prennent uniquement en charge les certificats RSA :
 
 * Windows Vista et versions antérieures (dernière mise à jour en 2012)
 * Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
