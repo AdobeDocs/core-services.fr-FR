@@ -2,10 +2,10 @@
 title: Collecte de données régionale
 description: Informations sur la collecte de données régionale
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 23%
+source-wordcount: '291'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ La collecte de données régionale inclut actuellement les emplacements suivants
 | Type RDC | Centres de collecte de données |
 | --- | --- |
 | Global (par défaut) | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
-| Mondiale + Chine* | Chine*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
+| Mondiale + Chine* | Pékin*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
 | Amériques uniquement | Oregon, Virginie |
 | Europe uniquement | Irlande, Paris |
 | Asie-Pacifique uniquement | Mumbai, Singapour, Tokyo, Sydney |
@@ -41,6 +41,7 @@ La collecte de données tierces comprend des domaines de cookies qui ne correspo
 
 | Type RDC | Centres de collecte de données |
 | --- | --- |
-| Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney, Chine* |
+| Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
+| Default + China* | Pékin*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
 
 {style="table-layout:auto"}
