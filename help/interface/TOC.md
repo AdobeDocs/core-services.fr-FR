@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
 
 + Services {#services}
    + [Aperçu](services/overview.md)
-   + [Prise en main](services/getting-started.md)
+   + [Commencer](services/getting-started.md)
    + Ressources {#assets}
       + [Vue d’ensemble](services/assets/experience-cloud-assets.md)
       + [Partage de dossiers et de ressources avec Creative Cloud](services/assets/creative-cloud.md)
@@ -30,9 +30,9 @@ ht-degree: 80%
       + [Comportement des dossiers partagés](services/assets/behavior.md)
    + Bibliothèque d’audiences {#audiences}
       + [Vue d’ensemble](services/audiences/overview.md)
-      + [Création d’une audience](services/audiences/create.md)
+      + [Créer une audience](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Attributs du client {#customer-attributes}
+   + Attributs du client ou de la cliente {#customer-attributes}
       + [Vue d’ensemble](services/customer-attributes/attributes.md)
       + [Questions fréquentes sur les attributs du client](services/customer-attributes/faq-crs.md)
       + [À propos du fichier de données et des sources de données pour les attributs du client](services/customer-attributes/crs-data-file.md)
@@ -58,18 +58,18 @@ ht-degree: 80%
 
 + Collecte de données {#data-collection}
    + [Programme de certificat géré par Adobe](data-collection/adobe-managed-cert.md)
-   + [Adresses IP](data-collection/ip-addresses.md)
+   + [Adresses IP](data-collection/ip-addresses.md)
    + [Domaines](data-collection/domains.md)
    + Cookies {#cookies}
-      + [Présentation des cookies](data-collection/cookies/overview.md)
+      + [Vue d’ensemble des cookies](data-collection/cookies/overview.md)
       + [Cookies publicitaires](data-collection/cookies/advertising.md)
       + [Cookies Analytics](data-collection/cookies/analytics.md)
       + [Cookies Audience Manager](data-collection/cookies/audience-manager.md)
       + [Cookies Experience Cloud](data-collection/cookies/experience-cloud.md)
       + [Cookies Target](data-collection/cookies/target.md)
-      + [Cookies SDK Web](data-collection/cookies/web-sdk.md)
+      + [Cookies du SDK web](data-collection/cookies/web-sdk.md)
    + [Collecte de données régionale](data-collection/rdc.md)
-   + [Utilisation de la prérécupération DNS](data-collection/dns-prefetch.md)
+   + [Utiliser la prérécupération DNS](data-collection/dns-prefetch.md)
 
 + Plus de ressources {#more-resources}
    + [Notes de mise à jour](more-resources/release-notes.md)
