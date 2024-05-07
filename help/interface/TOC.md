@@ -6,9 +6,9 @@ title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 92%
 + [Guide des composants de lʼinterface centrale dʼExperience Cloud](experience-cloud.md)
 
 + Services {#services}
-   + [Aperçu](services/overview.md)
+   + [Vue d’ensemble](services/overview.md)
    + [Commencer](services/getting-started.md)
    + Ressources {#assets}
       + [Vue d’ensemble](services/assets/experience-cloud-assets.md)
-      + [Partage de dossiers et de ressources avec Creative Cloud](services/assets/creative-cloud.md)
-      + [Gestion des utilisateurs Creative Cloud](services/assets/manage-cc-users.md)
-      + [Partage d’un dossier de ressources](services/assets/share.md)
+      + [Partager des dossiers et des ressources avec Creative Cloud](services/assets/creative-cloud.md)
+      + [Gérer des utilisateurs et utilisatrices de Creative Cloud](services/assets/manage-cc-users.md)
+      + [Partager un dossier de ressources](services/assets/share.md)
       + [Chargement d’une ressource dans un dossier partagé](services/assets/upload.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](services/assets/file-reqs.md)
       + [Comportement des dossiers partagés](services/assets/behavior.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [Apprentissage personnalisé](features/personalized-learning.md)
 
 + Administration {#administration}
-   + [Affichage des détails de l’utilisateur (outil d’administration)](administration/admin-tool-experience-cloud.md)
+   + [Afficher les informations sur les utilisateurs et utilisatrices (outil d’administration)](administration/admin-tool-experience-cloud.md)
    + [Liaison d’organisations et de comptes](administration/organizations.md)
    + [Intégrations](administration/integrations.md)
 
