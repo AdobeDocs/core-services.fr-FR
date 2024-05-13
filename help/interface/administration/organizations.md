@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ Lʼorganisation fonctionne comme une entreprise de connexion qui inclut tous les
 
 ![Organisations Experience Cloud](../assets/organizations-menu.png)
 
-Pour vérifier que vous êtes connecté à la bonne organisation, cliquez sur votre avatar de profil afin dʼafficher le nom de lʼorganisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
+Pour vérifier que vous vous êtes connecté à la bonne organisation, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
 
 ## Federated ID
 
@@ -45,7 +45,7 @@ Vous pouvez afficher l’ID d’organisation ainsi que d’autres informations d
 
    ![Identifiant d’organisation affecté](../assets/assigned-organization.png)
 
-1. Sous **[!UICONTROL Informations utilisateur]**, recherchez **[!UICONTROL ID d’organisation actuel]** et l’ID d’organisation s’affiche.
+1. Sous **[!UICONTROL Informations utilisateur]**, recherchez **[!UICONTROL ID d’organisation actuel]** et vous pouvez localiser l’ID d’organisation.
 
    Les administrateurs peuvent également se connecter au Admin Console (en accédant à [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) et affichez l’ID d’organisation dans l’URL.
 
@@ -87,7 +87,7 @@ Dans votre profil, sélectionnez **[!UICONTROL Modifier le profil]**.
 
 ![Modification du profil](../assets/edit-profile.png)
 
-Sous Organisation et page de destination par défaut, vous pouvez personnaliser votre expérience dʼouverture de session.
+Sous **[!UICONTROL Organisation et page d’entrée par défaut]**, vous pouvez personnaliser votre expérience de connexion.
 
 ![Organisation et page de destination par défaut](../assets/default-organization.png)
 
