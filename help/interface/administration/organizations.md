@@ -1,5 +1,5 @@
 ---
-description: Découvrez les organisations (ID d’organisation IMS) et la liaison des comptes de solutions à Experience Cloud.
+description: Découvrez les organisations (identifiant d’organisation IMS) et la liaison des comptes de solutions à Experience Cloud.
 solution: Experience Cloud
 title: Organisations et liaison de comptes
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
