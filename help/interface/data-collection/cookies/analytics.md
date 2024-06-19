@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics utilise des cookies pour définir anonymement les nouveaux visiteurs, 
 | **`s_sq`** | Session | 100 à 200 octets | Premier niveau | Utilisé par le Activity Map. Contient des informations sur le lien précédent sur lequel le visiteur a cliqué. Défini par JavaScript. |
 | **`s_vi`** | 2 ans | 44 octets | Propriétaire ou `*.omtrdc.net` (tiers) | Stocke un identifiant visiteur unique et un horodatage. Défini par la réponse HTTP. Chaque identifiant visiteur est associé à un profil du visiteur sur les serveurs Adobe. Les profils du visiteur sont supprimés après 1 an d’inactivité, quelle que soit l’expiration des cookies d’identifiant visiteur. La variable `Secure` L’indicateur est défini lorsque `SameSite` est définie sur &quot;Aucun&quot; et la connexion est HTTPS. `SameSite` est &quot;Lax&quot; par défaut pour les cookies propriétaires. `SameSite` est définie sur &quot;Aucun&quot; lors de l’utilisation de cookies tiers, tels que sur `omtrdc.net` ou `2o7.net`. Définir `SameSite` sur &quot;Aucun&quot; lors de l’utilisation d’un seul CNAME pour suivre plusieurs domaines ou propriétés. |
 | **`s_fid`** | 2 ans | 33 octets | Premier niveau | Stocke l’identifiant visiteur unique de secours et l’horodatage. Défini par JavaScript si la variable `s_vi` ne peut pas être défini en raison de restrictions des cookies tiers. Non utilisé pour les implémentations de cookies propriétaires. |
+| **`s_ac`** | Immédiat | 1 octet | Premier niveau | Permet de déterminer le domaine correct pour définir les cookies d’AppMeasurement. Contient la valeur statique `"1"`. Une fois ce cookie défini, il est immédiatement supprimé. |
 
 {style="table-layout:auto"}
 
