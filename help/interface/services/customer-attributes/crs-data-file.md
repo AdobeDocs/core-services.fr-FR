@@ -1,5 +1,5 @@
 ---
-description: En savoir plus sur les exigences en matière de fichiers de données et les sources de données multiples pour le transfert [!DNL Customer Attributes] à Experience Cloud.
+description: Découvrez les exigences en matière de fichiers de données et les sources de données multiples pour télécharger  [!DNL Customer Attributes]  vers Experience Cloud.
 solution: Experience Cloud
 title: Fichier de données et sources de données
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
@@ -17,9 +17,9 @@ ht-degree: 88%
 
 # À propos du fichier de données et des sources de données pour [!DNL Customer Attributes]
 
-Exigences liées aux fichiers de données et sources de données multiples pour le transfert [!DNL Customer Attributes] à Experience Cloud.
+Exigences liées aux fichiers de données et sources de données multiples pour télécharger [!DNL Customer Attributes] vers Experience Cloud.
 
-Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres données similaires de votre société. Les données que vous transférez vers Experience Cloud doivent être `.csv` fichier . Si vous chargez le fichier via FTP ou sFTP, vous devez également charger un fichier `.fin`.
+Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres données similaires de votre société. Les données que vous chargez vers Experience Cloud doivent être un fichier `.csv`. Si vous chargez le fichier via FTP ou sFTP, vous devez également charger un fichier `.fin`.
 
 [!DNL Customer Attributes] est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
@@ -76,7 +76,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonne d’ID de client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, la valeur setCustomerID . </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet identifiant est également utilisé comme clé dans le fichier CRM téléchargé vers Experience Cloud. Un <a href="t-crs-usecase.md" format="dita" scope="local"> ID d’alias </a> est un nom convivial pour un entrepôt de données en Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, la valeur setCustomerID . </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. L’ID est défini par l’appel <span class="codeph">setCustomerIDs</span> lorsqu’une personne se connecte. Cet identifiant est également utilisé comme clé dans le fichier CRM téléchargé vers Experience Cloud. Un <a href="t-crs-usecase.md" format="dita" scope="local"> ID d’alias </a> est un nom convivial pour un entrepôt de données en Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via setCustomerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour plus d’informations sur <span class="codeph">setCustomerIDs</span>, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états d’authentification</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -84,7 +84,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limites d’attribut </p> </td> 
-   <td colname="col2"> <p>Vous pouvez télécharger des centaines de <span class="filepath"> .csv </span> au service Attribut client dans Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes sʼappliquent, selon les applications que vous détenez : </p> <p> 
+   <td colname="col2"> <p>Vous pouvez télécharger des centaines de colonnes <span class="filepath"> .csv </span> vers le service Attribut client dans Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes sʼappliquent, selon les applications que vous détenez : </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b> : 3 au total </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b> : 200 par suite de rapports </li> 
@@ -154,7 +154,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Pour plus d’informations, voir [ID de client et états de l’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr).)
+(Pour plus d’informations, voir [ID de client et états de l’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).)
 
 Dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]** :
 

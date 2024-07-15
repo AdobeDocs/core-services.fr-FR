@@ -49,7 +49,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 >
 >Pour des raisons techniques, le nombre de triggers est actuellement limité à 100.
 
-1. Dans Experience Cloud, sélectionnez ![menu](../assets/menu-icon.png), puis sélectionnez **[!UICONTROL Collecte de données/lancement]**.
+1. Dans Experience Cloud, sélectionnez ![menu](../assets/menu-icon.png), puis **[!UICONTROL Collecte de données/Launch]**.
 2. Sur la carte [!UICONTROL Triggers], sélectionnez **[!UICONTROL Gérer les triggers]**.
 3. Sélectionnez **[!UICONTROL Nouveau trigger]**, puis spécifiez le type de trigger :
 

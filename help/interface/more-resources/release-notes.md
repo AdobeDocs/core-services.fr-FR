@@ -191,7 +191,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 * Déploie une fonctionnalité en arrière-plan pour contrôler le partage d’actif entre Experience Cloud et AEM, ainsi qu’entre Experience Cloud et Creative Cloud. (CORE-14386)
 * Correction d’un problème qui bloquait le provisionnement des nouveaux clients sur certains environnements. (CORE-15509)
-* Correction d’un problème qui redirigeait les utilisateurs vers `experiencecloud.adobe.com` using `http` au lieu de `https`. (CORE-15587)
+* Correction d’un problème qui redirigeait les utilisateurs vers `experiencecloud.adobe.com` en utilisant `http` au lieu de `https`. (CORE-15587)
 * Correction d’un problème qui bloquait les notifications pour certains nouveaux clients. (CORE-15240)
 
 ## Juin 2018
@@ -216,7 +216,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 ## Octobre 2017
 
-**Problème connu**: de nombreuses notifications de maintenance concernant les mises à jour de maintenance/produit planifiées ne figurent pas dans le courrier électronique de résumé des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans l’e-mail récapitulatif.
+**Problème connu** : de nombreuses notifications de maintenance relatives à la maintenance programmée/aux mises à jour de produit ne figurent pas dans le résumé quotidien des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans l’e-mail récapitulatif.
 
 ## Août 2017
 
@@ -232,7 +232,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br>Le mappage de suites de rapports à une seule organisation permet d’activer des fonctionnalités et services inter-applications dans Experience Cloud. |
+| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br> Le mappage de suites de rapports à une seule organisation permet d’activer des fonctionnalités et des services inter-applications dans Experience Cloud. |
 | Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](../services/audiences/create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
 
 {style="table-layout:auto"}
@@ -343,7 +343,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 * Correction d’un problème qui empêchait le partage des audiences à partir d’Analytics lors de l’utilisation du service d’identification des visiteurs. (MAC-25788, MAC-25747)
 * Ajout de la prise en charge des caractères à plusieurs octets dans les attributs du client. (MAC-25552)
 
-**Problème connu**: un problème connu entraîne la création de comptes générés automatiquement en double dans Audience Manager et leur liaison automatique à l’identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe vous recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
+**Problème connu** : un problème connu entraîne la création en Audience Manager de comptes générés automatiquement en double et leur liaison automatique à l’identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe vous recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
 ## Mai 2015
 
@@ -368,7 +368,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 </table>
 
 * Correction d’un problème empêchant la synchronisation des attributs de certains clients.
-* Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) en japonais.
+* Correction d’un problème qui empêchait l’affichage de la page [Documentation du produit Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) en japonais.
 * Correction d’un problème qui empêchait l’utilisation du texte japonais dans les commentaires entre [!DNL Creative Cloud] et [!DNL Experience Cloud].
 
 ## Avril 2015

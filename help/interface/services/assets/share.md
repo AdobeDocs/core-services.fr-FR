@@ -52,7 +52,7 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creati
 
 Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-D’autres méthodes d’utilisation d’une ressource partagée incluent le chargement ou la permutation de ressources dans la variable [Bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?=lang=fr) dans Adobe Target pour les images dans les activités.
+Pour utiliser une ressource partagée, vous pouvez également charger ou permuter des ressources dans la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) d’Adobe Target pour les images dans les activités.
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 

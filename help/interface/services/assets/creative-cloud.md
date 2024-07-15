@@ -1,7 +1,7 @@
 ---
 description: Découvrez comment partager des dossiers et des ressources entre Experience Cloud et Creative Cloud.
 solution: Experience Cloud
-title: Partage de dossiers et de ressources Experience Cloud avec Creative Cloud
+title: Partage de dossiers et d’Assets Experience Cloud avec Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
@@ -26,10 +26,10 @@ Partagez des dossiers et des ressources entre Experience Cloud et Creative Clou
 * Optimisation de la sécurité de l’entreprise
 * Partage, enregistrement et envoi faciles de fichiers entre les créatifs et les spécialistes marketing
 
-Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doivent être placés sur liste blanche dans Experience Cloud. Voir [Gestion des utilisateurs Creative Cloud](manage-cc-users.md).
+Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doivent être placés sur liste blanche dans Experience Cloud. Voir [Gérer les utilisateurs de Creative Cloud](manage-cc-users.md).
 
 ## Partage de ressources avec Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
 Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource image partagée au moment de permuter des images dans la [!UICONTROL bibliothèque d’offres].
 
-Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?=lang=fr) dans l’aide [!DNL Target].
+Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans l’aide [!DNL Target].

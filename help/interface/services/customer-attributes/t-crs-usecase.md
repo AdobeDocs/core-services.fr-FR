@@ -1,7 +1,7 @@
 ---
 description: Créez une source d’attributs du client et chargez-la dans Adobe Experience Cloud.
 solution: Experience Cloud
-title: Création d’une source d’attributs du client et transfert du fichier de données
+title: Création d’un Source d’attributs du client et transfert du fichier de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ Créez la source d’attributs du client (fichiers CSV et FIN) et téléchargez 
 
 >[!IMPORTANT]
 >
->Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produit Attributs du client (Attributs du client - Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. If *Attributs du client* s’affiche comme l’une des [!UICONTROL profils de produit], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
+>Pour accéder à cette fonction, les utilisateurs doivent être affectés au profil de produit Attributs du client (Attributs du client - Accès par défaut). Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si *Attributs du client* s’affiche comme l’un des [!UICONTROL  profils de produit], vous êtes prêt à commencer. Les utilisateurs membres du groupe Attributs du client ont accès au menu [!UICONTROL Attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
 >
 >Pour utiliser la fonctionnalité Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de lʼapplication (Analytics ou [!DNL Target]).
 
@@ -48,13 +48,13 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Effectuez les étapes suivantes sur la page Créer une source d’attributs cliente dans Experience Cloud.
+Effectuez les étapes suivantes sur la page Créer un Source d’attributs du client dans Experience Cloud.
 
 >[!IMPORTANT]
 >
 >Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, le démarrage de la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez le service à la clientèle ou le service d’assistance clientèle d’Audience Manager pour obtenir des droits d’administration.
 
-1. Dans le [!DNL Experience Cloud], sélectionnez le menu .  ![menu](assets/menu-icon.png) Icône
+1. Dans le [!DNL Experience Cloud], sélectionnez l&#39;icône Menu ![menu](assets/menu-icon.png) .
 1. Sous **[!DNL Experience Platform]**, sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Attributs du client]**.
 
    Sur la page [!UICONTROL Attributs du client], vous pouvez gérer et modifier les sources de données d’attributs existantes.
@@ -71,13 +71,13 @@ Effectuez les étapes suivantes sur la page Créer une source d’attributs clie
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attribut de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. Lʼ[!UICONTROL ID dʼalias] est un ID unique utilisé dans le code de la source dʼattributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans la variable [!UICONTROL ID d’alias] pour une source d’attributs du client dans Experience Cloud doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par le biais de la collecte de données Platform ou de JavaScript du SDK Mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. Lʼ[!UICONTROL ID dʼalias] est un ID unique utilisé dans le code de la source dʼattributs du client. L’identifiant doit être unique, en minuscules, sans espace. La valeur entrée dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans Experience Cloud doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par le biais de la collecte de données Platform ou de JavaScript du SDK mobile).
 
      L’ID d’alias correspond à certaines zones où vous définissez les valeurs des identifiants de client supplémentaires. Par exemple :
 
       * **Dynamic Tag Management :** l’ID d’alias correspond à la valeur du *code d’intégration* sous [!UICONTROL Paramètres du client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
         Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -110,7 +110,7 @@ Effectuez les étapes suivantes sur la page Créer une source d’attributs clie
 
      **Graphique du téléchargement du fichier**
 
-     ![Attributs](assets/file_upload_attributes.png)
+     ![attributes](assets/file_upload_attributes.png)
 
    * **[!UICONTROL ID de client unique :]** indique combien d’ID uniques vous avez chargés vers cette source d’attributs.
 
@@ -141,7 +141,7 @@ Voir [Configuration des abonnements](subscription.md).
 
 **Pour activer une source d’attributs, procédez comme suit :**
 
-Sur le [!UICONTROL Création ou modification d’une source d’attributs cliente] , recherchez la variable [!UICONTROL Activer] titre, puis sélectionnez **[!UICONTROL Actif]**.
+Sur la page [!UICONTROL Créer ou Modifier le Source d’attributs du client], recherchez l’en-tête [!UICONTROL Activer], puis sélectionnez **[!UICONTROL Actif]**.
 
 ![Résultat de l’étape](assets/activate_attribute_source.png)
 

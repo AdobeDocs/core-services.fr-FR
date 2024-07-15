@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 |--- |--- |
 | [Organisation](../administration/organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
 | [!UICONTROL Collecte de données de produit] | Sélectionnez les technologies qu’Adobe peut utiliser pour collecter des données sur la manière dont vous utilisez vos produits Adobe. |
-| [!UICONTROL Promotions et recommandations d’apprentissage personnalisées] | Sélectionnez l’emplacement où vous souhaitez recevoir des [aide personnalisée](personalized-learning.md) pour vos produits d’Adobe. Cette aide est disponible par courrier électronique, dans le produit et dans les communautés Experience League. |
-| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans le [!UICONTROL Notifications] et dans votre email. |
-| [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une [!UICONTROL Élevée] et peut être configuré pour la diffusion comme des alertes. |
+| [!UICONTROL Promotions et recommandations d’apprentissage personnalisées] | Sélectionnez l’emplacement où vous souhaitez recevoir [une aide personnalisée](personalized-learning.md) pour vos produits d’Adobe. Cette aide est disponible par courrier électronique, dans le produit et dans les communautés Experience League. |
+| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre email. |
+| [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise [!UICONTROL High] et peuvent être configurées pour une diffusion telle que des alertes. |
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 

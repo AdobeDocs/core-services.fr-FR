@@ -5,27 +5,27 @@ exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 21%
+ht-degree: 2%
 
 ---
 
-# Collecte de données régionales
+# Collecte de données régionale
 
 Adobe Experience Cloud utilise la collecte de données régionale (RDC) afin que les interactions entre vos visiteurs et vos Adobes se produisent aussi près que possible de vos visiteurs. Les données collectées localement sur un site de périphérie sont transférées en toute sécurité vers un site principal pour traitement. Une fois les données traitées, elles sont disponibles pour les produits et services Adobe Experience Cloud.
 
 Le workflow de collecte de données régionale offre plusieurs avantages :
 
-* **Performances**: avec la collecte de données régionale, vos visiteurs se connectent au site Edge le plus proche. Cette optimisation permet de disposer du temps de réponse le plus rapide, ce qui autorise un suivi plus précis et des temps de chargement plus rapides.
-* **Redondance**: en cas d’interruption de communication entre un site de périphérie et un site principal, l’infrastructure de l’Adobe enregistre les données localement, puis les transfère au site principal lorsque les communications sont restaurées. Adobe peut également acheminer le trafic vers d’autres sites Edge en cas d’interruption d’un emplacement spécifique.
+* **Performance** : avec la collecte de données régionale, vos visiteurs se connectent au site Edge le plus proche. Cette optimisation fournit le temps de réponse le plus rapide, ce qui se traduit par un suivi plus précis et des temps de chargement plus rapides.
+* **Redondance** : en cas d’interruption de communication entre un site de périphérie et un site principal, l’infrastructure de l’Adobe enregistre les données localement, puis les transfère vers le site principal lorsque les communications sont restaurées. Adobe peut également acheminer le trafic vers d’autres sites Edge en cas d’interruption d’un emplacement spécifique.
 
-La collecte de données régionale inclut actuellement les emplacements suivants (sujets à modification) :
+La collecte de données régionale comprend actuellement les emplacements suivants (sujets à modification) :
 
 ## Collecte de données propriétaires
 
 | Type RDC | Centres de collecte de données |
 | --- | --- |
 | Global (par défaut) | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
-| Mondiale + Chine* | Pékin*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
+| Global + Chine* | Pékin*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
 | Amériques uniquement | Oregon, Virginie |
 | Europe uniquement | Irlande, Paris |
 | Asie-Pacifique uniquement | Mumbai, Singapour, Tokyo, Sydney |

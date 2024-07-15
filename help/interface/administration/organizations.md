@@ -17,7 +17,7 @@ ht-degree: 64%
 
 # Organisations dans Experience Cloud
 
-Un *organization* (ID d’organisation) est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud.
+Une *organisation* (ID d’organisation) est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud.
 
 Lʼorganisation fonctionne comme une entreprise de connexion qui inclut tous les produits et applications Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
@@ -37,7 +37,7 @@ Vous pouvez localiser l’ID d’organisation qui vous a été attribué à des 
 
 L’ID de l’organisation est l’identifiant associé à votre entreprise Experience Cloud provisionnée. Cet identifiant est une chaîne alphanumérique de 24 caractères, suivie de (et qui doit inclure) `@AdobeOrg`.
 
-Vous pouvez afficher l’ID d’organisation ainsi que d’autres informations de compte à l’aide du raccourci clavier **Ctrl+i** de n’importe quelle page à `https://experience.adobe.com`.
+Vous pouvez afficher l’ID d’organisation, ainsi que d’autres informations de compte, à l’aide du raccourci clavier **Ctrl+i** à partir de n’importe quelle page sur `https://experience.adobe.com`.
 
 **Pour afficher l’ID d’organisation**
 
@@ -45,9 +45,9 @@ Vous pouvez afficher l’ID d’organisation ainsi que d’autres informations d
 
    ![Identifiant d’organisation affecté](../assets/assigned-organization.png)
 
-1. Sous **[!UICONTROL Informations utilisateur]**, recherchez **[!UICONTROL ID d’organisation actuel]** et vous pouvez localiser l’ID d’organisation.
+1. Sous **[!UICONTROL Informations sur l’utilisateur]**, recherchez **[!UICONTROL ID d’organisation actuel]** et vous pouvez localiser l’ID d’organisation.
 
-   Les administrateurs peuvent également se connecter au Admin Console (en accédant à [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) et affichez l’ID d’organisation dans l’URL.
+   Les administrateurs peuvent également se connecter à l’Admin Console (en se rendant sur [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) et afficher l’ID d’organisation dans l’URL.
 
    Par exemple, dans l’URL suivante :
 
@@ -87,7 +87,7 @@ Dans votre profil, sélectionnez **[!UICONTROL Modifier le profil]**.
 
 ![Modification du profil](../assets/edit-profile.png)
 
-Sous **[!UICONTROL Organisation et page d’entrée par défaut]**, vous pouvez personnaliser votre expérience de connexion.
+Sous **[!UICONTROL Default Organization &amp; Landing Page]**, vous pouvez personnaliser votre expérience de connexion.
 
 ![Organisation et page de destination par défaut](../assets/default-organization.png)
 

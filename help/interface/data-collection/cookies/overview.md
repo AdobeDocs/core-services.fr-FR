@@ -2,13 +2,13 @@
 description: Découvrez comment les solutions et services d’Adobe Experience Cloud utilisent les cookies.
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Cookies utilisés dans Experience Cloud
 
@@ -22,10 +22,10 @@ En vertu des lois, réglementations et principes d’autoréglementation en vigu
 
 Les services Adobe Experience Cloud utilisent des cookies pour fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’image et les sessions de navigateur. Si possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
 
-De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe garantit que les cookies peuvent toujours être définis même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (tels que `s_vi` (cookie) :
+De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe garantit que les cookies peuvent toujours être définis même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (tels que le cookie `s_vi`) :
 
-* La variable [Service Experience Platform Identity (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que le domaine de collection corresponde ou non à votre domaine de site. S’ils ne correspondent pas, Identity Service utilise JavaScript pour définir des cookies sur le domaine de votre site.
-* Si vous utilisez [Identifiants Analytics hérités](analytics.md) (par exemple, `s_vi` ), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu de la norme `s_vi` du cookie.
+* Le [ service d’identité Experience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que le domaine de collecte corresponde ou non à votre domaine de site. S’ils ne correspondent pas, Identity Service utilise JavaScript pour définir des cookies sur le domaine de votre site.
+* Si vous utilisez les [identifiants hérités Analytics](analytics.md) (tels que le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu du cookie `s_vi` standard.
 
 Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permet le transfert depuis un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte d’Adobe. Cette tâche implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par l’Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
 

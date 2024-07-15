@@ -68,12 +68,12 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 | Nouveau | [Création d’une audience](create.md). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |
-| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** Un segment créé dans Adobe Analytics, puis publié sur Experience Cloud.</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences d’Experience Cloud](create.md).</li><li>**Audience Manager :** les audiences créées dans Audience Manager s’affichent automatiquement sur la page Audiences d’Experience Cloud.</li></ul> |
+| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** Segment créé dans Adobe Analytics, puis publié sur Experience Cloud.</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences d’Experience Cloud](create.md).</li><li>**Audience Manager :** les audiences créées dans Audience Manager s’affichent automatiquement sur la page Audiences d’Experience Cloud.</li></ul> |
 | Taille actuelle | Taille actuelle de l’audience. |
 | Actif | État actif du segment. |
 
 {style="table-layout:auto"}
 
-## Publication d’audiences à partir d’Adobe Analytics
+## Audiences Publish à partir d’Adobe Analytics
 
-Voir [Publication de segments sur Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics pour plus d’informations.
+Pour plus d’informations, voir [Segments Publish vers Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics.

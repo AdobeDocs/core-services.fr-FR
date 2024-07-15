@@ -1,16 +1,17 @@
 ---
 title: Adresses IP utilisées par Adobe Experience Cloud
-description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent de l’Adobe, utilisez cette liste pour mettre à jour les paramètres de votre pare-feu.
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 24%
+ht-degree: 6%
 
 ---
 
 # Adresses IP utilisées par Adobe Experience Cloud
 
-Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise. Cette page comprend les systèmes entrants (comme la collecte de données) et sortants (comme les flux de données dans Adobe Analytics) utilisés par Adobe.
+Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise. Cette page comprend les systèmes entrants (comme la collecte de données) et sortants (comme les flux de données dans Adobe Analytics) utilisés par Adobe.
 
 >[!IMPORTANT]
 >
@@ -21,7 +22,7 @@ Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe Exp
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
-## Tous les blocs d’adresses IP Adobe
+## Tous les blocs d’adresse IP d’Adobe
 
 Le tableau suivant couvre toutes les adresses IP détenues par l’Adobe. Ce tableau comprend tous les bureaux des employés et centres de données d’Adobe exécutés par Adobe à l’échelle mondiale. Il n’inclut pas les services hébergés sur des clouds publics.
 

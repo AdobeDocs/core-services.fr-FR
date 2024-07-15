@@ -20,7 +20,7 @@ Informations sur les mises à jour apportées à la documentation du produit Exp
 
 **26 avril 2024**
 
-Révision complète de l’architecture de la documentation. Également ajouté [Adresses IP Adobe Experience Cloud](../data-collection/ip-addresses.md) et [Collecte de données régionale](../data-collection/rdc.md).
+Révision complète de l’architecture de la documentation. [Adresses IP Adobe Experience Cloud](../data-collection/ip-addresses.md) et [Collecte de données régionale](../data-collection/rdc.md) ont également été ajoutés.
 
 **9 avril 2024**
 
@@ -65,7 +65,7 @@ Mise à jour des [First Party Cookies](../data-collection/adobe-managed-cert.md)
 
 Réorganisation de la structure et de la table des matières du guide.
 
-**1er juin 2021**
+**1 juin 2021**
 
 Mise à jour de la [page de destination](../experience-cloud.md) avec ajout d’informations d’aide pour l’accès à Experience Cloud, à la recherche globale, aux préférences et aux notifications.
 

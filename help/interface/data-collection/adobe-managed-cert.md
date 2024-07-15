@@ -12,7 +12,7 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Si vous gérez actuellement vos propres certificats, vous êtes responsable de l
 
 Pour mettre en oeuvre un nouveau certificat pour la collecte de données propriétaires, procédez comme suit :
 
-1. Téléchargez et remplissez le [Formulaire de demande de domaine propriétaire](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Téléchargez et remplissez le [formulaire de demande de domaine propriétaire](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. Ouvrez une demande auprès de l’assistance clientèle d’Adobe pour configurer la collecte de données propriétaires sur le programme de certificat géré par Adobe.
 
@@ -50,7 +50,7 @@ Si tout fonctionne, le navigateur affiche `SUCCESS`. Si le certificat n’est pa
 
 +++**Ligne de commande (`curl`)**
 
-La plupart des systèmes d’exploitation modernes ont déjà des systèmes d’exploitation [`curl`](https://curl.se) installé.
+[`curl`](https://curl.se) est déjà installé sur la plupart des systèmes d’exploitation modernes.
 
 Saisissez les informations suivantes dans la ligne de commande :
 
@@ -62,7 +62,7 @@ Si tout fonctionne correctement, la console renvoie `SUCCESS`.
 
 >[!TIP]
 >
->Vous pouvez utiliser la variable `-k` Indicateur pour désactiver l’avertissement de sécurité afin de faciliter la résolution des problèmes.
+>Vous pouvez utiliser l’indicateur `-k` pour désactiver l’avertissement de sécurité afin de faciliter le dépannage.
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 Une fois que vous avez vérifié que votre certificat fonctionne correctement, vous pouvez mettre à jour votre mise en oeuvre d’Adobe pour utiliser ces valeurs.
 
-* Pour les implémentations Adobe Analytics AppMeasurement, mettez à jour la variable [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) de configuration. Si vous disposez d’une mise en oeuvre existante, voir [Migration des visiteurs](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) pour obtenir des instructions supplémentaires sur la manière d’empêcher les visiteurs existants d’être comptés comme de nouveaux visiteurs.
-* Pour les implémentations de SDK Web, mettez à jour la variable [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dans la propriété [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) .
+* Pour les implémentations d’AppMeasurement Adobe Analytics, mettez à jour la variable de configuration [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver). Si vous disposez d’une mise en oeuvre existante, reportez-vous à la section [Migration des visiteurs](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) pour obtenir des instructions supplémentaires sur la manière d’empêcher les visiteurs existants d’être comptés comme de nouveaux visiteurs.
+* Pour les implémentations du SDK Web, mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dans la commande [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) .
 
 ## Maintenance et renouvellements
 
@@ -139,17 +139,17 @@ Non. Adobe offre ce service à tous les clients Adobe Experience Cloud sans frai
 
 +++Quels sont les niveaux de sécurité de chiffrement proposés par Adobe ?
 
-Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent les algorithmes de chiffrement pris en charge pour les connexions HTTPS aux serveurs Adobe. Adobe passe régulièrement en revue et met à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
+Adobe offre deux niveaux de sécurité de chiffrement pour répondre aux besoins divers des clients en matière de sécurité dans la collecte de données propriétaires. Ces niveaux déterminent les algorithmes de chiffrement pris en charge pour les connexions HTTPS aux serveurs Adobe. Adobe passe régulièrement en revue et met à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
-* **Standard** nécessite TLS 1.2 ou une version plus récente et au moins un chiffrement 128 bits. Il est conçu pour offrir la compatibilité d’appareil la plus large tout en conservant un chiffrement sécurisé.
-* **Élevée** le niveau de sécurité de cipher requiert TLS 1.2 ou une version plus récente et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent un chiffrement le plus fort et ne se soucient pas de la prise en charge des appareils plus anciens.
+* **Standard** nécessite TLS 1.2 ou plus récent et un chiffrement d’au moins 128 bits. Il est conçu pour offrir la compatibilité d’appareil la plus large tout en conservant un chiffrement sécurisé.
+* Le niveau de sécurité du chiffrement **élevé** nécessite TLS 1.2 ou une version ultérieure et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent un chiffrement le plus fort et ne se soucient pas de la prise en charge des appareils plus anciens.
 
-Les clients suivants sont connus pour ne pas pouvoir se connecter à l’ensemble de sécurité de chiffrement **Élevée**:
+Les clients suivants sont connus pour ne pas pouvoir se connecter à l’ensemble de sécurité de chiffrement défini sur **High** :
 
-* Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
-* Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
-* OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
-* iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
+* Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
+* Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
+* OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
+* iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
 
 +++
 
@@ -158,9 +158,9 @@ Les clients suivants sont connus pour ne pas pouvoir se connecter à l’ensembl
 Adobe prend en charge les types de certificats RSA et ECC pour répondre à différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA est requis et ECC est recommandé. Les clients modernes prennent en charge RSA et ECC. En règle générale, les clients suivants prennent uniquement en charge les certificats RSA :
 
 * Windows Vista et versions antérieures (dernière mise à jour en 2012)
-* Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
+* Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
 * OS X 10.8 et versions antérieures (dernière mise à jour en 2013)
-* iOS 5.1 et versions antérieures (dernière mise à jour en 2012)
+* iOS 5.1 et versions antérieures (dernière mise à jour en 2012)
 * Android 4.3 et versions antérieures (dernière mise à jour en 2013)
 
 +++

@@ -26,8 +26,8 @@ Décrit comment :
 * Configurez votre société en Experience Cloud.
 * Devenir un administrateur
 * [Mettre en œuvre le service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
-* Moderniser votre [!DNL Analytics] et [!DNL Target] Mise en oeuvre via [!UICONTROL Collecte de données de plateforme].
-* Commencez à utiliser les services Experience Cloud tels que [[!DNL Customer Attributes]](../services/customer-attributes/attributes.md) et [[!DNL Audience Library]](../services/audiences/overview.md).
+* Modernisez vos mises en oeuvre [!DNL Analytics] et [!DNL Target] via [!UICONTROL Platform Data Collection].
+* Commencez à utiliser des services Experience Cloud tels que [[!DNL Customer Attributes]](../services/customer-attributes/attributes.md) et [[!DNL Audience Library]](../services/audiences/overview.md).
 
 Solutions ou services :
 
@@ -44,14 +44,14 @@ Voir [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-s
 
 **Applications ou services applicables**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=fr)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html)
 * [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)
 
 ## Audiences {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
 Aide : [Audiences](/help/interface/services/audiences/overview.md)
 
-Création et gestion des audiences dans Experience Cloud [!UICONTROL Bibliothèque d’audiences]. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
+Créez et gérez des audiences dans la [!UICONTROL bibliothèque d’audiences] Experience Cloud. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
 * Nouvelles audiences créées dans [!DNL Experience Cloud].
 * Segments [!DNL Analytics] publiés dans [!DNL Experience Cloud].
@@ -60,7 +60,7 @@ Création et gestion des audiences dans Experience Cloud [!UICONTROL Bibliothèq
 **Solutions ou services applicables**
 
 * [Activités dans Adobe Target](https://experienceleague.adobe.com/docs/target/using/activities/activities.html)
-* [Segmentation](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=fr) dans Audience Manager
+* [Segmentation](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) dans Audience Manager
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (connexion requise)
 
 ## Attributs du client {#section_6A9EA6847F654F129381869E5016626C}
@@ -106,12 +106,12 @@ Utilisez les données des applications Experience Cloud ou dʼautres systèmes e
 **Applications ou services applicables**
 
 * [Transfert côté serveur d’Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr)
-* [Envoi de segments Audience Manager à Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
+* [Envoi de segments Audience Manager à Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
 * [Intégration des données Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Aide : [Intégration d’Adobe Target à Experience Cloud](/help/interface/services/audiences/overview.md)
+Aide : [Intégration d’Adobe Target à l’Experience Cloud](/help/interface/services/audiences/overview.md)
 
 Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications Experience Cloud permet lʼutilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 
@@ -119,15 +119,15 @@ Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications 
 
 * Attributs du client : configuration d’un [abonnement](/help/interface/services/customer-attributes/subscription.md) Adobe Target pour les attributs du client
 * Audiences d’Experience Cloud : [Bibliothèque d’audiences Experience Cloud](/help/interface/services/audiences/overview.md)
-* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
+* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 * Audience Manager : [Intégration des données Adobe Target avec Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign : [Intégration d’Adobe Target à Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr)
 
 ## Intégrations Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-* Tutoriels vidéo : [Intégrations de Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
+* Tutoriels vidéo : [Intégrations Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* Documentation du produit : [Documentation du Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
+* Documentation du produit : [documentation Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 
 ## Experience Manager – Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
@@ -145,18 +145,18 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ad
 
 * Aide (connexion requise) : [intégration aux solutions et services Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentation Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
+* [Documentation sur l’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
 
 **Applications ou services applicables**
 
 **Analytics :** peut envoyer quotidiennement des données d’engagement et de conversion du site à [!DNL Adobe Advertising], où elles servent à l’optimisation des publicités et à la création de rapports. Par ailleurs, [!DNL Advertising] peut envoyer quotidiennement à Analytics des données de moteur de recherche et de trafic sur les réseaux sociaux, où elles servent aux rapports dans les fonctionnalités de Reports &amp; Analytics, de Report Builder et d’Ad Hoc Analysis.
 
-**Balises :** Vous pouvez utiliser [Balises Experience Platform pour créer des balises de suivi de conversion basées sur les pixels Advertising](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr), ainsi que des balises de suivi tierces, pour vos pages d’entrée de recherche, de réseaux sociaux et d’affichage d’annonce. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
+**Balises :** Vous pouvez utiliser des [ balises Experience Platform pour créer des balises de suivi de conversion basées sur les pixels Advertising ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) et des balises de suivi tierces, pour vos pages d’entrée de recherche, de réseaux sociaux et d’affichage d’annonce. (Vous pouvez également créer des balises [!DNL Advertising] directement dans [!DNL Advertising]).
 
-**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](../services/audiences/overview.md) en tant que cibles pour vos publicités display. Vous pouvez utiliser automatiquement les audiences que vous avez créées dans Experience Cloud et les audiences d’Analytics que vous avez publiées sur Experience Cloud. Vous pouvez également utiliser les audiences de l’Audience Manager lorsque la variable [!DNL Adobe Advertising] est configuré pour l’autoriser.
+**Audiences Experience Cloud :** (annonceurs avec gestion de l’affichage) vous pouvez utiliser n’importe laquelle de vos [audiences Adobe Experience Cloud](../services/audiences/overview.md) en tant que cibles pour vos publicités display. Vous pouvez utiliser automatiquement les audiences que vous avez créées dans Experience Cloud et les audiences d’Analytics que vous avez publiées sur Experience Cloud. Vous pouvez également utiliser les audiences de l’Audience Manager lorsque le compte [!DNL Adobe Advertising] est configuré pour l’autoriser.
 
 Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud et à Profils et audiences, ainsi que sur la configuration initiale entre [!DNL Adobe Advertising] et les audiences Adobe Experience Cloud. **Remarque :** si vous utilisez également Adobe Target, toutes les audiences que vous avez publiées dans Adobe Experience Cloud sont également disponibles pour les activités dans Adobe Target.
 
-**Experience Cloud Assets :** (annonceurs avec gestion des publicités display) utilisez une de vos ressources Adobe Experience Cloud comme élément créatif pour vos publicités display, dans la vue de nouvelle publicité display (version bêta). Vous devez être [connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) pour accéder à vos ressources Adobe Experience Cloud. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
+**Experience Cloud Assets :** (annonceurs avec gestion des publicités display) utilisez une de vos ressources Adobe Experience Cloud comme élément créatif pour vos publicités display, dans la vue de nouvelle publicité display (version bêta). Vous devez être [ connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) pour accéder à vos ressources Adobe Experience Cloud. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
 
-**Notifications Experience Cloud :** à partir du lien de notifications situé en haut de chaque page, vous pouvez afficher toutes les alertes générées à partir de vos modèles d’alertes bêta de recherche. Vous pouvez également obtenir des mises à jour du système Experience Cloud, des publications, des mentions et des ressources partagées. Vous devez être [connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) pour accéder à vos notifications. Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.
+**Notifications Experience Cloud :** à partir du lien de notifications situé en haut de chaque page, vous pouvez afficher toutes les alertes générées à partir de vos modèles d’alertes bêta de recherche. Vous pouvez également obtenir des mises à jour du système Experience Cloud, des publications, des mentions et des ressources partagées. Pour accéder à vos notifications, vous devez être [ connecté à Adobe Advertising via Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard). Contactez votre gestionnaire de compte pour en savoir plus sur l’accès à Adobe Experience Cloud.

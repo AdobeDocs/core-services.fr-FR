@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Prise en charge des attributs du client pour le California Consumer Privacy Act
 
-Cette page décrit [!UICONTROL Attributs du client]Prise en charge de la California Consumer Privacy Act (CCPA).
+Cette page décrit la prise en charge des [!UICONTROL attributs du client]&#39; pour le California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!UI
 &quot;company context&quot; :
 
 * &quot;namespace&quot; : **imsOrgID**
-* &quot;value&quot;: &lt;*valeur de l’ID d’organisation*>
+* &quot;value&quot; : &lt;*valeur de l’ID d’organisation*>
 
 &quot;users&quot; :
 
