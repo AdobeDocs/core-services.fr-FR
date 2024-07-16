@@ -46,42 +46,42 @@ https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cooki
 https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/browser-cookie-settings.html,https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html
 https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-thirdparty.html,https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-thirdparty.html
 https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud-home.html,https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html
-/docs/core-services/interface/services/core-services-landing,/docs/core-services/interface/services/overview
-/docs/core-services/interface/services/search-experience-cloud,/docs/core-services/interface/features/search
-/docs/core-services/interface/services/core-services,/docs/core-services/interface/services/overview
-/docs/core-services/interface/services/personalized-learning-preferences,/docs/core-services/interface/features/personalized-learning
-/docs/core-services/interface/services/audiences/audience-library,/docs/core-services/interface/services/audiences/overview
-/docs/core-services/interface/services/audiences/t-audience-create,/docs/core-services/interface/services/audiences/create
-/docs/core-services/interface/services/audiences/t-publish-audience-segment,/docs/analytics/components/segmentation/segmentation-workflow/seg-publish
-/docs/core-services/interface/services/assets/creative-cloud,/docs/core-services/interface/services/assets/share
-/docs/core-services/interface/services/assets/t-admin-add-cc-user,/docs/core-services/interface/services/assets/manage-cc-users
-/docs/core-services/interface/services/assets/t-share-creative-cloud,/docs/core-services/interface/services/assets/share
-/docs/core-services/interface/services/assets/t-upload-asset-cc,/docs/core-services/interface/services/assets/upload
-/docs/core-services/interface/services/assets/t-cc-asset-upload-thor,/docs/core-services/interface/services/assets/upload
-/docs/core-services/interface/services/assets/assets-file-reqs,/docs/core-services/interface/services/assets/file-reqs
-/docs/core-services/interface/services/assets/asset-behavior,/docs/core-services/interface/services/assets/behavior
-/docs/core-services/interface/administration/admin-getting-started,/docs/core-services/interface/administration/admin-tool-experience-cloud
-/docs/core-services/interface/administration/faq,/docs/core-services/interface/more-resources/faq
-/docs/core-services/interface/administration/upgrade-to-analytics-premium,/docs/core-services/interface/experience-cloud
-/docs/core-services/interface/administration/marketing-cloud-integrations,/docs/core-services/interface/administration/integrations
-/docs/core-services/interface/administration/dns-prefetch,/docs/core-services/interface/data-collection/dns-prefetch
-/docs/core-services/interface/administration/ec-cookies/cookies-privacy,/docs/core-services/interface/data-collection/cookies/overview
-/docs/core-services/interface/administration/ec-cookies/cookies-first-party,/docs/core-services/interface/data-collection/adobe-managed-cert
-/docs/core-services/interface/administration/ec-cookies/cookies-analytics,/docs/core-services/interface/data-collection/cookies/analytics
-/docs/core-services/interface/administration/ec-cookies/cookies-am,/docs/core-services/interface/data-collection/cookies/audience-manager
-/docs/core-services/interface/administration/ec-cookies/cookies-dc,/docs/core-services/interface/data-collection/cookies/advertising
-/docs/core-services/interface/administration/ec-cookies/cookies-insight,/docs/core-services/interface/data-collection/cookies/analytics
-/docs/core-services/interface/administration/ec-cookies/cookies-mc,/docs/core-services/interface/data-collection/cookies/experience-cloud
-/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud,/docs/core-services/interface/data-collection/cookies/advertising
-/docs/core-services/interface/administration/ec-cookies/cookies-s7,/docs/core-services/interface/data-collection/cookies/overview
-/docs/core-services/interface/administration/ec-cookies/cookies-snp,/docs/core-services/interface/data-collection/cookies/target
-/docs/core-services/interface/administration/ec-cookies/cookies-target,/docs/core-services/interface/data-collection/cookies/target
-/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings,/docs/core-services/interface/data-collection/cookies/analytics
-/docs/core-services/interface/administration/ec-cookies/cookies-thirdparty,/docs/core-services/interface/data-collection/cookies/overview
-/docs/core-services/interface/triggers,/docs/core-services/services/triggers
-/docs/core-services/interface/release-notes/release-notes,/docs/core-services/interface/more-resources/release-notes
-/docs/core-services/interface/admin-getting-started.html,/docs/core-services/interface/administration/admin-tool-experience-cloud
-/docs/core-services/interface/attributes.html,/docs/core-services/interface/services/customer-attributes/attributes
-/docs/core-services/interface/audience-library.html,/docs/core-services/interface/services/audiences/overview
-/docs/core-services/interface/experience-cloud-assets.html,/docs/core-services/interface/services/assets/experience-cloud-assets
-/docs/core-services/interface/organizations.html,/docs/core-services/interface/administration/organizations
+# /docs/core-services/interface/services/core-services-landing,/docs/core-services/interface/services/overview
+# /docs/core-services/interface/services/search-experience-cloud,/docs/core-services/interface/features/search
+# /docs/core-services/interface/services/core-services,/docs/core-services/interface/services/overview
+# /docs/core-services/interface/services/personalized-learning-preferences,/docs/core-services/interface/features/personalized-learning
+# /docs/core-services/interface/services/audiences/audience-library,/docs/core-services/interface/services/audiences/overview
+# /docs/core-services/interface/services/audiences/t-audience-create,/docs/core-services/interface/services/audiences/create
+# /docs/core-services/interface/services/audiences/t-publish-audience-segment,/docs/analytics/components/segmentation/segmentation-workflow/seg-publish
+# /docs/core-services/interface/services/assets/creative-cloud,/docs/core-services/interface/services/assets/share
+# /docs/core-services/interface/services/assets/t-admin-add-cc-user,/docs/core-services/interface/services/assets/manage-cc-users
+# /docs/core-services/interface/services/assets/t-share-creative-cloud,/docs/core-services/interface/services/assets/share
+# /docs/core-services/interface/services/assets/t-upload-asset-cc,/docs/core-services/interface/services/assets/upload
+# /docs/core-services/interface/services/assets/t-cc-asset-upload-thor,/docs/core-services/interface/services/assets/upload
+# /docs/core-services/interface/services/assets/assets-file-reqs,/docs/core-services/interface/services/assets/file-reqs
+# /docs/core-services/interface/services/assets/asset-behavior,/docs/core-services/interface/services/assets/behavior
+# /docs/core-services/interface/administration/admin-getting-started,/docs/core-services/interface/administration/admin-tool-experience-cloud
+# /docs/core-services/interface/administration/faq,/docs/core-services/interface/more-resources/faq
+# /docs/core-services/interface/administration/upgrade-to-analytics-premium,/docs/core-services/interface/experience-cloud
+# /docs/core-services/interface/administration/marketing-cloud-integrations,/docs/core-services/interface/administration/integrations
+# /docs/core-services/interface/administration/dns-prefetch,/docs/core-services/interface/data-collection/dns-prefetch
+# /docs/core-services/interface/administration/ec-cookies/cookies-privacy,/docs/core-services/interface/data-collection/cookies/overview
+# /docs/core-services/interface/administration/ec-cookies/cookies-first-party,/docs/core-services/interface/data-collection/adobe-managed-cert
+# /docs/core-services/interface/administration/ec-cookies/cookies-analytics,/docs/core-services/interface/data-collection/cookies/analytics
+# /docs/core-services/interface/administration/ec-cookies/cookies-am,/docs/core-services/interface/data-collection/cookies/audience-manager
+# /docs/core-services/interface/administration/ec-cookies/cookies-dc,/docs/core-services/interface/data-collection/cookies/advertising
+# /docs/core-services/interface/administration/ec-cookies/cookies-insight,/docs/core-services/interface/data-collection/cookies/analytics
+# /docs/core-services/interface/administration/ec-cookies/cookies-mc,/docs/core-services/interface/data-collection/cookies/experience-cloud
+# /docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud,/docs/core-services/interface/data-collection/cookies/advertising
+# /docs/core-services/interface/administration/ec-cookies/cookies-s7,/docs/core-services/interface/data-collection/cookies/overview
+# /docs/core-services/interface/administration/ec-cookies/cookies-snp,/docs/core-services/interface/data-collection/cookies/target
+# /docs/core-services/interface/administration/ec-cookies/cookies-target,/docs/core-services/interface/data-collection/cookies/target
+# /docs/core-services/interface/administration/ec-cookies/browser-cookie-settings,/docs/core-services/interface/data-collection/cookies/analytics
+# /docs/core-services/interface/administration/ec-cookies/cookies-thirdparty,/docs/core-services/interface/data-collection/cookies/overview
+# /docs/core-services/interface/triggers,/docs/core-services/services/triggers
+# /docs/core-services/interface/release-notes/release-notes,/docs/core-services/interface/more-resources/release-notes
+# /docs/core-services/interface/admin-getting-started.html,/docs/core-services/interface/administration/admin-tool-experience-cloud
+# /docs/core-services/interface/attributes.html,/docs/core-services/interface/services/customer-attributes/attributes
+# /docs/core-services/interface/audience-library.html,/docs/core-services/interface/services/audiences/overview
+# /docs/core-services/interface/experience-cloud-assets.html,/docs/core-services/interface/services/assets/experience-cloud-assets
+# /docs/core-services/interface/organizations.html,/docs/core-services/interface/administration/organizations
