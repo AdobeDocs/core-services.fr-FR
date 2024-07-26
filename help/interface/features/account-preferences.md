@@ -1,16 +1,16 @@
 ---
 title: Préférences et notifications de compte
-description: Découvrez les profils utilisateur et les préférences de compte dans Experience Cloud. Abonnez-vous aux notifications de produit et obtenez des alertes de produit.
+description: Découvrez les profils utilisateur et les préférences de compte dans Experience Cloud. Abonnez-vous aux notifications de produit et obtenez des alertes de produit. Découvrez la prise en charge des navigateurs et des langues.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour pertinentes et exploitables. Cela inclut notamment les mises à jour de produits, les avis de maintenance, les éléments partagés et les demandes dʼapprobation.
 
 ![Notifications et annonces](../assets/notifications-menu-small.png)
+
+## Prise en charge des navigateurs dans Experience Cloud {#browser}
+
+Pour des performances optimales, Experience Cloud est optimisé pour les navigateurs les plus populaires, notamment la dernière version, ainsi que les deux versions précédentes.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Si votre navigateur n’est pas répertorié, il peut tout de même être pris en charge, mais il est recommandé d’utiliser l’un des navigateurs répertoriés.
+
+>[!NOTE]
+>
+>Toutes les applications s’exécutant sur un domaine Experience Cloud ne prennent pas en charge tous les navigateurs. Si vous n’êtes pas sûr, consultez la documentation d’une application spécifique.
 
 ## Prise en charge linguistique dans Experience Cloud {#languages}
 
