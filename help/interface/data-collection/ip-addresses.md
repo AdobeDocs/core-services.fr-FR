@@ -1,15 +1,15 @@
 ---
-title: Adresses IP utilisées par Adobe Experience Cloud
+title: Adresses IP utilisées par l’Experience Cloud
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent de l’Adobe, utilisez cette liste pour mettre à jour les paramètres de votre pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 6%
 
 ---
 
-# Adresses IP utilisées par Adobe Experience Cloud
+# Adresses IP utilisées par l’Experience Cloud
 
 Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise. Cette page comprend les systèmes entrants (comme la collecte de données) et sortants (comme les flux de données dans Adobe Analytics) utilisés par Adobe.
 

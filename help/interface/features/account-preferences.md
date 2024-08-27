@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 81%
@@ -39,14 +39,40 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
-{style="table-layout:auto"}
-
-## Notifications et annonces {#notifications}
+## [!UICONTROL Notifications] et [!UICONTROL Annonces] {#notifications}
 
 Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour pertinentes et exploitables. Cela inclut notamment les mises à jour de produits, les avis de maintenance, les éléments partagés et les demandes dʼapprobation.
 
 ![Notifications et annonces](../assets/notifications-menu-small.png)
 
+<!-- ## [!DNL Slack] notifications
+
+Releasing: **September 2, 2024**
+
+You can configure your account preferences to send Experience Cloud notifications to Slack.
+
+**Prerequisites**
+
+* You must have an Experience Cloud account
+* You must have a [!DNL Slack] account
+* You must be a part of at least one [!DNL Slack] workspace
+
+### To configure Slack notifications
+
+1. Sign in to Experience Cloud.
+
+1. Click your account icon, then click **[!UICONTROL Preferences]**.
+
+1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+
+1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+
+1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+
+   [Slack notifications](../assets/slack.png)
+
+1. Enable [!DNL Slack] notifications for your desired products and categories.
+ -->
 ## Prise en charge des navigateurs dans Experience Cloud {#browser}
 
 Pour des performances optimales, Experience Cloud est optimisé pour les navigateurs les plus populaires, notamment la dernière version, ainsi que les deux versions précédentes.

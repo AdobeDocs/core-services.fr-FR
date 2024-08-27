@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2690962f4b72d26fcde9883bb0bac3d49a9efa1a
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5089'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,10 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [Mises à jour de la documentation](doc-updates.md).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Septembre 2024
+
+Vous pouvez configurer des notifications de Slack pour les [préférences](/help\interface\features\account-preferences.md) de l’Experience Cloud.
 
 <!-- ## July - August 2023
 
@@ -325,7 +329,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 **Problèmes connus**
 
-* Les clientes et clients ne parviennent pas à se connecter à Report Builder lorsqu’ils se connectent à Analytics via Experience Cloud par le biais du service d’authentification unique. Ce problème n’affecte pas les clients qui utilisent des informations de connexion Analytics héritées.
+* Les clientes et clients ne parviennent pas à se connecter à Report Builder lorsqu’ils se connectent à Analytics via Experience Cloud par le biais du service d’authentification unique. Ce problème n’affecte pas les clientes et clients qui utilisent des informations d’identification Analytics héritées.
 * Problème connu avec la fonction « Lien vers le rapport » dans Analytics. Les clientes et clients qui se connectent à Analytics via Experience Cloud sont redirigés vers une page de connexion sans identification unique pour Analytics lorsqu’ils tentent de partager un rapport.
 
 ## Septembre 2015

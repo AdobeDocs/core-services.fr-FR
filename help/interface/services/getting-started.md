@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 98%
@@ -55,13 +55,13 @@ Pour se connecter à Experience Cloud, vos utilisateurs et utilisatrices doiven
 
 Des utilisateurs sont probablement déjà membres de groupes dʼapplications, par exemple un groupe Analytics que vous avez déjà géré dans [!UICONTROL Analytics] > [!UICONTROL Outils dʼadministration].
 
-Lorsque vous mappez ces groupes avec des groupes dʼentreprises dʼExperience Cloud, ces utilisateurs doivent associer manuellement les informations de connexion de leur compte dʼapplication avec leur Adobe ID.
+Lorsque vous mappez ces groupes avec des groupes dʼentreprises dʼExperience Cloud, ces utilisateurs et utilisatrices doivent associer manuellement les informations d’identification de leur compte dʼapplication avec leur Adobe ID.
 
 Voir [Lier des comptes dans Experience Cloud](../administration/organizations.md).
 
 >[!NOTE]
 >
->Une fois le mappage de groupes d’entreprises et dʼapplications effectué, les nouveaux utilisateurs sont liés automatiquement. (Les informations de connexion de la solution sont automatiquement créées et liées à leur Adobe ID.)
+>Une fois le mappage de groupes d’entreprises et dʼapplications effectué, les nouveaux utilisateurs sont liés automatiquement. (Les informations d’identification de la solution sont automatiquement créées et liées à leur Adobe ID.)
 
 Les sections suivantes expliquent comment moderniser votre mise en œuvre. Moderniser votre implémentation permet d’activer les services principaux dans Experience Cloud.
 

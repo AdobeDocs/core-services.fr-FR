@@ -3,7 +3,7 @@ description: Découvrez comment les solutions et services d’Adobe Experience�
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
