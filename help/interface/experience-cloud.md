@@ -1,5 +1,5 @@
 ---
-description: Découvrez les composants de l’interface centrale d’Experience Cloud. Obtenez de l’aide sur l’administration des utilisateurs et des produits dans l’Admin Console et activez les applications pour les services Experience Cloud. Obtenez de l’aide sur la bibliothèque d’audiences, les attributs du client, Assets Experience Cloud, etc.
+description: Découvrez les composants de l’interface centrale d’Experience Cloud. Obtenez de l’aide sur l’administration des utilisateurs et utilisatrices et des produits dans Admin Console et activez les applications pour les services Experience Cloud. Obtenez de l’aide sur la bibliothèque d’audiences, les attributs du client ou de la cliente, Experience Cloud Assets, etc.
 title: Documentation de l’interface d’Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
