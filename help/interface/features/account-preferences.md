@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 81%
+source-wordcount: '529'
+ht-degree: 69%
 
 ---
 
@@ -45,34 +45,33 @@ Sélectionnez **[!UICONTROL Notifications]** pour être averti des mises à jour
 
 ![Notifications et annonces](../assets/notifications-menu-small.png)
 
-<!-- ## [!DNL Slack] notifications
+## Notifications [!DNL Slack]
 
-Releasing: **September 2, 2024**
+Version : **2 septembre 2024**
 
-You can configure your account preferences to send Experience Cloud notifications to Slack.
+Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack.
 
-**Prerequisites**
+**Conditions préalables**
 
-* You must have an Experience Cloud account
-* You must have a [!DNL Slack] account
-* You must be a part of at least one [!DNL Slack] workspace
+* Vous devez disposer d’un compte Experience Cloud.
+* Vous devez avoir un compte [!DNL Slack]
+* Vous devez faire partie d’au moins un espace de travail [!DNL Slack].
 
-### To configure Slack notifications
+### Pour configurer des notifications Slack
 
-1. Sign in to Experience Cloud.
+1. Connectez-vous à Experience Cloud.
 
-1. Click your account icon, then click **[!UICONTROL Preferences]**.
+1. Cliquez sur l’icône de votre compte, puis sur **[!UICONTROL Préférences]**.
 
-1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+1. Sous [!DNL Slack], cliquez sur **[!UICONTROL Ajouter au Slack]**.
 
-1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+1. Lorsque [!DNL Slack] s’ouvre, cliquez sur **[!UICONTROL Autoriser]**.
 
-1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+1. Dans Préférences Experience Cloud, accédez à **[!UICONTROL Notifications]**.
 
-   [Slack notifications](../assets/slack.png)
+[Notifications Slack](../assets/slack.png)
 
-1. Enable [!DNL Slack] notifications for your desired products and categories.
- -->
+1. Activez les notifications [!DNL Slack] pour les produits et catégories de votre choix.
 
 ## Prise en charge des navigateurs dans Experience Cloud {#browser}
 
