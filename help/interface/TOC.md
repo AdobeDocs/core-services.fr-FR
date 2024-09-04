@@ -5,10 +5,10 @@ breadcrumb-title: Interface et guide d’administration d’Experience Cloud
 title: Interface et guide de lʼadministrateur Experience Cloud
 description: Découvrez l’interface ainsi que les préférences du compte d’utilisateur Experience Cloud. Découvrez comment rechercher des objets commerciaux et gérer les utilisateurs et les produits. Configurez les attributs du client, la bibliothèque d’audiences, les cookies et partagez Experience Cloud Assets.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [Déclencheurs](services/triggers.md)
 
 + Fonctionnalités {#features}
-   + [Préférences de compte](features/account-preferences.md)
+   + [Notifications et préférences de compte](features/account-preferences.md)
    + [Recherche unifiée](features/search.md)
    + [Apprentissage personnalisé](features/personalized-learning.md)
+   + [Prise en charge des navigateurs et des langues](browser-language.md)
 
 + Administration {#administration}
    + [Afficher les informations sur les utilisateurs et utilisatrices (outil d’administration)](administration/admin-tool-experience-cloud.md)
    + [Liaison d’organisations et de comptes](administration/organizations.md)
-   + [Intégrations](administration/integrations.md)
+   + [Intégrations Experience Cloud](administration/integrations.md)
 
 + Collecte de données {#data-collection}
    + [Programme de certificat géré par Adobe](data-collection/adobe-managed-cert.md)
