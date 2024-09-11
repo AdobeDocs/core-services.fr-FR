@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
+source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
 workflow-type: tm+mt
 source-wordcount: '5104'
 ht-degree: 96%
@@ -24,7 +24,7 @@ Pour obtenir la liste des mises à jour de la documentation, voir [Mises à jour
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
-## mardi 2 septembre 2024
+## mercredi 10 septembre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |

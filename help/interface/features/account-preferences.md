@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 21%
+source-wordcount: '664'
+ht-degree: 22%
 
 ---
 
@@ -22,7 +22,7 @@ Dans les préférences, vous pouvez :
 
 * Rechercher des [Organisations](../administration/organizations.md) ;
 * Spécifiez un thème sombre (toutes les applications ne prennent pas en charge ce thème).
-* Configurez les préférences utilisateur, les notifications et les abonnements.
+* Configurez les préférences, notifications et abonnements du compte pour les utilisateurs.
 * Déconnectez-vous d’Experience Cloud.
 
 ## Gestion des préférences
@@ -58,22 +58,17 @@ Les notifications par courrier électronique et Slack sont utiles lorsque vous n
 
 ### Abonnez-vous aux notifications [!DNL Slack] {#slack}
 
->[!NOTE]
->
->Les notifications de Slack seront publiées : **11 septembre 2024**
-
-
 Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
 **Conditions préalables**
 
 * Vous devez avoir un compte Experience Cloud.
-* Vous devez avoir un compte [!DNL Slack]. L’administrateur de votre Slack active l’intégration de l’Experience Cloud à Slack.
+* Vous devez avoir un compte [!DNL Slack]. Votre administrateur [!DNL Slack] active l&#39;intégration de l&#39;Experience Cloud avec [!DNL Slack].
 * Vous devez faire partie d’au moins un espace de travail [!DNL Slack].
 
-**Pour vous abonner aux notifications de Slack**
+**Pour vous abonner aux [!DNL Slack] notifications**
 
-1. Accédez à l’Experience Cloud [preferences](https://experience.adobe.com/preferences).
+1. Accédez à l’Experience Cloud [Preferences](https://experience.adobe.com/preferences).
 
 1. Recherchez [!DNL Slack], puis cliquez sur **[!UICONTROL Ajouter au Slack]**.
 
@@ -89,34 +84,34 @@ Vous pouvez configurer vos préférences de compte pour envoyer des notification
 
    Les mises à jour des notifications sont automatiquement enregistrées.
 
-### Demande d’autorisation dans Slack {#slack-troubleshoot}
+### Demande d’autorisation dans [!DNL Slack] (dépannage) {#slack-troubleshoot}
 
-Si [!DNL Slack] n&#39;est pas installé, un message _[!UICONTROL Demande d&#39;installation]_ s&#39;affiche lorsque le Slack s&#39;ouvre après avoir cliqué sur **[!UICONTROL Ajouter au Slack]**.
+Si [!DNL Slack] n&#39;est pas installé, un message _[!UICONTROL Demande d&#39;installation]_ s&#39;affiche lorsque le Slack s&#39;ouvre après avoir cliqué sur **[!UICONTROL Ajouter au Slack]**. Par exemple :
 
-![Intégration de Slack de demandes](../assets/slack-request.png)
+![Intégration de Slack de demandes](../assets/slack-workspace.png)
 
 **Pour demander des autorisations en Slack**
 
-1. Dans Slack, sélectionnez l’espace de travail dans le coin supérieur droit de l’application.
+1. Dans [!DNL Slack], sélectionnez l’espace de travail dans le menu **[!UICONTROL Workspace]** (coin supérieur droit).
 
-1. Pour demander l’approbation de la demande pour le gestionnaire de l’espace de travail du Slack, cliquez sur **[!UICONTROL Submit]**.
+1. Pour demander l’approbation de la demande pour le gestionnaire d’espace de travail [!DNL Slack], cliquez sur **[!UICONTROL Submit]**.
 
 1. Vous recevrez une notification dans [!DNL Slack] après l’approbation de la demande d’application.
 
-1. Une fois que vous avez reçu l’approbation [!DNL Slack], revenez à l’Experience Cloud **[!UICONTROL Notifications]** et [abonnez-vous à Slack](#slack-notifications) (décrit ci-dessus).
+1. Une fois que vous avez reçu l’approbation [!DNL Slack], revenez à l’Experience Cloud **[!UICONTROL Notifications]** et suivez les étapes pour [vous abonner à Slack](#slack-notifications) (décrites ci-dessus).
 
 ### Ce que vous verrez dans [!DNL Slack]
 
-Une fois Slack intégré, les notifications du Slack affichent les informations suivantes :
+Après l’intégration réussie de [!DNL Slack], les notifications [!DNL Slack] affichent les informations suivantes :
 
-* Le message personnel sera reçu à partir du nom de l’application _Adobe Experience Cloud_.
-* Le message comprend le logo du produit pour l’application spécifique, comme Adobe Experience Platform, Adobe Experience Manager, etc.
+* Le message personnel sera reçu à partir du nom de l&#39;application _Adobe[!DNL Experience Cloud]_.
+* Le message inclut le logo du produit pour l’application spécifique, tel que l’Adobe [!DNL Experience Platform], l’Adobe [!DNL Experience Manager], etc.
 * Lien permettant d’afficher toutes les notifications sur Experience Cloud.
 * Lien permettant de gérer les préférences de notification sur Experience Cloud.
 
 ## Afficher des [!UICONTROL notifications] et des annonces dans Experience Cloud {#view-notifications}
 
-Dans l’en-tête de l’Experience Cloud, vous pouvez afficher les notifications auxquelles vous vous êtes [ abonné ](#notifications), ainsi que les annonces.
+Dans l’en-tête [!DNL Experience Cloud], vous pouvez afficher les notifications auxquelles vous êtes [abonné](#notifications), ainsi que les annonces.
 
 1. Cliquez sur l’icône représentant une cloche dans l’en-tête . ![Notifications et annonces](../assets/bell-icon.png)
 
