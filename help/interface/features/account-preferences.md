@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 22%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # Préférences de compte et notifications {#preferences}
 
-Les [préférences](https://experience.adobe.com/preferences) de l&#39;Experience Cloud incluent des notifications (in-app, email et [!DNL Slack]), des abonnements et des alertes.
+Pour rechercher les préférences de l’Experience Cloud, cliquez sur l’icône **[!UICONTROL Compte utilisateur]** ![preferences](../assets/preferences-icon-sm.png), puis sur **[!UICONTROL Préférences]**.
 
-Dans les préférences, vous pouvez :
-
-* Rechercher des [Organisations](../administration/organizations.md) ;
-* Spécifiez un thème sombre (toutes les applications ne prennent pas en charge ce thème).
-* Configurez les préférences, notifications et abonnements du compte pour les utilisateurs.
-* Déconnectez-vous d’Experience Cloud.
-
-## Gestion des préférences
-
-Pour gérer les préférences, sélectionnez **[!UICONTROL Préférences]** dans les ![Préférences](../assets/preferences-icon-sm.png) du menu de votre compte.
-
-Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fonctionnalités suivantes :
+Sur la page [!UICONTROL Préférences de l’Experience Cloud], vous pouvez gérer les fonctionnalités de compte suivantes :
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [Organisation](../administration/organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
+| Profile | Mettez à jour votre [profil de compte d’Adobe](https://account.adobe.com/profile). <p>Votre photo de profil et votre nom s’affichent lorsque vous vous connectez à Adobe.com, Adobe des produits et services et sur des sites publics tels que [!DNL Behance]. |
+| Général | Sélectionnez une [organisation](../administration/organizations.md).<p>Cette organisation est celle utilisée par défaut lorsque vous vous connectez à Experience Cloud. |
 | [!UICONTROL Collecte de données de produit] | Sélectionnez les technologies qu’Adobe peut utiliser pour collecter des données sur la manière dont vous utilisez vos produits Adobe. |
-| [Notifications](#notifications-and-announcements) | Activez les notifications [!UICONTROL in-app], [!UICONTROL email] ou [Slack](#slack-notifications). |
+| Notifications | Configurez comment et à quel moment vous souhaitez recevoir des [notifications](#subscribe-to-notifications-in-experience-cloud) et des alertes de produit : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour les alertes.</li><li>Configurez le type de notification ([!UICONTROL in-app], [!UICONTROL email] ou [Slack](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité des alertes. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également indiquer si les alertes doivent s’afficher jusqu’à ce que vous les ignoriez.</li></ul> |
 | [!UICONTROL Promotions et recommandations d’apprentissage personnalisées] | Sélectionnez l’emplacement où vous souhaitez recevoir [une aide personnalisée](personalized-learning.md) pour vos produits d’Adobe. Cette aide est disponible par courrier électronique, dans le produit et dans les communautés Experience League. |
-| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre email. |
-| [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise [!UICONTROL High] et peuvent être configurées pour une diffusion telle que des alertes. |
-| [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
-| E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
 ## Abonnement aux notifications dans Experience Cloud {#notifications}
 
