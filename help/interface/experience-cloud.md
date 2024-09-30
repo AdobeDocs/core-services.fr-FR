@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 85%
+source-wordcount: '508'
+ht-degree: 77%
 
 ---
 
@@ -41,7 +41,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](a
 
    **Vérification de votre organisation**
 
-   Pour vérifier que vous vous êtes connecté à l’[organisation](administration/organizations.md) appropriée, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation directement dans la barre d’en-tête.
+   L’ [organisation](administration/organizations.md) s’affiche dans l’en-tête de l’interface.
 
    Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`) pour accomplir cette tâche.
 
@@ -57,7 +57,7 @@ Pour accéder aux applications et services Experience Cloud configurés pour vo
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à l’apprentissage et à l’aide en cliquant sur l’icône d’aide (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de la fonction d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à l’apprentissage et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants 
 
 ## Gestion de votre profil utilisateur
 
-Dans le menu du profil utilisateur, vous pouvez :
+Dans le menu [!UICONTROL Profile], vous pouvez :
 
 * Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème) ;
 * Gérer les [préférences](features/account-preferences.md) Experience Cloud

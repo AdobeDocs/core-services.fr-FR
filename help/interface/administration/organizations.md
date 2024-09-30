@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ Lʼorganisation fonctionne comme une entreprise de connexion qui inclut tous les
 
 ![Organisations Experience Cloud](../assets/organizations-menu.png)
 
-Pour vérifier que vous vous êtes connecté à la bonne organisation, cliquez sur l’avatar de profil pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
+Pour vérifier que vous vous êtes connecté à la bonne organisation, cliquez sur **[!UICONTROL Profil]** pour afficher le nom de l’organisation par défaut. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ Par exemple, pour une organisation avec des Federated ID et le domaine `adobecus
 
 ## Affichage de l’ID d’organisation {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Vous pouvez localiser l’ID d’organisation qui vous a été attribué à des fins d’assistance. Vous pouvez vérifier que vous vous trouvez dans la bonne organisation ou changer d’organisation à l’aide du menu **[!UICONTROL Organisation]**.
+Vous pouvez localiser l’ID d’organisation qui vous a été attribué à des fins d’assistance. Vous pouvez vérifier que vous vous trouvez dans la bonne organisation ou changer d’organisation à l’aide du sélecteur **[!UICONTROL Organization]** dans l’en-tête .
 
 L’ID de l’organisation est l’identifiant associé à votre entreprise Experience Cloud provisionnée. Cet identifiant est une chaîne alphanumérique de 24 caractères, suivie de (et qui doit inclure) `@AdobeOrg`.
 
@@ -65,31 +65,30 @@ En général, les administrateurs Experience Cloud accordent lʼaccès aux appli
 
 1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
 
-1. Sélectionnez le sélecteur d’applications. ( ![menu](../assets/menu-icon.png)).
+1. Cliquez sur le **[!UICONTROL sélecteur d’applications]**. ( ![menu](../assets/menu-icon.png)).
 
    ![Liaison dʼun compte dʼapplication à un Adobe ID](../assets/solutions-active.png)
 
    Les applications auxquelles vous avez accès sont indiquées à l’aide d’une couleur.
 
-1. Sélectionnez lʼapplication souhaitée.
+1. Cliquez sur l’application souhaitée.
 
-   ![Sélection de lʼapplication souhaitée](../assets/analytics-link-accounts.png)
+   ![Cliquez sur votre application](../assets/analytics-link-accounts.png)
 
-   Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à lʼapplication), mais nʼavez pas encore lié les informations de connexion de votre compte à votre Adobe ID, ce type de message sʼaffiche.
+   Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à lʼapplication), mais nʼavez pas encore lié les informations d’identification de votre compte à votre Adobe ID, ce type de message sʼaffiche.
 
-1. Sélectionnez **[!UICONTROL Lier le compte]**, puis fournissez vos informations dʼidentification.
+1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations d’identification.
 
-## Définition d’une organisation et d’une page de destination par défaut {#concept_6A191B42A9874A9780882903BA18F071}
+## Définition d’une organisation par défaut {#concept_6A191B42A9874A9780882903BA18F071}
 
-Vous pouvez définir une organisation et une page de destination par défaut à utiliser lorsque vous ouvrez une session.
+Vous pouvez spécifier une organisation par défaut à utiliser lorsque vous vous connectez.
 
-Dans votre profil, sélectionnez **[!UICONTROL Modifier le profil]**.
+1. Dans l’en-tête, cliquez sur **[!UICONTROL Profil]**, puis sur Préférences.
+
+1. Sous [!UICONTROL Général], sélectionnez une organisation par défaut.
+
 
 ![Modification du profil](../assets/edit-profile.png)
-
-Sous **[!UICONTROL Default Organization &amp; Landing Page]**, vous pouvez personnaliser votre expérience de connexion.
-
-![Organisation et page de destination par défaut](../assets/default-organization.png)
 
 ## Résoudre les problèmes de liaison de comptes {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
