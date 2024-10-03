@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 77%
 
 Dans l’en-tête d’Experience Cloud, vous pouvez :
 
-* Accès à tous les services et applications Experience Cloud
+* Accéder à tous vos services et applications Experience Cloud
 * Dans le menu Aide, recherchez la documentation du produit, des tutoriels et des publications de la communauté. Affichez les résultats dans Experience League.
 * Effectuez une recherche globale d’objets métier dans le champ de recherche (pour les utilisateurs et utilisatrices d’Experience Platform uniquement).
-* Gérer les [préférences](features/account-preferences.md) de votre compte (alertes, notifications et abonnements)
+* Gérer les [préférences](features/account-preferences.md) du compte (alertes, notifications et abonnements)
 
 ## Connectez-vous à Experience Cloud {#signin}
 
@@ -68,21 +68,21 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants 
 * **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL gérez les abonnements].
 * **[!UICONTROL Developer Connection] :** navigation vers `adobe.io` et recherche de la documentation destinée aux développeurs.
 
-## Gestion de votre profil utilisateur
+## Gérer votre profil d’utilisation
 
 Dans le menu [!UICONTROL Profile], vous pouvez :
 
-* Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème) ;
+* Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème).
 * Gérer les [préférences](features/account-preferences.md) Experience Cloud
-* Sélectionnez ou recherchez une [organisation](administration/organizations.md)
-* Afficher [!UICONTROL Informations juridiques]
-* Vous déconnecter ;
+* Sélectionner ou rechercher une [organisation](administration/organizations.md)
+* Afficher les [!UICONTROL informations juridiques]
+* Se déconnecter
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 
-## Affichage des notifications et des annonces dans le produit {#notifications}
+## Afficher des notifications et des annonces dans le produit {#notifications}
 
-Cliquez sur l’icône représentant une cloche pour afficher les notifications et les annonces. Les annonces peuvent être des mises à jour pertinentes et exploitables, notamment des mises à jour de produits, des avis de maintenance, des articles partagés et des demandes d’approbation.
+Cliquez sur l’icône représentant une cloche pour afficher les notifications et les annonces. Les annonces peuvent être pertinentes et exploitables. Cela inclut notamment les mises à jour de produits, les avis de maintenance, les éléments partagés et les demandes d’approbation.
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Pour gérer les notifications et les alertes, voir [ Préférences de compte et notifications](features/account-preferences.md)
+Pour gérer les notifications et les alertes, voir la section [ Préférences de compte et notifications](features/account-preferences.md).
