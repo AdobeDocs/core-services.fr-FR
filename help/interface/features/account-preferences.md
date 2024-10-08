@@ -1,6 +1,6 @@
 ---
 title: Préférences et notifications de compte
-description: Découvrez les profils utilisateur et les préférences de compte dans Experience Cloud. Abonnez-vous aux notifications de produit pour les emails et  [!DNL Slack], et configurez des alertes de produit.
+description: Découvrez les profils d’utilisation et les préférences de compte dans Experience Cloud. Abonnez-vous aux notifications de produit pour les emails et  [!DNL Slack], et configurez des alertes de produit.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
