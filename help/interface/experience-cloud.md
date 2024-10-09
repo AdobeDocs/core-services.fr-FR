@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour accéder aux applications et services Experience Cloud configurés pour vo
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à l’apprentissage et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants 
 
 ## Gérer votre profil d’utilisation
 
-Dans le menu [!UICONTROL Profile], vous pouvez :
+Dans le menu du [!UICONTROL profil], vous pouvez :
 
 * Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème).
 * Gérer les [préférences](features/account-preferences.md) Experience Cloud
