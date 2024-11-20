@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 43%
+source-wordcount: '244'
+ht-degree: 45%
 
 ---
 
@@ -32,9 +32,28 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 
 ## Prise en charge linguistique dans Experience Cloud {#languages}
 
-Experience Cloud prend en charge les langues préférées de chaque utilisateur, ainsi qu’une langue secondaire.
+L’interface utilisateur de l’Experience Cloud est disponible dans les langues suivantes :
 
-Pour afficher les langues prises en charge :
+* Anglais (États-Unis)
+* Français (France)
+* Allemand (Allemagne)
+* Italien (Italie)
+* Espagnol (Espagne)
+* Portugais (Brésil)
+* Japonais
+* Coréen
+* Chinois traditionnel
+* Chinois simplifié
+
+En outre, la mise en forme spécifique aux paramètres régionaux (dates, heures, calendriers, nombres) peut également être disponible dans les variantes des langues prises en charge par l’interface utilisateur :
+
+* Anglais (Israël)
+* Anglais (Royaume-Uni)
+* Espagnol (Mexique)
+* Espagnol (Amérique latine)
+* Français (Canada)
+
+**Pour spécifier une langue par défaut**
 
 1. Dans Experience Cloud, cliquez sur **[!UICONTROL Profil]** > [Préférences](https://experience.adobe.com/preferences).
 
@@ -42,6 +61,6 @@ Pour afficher les langues prises en charge :
 
 1. Sur **[!UICONTROL Sélectionner la langue]**, sélectionnez une langue dans le menu **[!UICONTROL Première langue]**.
 
-   Bien que toutes les équipes d’applications se soient engagées dans la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application Experience Cloud, vous pouvez également définir une langue secondaire par défaut sur , le cas échéant.
+   Bien que toutes les équipes d’applications se soient engagées dans la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues répertoriées dans l’interface. Si votre langue principale n’est pas prise en charge dans une application Experience Cloud, vous pouvez définir une langue secondaire par défaut, le cas échéant.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
