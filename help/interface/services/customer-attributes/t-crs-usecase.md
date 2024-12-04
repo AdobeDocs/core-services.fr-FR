@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
+source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -108,7 +108,6 @@ Effectuez les étapes suivantes sur la page Créer un Source d’attributs du cl
      >[!IMPORTANT]
      >
      >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](crs-data-file.md) pour en savoir plus.
-
 
      Après avoir transféré le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Téléchargement du fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
 
