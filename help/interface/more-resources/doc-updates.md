@@ -1,5 +1,5 @@
 ---
-description: Informations sur les mises à jour apportées à l’aide des Experience Cloud.
+description: Découvrez où se produisent les mises à jour de la documentation pour les composants d’interface courants d’Experience Cloud.
 solution: Experience Cloud
 title: Mises à jour de la documentation
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,28 +7,32 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 76%
+source-wordcount: '580'
+ht-degree: 73%
 
 ---
 
-# Mises à jour de la documentation – Experience Cloud
+# Mises à jour de la documentation pour l’Experience Cloud
 
-Informations sur les mises à jour apportées à la documentation du produit Experience Cloud.
+Découvrez où se produisent les mises à jour de la documentation pour l’interface centrale et l’administration d’Experience Cloud.
+
+**Novembre 2024**
+
+Mises à jour des [données d’utilisation des produits](../features/account-preferences.md) et [apprentissage personnalisé](../features/personalized-learning.md).
 
 **Septembre 2024**
 
-Ajout d’une aide sur l’abonnement [aux notifications de Slack](../features/account-preferences.md#subscribe-to-slack-notifications).
+Ajout d’une aide sur [l’abonnement aux notifications de Slack ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
-Mise à jour des [préférences utilisateur](../features/account-preferences.md).
+Mise à jour [préférences utilisateur](../features/account-preferences.md).
 
-**26 avril 2024**
+**26 Avril 2024**
 
-Révision complète de l’architecture de la documentation. [Adresses IP Adobe Experience Cloud](../data-collection/ip-addresses.md) et [Collecte de données régionale](../data-collection/rdc.md) ont également été ajoutés.
+Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP Adobe Experience Cloud](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
 
-**9 avril 2024**
+**9 Avril 2024**
 
 Mises à jour générales.
 
@@ -67,11 +71,11 @@ Mise à jour de la page [Composants de lʼinterface centrale](../experience-clou
 
 Mise à jour des [First Party Cookies](../data-collection/adobe-managed-cert.md).
 
-**4 juin 2021**
+**4 Juin 2021**
 
 Réorganisation de la structure et de la table des matières du guide.
 
-**1 juin 2021**
+**1 Juin 2021**
 
 Mise à jour de la [page de destination](../experience-cloud.md) avec ajout d’informations d’aide pour l’accès à Experience Cloud, à la recherche globale, aux préférences et aux notifications.
 
@@ -106,7 +110,7 @@ Ajout de la méthode de suppression d’un attribut du client. Voir [(Facultatif
 
 Mise à jour de la section [À propos du fichier de données et des sources de données pour les attributs du client](../services/customer-attributes/crs-data-file.md) avec ajout d’informations sur le téléchargement de plusieurs fichiers.
 
-**6 juin 2018**
+**6 Juin 2018**
 
 Mises à jour générales du contenu et des écrans.
 
@@ -140,4 +144,4 @@ Ajout de la section [FAQ Experience Cloud](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation pour [Audiences](../services/audiences/overview.md)
+Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)

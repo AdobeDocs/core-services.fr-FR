@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '5162'
-ht-degree: 95%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -20,21 +20,25 @@ ht-degree: 95%
 
 Cette section présente les fonctionnalités, les notes de mise à jour et les problèmes connus des composants de l’interface centrale d’Experience Cloud.
 
-Pour obtenir la liste des mises à jour de la documentation, voir [Mises à jour de la documentation](doc-updates.md).
+Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jour de la documentation ](doc-updates.md).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
-## 2 octobre 2024
+## Novembre 2024
+
+Pour faciliter le contrôle des préférences des données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page des préférences des Experience Cloud afin de supprimer les options en double. Grâce à cette simplification, nous avons préservé les préférences utilisateur actuelles, et les clients peuvent mettre à jour leurs préférences à tout moment sur [les préférences Experience Cloud ](https://experience.adobe.com/preferences).
+
+## jeudi 2 octobre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Accueil personnalisable | Sur la page d’entrée Experience Cloud, cliquez sur **[!UICONTROL Modifier]**. Le mode [!UICONTROL Modifier] vous permet de personnaliser votre page d’accueil Experience Cloud avec l’accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Modifier] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, notamment des actions en masse et des réglages de mise en page, offrant ainsi une expérience plus esthétique et personnalisée. |
+| Accueil personnalisable | Sur la page de destination Experience Cloud, cliquez sur **[!UICONTROL Modifier]**. Le mode [!UICONTROL Modifier] vous permet de personnaliser votre page d’accueil Experience Cloud en accédant à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Modifier] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des réglages de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
 
 ## 10 septembre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Pour plus d’informations, voir _Notifications de Slack_ dans l’aide [Préférences](../features/account-preferences.md) . |
+| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Voir _Notifications de Slack_ dans l’aide [Préférences](../features/account-preferences.md) pour plus d’informations. |
 
 <!-- ## July - August 2023
 
@@ -203,7 +207,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 * Déploie une fonctionnalité en arrière-plan pour contrôler le partage d’actif entre Experience Cloud et AEM, ainsi qu’entre Experience Cloud et Creative Cloud. (CORE-14386)
 * Correction d’un problème qui bloquait le provisionnement des nouveaux clients sur certains environnements. (CORE-15509)
-* Correction d’un problème qui redirigeait les utilisateurs vers `experiencecloud.adobe.com` en utilisant `http` au lieu de `https`. (CORE-15587)
+* Correction d’un problème qui redirigeait les utilisateurs vers `experiencecloud.adobe.com` à l’aide de `http` au lieu de `https`. (CORE-15587)
 * Correction d’un problème qui bloquait les notifications pour certains nouveaux clients. (CORE-15240)
 
 ## Juin 2018
@@ -217,7 +221,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouvelle page de destination d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page Administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos applications et services principaux Experience Cloud. |
+| Nouvelle page de destination d’administration | Lorsque vous vous connectez à Experience Cloud et accédez à la page d’administration, une nouvelle interface intuitive vous aide à accéder rapidement à vos applications Experience Cloud et à vos services principaux. |
 
 {style="table-layout:auto"}
 
@@ -228,7 +232,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 ## Octobre 2017
 
-**Problème connu** : de nombreuses notifications de maintenance relatives à la maintenance programmée/aux mises à jour de produit ne figurent pas dans le résumé quotidien des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans l’e-mail récapitulatif.
+**Problème connu** : de nombreuses notifications de maintenance concernant la maintenance planifiée/les mises à jour de produit sont absentes de l’e-mail de synthèse des notifications. Nous nous efforçons de nous assurer que toutes les notifications de maintenance sont incluses dans l’e-mail récapitulatif.
 
 ## Août 2017
 
@@ -244,8 +248,8 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.)  <br> Le mappage de suites de rapports à une seule organisation permet d’activer des fonctionnalités et des services inter-applications dans Experience Cloud. |
-| Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](../services/audiences/create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure des propriétés et des variables par défaut d’Analytics (en plus des eVars et des événements) dans les audiences en temps réel. |
+| Mappage de suites de rapports en bloc | Dans Administration > Mappage de suites de rapports, vous pouvez désormais sélectionner plusieurs suites de rapports, puis les mapper à une organisation. (Auparavant, vous deviez les mapper individuellement.) <br>Le mappage de suites de rapports à une organisation unique permet d’activer des fonctionnalités et services interapplications dans Experience Cloud. |
+| Mises à jour des audiences Experience Cloud | **Application de suite de rapports**<br> Vous pouvez désormais appliquer une suite de rapports à toutes vos [règles d’audience](../services/audiences/create.md). (Auparavant, vous deviez spécifier une suite de rapports dans chaque définition de règle.) <br>**Props et variables**<br> Vous pouvez désormais inclure les props Analytics et les variables par défaut (en plus des eVars et des événements) dans les audiences en temps réel. |
 
 {style="table-layout:auto"}
 
@@ -331,7 +335,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 >[!NOTE]
 >
->Microsoft® met [fin au support](https://www.microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, Adobe ne prévoit pas de corriger les problèmes signalés concernant ces versions spécifiques d’Internet Explorer.
+>Microsoft® met [fin au support](https://www.microsoft.com/fr-fr/WindowsForBusiness/End-of-IE-support) d’Internet Explorer 8, 9 et 10. Par conséquent, Adobe ne prévoit pas de résoudre les problèmes signalés concernant ces versions spécifiques d’Internet Explorer.
 
 ## Octobre 2015
 
@@ -355,7 +359,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 * Correction d’un problème qui empêchait le partage des audiences à partir d’Analytics lors de l’utilisation du service d’identification des visiteurs. (MAC-25788, MAC-25747)
 * Ajout de la prise en charge des caractères à plusieurs octets dans les attributs du client. (MAC-25552)
 
-**Problème connu** : un problème connu entraîne la création en Audience Manager de comptes générés automatiquement en double et leur liaison automatique à l’identité Experience Cloud d’un utilisateur. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe vous recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
+**Problème connu** : un problème connu entraîne la création de comptes générés automatiquement en double dans l’Audience Manager et leur liaison automatique à l’identité d’un Experience Cloud. Ce problème survient quand vous tentez d’accéder à Audience Manager avant de lier vos comptes. Adobe vous recommande de lier vos comptes Audience Manager à Experience Cloud avant d’accéder à Audience Manager. (MAC-25640)
 
 ## Mai 2015
 
@@ -509,7 +513,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 * Pour que les changements apportés aux groupes et aux droits dans le module de gestion des utilisateurs entrent en vigueur, vous devez vous reconnecter.
 * Les administrateurs doivent se déconnecter puis se reconnecter pour voir les modifications apportées dans les paramètres du compte.
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
-* Les performances de l’interface d’Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
+* Les performances de l’interface Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * La synchronisation d’Adobe Experience Manager avec Creative Cloud ne fonctionne pas.
 
 ## Octobre 2014
@@ -545,7 +549,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 * Certains utilisateurs peuvent ne pas être en mesure de créer une carte à partir d’un PDF et de la partager sur un panorama.
 * Certains utilisateurs peuvent supprimer une ressource obsolète plutôt que de recevoir une notification d’erreur.
 * Les utilisateurs ne sont pas en mesure de partager des fichiers PowerPoint sur les panoramas.
-* Les performances de l’interface d’Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
+* Les performances de l’interface Experience Cloud peuvent être amoindries lorsqu’elle est utilisée simultanément par de nombreux utilisateurs.
 * La liaison [!DNL Search&Promote] n’est pas accessible sur la page [!UICONTROL Organisations et accès aux produits].
 
 ## Septembre 2014
