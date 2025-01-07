@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jou
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
-## Novembre 2024
+## Janvier 2025
 
-Pour faciliter le contrôle des préférences des données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page des préférences des Experience Cloud afin de supprimer les options en double. Grâce à cette simplification, nous avons préservé les préférences utilisateur actuelles, et les clients peuvent mettre à jour leurs préférences à tout moment sur [les préférences Experience Cloud ](https://experience.adobe.com/preferences).
+| Date | Fonctionnalité | Description |
+| -----------| -----------| ---------- |
+| Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page de [Préférences](../features/account-preferences.md#product-usage-data) Experience Cloud afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur les [préférences Experience Cloud ](https://experience.adobe.com/preferences). |
+| 30 janvier (date de publication prévue) | Spectre 2 | Le cadre d&#39;application Experience Cloud, qui comprend la barre d&#39;en-tête et le composant accessible à partir de la barre d&#39;en-tête, ainsi que le rail de navigation de gauche pour certaines applications seront mis à jour vers Spectrum 2, le dernier système de conception de l&#39;Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
 
 ## jeudi 2 octobre 2024
 
