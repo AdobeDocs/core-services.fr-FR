@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
+source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
 | Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page de [Préférences](../features/account-preferences.md#product-usage-data) Experience Cloud afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur les [préférences Experience Cloud ](https://experience.adobe.com/preferences). |
-| 30 janvier (date de publication prévue) | Spectre 2 | Le cadre d&#39;application Experience Cloud, qui comprend la barre d&#39;en-tête et le composant accessible à partir de la barre d&#39;en-tête, ainsi que le rail de navigation de gauche pour certaines applications seront mis à jour vers Spectrum 2, le dernier système de conception de l&#39;Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
+| 30 janvier (date de publication prévue) | Spectre 2 | Le cadre d&#39;application Experience Cloud, qui comprend la barre d&#39;en-tête et les composants accessibles à partir de la barre d&#39;en-tête, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception de l&#39;Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
 
 ## jeudi 2 octobre 2024
 
