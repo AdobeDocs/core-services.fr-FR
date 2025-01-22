@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) désigne la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 
-![Experience Cloud](assets/landing.png)
+![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
 
 Dans l’en-tête d’Experience Cloud, vous pouvez :
 
@@ -37,7 +37,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](a
 1. Saisissez votre mot de passe.
 1. Assurez-vous que vous êtes dans la bonne organisation.
 
-   ![Vérification que vous vous trouvez dans la bonne organisation](assets/organizations-menu.png)
+   ![Vérification que vous vous trouvez dans la bonne organisation](assets/organizations-menu.png){width="100" zoomable="yes"}
 
    **Vérification de votre organisation**
 
@@ -53,13 +53,13 @@ Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’
 
 Pour accéder aux applications et services Experience Cloud configurés pour vous au sein de votre entreprise, accédez au ![menu](assets/apps-icon.png) du sélecteur dʼapplications.
 
-![Accès aux applications Experience Cloud](assets/platform-core-services.png)
+![Accès aux applications Experience Cloud](assets/platform-core-services.png){width="100" zoomable="yes"}
 
 ## Obtention d’aide et de support {#support}
 
 Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
-![Obtention dʼaide et de support](assets/search-menu.png)
+![Obtention dʼaide et de support](assets/search-menu.png){width="100" zoomable="yes"}
 
 Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants :
 
@@ -83,6 +83,6 @@ Dans le menu du [!UICONTROL profil], vous pouvez :
 
 Cliquez sur l’icône représentant une cloche pour afficher les notifications et les annonces. Les annonces peuvent être pertinentes et exploitables. Cela inclut notamment les mises à jour de produits, les avis de maintenance, les éléments partagés et les demandes d’approbation.
 
-![Notifications et annonces](assets/notifications-menu-small.png)
+![Notifications et annonces](assets/notifications-menu-small.png){width="100" zoomable="yes"}
 
 Pour gérer les notifications et les alertes, voir la section [ Préférences de compte et notifications](features/account-preferences.md).
