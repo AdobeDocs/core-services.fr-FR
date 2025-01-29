@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 94%
@@ -44,8 +44,8 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 **Création d’une audience**
 
-1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], sélectionnez **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque dʼaudiences].**
-1. Sur la page [!UICONTROL Audiences], sélectionnez **[!UICONTROL Nouveau]**. ![add](assets/add_icon_small.png)
+1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
+1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ajouter](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
 
@@ -55,11 +55,11 @@ L’exemple suivant explique comment créer des règles pour une audience compos
    * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Real-Time Analytics incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
    >[!NOTE]
    >
-   >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas de l’Experience Cloud avant 12 heures.
+   >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne s’affichent dans Experience Cloud qu’au bout de 12 heures.
 
    * **[!UICONTROL Experience Cloud :]** données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
-1. Définissez les règles dʼaudience, puis sélectionnez **[!UICONTROL Enregistrer].**
+1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Enregistrer].**
 
 >[!NOTE]
 >

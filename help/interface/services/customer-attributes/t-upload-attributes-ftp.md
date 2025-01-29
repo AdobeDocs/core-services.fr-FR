@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment télécharger des données d’attributs du client via FTP vers Experience Cloud.
+description: Découvrez comment télécharger des données d’attributs du client via FTP vers l’Experience Cloud.
 solution: Experience Cloud
-title: Transfert du fichier de données d’attributs du client par FTP
+title: Chargement du fichier de données d’attributs du client via FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 76%
@@ -16,9 +16,9 @@ ht-degree: 76%
 
 # Facultatif – Chargement du fichier de données par FTP
 
-Si vous ne transférez pas le fichier par glisser-déplacer, vous pouvez transférer les données Attribut client vers Experience Cloud par FTP.
+Si vous ne chargez pas le fichier par glisser-déposer, vous pouvez charger les données d’attributs du client vers l’Experience Cloud par FTP.
 
-Vous pouvez transférer les données après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers chargés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le chargement est terminé.
+Vous pouvez charger les données après avoir créé une source d’attributs du client et un compte FTP dans Experience Cloud. Créez un compte FTP par source d’attributs. Les fichiers chargés sont stockés dans le dossier racine de ce compte. Les données doivent être au format `.csv`, avec un second fichier `.fin` pour indiquer que le chargement est terminé.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Les fichiers peuvent être chargés sur le site FTP des attributs du client selo
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
-1. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Chargement du fichier]**.
+1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Chargement du fichier]**.
 
 1. Chargez un fichier `.fin`, afin que le fichier puisse être récupéré.
 

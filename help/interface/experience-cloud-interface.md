@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%
@@ -59,12 +59,12 @@ Bien que toutes les équipes d’applications se soient engagées à assurer la 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Sélectionnez **[!UICONTROL Se connecter avec un Adobe ID]**.
+1. Cliquez sur **[!UICONTROL Se connecter avec un Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
    ![Vérification de votre organisation](assets/organizations-menu.png)
 
-   Pour vérifier que vous vous êtes connecté à votre [organisation](organizations.md) correcte, cliquez sur **[!UICONTROL Profil]** pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation à l’aide du sélecteur **[!UICONTROL Organization]** .
+   Pour vérifier que vous vous êtes connecté à l’[organisation](organizations.md) appropriée, cliquez sur **[!UICONTROL Profil]** pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher une autre organisation et passer à une autre à l’aide du sélecteur **[!UICONTROL Organisation]**.
 
    Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`) pour accomplir cette tâche.
 
@@ -74,7 +74,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](o
 
 Une fois connecté à Experience Cloud, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
-Sélectionnez le sélecteur d’applications ![menu](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous détenez.
+Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour accéder aux services Experience Cloud que vous détenez.
 
 ![Accès aux applications Experience Cloud](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Dans le menu des préférences du compte, vous pouvez :
 
 Les préférences Experience Cloud incluent les notifications, les abonnements et les alertes.
 
-Sélectionnez **[!UICONTROL Préférences]** dans le menu de votre compte ![Préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
+* Cliquez sur **[!UICONTROL Préférences]** dans le menu de votre compte ![préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
 
 ![Gestion dʼExperience Cloud](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fo
 
 ## Notifications et annonces {#notifications}
 
-Sélectionnez **[!UICONTROL Notifications]** pour afficher les notifications qui sont importantes pour vous et les annonces dʼAdobe.
+Cliquez sur **[!UICONTROL Notifications]** pour afficher les notifications qui sont importantes pour vous et les annonces d’Adobe.
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 

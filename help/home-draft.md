@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 80%
 
 Dans l’en-tête d’Experience Cloud, vous pouvez :
 
-* Accès à tous les services et applications Experience Cloud
+* Accéder à tous vos services et applications Experience Cloud
 * Dans le menu Aide, recherchez la documentation du produit, des tutoriels et des publications de la communauté. Affichez les résultats dans Experience League.
 * Effectuez une recherche globale d’objets métier dans le champ de recherche (pour les utilisateurs et utilisatrices d’Experience Platform uniquement).
-* Gérer les [préférences](features/account-preferences.md) de votre compte (alertes, notifications et abonnements)
+* Gérer les [préférences](features/account-preferences.md) du compte (alertes, notifications et abonnements)
 
 ## Connectez-vous à Experience Cloud {#signin}
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](administration/organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Saisissez votre adresse e-mail Adobe, puis sélectionnez **[!UICONTROL Continuer]**.
+1. Saisissez votre adresse e-mail d’Adobe, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Sélectionnez un compte.
 1. Saisissez votre mot de passe.
 1. Assurez-vous que vous êtes dans la bonne organisation.
@@ -57,7 +57,7 @@ Pour accéder aux applications et services Experience Cloud configurés pour vo
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à l’apprentissage et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -68,24 +68,24 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants 
 * **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL gérez les abonnements].
 * **[!UICONTROL Developer Connection] :** navigation vers `adobe.io` et recherche de la documentation destinée aux développeurs.
 
-## Gestion de votre profil utilisateur
+## Gérer votre profil d’utilisation
 
-Dans le menu [!UICONTROL Profile], vous pouvez :
+Dans le menu du [!UICONTROL profil], vous pouvez :
 
-* Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème) ;
+* Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème).
 * Gérer les [préférences](features/account-preferences.md) Experience Cloud
-* Sélectionnez ou recherchez une [organisation](administration/organizations.md)
-* Afficher [!UICONTROL Informations juridiques]
-* Vous déconnecter ;
+* Sélectionner ou rechercher une [organisation](administration/organizations.md)
+* Afficher les [!UICONTROL informations juridiques]
+* Se déconnecter
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 
-## Affichage des notifications et des annonces dans le produit {#notifications}
+## Afficher des notifications et des annonces dans le produit {#notifications}
 
-Cliquez sur l’icône représentant une cloche pour afficher les notifications et les annonces. Les annonces peuvent être des mises à jour pertinentes et exploitables, notamment des mises à jour de produits, des avis de maintenance, des articles partagés et des demandes d’approbation.
+Cliquez sur l’icône représentant une cloche pour afficher les notifications et les annonces. Les annonces peuvent être pertinentes et exploitables. Cela inclut notamment les mises à jour de produits, les avis de maintenance, les éléments partagés et les demandes d’approbation.
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Pour gérer les notifications et les alertes, voir [ Préférences de compte et notifications](features/account-preferences.md)
+Pour gérer les notifications et les alertes, voir la section [ Préférences de compte et notifications](features/account-preferences.md).
 
 
 ## Nouveautés
@@ -94,9 +94,9 @@ Découvrez les dernières améliorations apportées aux composants de l’interf
 
 >[!BEGINTABS]
 
->[!TAB Intégration de Slack avec Experience Cloud]
+>[!TAB Intégration de Slack à Experience Cloud]
 
-Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
+Vous pouvez configurer les préférences de votre compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
 [!BADGE Version bêta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="En savoir plus sur Slack"}
 
@@ -181,7 +181,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Ressources du développeur</strong><br/><a href="dev/datamodel.md">Modèle de données Campaign v8</a> - <a href="dev/schemas.md">Schémas</a> - <a href="dev/api.md">API</a>
+      <strong>Ressources pour le développement</strong><br/><a href="dev/datamodel.md">Modèle de données de Campaign v8</a> - <a href="dev/schemas.md">Schémas</a> - <a href="dev/api.md">APIs</a>
     </td>
   </tr>
 </table>
