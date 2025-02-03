@@ -1,33 +1,33 @@
 ---
 title: Adresses IP utilisées par l’Experience Cloud
-description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent de l’Adobe, utilisez cette liste pour mettre à jour les paramètres de votre pare-feu.
+description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’un Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
 # Adresses IP utilisées par l’Experience Cloud
 
-Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise. Cette page comprend les systèmes entrants (comme la collecte de données) et sortants (comme les flux de données dans Adobe Analytics) utilisés par Adobe.
+Certaines configurations de pare-feu bloquent les adresses IP issues des serveurs de collecte de données d’Adobe ou des serveurs chargés d’accéder aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres du pare-feu de votre organisation afin d’autoriser l’accès et d’envoyer des données depuis votre organisation. Cette page comprend les systèmes entrants (tels que la collecte de données) et sortants (tels que les flux de données dans Adobe Analytics) que Adobe utilise.
 
 >[!IMPORTANT]
 >
->Bien qu’Adobe fasse de son mieux pour garder ce document à jour, il ne peut garantir que la liste des plages d’adresses IP reste la même. Les modifications possibles comprennent la croissance et l’expansion de l’entreprise, un registre Internet nécessite des modifications de l’espace d’adresse IP de l’Adobe ou un fournisseur de services Internet cesse de fonctionner.
+>Bien qu’Adobe fasse de son mieux pour tenir ce document à jour, il ne peut pas garantir que la liste des plages d’adresses IP reste la même. Les changements possibles comprennent la croissance et l&#39;expansion de l&#39;entreprise, un registre Internet qui nécessite des modifications à l&#39;espace d&#39;adresse IP d&#39;Adobe ou un fournisseur de services Internet qui cesse de fonctionner.
 
 Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe Experience Cloud individuels possèdent leurs propres adresses IP qu’ils utilisent :
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## Tous les blocs d’adresse IP d’Adobe
+## Tous les blocs d’adresses IP Adobes
 
-Le tableau suivant couvre toutes les adresses IP détenues par l’Adobe. Ce tableau comprend tous les bureaux des employés et centres de données d’Adobe exécutés par Adobe à l’échelle mondiale. Il n’inclut pas les services hébergés sur des clouds publics.
+Le tableau ci-dessous répertorie toutes les adresses IP détenues par l’Adobe. Ce tableau comprend tous les bureaux des employés de l&#39;Adobe et les centres de données gérés par l&#39;Adobe dans le monde. Il n’inclut pas les services hébergés sur des clouds publics.
 
-| Bloc d’adresse IP (notation CIDR) |
+| Bloc d’adresses IP (notation CIDR) |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -41,14 +41,14 @@ Le tableau suivant couvre toutes les adresses IP détenues par l’Adobe. Ce tab
 
 ## Collecte de données Adobe Experience Cloud et blocs d’adresses IP FTP
 
-Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques, vous pouvez référencer le tableau suivant. Comprend :
+Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez consulter le tableau suivant. Comprend :
 
 * Serveurs de collecte de données pour tous les produits Experience Cloud
 * Serveurs FTP pour tous les produits Experience Cloud
 
 Toutes les plages d’adresses IP de cette section sont incluses dans le tableau ci-dessus.
 
-| Emplacement | Plage IP (notation CIDR) |
+| Emplacement | Plage d’adresses IP (notation CIDR) |
 | --- | --- |
 | Australie | `63.140.55.0/24` |
 | Australie | `63.140.56.0/23` |
@@ -78,10 +78,11 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 | Singapour | `172.82.240.88/29` |
 | Virginie | `63.140.38.0/23` |
 | Virginie | `63.140.54.0/24` |
+| Virginie | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
-Adobe Experience Cloud prend également en charge le protocole IPv6 en capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux du protocole IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
+Le Adobe Experience Cloud prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
 
 | Emplacement | Hôte |
 | --- | --- |
@@ -102,4 +103,4 @@ Adobe Experience Cloud prend également en charge le protocole IPv6 en capacité
 
 >[!TIP]
 >
->Les connexions FTP pour les fonctionnalités d’exportation d’Adobe Analytics (y compris les flux de données et de Data Warehouse) proviennent uniquement d’adresses IPv4 situées à Londres, dans l’Oregon et à Singapour.
+>Les connexions FTP pour les fonctionnalités d’exportation d’Adobe Analytics (notamment le Data Warehouse et les flux de données) proviennent uniquement d’adresses IPv4 situées à Londres, en Oregon et à Singapour.
