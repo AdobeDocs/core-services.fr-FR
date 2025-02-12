@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 86%
+source-wordcount: '1200'
+ht-degree: 90%
 
 ---
 
@@ -24,12 +24,17 @@ Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jou
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
+## Février 2025
+
+| Date | Fonctionnalité | Description |
+| -----------| -----------| ---------- |
+| 13 février (date de publication prévue) | Spectrum 2 | Le cadre de l’application Experience Cloud, qui comprend la barre d’en-tête et les composants accessibles à partir de cette barre, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception d’Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
+
 ## Janvier 2025
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page de [Préférences](../features/account-preferences.md#product-usage-data) Experience Cloud afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur les [préférences Experience Cloud ](https://experience.adobe.com/preferences). |
-| 5 février (date de publication prévue) | Spectre 2 | Le cadre d&#39;application Experience Cloud, qui comprend la barre d&#39;en-tête et les composants accessibles à partir de la barre d&#39;en-tête, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception de l&#39;Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
+| 9 janvier | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud ](https://experience.adobe.com/preferences). |
 
 ## jeudi 2 octobre 2024
 
@@ -41,7 +46,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Voir _Notifications de Slack_ dans l’aide [Préférences](../features/account-preferences.md) pour plus d’informations. |
+| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Voir _Notifications Slack_ dans l’aide [Préférences](../features/account-preferences.md) pour plus d’informations. |
 
 <!-- ## July - August 2023
 
