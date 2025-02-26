@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,10 @@ Lʼorganisation fonctionne comme une entreprise de connexion qui inclut tous les
 ![Organisations Experience Cloud](../assets/organizations-menu.png)
 
 Pour vérifier que vous vous êtes connecté à l’organisation appropriée, cliquez sur **[!UICONTROL Profil]** pour afficher le nom d’organisation par défaut. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
+
+>[!NOTE]
+>
+>Le passage d’une organisation à l’autre vous permet d’accéder à Admin Console pour cette organisation spécifique. Si l’organisation souhaitée n’apparaît pas dans la liste, vous devrez peut-être demander l’accès à un administrateur ou une administratrice de cette organisation. (Si vous devez fusionner plusieurs Admin Consoles, contactez le service clientèle d’Adobe pour obtenir de l’aide.)
 
 ## Federated ID
 
