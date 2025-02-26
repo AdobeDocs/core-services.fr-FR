@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +22,43 @@ Cette page fournit des informations destinées spécifiquement aux administrateu
 Pour obtenir une aide générale sur la gestion des identités applicable à toutes les applications Adobe, consultez le guide [Enterprise and Teams admin guide](https://helpx.adobe.com/fr/enterprise/admin-guide.html).
 
 Les sections suivantes fournissent des liens vers des ressources dans l’aide d’Admin Console.
+
+## Rôles administratifs dans Admin Console
+
+Admin Console fournit trois rôles administratifs principaux, chacun disposant de niveaux spécifiques d’accès et de responsabilité :
+
+**Administrateur système :** accès complet - Gère tous les aspects de la console.
+
+Principales responsabilités :
+
+* Ajouter, supprimer et gérer des utilisateurs.
+* Attribuez et révoquez des licences de produit.
+* Configurez l’identité et les paramètres d’authentification.
+* Afficher et gérer les informations de facturation.
+* Configurez d’autres rôles d’administrateur et de délégué.
+
+  **Idéal pour** administrateurs informatiques ou chefs d’équipe supervisant l’ensemble de l’environnement Adobe de l’entreprise.
+
+**Administrateur de produit :** gestion spécifique au produit - Contrôle l’accès et les autorisations pour des produits Adobe spécifiques.
+
+Principales responsabilités :
+
+* Attribuez et gérez des licences pour un produit spécifique.
+* Créer et gérer des profils de produit.
+* Ajouter ou supprimer des utilisateurs dans les produits affectés.
+
+  **Idéal pour** équipes/utilisateurs gérant des logiciels spécifiques tels que Marketo Engage ou Adobe Creative Cloud.
+
+**Administrateur de profils de produit :** Gestion granulaire des rôles : se concentre sur la gestion des groupes d’utilisateurs et des autorisations au sein d’un produit.
+
+* Responsabilités clés :
+* Créer et gérer des profils de produit.
+* Attribuez des autorisations et un accès aux fonctionnalités dans les profils.
+* Ajouter ou supprimer des utilisateurs dans les profils.
+
+  **Idéal pour :** responsables de service ou chefs d’équipe supervisant des groupes plus petits ayant des besoins spécifiques
+
+  Les administrateurs et administratrices peuvent combiner les rôles pour une plus grande flexibilité, en fonction des exigences organisationnelles.
 
 ## Configuration d’Admin Console
 
