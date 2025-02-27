@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 4%
+source-wordcount: '728'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Pour obtenir une aide générale sur la gestion des identités applicable à tou
 
 Admin Console fournit trois rôles administratifs principaux, chacun disposant de niveaux spécifiques d’accès et de responsabilité :
 
-| Lien d’aide | Description |
+| Rôle | Description |
 | ------- | ------- |
 | Administrateur système | Accès complet : gère tous les aspects de la console. <br>Principales responsabilités : <br><ul><li>Ajouter, supprimer et gérer des utilisateurs.</li><li>Attribuez et révoquez des licences de produit.</li><li>Configuration des paramètres d’identité et d’authentification</li><li>Afficher et gérer les informations de facturation.</li><li>Configurez d’autres rôles d’administrateur et de délégué.</li></ul> **Idéal pour** administrateurs informatiques ou chefs d’équipe supervisant l’ensemble de l’environnement Adobe de l’entreprise. |
 | Administrateur de produit | Gestion spécifique aux produits : contrôle l’accès et les autorisations pour des produits Adobe spécifiques.<br>Principales responsabilités :<ul><li>Attribuez et gérez des licences pour un produit spécifique.</li><li>Créer et gérer des profils de produit.</li><li>Ajouter ou supprimer des utilisateurs dans les produits affectés.</li></ul>   **Idéal pour** équipes/utilisateurs gérant des logiciels spécifiques tels que Marketo Engage ou Adobe Creative Cloud. |
@@ -37,7 +37,7 @@ Pour gérer les licences d’identité et de produit pour les applications Exper
 
 Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en tant qu’administrateur dans Admin Console :
 
-### Tâches de configuration
+### Configurer les ressources
 
 | Lien d’aide | Description |
 | ------- | ------- |
