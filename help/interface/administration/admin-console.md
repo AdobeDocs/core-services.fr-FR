@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
+source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 5%
@@ -41,7 +41,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Paramètres]** <br>Découvrez comment configurer les comptes de vos utilisateurs avec différents types d’ID avec ou sans authentification unique (SSO). Configurez l’authentification unique pour le logiciel Adobe, configurez les paramètres SAML et passez en revue les questions et erreurs les plus courantes. |
+| [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Paramètres]** <br> Découvrez comment configurer les comptes de vos utilisateurs avec différents types d’ID avec ou sans authentification unique (SSO). Configurez l’authentification unique pour le logiciel Adobe, configurez les paramètres SAML et passez en revue les questions et erreurs les plus courantes. |
 | [Configuration de l’organisation via l’approbation d’annuaire](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Authentifiez vos utilisateurs sur un domaine déjà demandé par une autre organisation. Pour plus d’informations sur la recherche et le changement d’organisation, voir [Organisations dans Experience Cloud](organizations.md). |
 | [Paramètres d’authentification (entreprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console prend en charge plusieurs niveaux de protection par mot de passe et stratégies pour assurer la sécurité. Vous pouvez indiquer d’utiliser un niveau de protection par mot de passe à appliquer à tous les utilisateurs de votre entreprise. |
 | [Contacts de confidentialité et de sécurité](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Protégez les données de votre entreprise et des utilisateurs. Si un incident de sécurité impliquant nos solutions logicielles se produit, des notifications sont envoyées aux responsables de la conformité appropriés. Les entreprises disposent de personnel dont le rôle est spécifique à la protection des données, à l’intégrité et à d’autres questions de conformité. Par conséquent, les coordonnées de ce personnel sont essentielles pour assurer une notification rapide en cas d’incident de sécurité. |
