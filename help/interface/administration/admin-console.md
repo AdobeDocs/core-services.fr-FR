@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
+source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 5%
 
 ---
 
-# Gestion des utilisateurs et licences de produits
+# Gestion des utilisateurs et utilisatrices et licences de produits
 
 Cette page fournit des informations destinées spécifiquement aux administrateurs Experience Cloud, avec des liens vers la documentation commune relative à la gestion des utilisateurs et des produits.
 
@@ -40,7 +40,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 ### Configurer les ressources
 
 | Lien d’aide | Description |
-| ------- | ------- |
+| ------- | ------ |
 | [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Paramètres]** <br> Découvrez comment configurer les comptes de vos utilisateurs avec différents types d’ID avec ou sans authentification unique (SSO). Configurez l’authentification unique pour le logiciel Adobe, configurez les paramètres SAML et passez en revue les questions et erreurs les plus courantes. |
 | [Configuration de l’organisation via l’approbation d’annuaire](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Authentifiez vos utilisateurs sur un domaine déjà demandé par une autre organisation. Pour plus d’informations sur la recherche et le changement d’organisation, voir [Organisations dans Experience Cloud](organizations.md). |
 | [Paramètres d’authentification (entreprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console prend en charge plusieurs niveaux de protection par mot de passe et stratégies pour assurer la sécurité. Vous pouvez indiquer d’utiliser un niveau de protection par mot de passe à appliquer à tous les utilisateurs de votre entreprise. |
