@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Date | Mise à jour  | Description |
 | -----------| -----------| ---------- |
-| vendredi 6 mars 2025 | Options du menu contextuel | Correction du cadre de l’application Experience Cloud pour les onglets de navigation d’en-tête afin d’autoriser les fonctions de menu déroulant du navigateur par clic droit. Ce correctif corrige un problème introduit dans la version de février du système de conception Spectrum 2. |
+| vendredi 6 mars 2025 | Correctif de l’option de menu contextuel | Les onglets de navigation dans l’en-tête d’Experience Cloud autorisent désormais les fonctions de menu déroulant de navigateur avec clic droit. Ce correctif corrige un problème introduit dans la version de février du système de conception Spectrum 2. |
 
 ## Février 2025
 
