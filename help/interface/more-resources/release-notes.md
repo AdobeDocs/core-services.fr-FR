@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,17 @@ Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jou
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
+## Mars 2025
+
+| Date | Mise à jour  | Description |
+| -----------| -----------| ---------- |
+| vendredi 6 mars 2025 | Options du menu contextuel | Correction du cadre de l’application Experience Cloud pour les onglets de navigation d’en-tête afin d’autoriser les fonctions de menu déroulant du navigateur par clic droit. Ce correctif corrige un problème introduit dans la version de février du système de conception Spectrum 2. |
+
 ## Février 2025
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| 13 février (date de publication prévue) | Spectrum 2 | Le cadre de l’application Experience Cloud, qui comprend la barre d’en-tête et les composants accessibles à partir de cette barre, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception d’Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
+| 13 février | Spectrum 2 | Le cadre de l’application Experience Cloud, qui comprend la barre d’en-tête et les composants accessibles à partir de cette barre, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception d’Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
 
 ## Janvier 2025
 
