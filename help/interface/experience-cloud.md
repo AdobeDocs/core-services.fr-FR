@@ -1,20 +1,20 @@
 ---
 description: Découvrez les composants de l’interface centrale d’Experience Cloud. Obtenez de l’aide sur l’administration des utilisateurs et utilisatrices et des produits dans Admin Console et activez les applications pour les services Experience Cloud. Obtenez de l’aide sur la bibliothèque d’audiences, les attributs du client ou de la cliente, Experience Cloud Assets, etc.
-title: Interface et guide d’administration d’Experience Cloud
+title: Interface et administration d’Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
+source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '509'
+ht-degree: 99%
 
 ---
 
-# Interface d’Experience Cloud et documentation relative à l’administration
+# Interface et administration Experience Cloud
 
 [Experience Cloud](https://experience.adobe.com) désigne la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 
