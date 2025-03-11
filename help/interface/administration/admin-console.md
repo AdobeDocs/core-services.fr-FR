@@ -1,6 +1,6 @@
 ---
 title: Gestion des licences d’utilisation et de produit
-description: Gérez les utilisateurs et les licences de produits dans Admin Console pour les applications Experience Cloud.
+description: Gérez les utilisateurs et utilisatrices, et les licences de produits dans Admin Console pour les applications Experience Cloud.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 | [Paramètres d’authentification (entreprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console prend en charge plusieurs niveaux de protection par mot de passe et stratégies pour assurer la sécurité. Vous pouvez indiquer d’utiliser un niveau de protection par mot de passe à appliquer à tous les utilisateurs de votre entreprise. |
 | [Contacts de confidentialité et de sécurité](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Protégez les données de votre entreprise et des utilisateurs. Si un incident de sécurité impliquant nos solutions logicielles se produit, des notifications sont envoyées aux responsables de la conformité appropriés. Les entreprises disposent de personnel dont le rôle est spécifique à la protection des données, à l’intégrité et à d’autres questions de conformité. Par conséquent, les coordonnées de ce personnel sont essentielles pour assurer une notification rapide en cas d’incident de sécurité. |
 
-### Gestion des utilisateurs
+### Gestion des utilisateurs et utilisatrices
 
 | Lien d’aide | Description |
 | ------- | ------- |
