@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 82%
 
 ---
 
@@ -27,12 +27,134 @@ Dans l’en-tête d’Experience Cloud, vous pouvez :
 * Effectuez une recherche globale d’objets métier dans le champ de recherche (pour les utilisateurs et utilisatrices d’Experience Platform uniquement).
 * Gérer les [préférences](features/account-preferences.md) du compte (alertes, notifications et abonnements)
 
+
+Extrait de GSPM :
+
+## Explorer les fonctionnalités
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="Chevron droit" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong>Écrire des invites efficaces</strong>
+         </a>
+      </div>
+      <p>
+         <em>Créer des invites descriptives qui génèrent des expériences digitales sur la marque.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="Pinceau" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong>Créer des expériences</strong>
+         </a>
+      </div>
+      <p>
+         <em>Créer des e-mails et des méta-annonces performants et intégrés à la marque.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="Coche" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong>Vérifier et approuver</strong>
+         </a>
+      </div>
+      <p>
+         <em>Orchestrez la révision et l’approbation simplifiées des ressources marketing.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="Grille" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong>Gérer le contenu</strong>
+         </a>
+      </div>
+      <p>
+         <em>Rechercher, gérer et réutiliser du contenu tout en respectant les directives de la marque.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="Graphique" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong>Afficher les informations</strong>
+         </a>
+      </div>
+      <p>
+         <em>Analysez l’efficacité du contenu des canaux médias payants.</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## Découvrez comment
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="Ajout d’instructions" src="../assets/card-guidelines.png">
+      <strong>Ajouter des directives</strong>
+      </a>
+   </div>
+   <p>
+      <em>Découvrez comment ajouter des directives (marques, produits et personnes concernées) à GenStudio for Performance Marketing.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="Idées, livres, crayon, ordinateur" src="../assets/card-create-assets.png">
+      <strong>Créer une expérience d’e-mail</strong>
+      </a>
+   </div>
+   <p>
+      <em>Découvrez comment créer une expérience d’e-mail sur la marque.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="Personnes déplaçant des fichiers dans un dossier" src="../assets/card-manage-content.png">
+      <strong>Créer une expérience de méta-annonce</strong>
+      </a>
+   </div>
+   <p>
+      <em>Découvrez comment créer une expérience de méta-annonce alignée sur la marque.</em>
+   </p>
+</td>
+</table>
+
+
+(Fin de GSPM)
+
+
+
+
+
+
+
 ## Connectez-vous à Experience Cloud {#signin}
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](administration/organizations.md).
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Saisissez votre adresse e-mail d’Adobe, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Saisissez votre adresse e-mail Adobe, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Sélectionnez un compte.
 1. Saisissez votre mot de passe.
 1. Assurez-vous que vous êtes dans la bonne organisation.
@@ -94,7 +216,7 @@ Découvrez les dernières améliorations apportées aux composants de l’interf
 
 >[!BEGINTABS]
 
->[!TAB Intégration de Slack à Experience Cloud]
+>Intégration de [!TAB Slack à Experience Cloud]
 
 Vous pouvez configurer les préférences de votre compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
@@ -110,7 +232,7 @@ Découvrez la nouvelle interface utilisateur d’Adobe Campaign. Plus moderne, 
 
 >[!TAB Modifications à venir du canal de notifications push]
 
-Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les notifications push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.
+Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
