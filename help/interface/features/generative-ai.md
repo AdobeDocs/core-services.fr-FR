@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,10 @@ Toutes les réponses relatives à la connaissance des produits sont vérifiables
 
 ## Applications Experience Cloud qui utilisent l’IA
 
-Version du sous-titre (non terminée)...
+>[!TIP]
+>
+>Version du sous-titre (début)...
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites (Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ Voir [ Générer une image ](https://experienceleague.adobe.com/en/docs/experien
 
 
 
-Version du tableau...
-
 ## Applications Experience Cloud qui utilisent l’IA
+
+>[!TIP]
+>
+>Version du tableau...
+
 
 Découvrez comment les applications Experience Cloud utilisent l’IA générative ou l’assistant AI, et si Adobe Firefly est pris en charge.
 
