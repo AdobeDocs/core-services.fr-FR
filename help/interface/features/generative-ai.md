@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
-
 
 # L’IA dans les applications Experience Cloud
 
@@ -83,6 +83,26 @@ Après avoir créé des variations, vous pouvez utiliser le contenu sur votre si
 Voir [ Générer une image ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image).
 
 **Compatibilité avec Adobe Firefly :** Oui
+
+## Adobe Journey Optimizer
+
+Journey Optimizer utilise l’[assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) avec deux catégories de questions :
+
+**Connaissance du produit** - Interroge les entrepôts de données Adobe (tels que la documentation du produit Experience League) pour le produit insight. Cette sortie est indépendante du client ou de la cliente. Exemple :
+
+* Combien d’activités actives est-il possible d’avoir dans un seul sandbox Adobe Journey Optimizer ?
+
+**Informations opérationnelles (Beta)** : interroge un magasin de données d’informations opérationnelles spécifique au client qui contient des données opérationnelles centralisées sur les Parcours, partitionnées par le sandbox du client. Extrait les métadonnées uniquement des objets métier et n’accède pas aux données du sandbox.
+
+* Combien de Parcours ont été créés au cours des sept derniers jours ?
+
+La sortie d’Operational Insights dépend des métadonnées extraites des objets commerciaux du client.
+
+Parcours est le seul objet disponible pour l’assistant AI dans Journey Optimizer. Les métadonnées sont extraites du sandbox actuel.
+
+Voir [Utilisation de l’assistant AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) et [Préparation du terrain](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11) pour plus d’informations.
+
+**Compatibilité avec Adobe Firefly :** Non
 
 
 
