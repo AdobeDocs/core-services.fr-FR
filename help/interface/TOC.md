@@ -8,7 +8,7 @@ index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 + Services {#services}
    + [Vue d’ensemble](services/overview.md)
-   + [Commencer](services/getting-started.md)
+   + [Prise en main](services/getting-started.md)
    + Ressources {#assets}
       + [Vue d’ensemble](services/assets/experience-cloud-assets.md)
       + [Partager des dossiers et des ressources avec Creative Cloud](services/assets/creative-cloud.md)
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 + Fonctionnalités {#features}
    + [Préférences et notifications du compte](features/account-preferences.md)
-   + [L’IA dans les applications Experience Cloud](features/generative-ai.md)
+   + [IA dans les applications Experience Cloud](features/generative-ai.md)
    + [Recherche unifiée](features/search.md)
    + [Apprentissage personnalisé](features/personalized-learning.md)
    + [Prise en charge des navigateurs et des langues](browser-language.md)
