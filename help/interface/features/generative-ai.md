@@ -1,5 +1,5 @@
 ---
-title: L’IA dans les applications Experience Cloud
+title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative et l’assistant d’IA.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
@@ -10,14 +10,14 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
+source-git-commit: 4d784762d7d533b672e0cfa6944a3f26ebca0eaa
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 5%
+source-wordcount: '1994'
+ht-degree: 6%
 
 ---
 
-# L’IA dans les applications Experience Cloud
+# IA dans les applications Experience Cloud
 
 Cette page vous aide à comprendre comment les applications Experience Cloud utilisent l’IA générative et où trouver les informations spécifiques à l’application. Découvrez les classes de questions, d’invites et de modèles d’entrée et de sortie.
 
@@ -44,9 +44,10 @@ Toutes les réponses relatives à la connaissance des produits sont vérifiables
 >Version du sous-titre (début)...
 
 
-* [GenStudio for Performance Marketing](#gspm)
-* [Experience Manager Sites (Cloud Service)](#aem-sites)
-* Plus à venir...
+* [Adobe GenStudio for Performance Marketing](#gspm)
+* [Adobe Experience Manager Sites (Cloud Service)](#aem-sites)
+* [Adobe Journey Optimizer](#journey-optimizer)
+* [Adobe Journey Optimizer Prime et Ultimate](#ajo-prime-ultimate)
 
 ### GenStudio for Performance Marketing {#gspm}
 
@@ -84,7 +85,7 @@ Voir [ Générer une image ](https://experienceleague.adobe.com/en/docs/experien
 
 **Compatibilité avec Adobe Firefly :** Oui
 
-## Adobe Journey Optimizer
+## Journey Optimizer {#journey-optimizer}
 
 Journey Optimizer utilise l’[assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) avec deux catégories de questions :
 
@@ -104,7 +105,31 @@ Voir [Utilisation de l’assistant AI](https://experienceleague.adobe.com/en/doc
 
 **Compatibilité avec Adobe Firefly :** Non
 
+## Journey Optimizer Prime et Ultimate {#ajo-prime-ultimate}
 
+Journey Optimizer Prime et Ultimate utilisent [l’assistant AI pour l’accélérateur de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) pour apporter des suggestions proactives de variation de contenu pour le texte et les images.
+
+Cette fonctionnalité est disponible pour les canaux e-mail, push, web et SMS. Il permet de générer du texte et des images à partir d’invites.
+
+**E-mail** - générez un e-mail complet, du texte uniquement ou une image uniquement. [En savoir plus…](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email)
+
+**Notification push** - Générez une notification push complète, au format texte uniquement ou image uniquement. [En savoir plus…](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push)
+
+**SMS** - Générez un SMS complet ou un texte uniquement. [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms)
+
+**Page web** - Générez des images ou du texte de page web. [En savoir plus…](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web)
+
+**Contenu** - Générez du contenu pour diverses campagnes de messagerie. [En savoir plus…](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation)
+
+**Remarque :** la sortie de l’accélérateur de contenu dans AJO Prime et Ultimate est indemnisée.
+
+**Compatibilité avec Adobe Firefly :** Oui
+
+## Journey Optimizer édition B2B {#ajo-b2b}
+
+Utilise l’[assistant AI](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant) pour les invites de connaissance de produit.
+
+**Connaissance du produit** - Interroge les entrepôts de données Adobe (tels que la documentation du produit Experience League) pour le produit insight. Cette sortie est indépendante du client ou de la cliente. | <ul><li>**Input :** comment envoyer un e-mail dans un parcours de compte ?</li><li>**Output :** extractions de la connaissance des produits d’Experience League (documentation publique). [En savoir plus…](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)</li></ul>   | Non   |
 
 ## Applications Experience Cloud qui utilisent l’IA
 
