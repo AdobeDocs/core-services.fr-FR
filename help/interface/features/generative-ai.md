@@ -6,11 +6,8 @@ feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
-hide: false
-hidefromtoc: true
-index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: c6285bb87885d020275c6c0b4c003e912026ad20
+source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 4%
