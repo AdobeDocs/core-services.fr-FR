@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
 
-# L’IA dans les produits Experience Cloud
+# IA générative dans les produits Experience Cloud
 
 Cette page vous aide à découvrir quels produits prennent en charge l’IA générative, la [!DNL AI Assistant] et si Adobe Firefly est compatible. Vous trouverez également des liens vers des informations sur l’utilisation de l’IA dans les applications Experience Cloud.
 
@@ -57,7 +57,6 @@ Découvrez comment les applications Experience Cloud suivantes prennent en charg
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Compatibilité Adobe Firefly : **Oui**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics utilise [!DNL AI Assistant] pour vous aider à découvrir les connaissances et les informations sur les produits d’Experience League.
+Customer Journey Analytics offre des [!DNL AI Assistant] pour la connaissance et les informations sur les produits, ainsi que des [!UICONTROL Légendes intelligentes] dans les visualisations Workspace.
 
-Si vous êtes un nouvel utilisateur, apprenez rapidement les concepts de Customer Journey Analytics et intégrez-vous aux produits et fonctionnalités. Par exemple :
+**Assistant IA**
+
+Découvrez les connaissances et les informations sur les produits Experience League. Si vous êtes un nouvel utilisateur, apprenez rapidement les concepts de Customer Journey Analytics et intégrez-vous aux produits et fonctionnalités. Par exemple :
 
 * _Comment envoyer un e-mail dans un parcours de compte ?_
 
@@ -163,9 +164,7 @@ Les utilisateurs expérimentés bénéficient de cas d’utilisation avancés ou
 
 [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Compatibilité Adobe Firefly : **Non**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**Légendes intelligentes**
 
 Vous pouvez utiliser les _Légendes intelligentes_ dans les [!DNL Customer Journey Analytics] afin d’obtenir des informations en langage naturel pour les visualisations Workspace les plus utilisées. Les légendes intelligentes sont idéales pour les analystes qui ont besoin de récits et de contexte à partager avec d’autres utilisateurs. Les utilisateurs professionnels peuvent l’utiliser pour découvrir rapidement des points à retenir de haut niveau.
 
