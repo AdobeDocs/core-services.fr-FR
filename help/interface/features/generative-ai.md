@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1168'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Découvrez la prise en charge de l’IA générative ou des [!DNL AI Assistant] 
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services (Campaign v8 Web)](#campaign-cs)
+* [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Exemple d’entrée :
 
 Compatibilité avec Adobe Firefly : **Non**
 
-## [!DNL Campaign] Managed Services (Campaign v8 Web) {#campaign-cs}
+## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
 
-Campaign v8 (Campaign Managed Cloud Services) utilise des [!DNL AI Assistant] pour la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur plusieurs canaux tels que les e-mails, les SMS et les notifications push.
+Campaign Managed Cloud Services utilise des [!DNL AI Assistant] pour la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur plusieurs canaux tels que les e-mails, les SMS et les notifications push.
 
 **Remarque :** la sortie de la génération de contenu dans Campaign Managed Cloud Services est indemnisée.
 
