@@ -1,22 +1,22 @@
 ---
 title: IA dans les applications Experience Cloud
-description: Découvrez l’IA générative et la manière dont les applications Experience Cloud utilisent genAI et  [!DNL AI Assistant].
+description: Découvrez l’IA générative (GenAI) et comment les applications Experience Cloud utilisent GenAI et  [!DNL AI Assistant].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1421'
 ht-degree: 3%
 
 ---
 
 # IA générative dans les produits Experience Cloud
 
-Cette page vous aide à découvrir quels produits prennent en charge l’IA générative, la [!DNL AI Assistant] et si Adobe Firefly est compatible. Vous trouverez également des liens vers des informations sur l’utilisation de l’IA dans les applications Experience Cloud.
+Cette page vous aide à découvrir quels produits prennent en charge l’IA générative (GenAI), la [!DNL AI Assistant] et si Adobe Firefly est compatible. Vous trouverez également des liens vers des informations sur les différentes manières d’utiliser l’IA dans les applications Experience Cloud.
 
 **À propos de Generative AI**
 
@@ -30,11 +30,11 @@ L’IA générative est un type d’intelligence artificielle qui fait plus que 
 
 [!DNL AI Assistant] est un outil de conversation pris en charge dans Experience Platform et les applications associées. Utilisez-le pour acquérir rapidement des _connaissances sur les produits_ et, dans le cas des produits pris en charge, des _informations opérationnelles_ presque immédiatement.
 
-* **Connaissances des produits :** les connaissances des produits font référence à des concepts et à des sujets reposant sur la documentation d’Experience League. Découvrez comment créer des invites efficaces [basées sur des objectifs](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) pour tirer le meilleur parti de [!DNL AI Assistant]. Toutes les réponses d’Experience League sont vérifiables et citées avec des liens.
+* **Connaissance du produit :** la connaissance du produit fait référence à des concepts et des sujets fondés sur la documentation Experience League. Apprenez à créer des invites efficaces [et basées sur des objectifs pour tirer le meilleur parti de [!DNL AI Assistant].](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) Toutes les réponses d’Experience League sont vérifiables et citées avec des liens.
 
-* **Informations opérationnelles :** [Informations opérationnelles](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) se rapportent aux réponses générées sur vos objets de métadonnées (attributs, audiences, flux de données, jeux de données, etc.). Avec l’assistant d’IA, vous pouvez accomplir en quelques secondes ce qui, autrement, pourrait prendre des heures ou des jours.
+* **Informations opérationnelles :** [les informations](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) opérationnelles font référence aux réponses générées concernant vos objets de métadonnées (attributs, audiences, flux de données, jeux de données, etc.). Avec l’assistant d’IA, vous pouvez accomplir en quelques secondes ce qui, autrement, pourrait prendre des heures ou des jours.
 
-[En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[En savoir plus sur l’assistant AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,18 +52,18 @@ In AI Assistant, security is the priority:
 Découvrez comment les applications Experience Cloud suivantes prennent en charge l’IA ou la [!DNL AI Assistant] générative. La prise en charge d’Adobe Firefly est également indiquée.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
+* [[!DNL Campaign] Gestion Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
 
-## Adobe GenStudio for Performance Marketing {#gspm}
+## Adobe GenStudio pour le marketing à la performance {#gspm}
 
-[!DNL GenStudio for Performance Marketing] est une plateforme gérée par l’IA qui vous permet de générer et de gérer du contenu marketing conforme aux normes de votre marque et aux politiques de votre entreprise. Générez du contenu pour les e-mails, les méta-annonces, les annonces LinkedIn, les annonces d’affichage et les bannières.
+[!DNL GenStudio for Performance Marketing] est une plate-forme basée sur l’IA qui vous permet de générer et de gérer du contenu marketing conforme aux normes de votre marque et aux politiques de votre entreprise. Générez du contenu pour les e-mails, les méta-annonces, les publicités LinkedIn, les publicités d’affichage et les bannières.
 
 Vous pouvez également entraîner GenStudio for Performance Marketing sur votre marque à l’aide d’exemples, de descriptions des personnages et des produits des clients, ainsi que de directives de marque.
 
@@ -71,11 +71,15 @@ Vous pouvez également entraîner GenStudio for Performance Marketing sur votre 
 
 Compatibilité Adobe Firefly : **Oui**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
 
-Dans AEM Sites, vous pouvez utiliser _[!UICONTROL Générer des variations]_. Cette fonctionnalité utilise l’intelligence artificielle générative pour créer des variations de contenu en fonction de vos invites de saisie. Les invites sont fournies par Adobe ou créées et gérées par vous.
+Les sections suivantes décrivent brièvement l’IA générative dans les applications AEM.
 
-Après avoir créé des variations, vous pouvez utiliser le contenu sur votre site web et mesurer son succès à l’aide de la fonctionnalité [Expérimentation](https://www.aem.live/docs/experimentation) de Edge Delivery Services. Vous avez également la possibilité de générer des images dans Adobe Express à l’aide des fonctionnalités d’IA générative de Firefly.
+### Experience Manager Sites
+
+Dans AEM Sites, vous pouvez utiliser _[!UICONTROL l’option Générer des variations]_. Cette fonctionnalité utilise l’intelligence artificielle générative pour créer des variations de contenu en fonction de vos invites de saisie. Les invites sont fournies par Adobe ou créées et gérées par vous.
+
+Après avoir créé des variantes, vous pouvez utiliser le contenu de votre site web et mesurer sa réussite à l’aide de la [fonctionnalité Expérimentation](https://www.aem.live/docs/experimentation) des services de remise Edge. Vous avez également la possibilité de générer des images dans Adobe Express à l’aide des fonctionnalités d’IA générative de Firefly.
 
 **Exemples d’entrée et de sortie**
 
@@ -85,7 +89,7 @@ Les champs de saisie sont les suivants :
 * Audience Source
 * Cible de l’audience
 * Contexte supplémentaire
-* Invites orientées client
+* Invites créées par le client
 
 La sortie est une copie de contenu ou de marché générée.
 
@@ -93,6 +97,15 @@ Compatibilité Adobe Firefly : **Oui**
 
 [En savoir plus sur Générer des variations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL Content Hub] est disponible dans le cadre d’[!DNL Experience Manager Assets as a Cloud Service] pour démocratiser l’accès au contenu de marque pour les organisations et leurs partenaires commerciaux. Il se concentre sur la distribution de ressources pour l’activation à grande échelle et la création de variantes de contenu sur la marque pour une meilleure agilité marketing.
+
+Dans Content Hub, vous pouvez créer du contenu avec Adobe Express (si vous disposez de droits Adobe Express). Vous pouvez modifier du contenu existant à l’aide d’outils simples, produire des variations sur la marque avec des modèles et des éléments de marque et créer du contenu avec les dernières fonctionnalités GenAI de [!DNL Adobe Firefly].
+
+[En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Compatibilité Adobe Firefly : **Oui**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -138,11 +151,11 @@ Exemple d’entrée :
 
 [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-Compatibilité Adobe Firefly : **Non**
+Adobe Compatibilité Firefly : **Non**
 
-## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
+## [!DNL Campaign] Gestion Cloud Services {#campaign-cs}
 
-Campaign Managed Cloud Services utilise des [!DNL AI Assistant] pour la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur plusieurs canaux tels que les e-mails, les SMS et les notifications push.
+Campaign Managed Cloud Services permet [!DNL AI Assistant] la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur des canaux tels que le courrier électronique, les SMS et les notifications push.
 
 **Remarque :** la sortie de la génération de contenu dans Campaign Managed Cloud Services est indemnisée.
 
@@ -152,7 +165,11 @@ Compatibilité Adobe Firefly : **Oui**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics offre des [!DNL AI Assistant] pour la connaissance et les informations sur les produits, ainsi que des [!UICONTROL Légendes intelligentes] dans les visualisations Workspace.
+Customer Journey Analytics permet d’utiliser l’IA générative des manières suivantes :
+
+* [!DNL AI Assistant] de connaissances et d’informations sur les produits
+* [!UICONTROL Légendes intelligentes] dans les visualisations Workspace
+* L’IA et GenAI pour affecter automatiquement chaque métadonnée de ressource dans [!DNL Content Analytics]
 
 **Assistant IA**
 
@@ -164,9 +181,9 @@ Les utilisateurs expérimentés bénéficient de cas d’utilisation avancés ou
 
 [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-**Légendes intelligentes**
+**Sous-titres intelligents**
 
-Vous pouvez utiliser les _Légendes intelligentes_ dans les [!DNL Customer Journey Analytics] afin d’obtenir des informations en langage naturel pour les visualisations Workspace les plus utilisées. Les légendes intelligentes sont idéales pour les analystes qui ont besoin de récits et de contexte à partager avec d’autres utilisateurs. Les utilisateurs professionnels peuvent l’utiliser pour découvrir rapidement des points à retenir de haut niveau.
+Vous pouvez utiliser _des sous-titres_ intelligents pour [!DNL Customer Journey Analytics] obtenir des informations en langage naturel pour les visualisations de Workspace les plus fréquemment utilisées. Les légendes intelligentes sont idéales pour les analystes qui ont besoin de récits et de contexte à partager avec d’autres utilisateurs. Les utilisateurs professionnels peuvent l’utiliser pour découvrir rapidement des plats à emporter de haut niveau.
 
 Par exemple :
 
@@ -175,6 +192,12 @@ Par exemple :
 * **Output :** afficher les légendes générées automatiquement en langage naturel qui présentent le contexte et les principaux points à retenir. Vous pouvez ensuite agir sur les données générées, par exemple les examiner, les copier et les partager avec votre organisation. [Voir comment ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+
+**Content Analytics**
+
+Le Analytics de contenu utilise l’IA et GenAI pour affecter automatiquement toutes les métadonnées de la ressource, telles que les sujets, les scènes, les couleurs de premier plan, etc. Un attribut est une balise de métadonnées attribuée par l’IA décrivant le contenu d’une ressource ou d’une expérience.
+
+Par exemple : le `color: red` de premier plan est un attribut attribué automatiquement. Les visualisations vous aident à identifier les attributs de vos ressources qui contribuent le plus à la conversion. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
 
 Compatibilité Adobe Firefly : **Non**
 
@@ -189,6 +212,21 @@ Par exemple, si vous effectuez une requête sur une audience, [!DNL AI Assistant
 Compatibilité Adobe Firefly : **Non**
 
 ## [!DNL Marketo] {#marketo}
+
+Dans Marketo, l’IA générative est disponible dans les webinaires interactifs et dans Dynamic Chat.
+
+**Webinaires interactifs**
+
+Générez automatiquement des chapitres et des résumés pour vos webinaires enregistrés, ce qui les rend plus accessibles et plus faciles à parcourir pour votre audience. Les fonctionnalités incluent :
+
+* Génération automatique de chapitres
+* Résumé du texte généré par l’IA
+* Contenu modifiable - Modification des chapitres et des résumés générés
+* Intégration facile : ajoutez des chapitres et des résumés à vos pages de destination en copiant le code HTML dans l’éditeur de page web de votre choix
+
+[En savoir plus](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Les fonctionnalités d’IA générative de Adobe Dynamic Chat vous permettent d’optimiser la productivité de vos agents de vente, d’obtenir des informations sur les intentions des visiteurs de votre site web et de répondre aux questions des visiteurs en toute sécurité. Vous pouvez préapprouver les questions, les réponses et le résumé de la conversation.
 
