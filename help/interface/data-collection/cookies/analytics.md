@@ -34,4 +34,4 @@ Analytics utilise des cookies pour définir anonymement les nouveaux visiteurs, 
 
 ## Cookies définis par des modules externes
 
-Certaines mises en oeuvre utilisent des plug-ins, qui sont des fragments de code fournissant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Pour obtenir la liste des modules externes disponibles et les cookies qu’ils définissent, reportez-vous à la section [Présentation des modules externes Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) .
+Certaines mises en oeuvre utilisent des plug-ins, qui sont des fragments de code fournissant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Pour obtenir la liste des modules externes disponibles et les cookies qu’ils définissent, reportez-vous à la section [Présentation des modules externes Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) .

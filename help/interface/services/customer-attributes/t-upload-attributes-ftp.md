@@ -27,7 +27,7 @@ Vous pouvez charger les données après avoir créé une source d’attributs du
 Les fichiers peuvent être chargés sur le site FTP des attributs du client selon le protocole FTP ou SFTP :
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=fr).
 
 **Chargement du fichier de données par FTP**
 

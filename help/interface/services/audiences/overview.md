@@ -77,4 +77,4 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 ## Audiences Publish à partir d’Adobe Analytics
 
-Pour plus d’informations, voir [Segments Publish vers Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics.
+Pour plus d’informations, voir [Segments Publish vers Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics.
