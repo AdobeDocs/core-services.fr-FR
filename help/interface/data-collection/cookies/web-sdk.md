@@ -20,7 +20,7 @@ Le SDK Web de Adobe Experience Platform utilise des cookies pour stocker les val
 
 | Nom | Âge max. | Taille | Description |
 |---|---|---|---|
-| **kndctr_&lt;ORG_ID>_identity{1** | 34128000 (395 jours) | 100 à 120 octets (variable) | Stocke l’ECID, ainsi que d’autres informations relatives à l’ECID. |
+| **kndctr_&lt;ORG_ID>_identity&lbrace;1** | 34128000 (395 jours) | 100 à 120 octets (variable) | Stocke l’ECID, ainsi que d’autres informations relatives à l’ECID. |
 | **kndctr_&lt;ORG_ID>_consent** | 15552000 (180 jours) | 10 à 11 octets | Stocke les préférences de consentement de l’utilisateur pour le site web. |
 | **kndctr_&lt;ORG_ID>_cluster** | 1800 (30 minutes) | 3 à 5 octets | Stocke la région de l’Edge Network qui sert les requêtes de l’utilisateur actuel. La région est utilisée dans le chemin de l’URL afin que l’Edge Network puisse acheminer la requête vers la région appropriée. Si un utilisateur se connecte à une autre adresse IP ou lors d’une autre session, la demande est de nouveau acheminée vers la région la plus proche. |
 | **mbox** | 63072000 (2 ans) | | Présent lorsque le paramètre de migration Target est défini sur true. Il permet au [cookie mbox](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) Target d’être défini par le SDK Web. |

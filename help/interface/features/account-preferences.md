@@ -20,14 +20,14 @@ Pour rechercher des préférences Experience Cloud, cliquez sur **[!UICONTROL Pr
 
 ![préférences](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-Sur la page [!UICONTROL Préférences de l&#39;Experience Cloud ], vous pouvez gérer les fonctions de compte suivantes :
+Sur la page [!UICONTROL Préférences de l&#39;Experience Cloud &#x200B;], vous pouvez gérer les fonctions de compte suivantes :
 
 | Fonctionnalité | Description |
 |--- |--- |
 | [!UICONTROL Profile] | Mettez à jour votre [profil de compte d&#39;Adobe ](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services d’Adobe et sur des sites publics tels que [!DNL Behance]. |
 | [!UICONTROL Général] | Sélectionnez une [organisation](../administration/organizations.md).<p>Cette organisation est celle utilisée par défaut lorsque vous vous connectez à l’Experience Cloud. |
 | [!UICONTROL Données d’utilisation du produit] | Vous pouvez contrôler quelles données d’utilisation des produits sont partagées avec l’Adobe lors de l’utilisation d’applications Experience Cloud. Il s’agit de données sur la manière dont vous utilisez nos produits, et non du contenu ou des données de votre organisation elle-même. Adobe utilise ces informations pour améliorer ses produits, vous offrir une assistance améliorée via le produit et personnaliser votre expérience et vos communications de notre part. <p>Pour en savoir plus, voir [Données d’utilisation des produits](#product-usage-data) (sur cette page). |
-| [!UICONTROL Notifications] | Configurez comment et quand vous souhaitez recevoir des notifications et des alertes relatives aux produits [notifications](#subscribe-to-notifications-in-experience-cloud) : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour recevoir des alertes</li><li>Configurez le type de notification ([!UICONTROL  in-app], [!UICONTROL e-mail] ou [Slack ](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité de l’alerte. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également spécifier si les alertes doivent s’afficher jusqu’à ce que vous les supprimiez.</li></ul> |
+| [!UICONTROL Notifications] | Configurez comment et quand vous souhaitez recevoir des notifications et des alertes relatives aux produits [notifications](#subscribe-to-notifications-in-experience-cloud) : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour recevoir des alertes</li><li>Configurez le type de notification ([!UICONTROL &#x200B; in-app], [!UICONTROL e-mail] ou [Slack ](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité de l’alerte. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également spécifier si les alertes doivent s’afficher jusqu’à ce que vous les supprimiez.</li></ul> |
 
 ## [!UICONTROL Données d’utilisation du produit] {#product-usage-data}
 
@@ -44,13 +44,13 @@ Adobe utilise ces informations pour améliorer ses produits, vous offrir une ass
 
 ## Abonnement aux notifications dans Experience Cloud {#notifications}
 
-Vous pouvez sélectionner les produits et les catégories auxquels vous souhaitez vous abonner. Les notifications apparaissent dans la fenêtre contextuelle [!UICONTROL Notifications] (in-app), dans votre e-mail ou dans le Slack [](#slack-notifications) (en fonction de vos abonnements).
+Vous pouvez sélectionner les produits et les catégories auxquels vous souhaitez vous abonner. Les notifications apparaissent dans la fenêtre contextuelle [!UICONTROL Notifications] (in-app), dans votre e-mail ou dans le Slack [&#128279;](#slack-notifications) (en fonction de vos abonnements).
 
 Les notifications par e-mail et par Slack sont utiles dans les cas où vous n’êtes pas connecté à Experience Cloud.
 
 ### Abonnement aux notifications in-app et par e-mail
 
-1. Accédez aux préférences Experience Cloud [](https://experience.adobe.com/preferences).
+1. Accédez aux préférences Experience Cloud [&#128279;](https://experience.adobe.com/preferences).
 
 1. Sous **[!UICONTROL Notifications]**, activez **[!UICONTROL In-app]** ou **[!UICONTROL Email]**.
 

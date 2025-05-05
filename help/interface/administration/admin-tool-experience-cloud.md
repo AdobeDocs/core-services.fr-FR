@@ -23,7 +23,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
    ![Accès à Admin Console](../assets/admin-tool.png)
 
-1. Sous [!UICONTROL  Accès rapide ], cliquez sur **[!UICONTROL Outil d’administration]**.
+1. Sous [!UICONTROL &#x200B; Accès rapide &#x200B;], cliquez sur **[!UICONTROL Outil d’administration]**.
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
