@@ -5,10 +5,10 @@ breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 98%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 + [Interface et administration Experience Cloud](experience-cloud.md)
 
-+ Services {#services} {#services}
++ Services {#services}
    + [Vue d’ensemble](services/overview.md)
    + [Prise en main](services/getting-started.md)
-   + Ressources {#assets} {#assets}
+   + Ressources {#assets}
       + [Vue d’ensemble](services/assets/experience-cloud-assets.md)
       + [Partager des dossiers et des ressources avec Creative Cloud](services/assets/creative-cloud.md)
       + [Gérer des utilisateurs et utilisatrices de Creative Cloud](services/assets/manage-cc-users.md)
@@ -28,11 +28,11 @@ ht-degree: 100%
       + [Chargement d’une ressource dans un dossier partagé](services/assets/upload.md)
       + [Exigences relatives aux fichiers de ressources pour le partage](services/assets/file-reqs.md)
       + [Comportement des dossiers partagés](services/assets/behavior.md)
-   + Bibliothèque d’audiences {#audiences} {#audiences}
+   + Bibliothèque d’audiences {#audiences}
       + [Vue d’ensemble](services/audiences/overview.md)
       + [Créer une audience](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Attributs du client ou de la cliente {#customer-attributes} {#customer-attributes}
+   + Attributs du client ou de la cliente {#customer-attributes}
       + [Vue d’ensemble](services/customer-attributes/attributes.md)
       + [Questions fréquentes sur les attributs du client](services/customer-attributes/faq-crs.md)
       + [À propos du fichier de données et des sources de données pour les attributs du client](services/customer-attributes/crs-data-file.md)
@@ -46,24 +46,24 @@ ht-degree: 100%
       + [Considérations relatives à la confidentialité des attributs du client](services/customer-attributes/privacy-mac.md)
    + [Déclencheurs](services/triggers.md)
 
-+ Fonctionnalités {#features} {#features}
++ Fonctionnalités {#features}
    + [Préférences et notifications du compte](features/account-preferences.md)
    + [IA dans les applications Experience Cloud](features/generative-ai.md)
    + [Recherche unifiée](features/search.md)
    + [Apprentissage personnalisé](features/personalized-learning.md)
    + [Prise en charge des navigateurs et des langues](browser-language.md)
 
-+ Administration {#administration} {#administration}
++ Administration {#administration}
    + [Gestion des utilisateurs et utilisatrices et licences de produits](administration/admin-console.md)
    + [Afficher les informations sur les utilisateurs et utilisatrices (outil d’administration)](administration/admin-tool-experience-cloud.md)
    + [Liaison d’organisations et de comptes](administration/organizations.md)
    + [Intégrations Experience Cloud](administration/integrations.md)
 
-+ Collecte de données {#data-collection} {#data-collection}
++ Collecte de données {#data-collection}
    + [Programme de certificat géré par Adobe](data-collection/adobe-managed-cert.md)
    + [Adresses IP](data-collection/ip-addresses.md)
    + [Domaines](data-collection/domains.md)
-   + Cookies {#cookies} {#cookies}
+   + Cookies {#cookies}
       + [Vue d’ensemble des cookies](data-collection/cookies/overview.md)
       + [Cookies publicitaires](data-collection/cookies/advertising.md)
       + [Cookies Analytics](data-collection/cookies/analytics.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [Collecte de données régionale](data-collection/rdc.md)
    + [Utiliser la prérécupération DNS](data-collection/dns-prefetch.md)
 
-+ Plus de ressources {#more-resources} {#more-resources}
++ Notes de mise à jour et ressources {#more-resources}
    + [Notes de mise à jour](more-resources/release-notes.md)
    + [Mises à jour de la documentation](more-resources/doc-updates.md)
    + [Questions fréquentes](more-resources/faq.md)
