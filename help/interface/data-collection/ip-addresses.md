@@ -1,17 +1,17 @@
 ---
-title: Adresses IP utilisées par l’Experience Cloud
-description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’un Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
+title: Adresses IP utilisées par Experience Cloud
+description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 12%
 
 ---
 
-# Adresses IP utilisées par l’Experience Cloud
+# Adresses IP utilisées par Experience Cloud
 
-Certaines configurations de pare-feu bloquent les adresses IP issues des serveurs de collecte de données d’Adobe ou des serveurs chargés d’accéder aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres du pare-feu de votre organisation afin d’autoriser l’accès et d’envoyer des données depuis votre organisation. Cette page comprend les systèmes entrants (tels que la collecte de données) et sortants (tels que les flux de données dans Adobe Analytics) que Adobe utilise.
+Certaines configurations de pare-feu bloquent les adresses IP issues des serveurs de collecte de données d’Adobe ou des serveurs chargés d’accéder aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres du pare-feu de votre organisation afin d’autoriser l’accès et d’envoyer des données depuis votre organisation. Cette page comprend les systèmes entrants (tels que la collecte de données) et sortants (tels que les flux de données dans Adobe Analytics) qu’Adobe utilise.
 
 >[!IMPORTANT]
 >
@@ -19,13 +19,13 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 
 Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe Experience Cloud individuels possèdent leurs propres adresses IP qu’ils utilisent :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage ](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## Tous les blocs d’adresses IP Adobes
+## Tous les blocs d’adresses IP Adobe
 
-Le tableau ci-dessous répertorie toutes les adresses IP détenues par l’Adobe. Ce tableau comprend tous les bureaux des employés de l&#39;Adobe et les centres de données gérés par l&#39;Adobe dans le monde. Il n’inclut pas les services hébergés sur des clouds publics.
+Le tableau suivant couvre toutes les adresses IP détenues par Adobe. Ce tableau comprend tous les bureaux des employés d’Adobe et les centres de données gérés par Adobe dans le monde. Il n’inclut pas les services hébergés sur des clouds publics.
 
 | Bloc d’adresses IP (notation CIDR) |
 | --- |
@@ -55,7 +55,6 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 | Californie | `63.140.32.0/23` |
 | Californie | `63.140.34.0/24` |
 | France | `63.140.62.0/23` |
-| Inde | `66.117.20.0/24` |
 | Inde | `66.117.22.0/23` |
 | Japon | `130.248.169.0/23` |
 | Japon | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 | Londres | `185.34.188.0/22` |
 | Londres | `130.248.152.0/22` |
 | Londres | `130.248.244.0/23` |
+| Ohio | `66.117.20.0/24` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ Le Adobe Experience Cloud prend également en charge IPv6 à capacité limitée.
 | Inde | `2406:da1a:f34:6a00::/56` |
 | Irlande | `2a05:d018:309:600::/56` |
 | Japon | `2406:da14:b07:ab00::/56` |
+| Ohio | `2600:1f16:130f:7d00::/56` |
 | Oregon | `2600:1f14:1eb:7d00::/56` |
 | Oregon | `2600:1f14:9d3:2b00::/56` |
 | Singapour | `2406:da18:6e8:1e00::/56` |
@@ -103,4 +104,4 @@ Le Adobe Experience Cloud prend également en charge IPv6 à capacité limitée.
 
 >[!TIP]
 >
->Les connexions FTP pour les fonctionnalités d’exportation d’Adobe Analytics (notamment le Data Warehouse et les flux de données) proviennent uniquement d’adresses IPv4 situées à Londres, en Oregon et à Singapour.
+>Les connexions FTP pour les fonctionnalités d’exportation d’Adobe Analytics (notamment Data Warehouse et les flux de données) proviennent uniquement d’adresses IPv4 situées à Londres, en Oregon et à Singapour.
