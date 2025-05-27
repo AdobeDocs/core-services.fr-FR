@@ -134,7 +134,7 @@ Voici un exemple d’entrée pour les informations opérationnelles :
 
 * _Combien de Parcours ont été créés au cours des sept derniers jours ?_
 
-  Pour la sortie, l’assistant AI interroge un magasin de données spécifique au client. Le magasin de données contient des données opérationnelles centralisées sur [!UICONTROL Parcours ]. Cette fonctionnalité est indépendante du client et extrait les métadonnées uniquement des objets métier. Il n’accède pas aux données de votre sandbox.
+  Pour la sortie, l’assistant AI interroge un magasin de données spécifique au client. Le magasin de données contient des données opérationnelles centralisées sur [!UICONTROL Parcours &#x200B;]. Cette fonctionnalité est indépendante du client et extrait les métadonnées uniquement des objets métier. Il n’accède pas aux données de votre sandbox.
 
 [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
