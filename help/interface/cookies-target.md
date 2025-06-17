@@ -23,7 +23,7 @@ ht-degree: 9%
 >
 >Les informations contenues dans cet article s’appliquent uniquement à la bibliothèque JavaScript [[!DNL Target] at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 >
->Pour plus d’informations sur les cookies utilisés dans une implémentation [!DNL Target] à l’aide de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target=_blank}, voir « La [!DNL Adobe Experience Platform Web SDK] utilise-t-elle des cookies ? Dans l&#39;affirmative, quels cookies utilise-t-elle ? » dans [Questions fréquentes dans le guide de présentation de DNL Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Pour plus d’informations sur les cookies utilisés dans une implémentation [!DNL Target] à l’aide de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target=_blank}, voir « La [!DNL Adobe Experience Platform Web SDK] utilise-t-elle des cookies ? Dans l&#39;affirmative, quels cookies utilise-t-elle ? » dans [[!DNL Questions fréquentes dans le guide de présentation de Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >Si nécessaire, vous pouvez modifier les paramètres abordés dans cet article, à l’exception de la durée des cookies. [Consultez votre représentant de compte](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} lors de la modification des paramètres des cookies.
 >
