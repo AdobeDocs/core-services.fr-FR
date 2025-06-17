@@ -21,7 +21,7 @@ Adobe Target utilise des cookies pour offrir aux opérateurs du site web la pos
 
 >[!NOTE]
 >
->Les informations contenues dans cet article s’appliquent uniquement à la bibliothèque Adobe Target JavaScript [](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} (`at.js`). Voir [Cookies Adobe Experience Platform Web SDK](web-sdk.md) pour plus d’informations sur les implémentations de Target à l’aide de Web SDK.
+>Les informations contenues dans cet article s’appliquent uniquement à la bibliothèque Adobe Target JavaScript [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} (`at.js`). Voir [Cookies Adobe Experience Platform Web SDK](web-sdk.md) pour plus d’informations sur les implémentations de Target à l’aide de Web SDK.
 >
 >Si nécessaire, vous pouvez modifier les paramètres abordés dans cet article, à l’exception de la durée des cookies. [Consultez votre représentant de compte](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} lors de la modification des paramètres des cookies.
 
