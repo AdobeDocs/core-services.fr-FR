@@ -179,7 +179,7 @@ Pour accéder aux applications et services Experience Cloud configurés pour vo
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -219,7 +219,7 @@ Découvrez les dernières améliorations apportées aux composants de l’interf
 
 Vous pouvez configurer les préférences de votre compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
-[!BADGE Version bêta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="En savoir plus sur Slack"}
+[!BADGE Version bêta]{type=Informative url="https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences#notifications" tooltip="En savoir plus sur Slack"}
 
 
 >[!TAB Nouvelle interface utilisateur web de Campaign]
