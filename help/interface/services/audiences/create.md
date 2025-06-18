@@ -45,7 +45,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 **Création d’une audience**
 
 1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
-1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ajouter](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![ajouter](assets/add_icon_small.png)
 
    ![Résultat de l’étape](assets/audience_create_new.png)
 
@@ -53,6 +53,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 1. Sous [!UICONTROL Règles], sélectionnez une source d’attribut :
 
    * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Real-Time Analytics incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+
    >[!NOTE]
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
