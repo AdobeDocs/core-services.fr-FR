@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interface et administration Experience Cloud
 breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
-description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
+description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 98%
       + [Vue d’ensemble](services/audiences/overview.md)
       + [Créer une audience](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Attributs du client ou de la cliente {#customer-attributes}
-      + [Vue d’ensemble](services/customer-attributes/attributes.md)
+   + Attributs du client {#customer-attributes}
+      + [Aperçu](services/customer-attributes/attributes.md)
       + [Questions fréquentes sur les attributs du client](services/customer-attributes/faq-crs.md)
       + [À propos du fichier de données et des sources de données pour les attributs du client](services/customer-attributes/crs-data-file.md)
       + [Création d’une source d’attributs du client et chargement du fichier de données](services/customer-attributes/t-crs-usecase.md)
