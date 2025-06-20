@@ -8,7 +8,7 @@ index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 88%
 + Fonctionnalités {#features}
    + [Préférences et notifications du compte](features/account-preferences.md)
    + [IA générative](features/generative-ai.md)
-   + [IA dédiée aux agences](features/agentic-ai.md)
+   + [IA agentique](features/agentic-ai.md)
    + [Recherche unifiée](features/search.md)
    + [Apprentissage personnalisé](features/personalized-learning.md)
    + [Prise en charge des navigateurs et des langues](browser-language.md)
