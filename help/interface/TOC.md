@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interface et administration Experience Cloud
 breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
-description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
+description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client ou de la cliente et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 89%
    + [Exchange](services/exchange.md)
    + Attributs du client {#customer-attributes}
       + [Aperçu](services/customer-attributes/attributes.md)
-      + [Questions fréquentes sur les attributs du client](services/customer-attributes/faq-crs.md)
-      + [À propos du fichier de données et des sources de données pour les attributs du client](services/customer-attributes/crs-data-file.md)
-      + [Création d’une source d’attributs du client et chargement du fichier de données](services/customer-attributes/t-crs-usecase.md)
+      + [Questions fréquentes sur les attributs du client ou de la cliente](services/customer-attributes/faq-crs.md)
+      + [À propos du fichier de données et des sources de données pour les attributs du client ou de la cliente](services/customer-attributes/crs-data-file.md)
+      + [Créer une source d’attributs du client ou de la cliente et charger le fichier de données](services/customer-attributes/t-crs-usecase.md)
       + [Facultatif – Chargement du fichier de données par FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validation du schéma](services/customer-attributes/validate-schema.md)
       + [Configuration des abonnements](services/customer-attributes/subscription.md)
       + [Mise à jour du schéma](services/customer-attributes/t-update-schema.md)
       + [Prise en charge du Règlement général sur la protection des données](services/customer-attributes/gdpr.md)
       + [Prise en charge du California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Considérations relatives à la confidentialité des attributs du client](services/customer-attributes/privacy-mac.md)
+      + [Considérations relatives à la confidentialité des attributs du client ou de la cliente](services/customer-attributes/privacy-mac.md)
    + [Déclencheurs](services/triggers.md)
 
 + Fonctionnalités {#features}
