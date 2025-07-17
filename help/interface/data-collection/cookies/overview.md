@@ -3,47 +3,49 @@ description: Découvrez comment les solutions et services d’Adobe Experience�
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: d6dc659104b3b24b60495cd97adb21ebb3962fc7
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 58%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
 # Cookies utilisés dans Experience Cloud
 
-De nombreux services d’Adobe Experience Cloud utilisent des cookies. Un cookie est un petit ensemble de données présenté par un site web à un navigateur web. Le navigateur stocke cette donnée, ce qui permet à un site web de référencer ses données si nécessaire. Cette action est exécutée avec chaque requête de pages et d’images suivante.
+Adobe Experience Cloud utilise des cookies. Un cookie est un petit élément de données qu&#39;un site Web envoie à votre navigateur, qui le stocke pour une utilisation ultérieure. Les cookies aident le site web à se souvenir de choses lorsque vous le visitez à nouveau ou passez d&#39;une page à l&#39;autre. Les cookies permettent de suivre les visites et de distinguer un appareil d’un autre.
 
-Des cookies sont fournis pour conserver des informations pendant et parfois entre les visites d’un site web. Les cookies permettent de différencier les appareils des autres navigateurs qui affichent le site.
-
-En vertu des lois, réglementations et principes d’autoréglementation en vigueur, il se peut que vous deviez obtenir le consentement des visiteurs avant de pouvoir stocker ou récupérer des informations sur un ordinateur ou tout autre appareil connecté au Web. Adobe vous conseille d’examiner avec le service juridique de votre entreprise les lois, réglementations et principes qui régissent l’utilisation des cookies.
+Les lois exigent souvent que vous obteniez une autorisation avant de stocker ou d&#39;utiliser des cookies sur l&#39;appareil d&#39;une personne. Adobe recommande de consulter votre équipe juridique pour connaître les règles qui s’appliquent.
 
 ## À propos des cookies propriétaires
 
-Les services Adobe Experience Cloud utilisent des cookies pour fournir des informations sur les variables et les composants qui ne persistent pas entre les demandes d’image et les sessions de navigateur. Si possible, Adobe utilise des cookies propriétaires pour enregistrer les activités sur votre site. Pour enregistrer l’activité sur différents sites, tels que d’autres domaines que vous pouvez posséder, des cookies tiers sont requis.
+Adobe Experience Cloud utilise des cookies pour suivre les informations qui ne durent pas entre les pages vues ou les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires (liés à votre propre site web). Pour effectuer le suivi de l’activité sur plusieurs sites ou domaines que vous possédez, des cookies tiers sont nécessaires.
 
-De nombreux navigateurs et applications logicielles anti-espions sont conçus pour rejeter et supprimer les cookies tiers. Adobe garantit que les cookies peuvent toujours être définis même si les cookies tiers sont bloqués. Le comportement spécifique varie selon que vous utilisez le service d’identité Experience Platform (service ECID) ou les identifiants hérités d’Analytics (tels que le cookie `s_vi`) :
+Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identités Experience Platform (ECID) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
-* Le [ service d’identité Experience Platform (service ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) définit automatiquement les cookies propriétaires, que le domaine de collecte corresponde ou non à votre domaine de site. S’ils ne correspondent pas, Identity Service utilise JavaScript pour définir des cookies sur le domaine de votre site.
-* Si vous utilisez les [identifiants hérités Analytics](analytics.md) (tels que le cookie `s_vi`), cela dépend de la manière dont vous avez configuré votre serveur de collecte de données. Si le serveur de collecte de données correspond au domaine de votre site, les cookies sont définis comme propriétaires. Si le serveur de collecte ne correspond pas à votre domaine actuel, les cookies sont définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu du cookie `s_vi` standard.
+* [Experience Cloud Identity Service ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
-Si vous souhaitez vous assurer que votre serveur de collecte correspond au domaine de votre site, vous pouvez utiliser une implémentation CNAME qui permet le transfert depuis un domaine personnalisé spécifié dans votre implémentation CNAME vers les serveurs de collecte d’Adobe. Cette tâche implique des modifications des paramètres DNS de votre entreprise pour configurer un alias CNAME pointant vers un domaine hébergé par l’Adobe. Il faut souligner que même si divers produits Adobe prennent en charge l’utilisation d’un CNAME, le CNAME est systématiquement employé pour créer un point d’entrée propriétaire approuvé pour un client spécifique, et il appartient à ce client. Si vous contrôlez plusieurs domaines, ils peuvent utiliser un seul point de terminaison CNAME pour effectuer le suivi des utilisateurs sur leurs domaines, mais lorsque le domaine du site ne correspond pas au domaine CNAME, les cookies de domaine sont définis comme tiers.
+* [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
+
+   * Si votre serveur de collecte de données correspond au domaine de votre site, les cookies sont propriétaires.
+   * S’il ne correspond pas, les cookies sont tiers. Si les cookies tiers sont bloqués, Adobe définit un cookie de secours (`s_fid`) au lieu du cookie habituel.
+
+Pour vous assurer que votre serveur de collection correspond au domaine de votre site, vous pouvez utiliser une **configuration CNAME**. Cela implique la mise à jour de vos paramètres DNS pour pointer un domaine personnalisé (que vous possédez) vers des serveurs Adobe. Le cookie de suivi apparaît alors comme propriétaire. Bien qu’un CNAME puisse fonctionner sur plusieurs domaines, tout domaine qui ne correspond pas au CNAME définit toujours des cookies tiers.
 
 >[!NOTE]
 >
->Que votre domaine de collecte corresponde ou non à votre domaine de site, le programme ITP (Intelligent Tracking Prevention) d’Apple effectue des cookies propriétaires définis par Adobe de courte durée sur les navigateurs régis par ITP, notamment Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis via CNAME possèdent la même date dʼexpiration que les cookies définis via JavaScript. Cette échéance est sujette à modification.
+>La prévention intelligente du suivi (ITP) d’Apple limite la durée de vie des cookies propriétaires d’Adobe, même si votre domaine de collection correspond à votre domaine de site. L’ITP affecte Safari sur macOS et tous les navigateurs sur iOS et iPadOS. Depuis novembre 2020, les cookies définis à l’aide de CNAME expirent aussi rapidement que les cookies définis avec JavaScript. Ce délai peut être modifié à l’avenir.
+
+Voici une version simplifiée du texte :
 
 ## Cookies et confidentialité
 
-Le respect de la vie privée des clients et la sécurité des données sont les priorités d’Adobe. Adobe s’associe à de multiples organisations œuvrant à la protection de la vie privée. En outre, l’entreprise travaille en coopération avec des organismes réglementant la protection de la vie privée et respecte les principes d’autoréglementation. Cette coopération comprend le programme AdChoices de Digital Advertising Alliance, qui fournit aux clients des informations sur l’utilisation de leurs informations personnelles et les choix qu’ils peuvent faire concernant cette utilisation.
+Adobe prend au sérieux la confidentialité et la sécurité des données. Il collabore avec des organisations de protection de la vie privée, des organismes de réglementation et des programmes comme AdChoices pour donner aux gens le contrôle sur l&#39;utilisation de leurs données.
 
-La plupart des cookies définis par les produits Experience Cloud ne contiennent aucune information d’identification personnelle. Ces cookies et les données associées sont sécurisés et utilisés uniquement pour les rapports de votre société, ainsi que pour fournir des publicités et du contenu pertinents. Les données ne sont accessibles ni par des tiers, ni par les autres clients Adobe, sauf si elles sont utilisées dans des rapports d’industrie agrégés. Par exemple, le [!DNL Digital Marketing Insight Report] analyse les données agrégées et anonymes entre les détaillants.
+La plupart des cookies de Adobe Experience Cloud ne stockent pas d’informations personnelles. Ils sont sécurisés et ne sont utilisés que par votre entreprise pour le reporting, le contenu et la publicité. Adobe ne partage pas ces données avec d’autres clients ou tiers, à l’exception des rapports anonymes à l’échelle du secteur (tels que les rapports d’Insight de marketing numérique).
 
-Adobe ne fusionne pas d’informations au niveau du navigateur entre différentes entreprises. Afin de garantir la sécurité et la confidentialité des données des clients, certains services Experience Cloud offrent aux sociétés la possibilité d’utiliser un jeu distinct de cookies pour chaque site suivi. Certaines offres offrent également aux clients la possibilité d’utiliser leur propre nom de domaine comme propriétaire du cookie. Cette pratique crée une couche supplémentaire de confidentialité et de sécurité, dans la mesure où elle fait des cookies Experience Cloud des *cookies propriétaires*, appartenant de manière permanente au site de la société.
+Adobe ne regroupe pas les données de navigateur de différentes sociétés. Pour protéger la confidentialité, certains outils Adobe permettent à chaque site web d’utiliser son propre jeu de cookies. Certains permettent également d’utiliser votre propre domaine pour les cookies, ce qui les rend propriétaires et plus sécurisés.
 
-Les cookies peuvent stocker et fournir uniquement les informations qui y ont été déposées. Ils ne peuvent pas exécuter de code ni accéder à d’autres informations stockées sur l’ordinateur. En outre, les navigateurs web limitent l’accès aux données des cookies. Les navigateurs appliquent une politique de sécurité des cookies qui rend toutes les données des cookies disponibles uniquement pour le site web qui a défini les informations à l’origine.
-
-Par exemple, les données contenues dans les cookies définis à partir du site web Adobe.com ne peuvent pas être consultées par un autre site web qu’Adobe.com.
+Les cookies ne peuvent stocker que les informations qui y ont été enregistrées précédemment. Il ne peut pas exécuter de code ni lire d’autres données sur votre appareil. En outre, les navigateurs web autorisent uniquement la lecture des cookies par le site web qui les a définis. Par exemple, seul Adobe.com peut lire les cookies qu’il définit.
 
 Le schéma suivant illustre l’utilisation des cookies pour une demande d’image standard :
 
