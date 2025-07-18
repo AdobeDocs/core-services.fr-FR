@@ -32,13 +32,13 @@ Analytics utilise des cookies pour définir de nouveaux visiteurs de manière an
 
 ## Cookies définis par des modules externes
 
-Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [ Présentation des plug-ins Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
+Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [ Présentation des plug-ins Analytics ](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
 
 ## Conséquences de la suppression des cookies Analytics
 
 Si un visiteur supprime ses cookies Analytics, tenez compte des points suivants :
 
-* **L’identification du visiteur est perdue :** lorsque des cookies sont supprimés, Adobe Analytics ne peut pas reconnaître les visiteurs récurrents. La prochaine fois que l’utilisateur visite votre site, il est comptabilisé comme un nouveau visiteur. [ Analyses entre appareils ](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) peut vous aider à atténuer cet impact.
+* **L’identification du visiteur est perdue :** lorsque des cookies sont supprimés, Adobe Analytics ne peut pas reconnaître les visiteurs récurrents. La prochaine fois que l’utilisateur visite votre site, il est comptabilisé comme un nouveau visiteur. [ Analyses entre appareils ](https://experienceleague.adobe.com/fr/docs/analytics/components/cda/overview) peut vous aider à atténuer cet impact.
 * **La continuité de session est rompue :** toute analyse basée sur une session ou multi-visites (telle que l’attribution ou le suivi des conversions) est interrompue. Les événements et les conversions qui se produisent après la suppression du cookie ne peuvent pas être liés à des activités précédentes par le même utilisateur.
 * **Personalization et la segmentation sont affectés :** les segments ou les expériences personnalisées basées sur l’historique ou le comportement du visiteur sont réinitialisés, car les données précédentes ne sont plus associées à sa visite actuelle.
 * **Le suivi inter-domaines est interrompu :** pour les cookies tiers, leur suppression empêche Adobe Analytics de lier l’activité des utilisateurs sur plusieurs domaines que vous possédez.
