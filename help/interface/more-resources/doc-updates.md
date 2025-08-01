@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '614'
 ht-degree: 69%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 69%
 # Mises à jour de la documentation pour Experience Cloud
 
 Découvrez où se produisent les mises à jour de la documentation pour l’interface centrale et l’administration d’Experience Cloud.
+
+**Août 2025**
+
+Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/account-preferences.md).
 
 **Février 2025**
 
