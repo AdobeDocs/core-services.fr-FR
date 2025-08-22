@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 78%
 
 ---
@@ -20,7 +20,7 @@ Les [!DNL Customer attributes] dans Experience Cloud vous permettent de charger
 
 ## Repérer l’emplacement de la fonctionnalité [!DNL customer attributes]
 
-1. Connectez-vous à l’[!DNL Experience Cloud] et sélectionnez l’icône Menu ![menu](assets/menu-icon.png) .
+1. Connectez-vous à [!DNL Experience Cloud] et sélectionnez l’icône Menu ![menu](assets/menu-icon.png) .
 
 1. Sélectionnez **[!UICONTROL Attributs du client]**.
 
@@ -36,11 +36,11 @@ Les [!DNL Customer attributes] dans Experience Cloud vous permettent de charger
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Que sont les données des clients d’entreprise ? {#enterprise_data}
 
-Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations de type adhésions, niveau de fidélité, âge, sexe, produits détenus, intérêts et valeur de durée de vie.
+Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations telles que les abonnements, le niveau de fidélité, l’âge, le sexe, les produits détenus, les intérêts et la valeur de durée de vie.
 
 L’image suivante est un exemple de fichier de données présentant les données sur les abonnés pour les produits, y compris les ID de membre, les produits autorisés, les produits les plus lancés, etc.
 

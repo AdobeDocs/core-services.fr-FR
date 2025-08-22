@@ -1,23 +1,23 @@
 ---
-description: Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Adobe Experience Cloud.
+title: Création d’une audience dans la bibliothèque d’audiences
+description: Découvrez comment utiliser les règles d’attribut pour créer une audience partageable dans la bibliothèque d’audiences. Découvrez comment configurer une règle et définir une audience composite.
 solution: Experience Cloud
-title: Création d’une audience
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
-# Création d’une audience
+# Créer une audience
 
-Découvrez comment utiliser les règles d’attributs pour créer une audience et définir une audience composite dans Experience Cloud.
+Dans [!UICONTROL Bibliothèque d’audiences], vous pouvez utiliser des règles d’attributs pour créer une audience et définir une audience composite à partager dans les applications Experience Cloud.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -29,7 +29,7 @@ Le graphique suivant représente deux règles dans une audience composite.
 
 ![Deux règles dans une audience composite](assets/audience_sharing.png)
 
-Chaque cercle représente une règle qui définit l’adhésion à l’audience. Les visiteurs qui remplissent les conditions requises pour devenir membres dans les deux règles d’audience se chevauchent pour devenir l’audience composite définie.
+Chaque cercle représente une règle qui définit l’appartenance à une audience. Les visiteurs qui remplissent les conditions requises pour devenir membres dans les deux règles d’audience se chevauchent pour devenir l’audience composite définie.
 
 >[!NOTE]
 >
@@ -38,21 +38,22 @@ Chaque cercle représente une règle qui définit l’adhésion à l’audience.
 L’exemple suivant explique comment créer des règles pour une audience composite. L’audience se compose comme suit :
 
 * Section Maison et jardin dérivée des données de page ou des données d’analyse brutes.
-* Utilisateurs Chrome et Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](overview.md) dans [!DNL Experience Cloud].
+* Utilisateurs de Chrome et de Safari dérivés d’un segment [!DNL Adobe Analytics] [publié](overview.md) dans [!DNL Experience Cloud].
 
   ![Création de règles pour une audience composite](assets/audience_create.png)
 
 **Création d’une audience**
 
-1. Dans [!DNL Experience Cloud], sous [!DNL Experience Platform], cliquez sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
-1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![ajouter](assets/add_icon_small.png)
+1. Cliquez sur [!DNL Experience Cloud] des applications (![Icône des applications](assets/apps-icon.png)), puis sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 
-   ![Résultat de l’étape](assets/audience_create_new.png)
+1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ Nouvelle audience ](assets/add_icon_small.png)
 
-1. Dans la page [!UICONTROL Créer une audience], fournissez un titre et une description.
-1. Sous [!UICONTROL Règles], sélectionnez une source d’attribut :
+   ![Création d’une audience](assets/audience_create_new.png)
 
-   * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) ces données d’attributs provenant de demandes d’images Real-Time Analytics incluent des données telles que des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+1. Sur la page [!UICONTROL Créer une audience], renseignez les champs **[!UICONTROL Titre]** et **[!UICONTROL Description]**.
+1. Sous [!UICONTROL Règles], sélectionnez une suite de rapports de référence, puis une source d’attributs :
+
+   * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) il s’agit de données d’attribut provenant de demandes d’image Real-Time Analytics. Elle comprend des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
 
    >[!NOTE]
    >
@@ -94,4 +95,4 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois lʼaudience enregistrée, elle est disponible pour les autres applications. Par exemple, vous pouvez inclure une audience partagée dans une activité Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) Adobe Target.
