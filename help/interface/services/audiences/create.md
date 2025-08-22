@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
@@ -46,7 +46,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 1. Cliquez sur [!DNL Experience Cloud] des applications (![Icône des applications](assets/apps-icon.png)), puis sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 
-1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![ Nouvelle audience ](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ Nouvelle audience ](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 
@@ -62,6 +62,8 @@ L’exemple suivant explique comment créer des règles pour une audience compos
    * **[!UICONTROL Experience Cloud:]** : données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
 1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Enregistrer].**
+
+**Exemple : définition de règles pour une audience composite**
 
 >[!NOTE]
 >
@@ -95,4 +97,4 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) Adobe Target.
