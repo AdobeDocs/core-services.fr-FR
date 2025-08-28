@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # Services Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL customer attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
+Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder à ces services dans Experience Cloud, sélectionnez le **[!UICONTROL Sélecteur dʼapplications]**
 ![Sélecteur de services](../assets/apps-icon.png).

@@ -1,5 +1,5 @@
 ---
-description: Découvrez les exigences en matière de fichiers de données et de sources de données multiples pour le chargement  [!DNL customer attributes]  Experience Cloud.
+description: Découvrez les exigences en matière de fichiers de données et de sources de données multiples pour charger les attributs du client vers Experience Cloud.
 solution: Experience Cloud
 title: Fichier de données et sources de données
 feature: Customer Attributes
@@ -7,20 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1148'
 ht-degree: 62%
 
 ---
 
-# À propos du fichier de données et des sources de données pour [!DNL customer attributes]
+# À propos du fichier de données et des sources de données pour [!DNL Customer Attributes]
 
-Exigences en matière de fichiers de données et sources de données multiples pour charger des [!DNL customer attributes] vers Experience Cloud.
+Exigences en matière de fichiers de données et sources de données multiples pour charger les données d’attributs du client vers Experience Cloud.
 
 Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres données similaires de votre société. Les données que vous chargez vers Experience Cloud doivent être un fichier `.csv`. Si vous chargez le fichier via FTP ou sFTP, vous devez également charger un fichier `.fin`.
 
-[!DNL customer attributes] est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
+[!DNL Customer Attributes] est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
 ## Types de fichiers autorisés et exigences en termes d’attribution de noms {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -59,7 +59,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonne d’ID client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel </span> set customerIDs <span class="codeph"> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel <span class="codeph"> set customerIDs </span> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -67,7 +67,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>limites d’attribut </p> </td> 
-   <td colname="col2"> <p>Vous pouvez charger des centaines de colonnes de </span> .csv <span class="filepath"> vers le service d’attributs du client dans Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes sʼappliquent, selon les applications que vous détenez : </p> <p> 
+   <td colname="col2"> <p>Vous pouvez charger des centaines de colonnes de <span class="filepath"> .csv </span> vers le service d’attributs du client dans Experience Cloud. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes sʼappliquent, selon les applications que vous détenez : </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b> : 3 au total </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b> : 200 par suite de rapports </li> 
@@ -103,7 +103,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers multiples </p> </td> 
-   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez surveiller cela en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP d’[!UICONTROL customer attributes]. </p> <p> Diviser un fichier volumineux en fichiers de plus petite taille puis les envoyer en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer du traitement de chaque fichier avant l’envoi du suivant. </p> </td> 
+   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez surveiller cela en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP [!DNL Customer Attributes]. </p> <p> Diviser un fichier volumineux en fichiers de plus petite taille puis les envoyer en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer du traitement de chaque fichier avant l’envoi du suivant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encodage des caractères </p> </td> 
@@ -111,7 +111,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
    <tr> 
    <td colname="col1"> <p>Données historiques </p> </td> 
-   <td colname="col2"> <p> les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Ainsi, les [!UICONTROL customer attributes] sont associés au visiteur pendant toute la durée de vie du profil de ce visiteur dans [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> <p> Notez que la méthode de renvoi Data Warehouse ne sera plus disponible à compter d’octobre 2022. </td> 
+   <td colname="col2"> <p> les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Par conséquent, les [!DNL Customer Attributes] sont associés au visiteur pendant toute la durée de vie du profil du visiteur en [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Experience Cloud ID, les données sont liées à un post_visid_high/low basé sur Experience Cloud ID (MID). </p> <p> Notez que la méthode de renvoi Data Warehouse ne sera plus disponible à compter d’octobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flux de données </p> </td> 
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) pour plus d’informations.)
+(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) pour plus d’informations.)
 
-Dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributs du client]** :
+Dans **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** :
 
 Créez deux sources d’attributs du client à l’aide d’ID d’alias uniques correspondant aux ID de client ci-dessus. L’utilisation de cette méthode permet l’envoi du même ID de référence à plusieurs sources d’attributs du client.

@@ -1,20 +1,20 @@
 ---
-title: Composants et services de lʼinterface d’utilisation Experience Cloud
-description: Découvrez les composants de lʼinterface d’utilisation, lʼadministration des utilisateurs, des utilisatrices et des produits dans Adobe Admin Console, la bibliothèques dʼaudiences, les attributs du client ou de la cliente, les ressources Experience Cloud et bien plus encore.
+title: Composants et services de lʼUI Experience Cloud
+description: Découvrez les composants de lʼinterface utilisateur, lʼadministration des utilisateurs et des produits dans Adobe Admin Console, les bibliothèques dʼaudiences, les attributs du client, les ressources Experience Cloud et plus encore.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.fr-FR
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
-workflow-type: ht
+source-git-commit: 4c879ad5a5392924950694e89bc94f8cc1e84aa3
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 

@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 57%
+source-wordcount: '405'
+ht-degree: 63%
 
 ---
 
 # Prise en charge des attributs du client pour la Loi sur la protection des informations personnelles des consommateurs de Californie
 
-Cette page décrit la prise en charge [!UICONTROL attributs du client] de la Loi sur la protection des informations personnelles des consommateurs de Californie (CCPA).
+Cette page décrit [!DNL Customer Attributes] prise en charge du California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ En tant qu’entreprise, vous déterminez les données personnelles qu’Adobe 
 
 En tant que fournisseur, Adobe Experience Cloud fournit une assistance à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA, obligations qui s’appliquent à l’utilisation des produits et services Experience Cloud. Cette assistance inclut la gestion des demandes d’accès et de suppression des informations personnelles.
 
-Ce document décrit comment les [!UICONTROL attributs du client] prennent en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur de Privacy Service.
+Ce document décrit comment [!DNL Customer Attributes] prend en charge les droits d’accès et de suppression des données CCPA de vos clients à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur Privacy Service.
 
 Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Configuration requise pour envoyer des demandes d’[!UICONTROL attributs du client]
+## Configuration requise pour envoyer des demandes relatives aux [!DNL Customer Attributes]
 
-Pour envoyer des demandes d’accès et de suppression de données pour [!UICONTROL attributs du client], vous devez :
+Pour envoyer des demandes d’accès et de suppression de données pour les [!DNL Customer Attributes], vous devez procéder comme suit :
 
 1. Identifier les éléments suivants :
 
@@ -45,7 +45,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour [!UICONT
 
 1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des demandes d&#39;accès et de suppression aux attributs du client et vérifier le statut des demandes existantes.
 
-## Valeurs de champ obligatoires dans les [!UICONTROL attributs du client] requêtes JSON
+## Valeurs de champ requises dans les requêtes JSON [!DNL Customer Attributes]
 
 &quot;company context&quot; :
 

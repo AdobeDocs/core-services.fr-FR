@@ -1,33 +1,35 @@
 ---
-description: Créez une source d’attributs du client et chargez-la dans le Adobe Experience Cloud.
+description: Découvrez comment créer une source d’attributs du client et la charger dans le Adobe Experience Cloud.
 solution: Experience Cloud
-title: Création d’un Source d’attributs du client et chargement du fichier de données
+title: Création et chargement d’un fichier Source de données d’attributs du client
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1110'
 ht-degree: 49%
 
 ---
 
 # Créer une source d’attributs du client ou de la cliente et charger le fichier de données
 
-Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target.
+Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois la source de données active, partagez les données d’attribut avec [!DNL Analytics] et [!DNL Target].
 
-## workflow attributs du client {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**Workflow Attributs du client**
 
 ![workflow attributs du client](assets/crs.png)
 
->[!IMPORTANT]
->
->Pour accéder à cette fonctionnalité, les utilisateurs doivent être affectés au profil de produit Attributs du client (Attributs du client - Accès par défaut). Accédez à **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Si *attributs du client* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer. Les utilisateurs membres du groupe attributs du client ont accès au menu [!UICONTROL attributs du client] sur le côté gauche de l’interface d’Experience Cloud.
->
->Pour utiliser la fonction Attributs du client, les utilisateurs doivent également appartenir à des groupes au niveau de l’application (Adobe Analytics ou [!DNL Target]).
+## Conditions préalables
+
+**Accès au produit :** pour accéder aux [!DNL Customer Attributes], les utilisateurs doivent être affectés au profil de produit Attributs du client (**[!UICONTROL Attributs du client - Accès par défaut]**) dans Admin Console (`adminconsole.adobe.com`).
+
+Accédez à **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Si *Attributs du client* s’affiche comme l’un des produits (un [!UICONTROL profil de produit]), vous êtes prêt à commencer. Les utilisateurs ajoutés au profil de produit attributs du client voient **[!DNL Customer Attributes]** dans le sélecteur **[!UICONTROL Applications]**. (![workflow attributs du client](assets/menu-icon.png))
+
+**Groupes d’applications :** pour utiliser la fonction **[!DNL Customer Attributes]**, les utilisateurs doivent également appartenir à des groupes au niveau de l’application (Adobe [!DNL Analytics] ou [!DNL Adobe Target]).
 
 ## Création d’un fichier de données {#create-data}
 
@@ -44,7 +46,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
    ![Exemple de fichier de données client dʼentreprise](assets/01_crs_usecase.png)
 
 1. Avant de poursuivre, passez en revue les informations importantes dans [Exigences liées aux fichiers de données](crs-data-file.md) avant de télécharger le fichier.
-1. [Créez une source d’attributs du client et chargez les données](t-crs-usecase.md), comme décrit ci-dessous.
+1. [Créez une source d’attributs du client et chargez les données](t-crs-usecase.md#create-source), comme décrit ci-dessous.
 
 ## Création d’une source d’attributs et chargement du fichier de données {#create-source}
 
@@ -54,16 +56,13 @@ Effectuez les étapes suivantes sur la page Créer une source d’attributs clie
 >
 >Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
 
-1. Dans [!DNL Experience Cloud], sélectionnez l’icône Menu ![menu](assets/menu-icon.png).
-1. Sélectionnez **[!UICONTROL attributs du client]**.
+1. Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-   La page [!UICONTROL attributs du client] vous permet de gérer et de modifier les sources de données d’attributs existantes.
-
-   ![écran principal des attributs du client](assets/cust-attr.png)
+   ![Page Attributs du client](assets/cust-attr.png)
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
-   ![Résultat de l’étape](assets/04_crs_usecase.png)
+   ![Résultat de l’étape](assets/new-customer-attribute-source.png)
 
 1. Sur la page [!UICONTROL Créer un Source d’attributs du client], configurez les champs suivants :
 
@@ -81,7 +80,7 @@ Effectuez les étapes suivantes sur la page Créer une source d’attributs clie
 
       * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
         Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -103,21 +102,27 @@ Effectuez les étapes suivantes sur la page Créer une source d’attributs clie
 
         Voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Charger le fichier {#upload}
 
+L’enregistrement d’attribut du client est créé et vous pouvez charger le fichier en modifiant l’attribut du client.
 
-1. Cliquez sur Chargement de fichier.
+1. Sur la page [!DNL Customer Attributes], cliquez sur la source d’attributs.
 
-2. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
+1. Sur la page [!UICONTROL Modifier le Source de données client], cliquez sur **[!UICONTROL Chargement de fichier]**.
+
+   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
+
+1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
 >[!IMPORTANT]
 >
 >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](crs-data-file.md) pour en savoir plus.
 
 Après avoir transféré le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Téléchargement du fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
-
 
 ![attributs](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (suppri
 
 Suppression des attributs et remplacement des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL Modifier le Source d’attributs du client], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous [!UICONTROL Configurer les abonnements]).
+1. Sur la page [!UICONTROL Modifier la source d’attributs cliente], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
+
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md).
 
 ## Configuration des abonnements et activation de la source d’attributs {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 La configuration des abonnements configure le flux de données entre Experience Cloud et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
-Voir [Configuration des abonnements](subscription.md).
-
-**Pour activer une source d’attributs, procédez comme suit :**
-
-Sur la page [!UICONTROL Créer un nouveau Source d’attribut client ou en modifier], recherchez l’en-tête [!UICONTROL Activer], puis cliquez sur **[!UICONTROL Actif]**.
-
-![Résultat de l’étape](assets/activate_attribute_source.png)
+Voir [Configuration des abonnements et activation de la source de données](subscription.md).
 
 ## Utilisation des attributs du client dans Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
