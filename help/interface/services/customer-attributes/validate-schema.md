@@ -30,7 +30,7 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 1. Dans **[!UICONTROL Modifier le Source d’attributs du client]**, cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-1. Sur la page [!UICONTROL  Chargement de fichier et validation du schéma ], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
+1. Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation du schéma &#x200B;], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
 
    ![Modification dʼun schéma](assets/view_edit_schema.png)
 

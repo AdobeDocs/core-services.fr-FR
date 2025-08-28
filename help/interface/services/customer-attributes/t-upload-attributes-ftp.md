@@ -49,7 +49,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
 Configurez un compte FTP par source d’attributs.
 
-Sur la page [!UICONTROL  Chargement de fichier et validation de schéma ], cliquez sur **[!UICONTROL Configuration FTP]**.
+Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation de schéma &#x200B;], cliquez sur **[!UICONTROL Configuration FTP]**.
 
 ![Modification dʼun schéma](assets/ftp-account.png)
 
