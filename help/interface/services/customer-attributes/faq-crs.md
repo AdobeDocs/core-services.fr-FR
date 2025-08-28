@@ -1,5 +1,5 @@
 ---
-description: Questions fréquentes sur les  [!DNL Customer Attributes]  dans Adobe Experience Cloud, pour Adobe Analytics et Adobe Target.
+description: Obtenez des réponses aux questions fréquentes sur  [!DNL Customer Attributes]  dans Adobe Experience Cloud, pour Adobe Analytics et Adobe Target.
 solution: Experience Cloud
 title: Questions fréquentes sur les  [!DNL Customer Attributes]
 feature: Customer Attributes
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 80%
+source-wordcount: '1036'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ Conseils et limites lors de l’utilisation des [!DNL Customer Attributes].
 
 | Problème | Description |
 |--- |--- |
-| [!UICONTROL attribut du client] limitations d’abonnement | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur [!UICONTROL attribute Subscription Max] s’affiche pendant ce délai. |
+| Limites d’abonnement [!DNL Customer Attribute] | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut que l’erreur [!UICONTROL attribute Subscription Max] s’affiche pendant ce délai. |
 | Connexions multiples sur le même appareil | Lorsque vous utilisez des [!DNL Customer Attributes] pour charger des profils clients dans une source de données, Adobe vous recommande de ne pas autoriser les utilisateurs et les utilisatrices qui partagent des appareils (c’est-à-dire le même identifiant Experience Cloud). L’Experience Cloud ID (ECID) est conservé sur l’appareil. Si des utilisateurs partagent des appareils, l’ECID peut associer plusieurs utilisateurs au même ECID, ce qui peut entraîner des résultats inattendus dans [!DNL Target]. **Remarque :** pour Mobile, l’ECID est permanent après l’installation de l’application mobile. Réinstallez l’application pour générer un nouvel ECID. Pour le Web, un nouvel ECID est généré une fois le cookie du navigateur effacé. |
 | Limite de chargement de fréquence quotidienne | Adobe vous recommande de ne mettre à jour les [!DNL Customer Attributes] qu’une seule fois par jour. Vous devez attendre au moins 24 heures pour charger un autre fichier de données de profil client pour le même ensemble de profils. |
 | Analytics ID personnalisé (`s.visitorID`) | La définition d’un ID de client à l’aide de `s.visitorID` est une méthode d’identification des utilisateurs dans Adobe Analytics. Cependant, les intégrations dans lesquelles les données [!DNL Analytics] sont exportées ou importées à l’aide du service d’identification ne fonctionnent pas lorsqu’une personne est identifiée à l’aide d’un `s.visitorID.`<br>. Cela inclut, entre autres, les audiences partagées, [!DNL Analytics] pour Adobe Target (A4T) et les [!DNL Customer Attributes].<br>Pour ces intégrations, la définition d’un Analytics ID personnalisé n’est pas prise en charge. |
@@ -45,7 +45,7 @@ Conseils et limites lors de l’utilisation des [!DNL Customer Attributes].
 | **(Adobe Target uniquement)** Puis-je précharger ou charger des données pour les clients qu’Adobe Target n’a jamais vus ? | Oui. Lorsque la personne envoie sa première demande à Adobe Target, le système récupère les informations existantes dont Adobe dispose à son sujet dans les [!DNL Customer Attributes], puis les utilise pour le ciblage. **Remarque :** la récupération de ces données peut prendre jusqu’à 20 minutes à compter de la première interaction du visiteur avec Adobe Target. |
 | **(Adobe Target uniquement)** Puis-je créer une super audience en combinant les données d’attributs du client avec les données d’audience partagée ? | Non. Les données d’audience partagée correspondent à une audience terminée. |
 | **(Adobe Target uniquement)** Comment se compare [!DNL Customer Attributes] l’API de profil par lot d’Adobe Target ? | L’API de profil par lot permet de mettre à jour les profils Adobe Target directement via l’API, soit pour un profil individuel, soit par lot. La fonctionnalité est similaire aux [!DNL Customer Attributes], avec les différences clés suivantes :<ul><li>L’API de profil est un appel API REST, tandis que les [!DNL Customer Attributes] utilisent le protocole FTP.</li><li>L’API profil d’Adobe Target envoie uniquement des données à Adobe Target plutôt qu’à l’ensemble d’Experience Cloud.</li><li>Les [!DNL Customer Attributes] fournissent une interface simple pour créer et gérer ces données externes.</li></ul> |
-| **(Adobe Target uniquement)** Le chargement de données à partir des [!DNL Customer Attributes] vers Adobe Target étend-il la durée de vie du profil des visiteurs et visiteuses d’Adobe Target ? | Oui. Voir [Durée de vie du profil du visiteur](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=fr) dans l’aide d’Adobe Target. |
+| **(Adobe Target uniquement)** Le chargement de données à partir des [!DNL Customer Attributes] vers Adobe Target étend-il la durée de vie du profil des visiteurs et visiteuses d’Adobe Target ? | Oui. Voir [Durée de vie du profil du visiteur](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html) dans l’aide d’Adobe Target. |
 | **(Adobe Target uniquement)** Puis-je cibler les données chargées dans les [!DNL Customer Attributes] immédiatement après l’identification du visiteur ou de la visiteuse par l’identifiant client ? | Oui. Lors de l’appel du serveur à Adobe Target, qui inclut l’identifiant tiers de la mbox, toutes les données d’attributs du client sont disponibles. |
 | **(Adobe Target uniquement)** Que représente la colonne **[!UICONTROL État de la synchronisation]** pour les fichiers chargés dans la source d’attributs du client ? | Le nombre dʼenregistrements publiés et synchronisés par Adobe Target peut être affiché en sélectionnant lʼicône Statut de la synchronisation en regard dʼun fichier dʼattributs spécifique. `Sync %` est une mesure en temps réel qui spécifie le % de profils synchronisés dans Adobe Target.<br> **Note :** la synchronisation des attributs avec Adobe Target peut prendre jusqu’à 24 heures. |
 | Que représentent les mesures de chargement de fichiers dans la source des [!DNL Customer Attributes] ? | Vous pouvez vérifier le statut des attributs chargés dans les [!DNL Customer Attributes] à l’aide des mesures suivantes : <ul><li>Enregistrements : nombre d’enregistrements dans le fichier d’attributs.</li><li>**Nouveaux enregistrements :** nombre de nouveaux enregistrements présents dans le fichier d’attributs.</li> <li>**Enregistrements mis à jour :** nombre d’enregistrements existants dans les [!DNL Customer Attributes] avec des valeurs mises à jour dans le fichier.</li><li>**Toutes les données (enregistrements) :** nombre total d’enregistrements effectivement chargés dans les [!DNL Customer Attributes].</li></ul> |

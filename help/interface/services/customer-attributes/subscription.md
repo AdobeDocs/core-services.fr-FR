@@ -1,28 +1,28 @@
 ---
-description: Découvrez comment configurer les abonnements aux attributs du client pour Analytics et Target, et activer une source de données.
+description: Découvrez comment configurer des abonnements dans  [!DNL Customer Attributes]  pour Analytics et Target, et comment activer une source de données.
 solution: Experience Cloud
-title: Configuration des abonnements
+title: Configuration des abonnements dans  [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # Configuration des abonnements et activation de la source de données
 
-Les abonnements activent le flux de données d’attributs du client entre Experience Cloud et les applications ([!DNL Analytics] et [!DNL Target]).
+[!DNL Customer Attributes] abonnements permettent d’activer le flux de données d’attributs du client entre Experience Cloud et les applications ([!DNL Analytics] et [!DNL Target]).
 
-Par exemple, un abonnement Adobe Analytics active les données d’attribut dans les rapports. Si vous utilisez Adobe Target, vous pouvez charger des attributs de client pour le ciblage et la segmentation.
+Par exemple, un abonnement Adobe Analytics active les données d’attribut dans les rapports. Si vous utilisez [!DNL Adobe Target], vous pouvez charger des attributs de client pour le ciblage et la segmentation.
 
 **Pour configurer les abonnements et activer la source de données**
 
-1. Recherchez la source d’attributs de votre client pour la modifier :
+1. Localisez votre source de données dans [!DNL Customer Attributes] pour la modifier :
 
    Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 

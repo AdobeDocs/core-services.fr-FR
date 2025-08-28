@@ -1,19 +1,19 @@
 ---
-title: Prise en charge des attributs du client pour la Loi sur la protection des informations personnelles des consommateurs de Californie
-description: En savoir plus sur la prise en charge des attributs du client pour la Loi sur la confidentialité des consommateurs de Californie
+title: Prise en charge [!DNL Customer Attributes] de la Loi sur la protection des informations personnelles des consommateurs de Californie
+description: En savoir plus sur  [!DNL Customer Attributes]  prise en charge de la Loi sur la protection de la vie privée des consommateurs de Californie
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 63%
+source-wordcount: '399'
+ht-degree: 64%
 
 ---
 
-# Prise en charge des attributs du client pour la Loi sur la protection des informations personnelles des consommateurs de Californie
+# Prise en charge [!DNL Customer Attributes] de la Loi californienne sur la protection de la vie privée des consommateurs
 
 Cette page décrit [!DNL Customer Attributes] prise en charge du California Consumer Privacy Act (CCPA).
 
