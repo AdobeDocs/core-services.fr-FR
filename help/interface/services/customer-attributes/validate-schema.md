@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 49%
@@ -30,13 +30,13 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 1. Dans **[!UICONTROL Modifier le Source d’attributs du client]**, cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-1. Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation du schéma &#x200B;], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
+1. Sur la page [!UICONTROL  Chargement de fichier et validation du schéma ], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
 
-   ![Modification dʼun schéma](assets/view_edit_schema.png)
+   ![Modification dʼun schéma](assets/actions.png)
 
    Sur la page [!UICONTROL Modifier le schéma], chaque ligne du schéma représente une colonne du fichier CSV chargé.
 
-   ![Page Modifier le schéma dans Experience Cloud](assets/edit-schema.png)
+   ![Page Modifier le schéma dans Experience Cloud](assets/schema-edit.png)
 
 **Actions**
 
