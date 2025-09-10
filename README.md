@@ -1,8 +1,8 @@
 ---
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 99%
 
 ---
 # Article sur les contributions
@@ -15,13 +15,13 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 
 ## À propos de vos contributions au contenu Adobe
 
-Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Votre contribution dépend de qui vous êtes et du type de modifications auxquelles vous souhaitez contribuer :
 
 ### Modifications mineures
 
-Si vous contribuez bénévolement à des mises à jour mineures, consultez lʼarticle et sélectionnez le lien **Modifier** de lʼarticle pour accéder à la source GitHub associée. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Si vous contribuez bénévolement à des mises à jour mineures, consultez lʼarticle et sélectionnez le lien **Modifier** de lʼarticle pour accéder à la source GitHub associée. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Les corrections mineures ou les clarifications que vous envoyez à titre d’exemple de documentation et de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,7 +43,7 @@ Si vous êtes rédacteur technique, responsable de programme ou développeur au 
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur de GitHub pour toute modification de base ou dupliquer le référentiel pour apporter des contributions importantes.
 
-Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) pour plus de détails.
+Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus de détails.
 
 ## Utilisation de Markdown pour formater votre rubrique
 
@@ -52,9 +52,9 @@ Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vou
 * [Concepts de base de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [Markdown cheatsheet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Étiquettes
+## Libellés
 
-Dans le référentiel public, des étiquettes automatisées sont assignées à des requêtes de tirage afin de nous aider à gérer le workflow de requête de tirage et à vous aider à savoir ce qui se passe avec votre requête de tirage :
+Dans le référentiel public, des libellés automatisés sont assignés à des requêtes de tirage afin de nous aider à gérer le workflow de requête de tirage et à vous aider à savoir ce qui se passe avec votre requête de tirage :
 
 * **Change sent to author** : l’auteur a été informé de la requête de tirage en attente.
 * **ready-to-merge** : prêt à être analysé par notre équipe d’analyse de demande de tirage.
