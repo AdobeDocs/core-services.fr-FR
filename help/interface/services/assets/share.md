@@ -1,5 +1,5 @@
 ---
-description: Comment partager un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
+description: Découvrez comment partager un dossier de ressources Experience Cloud avec des utilisateurs de Creative Cloud.
 solution: Experience Cloud
 title: Partage d’un dossier de ressources Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -8,16 +8,28 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 70%
+source-wordcount: '436'
+ht-degree: 66%
 
 ---
 
 # Partage d’un dossier de ressources Experience Cloud
 
-Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creative Cloud.
+Partagez des dossiers et des ressources entre Experience Cloud et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des applications Experience Cloud comme Adobe Target. Le dossier partagé doit provenir dʼExperience Cloud.
+
+**Avantages du partage**
+
+* Rationalisation des workflows de production créative lors des phases de révision, d’approbation et de publication
+* Gestion plus rapide des fichiers et versions en cours de traitement à plusieurs emplacements
+* Suivi et gestion plus efficaces des ressources créatives
+* Optimisation de la sécurité de l’entreprise
+* Partage, enregistrement et envoi faciles de fichiers entre les créatifs et les spécialistes marketing
+
+Pour que les utilisateurs de Creative Cloud aient accès aux ressources, ils doivent figurer sur la liste autorisée d’Experience Cloud. Voir [Gestion des utilisateurs Creative Cloud](manage-cc-users.md).
+
+**Pour partager un dossier de ressources Experience Cloud**
 
 1. Sur un dossier de ressources, cliquez sur **[!UICONTROL Partager sur Creative Cloud]**.
 
@@ -42,17 +54,17 @@ Partagez un dossier de ressources Experience Cloud avec des utilisateurs Creati
 
    ![Ajout dʼun commentaire à lʼimage](../../assets/asset_comment_cc.png)
 
-   Dans l’Experience Cloud, sélectionnez une image, puis sélectionnez l’icône de frise chronologique pour ajouter un commentaire à l’image. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et Experience Cloud.
+   Dans Experience Cloud, sélectionnez une image, puis cliquez sur l’icône de frise chronologique pour ajouter un commentaire à l’image. Les commentaires sont synchronisés sur les ressources dans Creative Cloud et Experience Cloud.
 
    ![Ajout dʼun commentaire à l’image](../../assets/asset_comment_mac.png)
 
-1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Partager à l’aide du Creative Cloud]** (comme à l’[étape 3](share.md)), puis supprimez des utilisateurs en sélectionnant X, puis cliquez sur **[!UICONTROL Partager]**.
+1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Partager à l’aide de Creative Cloud]** (procédure similaire à [Étape 3](share.md)), puis supprimez des utilisateurs en sélectionnant X, puis cliquez sur **[!UICONTROL Partager]**.
 
-![Annulation du partage dʼun dossier](../../assets/asset_remove_user.png)
+   ![Annulation du partage dʼun dossier](../../assets/asset_remove_user.png)
 
-Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
+   Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans Adobe Target pour des images dans des activités .
+Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -63,3 +75,9 @@ Aide connexe :
 * [Aide de Creative Cloud - Gestion et synchronisation des fichiers](https://helpx.adobe.com/fr/creative-cloud/help/sync-creative-cloud-files.html)
 * [Aide de Creative Cloud - Collaboration avec d’autres utilisateurs](https://helpx.adobe.com/fr/creative-cloud/help/collaboration.html)
 * [Aide de Creative Cloud - FAQ sur la collaboration](https://helpx.adobe.com/fr/creative-cloud/help/collaboration-faq.html)
+
+## Partage de ressources avec Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
+
+Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource image partagée au moment de permuter des images dans la [!UICONTROL bibliothèque d’offres].
+
+Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans l’aide [!DNL Target].

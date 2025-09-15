@@ -5,9 +5,9 @@ breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client ou de la cliente et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
    + [Prise en main](services/getting-started.md)
    + Ressources {#assets}
       + [Vue d’ensemble](services/assets/experience-cloud-assets.md)
-      + [Partager des dossiers et des ressources avec Creative Cloud](services/assets/creative-cloud.md)
       + [Gérer des utilisateurs et utilisatrices de Creative Cloud](services/assets/manage-cc-users.md)
       + [Partager un dossier de ressources](services/assets/share.md)
       + [Chargement d’une ressource dans un dossier partagé](services/assets/upload.md)
