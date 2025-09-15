@@ -64,7 +64,7 @@ Pour que les utilisateurs de Creative Cloud aient accès aux ressources, ils doi
 
    Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
+Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans Adobe Target pour des images dans des activités .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -80,4 +80,4 @@ Aide connexe :
 
 Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource image partagée au moment de permuter des images dans la [!UICONTROL bibliothèque d’offres].
 
-Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans l’aide [!DNL Target].
+Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans l’aide [!DNL Target].
