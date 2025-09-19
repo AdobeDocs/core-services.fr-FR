@@ -6,9 +6,9 @@ title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client ou de la cliente et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 88%
       + [Créer une audience](services/audiences/create.md)
    + [Exchange](services/exchange.md)
    + Attributs du client {#customer-attributes}
-      + [Présentation](services/customer-attributes/attributes.md)
+      + [Vue d’ensemble](services/customer-attributes/attributes.md)
       + [FAQ](services/customer-attributes/faq-crs.md)
       + [À propos du fichier de données et des sources de données](services/customer-attributes/crs-data-file.md)
-      + [Création et chargement du fichier de données](services/customer-attributes/t-crs-usecase.md)
-      + [Facultatif - Chargement via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
-      + [Validation du schéma](services/customer-attributes/validate-schema.md)
+      + [Créer et charger le fichier de données](services/customer-attributes/t-crs-usecase.md)
+      + [Facultatif - Charger via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Valider le schéma](services/customer-attributes/validate-schema.md)
       + [Configuration des abonnements et activation de la source de données](services/customer-attributes/subscription.md)
-      + [Mise à jour du schéma](services/customer-attributes/t-update-schema.md)
-      + [Prise en charge du RGPD](services/customer-attributes/gdpr.md)
-      + [Prise en charge du CCPA](services/customer-attributes/ccpa.md)
+      + [Mettre à jour le schéma](services/customer-attributes/t-update-schema.md)
+      + [Prise en charge du RGPD](services/customer-attributes/gdpr.md)
+      + [Prise en charge du CCPA](services/customer-attributes/ccpa.md)
       + [Considérations relatives à la confidentialité](services/customer-attributes/privacy-mac.md)
    + [Déclencheurs](services/triggers.md)
 
