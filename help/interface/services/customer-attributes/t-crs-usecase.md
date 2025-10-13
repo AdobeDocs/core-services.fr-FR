@@ -122,7 +122,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Modifier le Source de données client], cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
+   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 

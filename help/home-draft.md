@@ -207,7 +207,7 @@ Cliquez sur l’icône représentant une cloche pour afficher les notifications 
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Pour gérer les notifications et les alertes, voir la section [ Préférences de compte et notifications](features/account-preferences.md).
+Pour gérer les notifications et les alertes, voir la section [&#x200B; Préférences de compte et notifications](features/account-preferences.md).
 
 
 ## Nouveautés
@@ -215,8 +215,7 @@ Pour gérer les notifications et les alertes, voir la section [ Préférences de
 Découvrez les dernières améliorations apportées aux composants de l’interface centrale d’Experience Cloud.
 
 >[!BEGINTABS]
-
->Intégration de [!TAB Slack à Experience Cloud]
+>[!TAB Intégration de  Slack à Experience Cloud]
 
 Vous pouvez configurer les préférences de votre compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
@@ -310,5 +309,5 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Ressources supplémentaires
 
-[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
 

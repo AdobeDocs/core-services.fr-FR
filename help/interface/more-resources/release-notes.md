@@ -20,7 +20,7 @@ ht-degree: 88%
 
 Cette section présente les fonctionnalités, les notes de mise à jour et les problèmes connus des composants de l’interface centrale d’Experience Cloud.
 
-Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jour de la documentation ](doc-updates.md).
+Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](doc-updates.md).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
@@ -46,7 +46,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| 9 janvier | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud ](https://experience.adobe.com/preferences). |
+| 9 janvier | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud &#x200B;](https://experience.adobe.com/preferences). |
 
 ## jeudi 2 octobre 2024
 
