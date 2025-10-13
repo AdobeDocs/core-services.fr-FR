@@ -85,5 +85,5 @@ Cliquez sur l’icône représentant une cloche pour afficher les notifications 
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Pour gérer les notifications et les alertes, voir la section [ Préférences de compte et notifications](features/account-preferences.md).
+Pour gérer les notifications et les alertes, voir la section [Préférences de compte et notifications](features/account-preferences.md).
 
