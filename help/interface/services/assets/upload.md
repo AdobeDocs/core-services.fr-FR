@@ -1,5 +1,5 @@
 ---
-description: Chargez une ressource vers un dossier partagé à partir du navigateur du Creative Cloud ou du bureau du Creative Cloud.
+description: Chargez une ressource vers un dossier partagé à partir du navigateur Creative Cloud ou du bureau Creative Cloud.
 title: Chargement d’une ressource vers un dossier partagé
 feature: Assets
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Chargement d’une ressource dans un dossier partagé
 
-Vous pouvez charger une ressource via le bureau du Creative Cloud ou le navigateur du Creative Cloud.
+Vous pouvez charger une ressource via l’application de bureau Creative Cloud ou le navigateur Creative Cloud.
 
 ## Chargement d’une ressource vers un dossier partagé depuis le navigateur de Creative Cloud
 

@@ -18,7 +18,7 @@ ht-degree: 81%
 
 # Audiences Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-[!DNL Audience Library] affiche les audiences dans Experience Cloud. Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants [!DNL Experience Cloud]). Vous pouvez gérer la traduction des données de visiteurs et visiteuses en segmentation d’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments. Vous pouvez également partager les segments ciblés avec des produits et services dans [!DNL Experience Cloud].
+[!DNL Audience Library] affiche les audiences dans Experience Cloud. Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants [!DNL Experience Cloud]). Vous pouvez gérer la traduction des données de visiteurs et visiteuses en segmentation d’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments. Vous pouvez également partager les segments d’audiencde avec des produits et services dans [!DNL Experience Cloud].
 
 ![Audiences Experience Cloud](assets/audiences.png)
 
@@ -77,4 +77,4 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Voir [ Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Voir [ Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

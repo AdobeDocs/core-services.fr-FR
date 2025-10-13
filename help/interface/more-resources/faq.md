@@ -11,7 +11,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 
 Découvrez la prise en charge des navigateurs ainsi que les questions fréquentes destinées aux administrateurs et aux administratrices dans Experience Cloud.
 
-+++Quels navigateurs sont pris en charge dans Experience Cloud ?
++++Quels navigateurs sont pris en charge dans Experience Cloud ?
 
 Adobe prend en charge les deux versions actuelle et précédente des navigateurs suivants :
 
@@ -62,7 +62,7 @@ Non. Le Adobe Experience Cloud est inclus sans frais supplémentaires. Toutefois
 
 +++
 
-+++Pourquoi ma société doit-elle se connecter via l’interface d’Experience Cloud ?
++++Pourquoi ma société doit-elle se connecter par le biais de l’interface Experience Cloud ?
 
 Les fonctions de l’interface d’Experience Cloud seront utiles à votre société. À partir de maintenant, cela constitue également le chemin dʼaccès standard aux applications et remplacera à terme dʼautres flux individuels de connexion aux applications. La connexion par le biais d’Experience Cloud facilite une transition ultérieure plus fluide.
 
@@ -99,7 +99,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qu
 
 * La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
+* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
 
 +++
 
@@ -107,11 +107,11 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qu
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 +++
 
-+++Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
++++Où peut se rendre un utilisateur pour gérer la liaison de comptes ?
 
 Il se peut que certains utilisateurs doivent lier leur compte dʼapplication (Analytics) à leur Adobe ID ou à leur Enterprise ID.
 
@@ -119,37 +119,37 @@ Reportez-vous à la section [Liaison dʼun compte dʼapplication à un Adobe ID
 
 +++
 
-+++Comment gérer les organisations et les profils de compte utilisateur ?
++++Comment gérer les profils de comptes d’utilisateurs et les organisations ?
 
 Reportez-vous à la page [Gestion des comptes d’utilisateurs](../administration/organizations.md).
 
 +++
 
-+++Qu’est-ce qu’une organisation ?
++++Qu’est-ce qu’une organisation ?
 
 Une [organisation](../administration/organizations.md) est l’entité qui permet à un administrateur ou à une administratrice de configurer des groupes ainsi que des utilisateurs et des utilisatrices, et de contrôler l’authentification unique dans Experience Cloud. Lʼorganisation fonctionne comme une entreprise de connexion qui inclut tous les produits et applications Experience Cloud. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
 +++
 
-+++Où puis-je trouver mon identifiant de l’organisation IMS ?
++++Où trouver mon ID d’organisation IMS ?
 
 Pour plus d’informations, consultez la section [Afficher l’ID de votre organisation](../administration/organizations.md).
 
 +++
 
-+++Que dois-je faire lorsqu’un de mes utilisateurs quitte mon entreprise ?
++++Que faire quand lʼun de mes utilisateurs quitte ma société ?
 
 Son accès doit être supprimé de lʼapplication. La personne ne pourra plus accéder au produit par l’intermédiaire d’Experience Cloud ni par connexion directe. Vous devez également le supprimer au niveau d’Experience Cloud.
 
 +++
 
-+++Qu’est-ce qu’un Adobe ID ?
++++Qu’est-ce qu’un Adobe ID ?
 
 Voir [Types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
 +++
 
-+++Puis-je lier des comptes d’application pour mes utilisateurs ?
++++Puis-je lier les comptes dʼapplication de mes utilisateurs ?
 
 Non. Les utilisateurs doivent lier leurs propres applications à leurs noms dʼutilisateur et mots de passe.
 

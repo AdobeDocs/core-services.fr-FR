@@ -27,7 +27,7 @@ Vous pouvez charger les données après avoir créé une source d’attributs du
 Les chargements de fichiers vers le site FTP des attributs du client peuvent être effectués par FTP ou SFTP :
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=fr).
+* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Chargement du fichier de données par FTP**
 
@@ -49,7 +49,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
 Configurez un compte FTP par source d’attributs.
 
-Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation de schéma &#x200B;], cliquez sur **[!UICONTROL Configuration FTP]**.
+Sur la page [!UICONTROL  Chargement de fichier et validation de schéma ], cliquez sur **[!UICONTROL Configuration FTP]**.
 
 ![Modification dʼun schéma](assets/ftp-account.png)
 

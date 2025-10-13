@@ -31,7 +31,7 @@ Marketplace est une destination unique où vous pouvez rechercher des extensions
 
 * Refusez ou approuvez des applications.
 
-* Publish en Experience Cloud.
+* Publiez dans Experience Cloud.
 
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 

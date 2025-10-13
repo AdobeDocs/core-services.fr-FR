@@ -1,7 +1,7 @@
 ---
 description: Découvrez comment implémenter la prérécupération DNS pour réduire le temps de chargement des pages de différents services et applications dans Experience Cloud.
 solution: Experience Cloud
-title: Utilisation de la prérécupération DNS
+title: Utiliser la prérécupération DNS
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
@@ -24,7 +24,7 @@ Les navigateurs utilisent la prérécupération DNS pour associer automatiquemen
 
 ## Prérécupération DNS et applications Adobe Experience Cloud
 
-La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec différentes applications et services [!UICONTROL Experience Cloud] car :
+La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec les différents services et applications [!UICONTROL Experience Cloud], car :
 
 * Chaque application ou service Experience Cloud génère de manière dynamique des appels DNS au fur et à mesure du chargement de la page.
 * Le navigateur ne peut pas convertir les noms de domaine en adresse IP avant ces appels.
@@ -41,9 +41,9 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Service d&#39;ID Experience Cloud :** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Service Experience Cloud ID :** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
-* **Advertising Cloud:**
+* **Advertising Cloud :**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttech.net">`

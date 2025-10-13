@@ -57,7 +57,7 @@ Extrait de GSPM :
          </a>
       </div>
       <p>
-         <em>Créer des e-mails et des méta-annonces performants et intégrés à la marque.</em>
+         <em>Créez des e-mails performants et sur la marque, ainsi que des annonces Meta.</em>
       </p>
    </td>
    <td valign="top">
@@ -131,11 +131,11 @@ Extrait de GSPM :
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="Personnes déplaçant des fichiers dans un dossier" src="../assets/card-manage-content.png">
-      <strong>Créer une expérience de méta-annonce</strong>
+      <strong>Création d’une expérience publicitaire Meta</strong>
       </a>
    </div>
    <p>
-      <em>Découvrez comment créer une expérience de méta-annonce alignée sur la marque.</em>
+      <em>Découvrez comment créer une expérience publicitaire Meta alignée sur la marque.</em>
    </p>
 </td>
 </table>
@@ -179,7 +179,7 @@ Pour accéder aux applications et services Experience Cloud configurés pour vo
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à la formation et à l’aide en utilisant le **[!UICONTROL centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête : vous y trouverez le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -215,11 +215,12 @@ Pour gérer les notifications et les alertes, voir la section [ Préférences de
 Découvrez les dernières améliorations apportées aux composants de l’interface centrale d’Experience Cloud.
 
 >[!BEGINTABS]
->[!TAB Intégration de  Slack à Experience Cloud]
+
+>Intégration de [!TAB Slack à Experience Cloud]
 
 Vous pouvez configurer les préférences de votre compte pour envoyer des notifications Experience Cloud à un canal [!DNL Slack].
 
-[!BADGE Version bêta]{type=Informative url="https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences#notifications" tooltip="En savoir plus sur Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="En savoir plus sur Slack"}
 
 
 >[!TAB Nouvelle interface utilisateur web de Campaign]
