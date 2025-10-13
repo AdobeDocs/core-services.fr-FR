@@ -1,10 +1,14 @@
 ---
-source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
+title: Instructions
+description: Fichier Lisez-moi d’instructions
+source-git-commit: 7392d95436664364e32f3e78f2ea3292ce8fb7e9
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 99%
 
 ---
+
+
 # Instructions
 
 **Remarque : Cette page (ou toute page readme.md) ne sera pas publiée dans la documentation destinée aux clients.**
