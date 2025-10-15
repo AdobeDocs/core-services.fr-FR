@@ -41,7 +41,7 @@ Découvrez la disponibilité des agents d’IA et des applications prises en cha
 
 * [AI dans Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) page d’accueil de la documentation
 
-[!BADGE En savoir plus sur Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Accédez à Business.adobe.com"}
+[!BADGE En savoir plus sur Adobe for Business]{type=Informative url="https://business.adobe.com/fr/products/experience-platform/agent-orchestrator.html" tooltip="Accédez à Business.adobe.com"}
 
 
 
