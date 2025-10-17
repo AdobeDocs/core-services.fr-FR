@@ -5,7 +5,7 @@ breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client ou de la cliente et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Interface et administration Experience Cloud {#interface}
 
 + [Interface et administration Experience Cloud](experience-cloud.md)
-
 + Services {#services}
    + [Vue d’ensemble](services/overview.md)
    + [Commencer](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [Prise en charge du CCPA](services/customer-attributes/ccpa.md)
       + [Considérations relatives à la confidentialité](services/customer-attributes/privacy-mac.md)
    + [Déclencheurs](services/triggers.md)
-
 + Fonctionnalités {#features}
    + [Préférences et notifications du compte](features/account-preferences.md)
    + [IA générative](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [Recherche unifiée](features/search.md)
    + [Apprentissage personnalisé](features/personalized-learning.md)
    + [Prise en charge des navigateurs et des langues](browser-language.md)
-
 + Administration {#administration}
    + [Gestion des utilisateurs et utilisatrices et licences de produits](administration/admin-console.md)
    + [Afficher les informations sur les utilisateurs et utilisatrices (outil d’administration)](administration/admin-tool-experience-cloud.md)
    + [Organisations](administration/organizations.md)
    + [Intégrations Experience Cloud](administration/integrations.md)
-
 + Collecte de données {#data-collection}
    + [Programme de certificat géré par Adobe](data-collection/adobe-managed-cert.md)
    + [Adresses IP](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Cookies du SDK web](data-collection/cookies/web-sdk.md)
    + [Collecte de données régionale](data-collection/rdc.md)
    + [Utiliser la prérécupération DNS](data-collection/dns-prefetch.md)
-
 + Notes de mise à jour et ressources {#more-resources}
    + [Notes de mise à jour](more-resources/release-notes.md)
    + [Mises à jour de la documentation](more-resources/doc-updates.md)
    + [Questions fréquentes](more-resources/faq.md)
    + [Terminologie](more-resources/terms.md)
-
