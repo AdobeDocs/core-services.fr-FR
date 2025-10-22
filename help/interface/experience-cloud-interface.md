@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 91%
+source-wordcount: '697'
+ht-degree: 79%
 
 ---
 
@@ -56,15 +56,15 @@ Bien que toutes les équipes d’applications se soient engagées à assurer la 
 
 ## Connectez-vous à Experience Cloud {#signin}
 
-Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](organizations.md).
+Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
 1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
-1. Cliquez sur **[!UICONTROL Se connecter avec un Adobe ID]**.
+1. Cliquez sur **[!UICONTROL Sign in with an Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
    ![Vérification de votre organisation](assets/organizations-menu.png)
 
-   Pour vérifier que vous vous êtes connecté à l’[organisation](organizations.md) appropriée, cliquez sur **[!UICONTROL Profil]** pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher une autre organisation et passer à une autre à l’aide du sélecteur **[!UICONTROL Organisation]**.
+   Pour vérifier que vous vous êtes connecté à l’organisation appropriée, cliquez sur **[!UICONTROL Profile]** pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher une autre organisation et passer à une autre à l’aide du sélecteur de **[!UICONTROL Organization]**.
 
    Si votre entreprise utilise des Federated ID, Experience Cloud vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l’URL d’Experience Cloud (`https://experience.adobe.com`) pour accomplir cette tâche.
 
@@ -80,42 +80,42 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans Experience Cloud {#search-support}
 
-La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
+La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans Experience Cloud](assets/search-menu.png)
 
-Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants :
+Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivants :
 
-* **[!UICONTROL Support] :** créez un ticket d’assistance ou contactez l’[!UICONTROL assistance] technique à l’aide de Twitter.
-* **[!UICONTROL Commentaires] :** contactez Adobe à l’aide des Commentaires et faites-nous savoir ce que vous pensez.
-* **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL gérez les abonnements].
-* **[!UICONTROL Developer Connection] :** navigation vers `adobe.io` et recherche de la documentation destinée aux développeurs.
+* **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
+* **[!UICONTROL Feedback]:** Contactez Adobe à l’aide des Commentaires et faites-nous savoir ce que vous en pensez.
+* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
+* **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
 
 ## Préférences de compte {#account-menu}
 
 Dans le menu des préférences du compte, vous pouvez :
 
 * Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème) ;
-* Rechercher des [Organisations](organizations.md) ;
+* Rechercher des organisations
 * Vous déconnecter ;
 * Configurer des [préférences, notifications et abonnements](#preferences) relatives au compte ;
 
-### Gérer les [!UICONTROL préférences] Experience Cloud {#preferences}
+### Gestion des [!UICONTROL Preferences] Experience Cloud {#preferences}
 
 Les préférences Experience Cloud incluent les notifications, les abonnements et les alertes.
 
-* Cliquez sur **[!UICONTROL Préférences]** dans le menu de votre compte ![préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
+* Cliquez sur **[!UICONTROL Preferences]** dans le menu de votre compte ![préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
 
 ![Gestion dʼExperience Cloud](assets/preferences-page.png)
 
-Dans [!UICONTROL Préférences Experience Cloud], vous pouvez configurer les fonctionnalités suivantes :
+Sur [!UICONTROL Experience Cloud preferences], vous pouvez configurer les fonctionnalités suivantes :
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [Organisation](organizations.md) par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
-| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et sur votre adresse e-mail. |
-| [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
-| [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
+| Organisation par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
+| [!UICONTROL Subscriptions] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre e-mail. |
+| [!UICONTROL Priority] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
+| [!UICONTROL Alerts] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
 {style="table-layout:auto"}

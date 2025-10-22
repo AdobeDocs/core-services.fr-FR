@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: d3a559ca2f7963256d48a25cd51099edb5e3fe76
+source-git-commit: e31b3e591a9342230f0f2a9287aedf715423fd60
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '545'
 ht-degree: 11%
 
 ---
@@ -30,15 +30,17 @@ Analytics utilise des cookies pour définir de nouveaux visiteurs de manière an
 | **`s_fid`** | 2 ans | 33 octets | Premier niveau | Stocke l’identifiant visiteur unique de secours et l’horodatage. Défini par JavaScript si le cookie `s_vi` standard ne peut pas être défini en raison de restrictions liées aux cookies tiers. Non utilisé pour les implémentations de cookies propriétaires. |
 | **`s_ac`** | Immédiat | 1 octet | Premier niveau | Permet de déterminer le domaine approprié pour définir les cookies AppMeasurement. Contient la valeur statique `"1"`. Une fois ce cookie défini, il est immédiatement supprimé. |
 
+Voir [ Identification des visiteurs dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) pour plus d’informations sur la manière dont Adobe Analytics identifie les visiteurs à l’aide de cookies.
+
 ## Cookies définis par des modules externes
 
-Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
+Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [ Présentation des plug-ins Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
 
 ## Conséquences de la suppression des cookies Analytics
 
 Si un visiteur supprime ses cookies Analytics, tenez compte des points suivants :
 
-* **L’identification du visiteur est perdue :** lorsque des cookies sont supprimés, Adobe Analytics ne peut pas reconnaître les visiteurs récurrents. La prochaine fois que l’utilisateur visite votre site, il est comptabilisé comme un nouveau visiteur. [&#x200B; Analyses entre appareils &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/components/cda/overview) peut vous aider à atténuer cet impact.
+* **L’identification du visiteur est perdue :** lorsque des cookies sont supprimés, Adobe Analytics ne peut pas reconnaître les visiteurs récurrents. La prochaine fois que l’utilisateur visite votre site, il est comptabilisé comme un nouveau visiteur.
 * **La continuité de session est rompue :** toute analyse basée sur une session ou multi-visites (telle que l’attribution ou le suivi des conversions) est interrompue. Les événements et les conversions qui se produisent après la suppression du cookie ne peuvent pas être liés à des activités précédentes par le même utilisateur.
 * **Personalization et la segmentation sont affectés :** les segments ou les expériences personnalisées basées sur l’historique ou le comportement du visiteur sont réinitialisés, car les données précédentes ne sont plus associées à sa visite actuelle.
 * **Le suivi inter-domaines est interrompu :** pour les cookies tiers, leur suppression empêche Adobe Analytics de lier l’activité des utilisateurs sur plusieurs domaines que vous possédez.
