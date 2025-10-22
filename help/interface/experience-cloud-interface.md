@@ -80,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans Experience Cloud {#search-support}
 
-La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
+La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
 
 ![Recherche et assistance dans Experience Cloud](assets/search-menu.png)
 

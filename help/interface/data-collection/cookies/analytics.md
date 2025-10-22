@@ -34,7 +34,7 @@ Voir [&#x200B; Identification des visiteurs dans Adobe Analytics](https://experi
 
 ## Cookies définis par des modules externes
 
-Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
+Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
 
 ## Conséquences de la suppression des cookies Analytics
 
