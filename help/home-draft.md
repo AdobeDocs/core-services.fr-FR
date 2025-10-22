@@ -308,7 +308,8 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
+
 ## Ressources supplémentaires
 
-[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
 
