@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 04cc3e5baa55cbb61ee121810f647268a4ec46bf
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 88%
@@ -149,7 +149,7 @@ Pulled from GSPM:
 
 
 
-## Sign in to Experience Cloud {#signin}
+## Sign in to Experience Cloud 
 
 Sign in and verify that you are in the right [organization](administration/organizations.md).
 
@@ -169,7 +169,7 @@ Sign in and verify that you are in the right [organization](administration/organ
     
     For example, for an organization with Federated IDs and the domain `adobecustomer.com`, set your URL link to `https://experience.adobe.com/#/sso:@adobecustomer.com`. You can also go directly to a specific application by bookmarking this URL, appended with the application path. (For example, for Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Access Experience Cloud applications {#navigation}
+## Access Experience Cloud applications 
 
 After signing in to Experience Cloud, you can quickly access all your applications, services, and organizations from the unified header.
 
@@ -177,9 +177,9 @@ To access Experience Cloud applications and services provisioned for you within 
 
 ![Access Experience Cloud applications](assets/platform-core-services.png)
 
-## Get help and support {#support}
+## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/fr#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
@@ -201,7 +201,7 @@ In the [!UICONTROL Profile] menu, you can:
 * Sign out
 * Configure account preferences, notifications, and subscriptions
 
-## View in-product notifications and announcements {#notifications}
+## View in-product notifications and announcements 
 
 Click the bell icon to view notifications and announcements. Announcements can be relevant and actionable updates, including product releases, maintenance notices, shared items, and approval requests.
 
@@ -220,7 +220,7 @@ Learn about the latest enhancements to Experience Cloud central interface compon
 
 You can configure your account preferences to send Experience Cloud notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 
@@ -308,8 +308,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
-
 ## Ressources supplémentaires
 
-[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Description du produit Adobe Campaign v8](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentation de l’interface d’utilisation d’Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=fr){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=fr){target="_blank"} - [[!DNL Adobe Campaign] Guide d’automatisation ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=fr){target="_blank"} - [Panneau de contrôle de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
 

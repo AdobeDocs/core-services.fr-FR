@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -31,13 +31,13 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 * **[!DNL Adobe Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
 
-## Accéder à Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Accéder à Experience Cloud Assets
 
 ![Accès à Experience Cloud Assets](../../assets/asset-nav.png)
 
-## Accès à la barre dʼoutils {#section_EC2E401D225148818F3753248556BE6B}
+## Accès à la barre dʼoutils
 
-Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
+Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Select]**.
 
 La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
 
@@ -47,7 +47,7 @@ La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que
 >
 >Les ressources doivent d’abord être supprimées des activités Adobe Target pour pouvoir les supprimer de [!DNL Target].
 
-## Modification de ressources {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modification de ressources
 
 La modification d’une ressource active plusieurs fonctionnalités, dont les suivantes :
 
@@ -57,36 +57,36 @@ La modification d’une ressource active plusieurs fonctionnalités, dont les su
 
 ![Modification de ressources](../../assets/asset-edit.png)
 
-## Recherche de ressources {#section_50FE049010B446FC9640AA6A30E5A730}
+## Recherche de ressources
 
 Vous pouvez effectuer une recherche par mot-clé, type de fichier, taille, date de dernière modification, statut de publication, orientation et style.
 
 ![Recherche de ressources](../../assets/asset-search.png)
 
-## Annotation de ressources {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Annotation de ressources
 
-Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
+Cliquez sur **[!UICONTROL Annotate]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![Annotation de ressources](../../assets/assets-annotate.png)
 
-## Affichage des ressources en plein écran et en mode zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Affichage des ressources en plein écran et en mode zoom
 
-Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
+Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
 
 ![Affichage des ressources en plein écran](../../assets/asset-zoom.png)
 
-## Affichage des propriétés des ressources {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## Affichage des propriétés des ressources
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue Liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
+Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Properties]** pour afficher les propriétés d’une ressource :
 
 ![Affichage des propriétés des ressources](../../assets/asset-properties.png)
 
-## Exécution des rapports sur l’utilisation {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Exécution des rapports sur l’utilisation
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport d’utilisation]**
+Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Exécution des rapports sur lʼutilisation](../../assets/assets-usage-report.png)

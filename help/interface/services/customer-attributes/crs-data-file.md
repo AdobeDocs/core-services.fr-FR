@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 62%
@@ -22,7 +22,7 @@ Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres
 
 [!DNL Customer Attributes] est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
-## Types de fichiers autorisés et exigences en termes d’attribution de noms {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## Types de fichiers autorisés et exigences en termes d’attribution de noms
 
 | Type de fichier | Description |
 |--- |--- |
@@ -31,7 +31,7 @@ Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres
 | `.gz` ou `.zip`. | `.gz` (gzip) ou `.zip` - pour les fichiers compressés. Un fichier `.zip` ne peut pas contenir plusieurs fichiers dans l&#39;archive. Exigences en matière de dénomination : le nom du `.zip` ou du `.gz` doit correspondre au nom du fichier `.csv` . Par exemple, si votre fichier `.csv` est `crm_small.csv`, le fichier `.zip` doit être `crm_small.csv.zip` . Le fichier `.fin` doit correspondre au `.csv`. |
 
 
-## Conditions requises pour les fichiers de données d’attributs {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Conditions requises pour les fichiers de données d’attributs
 
 **Exemple de fichier CSV**
 
@@ -59,7 +59,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonne d’ID client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel <span class="codeph"> set customerIDs </span> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel <span class="codeph"> set customerIDs </span> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -120,7 +120,7 @@ Le même fichier affiché dans un éditeur de texte :
  </tbody> 
 </table>
 
-## Utilisation de plusieurs sources de données {#multiple}
+## Utilisation de plusieurs sources de données
 
 Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des ID avec la nouvelle source de données peut prendre jusqu’à une heure.
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) pour plus d’informations.)
+(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) pour plus d’informations.)
 
 Dans **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** :
 

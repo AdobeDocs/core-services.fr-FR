@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 98%
 
 ---
 
-# Cookies Audience Manager{#audience-manager-cookies}
+# Cookies Audience Manager
 
 Audience Manager se sert de quelques cookies simples pour réaliser plusieurs fonctions. Ces dernières consistent entre autres à attribuer des ID, à enregistrer les appels de données, à suivre les erreurs et à tester si les cookies peuvent être définis. Cette section répertorie et décrit les différents cookies définis par Audience Manager.
 
@@ -129,7 +129,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Rôle</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=fr" format="https" scope="external">destination</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">destination</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 

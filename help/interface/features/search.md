@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 91%
 
 ---
 
-# [!UICONTROL Recherche unifiée] dʼobjets et dʼentités {#globally-search}
+# [!UICONTROL Unified Search] des objets et des entités
 
-La [!UICONTROL Recherche unifiée] vous permet de rechercher en un clic des objets commerciaux ou des entités pouvant faire l’objet de recherches, et ce, de manière fluide et cohérente. Cette recherche fait également apparaître vos objets récemment consultés.
+La recherche [!UICONTROL Unified Search] vous permet de rechercher en un clic des objets commerciaux ou des entités pouvant faire l’objet de recherches, et ce, de manière fluide et cohérente. Cette recherche fait également apparaître vos objets récemment consultés.
 
 ![Recherche globale dʼobjets et dʼentités](../assets/platform-search.png)
 
@@ -61,7 +61,7 @@ Si un mot-clé correspond à une page de navigation, vous pouvez obtenir un lien
 
 Vous trouverez également les articles dʼaide dʼExperience League et des communautés. Les requêtes en langues naturelles sont prises en charge.
 
-Par exemple, _Comment créer un schéma_ renvoie les résultats dʼExperience League sous _[!UICONTROL Apprentissage]_ :
+Par exemple, la mention _Comment créer un schéma_ génère les résultats d’Experience League sous _[!UICONTROL Learning]_:
 
 ![Recherche unifiée dans l’aide dʼExperience Cloud](../assets/unified-search-learning.png)
 
@@ -70,12 +70,12 @@ Les algorithmes de recherche affichent d’abord les enregistrements les plus pe
 * Les autorisations utilisateurs requises pour accéder aux objets.
 * Le pourcentage de correspondance.
 * Les correspondances exactes.
-* La section _[!UICONTROL Meilleurs résultats]_ affiche les 30 meilleurs résultats.
+* La section _[!UICONTROL Top Results]_affiche les 30 premiers résultats.
 
 Pour affiner votre recherche, cliquez sur l’une des options suivantes :
 
-* **[!UICONTROL Tous les apprentissages]** : ouvre la recherche dans Experience League.
-* **[!UICONTROL Tout afficher...]** : permet d’affiner et de filtrer davantage les résultats.
+* **[!UICONTROL All Learning]** : ouvre la recherche dans Experience League.
+* **[!UICONTROL Show all...]** : permet d’affiner et de filtrer davantage les résultats.
 
 ## Fonctionnalités de la recherche unifiée
 
