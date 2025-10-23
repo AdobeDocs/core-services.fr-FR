@@ -64,7 +64,7 @@ Pour que les utilisateurs de Creative Cloud aient accès aux ressources, ils doi
 
    Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
+Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [&#x200B; Bibliothèque des offres &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 

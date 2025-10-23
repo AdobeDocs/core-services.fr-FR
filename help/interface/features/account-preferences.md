@@ -86,7 +86,7 @@ Vous pouvez configurer les préférences de votre compte pour envoyer des notifi
 
 ### Demander l’autorisation dans [!DNL Slack] (dépannage)
 
-Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
+Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_&#x200B;s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
 
 ![Demander l’intégration Slack](../assets/slack-workspace.png)
 
