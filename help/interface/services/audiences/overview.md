@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: ddb3bc39e3b8d9b96de7602e29b3b7acddd6ed52
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 71%
 
 ---
@@ -66,10 +66,10 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 | Élément | Description |
 |--- |--- |
-| Nouveau | [Création d’une audience](create.md). |
+| Nouveau | [Création d’une audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |
-| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** segment créé dans Adobe Analytics, puis publié sur Experience Cloud.</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences d’Experience Cloud](create.md).</li><li>**Audience Manager :** les audiences créées dans Audience Manager s’affichent automatiquement sur la page Audiences d’Experience Cloud.</li></ul> |
+| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** segment créé dans Adobe Analytics, puis publié sur Experience Cloud.</li><li>**Experience Cloud :** nouvelle audience [créée dans la page Audiences d’Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager :** les audiences créées dans Audience Manager s’affichent automatiquement sur la page Audiences d’Experience Cloud.</li></ul> |
 | Taille actuelle | Taille actuelle de l’audience. |
 | Actif | État actif du segment. |
 
@@ -77,5 +77,5 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Voir [&#x200B; Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Voir [ Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
 
