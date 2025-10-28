@@ -46,7 +46,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 1. Cliquez sur [!DNL Experience Cloud] applications (![Icône Applications](assets/apps-icon.png)), puis sur **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Sur la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL New]**. ![ Nouvelle audience ](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL New]**. ![&#x200B; Nouvelle audience &#x200B;](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 

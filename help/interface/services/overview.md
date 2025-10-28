@@ -19,7 +19,7 @@ ht-degree: 67%
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder à ces services dans Experience Cloud, sélectionnez l’**[!UICONTROL Application Selector]**
-![ Sélecteur de services ](../assets/apps-icon.png).
+![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
 
 ![Services Experience Cloud](../assets/platform-core-services.png)
 
