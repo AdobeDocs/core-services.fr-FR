@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 71%
+source-wordcount: '109'
+ht-degree: 75%
 
 ---
 
@@ -22,8 +22,9 @@ Experience Cloud fournit des outils administratifs pour la gestion des utilisat
 >
 >Pour effectuer cette procédure, vous devez être administrateur.
 
-1. Dans Experience Cloud, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Gérer les collaborateurs Creative Cloud]**.
-1. Cliquez sur **[!UICONTROL Partage de ressources Creative Cloud]**.
-1. Cliquez sur **[!UICONTROL Ajouter un nouvel utilisateur]**.  ![ajouter un nouvel utilisateur](../../assets/mac_add_icon.png)
+1. Dans Experience Cloud, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
+1. Cliquez sur **[!UICONTROL Creative Cloud Asset Sharing]**.
+1. Cliquez sur **[!UICONTROL Add New User]**.  ![ajouter un nouvel utilisateur](../../assets/mac_add_icon.png)
 1. Entrez une adresse e-mail, un nom d’affichage, un titre et éventuellement un avatar.
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Cliquez sur **[!UICONTROL Create]**.
+

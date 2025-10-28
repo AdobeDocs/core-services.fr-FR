@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 67%
+source-wordcount: '363'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez charger les données après avoir créé une source d’attributs du
 Les chargements de fichiers vers le site FTP des attributs du client peuvent être effectués par FTP ou SFTP :
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=fr).
+* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Chargement du fichier de données par FTP**
 
@@ -35,7 +35,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
-1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Chargement du fichier]**.
+1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Chargez un fichier `.fin`, afin que le fichier puisse être récupéré.
 
@@ -49,7 +49,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
 Configurez un compte FTP par source d’attributs.
 
-Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation de schéma &#x200B;], cliquez sur **[!UICONTROL Configuration FTP]**.
+Sur la page [!UICONTROL File Upload and Schema Validation], cliquez sur **[!UICONTROL FTP Setup]**.
 
 ![Modification dʼun schéma](assets/ftp-account.png)
 
@@ -57,9 +57,9 @@ Les fichiers chargés sont stockés dans le dossier racine de ce compte. Les don
 
 Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics].
 
-* **[!UICONTROL attribute:]** données d’attribut lues à partir du fichier `.csv` chargé.
+* **[!UICONTROL attribute:]** les données d’attribut lues à partir du fichier `.csv` chargé.
 
-* **[!UICONTROL Type :]** type de données, par exemple :
+* **[!UICONTROL Type:]** Type de données , par exemple :
 
    * **Chaîne :** séquence de caractères.
 
@@ -67,6 +67,6 @@ Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros se
 
    * **Nombres :** peuvent contenir jusqu’à deux décimales.
 
-* **[!UICONTROL Nom d’affichage :]** nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *client depuis*.
+* **[!UICONTROL Display Name:]** Nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *client depuis*.
 
-* **[!UICONTROL Description :]** description conviviale de l’attribut.
+* **[!UICONTROL Description:]** Description conviviale de l’attribut.

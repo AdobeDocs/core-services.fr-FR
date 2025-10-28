@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 99%
@@ -44,3 +44,4 @@ La législation relative à la confidentialité des données des consommateurs �
 1. Ne surprenez pas vos consommateurs.
 
 En tenant compte de ceci, Adobe recommande que lorsqu’il associe des activités de navigation à des informations d’identification personnelle, le publicitaire indique par un avis ou autre que le client est authentifié, en incluant par exemple un message de bienvenue dans l’en-tête du site web. Adobe préconise également aux publicitaires de décrire dans leur politique de confidentialité quel type d’informations de navigation sont associées aux informations d’identification personnelle et dans quelles circonstances elles le sont. Enfin, Adobe recommande vivement aux annonceurs de passer en revue les choix de désinscription qu’ils proposent à leurs clients afin de comprendre si et comment ils peuvent utiliser des informations de profil non authentifiées après désinscription.
+

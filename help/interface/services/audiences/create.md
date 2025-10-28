@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 65%
+source-wordcount: '507'
+ht-degree: 62%
 
 ---
 
 # Créer une audience
 
-Dans [!UICONTROL Bibliothèque d’audiences], vous pouvez utiliser des règles d’attributs pour créer une audience et définir une audience composite à partager dans les applications Experience Cloud.
+Dans [!UICONTROL Audience Library], vous pouvez utiliser des règles d’attributs pour créer une audience et définir une audience composite pour le partage dans les applications Experience Cloud.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -44,24 +44,24 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 **Création d’une audience**
 
-1. Cliquez sur [!DNL Experience Cloud] des applications (![Icône des applications](assets/apps-icon.png)), puis sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
+1. Cliquez sur [!DNL Experience Cloud] applications (![Icône Applications](assets/apps-icon.png)), puis sur **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![&#x200B; Nouvelle audience &#x200B;](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL New]**. ![ Nouvelle audience ](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 
-1. Sur la page [!UICONTROL Créer une audience], renseignez les champs **[!UICONTROL Titre]** et **[!UICONTROL Description]**.
-1. Sous [!UICONTROL Règles], sélectionnez une suite de rapports de référence, puis une source d’attributs :
+1. Sur la page [!UICONTROL Create New Audience], renseignez les champs **[!UICONTROL Title]** et **[!UICONTROL Description]** .
+1. Sous [!UICONTROL Rules], sélectionnez une suite de rapports de référence, puis une source d’attributs :
 
-   * **[!UICONTROL Données Real-Time Analytics :]** (ou données brutes) il s’agit de données d’attribut provenant de demandes d’image Real-Time Analytics. Elle comprend des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
+   * **[!UICONTROL Real-Time Analytics Data:]** (ou données brutes) Il s’agit de données d’attribut provenant de demandes d’images Real-Time Analytics. Elle comprend des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
 
    >[!NOTE]
    >
    >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
 
-   * **[!UICONTROL Experience Cloud:]** : données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** des données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
-1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Enregistrer].**
+1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Save].**
 
 **Exemple : définition de règles pour une audience composite**
 
@@ -69,18 +69,18 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 >
 >Lorsque vous définissez des règles d’audience, vous devez maîtriser le fonctionnement de vos variables de mise en œuvre.
 
-Sous [!UICONTROL Règles], définissez les sélections d’attributs *`Home & Garden`* :
+Sous [!UICONTROL Rules], définissez les sélections d’attributs *`Home & Garden`* :
 
-* **[!UICONTROL Source d’attribut :]** données Analytics brutes
-* **[!UICONTROL Suite de rapports :]** suite de rapports 31
-* Dimension = **[!UICONTROL Magasin (Merch) (v6)]** > **[!UICONTROL Égal à]** > **[!UICONTROL Maison et jardin]**
+* **[!UICONTROL Attribute Source:]** les données brutes d’analyse
+* Suite de rapports **[!UICONTROL Report Suite:]** 31
+* DIMENSION = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![Sélections dʼattributs dans la bibliothèque dʼaudiences](assets/home_garden.png)
 
 Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir d’Analytics :
 
-* **[!UICONTROL Source d’attribut :]** Experience Cloud
-* **[!UICONTROL Dimension :]** visiteurs Chrome et Safari
+* **[!UICONTROL Attribute Source:]** Experience Cloud
+* Visiteurs **[!UICONTROL Dimension:]** Chrome et Safari
 
 ![Visiteurs Chrome et Safari](assets/chrome_safari.png)
 
@@ -97,4 +97,5 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) Adobe Target.
+

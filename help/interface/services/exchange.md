@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 77e56cbe-92b6-4b18-ba13-e8178369e57c
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
-**[!UICONTROL Experience Cloud]** > **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
 
 * Téléchargez des SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
 
@@ -36,3 +36,4 @@ Marketplace est une destination unique où vous pouvez rechercher des extensions
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
 Voir [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) pour en savoir plus.
+

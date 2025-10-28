@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 78%
@@ -48,12 +48,12 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
 >Pour des raisons techniques, le nombre de déclencheurs est actuellement limité à 100.
 
 1. Dans Experience Cloud, cliquez sur ![menu](../assets/menu-icon.png), puis sur **[!UICONTROL Data Collection/Launch]**.
-2. Sur la carte [!UICONTROL Triggers], cliquez sur **[!UICONTROL Manage Triggers]**.
-3. Cliquez sur **[!UICONTROL New Trigger]**, puis spécifiez le type de déclencheur :
+1. Sur la carte [!UICONTROL Triggers], cliquez sur **[!UICONTROL Manage Triggers]**.
+1. Cliquez sur **[!UICONTROL New Trigger]**, puis spécifiez le type de déclencheur :
 
    ![Résultat de l’étape](../assets/add-trigger.png)
 
-4. Configurez le déclencheur en renseignant les champs suivants et en faisant glisser les éléments de mesure et de dimension vers les conteneurs de la règle :
+1. Configurez le déclencheur en renseignant les champs suivants et en faisant glisser les éléments de mesure et de dimension vers les conteneurs de la règle :
 
    | Élément | Description |
    |--- |--- |
@@ -66,8 +66,8 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
 
    {style="table-layout:auto"}
 
-5. Cliquez sur **[!UICONTROL Save]**.
-6. Utilisez ces déclencheurs pour le [remarketing en temps réel](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=fr) dans [!DNL Adobe Campaign].
+1. Cliquez sur **[!UICONTROL Save]**.
+1. Utilisez ces déclencheurs pour le [remarketing en temps réel](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=fr) dans [!DNL Adobe Campaign].
 
 ## Exemples de déclencheurs
 

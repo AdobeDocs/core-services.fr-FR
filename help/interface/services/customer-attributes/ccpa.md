@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 64%
 
 ---
@@ -43,7 +43,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 
    L’ID d’organisation consiste en une chaîne alphanumérique de 24 caractères suivie de @AdobeOrg. Vous avez besoin de l’ID d’organisation pour envoyer des requêtes à l’API Privacy. Contactez l’assistance clientèle d’Adobe à l’adresse `gdprsupport@adobe.com` si vous ne parvenez pas à localiser l’ID.
 
-1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des demandes d&#39;accès et de suppression aux attributs du client et vérifier le statut des demandes existantes.
+1. Dans [!UICONTROL Privacy Service], vous pouvez envoyer des demandes d’accès et de suppression aux attributs du client et vérifier le statut des demandes existantes.
 
 ## Valeurs de champ requises dans les requêtes JSON [!DNL Customer Attributes]
 
@@ -105,3 +105,4 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
+
