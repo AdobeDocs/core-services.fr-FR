@@ -30,9 +30,9 @@ Les applications existantes fonctionnent par elles-mêmes, mais l’ajout d’ag
 | Nom de l’agent | Disponibilité | Fonctionnalités | Applications prises en charge |
 |---|----------|----------|----------|
 | [Audience Agent](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Disponible | Créez et optimisez des audiences à l’aide d’invites en langage naturel. | <ul><li>Real-Time CDP (ajouts B2B et B2C)</li><li>Adobe Journey Optimizer (ajouts B2B et B2C)</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | Répondez aux questions sur les données et créez des visualisations dans Analysis Workspace. | <ul><li>Customer Journey Analytics</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | Répondez aux questions sur les données et créez des visualisations dans Analysis Workspace. | <ul><li>Customer Journey Analytics</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Disponible | Créez, analysez et optimisez des parcours client à grande échelle. | <ul><li>Adobe Journey Optimizer (ajouts B2B et B2C)</li></ul> |
-| [Agent du support produit](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | Résolvez les problèmes, créez des tickets d’assistance et suivez la progression avec l’assistant AI. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP (ajouts B2B et B2C)</li><li>Adobe Journey Optimizer (ajouts B2B et B2C)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Agent du support produit](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | Résolvez les problèmes, créez des tickets d’assistance et suivez la progression avec l’assistant AI. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP (ajouts B2B et B2C)</li><li>Adobe Journey Optimizer (ajouts B2B et B2C)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 ## Applications Experience Cloud axées sur l’IA
 
@@ -48,7 +48,7 @@ Ces applications sont conçues avec l’IA au cœur. Ils utilisent l’IA géné
 
 * [AI dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/ai) page d’accueil de la documentation
 
-[!BADGE En savoir plus sur Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Accédez à Business.adobe.com"}
+[!BADGE En savoir plus sur Adobe for Business]{type=Informative url="https://business.adobe.com/fr/products/experience-platform/agent-orchestrator.html" tooltip="Accédez à Business.adobe.com"}
 
 
 
