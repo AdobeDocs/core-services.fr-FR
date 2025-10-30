@@ -28,7 +28,7 @@ Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/
 
 **Février 2025**
 
-Ajout de la section [ Gérer les utilisateurs et les produits dans Experience Cloud ](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
+Ajout de la section [&#x200B; Gérer les utilisateurs et les produits dans Experience Cloud &#x200B;](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
 
 **Novembre 2024**
 
@@ -156,4 +156,4 @@ Ajout de la section [FAQ Experience Cloud](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
+Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
