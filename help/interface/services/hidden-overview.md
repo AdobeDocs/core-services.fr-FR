@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 67%
@@ -20,7 +20,7 @@ ht-degree: 67%
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder à ces services dans Experience Cloud, sélectionnez l’**[!UICONTROL Application Selector]**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+![ Sélecteur de services ](../assets/apps-icon.png).
 
 ![Services Experience Cloud](../assets/platform-core-services.png)
 
@@ -38,3 +38,4 @@ Cette aide décrit les produits et services suivants :
 >[!NOTE]
 >
 >La documentation du produit [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique destinée aux développeurs [!UICONTROL Experience Platform] se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
+
