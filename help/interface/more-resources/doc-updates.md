@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
+source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 66%
+source-wordcount: '645'
+ht-degree: 65%
 
 ---
 
 # Mises à jour de la documentation pour Experience Cloud
 
 Découvrez où se produisent les mises à jour de la documentation pour l’interface centrale et l’administration d’Experience Cloud.
+
+**Novembre 2025**
+
+Mises à jour de [Agentic AI dans Experience Cloud](../features/agentic-ai.md)
 
 **Octobre 2025**
 
@@ -28,7 +32,7 @@ Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/
 
 **Février 2025**
 
-Ajout de la section [&#x200B; Gérer les utilisateurs et les produits dans Experience Cloud &#x200B;](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
+Ajout de la section [ Gérer les utilisateurs et les produits dans Experience Cloud ](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
 
 **Novembre 2024**
 
@@ -156,4 +160,4 @@ Ajout de la section [FAQ Experience Cloud](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
+Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
