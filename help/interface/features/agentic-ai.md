@@ -24,9 +24,9 @@ Les agents Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experie
 
 Vous pouvez accéder à ces fonctionnalités agentiques via :
 
-* [Applications existantes [!DNL Experience Cloud] ](#existing-apps) : ces applications fonctionnent seules, mais l’activation Experience Platform Agent Orchestrator et Agents améliore l’efficacité de vos tâches et workflows existants exécutés dans ces applications et augmente la productivité des équipes qui les exploitent. Pour activer ces fonctionnalités agentiques dans Experience Cloud applications dont vous disposez actuellement sous licence, vous devez également acheter la licence Agent Orchestrator.
+* [Applications existantes [!DNL Experience Cloud] &#x200B;](#existing-apps) : ces applications fonctionnent seules, mais l’activation Experience Platform Agent Orchestrator et Agents améliore l’efficacité de vos tâches et workflows existants exécutés dans ces applications et augmente la productivité des équipes qui les exploitent. Pour activer ces fonctionnalités agentiques dans Experience Cloud applications dont vous disposez actuellement sous licence, vous devez également acheter la licence Agent Orchestrator.
 
-* [ [!DNL Experience Cloud] Applications](#ai-first-apps) basées sur l’IA : ces applications sont conçues avec l’IA générative ou agentique au cœur. Ils utilisent l’IA générative ou agentique pour les tâches clés, et les fonctionnalités agentiques sont déjà incluses dans la licence d’application AI first et ne nécessitent pas la licence Agent Orchestrator.
+* [&#x200B; [!DNL Experience Cloud] Applications](#ai-first-apps) basées sur l’IA : ces applications sont conçues avec l’IA générative ou agentique au cœur. Ils utilisent l’IA générative ou agentique pour les tâches clés, et les fonctionnalités agentiques sont déjà incluses dans la licence d’application AI first et ne nécessitent pas la licence Agent Orchestrator.
 
 ## Applications existantes [!DNL Experience Cloud]
 
