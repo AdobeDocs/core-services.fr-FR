@@ -65,7 +65,7 @@ Créer et gérer des audiences dans Experience Cloud [!UICONTROL Audience Librar
 
 ## Attributs du client
 
-Aide : [ Attributs du client ](/help/interface/services/customer-attributes/attributes.md)
+Aide : [&#x200B; Attributs du client &#x200B;](/help/interface/services/customer-attributes/attributes.md)
 
 Si vous capturez des données client d’entreprise dans une base de données de gestion de la relation client (GRC), vous pouvez les charger dans une source de données d’attributs du client dans Experience Cloud. Une fois le chargement effectué, utilisez les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
@@ -111,7 +111,7 @@ Utilisez les données des applications Experience Cloud ou dʼautres systèmes e
 
 ## Adobe Target
 
-Aide : [ Intégration d’Adobe Target à Experience Cloud ](/help/interface/services/audiences/overview.md)
+Aide : [&#x200B; Intégration d’Adobe Target à Experience Cloud &#x200B;](/help/interface/services/audiences/overview.md)
 
 Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications Experience Cloud permet lʼutilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 
