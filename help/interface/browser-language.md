@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 56%
@@ -64,3 +64,4 @@ En outre, un formatage spécifique aux paramètres régionaux (comme les dates, 
    Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues répertoriées dans l’interface. Si votre langue principale n’est pas prise en charge dans une application Experience Cloud, vous pouvez définir une langue secondaire par défaut, le cas échéant.
 
 1. Cliquez sur **[!UICONTROL Save]**.
+

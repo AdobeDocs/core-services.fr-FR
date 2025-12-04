@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 63%
@@ -27,7 +27,7 @@ Vous pouvez charger les données après avoir créé une source d’attributs du
 Les chargements de fichiers vers le site FTP des attributs du client peuvent être effectués par FTP ou SFTP :
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=fr).
+* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Chargement du fichier de données par FTP**
 
@@ -70,3 +70,4 @@ Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros se
 * **[!UICONTROL Display Name:]** Nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *client depuis*.
 
 * **[!UICONTROL Description:]** Description conviviale de l’attribut.
+

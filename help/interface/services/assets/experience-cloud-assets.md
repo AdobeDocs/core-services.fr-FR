@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 86%
@@ -90,4 +90,3 @@ Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombr
 Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Exécution des rapports sur lʼutilisation](../../assets/assets-usage-report.png)
-

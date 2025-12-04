@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 91%
@@ -70,7 +70,7 @@ Les algorithmes de recherche affichent d’abord les enregistrements les plus pe
 * Les autorisations utilisateurs requises pour accéder aux objets.
 * Le pourcentage de correspondance.
 * Les correspondances exactes.
-* La section _[!UICONTROL Top Results]_&#x200B;affiche les 30 premiers résultats.
+* La section _[!UICONTROL Top Results]_affiche les 30 premiers résultats.
 
 Pour affiner votre recherche, cliquez sur l’une des options suivantes :
 
@@ -102,3 +102,4 @@ Essayez ces conseils :
 * Vérifiez l’orthographe.
 * Essayez d’écrire le terme de recherche complet.
 * Assurez-vous de disposer des autorisations nécessaires pour les objets que vous recherchez.
+

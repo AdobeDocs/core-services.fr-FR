@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ddb3bc39e3b8d9b96de7602e29b3b7acddd6ed52
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 71%
@@ -77,5 +77,4 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Voir [&#x200B; Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
-
+Voir [ Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

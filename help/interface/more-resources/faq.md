@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 76%
@@ -89,7 +89,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qu
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
+* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
 
 +++
 
@@ -99,7 +99,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qu
 
 * La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
+* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ Dans Experience Cloud, l’attribution de privilèges d’accès signifie ce qu
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 +++
 
@@ -154,3 +154,4 @@ Voir [Types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.
 Non. Les utilisateurs doivent lier leurs propres applications à leurs noms dʼutilisateur et mots de passe.
 
 +++
+

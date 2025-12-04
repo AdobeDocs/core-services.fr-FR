@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 12%
@@ -34,3 +34,4 @@ Adobe Advertising (anciennement Adobe Advertising Cloud) utilise des cookies pou
 | **`id_adcloud`** | 91 jours | 16 octets | Premier niveau | Stocke l’identifiant visiteur. |
 
 {style="table-layout:auto"}
+

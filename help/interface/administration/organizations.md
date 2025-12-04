@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 50%
@@ -100,5 +100,6 @@ Aide pour résoudre les problèmes qui se produisent lors de la liaison de compt
 
 En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
 
-* [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) ;
+* [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) ;
 * accéder à votre application en suivant la procédure de connexion standard pendant que nous résolvons le problème.
+

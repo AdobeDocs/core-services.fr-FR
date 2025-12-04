@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 05c1155bb551568ecbedafb00ea190f00fd52427
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 92%
@@ -53,3 +53,4 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 >[!MORELIKETHIS]
 >
 >* [Prérécupération DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) sur Chromium
+

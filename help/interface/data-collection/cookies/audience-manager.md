@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 98%
@@ -129,7 +129,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Rôle</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=fr" format="https" scope="external">destination</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">destination</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 
@@ -153,3 +153,4 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
 **Cookie _dp**
 
 Ce cookie est temporaire. [!DNL Audience Manager] tente de définir le cookie `_dp` pour déterminer s’il est possible de définir d’autres cookies sur le domaine demdex.net dans un contexte tiers. Lorsque le cookie `_dp` est défini, il contient une valeur de 1. [!DNL Audience Manager] lit cette valeur et supprime immédiatement le cookie. Si le cookie `_dp` n’est pas présent, [!DNL Audience Manager] sait qu’il ne peut pas définir de cookies.
+

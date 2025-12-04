@@ -3,7 +3,7 @@ description: Découvrez comment les solutions et services d’Adobe Experience�
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: d6dc659104b3b24b60495cd97adb21ebb3962fc7
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 10%
@@ -22,7 +22,7 @@ Adobe Experience Cloud utilise des cookies pour suivre les informations qui ne d
 
 Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identités Experience Platform (ECID) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
-* [Experience Cloud Identity Service &#x200B;](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
+* [Experience Cloud Identity Service ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
 * [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
 
@@ -54,3 +54,4 @@ Le schéma suivant illustre l’utilisation des cookies pour une demande d’ima
 Le schéma suivant illustre lʼutilisation des cookies pour une demande dʼimage directe (utilisée dans les scénarios où un fichier JS nʼest pas chargé) :
 
 ![Utilisation des cookies pour une demande dʼimage directe](assets/CookiesProcessGraphic2.png)
+

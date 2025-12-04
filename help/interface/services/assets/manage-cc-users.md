@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 75%
@@ -27,4 +27,3 @@ Experience Cloud fournit des outils administratifs pour la gestion des utilisat
 1. Cliquez sur **[!UICONTROL Add New User]**.  ![ajouter un nouvel utilisateur](../../assets/mac_add_icon.png)
 1. Entrez une adresse e-mail, un nom d’affichage, un titre et éventuellement un avatar.
 1. Cliquez sur **[!UICONTROL Create]**.
-

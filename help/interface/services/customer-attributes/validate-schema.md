@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 37%
@@ -53,4 +53,3 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
    * **[!UICONTROL CID (customer ID):]** Attributs associés à cet ID de client. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** S’affiche si vous utilisez une prop ou eVar pour charger des CID. Si ces ID sont transmis à Experience Cloud, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
-

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 61%
@@ -32,4 +32,3 @@ Voir [https://helpx.adobe.com/fr/creative-cloud/help/sync-creative-cloud-files.h
 1. Démarrez l’application de bureau [!DNL Creative Cloud] et accédez à la page [!UICONTROL **Ressources**].
 1. Cliquez sur **[!UICONTROL Open Folder].**
 1. Sélectionnez ou déplacez des ressources à l’aide de l’explorateur de fichiers de votre système d’exploitation.
-

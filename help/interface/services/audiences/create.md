@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -46,7 +46,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 1. Cliquez sur [!DNL Experience Cloud] applications (![Icône Applications](assets/apps-icon.png)), puis sur **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Sur la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL New]**. ![&#x200B; Nouvelle audience &#x200B;](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL Audiences], cliquez sur **[!UICONTROL New]**. ![ Nouvelle audience ](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 
@@ -97,5 +97,4 @@ La règle obtenue est une audience définie composée des utilisateurs Chrome et
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.
-
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications Experience Cloud. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) Adobe Target.
