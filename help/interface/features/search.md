@@ -70,7 +70,7 @@ Les algorithmes de recherche affichent d’abord les enregistrements les plus pe
 * Les autorisations utilisateurs requises pour accéder aux objets.
 * Le pourcentage de correspondance.
 * Les correspondances exactes.
-* La section _[!UICONTROL Top Results]_affiche les 30 premiers résultats.
+* La section _[!UICONTROL Top Results]_&#x200B;affiche les 30 premiers résultats.
 
 Pour affiner votre recherche, cliquez sur l’une des options suivantes :
 
