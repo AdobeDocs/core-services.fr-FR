@@ -30,11 +30,11 @@ Analytics utilise des cookies pour définir de nouveaux visiteurs de manière an
 | **`s_fid`** | 2 ans | 33 octets | Premier niveau | Stocke l’identifiant visiteur unique de secours et l’horodatage. Défini par JavaScript si le cookie `s_vi` standard ne peut pas être défini en raison de restrictions liées aux cookies tiers. Non utilisé pour les implémentations de cookies propriétaires. |
 | **`s_ac`** | Immédiat | 1 octet | Premier niveau | Permet de déterminer le domaine approprié pour définir les cookies AppMeasurement. Contient la valeur statique `"1"`. Une fois ce cookie défini, il est immédiatement supprimé. |
 
-Voir [&#x200B; Identification des visiteurs dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) pour plus d’informations sur la manière dont Adobe Analytics identifie les visiteurs à l’aide de cookies.
+Voir [&#x200B; Identification des visiteurs dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/overview) pour plus d’informations sur la manière dont Adobe Analytics identifie les visiteurs à l’aide de cookies.
 
 ## Cookies définis par des modules externes
 
-Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
+Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
 
 ## Conséquences de la suppression des cookies Analytics
 

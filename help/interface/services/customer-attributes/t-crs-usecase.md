@@ -37,7 +37,7 @@ Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Apps]** ![menu](assets/m
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
 
 ## Création d’un fichier de données
 
@@ -88,7 +88,7 @@ Effectuez les étapes suivantes sur la page [!UICONTROL Create Customer Attribut
 
       * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL customer Settings], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
 
         Par exemple, *&quot;crm_ id&quot;* dans :
 
