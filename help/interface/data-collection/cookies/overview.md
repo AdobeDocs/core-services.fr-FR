@@ -3,14 +3,14 @@ description: Découvrez comment les solutions et services d’Adobe Experience�
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 11%
 
 ---
 
-# Cookies utilisés dans Experience Cloud
+# Utilisation des cookies dans Experience Cloud
 
 Adobe Experience Cloud utilise des cookies. Un cookie est un petit élément de données qu&#39;un site Web envoie à votre navigateur, qui le stocke pour une utilisation ultérieure. Les cookies aident le site web à se souvenir de choses lorsque vous le visitez à nouveau ou passez d&#39;une page à l&#39;autre. Les cookies permettent de suivre les visites et de distinguer un appareil d’un autre.
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud utilise des cookies pour suivre les informations qui ne d
 
 Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identités Experience Platform (ECID) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
-* [Experience Cloud Identity Service &#x200B;](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
+* [Experience Cloud Identity Service ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
 * [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
 

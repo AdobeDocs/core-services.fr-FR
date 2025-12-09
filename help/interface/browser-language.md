@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 56%
+source-wordcount: '239'
+ht-degree: 53%
 
 ---
 
-# Prise en charge des navigateurs dans Experience Cloud
+# Prise en charge des navigateurs et des langues dans Experience Cloud
 
 Pour des performances optimales, Experience Cloud est optimisé pour les navigateurs les plus populaires, notamment la dernière version, ainsi que les deux versions précédentes.
 

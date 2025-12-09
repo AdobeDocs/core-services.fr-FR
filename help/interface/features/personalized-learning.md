@@ -1,16 +1,16 @@
 ---
 description: Recevez une aide et des promotions personnalisées par e-mail, dans vos produits Experience Cloud et dans les communautés Experience League en fonction de vos données d’utilisation.
 solution: Experience Cloud
-title: Préférences d’apprentissage personnalisées Experience Cloud
+title: Préférences d’apprentissage personnalisées Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '103'
+ht-degree: 19%
 
 ---
 
-# Promotions et recommandations d’apprentissage personnalisées
+# Préférences d’apprentissage personnalisées
 
 Adobe vous fournit du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Les données d’utilisation des produits nous permettent d’adapter ce contexte à vos besoins. Vous pouvez vous inscrire ou refuser de partager vos données d’utilisation de produit sur la page [Préférences Experience Cloud](https://experience.adobe.com/preferences).
 

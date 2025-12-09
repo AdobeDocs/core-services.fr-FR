@@ -6,14 +6,14 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 79%
+source-wordcount: '698'
+ht-degree: 78%
 
 ---
 
-# Aide de l’interface d’Experience Cloud
+# Composants de l’interface centrale d’Experience Cloud
 
 Les composants de l’interface centrale d’Experience Cloud incluent des fonctionnalités qui vous permettent d’effectuer les opérations suivantes :
 
@@ -80,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans Experience Cloud
 
-La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
+La recherche Experience Cloud vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans Experience Cloud](assets/search-menu.png)
 
