@@ -111,7 +111,7 @@ Utilisez les données des applications Experience Cloud ou dʼautres systèmes e
 
 ## Adobe Target
 
-Aide : [ Intégration d’Adobe Target à Experience Cloud ](/help/interface/services/audiences/overview.md)
+Aide : [&#x200B; Intégration d’Adobe Target à Experience Cloud &#x200B;](/help/interface/services/audiences/overview.md)
 
 Lʼintégration dʼAdobe Target à Adobe Analytics et à dʼautres applications Experience Cloud permet lʼutilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 

@@ -21,7 +21,7 @@ Les fonctions d’interface d’Experience Cloud sont parfois appelées _service
 Les autres fonctionnalités partagées incluent l’administration (gestion des utilisateurs et des produits) pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder aux services et applications partagés dans Experience Cloud, cliquez sur le **[!UICONTROL Application Selector]**
-![ Sélecteur de services ](../assets/apps-icon.png).
+![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
 
 **Sélecteur d’applications**
 
