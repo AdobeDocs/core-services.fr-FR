@@ -7,30 +7,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '278'
+ht-degree: 47%
 
 ---
 
-# Services Experience Cloud
+# Présentation de l’interface d’Experience Cloud
 
-Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
+Les fonctions d’interface d’Experience Cloud sont parfois appelées _services principaux_. Il s’agit des fonctionnalités d’en-tête unifié, y compris le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]).
 
-Pour accéder à ces services dans Experience Cloud, sélectionnez l’**[!UICONTROL Application Selector]**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+Les autres fonctionnalités partagées incluent l’administration (gestion des utilisateurs et des produits) pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
+
+Pour accéder aux services et applications partagés dans Experience Cloud, cliquez sur le **[!UICONTROL Application Selector]**
+![ Sélecteur de services ](../assets/apps-icon.png).
+
+**Sélecteur d’applications**
 
 ![Services Experience Cloud](../assets/platform-core-services.png)
 
-Cette aide décrit les produits et services suivants :
+Les pages Services de ce guide décrivent les produits et services suivants :
 
 | Service principal | Description |
 |--- |--- |
 | [Composants de l’interface centrale](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) | Accédez aux préférences du compte, recherchez de l’aide sur les produits et accédez aux applications et services. |
 | [Bibliothèque d’audiences](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview) | Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants visiteur). Adobe [!DNL Audience Library] vous permet de gérer la traduction des données du visiteur en segmentation d’audience. |
-| [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration] est un service applicatif intégré à Experience Platform. |
+| [Attributs du client](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration] est un service applicatif intégré à Experience Platform. |
 | [Assets](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. |
+| [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Triggers d’Experience Cloud vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel. |
+| [Marché Adobe Exchange](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports. |
 
 {style="table-layout:auto"}
 

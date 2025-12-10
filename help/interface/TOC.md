@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interface et administration Experience Cloud
 breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
-description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs du client ou de la cliente et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
+description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 89%
+source-wordcount: '199'
+ht-degree: 88%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 # Interface et administration Experience Cloud {#interface}
 
 + [Interface et administration Experience Cloud](experience-cloud.md)
-+ Services {#services}
-   + [Présentation des services](services/overview.md)
++ Services d’interface {#services}
+   + [Présentation de l’interface](services/overview.md)
    + [Commencer](services/getting-started.md)
    + Ressources {#assets}
       + [Présentation d’Assets](services/assets/experience-cloud-assets.md)
@@ -30,7 +30,7 @@ ht-degree: 89%
       + [Présentation des audiences](services/audiences/overview.md)
       + [Créer une audience](services/audiences/create.md)
    + [Adobe Exchange](services/exchange.md)
-   + Attributs du client {#customer-attributes}
+   + Attributs du client ou de la cliente {#customer-attributes}
       + [Présentation des Attributs du client](services/customer-attributes/attributes.md)
       + [Questions fréquentes](services/customer-attributes/faq-crs.md)
       + [Fichiers de données et sources](services/customer-attributes/crs-data-file.md)

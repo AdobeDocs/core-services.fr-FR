@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 Les [!DNL Customer Attributes] dans Experience Cloud vous permettent de charger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (CRM). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans Experience Cloud, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
-![Présentation du service Attribut du client](assets/custom_reports.png)
+![Vue d’ensemble des attributs du client ou de la cliente](assets/custom_reports.png)
 
 ## Que sont les données des clients d’entreprise ?
 
@@ -30,11 +30,11 @@ L’image suivante est un exemple de fichier de données présentant les donnée
 
 ![En quoi consistent les données client d’entreprise ?](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]**.
+Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Voir [Charger des données d’attributs du client](t-crs-usecase.md) pour en savoir plus sur ce workflow.
 
-## Exemples d’attributs du client dans Analytics et Target
+## Exemples d’attributs du client ou de la cliente dans Analytics et Target
 
 Une fois que les données sont présentes dans Experience Cloud, vous pouvez les personnaliser et les partager dans des solutions à des fins de création de rapports, de segmentation, d’activités et de campagnes.
 

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 66%
@@ -32,7 +32,7 @@ Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/
 
 **Février 2025**
 
-Ajout de la section [&#x200B; Gérer les utilisateurs et les produits dans Experience Cloud &#x200B;](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
+Ajout de la section [ Gérer les utilisateurs et les produits dans Experience Cloud ](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
 
 **Novembre 2024**
 
@@ -160,5 +160,5 @@ Ajout de la section [FAQ Experience Cloud](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
+Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
 

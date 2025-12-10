@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 63%
+source-wordcount: '361'
+ht-degree: 56%
 
 ---
 
@@ -22,12 +22,12 @@ Vous pouvez charger les données après avoir créé une source d’attributs du
 
 >[!IMPORTANT]
 >
->Consultez [Exigences liées aux fichiers de données pour le chargement des attributs du client](crs-data-file.md) avant de charger le fichier.
+>Consultez [Fichiers et sources de données d’attributs du client](crs-data-file.md) avant de télécharger le fichier.
 
 Les chargements de fichiers vers le site FTP des attributs du client peuvent être effectués par FTP ou SFTP :
 
 * Vous avez besoin d’un client qui prend en charge les connexions SFTP.
-* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=fr).
+* Pour utiliser le protocole SFTP, vous pouvez vous connecter en utilisant un nom d’utilisateur/mot de passe ou aucun mot de passe, comme décrit [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Chargement du fichier de données par FTP**
 
@@ -35,7 +35,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
-1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Chargez un fichier `.fin`, afin que le fichier puisse être récupéré.
 
@@ -43,7 +43,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
    Si le chargement est réussi, les deux fichiers sont déplacés dans un dossier appelé **processed** (traité).
 
-   Reportez-vous à la section [Exigences liées aux fichiers de données pour le chargement des attributs du client](crs-data-file.md) pour consulter des informations importantes sur les noms et la structure des fichiers.
+   Voir [Fichiers et sources de données d’attributs du client](crs-data-file.md) pour obtenir des informations importantes sur les noms et la structure des fichiers.
 
 ## Configuration d’un compte FTP
 
