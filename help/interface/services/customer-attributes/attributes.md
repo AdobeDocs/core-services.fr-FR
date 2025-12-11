@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 84%
+ht-degree: 63%
 
 ---
 
@@ -22,11 +22,11 @@ Les [!DNL Customer Attributes] dans Experience Cloud vous permettent de charger
 
 ![Vue d’ensemble des attributs du client ou de la cliente](assets/custom_reports.png)
 
-## Que sont les données des clients d’entreprise ?
+## À propos des données client d’entreprise {#customer-data}
 
-Les données d’entreprise résident dans d’autres systèmes. Cela peut être complexe et les significations varient en fonction des utilisateurs. Ces données peuvent inclure des informations telles que les abonnements, le niveau de fidélité, l’âge, le sexe, les produits détenus, les intérêts et la valeur de durée de vie.
+Les données client d’entreprise font référence à l’ensemble des informations collectées à l’échelle de l’organisation sur les clients, les prospects et les partenaires. Elles se trouvent sur d’autres systèmes et peuvent inclure des informations telles que les adhésions, le niveau de fidélité, l’âge, le sexe, les produits possédés, les intérêts et la valeur sur toute la durée de vie.
 
-L’image suivante est un exemple de fichier de données présentant les données sur les abonnés pour les produits, y compris les ID de membre, les produits autorisés, les produits les plus lancés, etc.
+L’image suivante est un exemple de fichier de _données_ affichant les données d’abonnés pour les produits , y compris les identifiants de membre, les produits autorisés, les produits les plus lancés, etc.
 
 ![En quoi consistent les données client d’entreprise ?](assets/01_crs_usecase.png)
 

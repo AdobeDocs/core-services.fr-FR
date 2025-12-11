@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1061'
 ht-degree: 47%
 
 ---
@@ -23,11 +23,7 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 ![Workflow Attributs du client](assets/crs.png)
 
-## Localiser [!DNL Customer Attributes]
-
-Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
-
-## Conditions préalables à l’utilisation de [!DNL Customer Attributes]
+## Conditions préalables à l’utilisation de [!DNL Customer Attributes] {#prerequisites}
 
 * **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
@@ -37,7 +33,7 @@ Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Apps]** ![menu](assets/m
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Création d’un fichier de données
 
@@ -58,13 +54,13 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données
 
-Effectuez les étapes suivantes sur la page [!UICONTROL Create Customer Attribute Source] dans Experience Cloud.
+Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_dans Experience Cloud.
 
 >[!IMPORTANT]
 >
 >Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
 
-1. Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+1. Pour [!UICONTROL Customer Attributes] ouvrir, cliquez sur **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
    ![Page Attributs du client](assets/cust-attr.png)
 
@@ -88,7 +84,7 @@ Effectuez les étapes suivantes sur la page [!UICONTROL Create Customer Attribut
 
       * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL customer Settings], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
         Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -110,11 +106,11 @@ Effectuez les étapes suivantes sur la page [!UICONTROL Create Customer Attribut
 
         Voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Namespace Code:]** Utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Namespace Code:]** Utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Charger le fichier
+## Charger le fichier {#upload-customer-attributes}
 
 L’enregistrement d’attribut du client est créé et vous pouvez charger le fichier en modifiant l’attribut du client.
 
@@ -122,7 +118,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Edit Customer Data Source], cliquez sur **[!UICONTROL File Upload]**.
 
-   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
+   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
@@ -140,7 +136,7 @@ Après avoir chargé le fichier, les données du tableau s’affichent sous l’
 
 * **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés. —>
 
-## Validation du schéma
+## Validation du schéma {#validate-schema}
 
 Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs chargés (chaînes, nombres entiers, numéros, etc.). Vous pouvez également supprimer des attributs en mettant à jour le schéma.
 
