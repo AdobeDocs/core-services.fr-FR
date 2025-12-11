@@ -54,7 +54,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données
 
-Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_dans Experience Cloud.
+Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_&#x200B;dans Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -118,7 +118,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Edit Customer Data Source], cliquez sur **[!UICONTROL File Upload]**.
 
-   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
+   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
