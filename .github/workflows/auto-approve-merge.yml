@@ -1,0 +1,30 @@
+name: Auto approve and merge
+
+on:
+  workflow_run:
+    workflows: ["validate article"]
+    types:
+      - completed
+
+permissions:
+  actions: read
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-approve-merge:
+    # Run only when:
+    # 1. The validate-articles workflow completed successfully
+    # 2. The workflow run was triggered by a pull_request event (not push or other events)
+    # 3. The GitHub organization is Adobe-Enterprise-Docs
+    if: |
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.repository_owner == 'Adobe-Enterprise-Docs'
+    uses: Adobe-Enterprise-Docs/workflows/.github/workflows/auto-approve-merge.yml@UGP-14234
+    with:
+      workflow-run-id: ${{ github.event.workflow_run.id }}
+      workflow-run-head-sha: ${{ github.event.workflow_run.head_sha }}
+    secrets:
+      GITHUB_APP_ID: ${{ secrets.SCCM_GITHUB_APP_ID }}
+      GITHUB_APP_PRIVATE_KEY: ${{ secrets.SCCM_GITHUB_APP_PRIVATE_KEY }}
