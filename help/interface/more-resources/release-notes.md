@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,12 @@ Cette section présente les fonctionnalités, les notes de mise à jour et les p
 Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](doc-updates.md).
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+
+## Janvier 2026
+
+| Date | Mise à jour  | Description |
+| -----------| -----------| ---------- |
+| **vendredi 15 janvier 2026** | Navigation de gauche personnalisable | Le volet de navigation de gauche d’Unified Shell dans Experience Cloud est désormais personnalisable. Vous pouvez réorganiser les éléments de navigation et accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour améliore l’efficacité en rationalisant les workflows, en réduisant la charge cognitive et en prenant en charge l’accessibilité complète du clavier. Il conserve une conception cohérente et moderne dans toutes les applications et permet une personnalisation future. |
 
 ## Septembre 2025
 
@@ -40,13 +46,13 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| 13 février | Spectrum 2 | Le cadre de l’application Experience Cloud, qui comprend la barre d’en-tête et les composants accessibles à partir de cette barre, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception d’Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
+| Février 13 | Spectrum 2 | Le cadre de l’application Experience Cloud, qui comprend la barre d’en-tête et les composants accessibles à partir de cette barre, ainsi que le rail de navigation de gauche pour certaines applications, sera mis à jour vers Spectrum 2, le dernier système de conception d’Adobe. Ce nouveau design comprend une iconographie mise à jour, mais la même fonctionnalité. Cependant, plusieurs éléments de l’en-tête sont repositionnés pour s’aligner sur d’autres sites et applications d’Adobe. |
 
 ## Janvier 2025
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| 9 janvier | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud &#x200B;](https://experience.adobe.com/preferences). |
+| Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud &#x200B;](https://experience.adobe.com/preferences). |
 
 ## 2 Octobre 2024
 
