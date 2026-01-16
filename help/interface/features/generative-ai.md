@@ -9,7 +9,7 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 9052fdf44146b17d00338c9823882c9eb254c6d7
 workflow-type: tm+mt
 source-wordcount: '2476'
 ht-degree: 9%
@@ -383,4 +383,4 @@ Marketo s’intègre à GenStudio for Performance Marketing
 
 * [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home -->
 
-**Clause de non-responsabilité :** les informations de cette page sont fournies à titre d’information uniquement. Bien que des efforts soient faits pour s&#39;assurer que les informations restent exactes et à jour, les fonctionnalités logicielles et d&#39;IA générative peuvent changer fréquemment. Par conséquent, nous ne garantissons pas l&#39;exhaustivité, l&#39;exactitude ou la fiabilité des informations en tout temps. Veuillez vérifier tous les détails importants avant de prendre des décisions basées sur ce contenu.
+**Clause de non-responsabilité :** les informations de cette page sont fournies à titre d’information uniquement. Bien que des efforts soient faits pour s&#39;assurer que les informations restent exactes et à jour, les fonctionnalités logicielles et d&#39;IA générative peuvent changer fréquemment. Par conséquent, Adobe ne garantit pas l’exhaustivité, l’exactitude ou la fiabilité des informations à tout moment. Veuillez vérifier tous les détails importants avant de prendre des décisions basées sur ce contenu.
