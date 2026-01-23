@@ -1,13 +1,13 @@
 ---
 title: À propos d’ [!DNL Customer Attributes]
 description: En savoir plus sur les  [!DNL Customer Attributes]  dans Experience Cloud. Découvrez comment charger des données d’attributs du client ou de la cliente pour les utiliser dans Adobe Analytics et Adobe Target.
-solution: Experience Cloud,Target,Analytics
+solution: Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+source-git-commit: fc80e5fbbfc542a981f333413b648011f7057b58
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 63%
