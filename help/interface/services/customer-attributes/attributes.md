@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
+source-git-commit: e7f83c8b302a98e6677fb53018738b3b654ab695
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 61%
+source-wordcount: '306'
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Les [!DNL Customer Attributes] dans Experience Cloud vous permettent de charger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (CRM). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans Experience Cloud, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+[!DNL Customer Attributes] dans Adobe Experience Cloud vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans Experience Cloud, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 ![Vue d’ensemble des attributs du client ou de la cliente](assets/custom_reports.png)
 
