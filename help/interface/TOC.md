@@ -5,10 +5,10 @@ breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: d30ce2e18e40d774ff2af1a9e6739e9d20f7b4d7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 88%
    + [Préférences et notifications du compte](features/account-preferences.md)
    + [IA générative](features/generative-ai.md)
    + [IA agentique](features/agentic-ai.md)
+      + [Tâches d’agent et consommation de crédit d’IA](features/ai-credit-consumption.md)
    + [Recherche unifiée](features/search.md)
    + [Préférences d’apprentissage personnalisées](features/personalized-learning.md)
    + [Prise en charge des navigateurs et des langues](browser-language.md)
@@ -72,5 +73,5 @@ ht-degree: 88%
 + Notes de mise à jour et ressources {#more-resources}
    + [Notes de mise à jour](more-resources/release-notes.md)
    + [Mises à jour de la documentation](more-resources/doc-updates.md)
-   + [FAQ](more-resources/faq.md)
+   + [Questions fréquentes](more-resources/faq.md)
    + [Terminologie](more-resources/terms.md)
