@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 9%
@@ -16,19 +16,19 @@ ht-degree: 9%
 ---
 
 
-## Tâches d’agent et consommation de crédit d’IA
+# Tâches d’agent et consommation de crédit d’IA
 
-### Tâches de l’agent
+## Tâches de l’agent
 
 Une **tâche d’agent** est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
 
 À l’aide d’invites en langage naturel via l’assistant AI, les clients peuvent demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications Experience Cloud appropriées.
 
-### Crédits IA
+## Crédits IA
 
 Un **crédit AI** est une mesure basée sur l’utilisation qui quantifie l’exécution des tâches de l’agent. Les crédits AI ne s’appliquent pas aux applications AI-first.
 
-### Consommation de crédit par l’IA
+## Consommation de crédit par l’IA
 
 L’utilisation du crédit d’IA peut varier en fonction de la complexité et de la valeur de la tâche exécutée :
 
@@ -36,7 +36,7 @@ L’utilisation du crédit d’IA peut varier en fonction de la complexité et d
 * Les tâches complexes (souvent à plusieurs étapes) consomment davantage de crédits
 * Les tâches impliquant un raisonnement avancé, la validation, la coordination multi-agent ou l&#39;intégration consomment plus de crédits
 
-#### Taux estimés de consommation du crédit de l’IA
+### Taux estimés de consommation du crédit de l’IA
 
 | Agent | Traitement | Applications prises en charge | Crédits AI estimés |
 |------|-----|------------------------|----------------------|
