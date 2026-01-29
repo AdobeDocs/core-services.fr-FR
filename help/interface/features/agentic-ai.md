@@ -8,10 +8,8 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-hidefromtoc: true
-index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
+source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 4%

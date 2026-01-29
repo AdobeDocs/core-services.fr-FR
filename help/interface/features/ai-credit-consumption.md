@@ -6,9 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-hidefromtoc: true
-index: false
-source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
+source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
