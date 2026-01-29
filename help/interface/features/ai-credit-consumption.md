@@ -6,9 +6,11 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '369'
 ht-degree: 14%
 
 ---
@@ -19,17 +21,17 @@ Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit
 
 ## Traitements de l&#39;agent
 
-Une **tâche d’agent** est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
+Une _tâche d’agent_ est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
 
-À l’aide d’invites en langage naturel via l’assistant AI, les clients peuvent demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications Experience Cloud appropriées.
+À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications Experience Cloud appropriées.
 
 ## Crédits d’IA
 
-Un **crédit AI** est une mesure basée sur l’utilisation qui quantifie l’exécution des tâches de l’agent. Les crédits AI ne s’appliquent pas aux applications AI-first.
+Un _crédit AI_ est une mesure basée sur l’utilisation qui quantifie l’exécution des tâches de l’agent. Les crédits AI ne s’appliquent pas aux [applications AI-first](/help/interface/features/agentic-ai.md).
 
 ## Consommation de crédit par l’IA
 
-L’utilisation du crédit d’IA peut varier en fonction de la complexité et de la valeur de la tâche exécutée :
+L’utilisation du crédit de l’IA peut varier en fonction de la complexité et de la valeur de la tâche exécutée :
 
 * Les tâches simples (souvent en une seule étape) consomment moins de crédits
 * Les tâches complexes (souvent à plusieurs étapes) consomment davantage de crédits
@@ -45,7 +47,6 @@ L’utilisation du crédit d’IA peut varier en fonction de la complexité et d
 | Agent Audience | Analyse des audiences/comptes | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Agent Audience | Idéation du groupe d&#39;achat | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | Analyse et visualisation des données | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | Storytelling et partage de données | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | idéation du parcours | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | Création de parcours | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
 | Journey Agent | analyse de parcours | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
