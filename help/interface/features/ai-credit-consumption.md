@@ -1,21 +1,21 @@
 ---
 title: Tâches d’agent et consommation de crédit d’IA
-description: Découvrez les tâches des agents et la consommation de crédit de l’IA dans les applications Experience Cloud.
+description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications Experience Cloud.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 14%
+source-wordcount: '388'
+ht-degree: 13%
 
 ---
 
 # Tâches de l’agent et consommation du crédit de l’IA
 
-Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications Experience Cloud.
+Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications Experience Cloud. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications Experience Cloud existantes, voir [IA dédiée aux agents dans Experience Cloud](agentic-ai.md#existing-apps).
 
 ## Traitements de l&#39;agent
 
