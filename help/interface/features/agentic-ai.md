@@ -9,10 +9,10 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 46163c8e95de36914f9a4ec5336712a2b137a587
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 4%
+source-wordcount: '875'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Mise à jour : **29 janvier 2026**
 
-Les agents Adobe Experience Platform utilisent l’Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) pour ajouter des fonctionnalités basées sur des agents aux applications Experience Cloud.
+Les agents Adobe Experience Platform sont optimisés par [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) pour activer les fonctionnalités d’IA agentic dans les applications Experience Cloud.
 
 Ces agents permettent d’automatiser les tâches, de fournir des informations plus rapidement et de rationaliser les workflows. Par conséquent, les équipes peuvent travailler plus efficacement et tirer le meilleur parti d’Experience Cloud.
 
@@ -33,7 +33,7 @@ Les sections suivantes décrivent ces deux manières d’activer l’IA dédiée
 
 ## Applications Experience Cloud existantes {#existing-apps}
 
-Dans les applications existantes, vous pouvez utiliser le langage naturel pour apprendre aux agents Adobe Experience Platform via l’interface de conversation [Assistant IA](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home). L’assistant d’IA est disponible dans les vues plein écran et du rail droit.
+Dans les applications existantes, vous pouvez utiliser le langage naturel pour apprendre aux agents Adobe Experience Platform via l’interface de conversation [Assistant IA](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home). L’assistant AI est disponible en mode plein écran et dans le rail droit.
 
 Les agents peuvent être activés dans les applications Experience Cloud existantes pour les clients de l’une des catégories suivantes :
 
@@ -43,7 +43,7 @@ Les agents peuvent être activés dans les applications Experience Cloud existan
 
 L’utilisation d’agents AI pour effectuer des _tâches d’agent_ consomme des crédits AI. En savoir plus sur les tâches d’agent et les crédits AI dans _[Tâches d’agent et consommation de crédits AI](/help/interface/features/ai-credit-consumption.md)_.
 
-Les agents d’IA suivent _vos_ informations, supervisent et respectent les contrôles d’accès au niveau des produits. Vous pouvez uniquement effectuer des tâches ou accéder aux données que vous êtes autorisé à utiliser dans le produit Experience Cloud sous-jacent.
+Les agents d’IA suivent _vos_ informations, supervisent et respectent les contrôles d’accès au niveau des produits. Vous pouvez uniquement effectuer des tâches ou accéder à des données que vous êtes autorisé à utiliser dans l’application Experience Cloud sous-jacente.
 
 ### Agents d’IA dans les applications Experience Cloud existantes {#existing-apps-table}
 
@@ -57,7 +57,7 @@ Le tableau suivant répertorie les agents Experience Platform disponibles dans l
 | **Brand Experience Agent** | [Prise en charge du déploiement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview) : aide les développeurs et les administrateurs techniques d’AEM CS à résoudre les problèmes liés aux échecs de l’étape de création dans le pipeline Cloud Manager en analysant la cause première et en suggérant des correctifs. | <ul><li>Assistant AI dans AEM Cloud Service et Adobe Managed Services</li></ul> |
 | **Brand Governance Agent*** | [Gouvernance de marque](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) : protégez l’intégrité et la conformité de la marque en appliquant des politiques de sécurité, de réglementation et de marque dans Experience Manager. Cet agent applique la gouvernance de marque pour maintenir les normes visuelles et de messagerie. Il utilise des autorisations granulaires pour gérer les modifications d’accès et de contenu et incorpore la gestion des droits numériques pour respecter les contraintes de licence et d’utilisation. | <ul><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Forms</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Permettez à vos équipes de créer, d’analyser et d’optimiser rapidement des parcours clients multipoint à grande échelle. | <ul><li>Adobe Journey Optimizer (éditions B2B et B2C)</li></ul> |
-| [Agent du support produit](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/new-features/customer-support) | Résolvez les problèmes d’assistance sans quitter vos workflows, créez des tickets d’assistance clientèle et suivez la progression des cas à l’aide de l’assistant AI. | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (éditions B2B et B2C)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Agent du support produit](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/new-features/customer-support) | Résolvez les problèmes d’assistance sans quitter vos workflows, créez des tickets d’assistance clientèle et suivez la progression des cas à l’aide de l’assistant AI. | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (éditions B2B et B2C)</li><li>Customer Journey Analytics (éditions B2B et B2C)</li><li>Adobe Experience Manager</li></ul> |
 
 Astérisque (*) : cet agent est accessible aux clients dans le programme Explorateur. Le programme Explorateur est un programme réservé aux invitations qui permet d’accéder rapidement aux dernières fonctionnalités d’agent d’Adobe. Veuillez contacter votre représentant de compte pour plus d’informations.
 
