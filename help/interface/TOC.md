@@ -5,9 +5,9 @@ breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
 description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 86%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 86%
 # Interface et administration Experience Cloud {#interface}
 
 + [Interface et administration Experience Cloud](/help/interface/experience-cloud.md)
++ IA dans Experience Cloud {#features}
+   + [IA générative](/help/interface/features/generative-ai.md)
+   + [IA agentique](/help/interface/features/agentic-ai.md)
+   + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
++ Administration {#administration}
+   + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
+   + [Prise en charge des navigateurs et des langues](/help/interface/browser-language.md)
+   + [Gestion des utilisateurs et des produits](/help/interface/administration/admin-console.md)
+   + [Outil d’administration](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [Liaison d’organisations et de comptes](/help/interface/administration/organizations.md)
+   + [Intégrations](/help/interface/administration/integrations.md)
+   + [Recherche unifiée](/help/interface/features/search.md)
+   + [Préférences d’apprentissage personnalisées](/help/interface/features/personalized-learning.md)
 + Services d’interface {#services}
    + [Présentation de l’interface](/help/interface/services/overview.md)
    + [Commencer](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 86%
    + Bibliothèque d’audiences {#audiences}
       + [Présentation des audiences](/help/interface/services/audiences/overview.md)
       + [Créer une audience](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + Attributs du client ou de la cliente {#customer-attributes}
       + [Présentation des Attributs du client](/help/interface/services/customer-attributes/attributes.md)
       + [Questions fréquentes](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 86%
       + [Prise en charge du CCPA](/help/interface/services/customer-attributes/ccpa.md)
       + [Considérations relatives à la confidentialité](/help/interface/services/customer-attributes/privacy-mac.md)
    + [Déclencheurs](/help/interface/services/triggers.md)
-+ Fonctionnalités {#features}
-   + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
-   + [IA générative](/help/interface/features/generative-ai.md)
-   + [IA agentique](/help/interface/features/agentic-ai.md)
-   + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
-   + [Recherche unifiée](/help/interface/features/search.md)
-   + [Préférences d’apprentissage personnalisées](/help/interface/features/personalized-learning.md)
-   + [Prise en charge des navigateurs et des langues](/help/interface/browser-language.md)
-+ Administration {#administration}
-   + [Gestion des utilisateurs et des produits](/help/interface/administration/admin-console.md)
-   + [Outil d’administration](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [Liaison d’organisations et de comptes](/help/interface/administration/organizations.md)
-   + [Intégrations](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + Collecte de données {#data-collection}
    + [Programme de certificat géré par Adobe](/help/interface/data-collection/adobe-managed-cert.md)
    + [Adresses IP](/help/interface/data-collection/ip-addresses.md)
