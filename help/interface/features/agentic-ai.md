@@ -11,9 +11,9 @@ level: Intermediate
 hidefromtoc: true
 index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da7a2a9e9aa8365288fa6e05afb6485e4c33ccb2
+source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ L’accès aux agents d’IA dans Experience Cloud est disponible dans :
 * [Applications Experience Cloud existantes](#existing-apps)
 * [Applications Experience Cloud primées sur l’IA](#ai-first-apps)
 
-Les sections suivantes décrivent comment activer l’IA dédiée aux agents dans Experience Cloud.
+Les sections suivantes décrivent ces deux manières d’activer l’IA dédiée aux agents dans Experience Cloud.
 
 ## Applications Experience Cloud existantes {#existing-apps}
 
@@ -39,11 +39,11 @@ Dans les applications existantes, vous pouvez utiliser le langage naturel pour a
 
 Les agents peuvent être activés dans les applications Experience Cloud existantes pour les clients de l’une des catégories suivantes :
 
-* Achat d’une licence Adobe Experience Platform Agents AI Credits
-* sont inclus dans une version d’évaluation liée à l’utilisation (crédits AI limités fournis) ;
-* a effectué la transaction du SKU Agent Orchestrator Promo (licence d’évaluation limitée dans le temps) ;
+* Vous avez acheté une licence Adobe Experience Platform Agents AI Credits
+* Vous êtes inclus dans une version d’évaluation liée à l’utilisation (crédits AI limités fournis)
+* Vous avez transféré le SKU Agent Orchestrator Promo (licence d’évaluation limitée dans le temps).
 
-Lorsque vous utilisez des agents AI pour effectuer des _tâches d’agent_, vous consommez des crédits AI. En savoir plus dans [Tâches d’agent et consommation de crédit de l’IA](/help/interface/features/ai-credit-consumption.md).
+L’utilisation d’agents AI pour effectuer des _tâches d’agent_ consomme des crédits AI. En savoir plus sur les tâches d’agent et les crédits AI dans _[Tâches d’agent et consommation de crédits AI](/help/interface/features/ai-credit-consumption.md)_.
 
 Les agents d’IA suivent _vos_ informations, supervisent et respectent les contrôles d’accès au niveau des produits. Vous pouvez uniquement effectuer des tâches ou accéder aux données que vous êtes autorisé à utiliser dans le produit Experience Cloud sous-jacent.
 
