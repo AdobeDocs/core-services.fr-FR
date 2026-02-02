@@ -9,9 +9,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 46163c8e95de36914f9a4ec5336712a2b137a587
+source-git-commit: 7eb6c6e463102ca445093c69797619202202b35e
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 3%
 
 ---
@@ -76,6 +76,7 @@ Le tableau suivant répertorie les agents Experience Platform disponibles en tan
 
 ## Plus d’aide sur cette rubrique
 
+* [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
 * [AI dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/ai) page d’accueil de la documentation
 * [Présentation des agents dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 

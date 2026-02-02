@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
    * **[!UICONTROL Real-Time Analytics Data:]** (ou données brutes) Il s’agit de données d’attribut provenant de demandes d’images Real-Time Analytics. Elle comprend des eVars et des événements. Lorsque vous utilisez cette source d’attribut, vous devez sélectionner une suite de rapports et définir la dimension ou l’événement à inclure. Cette sélection de suite de rapports fournit la structure de variable utilisée par la suite de rapports.
 
-   >[!NOTE]
-   >
-   >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
+     >[!NOTE]
+     >
+     >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
 
    * **[!UICONTROL Experience Cloud:]** des données d’attributs provenant de sources [!DNL Experience Cloud]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 

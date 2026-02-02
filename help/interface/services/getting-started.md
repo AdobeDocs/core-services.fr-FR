@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1586f442699d53e6e926442dfb07d957e5e2708a
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 75%
@@ -59,9 +59,9 @@ Pour se connecter à Experience Cloud, vos utilisateurs et utilisatrices doiven
    * **Adobe Analytics :** Standard ou Premium (et non la [!DNL SiteCatalyst] SKU héritée).
    * **Adobe Target :** Standard ou Premium.
 
-   >[!NOTE]
-   >
-   >Pour [!DNL Target], migrez vers at.js depuis `mbox.js`. Reportez-vous à la section [Mise à niveau d’at.js 1.x vers at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=fr).
+     >[!NOTE]
+     >
+     >Pour [!DNL Target], migrez vers at.js depuis `mbox.js`. Reportez-vous à la section [Mise à niveau d’at.js 1.x vers at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=fr).
 
 1. [Gérer les utilisateurs et les produits](../administration/admin-console.md) dans le [!UICONTROL Admin Console].
 
