@@ -2,15 +2,22 @@
 title: Affichage des utilisateurs et des détails utilisateur
 description: Découvrez l’outil d’administration dans Experience Cloud. Affichez une liste que vous pouvez trier et filtrer, de tous les utilisateurs, utilisatrices et politiques Experience Cloud.
 application: Experience Cloud
-index: true
+index: yes
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: 1182
 ht-degree: 75%
 
 ---
@@ -79,7 +86,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 
 ## Résumé des solutions
 
-Cette section présente un résumé des applications Experience Cloud auxquelles lʼutilisateur peut accéder. Inclut le rôle administratif du produit, le cas échéant.
+Cette section présente un résumé des applications Experience Cloud auxquelles lʼutilisateur ou l’utilisatrice peut accéder. Inclut le rôle administratif du produit, le cas échéant.
 
 ## Liste détaillée d’accès aux produits
 
@@ -146,7 +153,7 @@ Cette section présente un résumé du profil de produits, notamment :
 
 ## Liste détaillée des sujets
 
-Cette section présente une liste complète de tous les utilisateurs, groupes d’utilisateurs, développeurs, intégrations et administrateurs affectés au profil de produits.
+Cette section présente une liste complète des utilisateurs et utilisatrices, groupes d’utilisateurs et d’utilisatrices, responsables du développement ou de l’intégration et membres de l’administration affectés au profil de produits.
 
 | Tabulation | Description |
 |---------|----------|

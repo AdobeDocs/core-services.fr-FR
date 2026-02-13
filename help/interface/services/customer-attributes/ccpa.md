@@ -6,9 +6,17 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+TQID: https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: 397
 ht-degree: 64%
 
 ---
@@ -49,7 +57,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 
 &quot;company context&quot; :
 
-* &quot;namespace&quot; : **imsOrgID**
+* « namespace » : **imsOrgID**
 * « value » : &lt;*valeur de l&#39;identifiant de votre organisation*>
 
 &quot;users&quot; :
@@ -57,7 +65,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 * &quot;key&quot; : &lt;*habituellement le nom du client*>
 * &quot;action&quot; : **accès** « access » ou **suppression** « delete »
 * &quot;user IDs&quot; :
-   * &quot;namespace&quot; : &lt;*ID d’alias de la source de données CRS*>
+   * « namespace »: &lt;*ID d’alias de la source de données CRS*>
    * &quot;type&quot; : **integrationCode**
    * &quot;value&quot; : &lt;*ID CRM*>
 * &quot;include&quot; : **CRS** (qui est le produit Adobe qui s’applique à la requête)

@@ -9,9 +9,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 71%
 
 ---
@@ -41,7 +54,7 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 | Solution | Description |
 |--- |--- |
-| Audiences Experience Cloud | Créez, gérez et partagez des audiences en mode natif à l’aide de la bibliothèque d’audiences. Vous pouvez effectuer les actions suivantes :<ul><li>Utilisez des audiences en temps réel à l’aide d’attributs d’analyse bruts.</li><li>Combinez les audiences pour créer des audiences composites, en associant les données historiques et en temps réel.</li><li>Consultez des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience à créer, voir [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr). |
+| Audiences Experience Cloud | Créez, gérez et partagez des audiences en mode natif à l’aide de la bibliothèque d’audiences. Vous pouvez :<ul><li>Utilisez des audiences en temps réel à l’aide d’attributs d’analyse bruts.</li><li>Combinez les audiences pour créer des audiences composites, en associant les données historiques et en temps réel.</li><li>Consultez des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience à créer, voir [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr). |
 | Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis le publier vers Experience Cloud. La publication du segment l’affiche sur la page [!DNL Audience Library] dans Experience Cloud. (Voir [Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr) dans [!DNL Analytics]’aide pour plus d’informations.) L’audience est également disponible en tant qu’audience ciblée pour une expérience de campagne diffusée par [!DNL Adobe Target] et dans [!DNL Audience Manager]. Une fois que vous avez partagé une audience à partir de [!DNL Adobe Analytics] et que vous l’avez sélectionnée afin de l’utiliser dans une campagne active, les profils du visiteur répondant aux critères de définition du segment des 90 derniers jours sont envoyés à [!UICONTROL Audience Services]. La limite pour les audiences partagées a été portée à 75. Les audiences partagées avec Experience Cloud à partir d’[!DNL Analytics] ne doivent pas dépasser 20 millions de profils membres uniques. De plus, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures. |
 | Mobile Services | Analysez le trafic mobile à l’aide de la visualisation Sunburst dans le rapport [!UICONTROL Device Types]. |
 | [!DNL Target] | Le [service dʼID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) regroupe les ID de visiteur et les données dans un profil exploitable unique pouvant être utilisé dans plusieurs applications différentes. La case à cocher [!UICONTROL Publish to Experience Cloud] lors du processus de création de segments dans Adobe Analytics permet au segment d’être disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans [!DNL Analytics] ou dans [!DNL Audience Manager] peut être utilisé pour des activités dans [!DNL Target]. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’[!DNL Analytics] et les segments d’audience créés dans [!DNL Analytics]. |

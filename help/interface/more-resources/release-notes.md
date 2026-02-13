@@ -9,10 +9,28 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
+TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: e53834d3-a86e-47ae-8257-15f5f3639855
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 76%
+source-wordcount: 1337
+ht-degree: 80%
 
 ---
 
@@ -26,19 +44,19 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 ## Janvier 2026
 
-| Date | Mise à jour  | Description | Produits applicables |
+| Date | Mise à jour | Description | Produits concernés |
 | -----------| -----------| ---------- | ---------- |
-| **jeudi 14 janvier 2026** | Menu de navigation de gauche personnalisable | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans Experience Cloud. Réorganisez les éléments de navigation et contrôlez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de prendre en charge une accessibilité complète du clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
+| **14 janvier 2026** | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans Experience Cloud. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
 
 ## Septembre 2025
 
-| Date | Mise à jour  | Description |
+| Date | Mise à jour | Description |
 | -----------| -----------| ---------- |
 | **25 septembre 2025** | Prise en charge des listes d’accès IP | Pour les organisations pour lesquelles les listes d’accès IP dans Admin Console sont disponibles et activées, Experience Cloud respectera ces restrictions IP afin d’accéder aux applications sur le domaine `https://experience.adobe.com`. Cette mise à jour affecte toutes les applications web accessibles via ce domaine. Les vérifications ont lieu lors du chargement de nouvelles pages et de la connexion dans cette organisation. |
 
 ## Mars 2025
 
-| Date | Mise à jour  | Description |
+| Date | Mise à jour | Description |
 | -----------| -----------| ---------- |
 | 6 mars 2025 | Correctif de l’option de menu avec clic droit | Les onglets de navigation dans l’en-tête d’Experience Cloud autorisent désormais les fonctions de menu déroulant de navigateur avec clic droit. Ce correctif corrige un problème introduit dans la version de février du système de conception Spectrum 2. |
 
@@ -54,7 +72,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 | -----------| -----------| ---------- |
 | Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits Experience Cloud, nous avons rationalisé notre page Experience Cloud [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles et vous pouvez mettre à jour vos préférences à tout moment sur [Préférences Experience Cloud &#x200B;](https://experience.adobe.com/preferences). |
 
-## 2 Octobre 2024
+## jeudi 2 octobre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |

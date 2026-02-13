@@ -2,15 +2,28 @@
 title: Gestion des licences d’utilisation et de produit
 description: Gérez les utilisateurs et utilisatrices, et les licences de produits dans Admin Console pour les applications Experience Cloud.
 application: Experience Cloud
-index: true
+index: yes
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+TQID: https://experienceleague.adobe.com/ojHy0Am9T1T7Zu5EpR3jLynQ-dotvhcn6usRynb5TXo
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e3ed4cd0-303a-4a01-84a2-26db657042d9
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: 750
 ht-degree: 7%
 
 ---
