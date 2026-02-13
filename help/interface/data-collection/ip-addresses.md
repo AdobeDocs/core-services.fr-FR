@@ -2,10 +2,14 @@
 title: Adresses IP utilisées par Experience Cloud
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 6%
+source-wordcount: 378
+ht-degree: 9%
 
 ---
 
@@ -19,10 +23,10 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 
 Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe Experience Cloud individuels possèdent leurs propres adresses IP qu’ils utilisent :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Tous les blocs d’adresses IP Adobe
 

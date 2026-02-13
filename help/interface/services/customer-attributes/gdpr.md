@@ -6,9 +6,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: 392
 ht-degree: 91%
 
 ---
@@ -21,7 +25,7 @@ Cette page décrit comment les [!DNL Customer Attributes] prennent en charge le 
 >
 >Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez votre service juridique pour obtenir des conseils concernant le RGPD.
 
-Le [Règlement général sur la protection des données](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html), qui est entré en vigueur le 25 mai 2018, donne à tous les particuliers (titulaires de données) à l’intérieur des frontières de l’Union européenne (UE) le contrôle de leurs données à caractère personnel. Il simplifie également l’environnement réglementaire pour le commerce international. Cette loi s’applique à toutes les entreprises (contrôleur de données) qui offrent des biens ou des services consistant à contrôler le comportement de ou à collecter des données personnelles sur, des individus situés à l’intérieur des frontières de l’UE, au moment du traitement de leurs données à caractère personnel, quel que soit le lieu d’activité du contrôleur de données.
+Le [Règlement général sur la protection des données](https://business.adobe.com/fr/privacy/general-data-protection-regulation.html), qui est entré en vigueur le 25 mai 2018, donne à tous les particuliers (titulaires de données) à l’intérieur des frontières de l’Union européenne (UE) le contrôle de leurs données à caractère personnel. Il simplifie également l’environnement réglementaire pour le commerce international. Cette loi s’applique à toutes les entreprises (contrôleur de données) qui proposent des biens ou des services, surveillent le comportement ou collectent les données à caractère personnel d’individus se trouvant sur le territoire de l’UE au moment du traitement, quel que soit la localisation de ladite entreprise.
 
 Adobe Experience Cloud agit en tant que responsable du traitement de données pour toutes les données personnelles qu’il reçoit et stocke pour le compte de ses clients. En tant que contrôleur de données, vous déterminez les données personnelles qu’Adobe Experience Cloud traite et stocke pour vous.
 
@@ -47,7 +51,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 
 &quot;company context&quot; :
 
-* &quot;namespace&quot; : **imsOrgID**
+* « namespace » : **imsOrgID**
 * &quot;value&quot; : &lt;*votre valeur d’identifiant de l’organisation IMS*>
 
 &quot;users&quot; :
@@ -55,7 +59,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 * &quot;key&quot; : &lt;*habituellement le nom du client*>
 * &quot;action&quot; : **accès** « access » ou **suppression** « delete »
 * &quot;user IDs&quot; :
-   * &quot;namespace&quot; : &lt;*ID d’alias de la source de données CRS*>
+   * « namespace »: &lt;*ID d’alias de la source de données CRS*>
    * &quot;type&quot; : **integrationCode**
    * &quot;value&quot; : &lt;*ID CRM*>
 * &quot;include&quot; : **CRS** (qui est le produit Adobe qui s’applique à la requête)

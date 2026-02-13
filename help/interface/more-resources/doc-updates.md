@@ -7,9 +7,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: 642
 ht-degree: 66%
 
 ---
@@ -22,7 +28,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 Mises à jour de [Agentic AI dans Experience Cloud](../features/agentic-ai.md)
 
-**Octobre 2025**
+**Octobre 2025**
 
 Mise à jour de la section [Vérification de votre organisation](../experience-cloud.md) avec une note sur le message d’erreur si un administrateur restreint l’accès aux produits Adobe par des adresses IP.
 
@@ -30,9 +36,9 @@ Mise à jour de la section [Vérification de votre organisation](../experience-c
 
 Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/account-preferences.md).
 
-**Février 2025**
+**Février 2025**
 
-Ajout de la section [&#x200B; Gérer les utilisateurs et les produits dans Experience Cloud &#x200B;](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
+Ajout de la section [ Gérer les utilisateurs et les produits dans Experience Cloud ](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
 
 **Novembre 2024**
 
@@ -160,5 +166,5 @@ Ajout de la section [FAQ Experience Cloud](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
+Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
 
