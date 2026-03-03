@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
@@ -37,7 +46,7 @@ Référence terminologique à l’intention des utilisateurs d’Experience Clo
 | **Application de l’utilisation des données** | Aucun usage particulier. | Les politiques, la conception du système, les pratiques et les procédures mises en œuvre et définies par un système (applications, services, SDK, API, etc.) pour se servir des métadonnées d’utilisation des données dans le but dʼassurer le respect des politiques de confidentialité dʼAdobe Corporate, des considérations contractuelles et des principes généraux de confidentialité lors de lʼutilisation des données. |
 | **Appareil** | Aucun usage particulier. | Un appareil tel qu’une tablette, un téléphone ou un ordinateur de bureau sur lequel s’exécutent les applications. |
 | **Co-op des dispositifs** | Aucun usage particulier. | Un groupe de marques qui ont accepté de partager des données concernant les appareils utilisés par leurs clients afin de mieux identifier chaque individu, quel que soit l’appareil qu’il utilise, afin de proposer des contenus plus pertinents et cohérents. |
-| **[!UICONTROL Experience Cloud ID Service](ECID)** | Aucun usage particulier. | L’ID unique et persistant attribué à un visiteur du site. Il s’agit d’une entité spécifique qui peut être utilisée par le service d’identités d’Experience Platform. [Plus…](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) |
+| **[!UICONTROL Experience Cloud ID Service] (ECID)** | Aucun usage particulier. | L’ID unique et persistant attribué à un visiteur du site. Il s’agit d’une entité spécifique qui peut être utilisée par le service d’identités d’Experience Platform. [Plus…](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) |
 | **[!UICONTROL Experience Platform Identity Service]** | Aucun usage particulier. | Le service qui lie les identités. Il s’agit du service de liaison d’appareils pour la gestion de l’expérience basée sur les personnes. |
 | **Liaison** | Aucun usage particulier. La liaison se rapporte à la navigation sur des liens hypertexte, ainsi qu’à la liaison d’éléments tels que des polices, des propriétés, des calques, etc. | Dans Experience Cloud, la liaison se rapporte généralement à la liaison de différents comptes dʼapplication à lʼinterface.<br>Voir [Liaison d’organisations et de comptes](../administration/organizations.md).<br>La liaison se rapporte également aux URL standard pour les rapports Analytics envoyés à d’autres utilisateurs. |
 | **Emplacements** | Dans Creative Cloud, l’emplacement fait référence aux emplacements de fichiers ou à un emplacement sur une image ou un document ouvert. | Dans Experience Cloud, les emplacements sont les endroits où le contenu est visible (et peut faire l’objet d’interactions) par les audiences. L’association entre les emplacements et le contenu peut être plus ou moins statique ou peut être gérée de manière dynamique, selon les règles d’une campagne. Un emplacement appartient toujours à un canal spécifique, qui détermine la manière dont le contenu peut être diffusé et dont les mesures peuvent être collectées.<br>Par exemple :<ul><li>Sites</li><li>Propriétés (sociales)</li><li>Inventaire d’affichage</li><li>Pages de destination</li><li>Applications mobiles</li><li>Emplacements (vidéo)</li></ul> |
