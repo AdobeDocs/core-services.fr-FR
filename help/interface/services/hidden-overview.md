@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -22,14 +22,14 @@ exemple
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié d’Experience Cloud, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs, des utilisatrices et des produits pour Experience Cloud, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder à ces services dans Experience Cloud, sélectionnez l’**[!UICONTROL Application Selector]**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+![ Sélecteur de services ](../assets/apps-icon.png).
 
 ![Services Experience Cloud](../assets/platform-core-services.png)
 
 Cette aide décrit les produits et services suivants :
 
 | Service principal | Description |
-|--- |--- |
+| --- | --- |
 | [Composants de l’interface centrale](../experience-cloud.md) | Accédez aux préférences du compte, recherchez de l’aide sur les produits et accédez aux applications et services. |
 | [Bibliothèque d’audiences](audiences/overview.md) | Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants visiteur). Adobe [!DNL Audience Library] vous permet de gérer la traduction des données du visiteur en segmentation d’audience. |
 | [Attributs du client](customer-attributes/attributes.md) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration] est un service applicatif intégré à Experience Platform. |

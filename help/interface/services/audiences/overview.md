@@ -10,19 +10,12 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 71%
@@ -53,7 +46,7 @@ Toutes les audiences, quelle que soit leur origine, sont accessibles pour un cib
 Le tableau suivant décrit lʼutilisation des audiences dans les applications Experience Cloud :
 
 | Solution | Description |
-|--- |--- |
+| --- | --- |
 | Audiences Experience Cloud | Créez, gérez et partagez des audiences en mode natif à l’aide de la bibliothèque d’audiences. Vous pouvez :<ul><li>Utilisez des audiences en temps réel à l’aide d’attributs d’analyse bruts.</li><li>Combinez les audiences pour créer des audiences composites, en associant les données historiques et en temps réel.</li><li>Consultez des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience à créer, voir [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr). |
 | Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis le publier vers Experience Cloud. La publication du segment l’affiche sur la page [!DNL Audience Library] dans Experience Cloud. (Voir [Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr) dans [!DNL Analytics]’aide pour plus d’informations.) L’audience est également disponible en tant qu’audience ciblée pour une expérience de campagne diffusée par [!DNL Adobe Target] et dans [!DNL Audience Manager]. Une fois que vous avez partagé une audience à partir de [!DNL Adobe Analytics] et que vous l’avez sélectionnée afin de l’utiliser dans une campagne active, les profils du visiteur répondant aux critères de définition du segment des 90 derniers jours sont envoyés à [!UICONTROL Audience Services]. La limite pour les audiences partagées a été portée à 75. Les audiences partagées avec Experience Cloud à partir d’[!DNL Analytics] ne doivent pas dépasser 20 millions de profils membres uniques. De plus, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures. |
 | Mobile Services | Analysez le trafic mobile à l’aide de la visualisation Sunburst dans le rapport [!UICONTROL Device Types]. |
@@ -78,7 +71,7 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 
 | Élément | Description |
-|--- |--- |
+| --- | --- |
 | Nouveau | [Création d’une audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |
@@ -90,4 +83,4 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Voir [&#x200B; Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Voir [ Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

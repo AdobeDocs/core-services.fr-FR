@@ -8,22 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 TQID: https://experienceleague.adobe.com/ZAKogDXCbaZHOiyzlgg6Od0pxGwWi2w9yXtPnKWZKUw
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1044
 ht-degree: 74%
@@ -39,7 +29,7 @@ Questions fréquentes et bonnes pratiques relatives aux [!DNL Customer Attribute
 Conseils et limites lors de l’utilisation des [!DNL Customer Attributes].
 
 | Problème | Description |
-|--- |--- |
+| --- | --- |
 | [!DNL Customer Attributes] [abonnement](subscription.md) limitations | Lorsque vous procédez à la mise à niveau vers Analytics Premium, un délai de 24 heures est nécessaire avant que des attributs supplémentaires soient disponibles. Il se peut qu’une erreur [!UICONTROL attribute Subscription Max] s’affiche pendant ce délai. |
 | Connexions multiples sur le même appareil | Lorsque vous utilisez des [!DNL Customer Attributes] pour charger des profils clients dans une source de données, Adobe vous recommande de ne pas autoriser les utilisateurs et les utilisatrices qui partagent des appareils (c’est-à-dire le même identifiant Experience Cloud). L’Experience Cloud ID (ECID) est conservé sur l’appareil. Si des utilisateurs partagent des appareils, l’ECID peut associer plusieurs utilisateurs au même ECID, ce qui peut entraîner des résultats inattendus dans [!DNL Target]. **Remarque :** pour Mobile, l’ECID est permanent après l’installation de l’application mobile. Réinstallez l’application pour générer un nouvel ECID. Pour le Web, un nouvel ECID est généré une fois le cookie du navigateur effacé. |
 | Limite de chargement de fréquence quotidienne | Adobe vous recommande de ne mettre à jour les [!DNL Customer Attributes] qu’une seule fois par jour. Vous devez attendre au moins 24 heures pour charger un autre fichier de données de profil client pour le même ensemble de profils. |
@@ -51,7 +41,7 @@ Conseils et limites lors de l’utilisation des [!DNL Customer Attributes].
 ## Questions fréquentes sur les [!DNL Customer Attributes]
 
 | Question | Réponse |
-|--- |--- |
+| --- | --- |
 | Puis-je recevoir des notifications sur le statut du chargement des [!DNL Customer Attributes] ? | Oui. |
 | Que dois-je faire pour commencer à utiliser les [!DNL Customer Attributes] ? | <ol><li>Recevez les privilèges d’accès. Si vous êtes un client Adobe Analytics, Adobe vous met en service pour [!DNL Customer Attributes]. Si vous utilisez uniquement Adobe Target et ne disposez pas d’Analytics, demandez la mise en service des services principaux en contactant l’assistance clientèle.</li> <li>Contactez votre équipe CRM. Découvrez quels types de données de clientes et clients vous pouvez utiliser dans Analytics et dans Experience Cloud.</li><li>Implémentez les services principaux.</li></ol> Consultez [conditions préalables](t-crs-usecase.md#prerequisites-for-using-customer-attributes) avant de charger des données pour en savoir plus sur les conditions requises pour permettre aux utilisateurs d’utiliser cette fonctionnalité. |
 | Combien d’attributs de client suis-je autorisé à utiliser ? | Vous pouvez charger des centaines de colonnes `.csv` vers le service d’attributs du client. Toutefois, lors de la configuration des abonnements et de la sélection des attributs, les restrictions suivantes sʼappliquent par suite de rapports, selon les applications que vous détenez :  <ul><li>Foundation : 0</li><li>Select : 3</li><li>Prime : 15</li><li>Ultimate : 200</li><li>Standard : 3 au total</li><li>Premium : 200</li><li>Adobe Target Standard : 5</li><li>Adobe Target Premium : 200</li></ul> |
@@ -61,7 +51,7 @@ Conseils et limites lors de l’utilisation des [!DNL Customer Attributes].
 | **(Adobe Target uniquement)** Puis-je précharger ou charger des données pour les clients qu’Adobe Target n’a jamais vus ? | Oui. Lorsque la personne envoie sa première demande à Adobe Target, le système récupère les informations existantes dont Adobe dispose à son sujet dans les [!DNL Customer Attributes], puis les utilise pour le ciblage. **Remarque :** la récupération de ces données peut prendre jusqu’à 20 minutes à compter de la première interaction du visiteur avec Adobe Target. |
 | **(Adobe Target uniquement)** Puis-je créer une super audience en combinant les données d’attributs du client avec les données d’audience partagée ? | Non. Les données d’audience partagée correspondent à une audience terminée. |
 | **(Adobe Target uniquement)** Comment se compare [!DNL Customer Attributes] l’API de profil par lot d’Adobe Target ? | L’API de profil par lot permet de mettre à jour les profils Adobe Target directement via l’API, soit pour un profil individuel, soit par lot. La fonctionnalité est similaire aux [!DNL Customer Attributes], avec les différences clés suivantes :<ul><li>L’API de profil est un appel API REST, tandis que les [!DNL Customer Attributes] utilisent le protocole FTP.</li><li>L’API profil d’Adobe Target envoie uniquement des données à Adobe Target plutôt qu’à l’ensemble d’Experience Cloud.</li><li>Les [!DNL Customer Attributes] fournissent une interface simple pour créer et gérer ces données externes.</li></ul> |
-| **(Adobe Target uniquement)** Le chargement de données à partir des [!DNL Customer Attributes] vers Adobe Target étend-il la durée de vie du profil des visiteurs et visiteuses d’Adobe Target ? | Oui. Voir [Durée de vie du profil du visiteur](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=fr) dans l’aide d’Adobe Target. |
+| **(Adobe Target uniquement)** Le chargement de données à partir des [!DNL Customer Attributes] vers Adobe Target étend-il la durée de vie du profil des visiteurs et visiteuses d’Adobe Target ? | Oui. Voir [Durée de vie du profil du visiteur](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html) dans l’aide d’Adobe Target. |
 | **(Adobe Target uniquement)** Puis-je cibler les données chargées dans les [!DNL Customer Attributes] immédiatement après l’identification du visiteur ou de la visiteuse par l’identifiant client ? | Oui. Lors de l’appel du serveur à Adobe Target, qui inclut l’identifiant tiers de la mbox, toutes les données d’attributs du client sont disponibles. |
 | **(Adobe Target uniquement)** Que représente la colonne **[!UICONTROL Sync Status]** pour les fichiers chargés dans la source d’attributs du client ? | Le nombre dʼenregistrements publiés et synchronisés par Adobe Target peut être affiché en sélectionnant lʼicône Statut de la synchronisation en regard dʼun fichier dʼattributs spécifique. `Sync %` est une mesure en temps réel qui spécifie le % de profils synchronisés dans Adobe Target.<br> **Note :** la synchronisation des attributs avec Adobe Target peut prendre jusqu’à 24 heures. |
 | Que représentent les mesures de chargement de fichiers dans la source des [!DNL Customer Attributes] ? | Vous pouvez vérifier le statut des attributs chargés dans les [!DNL Customer Attributes] à l’aide des mesures suivantes : <ul><li>Enregistrements : nombre d’enregistrements dans le fichier d’attributs.</li><li>**Nouveaux enregistrements :** nombre de nouveaux enregistrements présents dans le fichier d’attributs.</li> <li>**Enregistrements mis à jour :** nombre d’enregistrements existants dans les [!DNL Customer Attributes] avec des valeurs mises à jour dans le fichier.</li><li>**Toutes les données (enregistrements) :** nombre total d’enregistrements effectivement chargés dans les [!DNL Customer Attributes].</li></ul> |

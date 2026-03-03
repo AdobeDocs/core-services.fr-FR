@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 62%
@@ -37,7 +31,7 @@ Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres
 ## Types de fichiers autorisés et exigences en termes d’attribution de noms
 
 | Type de fichier | Description |
-|--- |--- |
+| --- | --- |
 | `.csv` | Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client.   Exigences en matière de dénomination : assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. |
 | `.fin` | (Obligatoire) Le fichier `.fin` indique au système que vous avez terminé le chargement des données. Le nom du fichier `.fin` doit correspondre au nom du fichier `.csv`.  Adobe recommande de créer un fichier texte vide avec une extension `.fin`. Un fichier vide économise de l’espace et du temps de chargement. **Remarque :** il n’est pas permis de renommer un fichier `.fin` après son chargement. Le fichier `.fin` doit être téléchargé séparément et ne peut pas être un fichier renommé précédemment téléchargé. Après avoir chargé le fichier `.fin` dans le FTP Attributs du client, le système récupère rapidement les données (en une minute). Elle se distingue des autres systèmes FTP Adobe, qui récupèrent les données moins fréquemment (environ une fois par heure). Le fichier `.fin` n’est pas requis lors de l’utilisation de la méthode de chargement par glisser-déposer. |
 | `.gz` ou `.zip`. | `.gz` (gzip) ou `.zip` - pour les fichiers compressés. Un fichier `.zip` ne peut pas contenir plusieurs fichiers dans l&#39;archive. Exigences en matière de dénomination : le nom du `.zip` ou du `.gz` doit correspondre au nom du fichier `.csv` . Par exemple, si votre fichier `.csv` est `crm_small.csv`, le fichier `.zip` doit être `crm_small.csv.zip` . Le fichier `.fin` doit correspondre au `.csv`. |
@@ -70,7 +64,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonne d’ID client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel <span class="codeph"> set customerIDs </span> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Experience Cloud ID. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel <span class="codeph"> set customerIDs </span> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers Experience Cloud. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -148,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) pour plus d’informations.)
+(Voir [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) pour plus d’informations.)
 
 Dans **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** :
 
