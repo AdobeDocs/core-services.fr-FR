@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 71%
@@ -53,7 +53,7 @@ Toutes les audiences, quelle que soit leur origine, sont accessibles pour un cib
 Le tableau suivant décrit lʼutilisation des audiences dans les applications Experience Cloud :
 
 | Solution | Description |
-|--- |--- |
+| --- | --- |
 | Audiences Experience Cloud | Créez, gérez et partagez des audiences en mode natif à l’aide de la bibliothèque d’audiences. Vous pouvez :<ul><li>Utilisez des audiences en temps réel à l’aide d’attributs d’analyse bruts.</li><li>Combinez les audiences pour créer des audiences composites, en associant les données historiques et en temps réel.</li><li>Consultez des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience à créer, voir [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr). |
 | Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis le publier vers Experience Cloud. La publication du segment l’affiche sur la page [!DNL Audience Library] dans Experience Cloud. (Voir [Publication de segments dans Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr) dans [!DNL Analytics]’aide pour plus d’informations.) L’audience est également disponible en tant qu’audience ciblée pour une expérience de campagne diffusée par [!DNL Adobe Target] et dans [!DNL Audience Manager]. Une fois que vous avez partagé une audience à partir de [!DNL Adobe Analytics] et que vous l’avez sélectionnée afin de l’utiliser dans une campagne active, les profils du visiteur répondant aux critères de définition du segment des 90 derniers jours sont envoyés à [!UICONTROL Audience Services]. La limite pour les audiences partagées a été portée à 75. Les audiences partagées avec Experience Cloud à partir d’[!DNL Analytics] ne doivent pas dépasser 20 millions de profils membres uniques. De plus, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures. |
 | Mobile Services | Analysez le trafic mobile à l’aide de la visualisation Sunburst dans le rapport [!UICONTROL Device Types]. |
@@ -78,7 +78,7 @@ Le tableau suivant décrit lʼutilisation des audiences dans les applications Ex
 
 
 | Élément | Description |
-|--- |--- |
+| --- | --- |
 | Nouveau | [Création d’une audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |

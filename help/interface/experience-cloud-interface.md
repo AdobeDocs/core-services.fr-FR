@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -58,7 +58,7 @@ Bien que toutes les équipes d’applications se soient engagées à assurer la 
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
-1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com).
+1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com?lang=fr).
 1. Cliquez sur **[!UICONTROL Sign in with an Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
@@ -111,7 +111,7 @@ Les préférences Experience Cloud incluent les notifications, les abonnements 
 Sur [!UICONTROL Experience Cloud preferences], vous pouvez configurer les fonctionnalités suivantes :
 
 | Fonctionnalité | Description |
-|--- |--- |
+| --- | --- |
 | Organisation par défaut | Sélectionnez l’organisation que vous souhaitez voir lorsque vous lancez Experience Cloud. |
 | [!UICONTROL Subscriptions] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre e-mail. |
 | [!UICONTROL Priority] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |

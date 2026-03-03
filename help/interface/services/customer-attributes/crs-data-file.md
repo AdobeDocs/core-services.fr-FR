@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 62%
@@ -37,7 +37,7 @@ Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres
 ## Types de fichiers autorisés et exigences en termes d’attribution de noms
 
 | Type de fichier | Description |
-|--- |--- |
+| --- | --- |
 | `.csv` | Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client.   Exigences en matière de dénomination : assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. |
 | `.fin` | (Obligatoire) Le fichier `.fin` indique au système que vous avez terminé le chargement des données. Le nom du fichier `.fin` doit correspondre au nom du fichier `.csv`.  Adobe recommande de créer un fichier texte vide avec une extension `.fin`. Un fichier vide économise de l’espace et du temps de chargement. **Remarque :** il n’est pas permis de renommer un fichier `.fin` après son chargement. Le fichier `.fin` doit être téléchargé séparément et ne peut pas être un fichier renommé précédemment téléchargé. Après avoir chargé le fichier `.fin` dans le FTP Attributs du client, le système récupère rapidement les données (en une minute). Elle se distingue des autres systèmes FTP Adobe, qui récupèrent les données moins fréquemment (environ une fois par heure). Le fichier `.fin` n’est pas requis lors de l’utilisation de la méthode de chargement par glisser-déposer. |
 | `.gz` ou `.zip`. | `.gz` (gzip) ou `.zip` - pour les fichiers compressés. Un fichier `.zip` ne peut pas contenir plusieurs fichiers dans l&#39;archive. Exigences en matière de dénomination : le nom du `.zip` ou du `.gz` doit correspondre au nom du fichier `.csv` . Par exemple, si votre fichier `.csv` est `crm_small.csv`, le fichier `.zip` doit être `crm_small.csv.zip` . Le fichier `.fin` doit correspondre au `.csv`. |

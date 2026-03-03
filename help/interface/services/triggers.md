@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 646
 ht-degree: 78%
@@ -72,7 +72,7 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
 1. Configurez le déclencheur en renseignant les champs suivants et en faisant glisser les éléments de mesure et de dimension vers les conteneurs de la règle :
 
    | Élément | Description |
-   |--- |--- |
+   | --- | --- |
    | [!UICONTROL Name] | Nom convivial du déclencheur. |
    | [!UICONTROL Description] | Description du déclencheur, de sa fonction, etc. |
    | [!UICONTROL Report Suite] | La [suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) Analytics utilisée pour ce déclencheur. Ce paramètre identifie les données de rapport à utiliser. |

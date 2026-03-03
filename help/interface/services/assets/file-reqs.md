@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 95%
@@ -40,7 +40,7 @@ La plupart des images, documents et fichiers multimédias peuvent être chargés
 Les limites de taille de fichier proviennent du navigateur et peuvent varier d’un navigateur à l’autre :
 
 | Navigateur | Chargement (taille totale) | Téléchargement (par fichier) |
-|--- |--- |--- |
+| --- | --- | --- |
 | Internet Explorer 6 | 2 Go | 2 Go 4 Go pour les transferts mémorisés en bloc ou à fermeture de connexion. |
 | Internet Explorer 7 | 2 Go | 4 Go |
 | Internet Explorer 8 | 2 Go | 17,592 Go |

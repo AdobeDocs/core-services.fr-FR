@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 97%
@@ -35,7 +35,7 @@ ht-degree: 97%
 Référence terminologique à l’intention des utilisateurs d’Experience Cloud, et façon dont ces termes sont utilisés dans Creative Cloud (le cas échéant).
 
 | Terme | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **Ressource** | Dans Creative Cloud, une ressource est généralement un fichier image.<br>Les ressources peuvent être des calques dans un fichier Photoshop, des diapositives dans un fichier PowerPoint, des pages dans un fichier PDF ou des fichiers dans un fichier ZIP. | Dans Experience Cloud, une ressource est un document numérique, une image, une vidéo ou un fichier audio qui peut avoir plusieurs rendus et plusieurs sous-ressources. Par exemple :<ul><li>Fichier</li><li>Document</li><li>Image</li><li>Vidéo</li><li>Clip audio</li><li>Présentation</li><li>Modèle d’image</li><li>Modèle de vidéo</li></ul> |
 | **Attribut** | | Ce que les individus ont en commun s’ils remplissent les critères d’un [segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr). (Semblable à une [caractéristique](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=fr) dans Audience Manager.) |
 | **Audiences** | Dans Creative Cloud, une audience peut être la personne qui regarde une vidéo. | Dans Experience Cloud, les audiences sont des ensembles de personnes qui peuvent être ciblés dans les activités de campagne.<br>L’appartenance à une audience peut être déterminée en fonction d’un jeu de règles, d’après le contexte du visiteur ou d’après une liste fixe, par exemple une liste d’abonnés de publipostage ou les membres d’un groupe Facebook.<br>Dans les [audiences Experience Cloud](../services/audiences/overview.md), la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de les partager dans Experience Cloud.<br>**Adobe Target**<br> Dans Adobe Target, les audiences étaient auparavant appelées segments.<br>**Adobe Analytics**<br> Dans Analytics, les audiences peuvent être considérées comme les visiteurs d’un site web. Vous pouvez créer des segments d’audience et publier l’audience dans Experience Cloud. |

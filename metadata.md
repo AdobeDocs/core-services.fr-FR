@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.fr-FR
-source-git-commit: 4c879ad5a5392924950694e89bc94f8cc1e84aa3
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
 | métadonnées | utilisation |
-|--- |--- |
+| --- | --- |
 | solution-title | Utilisé comme lien dans l’en-tête d’article |
 | solution-hub-url | Ouvre la page hub helpx |
 | solution-icon | Affiche l’icône de la solution en regard de son titre. Pas encore mis en œuvre |
@@ -40,6 +40,6 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 Dans le fichier TOC.md
 
 | métadonnées | utilisation |
-|--- |--- |
+| --- | --- |
 | user-guide-title | Utilisé comme lien dans l’en-tête d’article |
 | user-guide-url | Ouvre la page hub helpx |
