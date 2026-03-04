@@ -6,16 +6,16 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
+source-git-commit: 1897e2162ba53ebc43a78877a61ebf4370127631
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1001'
 ht-degree: 4%
 
 ---
 
 # Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
 
-Mise à jour : **mercredi 3 mars 2026**
+Mise à jour : **jeudi 4 mars 2026**
 
 Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications Experience Cloud. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications Experience Cloud existantes, voir [IA dédiée aux agents dans Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -53,10 +53,10 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 | Journey Agent | Gestion des parcours | <ul><li>Adobe Journey Optimizer (éditions B2B et B2C)</li></ul> | 25 | <ul><li>_De combien de parcours est-ce que je dispose ?_</li><li>_Répertorier tous les parcours utilisant l’audience X._</li><li>_Répertorier tous les parcours actuellement en mode test_</li></ul> |
 | Agent du support technique du produit | Dépannage basé sur les connaissances | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (éditions B2C et B2B)</li><li>Customer Journey Analytics (éditions B2C et B2B)</li></ul> | 0 | <ul><li>_Pourquoi mon nombre de profils diffère-t-il sur le tableau de bord d’utilisation des licences et la page d’accueil d’Experience Platform ?_</li><li>_Quelles sont les raisons pour lesquelles un parcours ne se déclenche pas ?_</li><li>_Comment Adobe Experience Platform crée-t-il des expériences en temps réel ?_</li><li>_Comment configurer et utiliser les alertes dans Adobe Experience Platform ?_</li><li>_Quelle est la limite de richesse moyenne des profils dans l’activation de Adobe Experience Platform ?_</li></ul> |
 | Agent du support technique du produit | Création et suivi des cas d’assistance | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li>Adobe Journey Optimizer (éditions B2C et B2B)<li>Customer Journey Analytics (éditions B2C et B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Créer un nouveau ticket d’assistance pour ma tâche de segmentation ayant échoué_</li><li>_Quel est l&#39;état du billet E-001772068 ?_</li></ul> |
-| Agent du gestionnaire de contenu | Découverte de contenu | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Afficher les fragments de contenu pour la création de la campagne d’offres WKND._</li><li>_Rechercher des images PNG d’emballage de produit._</li><li>_Afficher les images balisées office dans le dossier WKND._</li><li>_Existe-t-il des fichiers SVG dans le dossier WKND ?_</li><li>_Afficher tous les formulaires de demande de prêt._</li><li>_Je recherche des formulaires d’intégration des employés._</li></ul> |
-| Agent du gestionnaire de contenu | <ul><li>Optimisation du contenu</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Créez un rendu de 2 000 px sous la forme d’un JPEG avec une qualité de 80 %._</li><li>_Créer un rendu pour une histoire Instagram._</li><li>_Recouvrez l’image avec des graphiques à 30 % de remise sur la bannière promotionnelle, en la plaçant à 100 pixels du centre._</li><li>_Remplacer la couleur d’arrière-plan du fichier PNG par #ff8932._</li></ul> |
-| Agent de gouvernance de marque | <ul><li>Mise à jour du contenu</li><li>Création de Forms</li><li>Dépannage du pipeline</li></ul> | <ul><li>Services cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Résolution des problèmes liés à mon pipeline en échec_</li><li>_Répertorier mes pipelines ayant échoué pour le programme principal._</li><li>_Analysez mon pipeline en échec appelé « Pipeline de développement »._</li><li>_Résolution des problèmes liés aux 1234567_ d’exécution du pipeline</li></ul> |
-| Brand Experience Agent | Modernisation du site | Services cloud Adobe Experience Manager | 100 | <ul><li>_Migrer la page`https://wknd-trendsetters.site`_</li></ul> |
+| Agent du gestionnaire de contenu | Découverte de contenu | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li>_Afficher les fragments de contenu pour la création de la campagne d’offres WKND._</li><li>_Rechercher des images PNG d’emballage de produit._</li><li>_Afficher les images balisées office dans le dossier WKND._</li><li>_Existe-t-il des fichiers SVG dans le dossier WKND ?_</li><li>_Afficher tous les formulaires de demande de prêt._</li><li>_Je recherche des formulaires d’intégration des employés._</li></ul> |
+| Agent du gestionnaire de contenu | <ul><li>Optimisation du contenu</li></ul> | <ul><li>Adobe Experience Manager Assets et Dynamic Media</li></ul> | 10 | <ul><li>_Créez un rendu de 2 000 px sous la forme d’un JPEG avec une qualité de 80 %._</li><li>_Créer un rendu pour une histoire Instagram._</li><li>_Recouvrez l’image avec des graphiques à 30 % de remise sur la bannière promotionnelle, en la plaçant à 100 pixels du centre._</li><li>_Remplacer la couleur d’arrière-plan du fichier PNG par #ff8932._</li></ul> |
+| Agent de gouvernance de marque | <ul><li>Vérifications de la politique de marque</li></ul><ul><li>Autorisations avec Content Hub</li></ul><ul><li>Dépannage du pipeline</li></ul> | <ul><li>Adobe Experience Manager Sites (stratégies de marque)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li>_Cette page est-elle alignée sur ma marque ?`https://www.website/en.html`_</li><li>_Afficher toutes les règles ABAC Content Hub existantes_</li><li>_Certaines de mes ressources expirent-elles bientôt ?_</li></ul> |
+| Brand Experience Agent | <ul><li>Mise à jour du contenu</li><li>Création de Forms</li><li>Dépannage du pipeline</li></ul> | <ul><li>Services cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Créez un formulaire de contact avec les champs de nom, d’e-mail et de message_</li><li>_Résolution des problèmes liés à mon pipeline en échec_</li><li>_Répertorier mes pipelines ayant échoué pour le programme principal._</li></ul> |
 
 >[!NOTE]
 >
