@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: ae927640b65458cb1c0df1a817207220f7dfe0ec
+source-git-commit: 9afed61de0d83cf56e5d2447af68ab6851e4a716
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1026'
 ht-degree: 4%
 
 ---
@@ -55,8 +55,9 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 | Agent du support technique du produit | Création et suivi des cas d’assistance | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li>Adobe Journey Optimizer (éditions B2C et B2B)<li>Customer Journey Analytics (éditions B2C et B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li><em>Créer un nouveau ticket d’assistance pour ma tâche de segmentation ayant échoué</em></li><li><em>Quel est l&#39;état du billet E-001772068 ?</em></li></ul> |
 | Agent du gestionnaire de contenu | Découverte de contenu | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li><em>Afficher les fragments de contenu pour la création de la campagne d’offres WKND.</em></li><li><em>Rechercher des images PNG d’emballage de produit.</em></li><li><em>Afficher les images balisées office dans le dossier WKND.</em></li><li><em>Existe-t-il des fichiers SVG dans le dossier WKND ?</em></li><li><em>Afficher tous les formulaires de demande de prêt.</em></li><li><em>Je recherche des formulaires d’intégration des employés.</em></li></ul> |
 | Agent du gestionnaire de contenu | <ul><li>Optimisation du contenu</li></ul> | <ul><li>Adobe Experience Manager Assets et Dynamic Media</li></ul> | 10 | <ul><li><em>Créez un rendu de 2 000 px sous la forme d’un JPEG avec une qualité de 80 %.</em></li><li><em>Créer un rendu pour une histoire Instagram.</em></li><li><em>Recouvrez l’image avec des graphiques à 30 % de remise sur la bannière promotionnelle, en la plaçant à 100 pixels du centre.</em></li><li><em>Remplacer la couleur d’arrière-plan du fichier PNG par #ff8932.</em></li></ul> |
-| Agent de gouvernance de marque | <ul><li>Vérifications de la politique de marque</li></ul><ul><li>Autorisations avec Content Hub</li></ul><ul><li>Dépannage du pipeline</li></ul> | <ul><li>Adobe Experience Manager Sites (stratégies de marque)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>Cette page est-elle alignée sur ma marque ? `https://www.website/en.html`</em></li><li><em>Afficher toutes les règles ABAC Content Hub existantes</em></li><li><em>Certaines de mes ressources expirent-elles bientôt ?</em></li></ul> |
-| Brand Experience Agent | <ul><li>Mise à jour du contenu</li><li>Création de Forms</li><li>Dépannage du pipeline</li></ul> | <ul><li>Services cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>Créez un formulaire de contact avec les champs de nom, d’e-mail et de message</em></li><li><em>Résolution des problèmes liés à mon pipeline en échec</em></li><li><em>Répertorier mes pipelines ayant échoué pour le programme principal.</em></li></ul> |
+| Agent de gouvernance de marque | <ul><li>Vérifications de la politique de marque</li></ul><ul><li>Autorisations avec Content Hub</li></ul><ul><li>Expiration des ressources</li></ul> | <ul><li>Adobe Experience Manager Sites (stratégies de marque)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>Cette page est-elle alignée sur ma marque ? `https://www.website/en.html`</em></li><li><em>Afficher toutes les règles ABAC Content Hub existantes</em></li><li><em>Certaines de mes ressources expirent-elles bientôt ?</em></li></ul> |
+| Brand Experience Agent | <ul><li>Mise à jour du contenu</li><li>Création de Forms</li><li>Dépannage du pipeline</li></ul> | <ul><li>Services cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>Le `URL`, mettez à jour le titre en Hello world</em></li><li><em>Créez un formulaire de contact avec les champs de nom, d’e-mail et de message</em></li><li><em>Résolution des problèmes liés à mon pipeline en échec</em></li><li><em>Répertorier mes pipelines ayant échoué pour le programme principal.</em></li></ul> |
+| Brand Experience Agent | Modernisation du site | Services cloud Adobe Experience Manager | 100 | <ul><li><em>Migrer la page `https://wknd-trendsetters.site`</em></li></ul> |
 
 >[!NOTE]
 >
@@ -66,4 +67,4 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 * [GenAI dans Experience Cloud](/help/interface/features/generative-ai.md)
 * [L’IA dédiée aux agences dans Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l&#39;utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l&#39;utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
