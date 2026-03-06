@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
+source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
 
-Mise à jour : **jeudi 4 mars 2026**
+Mise à jour : **vendredi 5 mars 2026**
 
 Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications Experience Cloud. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications Experience Cloud existantes, voir [IA dédiée aux agents dans Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -67,4 +67,4 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 * [GenAI dans Experience Cloud](/help/interface/features/generative-ai.md)
 * [L’IA dédiée aux agences dans Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l&#39;utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l&#39;utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
