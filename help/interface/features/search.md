@@ -2,7 +2,7 @@
 description: Découvrez la fonctionnalité de recherche unifiée pour certaines applications dans Experience Cloud.
 solution: Experience Cloud
 title: Recherche unifiée Experience Cloud
-index: yes
+index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 88%

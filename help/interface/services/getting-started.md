@@ -2,7 +2,7 @@
 description: Modernisez vos applications Adobe Analytics et Adobe Target pour obtenir des services entre applications. Découvrez comment débuter avec les services Experience Cloud.
 solution: Experience Cloud
 title: Prise en main des services Experience Cloud
-index: yes
+index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 1942
 ht-degree: 75%

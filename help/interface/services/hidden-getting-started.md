@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 81%
@@ -39,7 +39,7 @@ Voici les étapes à suivre pour rejoindre Experience Cloud :
 
 ### Connexion administrateur
 
-Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [experience.adobe.com](https://experience.adobe.com).
+Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [experience.adobe.com](https://experience.adobe.com?lang=fr).
 
 Le lien **[!UICONTROL Admin Console]** est disponible dans la navigation du menu Experience Cloud.
 
@@ -48,7 +48,7 @@ Le lien **[!UICONTROL Admin Console]** est disponible dans la navigation du menu
 Pour se connecter à Experience Cloud, vos utilisateurs et utilisatrices doivent remplir les conditions suivantes :
 
 * Posséder un Adobe ID (ou un Enterprise ID pour votre société).
-* Connectez-vous à [experiencecloud.adobe.com](https://experience.adobe.com).
+* Connectez-vous à [experiencecloud.adobe.com](https://experience.adobe.com?lang=fr).
 * Appartenir à un groupe dʼapplications mappé avec un groupe dʼentreprises.
 * Si nécessaire, liez leurs comptes dʼapplication à leur Adobe ID (comme décrit ci-après).
 

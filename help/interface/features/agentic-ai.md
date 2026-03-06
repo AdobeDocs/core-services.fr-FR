@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 4%
+source-wordcount: 892
+ht-degree: 5%
 
 ---
 
 # L’IA dédiée aux agences dans Adobe Experience Cloud
 
-Mise à jour : **jeudi 4 mars 2026**
+Mise à jour : **vendredi 5 mars 2026**
 
 Les agents Adobe Experience Platform sont optimisés par [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) pour activer les fonctionnalités d’IA agentic dans les applications Experience Cloud.
 
@@ -63,7 +63,7 @@ Les agents peuvent être activés dans les applications Experience Cloud existan
 * Vous êtes inclus dans une version d’évaluation liée à l’utilisation (crédits AI limités fournis)
 * Vous avez transféré le SKU Agent Orchestrator Promo (licence d’évaluation limitée dans le temps).
 
-L’utilisation d’agents AI pour effectuer des _tâches d’agent_ consomme des crédits AI. En savoir plus sur les tâches d’agent et les crédits AI dans _[Tâches d’agent et consommation de crédits AI](/help/interface/features/ai-credit-consumption.md)_.
+L’utilisation d’agents AI pour effectuer des _tâches d’agent_ consomme des crédits AI. En savoir plus sur les tâches d’agent et les crédits AI dans [Tâches d’agent et consommation de crédits AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
 Les agents d’IA suivent _vos_ informations, supervisent et respectent les contrôles d’accès au niveau des produits. Vous pouvez uniquement effectuer des tâches ou accéder à des données que vous êtes autorisé à utiliser dans l’application Experience Cloud sous-jacente.
 
@@ -94,7 +94,7 @@ Le tableau suivant répertorie les agents Experience Platform disponibles en tan
 | [Experimentation Agent](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatisez, analysez et synthétisez les informations afin d’identifier rapidement les expériences à fort impact et les opportunités de croissance à partir d’un espace de travail centralisé, tout en réduisant les processus manuels. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [Agent d’optimisation LLM](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) | Améliorez la visibilité, la précision et l’influence dans les environnements de recherche pilotés par l’IA, fournissez des informations sur la présence des marques dans les réponses générées par l’IA, proposez des recommandations de contenu normatif et automatisez les correctifs d’optimisation. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/fr/docs/experience-manager-sites-optimizer/content/home) | Optimisez l’impact commercial en détectant et en déployant automatiquement les améliorations du site web. Grâce à l’IA générative et à plusieurs technologies de surveillance, vous pouvez augmenter l’acquisition du trafic sur le site, l’engagement, etc | <ul><li>AEM Sites Optimizer</li></ul> |
-| [Product Advisor Agent](https://experienceleague.adobe.com/fr/docs/brand-concierge/content/documentation/overview) | Améliorez la conversion et l’engagement grâce à une découverte intelligente et contextuelle des produits, adaptée aux préférences et aux comportements individuels. | <ul><li>Adobe Brand Concierge</li></ul> |
+| [Product Advisor Agent](https://experienceleague.adobe.com/fr/docs/brand-concierge/content/documentation/overview) | Améliorez la conversion et l’engagement grâce à une découverte intelligente et contextuelle des produits, adaptée aux préférences et aux comportements individuels. | <ul><li>Adobe Brand Concierge</li></ul> |
 
 ## Plus d’aide sur cette rubrique
 

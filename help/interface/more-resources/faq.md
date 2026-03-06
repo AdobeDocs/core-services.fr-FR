@@ -2,7 +2,7 @@
 description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions fréquentes à l’intention des administrateurs dans Adobe Experience Cloud.
 solution: Experience Cloud
 title: Questions fréquentes à propos d’Experience Cloud
-index: yes
+index: true
 feature: Admin Console
 topic: Administration
 role: Admin
@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 697
 ht-degree: 76%

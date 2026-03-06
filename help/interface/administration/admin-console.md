@@ -2,7 +2,7 @@
 title: Gestion des licences d’utilisation et de produit
 description: Gérez les utilisateurs et utilisatrices, et les licences de produits dans Admin Console pour les applications Experience Cloud.
 application: Experience Cloud
-index: yes
+index: true
 feature: Admin Console
 topic: Administration
 role: Admin
@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 750
 ht-degree: 7%
@@ -102,7 +102,7 @@ Ces liens vous aident à trouver des informations d’administration pour des ap
 
  -->
 
-* [Advertising Search, Social Et Commerce](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/new-ui/user-administration)
+* [Advertising Search, Social Et Commerce](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/new-ui/user-administration)
 * [Analytics](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
 * [Audience Manager](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/administration/admin-console-migration)
