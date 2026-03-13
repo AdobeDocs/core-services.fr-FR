@@ -9,9 +9,17 @@ role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 TQID: https://experienceleague.adobe.com/ojHy0Am9T1T7Zu5EpR3jLynQ-dotvhcn6usRynb5TXo
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 747
@@ -64,7 +72,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [ Journal d’audit ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
+| [&#x200B; Journal d’audit &#x200B;](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
 
 
 ## Ressources spécifiques à l’application
