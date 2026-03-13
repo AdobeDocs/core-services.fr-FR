@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 747
 ht-degree: 7%
@@ -79,7 +79,8 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 Ces liens vous aident à trouver des informations d’administration pour des applications Experience Cloud spécifiques.
 
-<!-- | Application | Link to resource|
+<!--
+| Application | Link to resource|
 | ------- | ------- |
 |  [!DNL Analytics] <p>Customer Journey Analytics| [Analytics in the Adobe Admin Console overview](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home) <p>[Administration requirements](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace) |
 | [!DNL Audience Manager] | [Audience Manager user migration to Admin Console](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/administration/admin-console-migration) |
@@ -100,7 +101,7 @@ Ces liens vous aident à trouver des informations d’administration pour des ap
 | [!DNL Target] | [Administrator first steps](https://experienceleague.adobe.com/fr/docs/target/using/administer/start-target) <p> [User management](https://experienceleague.adobe.com/fr/docs/target/using/administer/manage-users/user-management) |
 | [!DNL Workfront] | [Manage users in the Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console) |
 
- -->
+-->
 
 * [Advertising Search, Social Et Commerce](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/target/user-administration)
 * [Analytics](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home)
