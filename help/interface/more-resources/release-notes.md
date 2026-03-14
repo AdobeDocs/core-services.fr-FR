@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
+source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
 workflow-type: tm+mt
-source-wordcount: 1337
-ht-degree: 80%
+source-wordcount: 1386
+ht-degree: 78%
 
 ---
 
@@ -76,7 +76,7 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Accueil personnalisable | Sur la page de destination d’Experience Cloud, cliquez sur **[!UICONTROL Edit]**. [!UICONTROL Edit] mode vous permet de personnaliser votre page d’accueil Experience Cloud avec un accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Edit] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des ajustements de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
+| Accueil personnalisable | Sur la page de destination d’Experience Cloud, cliquez sur **[!UICONTROL Edit]**. [!UICONTROL Edit] Le mode vous permet de personnaliser votre page d’accueil Experience Cloud en accédant à une bibliothèque de widgets et à des arrière-plans personnalisés. [!UICONTROL Edit] Le mode fournit des commandes transparentes et intuitives pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des ajustements de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
 
 ## mercredi 10 septembre 2024
 
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Quick Access]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées sur le [!UICONTROL Quick Access]. |
+| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Quick Access]. <br>**Restez informé grâce à l’épinglage intelligent** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées sur le [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -120,7 +120,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| Recherche en langage naturel | Grâce à la recherche unifiée et son interface unique, obtenez des réponses instantanées à toutes vos questions d’aide. Retrouvez cette fonctionnalité sur chaque page d’[!DNL Experience Platform] et de [!DNL Journey Optimizer]. |
+| Recherche en langage naturel | Obtenez des réponses instantanées à toutes vos questions, avec une interface unique via la Recherche unifiée. Retrouvez cette fonctionnalité sur chaque page d’[!DNL Experience Platform] et de [!DNL Journey Optimizer]. |
 
 {style="table-layout:auto"}
 
@@ -136,7 +136,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| Raccourcis (**[!UICONTROL Recents]**) ajoutés à la page d’accueil [Experience Cloud](https://experience.adobe.com/home?lang=fr) | Vous pouvez accéder à des raccourcis vers vos travaux Journey Optimizer et Experience Platform les plus récents sous le nouvel en-tête _Récents_ de la page de destination. Cette mise à jour comprend également des améliorations générales de la disposition et de la réactivité. |
+| Raccourcis (**[!UICONTROL Recents]**) ajoutés à la page d’accueil [Experience Cloud](https://experience.adobe.com/home) | Vous pouvez accéder à des raccourcis vers vos travaux Journey Optimizer et Experience Platform les plus récents sous le nouvel en-tête _Récents_ de la page de destination. Cette mise à jour comprend également des améliorations générales de la disposition et de la réactivité. |
 | **[!UICONTROL Sandboxes]** déplacé vers la barre d’en-tête | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications de l’interface dʼExperience Platform. Pour plus d’informations, consultez la section [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform. |
 
 {style="table-layout:auto"}
@@ -176,8 +176,8 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
-| Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir d’adresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `example.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Recherche Experience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Search]** pour trouver des tutoriels, de la documentation, des cours, etc. |
+| Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir dʼadresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l&#39;URL d&#39;Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `example.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Search]** pour trouver des tutoriels, de la documentation, des cours, etc. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| En-tête et navigation Experience Cloud | Les mises à jour d’Adobe Experience Cloud incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre et au lien pour contrôler les préférences supplémentaires de l’avatar de l’utilisateur dans l’en-tête d’Experience Cloud. Bien que toutes les applications d’Experience Cloud ne prennent pas en charge les thèmes, cette fonctionnalité libère la prise en charge future des thèmes. |
+| En-tête et navigation Experience Cloud | Les mises à jour d’Adobe Experience Cloud incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre et au lien pour contrôler les préférences supplémentaires de l’avatar de l’utilisateur dans l’en-tête d’Experience Cloud. Bien que toutes les applications Experience Cloud ne prennent pas en charge les thèmes, cette fonctionnalité permet de débloquer la prise en charge future des thèmes. |
 | Recherche globale Experience Cloud | Avec cette version, la recherche globale Experience Cloud vous permet de rechercher n’importe quels cours, documentation et tutoriels d’[Experience League](https://experienceleague.adobe.com/fr?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans Experience Cloud, tel que les segments, les jeux de données, les schémas, etc.). |
 | Préférences de langue Experience Cloud | Cette mise à jour offre la possibilité de définir vos langues préférées dans les [Préférences](https://experience.adobe.com/preferences) Experience Cloud. |
 
@@ -220,6 +220,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 ## Janvier 2020
 
 * La page Flux a été abandonnée en décembre 2019. Vous trouverez un avis d’obsolescence dans le produit. (MCUI-10039)
+
 
 <!--
 ## August 2019
