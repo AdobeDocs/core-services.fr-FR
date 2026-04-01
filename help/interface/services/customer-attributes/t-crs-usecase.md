@@ -9,22 +9,14 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1117
 ht-degree: 47%
 
 ---
@@ -47,7 +39,7 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Création d’un fichier de données
 
@@ -68,7 +60,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données
 
-Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_&#x200B;dans Experience Cloud.
+Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_dans Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -98,7 +90,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribu
 
       * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL customer Settings], dans l’outil [Service Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
+      * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
         Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -120,7 +112,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribu
 
         Voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Namespace Code:]** Utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Namespace Code:]** Utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -132,7 +124,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Edit Customer Data Source], cliquez sur **[!UICONTROL File Upload]**.
 
-   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
+   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
@@ -148,7 +140,7 @@ Après avoir chargé le fichier, les données du tableau s’affichent sous l’
 
 * **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Affiche le nombre d’identifiants qui ont reçu un alias vers les identifiants visiteur Experience Cloud.
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés. —>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur Experience Cloud ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur Experience Cloud en alias les plus récents, jusqu’à ce qu’il y ait 10 000 alias. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés. -->
 
 ## Validation du schéma {#validate-schema}
 
