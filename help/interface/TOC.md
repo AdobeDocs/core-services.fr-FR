@@ -19,7 +19,7 @@ ht-degree: 85%
 + IA dans Experience Cloud {#features}
    + [IA générative](/help/interface/features/generative-ai.md)
    + [IA agentique](features/agentic-ai.md)
-   + {hide-from-toc}[ Surveillance IA ](/help/interface/features/ai-monitoring.md)
+   + {hide-from-toc}[&#x200B; Surveillance IA &#x200B;](/help/interface/features/ai-monitoring.md)
    + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
 + Administration {#administration}
    + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
