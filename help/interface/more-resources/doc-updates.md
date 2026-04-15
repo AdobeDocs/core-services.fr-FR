@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 656
 ht-degree: 66%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 66%
 # Mises à jour de la documentation
 
 Découvrez où se produisent les mises à jour de la documentation pour l’interface centrale et l’administration d’Experience Cloud.
+
+**Mars 2026**
+
+Ajout de [tâches d’IA et consommation de crédits](../features/ai-credit-consumption.md)
 
 **Novembre 2025**
 
@@ -62,7 +66,7 @@ Mise à jour [préférences utilisateur](../features/account-preferences.md).
 
 **26 Avril 2024**
 
-Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP Adobe Experience Cloud](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
+Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP &#x200B;](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
 
 **9 Avril 2024**
 
@@ -85,7 +89,7 @@ Mise à jour de la [FAQ sur l’administration](faq.md) avec des informations su
 | Fonctionnalité | Description |
 | ------- | ------- |
 | Page d’accueil | Les informations au bas de la page d’accueil d’Experience Cloud ont été déplacées vers la vignette du profil utilisateur. Cela inclut les informations juridiques et la sélection de la langue dans la section des préférences. |
-| Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations de graphiques dans le workflow de création de widgets d’Experience Platform. Helios recommande une visualisation appropriée pour accompagner une sélection de données spécifique (actuellement sélection de données à variable unique). |
+| Tableaux de bord AEP | [!DNL Helios Lite] fournit des recommandations pour les graphiques dans le workflow de création de widgets dʼExperience Platform. Helios recommande une visualisation appropriée pour accompagner une sélection de données spécifique (actuellement sélection de données à variable unique). |
 | Tableaux de bord AEP | [!DNL Instory] fournit une narration écrite basée sur le machine learning et des légendes pour les graphiques. Il agrémente les graphiques sur la page des tableaux de bord AEP avec des points à puces pertinents, qui reflètent tout changement et incident majeur dans les données du graphique. |
 
 **13 octobre 2021**

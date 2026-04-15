@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: 1426
 ht-degree: 78%
 
 ---
@@ -42,17 +42,23 @@ Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mise
 
 Pour consulter des notes de mise à jour de toutes les applications, reportez-vous à la page [Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
+## Avril 2026
+
+| Date | Mise à jour | Description |
+| ------- | ------- | ------- |
+| 20 Avril 2026 | Page d’accueil actualisée | Actualisation de l’aspect de la page d’accueil de `https://experience.adobe.com/home`. Avec cette version, toutes les fonctionnalités restent les mêmes, avec une interface utilisateur actualisée, la prise en charge complète du _mode sombre_ et une accessibilité améliorée. |
+
 ## Janvier 2026
 
 | Date | Mise à jour | Description | Produits concernés |
 | -----------| -----------| ---------- | ---------- |
-| **14 janvier 2026** | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans Experience Cloud. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
+| 14 janvier 2026 | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans Experience Cloud. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
 
 ## Septembre 2025
 
 | Date | Mise à jour | Description |
 | -----------| -----------| ---------- |
-| **25 septembre 2025** | Prise en charge des listes d’accès IP | Pour les organisations pour lesquelles les listes d’accès IP dans Admin Console sont disponibles et activées, Experience Cloud respectera ces restrictions IP afin d’accéder aux applications sur le domaine `https://experience.adobe.com`. Cette mise à jour affecte toutes les applications web accessibles via ce domaine. Les vérifications ont lieu lors du chargement de nouvelles pages et de la connexion dans cette organisation. |
+| vendredi 25 septembre 2025 | Prise en charge des listes d’accès IP | Pour les organisations pour lesquelles les listes d’accès IP dans Admin Console sont disponibles et activées, Experience Cloud respectera ces restrictions IP afin d’accéder aux applications sur le domaine `https://experience.adobe.com`. Cette mise à jour affecte toutes les applications web accessibles via ce domaine. Les vérifications ont lieu lors du chargement de nouvelles pages et de la connexion dans cette organisation. |
 
 ## Mars 2025
 
@@ -76,13 +82,13 @@ Pour consulter des notes de mise à jour de toutes les applications, reportez-vo
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Accueil personnalisable | Sur la page de destination d’Experience Cloud, cliquez sur **[!UICONTROL Edit]**. [!UICONTROL Edit] Le mode vous permet de personnaliser votre page d’accueil Experience Cloud en accédant à une bibliothèque de widgets et à des arrière-plans personnalisés. [!UICONTROL Edit] Le mode fournit des commandes transparentes et intuitives pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des ajustements de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
+| Accueil personnalisable | Sur la page de destination d’Experience Cloud, cliquez sur **[!UICONTROL Edit]**. [!UICONTROL Edit] mode vous permet de personnaliser votre page d’accueil Experience Cloud avec un accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Edit] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des ajustements de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
 
 ## mercredi 10 septembre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Voir _Notifications Slack_ dans l’aide [Préférences](../features/account-preferences.md) pour plus d’informations. |
+| Notifications Slack | Vous pouvez configurer vos préférences de compte pour envoyer des notifications Experience Cloud à Slack. Voir _Notifications_ dans l’aide [Préférences](../features/account-preferences.md) pour plus d’informations. |
 
 <!--
 ## July - August 2023
@@ -112,7 +118,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Quick Access]. <br>**Restez informé grâce à l’épinglage intelligent** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées sur le [!UICONTROL Quick Access]. |
+| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Quick Access]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées sur le [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -176,8 +182,8 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
-| Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir dʼadresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l&#39;URL d&#39;Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `example.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Search]** pour trouver des tutoriels, de la documentation, des cours, etc. |
+| Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à Experience Cloud sans avoir à saisir dʼadresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l’URL d’Experience Cloud. <br>Supposons, par exemple, que vous possédiez le domaine `example.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [&#128279;](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Search]** pour trouver des tutoriels, de la documentation, des cours, etc. |
 
 {style="table-layout:auto"}
 
