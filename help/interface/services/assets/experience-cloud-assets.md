@@ -1,5 +1,5 @@
 ---
-description: Découvrez les ressources Experience Cloud Assets que vous pouvez partager entre les applications.
+description: Découvrez CX Enterprise Assets que vous pouvez partager entre les applications.
 solution: Experience Cloud
 title: Vue d’ensemble d’Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -21,21 +21,21 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 86%
+source-wordcount: 320
+ht-degree: 69%
 
 ---
 
-# Présentation dʼExperience Cloud Assets
+# Présentation de CX Enterprise Assets
 
-Experience Cloud Assets constitue un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
+CX Enterprise Assets fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
 
 Les services de ressources comprennent ce qui suit :
 
 * Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les applications).
-* Intégrations à Creative Cloud, collaboration Experience Cloud et applications Experience Cloud.
+* Intégrations à Creative Cloud, collaboration CX Enterprise et applications CX Enterprise.
 
 Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 
@@ -44,9 +44,9 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 * **[!DNL Adobe Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
 
 
-## Accéder à Experience Cloud Assets
+## Accéder à CX Enterprise Assets
 
-![Accès à Experience Cloud Assets](../../assets/asset-nav.png)
+![Accéder à CX Enterprise Assets](../../assets/asset-nav.png)
 
 ## Accès à la barre dʼoutils
 

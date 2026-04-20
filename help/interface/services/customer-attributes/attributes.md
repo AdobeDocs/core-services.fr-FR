@@ -1,6 +1,6 @@
 ---
 title: À propos d’ [!DNL Customer Attributes]
-description: En savoir plus sur  [!DNL Customer Attributes]  dans Adobe Experience Cloud. Découvrez comment charger des données d’attributs du client ou de la cliente pour les utiliser dans Adobe Analytics et Adobe Target.
+description: En savoir plus sur  [!DNL Customer Attributes]  dans Adobe CX Enterprise. Découvrez comment charger des données d’attributs du client ou de la cliente pour les utiliser dans Adobe Analytics et Adobe Target.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,36 +23,36 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 55%
+source-wordcount: 313
+ht-degree: 47%
 
 ---
 
-# [!DNL Customer Attributes] dans Experience Cloud
+# [!DNL Customer Attributes] dans CX Enterprise
 
 **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-[!DNL Customer Attributes] dans Adobe Experience Cloud vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans Experience Cloud, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+[!DNL Customer Attributes] dans Adobe CX Enterprise vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans CX Enterprise, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 ![Vue d’ensemble des attributs du client ou de la cliente](assets/custom_reports.png)
 
 ## À propos des données client d’entreprise {#customer-data}
 
-Les données client d’entreprise font référence à l’ensemble des informations collectées à l’échelle de l’organisation sur les clients, les prospects et les partenaires. Elles se trouvent sur d’autres systèmes et peuvent inclure des informations telles que les adhésions, le niveau de fidélité, l’âge, le sexe, les produits possédés, les intérêts et la valeur sur toute la durée de vie.
+Les données client d’entreprise font référence à l’ensemble des informations collectées à l’échelle de l’organisation sur les clients, les prospects et les partenaires.Il réside sur d’autres systèmes et peut inclure des informations telles que les adhésions, le niveau de fidélité, l’âge, le sexe, les produits détenus, les centres d’intérêt et la valeur à vie.
 
 L’image suivante est un exemple de fichier de _données_ affichant les données d’abonnés pour les produits , y compris les identifiants de membre, les produits autorisés, les produits les plus lancés, etc.
 
 ![En quoi consistent les données client d’entreprise ?](assets/01_crs_usecase.png)
 
-Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+Après avoir créé le fichier de données, vous pouvez le charger vers la source d’attributs du client que vous créez dans **[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]**.
 
 Voir [Charger des données d’attributs du client](t-crs-usecase.md) pour en savoir plus sur ce workflow.
 
 ## Exemples d’attributs du client ou de la cliente dans Analytics et Target
 
-Une fois que les données sont présentes dans Experience Cloud, vous pouvez les personnaliser et les partager dans des solutions à des fins de création de rapports, de segmentation, d’activités et de campagnes.
+Une fois que les données résident dans CX Enterprise, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
 
 Par exemple :
 

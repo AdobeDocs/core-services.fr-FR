@@ -1,5 +1,5 @@
 ---
-description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans Experience Cloud.
+description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans CX Enterprise.
 keywords: partage de ressources;Creative Cloud;services principaux
 solution: Experience Cloud
 title: Comportement des dossiers partagés
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 627
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Règles relatives au comportement des dossiers partagés lorsqu’ils sont dépl
 
 >[!NOTE]
 >
->Les dossiers et ressources Experience Cloud partagés sont mis en miroir sur le bureau Creative Cloud dans une relation :1. Si un utilisateur Experience Cloud change un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés dans la corbeille de l’ordinateur local, où vous pouvez les restaurer manuellement sur votre machine.
+>Les dossiers et ressources CX Enterprise partagés sont mis en miroir sur le bureau Creative Cloud dans une relation 1:1. Si un utilisateur CX Enterprise modifie un dossier (supprime, ajoute ou supprime le partage), l’action est mise en miroir dans les applications de bureau et web Creative Cloud. En tant que tel, si le partage d’un dossier est annulé, le dossier et les ressources sont supprimés de l’ordinateur local. Une fois le partage supprimé, le dossier et son contenu sont déplacés dans la corbeille de l’ordinateur local, où vous pouvez les restaurer manuellement sur votre machine.
 
 ## Dossier non partagé dans un dossier partagé
 

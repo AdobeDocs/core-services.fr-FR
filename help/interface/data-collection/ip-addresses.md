@@ -11,14 +11,14 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: 426
 ht-degree: 9%
 
 ---
 
-# Adresses IP utilisées par Experience Cloud
+# Adresses IP utilisées par CX Enterprise
 
 Certaines configurations de pare-feu bloquent les adresses IP issues des serveurs de collecte de données d’Adobe ou des serveurs chargés d’accéder aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres du pare-feu de votre organisation afin d’autoriser l’accès et d’envoyer des données depuis votre organisation. Cette page comprend les systèmes entrants (tels que la collecte de données) et sortants (tels que les flux de données dans Adobe Analytics) qu’Adobe utilise.
 
@@ -26,12 +26,12 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 >
 >Bien qu’Adobe fasse de son mieux pour tenir ce document à jour, il ne peut pas garantir que la liste des plages d’adresses IP reste la même. Les changements possibles comprennent la croissance et l&#39;expansion de l&#39;entreprise, un registre Internet qui nécessite des modifications à l&#39;espace d&#39;adresse IP d&#39;Adobe ou un fournisseur de services Internet qui cesse de fonctionner.
 
-Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe Experience Cloud individuels possèdent leurs propres adresses IP qu’ils utilisent :
+Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe CX Enterprise individuels possèdent leurs propres adresses IP qu’ils utilisent :
 
 * [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Tous les blocs d’adresses IP Adobe
 
@@ -49,12 +49,12 @@ Le tableau suivant couvre toutes les adresses IP détenues par Adobe. Ce tableau
 
 {style="table-layout:auto"}
 
-## Collecte de données Adobe Experience Cloud et blocs d’adresses IP FTP
+## Collecte de données Adobe CX Enterprise et blocs d’adresses IP FTP
 
 Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez consulter le tableau suivant. Comprend :
 
-* Serveurs de collecte de données pour tous les produits Experience Cloud
-* Serveurs FTP pour tous les produits Experience Cloud
+* Serveurs de collecte de données pour tous les produits CX Enterprise
+* Serveurs FTP pour tous les produits CX Enterprise
 
 Toutes les plages d’adresses IP de cette section sont incluses dans le tableau ci-dessus.
 
@@ -92,7 +92,7 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 
 {style="table-layout:auto"}
 
-Le Adobe Experience Cloud prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
+Le Adobe CX Enterprise prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
 
 | Emplacement | Hôte |
 | --- | --- |

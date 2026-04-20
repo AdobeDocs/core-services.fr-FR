@@ -1,6 +1,6 @@
 ---
 title: Collecte de données régionales
-description: Découvrez la collecte de données régionales dans Experience Cloud.
+description: Découvrez la collecte de données régionale dans CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 1%
 
 ---
 
 # Collecte de données régionales
 
-Adobe Experience Cloud utilise la collecte de données régionale (RDC) afin que les interactions entre vos visiteurs et Adobe se produisent le plus près possible de vos visiteurs. Les données collectées localement sur un site Edge sont transférées en toute sécurité vers un site principal pour traitement. Une fois traitées, les données sont disponibles pour les produits et services Adobe Experience Cloud.
+Adobe CX Enterprise utilise la collecte de données régionale (RDC) afin que les interactions entre vos visiteurs et Adobe se produisent le plus près possible de vos visiteurs. Les données collectées localement sur un site Edge sont transférées en toute sécurité vers un site principal pour traitement. Une fois traitées, les données sont disponibles pour les produits et services Adobe CX Enterprise.
 
 Le workflow de collecte de données régionale offre plusieurs avantages :
 
@@ -44,7 +44,7 @@ La collecte de données régionale inclut actuellement les emplacements suivants
 
 {style="table-layout:auto"}
 
-Le collecte de données régionale _*Chine nécessite le package complémentaire Optimisation des performances pour la Chine et s’applique uniquement à Adobe Analytics qui utilise la collecte de données AppMeasurement. Les autres services Experience Cloud et la collecte de données Web SDK ne sont pas pris en charge. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur le package de modules complémentaires d’optimisation des performances pour la Chine._
+Le collecte de données régionale _*Chine nécessite le package complémentaire Optimisation des performances pour la Chine et s’applique uniquement à Adobe Analytics qui utilise la collecte de données AppMeasurement. Les autres services CX Enterprise et la collecte de données Web SDK ne sont pas pris en charge. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur le package de modules complémentaires d’optimisation des performances pour la Chine._
 
 ## Collecte de données tierces
 

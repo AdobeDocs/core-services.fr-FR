@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment configurer des certificats sécurisés à utiliser avec les cookies propriétaires de Adobe Experience Cloud.
+description: Découvrez comment configurer des certificats sécurisés à utiliser avec les cookies propriétaires de Adobe CX Enterprise.
 solution: Experience Cloud,Analytics
 title: Programme de certificat géré par Adobe
 index: true
@@ -32,10 +32,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 3%
+source-wordcount: 1234
+ht-degree: 4%
 
 ---
 
@@ -117,7 +117,7 @@ Une fois que vous avez validé que votre certificat fonctionne correctement, vou
 * **Extension de balise Web SDK** : mettez à jour le champ [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) lors de la configuration de l’extension.
 * **Web SDK (alliage)** : mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/edgedomain) dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview).
 * **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [&#x200B; Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
-* **AppMeasurement** : mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
+* **&#x200B;**&#x200B;: mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
 
 Si votre site utilise plusieurs méthodes d’implémentation et que vous ne pouvez pas toutes les mettre à jour simultanément, pensez à configurer un délai de grâce. Consultez [Considérations relatives à la migration du service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/migration) pour obtenir des instructions supplémentaires sur la manière d’empêcher que les visiteurs ne soient comptabilisés comme de nouveaux visiteurs sur l’ensemble de votre site.
 
@@ -157,7 +157,7 @@ Adobe travaille avec DigiCert pour émettre un certificat SHA-2.
 
 +++Ce programme entraîne-t-il des frais supplémentaires?
 
-Non. Adobe propose ce service sans frais supplémentaires à tous les clients Adobe Experience Cloud.
+Non. Adobe propose ce service sans frais supplémentaires à tous les clients Adobe CX Enterprise.
 
 +++
 
@@ -191,6 +191,6 @@ Adobe prend en charge les types de certificat RSA et ECC pour répondre aux diff
 
 +++Puis-je gérer mes propres certificats à la place ?
 
-Oui. Cependant, si vous gérez vos propres certificats, vous êtes chargé de les renouveler et de les fournir à Adobe chaque fois que vous les renouvelez. Ce processus est moins sécurisé et peut entraîner une perte de données si votre entreprise oublie de renouveler un certificat à temps. Adobe recommande d’utiliser le programme de certificat géré au lieu de gérer les certificats vous-même, en particulier en raison des réductions de la durée de vie maximale du certificat TLS. Pour plus d’informations[&#x200B; consultez Archivage des clés publiques &#x200B;](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods)6.3.1 dans CA/Browser Forum Server Certificate Baseline Requirements.
+Oui. Cependant, si vous gérez vos propres certificats, vous êtes chargé de les renouveler et de les fournir à Adobe chaque fois que vous les renouvelez. Ce processus est moins sécurisé et peut entraîner une perte de données si votre entreprise oublie de renouveler un certificat à temps. Adobe recommande d’utiliser le programme de certificat géré au lieu de gérer les certificats vous-même, en particulier en raison des réductions de la durée de vie maximale du certificat TLS. Pour plus d’informations[&#128279;](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) consultez Archivage des clés publiques 6.3.1 dans CA/Browser Forum Server Certificate Baseline Requirements.
 +++
 

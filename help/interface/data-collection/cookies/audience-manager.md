@@ -1,5 +1,5 @@
 ---
-description: Découvrez les cookies Audience Manager dans Adobe Experience Cloud.
+description: Découvrez les cookies Audience Manager dans Adobe CX Enterprise.
 keywords: Cookies
 solution: Experience Cloud, Audience Manager
 title: Cookies Audience Manager
@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 98%
+source-wordcount: 665
+ht-degree: 96%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Affichage des utilisateurs et des détails utilisateur
-description: Découvrez l’outil d’administration dans Experience Cloud. Affichez une liste que vous pouvez trier et filtrer, de tous les utilisateurs, utilisatrices et politiques Experience Cloud.
+description: En savoir plus sur l’outil d’administration dans CX Enterprise. Affichez une liste triable et filtrable de tous les utilisateurs et politiques de CX Enterprise.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -15,16 +15,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# [!UICONTROL Admin Tool] CX Enterprise
 
-Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques d’Experience Cloud, avec des détails dans la [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques de CX Enterprise, avec des détails dans la [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
 
 1. Connectez-vous à `https://experience.adobe.com/.`
 
@@ -38,7 +38,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
 ## Page Utilisateurs
 
-Cette page affiche la liste complète des utilisateurs ayant accès à Experience Cloud dans votre entreprise. Il fournit des informations sur les droits d’application et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
+Cette page affiche la liste complète des utilisateurs ayant accès à CX Enterprise dans votre organisation. Il fournit des informations sur les droits d’application et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
 
 ![Page des utilisateurs dʼAdmin Console](../assets/admin-tool-users.png)
 
@@ -47,15 +47,15 @@ Cette page affiche la liste complète des utilisateurs ayant accès à Experienc
 | [!UICONTROL Name] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Cliquez sur le nom d’un utilisateur pour afficher plus de détails sur cet utilisateur. |
 | [!UICONTROL Email] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL ID Type] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
-| [!UICONTROL Solutions] | Résumé des applications Experience Cloud auxquelles lʼutilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
-| [!UICONTROL Last Login] | Heure et date de la dernière connexion de l’utilisateur à Experience Cloud. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans Experience Cloud et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Solutions] | Résumé des applications CX Enterprise auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
+| [!UICONTROL Last Login] | Heure et date de la dernière connexion de l’utilisateur à CX Enterprise. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans CX Enterprise et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de la vue Liste des utilisateurs et utilisatrices
 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des utilisateurs.
 
 * Recherchez des utilisateurs par nom ou adresse e-mail. Les recherches correspondent à la chaîne de texte que vous saisissez.
-* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux [!UICONTROL Name,] [!UICONTROL Email,] et aux colonnes [!UICONTROL Last Login].
+* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux [!UICONTROL Email,] [!UICONTROL Name,] et aux colonnes [!UICONTROL Last Login].
 * Pour appliquer plusieurs filtres aux utilisateurs de la liste selon des critères spécifiques, cliquez sur **[!UICONTROL Filter By]**. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent Domaine de messagerie `AND` TYPE D’ID `AND` Solution.
 
 | Élément | Description |
@@ -86,7 +86,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 
 ## Résumé des solutions
 
-Cette section présente un résumé des applications Experience Cloud auxquelles lʼutilisateur ou l’utilisatrice peut accéder. Inclut le rôle administratif du produit, le cas échéant.
+Cette section présente un résumé des applications CX Enterprise auxquelles l’utilisateur peut accéder. Inclut le rôle administratif du produit, le cas échéant.
 
 ## Liste détaillée d’accès aux produits
 
@@ -102,7 +102,7 @@ Cette section affiche une liste complète de tous les profils d’abonnement de 
 
 ## Page Politiques
 
-Cette page affiche la liste complète des politiques Experience Cloud de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques.
+Cette page affiche la liste complète des politiques CX Enterprise de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques.
 
 ![Page des politiques dans Admin Console](../assets/admin-tool-policies.png)
 
