@@ -54,7 +54,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](a
 
    Par exemple, pour une organisation avec des Federated ID et le domaine `example.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@example.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-   **Remarque :** l’administrateur ou l’administratrice de votre organisation peut restreindre l’accès aux produits Adobe par adresses IP. Si tel est le cas, vous pouvez recevoir une erreur après vous être connecté à CX Enterprise ou avoir basculé vers une organisation avec cette option activée. Pour plus d’informations, consultez la section [Limiter l’accès au produit par adresse IP](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
+   **Remarque :** l’administrateur ou l’administratrice de votre organisation peut restreindre l’accès aux produits Adobe par adresses IP. Si tel est le cas, vous pouvez recevoir une erreur après vous être connecté à CX Enterprise ou avoir basculé vers une organisation avec cette option activée. Pour plus d’informations, consultez la section [Limiter l’accès au produit par adresse IP](https://helpx.adobe.com/fr/enterprise/using/ip-based-access.html).
 
 
 ## Accès aux applications CX Enterprise
@@ -67,7 +67,7 @@ Pour accéder aux applications et services CX Enterprise configurés pour vous a
 
 ## Obtention d’aide et de support
 
-Accédez à l’apprentissage et à l’aide en utilisant l’**[!UICONTROL Help center]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à l’apprentissage et à l’aide en utilisant l’**[!UICONTROL Help center]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -75,7 +75,7 @@ Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivan
 
 * **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
 * **[!UICONTROL Feedback]:** Partagez vos commentaires sur votre expérience CX Enterprise. Vos commentaires sont utilisés pour améliorer les produits et services d’Adobe.
-* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
+* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
 * **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
 
 ## Gérer votre profil d’utilisation
