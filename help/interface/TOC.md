@@ -3,23 +3,22 @@ role: User,Admin
 user-guide-title: Interface et administration Experience Cloud
 breadcrumb-title: Interface et administration Experience Cloud
 title: Interface et administration Experience Cloud
-description: Découvrez l’interface ainsi que les cookies et les préférences de compte Experience Cloud. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez des ressources Experience Cloud.
+description: Découvrez l’interface CX Enterprise, les cookies et les préférences du compte. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez CX Enterprise Assets.
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 71%
 
 ---
 
+# Interface et administration de CX Enterprise {#interface}
 
-# Interface et administration Experience Cloud {#interface}
-
-+ [Interface et administration Experience Cloud](/help/interface/experience-cloud.md)
-+ IA dans Experience Cloud {#features}
++ [Interface et administration de CX Enterprise](/help/interface/experience-cloud.md)
++ L’IA dans CX Enterprise {#features}
    + [IA générative](/help/interface/features/generative-ai.md)
    + [IA agentique](features/agentic-ai.md)
-   + {hide-from-toc}[&#x200B; Surveillance IA &#x200B;](/help/interface/features/ai-monitoring.md)
+   + {hide-from-toc}[ Surveillance IA ](/help/interface/features/ai-monitoring.md)
    + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
 + Administration {#administration}
    + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
@@ -66,7 +65,7 @@ ht-degree: 85%
       + [Cookies publicitaires](/help/interface/data-collection/cookies/advertising.md)
       + [Cookies Analytics](/help/interface/data-collection/cookies/analytics.md)
       + [Cookies Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Cookies Experience Cloud](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [Cookies CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Cookies Target](/help/interface/data-collection/cookies/target.md)
       + [Cookies du SDK web](/help/interface/data-collection/cookies/web-sdk.md)
    + [Collecte de données régionale](/help/interface/data-collection/rdc.md)

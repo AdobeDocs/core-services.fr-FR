@@ -1,29 +1,29 @@
 ---
 title: Tâches d’agent et consommation de crédit d’IA
-description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications Experience Cloud.
+description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1055'
 ht-degree: 4%
 
 ---
 
 # Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
 
-Mise à jour : **vendredi 5 mars 2026**
+Mise à jour : **5 mars 2026**
 
-Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications Experience Cloud. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications Experience Cloud existantes, voir [IA dédiée aux agents dans Experience Cloud](agentic-ai.md#existing-apps).
+Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications CX Enterprise. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications CX Enterprise existantes, voir [IA dédiée aux agents dans CX Enterprise](agentic-ai.md#existing-apps).
 
 ## Traitements de l&#39;agent
 
 Une _tâche d’agent_ est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
 
-À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications Experience Cloud appropriées.
+À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications CX Enterprise appropriées.
 
 ## Crédits IA
 
@@ -65,6 +65,6 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 ## Plus d’aide sur cette rubrique
 
-* [GenAI dans Experience Cloud](/help/interface/features/generative-ai.md)
-* [L’IA dédiée aux agences dans Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l&#39;utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [GenAI dans CX Enterprise](/help/interface/features/generative-ai.md)
+* [L’IA dédiée aux agences dans CX Enterprise](/help/interface/features/agentic-ai.md)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

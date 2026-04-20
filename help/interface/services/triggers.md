@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment configurer les Triggers Experience Cloud.
+description: Découvrez comment configurer les déclencheurs CX Enterprise.
 solution: Experience Cloud
 title: Présentation de Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -9,31 +9,21 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 TQID: https://experienceleague.adobe.com/1R70ZEmKiP9VhhSRVCXHjGoJbOb7Mh8spKRm4FgNRPc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 78%
+source-wordcount: 697
+ht-degree: 77%
 
 ---
 
-# Experience Cloud Triggers
+# Déclencheurs CX Enterprise
 
-[!UICONTROL Triggers] dans Experience Cloud vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel.
+[!UICONTROL Triggers] dans CX Enterprise vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel.
 
 Par exemple :
 
@@ -55,7 +45,7 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 * **Action :** vous pouvez créer des triggers, par exemple, pour qu’ils se déclenchent après des inscriptions à une newsletter, des abonnements par e-mail ou des demandes de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un déclencheur pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des déclencheurs pour les personnes qui regardent un programme en particulier et qui doivent répondre à une enquête.
 * **Début et fin de session :** créez un déclencheur pour les événements de début et de fin de session.
 
-## Création d’un trigger Experience Cloud
+## Création d’un déclencheur CX Enterprise
 
 Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez par exemple indiquer les critères des règles d’un déclencheur pendant une visite, comme des mesures telles que Abandon du panier ou des dimensions telles que le nom du produit. Lorsque les règles sont satisfaites, le déclencheur s’exécute.
 
@@ -63,7 +53,7 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
 >
 >Pour des raisons techniques, le nombre de déclencheurs est actuellement limité à 100.
 
-1. Dans Experience Cloud, cliquez sur ![menu](../assets/menu-icon.png), puis sur **[!UICONTROL Data Collection/Launch]**.
+1. Dans CX Enterprise, cliquez sur ![menu](../assets/menu-icon.png), puis sur **[!UICONTROL Data Collection/Launch]**.
 1. Sur la carte [!UICONTROL Triggers], cliquez sur **[!UICONTROL Manage Triggers]**.
 1. Cliquez sur **[!UICONTROL New Trigger]**, puis spécifiez le type de déclencheur :
 
@@ -87,7 +77,7 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
 
 ## Exemples de déclencheurs
 
-Exemples de triggers Experience Cloud :
+Exemples de Triggers CX Enterprise :
 
 ### Déclencheur d’abandon de panier
 
