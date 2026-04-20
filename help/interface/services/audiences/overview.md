@@ -10,11 +10,18 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 745
@@ -26,7 +33,7 @@ ht-degree: 48%
 
 [!DNL Audience Library] affiche les audiences dans CX Enterprise. Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants [!DNL CX Enterprise]). Vous pouvez gérer la traduction des données de visiteurs et visiteuses en segmentation d’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments. Vous pouvez également partager les segments d’audiencde avec des produits et services dans [!DNL CX Enterprise].
 
-![audiences ](assets/audiences.png)
+![audiences &#x200B;](assets/audiences.png)
 
 Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
@@ -83,4 +90,4 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Consultez [ Publication de segments sur CX Enterprise ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Consultez [&#x200B; Publication de segments sur CX Enterprise &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

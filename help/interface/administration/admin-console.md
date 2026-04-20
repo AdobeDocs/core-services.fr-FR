@@ -9,9 +9,17 @@ role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 TQID: https://experienceleague.adobe.com/ojHy0Am9T1T7Zu5EpR3jLynQ-dotvhcn6usRynb5TXo
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -64,7 +72,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [ Journal d’audit ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
+| [&#x200B; Journal d’audit &#x200B;](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
 
 
 ## Ressources spécifiques à l’application
@@ -101,16 +109,16 @@ Ces liens vous aident à trouver des informations d’administration pour des ap
 * [Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/administration/admin-console-migration)
 * [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions)
 * [Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/user-management-acs)
-* [](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 * [Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
 * [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/onboarding/journey/admin-console)
-* [](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) et [collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)
-* [](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) et [collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
 * [Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)
 * [Journey Orchestration](https://experienceleague.adobe.com/en/docs/journeys/using/starting-with-journeys/access-management)
-* [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
-* [](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler/using/data-governance/access-controls)
 * [Cible](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)

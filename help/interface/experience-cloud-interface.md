@@ -52,13 +52,13 @@ CX Enterprise prend en charge les langues préférées de chaque utilisateur, te
 * Espagnol
 * Taïwanais
 
-Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [](https://experience.adobe.com/preferences).
+Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [&#128279;](https://experience.adobe.com/preferences).
 
 ## Connexion à CX Enterprise
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
-1. Accédez à [](https://experience.adobe.com?lang=fr).
+1. Accédez à [&#128279;](https://experience.adobe.com?lang=fr).
 1. Cliquez sur **[!UICONTROL Sign in with an Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
@@ -126,4 +126,4 @@ Cliquez sur **[!UICONTROL Notifications]** pour afficher les notifications qui s
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Vous pouvez configurer des notifications dans les préférences de [](#preferences).
+Vous pouvez configurer des notifications dans les préférences de [&#128279;](#preferences).

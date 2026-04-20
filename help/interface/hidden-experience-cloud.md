@@ -16,7 +16,7 @@ ht-degree: 50%
 
 # Interface et administration de CX Enterprise
 
-[](https://experience.adobe.com?lang=fr) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
+[&#128279;](https://experience.adobe.com?lang=fr) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 
 30 octobre caché
 
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](administration/organizations.md).
 
-1. Accédez à [](https://experience.adobe.com?lang=fr).
+1. Accédez à [&#128279;](https://experience.adobe.com?lang=fr).
 1. Saisissez votre adresse e-mail Adobe, puis cliquez sur **[!UICONTROL Continue]**.
 1. Cliquez sur un compte.
 1. Saisissez votre mot de passe.

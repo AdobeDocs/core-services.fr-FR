@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 553
@@ -20,7 +23,7 @@ ht-degree: 45%
 
 # Interface et administration de CX Enterprise
 
-[](https://experience.adobe.com?lang=fr) (anciennement _Experience Cloud_) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
+[&#128279;](https://experience.adobe.com?lang=fr) (anciennement _Experience Cloud_) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 
 <!-- ![CX Enterprise](assets/landing.png) -->
 
@@ -35,7 +38,7 @@ ht-degree: 45%
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](administration/organizations.md).
 
-1. Accédez à [](https://experience.adobe.com?lang=fr).
+1. Accédez à [&#128279;](https://experience.adobe.com?lang=fr).
 1. Saisissez votre adresse e-mail Adobe, puis cliquez sur **[!UICONTROL Continue]**.
 1. Cliquez sur un compte.
 1. Saisissez votre mot de passe.

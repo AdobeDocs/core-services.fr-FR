@@ -9,11 +9,18 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 585
@@ -27,7 +34,7 @@ Un *organisation* (ID d’organisation) est l’entité qui permet à un adminis
 
 L’organisation fonctionne comme une société de connexion qui couvre tous les produits et applications CX Enterprise. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
 
-![Organisations ](../assets/organizations-menu.png)
+![Organisations &#x200B;](../assets/organizations-menu.png)
 
 Pour vérifier que vous vous êtes connecté à l’organisation appropriée, cliquez sur **[!UICONTROL Profile]** pour afficher le nom d’organisation par défaut. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
 
@@ -51,7 +58,7 @@ Vous pouvez afficher votre ID d’organisation ainsi que d’autres informations
 
 **Pour afficher l’ID de votre organisation**
 
-1. Dans [](https://experience.adobe.com?lang=fr), appuyez sur **Ctrl+i** sur le clavier.
+1. Dans [&#128279;](https://experience.adobe.com?lang=fr), appuyez sur **Ctrl+i** sur le clavier.
 
    ![Identifiant d’organisation affecté](../assets/assigned-organization.png)
 

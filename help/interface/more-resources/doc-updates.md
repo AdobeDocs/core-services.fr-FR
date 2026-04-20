@@ -8,11 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
@@ -56,7 +66,7 @@ Mise à jour [préférences utilisateur](../features/account-preferences.md).
 
 **26 Avril 2024**
 
-Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP ](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
+Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP &#x200B;](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
 
 **9 Avril 2024**
 
@@ -154,7 +164,7 @@ Mise à jour de la définition des données Analytics brutes dans [Création d�
 
 **9 mai 2016**
 
-Ajout de [Intégrations ](../administration/integrations.md), un résumé de la documentation d’intégration.
+Ajout de [Intégrations &#x200B;](../administration/integrations.md), un résumé de la documentation d’intégration.
 
 **11 février 2016**
 
@@ -166,9 +176,9 @@ Ajout de CX Enterprise Les utilisateurs peuvent désormais partager des dossiers
 
 **17 juillet 2014**
 
-Ajout de [FAQ ](faq.md) pour les administrateurs.
+Ajout de [FAQ &#x200B;](faq.md) pour les administrateurs.
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
+Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
 

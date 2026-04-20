@@ -10,11 +10,28 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 TQID: https://experienceleague.adobe.com/LWbjh-jXKmY6mcl047uzA1ZkhZlAmeNpt9JRg3Ynt9E
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: c8add8f2-4250-4fd9-9cde-9707036c567did: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e992d880-33bc-4949-a648-aa7d410276cdid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1234
@@ -99,8 +116,8 @@ Une fois que vous avez validé que votre certificat fonctionne correctement, vou
 
 * **Extension de balise Web SDK** : mettez à jour le champ [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) lors de la configuration de l’extension.
 * **Web SDK (alliage)** : mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dans la commande [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
-* **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [ Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
-* **** : mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [ Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
+* **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [&#x200B; Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
+* **&#x200B;**&#x200B;: mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
 
 Si votre site utilise plusieurs méthodes d’implémentation et que vous ne pouvez pas toutes les mettre à jour simultanément, pensez à configurer un délai de grâce. Consultez [Considérations relatives à la migration du service d’identification des visiteurs](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) pour obtenir des instructions supplémentaires sur la manière d’empêcher que les visiteurs ne soient comptabilisés comme de nouveaux visiteurs sur l’ensemble de votre site.
 
@@ -174,6 +191,6 @@ Adobe prend en charge les types de certificat RSA et ECC pour répondre aux diff
 
 +++Puis-je gérer mes propres certificats à la place ?
 
-Oui. Cependant, si vous gérez vos propres certificats, vous êtes chargé de les renouveler et de les fournir à Adobe chaque fois que vous les renouvelez. Ce processus est moins sécurisé et peut entraîner une perte de données si votre entreprise oublie de renouveler un certificat à temps. Adobe recommande d’utiliser le programme de certificat géré au lieu de gérer les certificats vous-même, en particulier en raison des réductions de la durée de vie maximale du certificat TLS. Pour plus d’informations](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) consultez Archivage des clés publiques [6.3.1 dans CA/Browser Forum Server Certificate Baseline Requirements.
+Oui. Cependant, si vous gérez vos propres certificats, vous êtes chargé de les renouveler et de les fournir à Adobe chaque fois que vous les renouvelez. Ce processus est moins sécurisé et peut entraîner une perte de données si votre entreprise oublie de renouveler un certificat à temps. Adobe recommande d’utiliser le programme de certificat géré au lieu de gérer les certificats vous-même, en particulier en raison des réductions de la durée de vie maximale du certificat TLS. Pour plus d’informations[&#128279;](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) consultez Archivage des clés publiques 6.3.1 dans CA/Browser Forum Server Certificate Baseline Requirements.
 +++
 
