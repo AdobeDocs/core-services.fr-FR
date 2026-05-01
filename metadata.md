@@ -4,7 +4,8 @@ description: Découvrez les composants de l’interface utilisateur, l’adminis
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
