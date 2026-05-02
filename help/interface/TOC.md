@@ -1,24 +1,24 @@
 ---
 role: User,Admin
-user-guide-title: Interface et administration Experience Cloud
-breadcrumb-title: Interface et administration Experience Cloud
-title: Interface et administration Experience Cloud
-description: Découvrez l’interface CX Enterprise, les cookies et les préférences du compte. Gérez les produits et configurez le service Personnes, y compris les attributs des clientes et des clients et la bibliothèque d’audiences. Partagez CX Enterprise Assets.
+user-guide-title: Guide d’administration et de l’interface centrale d’entreprise CX
+breadcrumb-title: Interface et administration CX Enterprise
+title: Guide d’interface et d’administration pour l’entreprise CX
+description: Découvrez l’interface et l’administration de l’entreprise CX. Parcourez les rubriques sur l’IA, l’administration, les services partagés, la collecte de données, les cookies, les notes de mise à jour et les questions fréquentes.
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 71%
+source-wordcount: '209'
+ht-degree: 58%
 
 ---
 
-# Interface et administration de CX Enterprise {#interface}
+# Interface et administration CX Enterprise {#interface}
 
-+ [Interface et administration de CX Enterprise](/help/interface/experience-cloud.md)
-+ L’IA dans CX Enterprise {#features}
++ [Interface et administration CX Enterprise](/help/interface/experience-cloud.md)
++ IA dans l’entreprise CX {#features}
    + [IA générative](/help/interface/features/generative-ai.md)
    + [IA agentique](features/agentic-ai.md)
-   + {hide-from-toc}[&#x200B; Surveillance IA &#x200B;](/help/interface/features/ai-monitoring.md)
+   + {hide-from-toc}[ Surveillance IA ](/help/interface/features/ai-monitoring.md)
    + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
 + Administration {#administration}
    + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
@@ -65,7 +65,7 @@ ht-degree: 71%
       + [Cookies publicitaires](/help/interface/data-collection/cookies/advertising.md)
       + [Cookies Analytics](/help/interface/data-collection/cookies/analytics.md)
       + [Cookies Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Cookies CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [Cookies d’entreprise CX](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Cookies Target](/help/interface/data-collection/cookies/target.md)
       + [Cookies du SDK web](/help/interface/data-collection/cookies/web-sdk.md)
    + [Collecte de données régionale](/help/interface/data-collection/rdc.md)
