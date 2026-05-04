@@ -1,5 +1,5 @@
 ---
-description: Découvrez les termes utilisés dans Adobe CX Enterprise et en quoi ils diffèrent de ceux utilisés dans Creative Cloud.
+description: Découvrez les termes utilisés dans Adobe CX Enterprise et leurs différences dans Creative Cloud.
 solution: Experience Cloud
 title: Terminologie
 feature-set: Experience Cloud Services
@@ -8,7 +8,6 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature_v2:
@@ -23,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 581cd64936e5740d6288564abd25b5dd358f0dc6
 workflow-type: tm+mt
 source-wordcount: 1273
 ht-degree: 68%
@@ -32,13 +31,17 @@ ht-degree: 68%
 
 # Terminologie
 
-Référence terminologique à l’intention des utilisateurs de CX Enterprise, et utilisation de ces termes dans Creative Cloud (le cas échéant).
+<!--
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+-->
 
-| Terme | Creative Cloud | CX Enterprise |
+Référence terminologique à l’intention des utilisateurs de l’entreprise CX, et façon dont ces termes sont utilisés dans Creative Cloud (le cas échéant).
+
+| Terme | Creative Cloud | Entreprise CX |
 | --- | ----- | ---- |
 | **Ressource** | Dans Creative Cloud, une ressource est généralement un fichier image.<br>Les ressources peuvent être des calques dans un fichier Photoshop, des diapositives dans un fichier PowerPoint, des pages dans un fichier PDF ou des fichiers dans un fichier ZIP. | Dans CX Enterprise, une ressource est un document numérique, une image, une vidéo ou un fichier audio qui peut avoir plusieurs rendus et plusieurs sous-ressources. Par exemple :<ul><li>Fichier</li><li>Document</li><li>Image</li><li>Vidéo</li><li>Clip audio</li><li>Présentation</li><li>Modèle d’image</li><li>Modèle de vidéo</li></ul> |
 | **Attribut** | | Ce que les individus ont en commun s’ils remplissent les critères d’un [segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr). (Semblable à une [caractéristique](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=fr) dans Audience Manager.) |
-| **Audiences** | Dans Creative Cloud, une audience peut être la personne qui regarde une vidéo. | Dans CX Enterprise, les audiences sont des groupes de personnes qui peuvent être ciblés dans les activités de campagne.<br>L’appartenance à une audience peut être déterminée en fonction d’un jeu de règles, d’après le contexte du visiteur ou d’après une liste fixe, par exemple une liste d’abonnés de publipostage ou les membres d’un groupe Facebook.<br>Dans les [audiences CX Enterprise](../services/audiences/overview.md), la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de les partager dans CX Enterprise.<br>**Adobe Target**<br> Dans Adobe Target, les audiences étaient auparavant appelées segments.<br>**Adobe Analytics**<br> Dans Analytics, les audiences peuvent être considérées comme les visiteurs d’un site web. Vous pouvez créer des segments d’audience et publier l’audience dans CX Enterprise. |
+| **Audiences** | Dans Creative Cloud, une audience peut être la personne qui regarde une vidéo. | Dans CX Enterprise, les audiences sont des groupes de personnes qui peuvent être ciblés dans les activités de campagne.<br>L’appartenance à une audience peut être déterminée en fonction d’un jeu de règles, d’après le contexte du visiteur ou d’après une liste fixe, par exemple une liste d’abonnés de publipostage ou les membres d’un groupe Facebook.<br>Dans [Audiences d’entreprise CX](../services/audiences/overview.md), la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de les partager dans l’entreprise CX.<br>**Adobe Target**<br> Dans Adobe Target, les audiences étaient auparavant appelées segments.<br>**Adobe Analytics**<br> Dans Analytics, les audiences peuvent être considérées comme les visiteurs d’un site web. Vous pouvez créer des segments d’audience et publier l’audience sur CX Enterprise. |
 | **Campagnes** | Dans Creative Cloud, une campagne peut être comparée à une campagne marketing qui utilise des ressources d’image Creative Cloud. | Dans CX Enterprise, les campagnes déterminent le contenu affiché pour l’audience. Elles déterminent également à quel emplacement et à quel moment le contenu est affiché. Une campagne a un objectif précis, qui est évalué par des mesures.<br>Pour qu’une campagne s’exécute, le contexte du visiteur doit correspondre à l’ensemble de règles de la campagne, et le contenu doit être diffusé selon les contraintes techniques du canal de l’emplacement.<br>Dans Adobe Target, les termes campagne et activité sont synonymes. |
 | **Canal** | Dans Creative Cloud, les canaux peuvent être des images en niveaux de gris stockant différents types d’informations. Il s’agit de canaux d’informations et de canaux de couleurs. | Dans CX Enterprise, un canal est un attribut d’un emplacement ou une activité dans une campagne.<br>Dans Analytics, les canaux marketing sont généralement utilisés pour fournir des informations sur la façon dont les visiteurs accèdent à votre site (par l’intermédiaire des campagnes par e-mail, par exemple).<br>Par exemple :<ul><li>E-mail</li><li>Publicités affichées</li><li>Réseaux sociaux</li><li>Recherche payante</li><li>Recherche naturelle</li><li>Domaines référents</li></ul> |
 | **Contenu** | Dans Creative Cloud, le contenu se rapporte au texte et aux images sur une page. Le terme est utilisé de la même manière entre Creative et CX Enterprises. | Dans CX Enterprise, le contenu fait référence au contenu marketing qui peut être utilisé dans le cadre d’une campagne, dans un but spécifique.<br>Il est utilisé dans des emplacements spécifiques et peut comprendre des ressources. Le contenu peut être structuré (par exemple les informations sur les produits) ou non (comme une page web ou un écran dans une application mobile).<br>Par exemple :<ul><li>Pages web</li><li>Bannières</li><li>Mises à jour de statut</li><li>Commentaires</li><li>Publicités texte</li><li>Informations sur les produits</li><li>Études de produits</li><li>Données de formulaire</li><li>Documents dans un index de recherche</li><li>Publications sociales</li><li>Articles</li><li>Publications</li></ul> |
@@ -55,9 +58,9 @@ Référence terminologique à l’intention des utilisateurs de CX Enterprise, e
 | **&#x200B;**&#x200B;| Un groupe de plusieurs fichiers ou ressources. | Un conteneur de campagnes. |
 | **Profil de produit** | Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products.html). | Pour qu’un utilisateur ait le droit d’utiliser un produit ou un service, il doit appartenir à un profil de produit. L’administrateur de produits attribue des licences à un profil de produits en l’associant à un plan que vous avez acheté.<br>Un utilisateur peut appartenir à plusieurs profils de produits, chacun conférant différentes licences à l’utilisateur. L’éligibilité finale d’un utilisateur est l’union de toutes les licences attribuées par chaque profil de produits à cet utilisateur. |
 | **Planning** | Peut se rapporter à une séquence de scène dans Adobe Story ou à des tâches planifiées dans ColdFusion. | Dans CX Enterprise, une planification correspond à la date de début (année, mois, jour) et à une date de fin pour l’activation des campagnes, des canaux et des activités. Les planifications d’activité sont précises à la minute près. La modification d’une planification entraîne la création d’une carte.<br>Par exemple :<ul><li>Planifications de campagne</li><li>Planifications de canal</li><li>Planifications d’activité</li></ul> |
-| **Segment** | S.O. | Le résultat d’un ensemble de règles pour qualifier une audience. Dans Analytics, les [&#x200B; segments &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) peuvent éventuellement être utilisés pour définir une audience qui peut être transmise à CX Enterprise. <br>Dans Audience Manager, un segment est un ensemble de [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) et de tous les critères qui permettent aux visiteurs d’être membres ou inclus dans ce segment. C’est aussi un ensemble d’individus qui partagent ces attributs communs. |
-| **Partage** | Dans Creative Cloud, vous pouvez partager des fichiers à l’externe sur plusieurs plateformes (réseaux sociaux, communautés, messageries électroniques, etc.). | Dans CX Enterprise, vous pouvez partager une ressource uniquement sous forme de carte, au sein de panoramas dans l’interface. Les personnes connectées au site peuvent utiliser le partage. |
-| **Solution** | Aucun usage particulier. | Dans CX Enterprise, les applications sont connues sous le nom de produits du type Adobe Analytics, Adobe Target, etc. |
+| **Segment** | S.O. | Le résultat d’un ensemble de règles pour qualifier une audience. Dans Analytics, les [segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) peuvent éventuellement être utilisés pour définir une audience qui peut être transmise à l’expérience client d’entreprise. <br>Dans Audience Manager, un segment est un ensemble de [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) et de tous les critères qui permettent aux visiteurs d’être membres ou inclus dans ce segment. C’est aussi un ensemble d’individus qui partagent ces attributs communs. |
+| **Partage** | Dans Creative Cloud, vous pouvez partager des fichiers à l’externe sur plusieurs plateformes (réseaux sociaux, communautés, messageries électroniques, etc.). | Dans CX Enterprise, vous pouvez partager une ressource uniquement sous forme de carte, au sein de tableaux dans l’interface. Les personnes connectées au site peuvent utiliser le partage. |
+| **Solution** | Aucun usage particulier. | Dans CX Enterprise, les applications sont connues sous le nom de produits tels qu’Adobe Analytics, Adobe Target, etc. |
 | **Caractéristique** | S/O | Paire clé-valeur, par exemple color=blue. Dans Audience Manager, les [caractéristiques](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=fr) sont utilisées pour créer des segments. |
 
 {style="table-layout:auto"}
