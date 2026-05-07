@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
+source-git-commit: b46d8d782c26f14cf77da1c29cb79936b9e1f0da
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 45%
+source-wordcount: 579
+ht-degree: 43%
 
 ---
 
@@ -96,4 +96,8 @@ Cliquez sur l’icône représentant une cloche pour afficher les notifications 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
 Pour gérer les notifications et les alertes, voir la section [Préférences de compte et notifications](features/account-preferences.md).
+
+## Termes
+
+Adobe utilise des noms similaires dans les applications marketing, Creative Cloud, Experience League et les sites d’assistance. Pour une brève comparaison de la façon dont ces termes s’appliquent dans CX Enterprise par rapport à ailleurs, consultez [Terminologie](more-resources/terms.md).
 
