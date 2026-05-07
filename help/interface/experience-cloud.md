@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b46d8d782c26f14cf77da1c29cb79936b9e1f0da
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 45%
+source-wordcount: 579
+ht-degree: 43%
 
 ---
 
@@ -54,7 +51,7 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](a
 
    Par exemple, pour une organisation avec des Federated ID et le domaine `example.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@example.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-   **Remarque :** l’administrateur ou l’administratrice de votre organisation peut restreindre l’accès aux produits Adobe par adresses IP. Si tel est le cas, vous pouvez recevoir une erreur après vous être connecté à CX Enterprise ou après avoir basculé vers une organisation avec cette option activée. Pour plus d’informations, consultez la section [Limiter l’accès au produit par adresse IP](https://helpx.adobe.com/fr/enterprise/using/ip-based-access.html).
+   **Remarque :** l’administrateur ou l’administratrice de votre organisation peut restreindre l’accès aux produits Adobe par adresses IP. Si tel est le cas, vous pouvez recevoir une erreur après vous être connecté à CX Enterprise ou après avoir basculé vers une organisation avec cette option activée. Pour plus d’informations, consultez la section [Limiter l’accès au produit par adresse IP](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
 
 
 ## Accès aux applications CX Enterprise
@@ -67,7 +64,7 @@ Pour accéder aux applications et services CX Enterprise configurés pour vous a
 
 ## Obtention d’aide et de support
 
-Accédez à l’apprentissage et à l’aide en utilisant l’**[!UICONTROL Help center]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à l’apprentissage et à l’aide en utilisant l’**[!UICONTROL Help center]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
@@ -75,7 +72,7 @@ Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivan
 
 * **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
 * **[!UICONTROL Feedback]:** Partagez vos commentaires sur votre expérience CX Entreprise. Vos commentaires sont utilisés pour améliorer les produits et services d’Adobe.
-* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
+* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
 * **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
 
 ## Gérer votre profil d’utilisation
@@ -96,4 +93,8 @@ Cliquez sur l’icône représentant une cloche pour afficher les notifications 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
 Pour gérer les notifications et les alertes, voir la section [Préférences de compte et notifications](features/account-preferences.md).
+
+## Termes
+
+Adobe utilise des noms similaires dans les applications marketing, Creative Cloud, Experience League et les sites d’assistance. Pour une brève comparaison de la façon dont ces termes s’appliquent dans CX Enterprise par rapport à ailleurs, consultez [Terminologie](more-resources/terms.md).
 
