@@ -6,13 +6,13 @@ product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.en
+git-repo: https://github.com/AdobeDocs/core-services.fr-FR
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
   - id: e1971122-7081-4556-9222-8a31bd71800c
