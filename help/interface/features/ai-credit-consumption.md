@@ -6,9 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/REonDh6tRlMxB3iAryxC0BLXeVTTaUuwCu98DXyESVQ'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1055
 ht-degree: 4%
 
 ---
@@ -23,7 +26,7 @@ Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit
 
 Une _tâche d’agent_ est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
 
-À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. En fonction de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications CX Enterprise appropriées.
+À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. Sur la base de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications d’entreprise CX appropriées.
 
 ## Crédits IA
 
@@ -66,5 +69,5 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 ## Plus d’aide sur cette rubrique
 
 * [GenAI dans CX Enterprise](/help/interface/features/generative-ai.md)
-* [L’IA dédiée aux agences dans CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [IA dédiée aux agences dans CX Enterprise](/help/interface/features/agentic-ai.md)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

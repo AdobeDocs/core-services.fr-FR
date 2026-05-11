@@ -6,15 +6,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-TQID: https://experienceleague.adobe.com/ULsmTOkKlh0XCTxITC7OdSC6cDT4aCty4bilg04EV4w
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/jtMCCDMybfntU7oIL-Ci9VLgSL-1IJt2Yzx3IORaoWw'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,13 +19,13 @@ ht-degree: 15%
 
 # Domaines utilisés par CX Enterprise
 
-CX Enterprise utilise les hôtes suivants pour diffuser l’application, améliorer les performances et améliorer l’expérience du produit. Adobe recommande d’autoriser ces domaines via le réseau ou le pare-feu de votre entreprise pour une expérience optimale.
+CX Enterprise utilise les hôtes suivants pour fournir l’application, améliorer les performances et améliorer l’expérience du produit. Adobe recommande d’autoriser ces domaines via le réseau ou le pare-feu de votre entreprise pour une expérience optimale.
 
 Outre les domaines répertoriés ci-dessous, les différents produits Adobe CX Enterprise utilisent leurs propres domaines :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Technologie | Domaines |
 | --- | --- |

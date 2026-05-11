@@ -1,21 +1,24 @@
 ---
-description: Découvrez comment vous connecter et à propos des composants de l’interface centrale dans CX Enterprise. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans lʼinterface et obtenir de lʼaide.
+description: Découvrez comment vous connecter et quels sont les composants de l’interface centrale dans CX Enterprise. Découvrez la recherche globale, les préférences de votre compte, comment naviguer dans lʼinterface et obtenir de lʼaide.
 solution: Experience Cloud
 title: Composants de l’interface utilisateur centrale dʼExperience Cloud
 feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/oKqc9fwTJtHUAng0S4R1ACsYpmk-uF7O-dS4uo4rdWc'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: 706
 ht-degree: 42%
 
 ---
 
-# Composants de l’interface centrale de CX Enterprise
+# Composants de l’interface centrale d’entreprise CX
 
-Les composants de l’interface centrale de CX Enterprise comprennent des fonctions qui vous permettent d’effectuer les opérations suivantes :
+Les composants de l’interface centrale d’CX Enterprise comprennent des fonctionnalités qui vous permettent de :
 
 * Connexion et accès à vos applications et services
 * Recherche d’objets commerciaux et d’aide sur un produit à l’aide d’une recherche globale
@@ -37,7 +40,7 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 >
 >Toutes les applications s’exécutant sur le domaine CX Enterprise ne prennent pas en charge tous les navigateurs. Si vous n’êtes pas sûr, consultez la documentation d’une application spécifique.
 
-## Prise en charge des langues dans CX Enterprise
+## Prise en charge linguistique dans CX Enterprise
 
 CX Enterprise prend en charge les langues préférées de chaque utilisateur, telles que définies dans les préférences de votre compte utilisateur Adobe. Les langues actuellement prises en charge sont les suivantes :
 
@@ -52,13 +55,13 @@ CX Enterprise prend en charge les langues préférées de chaque utilisateur, te
 * Espagnol
 * Taïwanais
 
-Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [&#128279;](https://experience.adobe.com/preferences).
+Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application d’entreprise CX, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans [Préférences utilisateur CX Enterprise](https://experience.adobe.com/preferences).
 
-## Connexion à CX Enterprise
+## Se connecter à CX Enterprise
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
-1. Accédez à [&#128279;](https://experience.adobe.com?lang=fr).
+1. Accédez à [Adobe CX Enterprise](https://experience.adobe.com?lang=fr).
 1. Cliquez sur **[!UICONTROL Sign in with an Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
@@ -66,13 +69,13 @@ Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
    Pour vérifier que vous vous êtes connecté à l’organisation appropriée, cliquez sur **[!UICONTROL Profile]** pour afficher le nom de l’organisation. Si vous avez accès à plusieurs organisations, vous pouvez également afficher une autre organisation et passer à une autre à l’aide du sélecteur de **[!UICONTROL Organization]**.
 
-   Si votre entreprise utilise des Federated ID, CX Enterprise vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l’URL CX Enterprise (`https://experience.adobe.com`) pour accomplir cette tâche.
+   Si votre entreprise utilise des Federated ID, CX Enterprise vous permet de vous connecter à l’aide de l’authentification unique de votre entreprise sans avoir à saisir votre adresse e-mail et votre mot de passe. Ajoutez `#/sso:@domain` à l&#39;URL d&#39;entreprise CX (`https://experience.adobe.com`) pour accomplir cette tâche.
 
    Par exemple, pour une organisation avec des Federated ID et le domaine `example.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@example.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
 ## Accès aux applications CX Enterprise
 
-Une fois connecté à CX Enterprise, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
+Après vous être connecté à CX Enterprise, vous pouvez accéder rapidement à l’ensemble de vos applications, services et organisations à partir de l’en-tête unifié.
 
 Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour accéder aux services CX Enterprise que vous détenez.
 
@@ -80,7 +83,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans CX Enterprise
 
-La recherche CX Enterprise vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
+La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans CX Enterprise](assets/search-menu.png)
 
@@ -88,7 +91,7 @@ Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivan
 
 * **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
 * **[!UICONTROL Feedback]:** Contactez Adobe à l’aide des Commentaires et faites-nous savoir ce que vous en pensez.
-* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
+* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
 * **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
 
 ## Préférences de compte
@@ -100,19 +103,19 @@ Dans le menu des préférences du compte, vous pouvez :
 * Vous déconnecter ;
 * Configurer des [préférences, notifications et abonnements](#preferences) relatives au compte ;
 
-### Gestion des [!UICONTROL Preferences] CX Enterprise
+### Gestion des [!UICONTROL Preferences] d’entreprise CX
 
 Les préférences CX Enterprise incluent les notifications, les abonnements et les alertes.
 
 * Cliquez sur **[!UICONTROL Preferences]** dans le menu de votre compte ![préférences](assets/preferences-icon-sm.png) pour gérer les préférences.
 
-![Gérer CX Enterprise](assets/preferences-page.png)
+![Gestion de l’expérience client d’entreprise](assets/preferences-page.png)
 
 Sur [!UICONTROL CX Enterprise preferences], vous pouvez configurer les fonctionnalités suivantes :
 
 | Fonctionnalité | Description |
 | --- | --- |
-| Organisation par défaut | Sélectionnez l’organisation que vous souhaitez afficher lorsque vous lancez CX Enterprise. |
+| Organisation par défaut | Sélectionnez l&#39;organisation que vous voulez voir lorsque vous lancez CX Enterprise. |
 | [!UICONTROL Subscriptions] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL Notifications] et dans votre e-mail. |
 | [!UICONTROL Priority] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
 | [!UICONTROL Alerts] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
@@ -126,4 +129,4 @@ Cliquez sur **[!UICONTROL Notifications]** pour afficher les notifications qui s
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Vous pouvez configurer des notifications dans les préférences de [&#128279;](#preferences).
+Vous pouvez configurer des notifications dans [Préférences CX Enterprise](#preferences).

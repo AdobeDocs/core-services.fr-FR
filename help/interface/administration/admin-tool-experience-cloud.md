@@ -1,6 +1,6 @@
 ---
 title: Affichage des utilisateurs et des détails utilisateur
-description: En savoir plus sur l’outil d’administration dans CX Enterprise. Affichez une liste triable et filtrable de tous les utilisateurs et politiques de CX Enterprise.
+description: Découvrez l’outil d’administration dans CX Enterprise. Affichez une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -8,23 +8,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/UF7Yw3I7-TeV5zCGajQwMDyc57ousR8aRomOigntA68'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 1198
 ht-degree: 69%
 
 ---
 
-# [!UICONTROL Admin Tool] CX Enterprise
+# [!UICONTROL Admin Tool] d’entreprise CX
 
-Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et politiques de CX Enterprise, avec des détails dans la [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise avec des détails dans le [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
 
 1. Connectez-vous à `https://experience.adobe.com/.`
 
@@ -38,7 +35,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
 ## Page Utilisateurs
 
-Cette page affiche la liste complète des utilisateurs ayant accès à CX Enterprise dans votre organisation. Il fournit des informations sur les droits d’application et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
+Cette page affiche la liste complète des utilisateurs ayant accès à CX Enterprise dans votre entreprise. Il fournit des informations sur les droits d’application et la dernière connexion. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des utilisateurs.
 
 ![Page des utilisateurs dʼAdmin Console](../assets/admin-tool-users.png)
 
@@ -47,8 +44,8 @@ Cette page affiche la liste complète des utilisateurs ayant accès à CX Enterp
 | [!UICONTROL Name] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Cliquez sur le nom d’un utilisateur pour afficher plus de détails sur cet utilisateur. |
 | [!UICONTROL Email] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
 | [!UICONTROL ID Type] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
-| [!UICONTROL Solutions] | Résumé des applications CX Enterprise auxquelles l’utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
-| [!UICONTROL Last Login] | Heure et date de la dernière connexion de l’utilisateur à CX Enterprise. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations ont pour but d’afficher l’activité de connexion actuelle dans CX Enterprise et non de recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Solutions] | Résumé des applications CX Enterprise auxquelles l&#39;utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
+| [!UICONTROL Last Login] | Heure et date de la dernière connexion de l&#39;utilisateur à CX Enterprise. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations sont destinées à afficher l’activité de connexion actuelle dans CX Enterprise et non à recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de la vue Liste des utilisateurs et utilisatrices
 
@@ -86,7 +83,7 @@ Cette section présente un résumé du compte d’utilisateur, notamment :
 
 ## Résumé des solutions
 
-Cette section présente un résumé des applications CX Enterprise auxquelles l’utilisateur peut accéder. Inclut le rôle administratif du produit, le cas échéant.
+Cette section présente un résumé des applications CX Enterprise auxquelles l&#39;utilisateur peut accéder. Inclut le rôle administratif du produit, le cas échéant.
 
 ## Liste détaillée d’accès aux produits
 
@@ -102,7 +99,7 @@ Cette section affiche une liste complète de tous les profils d’abonnement de 
 
 ## Page Politiques
 
-Cette page affiche la liste complète des politiques CX Enterprise de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques.
+Cette page affiche la liste complète des stratégies CX Enterprise de votre entreprise. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques.
 
 ![Page des politiques dans Admin Console](../assets/admin-tool-policies.png)
 

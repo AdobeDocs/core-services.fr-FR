@@ -7,27 +7,15 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-TQID: https://experienceleague.adobe.com/2IL6hUlA1oNxJIFMwbVQUbxEGkJoghVUTyMi5wSRBsE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
-  - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
-  - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+autotag-review: '2026-05-11T17:46:06.275Z'
+TQID: 'https://experienceleague.adobe.com/wn3EBV0rf2PLh649pY8KqLjIHjvpGwpBkDxX4Ib03uw'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:id:id:id:id:
+role_v2: id:
+level_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 802
 ht-degree: 5%
@@ -36,7 +24,7 @@ ht-degree: 5%
 
 # Préférences et notifications du compte
 
-Pour rechercher des préférences CX Enterprise, cliquez sur **[!UICONTROL Profile]** ![préférences](../assets/preferences-icon-sm.png) dans l’en-tête, puis cliquez sur **[!UICONTROL Preferences]**.
+Pour trouver les préférences CX Enterprise, cliquez sur **[!UICONTROL Profile]** ![préférences](../assets/preferences-icon-sm.png) dans l&#39;en-tête, puis cliquez sur **[!UICONTROL Preferences]**.
 
 ![préférences](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
@@ -44,9 +32,9 @@ Sur la page [!UICONTROL CX Enterprise preferences], vous pouvez gérer les fonct
 
 | Fonctionnalité | Description |
 | --- | --- |
-| [!UICONTROL Profile] | Mettez à jour votre [profil de compte &#x200B;](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
+| [!UICONTROL Profile] | Mettez à jour votre [profil de compte ](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
 | [!UICONTROL General] | Sélectionnez une [organisation](../administration/organizations.md).<p>Cette organisation est celle utilisée par défaut lorsque vous vous connectez à CX Enterprise. |
-| [!UICONTROL Product usage data] | Vous pouvez contrôler les données d’utilisation des produits partagées avec Adobe lors de l’utilisation d’applications CX Enterprise. Il s’agit de données sur la manière dont vous utilisez nos produits, et non du contenu ou des données de votre organisation elle-même. Adobe utilise ces informations pour améliorer ses produits, bénéficier d’une meilleure prise en charge intégrée au produit et personnaliser l’expérience et les communications de nos clients. <p>Pour en savoir plus, voir [Données d’utilisation des produits](#product-usage-data) (sur cette page). |
+| [!UICONTROL Product usage data] | Vous pouvez contrôler quelles données d’utilisation des produits sont partagées avec Adobe lors de l’utilisation des applications d’entreprise CX. Il s’agit de données sur la manière dont vous utilisez nos produits, et non du contenu ou des données de votre organisation elle-même. Adobe utilise ces informations pour améliorer ses produits, bénéficier d’une meilleure prise en charge intégrée au produit et personnaliser l’expérience et les communications de nos clients. <p>Pour en savoir plus, voir [Données d’utilisation des produits](#product-usage-data) (sur cette page). |
 | [!UICONTROL Notifications] | Configurez comment et quand vous souhaitez recevoir des notifications et des alertes relatives aux produits [notifications](#subscribe-to-notifications-in-experience-cloud) : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour recevoir des alertes</li><li>Configurer le type de notification ([!UICONTROL in-app], [!UICONTROL email] ou [Slack](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité de l’alerte. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également spécifier si les alertes doivent s’afficher jusqu’à ce que vous les supprimiez.</li></ul> |
 
 ## [!UICONTROL Product usage data]
@@ -82,13 +70,13 @@ Vous pouvez configurer les préférences de votre compte pour envoyer des notifi
 
 **Conditions préalables**
 
-* Vous devez disposer d’un compte CX Enterprise.
-* Vous devez disposer d&#39;un compte [!DNL Slack]. Votre administrateur [!DNL Slack] active l’intégration de CX Enterprise à [!DNL Slack].
+* Vous devez disposer d&#39;un compte CX Enterprise.
+* Vous devez disposer d&#39;un compte [!DNL Slack]. Votre administrateur [!DNL Slack] permet l’intégration de l’entreprise CX à [!DNL Slack].
 * Vous devez faire partie d’au moins un espace de travail [!DNL Slack].
 
 **Pour vous abonner aux notifications [!DNL Slack]**
 
-1. Accédez à CX Enterprise [&#x200B; Préférences &#x200B;](https://experience.adobe.com/preferences).
+1. Accédez à CX Enterprise [Préférences](https://experience.adobe.com/preferences).
 
 1. Localisez [!DNL Slack], puis cliquez sur **[!UICONTROL Add to Slack]**.
 
@@ -100,13 +88,13 @@ Vous pouvez configurer les préférences de votre compte pour envoyer des notifi
 
 1. Sous **[!UICONTROL Notifications]**, activez les notifications [!DNL Slack] pour les produits et catégories de votre choix.
 
-   ![Notifications &#x200B;](../assets/slack.png)
+   ![Notifications ](../assets/slack.png)
 
    Les mises à jour des notifications sont automatiquement enregistrées.
 
 ### Demander l’autorisation dans [!DNL Slack] (dépannage)
 
-Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_&#x200B;s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
+Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
 
 ![Demander l’intégration Slack](../assets/slack-workspace.png)
 
@@ -118,7 +106,7 @@ Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to ins
 
 1. Vous recevrez une notification en [!DNL Slack] une fois la demande d’application approuvée.
 
-1. Après avoir reçu [!DNL Slack] approbation, revenez à la **[!UICONTROL Notifications]** CX Enterprise et suivez les étapes pour [vous abonner à Slack](#slack-notifications) (décrites ci-dessus).
+1. Une fois que vous avez reçu l’approbation [!DNL Slack], revenez à CX Enterprise **[!UICONTROL Notifications]** et suivez les étapes pour [vous abonner à Slack](#slack-notifications) (décrites ci-dessus).
 
 ### Ce que vous verrez dans [!DNL Slack]
 
@@ -126,10 +114,10 @@ Une fois l’intégration de [!DNL Slack] terminée, les notifications [!DNL Sla
 
 * Le message personnel sera reçu du nom de l&#39;application _Adobe[!DNL CX Enterprise]_.
 * Le message inclut le logo du produit pour l’application particulière, telle que Adobe [!DNL Experience Platform], Adobe [!DNL Experience Manager], etc.
-* Lien permettant d’afficher toutes les notifications sur CX Enterprise.
+* Un lien pour afficher toutes les notifications sur CX Enterprise.
 * Lien permettant de gérer les préférences de notification sur CX Enterprise.
 
-## Affichage des [!UICONTROL notifications] et des annonces dans CX Enterprise
+## Afficher les [!UICONTROL notifications] et les annonces dans CX Enterprise
 
 Dans l’en-tête du [!DNL CX Enterprise], vous pouvez afficher les notifications auxquelles vous [vous êtes abonné](#notifications), ainsi que les annonces.
 

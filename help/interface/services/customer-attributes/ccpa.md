@@ -6,15 +6,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-TQID: https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/fYyNdzAck5ZfOW3hvh-5ABflyHBvBAm5M2jlz-3ynTI'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -31,7 +27,7 @@ Cette page décrit [!DNL Customer Attributes] prise en charge du California Cons
 
 Le CCPA est la nouvelle loi californienne sur la protection des renseignements personnels, qui entre en vigueur le 1er janvier 2020. Le CCPA accorde aux résidents de Californie de nouveaux droits concernant leurs données confidentielles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie. Le CCPA accorde aux consommateurs le droit d’accéder à leurs informations personnelles et de les supprimer, ainsi que le droit de se désinscrire de certaines activités qualifiées de « vente » d’informations personnelles à un tiers.
 
-En tant qu’entreprise, vous déterminez les données personnelles que Adobe CX Enterprise traite et stocke pour vous.
+En tant qu’entreprise, vous déterminez les données personnelles qu’Adobe CX Enterprise traite et stocke pour vous.
 
 En tant que fournisseur, Adobe CX Enterprise fournit une assistance à votre entreprise afin qu’elle remplisse ses obligations en vertu du CCPA qui s’appliquent à l’utilisation des produits et services CX Enterprise. Cette assistance inclut la gestion des demandes d’accès et de suppression des informations personnelles.
 
@@ -58,7 +54,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour les [!DN
 &quot;company context&quot; :
 
 * « namespace » : **imsOrgID**
-* « value » : &lt;*valeur de l’identifiant de votre organisation*>
+* « value » : &lt;*valeur de l&#39;identifiant de votre organisation*>
 
 &quot;users&quot; :
 
