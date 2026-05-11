@@ -8,11 +8,18 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: 'https://experienceleague.adobe.com/umWVYhlsT9tK71EPkMRw7CECjSt8NZPZvgWguFmizHE'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:id:
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 656
@@ -170,5 +177,5 @@ Ajout de la section [FAQ sur l’entreprise CX](faq.md) pour les administrateurs
 
 **22 mai 2014**
 
-Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
+Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
 

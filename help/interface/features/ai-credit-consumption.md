@@ -7,8 +7,16 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 TQID: 'https://experienceleague.adobe.com/REonDh6tRlMxB3iAryxC0BLXeVTTaUuwCu98DXyESVQ'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 1055

@@ -4,9 +4,17 @@ title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: 'https://experienceleague.adobe.com/mDO47lfyqUPm6AB9YjdHb-nQF3BhqojA6zs2Ur5yLuM'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
 role_v2: id:id:
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 624

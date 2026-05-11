@@ -9,12 +9,18 @@ level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 autotag-review: '2026-05-11T17:46:06.275Z'
 TQID: 'https://experienceleague.adobe.com/wn3EBV0rf2PLh649pY8KqLjIHjvpGwpBkDxX4Ib03uw'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:id:id:id:id:
 role_v2: id:
 level_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 802
@@ -32,7 +38,7 @@ Sur la page [!UICONTROL CX Enterprise preferences], vous pouvez gérer les fonct
 
 | Fonctionnalité | Description |
 | --- | --- |
-| [!UICONTROL Profile] | Mettez à jour votre [profil de compte ](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
+| [!UICONTROL Profile] | Mettez à jour votre [profil de compte &#x200B;](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
 | [!UICONTROL General] | Sélectionnez une [organisation](../administration/organizations.md).<p>Cette organisation est celle utilisée par défaut lorsque vous vous connectez à CX Enterprise. |
 | [!UICONTROL Product usage data] | Vous pouvez contrôler quelles données d’utilisation des produits sont partagées avec Adobe lors de l’utilisation des applications d’entreprise CX. Il s’agit de données sur la manière dont vous utilisez nos produits, et non du contenu ou des données de votre organisation elle-même. Adobe utilise ces informations pour améliorer ses produits, bénéficier d’une meilleure prise en charge intégrée au produit et personnaliser l’expérience et les communications de nos clients. <p>Pour en savoir plus, voir [Données d’utilisation des produits](#product-usage-data) (sur cette page). |
 | [!UICONTROL Notifications] | Configurez comment et quand vous souhaitez recevoir des notifications et des alertes relatives aux produits [notifications](#subscribe-to-notifications-in-experience-cloud) : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour recevoir des alertes</li><li>Configurer le type de notification ([!UICONTROL in-app], [!UICONTROL email] ou [Slack](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité de l’alerte. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également spécifier si les alertes doivent s’afficher jusqu’à ce que vous les supprimiez.</li></ul> |
@@ -88,13 +94,13 @@ Vous pouvez configurer les préférences de votre compte pour envoyer des notifi
 
 1. Sous **[!UICONTROL Notifications]**, activez les notifications [!DNL Slack] pour les produits et catégories de votre choix.
 
-   ![Notifications ](../assets/slack.png)
+   ![Notifications &#x200B;](../assets/slack.png)
 
    Les mises à jour des notifications sont automatiquement enregistrées.
 
 ### Demander l’autorisation dans [!DNL Slack] (dépannage)
 
-Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
+Si [!DNL Slack] n’est pas installé, un message de _[!UICONTROL Request to install]_&#x200B;s’affiche lorsque Slack s’ouvre après avoir cliqué sur **[!UICONTROL Add to Slack]**. Par exemple :
 
 ![Demander l’intégration Slack](../assets/slack-workspace.png)
 

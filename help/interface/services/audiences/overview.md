@@ -10,11 +10,16 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 TQID: 'https://experienceleague.adobe.com/OJzZ78fOe0VjKvuYToUHiXIGBFL6lbs4Xp5O3nZvLKM'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 745
@@ -83,4 +88,4 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Consultez [ Publication de segments sur l’expérience client Enterprise ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Consultez [&#x200B; Publication de segments sur l’expérience client Enterprise &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

@@ -7,8 +7,10 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 TQID: 'https://experienceleague.adobe.com/wwRRNAHwrvv0PKnho1dsPjFE9OuuzQONpsSiEPRaM4A'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 378

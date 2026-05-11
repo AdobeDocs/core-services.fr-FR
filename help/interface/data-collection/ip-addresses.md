@@ -3,9 +3,14 @@ title: Adresses IP utilisées par Experience Cloud
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: 'https://experienceleague.adobe.com/mLKbBo-fy-T6uGfx9kmGdosB0Syk-5poT87s3ps-B00'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
 role_v2: id:id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 426

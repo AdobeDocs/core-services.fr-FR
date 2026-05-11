@@ -9,11 +9,16 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 TQID: 'https://experienceleague.adobe.com/u4bE-pB3bbruDdnsJy-ZhXZT7kj20Od2Qg0fwVK242A'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 451
@@ -70,7 +75,7 @@ Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doiven
 
    Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
+Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [&#x200B; Bibliothèque des offres &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 

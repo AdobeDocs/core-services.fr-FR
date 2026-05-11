@@ -9,12 +9,16 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: 'https://experienceleague.adobe.com/gMxoCIKGEqZIN-DwgvSVfh36iiYLFqB58dRBfsgamBc'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
 level_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 639
@@ -77,7 +81,7 @@ Les algorithmes de recherche affichent d’abord les enregistrements les plus pe
 * Les autorisations utilisateurs requises pour accéder aux objets.
 * Le pourcentage de correspondance.
 * Les correspondances exactes.
-* La section _[!UICONTROL Top Results]_affiche les 30 premiers résultats.
+* La section _[!UICONTROL Top Results]_&#x200B;affiche les 30 premiers résultats.
 
 Pour affiner votre recherche, cliquez sur l’une des options suivantes :
 

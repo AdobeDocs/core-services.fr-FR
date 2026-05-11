@@ -9,11 +9,16 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 TQID: 'https://experienceleague.adobe.com/UPPlaj8UOGygam8nRfGKE-c-Q-l8qtfaUWzPmXqBLJM'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:id:id:
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 730
@@ -95,7 +100,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
+* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
 
 +++
 

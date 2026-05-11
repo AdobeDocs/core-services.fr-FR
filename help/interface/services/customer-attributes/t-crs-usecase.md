@@ -9,11 +9,17 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: 'https://experienceleague.adobe.com/Dm4Mz-xn9hZkBoXNmWugfalO--FyujsEI0rSt00Ogo0'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 1118
@@ -60,7 +66,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données
 
-Effectuez ces étapes sur la page _[!UICONTROL Create Customer Attribute Source]_dans CX Enterprise.
+Effectuez ces étapes sur la page _[!UICONTROL Create Customer Attribute Source]_&#x200B;dans CX Enterprise.
 
 >[!IMPORTANT]
 >
@@ -124,7 +130,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Edit Customer Data Source], cliquez sur **[!UICONTROL File Upload]**.
 
-   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
+   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 

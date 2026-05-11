@@ -9,9 +9,18 @@ role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 TQID: 'https://experienceleague.adobe.com/tONTr5mo5qLUxNS-q-uHGMCc5jKkURApIR-2RW0aV3w'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -37,7 +46,7 @@ Admin Console fournit trois rôles administratifs principaux, chacun disposant d
 
 ## Admin Console pour CX Enterprise
 
-Pour gérer l’identité et les licences de produits pour les applications CX Enterprise, accédez à [](https://adminconsole.adobe.com/enterprise/).
+Pour gérer l’identité et les licences de produits pour les applications CX Enterprise, accédez à [&#128279;](https://adminconsole.adobe.com/enterprise/).
 
 Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en tant qu’administrateur dans Admin Console :
 
@@ -64,7 +73,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [ Journal d’audit ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
+| [&#x200B; Journal d’audit &#x200B;](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
 
 
 ## Ressources spécifiques à l’application
@@ -101,16 +110,16 @@ Ces liens vous aident à trouver des informations d&#39;administration pour des 
 * [Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/administration/admin-console-migration)
 * [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions)
 * [Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/user-management-acs)
-* [](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 * [Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
 * [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/onboarding/journey/admin-console)
-* [](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) et [collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)
-* [](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) et [collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
 * [Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
 * [Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)
 * [Journey Orchestration](https://experienceleague.adobe.com/en/docs/journeys/using/starting-with-journeys/access-management)
-* [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
-* [](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler/using/data-governance/access-controls)
 * [Cible](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
