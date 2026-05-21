@@ -1,32 +1,20 @@
 ---
 title: Tâches d’agent et consommation de crédit d’IA
-description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications CX Enterprise.
+description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-TQID: 'https://experienceleague.adobe.com/REonDh6tRlMxB3iAryxC0BLXeVTTaUuwCu98DXyESVQ'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+last-update: '2026-05-21T00:00:00.000Z'
+source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 4%
+source-wordcount: '935'
+ht-degree: 6%
 
 ---
 
 # Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
-
-Mise à jour : **5 mars 2026**
 
 Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications CX Enterprise. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications CX Enterprise existantes, voir [IA dédiée aux agents dans CX Enterprise](agentic-ai.md#existing-apps).
 
@@ -53,13 +41,11 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 | Agent | Traitement | Applications prises en charge | Crédits IA estimés | Exemples d’invites |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
 | Agent Audience | Création d’audience/compte | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 50 | <ul><li><em>Afficher les champs pour les acheteurs aisés</em></li><li><em>Rechercher tous les champs liés aux préférences du client</em></li></ul> |
-| Agent Audience | Création d’audiences/de comptes basés sur les connaissances | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 150 | <ul><li><em>Créez une audience composée de personnes qui vivent en Californie</em></li><li><em>Générer une audience des membres de VIP qui ont dépensé plus de 1 000 $ ce trimestre</em></li><li><em>Créez une audience d’utilisateurs et d’utilisatrices qui ont acheté des vêtements mais n’ont pas effectué d’achat au cours des 60 derniers jours</em></li></ul> |
 | Agent Audience | Gestion des audiences/comptes | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>Existe-t-il des audiences en double ?</em></li><li><em>Afficher mes 5 audiences les plus importantes.</em></li><li><em>Afficher les audiences qui ne sont activées vers aucune destination</em></li><li><em>Liste de toutes les audiences utilisées dans les parcours en direct</em></li></ul> |
 | Agent Audience | Analyse des audiences/comptes | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la dernière semaine ?</em></li><li><em>Dans quelle mesure l’audience « Loyal Platinum » a-t-elle changé par rapport à la valeur il y a 30 jours ?</em></li><li><em>Quelle est mon audience qui croît le plus rapidement ?</em></li></ul> |
 | Agent Audience | Idéation du groupe d&#39;achat | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>Quels comptes indiquent l’intention de ces produits ?</em></li><li><em>Afficher les personnes principales par intention de produit pour XYZ.</em></li><li><em>Quels groupes d&#39;achat comptent plus de 5 membres ?</em></li></ul> |
 | Data Insights Agent | Analyse et visualisation des données | <ul><li>Customer Journey Analytics (éditions B2C et B2B)</li></ul> | 25 | <ul><li><em>Tendance des commandes en juillet</em></li><li><em>Afficher le chiffre d’affaires par région.</em></li><li><em>Afficher les commandes par genre, de mars à juin.</em></li><li><em>Quels ont été mes 10 principaux SKU par bénéfice en juin </em></li><li><em>Proportion des achats par mois de l&#39;année</em></li><li><em>Part des revenus par catégorie de produits</em></li></ul> |
 | Journey Agent | idéation du parcours | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>Création d’un parcours pour les comptes d’espaces blancs avec l’intention de ma solution, en se concentrant sur les personnes impliquées dans le contenu du site web</em></li></ul> |
-| Journey Agent | Création de parcours | <ul><li>Adobe Journey Optimizer (éditions B2B et B2C)</li></ul> | 30 | <ul><li><em>Générez un parcours pour envoyer un rappel aux utilisateurs n&#39;ayant pas effectué leur premier achat au cours des 7 derniers jours</em></li><li><em>Lorsque les utilisateurs effectuent leur premier achat, envoyez une confirmation par SMS et une explication des avantages de suivi par e-mail après 3 jours</em></li></ul> |
 | Journey Agent | analyse de parcours | <ul><li>Adobe Journey Optimizer (éditions B2B et B2C)</li></ul> | 50 | <ul><li><em>Je souhaite analyser l’abandon par nœud pour la campagne du 4 juillet par parcours.</em></li><li><em>Existe-t-il des conflits de planification pour le parcours X </em></li><li><em>Afficher les conflits de chevauchement des audiences pour le parcours X</em></li></ul> |
 | Journey Agent | Gestion des parcours | <ul><li>Adobe Journey Optimizer (éditions B2B et B2C)</li></ul> | 25 | <ul><li><em>De combien de parcours est-ce que je dispose ?</em></li><li><em>Répertorier tous les parcours utilisant l’audience X.</em></li><li><em>Répertorier tous les parcours actuellement en mode test</em></li></ul> |
 | Agent du support technique du produit | Dépannage basé sur les connaissances | <ul><li>Real-Time CDP (éditions B2B, B2C et B2P)</li><li>Adobe Journey Optimizer (éditions B2C et B2B)</li><li>Customer Journey Analytics (éditions B2C et B2B)</li></ul> | 0 | <ul><li><em>Pourquoi mon nombre de profils diffère-t-il sur le tableau de bord d’utilisation des licences et la page d’accueil d’Experience Platform ?</em></li><li><em>Quelles sont les raisons pour lesquelles un parcours ne se déclenche pas ?</em></li><li><em>Comment Adobe Experience Platform crée-t-il des expériences en temps réel ?</em></li><li><em>Comment configurer et utiliser les alertes dans Adobe Experience Platform ?</em></li><li><em>Quelle est la limite de richesse moyenne des profils dans l’activation de Adobe Experience Platform ?</em></li></ul> |
@@ -78,4 +64,4 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 * [GenAI dans CX Enterprise](/help/interface/features/generative-ai.md)
 * [IA dédiée aux agences dans CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
