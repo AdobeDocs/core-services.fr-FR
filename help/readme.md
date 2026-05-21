@@ -1,15 +1,9 @@
 ---
 title: Instructions
 description: Fichier Lisez-moi d’instructions
-TQID: 'https://experienceleague.adobe.com/z4MJRrCMhJAxqPEaXTxwdamuNb1WPgbJyhHV-A5SHx4'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 99%
 
 ---

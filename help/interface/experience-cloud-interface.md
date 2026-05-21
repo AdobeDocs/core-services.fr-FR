@@ -6,15 +6,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-TQID: 'https://experienceleague.adobe.com/oKqc9fwTJtHUAng0S4R1ACsYpmk-uF7O-dS4uo4rdWc'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '706'
 ht-degree: 42%
 
 ---
@@ -86,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans CX Enterprise
 
-La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [&#128279;](https://experienceleague.adobe.com/fr?lang=fr#home).
+La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans CX Enterprise](assets/search-menu.png)
 
@@ -94,7 +88,7 @@ Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivan
 
 * **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
 * **[!UICONTROL Feedback]:** Contactez Adobe à l’aide des Commentaires et faites-nous savoir ce que vous en pensez.
-* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
+* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
 * **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
 
 ## Préférences de compte
