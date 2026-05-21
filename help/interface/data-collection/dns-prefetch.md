@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment implémenter la prérécupération DNS pour réduire le temps de chargement des pages de différents services et applications dans CX Enterprise.
+description: Découvrez comment mettre en œuvre la prérécupération DNS pour réduire le temps de chargement des pages de différents services et applications dans l’entreprise CX.
 solution: Experience Cloud
 title: Utiliser la prérécupération DNS
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -38,10 +38,10 @@ Les navigateurs utilisent la prérécupération DNS pour associer automatiquemen
 
 La prérécupération DNS fonctionne automatiquement avec des liens statiques incorporés sur une page. Cela signifie également que la prérécupération DNS automatique ne fonctionne pas avec les différents services et applications [!UICONTROL CX Enterprise], car :
 
-* Chaque application ou service CX Enterprise génère dynamiquement des appels DNS au fur et à mesure du chargement de la page.
+* Chaque application ou service CX Enterprise génère dynamiquement des appels DNS au chargement de la page.
 * Le navigateur ne peut pas convertir les noms de domaine en adresse IP avant ces appels.
 
-Cependant, vous pouvez implémenter manuellement la prérécupération DNS avec vos applications CX Enterprise. Pour ce faire, ajoutez la balise HTML `<dns-prefetch>` à la section `<head>` du code de votre page, comme indiqué ci-dessous. Lorsqu’elle est correctement mise en œuvre, la prérécupération DNS peut permettre de gagner quelques millisecondes de temps de chargement des pages.
+Cependant, vous pouvez mettre en œuvre manuellement la prérécupération DNS avec vos applications CX Enterprise. Pour ce faire, ajoutez la balise HTML `<dns-prefetch>` à la section `<head>` du code de votre page, comme indiqué ci-dessous. Lorsqu’elle est correctement mise en œuvre, la prérécupération DNS peut permettre de gagner quelques millisecondes de temps de chargement des pages.
 
 ## Exemples de code de prérécupération DNS
 
@@ -53,7 +53,7 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
 
 * **Audience Manager :** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Service CX Enterprise ID :** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* Service **CX Enterprise ID :** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud :**
 

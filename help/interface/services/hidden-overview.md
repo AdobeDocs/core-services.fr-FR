@@ -1,5 +1,5 @@
 ---
-description: Découvrez la gestion des utilisateurs et des produits CX Enterprise, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
+description: Découvrez la gestion des utilisateurs et des produits d’entreprise CX, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
 solution: Experience Cloud
 title: Vue d’ensemble des services Experience Cloud
 feature: Central Interface Components
@@ -8,23 +8,23 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%
 
 ---
 
-# Services CX Enterprise {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Services d’entreprise CX {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 exemple
 
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié dans CX Enterprise, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs et des produits pour CX Enterprise, les cookies, les préférences de compte, les notifications, etc.
 
-Pour accéder à ces services dans CX Enterprise, sélectionnez les **[!UICONTROL Application Selector]**
+Pour accéder à ces services dans CX Enterprise, sélectionnez **[!UICONTROL Application Selector]**
 ![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
 
-![Services &#x200B;](../assets/platform-core-services.png)
+![Services CX Entreprise](../assets/platform-core-services.png)
 
 Cette aide décrit les produits et services suivants :
 

@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1429
 ht-degree: 52%
@@ -46,13 +46,13 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
-| 20 Avril 2026 | Actualisation de l’interface d’entreprise Adobe CX | Actualisation de l’aspect de la page d’accueil de `https://experience.adobe.com/home`. Avec cette nouvelle version, toutes les fonctionnalités restent les mêmes, avec une interface utilisateur actualisée, la prise en charge du _mode sombre_ complet et une accessibilité améliorée. |
+| 20 avril 2026 | Actualisation de l’interface d’entreprise Adobe CX | Actualisation de l’aspect de la page d’accueil sur `https://experience.adobe.com/home`. Avec cette nouvelle version, toutes les fonctionnalités restent les mêmes, avec une interface utilisateur actualisée, la prise en charge du _mode sombre_ complet et une accessibilité améliorée. |
 
 ## Janvier 2026
 
 | Date | Mise à jour | Description | Produits concernés |
 | -----------| -----------| ---------- | ---------- |
-| 14 janvier 2026 | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans CX Enterprise. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
+| 14 janvier 2026 | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans CX Enterprise. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
 
 ## Septembre 2025
 

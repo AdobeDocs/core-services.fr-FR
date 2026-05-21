@@ -1,5 +1,5 @@
 ---
-description: Découvrez la fonctionnalité de Recherche unifiée pour certaines applications dans CX Enterprise.
+description: Découvrez la fonctionnalité de recherche unifiée pour certaines applications dans CX Enterprise.
 solution: Experience Cloud
 title: Recherche unifiée Experience Cloud
 index: true
@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 84%
@@ -77,7 +77,7 @@ Vous trouverez également les articles dʼaide dʼExperience League et des comm
 
 Par exemple, la mention _Comment créer un schéma_ génère les résultats d’Experience League sous _[!UICONTROL Learning]_:
 
-![[!UICONTROL Unified Search] dans l’aide de CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] dans l’aide aux entreprises CX](../assets/unified-search-learning.png)
 
 Les algorithmes de recherche affichent d’abord les enregistrements les plus pertinents. L’ordre des résultats dépend de plusieurs facteurs, tels que :
 

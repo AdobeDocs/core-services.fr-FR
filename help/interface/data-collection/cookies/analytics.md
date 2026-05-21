@@ -20,7 +20,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 582
 ht-degree: 10%
@@ -35,7 +35,7 @@ Analytics utilise des cookies pour définir de nouveaux visiteurs de manière an
 
 | Nom du cookie | Expiration | Taille | Emplacement | Description |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 mois | 45 octets | Premier niveau | Stocke le CX Enterprise ID (ECID) ou MID. Défini par la réponse HTTP. Le MID est stocké au format `s_ecid=MCMID`. Définissez après que le client a défini le cookie AMCV. Il permet le suivi des identifiants propriétaires persistants et est utilisé comme identifiant de référence si le cookie AMCV expire. `SameSite` est défini sur « Lax ». Si vous utilisez le Web SDK pour implémenter Adobe Analytics, l’expiration du cookie est définie sur 2 ans. Cependant, la plupart des navigateurs modernes tronquent l’expiration à 13 mois. |
+| **`s_ecid`** | 13 mois | 45 octets | Premier niveau | Stocke l’expérience client Enterprise ID (ECID) ou MID. Défini par la réponse HTTP. Le MID est stocké au format `s_ecid=MCMID`. Définissez après que le client a défini le cookie AMCV. Il permet le suivi des identifiants propriétaires persistants et est utilisé comme identifiant de référence si le cookie AMCV expire. `SameSite` est défini sur « Lax ». Si vous utilisez le Web SDK pour implémenter Adobe Analytics, l’expiration du cookie est définie sur 2 ans. Cependant, la plupart des navigateurs modernes tronquent l’expiration à 13 mois. |
 | **`s_cc`** | Session | 4 octets | Premier niveau | Détermine si les cookies sont activés. Défini par JavaScript. |
 | **`s_sq`** | Session | 100 à 200 octets | Premier niveau | Utilisé par Activity Map. Il contient des informations sur le lien précédent sur lequel le visiteur a cliqué. Défini par JavaScript. |
 | **`s_vi`** | 2 ans | 44 octets | Propriétaire, ou `*.omtrdc.net` (tiers) | Stocke un identifiant visiteur unique et un horodatage. Défini par la réponse HTTP. Chaque identifiant visiteur est associé à un profil de visiteur sur les serveurs Adobe. Les profils des visiteurs sont supprimés après 1 an d’inactivité, quelle que soit l’expiration du cookie de l’identifiant visiteur. L’indicateur `Secure` est défini lorsque la `SameSite` est définie sur « Aucune » et que la connexion est HTTPS. Par défaut, la `SameSite` est « Lax » pour les cookies propriétaires. `SameSite` valeur est définie sur « Aucun » lors de l’utilisation de cookies tiers, tels que sur `omtrdc.net` ou `2o7.net`. Définissez `SameSite` sur « Aucun » lors de l’utilisation d’un seul CNAME pour effectuer le suivi de plusieurs domaines ou propriétés. |

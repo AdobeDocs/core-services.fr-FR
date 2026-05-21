@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment créer une source  [!DNL Customer Attributes]  données et la charger dans CX Enterprise.
+description: Découvrez comment créer une source  [!DNL Customer Attributes]  données et la charger vers l’expérience client Entreprise.
 solution: Experience Cloud
 title: Création et chargement d’un fichier  [!DNL Customer Attributes]  Source de données
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1118
 ht-degree: 43%
@@ -41,9 +41,9 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 * **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL product profiles], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à l’[CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL product profiles], vous êtes prêt à commencer.
 
-  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface de CX Enterprise.
+  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface CX Enterprise.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
@@ -68,7 +68,7 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
 ## Création d’une source d’attributs et chargement du fichier de données
 
-Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribute Source]_&#x200B;dans CX Enterprise.
+Effectuez ces étapes sur la page _[!UICONTROL Create Customer Attribute Source]_&#x200B;dans CX Enterprise.
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Create Customer Attribu
 
      L’ID d’alias correspond à certaines zones où vous définissez des valeurs d’ID de client supplémentaires. Par exemple :
 
-      * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL customer Settings], dans l’outil [Service CX Enterprise ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
+      * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL customer Settings], dans l’outil [Service Enterprise ID CX](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
       * **API visiteur :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
 
@@ -146,9 +146,9 @@ Après avoir chargé le fichier, les données du tableau s’affichent sous l’
 
 * **[!UICONTROL Unique customer ID:]** Affiche le nombre d’identifiants uniques que vous avez chargés sur cette source d’attributs.
 
-* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]** Affiche le nombre d’identifiants qui ont reçu un alias vers les identifiants visiteur CX Enterprise.
+* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]** Affiche le nombre d&#39;identifiants qui ont reçu un alias vers les identifiants visiteur d&#39;entreprise CX.
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur CX Enterprise en alias ou plus. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur CX Enterprise en alias les plus récents, jusqu’à ce que le nombre d’alias atteigne 10 000. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Affiche le nombre d’identifiants fournis par le client avec 500 identifiants visiteur d’entreprise CX ou plus avec alias. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 identifiants de visiteur d’entreprise CX en alias les plus récents, jusqu’à ce que le nombre d’alias atteigne 10 000. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
 
 ## Validation du schéma {#validate-schema}
 
@@ -168,7 +168,7 @@ Suppression des attributs et remplacement des attributs dans le schéma.
 
 ## Configuration des abonnements et activation de la source d’attributs
 
-La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
+La configuration d&#39;un abonnement configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
 Voir [Configuration des abonnements et activation de la source de données](subscription.md).
 
@@ -180,7 +180,7 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 ![Segment Analytics dʼaprès les attributs téléchargés](assets/08_crs_usecase.png)
 
-Lorsque vous publiez un segment dans CX Enterprise, il est disponible dans les audiences CX Enterprise et Audience Manager.
+Lorsque vous publiez un segment sur CX Enterprise, il est disponible dans CX Enterprise Audiences et Audience Manager.
 
 ## Utilisation des données [!DNL Customer Attributes] dans Adobe Target
 

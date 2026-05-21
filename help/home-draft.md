@@ -1,5 +1,5 @@
 ---
-description: Découvrez les composants de l’interface centrale de CX Enterprise. Obtenez de l’aide sur l’administration des utilisateurs et des produits dans Admin Console, activez des applications pour les services CX Enterprise. Obtenez de l’aide sur la bibliothèque d’audiences, les attributs du client, CX Enterprise Assets, etc.
+description: Découvrez les composants de l’interface centrale pour CX Enterprise. Obtenez de l’aide sur l’administration des utilisateurs et des produits dans Admin Console, activez des applications pour les services d’entreprise CX. Obtenez de l’aide sur la bibliothèque d’audiences, les attributs du client, CX Enterprise Assets, etc.
 title: Documentation de l’interface d’Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 60%
 
 ---
 
-# Présentation de l’interface centrale de CX Enterprise
+# Présentation de l’interface centrale d’entreprise CX
 
-[&#128279;](https://experience.adobe.com?lang=fr) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
+[CX Enterprise](https://experience.adobe.com?lang=fr) est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services.
 <!--
 ![CX Enterprise](assets/landing.png)
 

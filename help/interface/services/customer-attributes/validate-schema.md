@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 308
 ht-degree: 43%
@@ -60,9 +60,9 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 * **[!UICONTROL FTP Setup:]** Créez votre compte FTP pour [télécharger vos données par FTP](t-upload-attributes-ftp.md) (facultatif).
 
-* **[!UICONTROL ID Lookup:]** Saisissez un ID de client (CID) à partir de votre `.csv` pour rechercher les informations CX Enterprise relatives à cet ID. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
+* **[!UICONTROL ID Lookup:]** Saisissez un ID de client (CID) à partir de votre `.csv` pour rechercher les informations CX Enterprise pour cet ID. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** S’affiche si vous utilisez le dernier service CX Enterprise ID. Si vous utilisez le service MCID, mais qu’aucun ID n’est répertorié ici, CX Enterprise n’a reçu aucun alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
+   * **[!UICONTROL ECID (CX Enterprise ID):]** S’affiche si vous utilisez le dernier service CX Enterprise ID. Si vous êtes sur le service MCID mais qu&#39;aucun ID n&#39;est répertorié ici, CX Enterprise n&#39;a pas reçu d&#39;alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
    * **[!UICONTROL CID (customer ID):]** Attributs associés à cet ID de client. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 

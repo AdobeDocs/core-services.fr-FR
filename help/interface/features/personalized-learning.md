@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 # Préférences d’apprentissage personnalisées
 
-Adobe vous fournit du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Les données d’utilisation des produits nous permettent d’adapter ce contexte à vos besoins. Vous pouvez vous inscrire ou refuser de partager vos données d’utilisation de produit sur la page Préférences de [&#128279;](https://experience.adobe.com/preferences).
+Adobe vous fournit du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Les données d’utilisation des produits nous permettent d’adapter ce contexte à vos besoins. Vous pouvez vous inscrire ou refuser de partager vos données d’utilisation de produit sur la page [Préférences de l’entreprise CX](https://experience.adobe.com/preferences).
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

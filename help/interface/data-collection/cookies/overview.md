@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment les solutions et services de Adobe CX Enterprise utilisent les cookies.
+description: Découvrez comment les solutions et services Adobe CX Enterprise utilisent les cookies.
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
@@ -15,7 +15,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 624
 ht-degree: 8%
@@ -34,7 +34,7 @@ Adobe CX Enterprise utilise des cookies pour suivre les informations qui ne dure
 
 Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identités Experience Platform (ECID) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
-* [CX Enterprise Identity Service &#x200B;](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de votre collection corresponde au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
+* [CX Enterprise Identity Service](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
 * [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
 
@@ -53,7 +53,7 @@ Voici une version simplifiée du texte :
 
 Adobe prend au sérieux la confidentialité et la sécurité des données. Il collabore avec des organisations de protection de la vie privée, des organismes de réglementation et des programmes comme AdChoices pour donner aux gens le contrôle sur l&#39;utilisation de leurs données.
 
-La plupart des cookies de Adobe CX Enterprise ne stockent pas d’informations personnelles. Ils sont sécurisés et ne sont utilisés que par votre entreprise pour le reporting, le contenu et la publicité. Adobe ne partage pas ces données avec d’autres clients ou tiers, à l’exception des rapports anonymes à l’échelle du secteur (tels que les rapports d’Insight de marketing numérique).
+La plupart des cookies d’Adobe CX Enterprise ne stockent pas d’informations personnelles. Ils sont sécurisés et ne sont utilisés que par votre entreprise pour le reporting, le contenu et la publicité. Adobe ne partage pas ces données avec d’autres clients ou tiers, à l’exception des rapports anonymes à l’échelle du secteur (tels que les rapports d’Insight de marketing numérique).
 
 Adobe ne regroupe pas les données de navigateur de différentes sociétés. Pour protéger la confidentialité, certains outils Adobe permettent à chaque site web d’utiliser son propre jeu de cookies. Certains permettent également d’utiliser votre propre domaine pour les cookies, ce qui les rend propriétaires et plus sécurisés.
 

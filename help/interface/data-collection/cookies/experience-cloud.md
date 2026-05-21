@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment le service d’ID est stocké et utilisé dans les applications CX Enterprise.
+description: Découvrez comment le service d’ID est stocké et utilisé dans les applications d’entreprise CX.
 solution: Experience Cloud,Analytics,Target
 title: Cookies Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,14 +22,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
 
 ---
 
-# Cookies CX Enterprise
+# Cookies d’entreprise CX
 
 Adobe CX Enterprise utilise des cookies pour stocker l’identifiant visiteur utilisé dans les applications CX Enterprise. Ces cookies s’appliquent spécifiquement à l’accès aux applications Adobe CX Enterprise sur [experience.adobe.com](https://experience.adobe.com?lang=fr).
 
@@ -45,7 +45,7 @@ Adobe CX Enterprise utilise des cookies pour stocker l’identifiant visiteur ut
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p> Contient une copie de l’identifiant CX Enterprise (ECID) ou du MID. Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contient une copie de l’expérience client Enterprise ID (ECID) ou MID. Le MID est stocké dans une paire clé-valeur qui suit la syntaxe s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Expiration </p> </td> 
@@ -65,7 +65,7 @@ Adobe CX Enterprise utilise des cookies pour stocker l’identifiant visiteur ut
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Les cookies dotés de ce paramètre ne sont envoyés que lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre représente la nouvelle valeur par défaut pour les cookies dans Chrome.</p> </td> 
+   <td colname="col2"> <p>Les cookies comprenant ce paramètre sont uniquement envoyés lorsque le domaine affiché dans l’URL du navigateur correspond au domaine du cookie. Ce paramètre représente la nouvelle valeur par défaut pour les cookies dans Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Voir aussi [Cookies et service d’ID](https://experienceleague.adobe.com/docs/i
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informations stockées </p> </td> 
-   <td colname="col2"> <p> ID de visiteur uniques utilisés par les solutions CX Enterprise. </p> </td> 
+   <td colname="col2"> <p> ID de visiteur uniques utilisés par les solutions d’entreprise CX. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Expiration </p> </td> 

@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 9%
@@ -26,7 +26,7 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 >
 >Bien qu’Adobe fasse de son mieux pour tenir ce document à jour, il ne peut pas garantir que la liste des plages d’adresses IP reste la même. Les changements possibles comprennent la croissance et l&#39;expansion de l&#39;entreprise, un registre Internet qui nécessite des modifications à l&#39;espace d&#39;adresse IP d&#39;Adobe ou un fournisseur de services Internet qui cesse de fonctionner.
 
-Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe CX Enterprise individuels possèdent leurs propres adresses IP qu’ils utilisent :
+Outre les blocs d’adresses IP répertoriés ci-dessous, les différents produits Adobe CX Enterprise utilisent leurs propres adresses IP :
 
 * [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
@@ -49,7 +49,7 @@ Le tableau suivant couvre toutes les adresses IP détenues par Adobe. Ce tableau
 
 {style="table-layout:auto"}
 
-## Collecte de données Adobe CX Enterprise et blocs d’adresses IP FTP
+## Collecte de données d’entreprise Adobe CX et blocs d’adresses IP FTP
 
 Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez consulter le tableau suivant. Comprend :
 
@@ -92,7 +92,7 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 
 {style="table-layout:auto"}
 
-Le Adobe CX Enterprise prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
+Adobe CX Enterprise prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
 
 | Emplacement | Hôte |
 | --- | --- |

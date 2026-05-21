@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 69%
@@ -35,7 +35,7 @@ CX Enterprise Assets fournit un référentiel unique et centralisé de ressource
 Les services de ressources comprennent ce qui suit :
 
 * Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les applications).
-* Intégrations à Creative Cloud, collaboration CX Enterprise et applications CX Enterprise.
+* Intégrations avec Creative Cloud, collaboration CX Entreprise et applications CX Entreprise.
 
 Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 

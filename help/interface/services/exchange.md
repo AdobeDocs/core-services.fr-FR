@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 127
 ht-degree: 88%
@@ -43,8 +43,8 @@ Marketplace est une destination unique où vous pouvez rechercher des extensions
 
 * Refusez ou approuvez des applications.
 
-* Publiez dans CX Enterprise.
+* Publication dans CX Enterprise.
 
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
-Voir [CX Enterprise Exchange](https://exchange.adobe.com/experiencecloud.html) pour plus d&#39;informations.
+Voir [CX Enterprise Exchange](https://exchange.adobe.com/experiencecloud.html) pour plus d’informations.

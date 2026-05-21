@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +31,7 @@ ht-degree: 60%
 
 # Créer une audience
 
-Dans [!UICONTROL Audience Library], vous pouvez utiliser des règles d’attributs pour créer une audience et définir une audience composite pour le partage dans les applications CX Enterprise.
+Dans [!UICONTROL Audience Library], vous pouvez utiliser des règles d’attribut pour créer une audience et définir une audience composite pour le partage dans les applications d’entreprise CX.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -71,7 +71,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
      >[!NOTE]
      >
-     >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne s’affichent dans CX Enterprise qu’au bout de 12 heures.
+     >En raison de la mise en cache, les suites de rapports supprimées dans Analytics nécessitent 12 heures avant que la suppression ne s’affiche dans CX Enterprise.
 
    * **[!UICONTROL CX Enterprise:]** des données d’attributs provenant de sources [!DNL CX Enterprise]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
@@ -93,7 +93,7 @@ Sous [!UICONTROL Rules], définissez les sélections d’attributs *`Home & Gard
 
 Les visiteurs *Chrome et Safari* sont un segment d’audience partagé à partir d’Analytics :
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX Entreprise
 * Visiteurs **[!UICONTROL Dimension:]** Chrome et Safari
 
 ![Visiteurs Chrome et Safari](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour affiche
 
 La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Maison et jardin. Le segment Patio et meubles fournit des informations supplémentaires sur tous les visiteurs qui visitent cette section du site.
 
-![&#x200B; Audience définie dans CX Enterprise &#x200B;](assets/defined_audience.png)
+![Audience définie dans CX Enterprise](assets/defined_audience.png)
 
 * **Historique (estimation) :** (cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
 * **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications CX Enterprise. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications d’entreprise CX. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.

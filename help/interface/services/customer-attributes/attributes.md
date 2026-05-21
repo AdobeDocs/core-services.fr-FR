@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 47%
@@ -34,7 +34,7 @@ ht-degree: 47%
 
 **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-[!DNL Customer Attributes] dans Adobe CX Enterprise vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans CX Enterprise, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
+[!DNL Customer Attributes] dans Adobe CX Enterprise, vous permet de télécharger vos données d’entreprise capturées à partir d’une base de données de gestion de la relation client (GRC). Vous pouvez [charger les données](t-crs-usecase.md) dans une source de données [!DNL Customer Attributes] dans CX Enterprise, puis utiliser les données dans [!DNL Adobe Analytics] et [!DNL Adobe Target].
 
 ![Vue d’ensemble des attributs du client ou de la cliente](assets/custom_reports.png)
 
@@ -52,7 +52,7 @@ Voir [Charger des données d’attributs du client](t-crs-usecase.md) pour en sa
 
 ## Exemples d’attributs du client ou de la cliente dans Analytics et Target
 
-Une fois que les données résident dans CX Enterprise, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
+Une fois que les données se trouvent dans l’expérience client, vous pouvez les personnaliser et les partager dans les solutions aux fins de création de rapports, de segmentation, d’activités et de campagnes.
 
 Par exemple :
 
