@@ -16,7 +16,8 @@ git-repo: https://github.com/AdobeDocs/core-services.fr-FR
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: b739075ef16488793cbf2e1d032c4d7f6917af47
+usetq: true
+source-git-commit: db26becfb753c2a48a125735c3742a3731162928
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 66%
