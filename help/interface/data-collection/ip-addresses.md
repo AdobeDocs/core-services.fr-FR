@@ -28,10 +28,10 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 
 Outre les blocs d’adresses IP répertoriés ci-dessous, les différents produits Adobe CX Enterprise utilisent leurs propres adresses IP :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Tous les blocs d’adresses IP Adobe
 
