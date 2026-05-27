@@ -80,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans CX Enterprise
 
-La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [](https://experienceleague.adobe.com/?lang=fr#home).
+La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [&#128279;](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans CX Enterprise](assets/search-menu.png)
 
