@@ -1,94 +1,144 @@
 ---
-title: Contrôle
-description: Découvrez comment la surveillance de l’IA dans Experience Platform vous permet de suivre l’adoption des assistants d’IA, d’examiner les conversations et les commentaires et de gérer les crédits d’IA pour l’utilisation, la qualité et la visibilité des coûts.
+title: Surveillance de l’utilisation de l’IA dédiée aux agences
+description: Découvrez la surveillance de l’utilisation de l’IA dans CX Enterprise. Suivez l’adoption, examinez les conversations et les commentaires, et gérez les crédits d’IA pour l’utilisation, la qualité et la visibilité des coûts.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+autotag-review: '2026-05-27T16:30:16.764Z'
+TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 948
+ht-degree: 2%
 
 ---
 
-# Surveillance IA
+# Tableau de bord de surveillance de l’utilisation de l’IA dédiée aux agences
 
-Après avoir déployé [!UICONTROL AI Assistant], vous pouvez utiliser [!UICONTROL Monitoring] pour obtenir une visibilité sur son utilisation et ses performances. Il vous permet de comprendre qui utilise [!UICONTROL AI Assistant], quelles tâches il prend en charge, où il réussit ou se bat, et comment cela est lié à l’adoption, au coût et à l’impact commercial.
+CX Enterprise fournit deux tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications CX Enterprise existantes. Ces tableaux de bord vous aident à comprendre l’adoption, l’engagement, la qualité des commentaires et la consommation de crédit de l’IA pour les [!DNL Experience Platform Agents] auxquelles les utilisateurs accèdent par le biais de [!DNL AI Assistant] et d’autres surfaces de conversation.
 
-La surveillance de l’IA s’organise autour de trois domaines :
+Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
 
-* **Adoption et engagement** dans le tableau de bord [!UICONTROL Usage]
-* **Qualité et performance** en [!UICONTROL Conversation Replay] et en feedback
-* **Coût et consommation** dans le tableau de bord Crédits
+## Tableau de bord d’utilisation des licences
 
-Ensemble, ils vous aident à [!UICONTROL AI Assistant] avec des données claires au lieu de conjectures.
+Le tableau de bord Utilisation de la licence [!DNL Adobe Experience Platform] affiche les droits de crédits AI sous licence de votre entreprise et le total des crédits AI consommés lorsque les utilisateurs s’exécutent [!DNL Experience Platform Agents].
 
-## Tableau de bord d’utilisation
+Les administrateurs utilisent ce tableau de bord pour suivre la consommation des licences par rapport aux droits. Pour accéder au tableau de bord, consultez [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) dans la documentation [!DNL Experience Platform].
 
-Le tableau de bord d’utilisation est l’endroit central pour l’adoption et l’engagement dans votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. À partir de n’importe quelle mesure du tableau de bord, vous pouvez explorer des conversations individuelles pour voir ce qui motive les chiffres.
+## Tableau de bord de surveillance de l’IA dédiée aux agences
 
-**Ce que vous pouvez examiner**
+Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Vous pouvez afficher les tendances sur des périodes de 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces de conversation (comme [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents], ce qu’ils font dans ces interactions et la valeur qu’ils reçoivent.
 
-* **invites au fil du temps** : croissance globale de l’utilisation et tendances d’adoption.
-* **Utilisateurs actifs et conversations** : quelle est l’ampleur de l’adoption de l’assistant parmi les utilisateurs.
-* **Nombre moyen d’invites par conversation** : profondeur de l&#39;engagement et si les interactions sont substantielles.
-* **Commentaires (pouces vers le haut / vers le bas)** : Signaux précoces sur la qualité et la satisfaction de l&#39;utilisateur.
+Le tableau de bord de surveillance d’Agentic AI comprend les vues suivantes :
 
-## Relecture de la conversation avec commentaires
+| Tableau de bord | Rôle |
+| --- | --- |
+| **Vue d’ensemble** | Mesures agrégées concernant les utilisateurs, les conversations, les commentaires et la consommation de crédit |
+| **Utilisateurs** | Fréquence d’utilisation, distribution et engagement par utilisateur |
+| **Commentaires** | Signaux sur la qualité de la réponse et la satisfaction des utilisateurs |
+| **Crédits AI** | Tendances de la consommation de crédit et solde restant |
 
-[!UICONTROL Conversation Replay] affiche les interactions d’IA réelles, et pas seulement les agrégats. Vous pouvez y accéder à partir du tableau de bord d’utilisation lorsque vous devez passer des tendances à des échanges spécifiques.
+Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
-**Ce que vous pouvez examiner**
+## Tableau de bord de présentation
 
-* **Invite et historique des réponses** : question de l’utilisateur et réponses [!UICONTROL AI Assistant], telles qu’elles ont été fournies.
-* **Signaux de retour d’informations** : quelles interactions les utilisateurs et utilisatrices ont-ils marquées positivement ou négativement, pour prioriser les améliorations ?
-* **Modèles au fil du temps** : thèmes récurrents dans les expériences fortes et faibles dans de nombreuses conversations.
+Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. À partir de n’importe quelle mesure, vous pouvez explorer des conversations individuelles pour voir ce qui motive les chiffres.
 
-Cette vue vous aide à aller au-delà des cumuls pour voir ce qui fonctionne, où les utilisateurs et utilisatrices rencontrent des problèmes de friction, et comment améliorer la qualité de la réponse au fil du temps. Les tendances d’utilisation répondent _ce qui se passe_. La relecture de la conversation permet d’expliquer _pourquoi_.
+### Mesures dans le tableau de bord de présentation
 
-## Tableau de bord [!UICONTROL Credits]
+* **Invites au fil du temps :** tendances générales de croissance de l’utilisation et d’adoption.
+* **Utilisateurs actifs et conversations :** nombre d’utilisateurs interagissant avec [!DNL Experience Platform Agents].
+* **Nombre moyen d’invites par conversation :** Profondeur d’engagement par conversation.
+* **Commentaires :** répartition des pouces vers le haut et des pouces vers le bas pour les commentaires des utilisateurs (pour les interactions [!DNL AI Assistant] uniquement).
 
-Une fois que vous avez compris l’utilisation et la qualité, le tableau de bord Crédits répond à la manière dont cette activité se traduit en consommation et en coût.
+### Relecture de la conversation
 
-**Ce que vous pouvez examiner**
+La relecture des conversations affiche les interactions individuelles, et pas seulement les agrégats. Vous pouvez analyser des modèles dans de nombreuses conversations et passer de tendances de haut niveau à une conversation spécifique.
 
-* **Total des crédits consommés** : utilisation globale de l’assistant AI en termes de crédit.
-* **Tendances quotidiennes et mensuelles** : pics, creux et changements dans les schémas d’utilisation.
-* **Crédits restants** : ce qui reste dans votre allocation pour que vous puissiez planifier avant les limites ou les dépassements.
+* **Invite et historique des réponses :** invite de l’utilisateur et réponses fournies.
+* **Signaux de retour d’informations :** utilisateurs d’interactions signalés par un pouce vers le haut ou vers le bas pour identifier une friction, des bloqueurs ou des besoins d’activation. Ces informations aident votre entreprise à améliorer la pertinence rapide et aident Adobe à améliorer la qualité de la réponse au fil du temps.
 
-Utilisez cette vue pour prévoir l’utilisation, vous aligner sur le budget et répartir les crédits entre les équipes de manière plus prévisible.
+## Users dashboard
 
-## Tableau de bord des commentaires de l’utilisateur
+Le tableau de bord des utilisateurs montre comment l’adoption et l’engagement des agents varient selon les utilisateurs au fil du temps. Vous pouvez voir qui utilise activement [!DNL Experience Platform Agents], quelle surface ils utilisent et à quelle fréquence ils interagissent. Les administrateurs et les membres du COE peuvent explorer l’activité et les conversations des utilisateurs individuels pour comprendre les modèles d’engagement et le comportement d’utilisation.
 
-Le tableau de bord des commentaires de l’utilisateur aide les organisations à consulter les commentaires détaillés des utilisateurs envoyés pour les interactions de l’assistant IA. Il offre une visibilité sur les conversations que les utilisateurs ont marquées positivement ou négativement et permet aux administrateurs et aux centres d’excellence (CE) d’étudier les détails de l’interaction derrière les commentaires.
-À partir de résumés de commentaires, les utilisateurs peuvent explorer des conversations individuelles pour examiner les invites, les réponses, les détails de raisonnement et les notes de commentaires associées à l’interaction.
+### Mesures dans le tableau de bord des utilisateurs
 
-Éléments que vous pouvez examiner
+* **Tendances d’adoption et d’engagement au fil du temps :** suivez l’évolution des segments d’utilisateurs au cours de la période sélectionnée. Les utilisateurs sont classés comme suit :
+   * **Nouvelle :** première activité de la période sélectionnée, sans activité au cours des 12 mois précédents.
+   * **Répéter :** activité de la période sélectionnée et de la période précédente.
+   * **Retour :** activité de la période sélectionnée, mais pas de la période précédente.
+   * **Inactif :** aucune activité pendant la période sélectionnée, mais activité pendant la période précédente.
+* **Modèles d’engagement des utilisateurs :** fréquence à laquelle les utilisateurs interagissent avec les agents et évolution de l’engagement au fil du temps.
+* **Activité de conversation :** nombre de conversations et d’invites par utilisateur.
+* **Utilisateurs les plus actifs :** utilisateurs et équipes les plus engagés favorisent l’adoption des agents.
 
-**Tendances des commentaires au fil du temps :** comprenez l’évolution des commentaires des utilisateurs sur l’ensemble des workflows et des périodes.
-**Commentaires des pouces vers le haut et vers le bas :** examiner les signaux d’interaction positifs et négatifs envoyés par les utilisateurs.
-**Catégories de commentaires :** comprendre les types de réponses que les utilisateurs et utilisatrices ont identifiées comme utiles ou problématiques.
-**Analyses détaillées au niveau des conversations :** passez des résumés des commentaires aux conversations individuelles liées aux événements de commentaires.
-**Invite et historique des réponses :** consultez les invites de l&#39;utilisateur et les réponses de l&#39;assistant AI associées aux commentaires envoyés.
-**Détails et notes du retour d’informations :** consultez le contexte et les commentaires supplémentaires fournis par les utilisateurs lors de l’envoi du retour d’informations.
+## Tableau de bord des commentaires
 
-Ce tableau de bord aide les entreprises à mieux comprendre les expériences utilisateur, à étudier les problèmes et à identifier les opportunités d’amélioration de la qualité et de l’efficacité des assistants d’IA au fil du temps.
+Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. À partir de résumés de commentaires, explorez les conversations individuelles pour examiner les invites, les réponses, les détails de raisonnement et les notes de commentaires.
 
-## Tableau de bord des utilisateurs actifs
+### Mesures dans le tableau de bord des commentaires
 
-Le tableau de bord des utilisateurs actifs aide les organisations à comprendre comment l’adoption et l’engagement des assistants AI varient selon les utilisateurs au fil du temps. Il permet de savoir qui utilise activement l’assistant AI, à quelle fréquence ces personnes interagissent et quels workflows sont les plus actifs dans l’entreprise.
-À partir de résumés au niveau des utilisateurs, les administrateurs et les centres d’excellence peuvent analyser en détail les activités et les conversations des utilisateurs individuels pour mieux comprendre les schémas d’engagement et le comportement d’utilisation.
+* **Tendances des commentaires au fil du temps :** évolution des commentaires des utilisateurs au fil du temps.
+* **Commentaires des pouces vers le haut et vers le bas :** signaux d’interaction positifs et négatifs.
+* **Catégories de commentaires :** justification derrière chaque pouce vers le haut et vers le bas.
+* **Invite et historique des réponses :** les invites de l&#39;utilisateur et les réponses associées aux retours envoyés.
+* **Détails et notes du retour d’informations :** contexte et commentaires supplémentaires des utilisateurs lors de l’envoi du retour d’informations.
 
-Éléments que vous pouvez examiner
+## Tableau de bord des crédits AI
 
-* **Utilisateurs actifs au fil du temps :** suivez les tendances en matière d’adoption et d’engagement dans l’entreprise.
-* **Modèles d’engagement des utilisateurs :** comprenez la fréquence des interactions des utilisateurs avec l’assistant AI et l’évolution de l’engagement au fil du temps.
-* **Activité de conversation :** vérifiez le nombre de conversations et d’invites générées par les utilisateurs individuels.
-* **Utilisateurs les plus actifs :** identifier les utilisateurs et les équipes les plus engagés qui pilotent l’adoption de l’assistant IA.
-* **Analyses détaillées au niveau de l’utilisateur :** permet de passer des mesures d’engagement agrégées aux détails des activités et des conversations des utilisateurs individuels.
-* **Tendances d’utilisation par workflow :** identifiez les workflows et les cas d’utilisation qui génèrent le plus d’engagement parmi les utilisateurs.
-* **Cohérence de l’engagement :** identifier les utilisateurs avec des schémas d’engagement récurrents ainsi que les utilisateurs avec une activité en déclin au fil du temps.
+Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Experience Platform Agents] par votre entreprise se traduit par la consommation des crédits AI.
 
-Ce tableau de bord aide les entreprises à mesurer l’adoption, à identifier les tendances d’engagement et à mieux comprendre comment l’assistant AI est utilisé dans les équipes et les workflows.
+### Mesures sur le tableau de bord des crédits d’IA
+
+* **Total des crédits AI consommés :** utilisation globale de l’agent dans les crédits AI.
+* **Tendances quotidiennes et mensuelles :** pics, creux et changements dans les habitudes de consommation.
+* **Crédits AI restants :** solde restant pour que vous puissiez planifier de manière proactive et éviter les dépassements.
+
+## Accès et gouvernance
+
+Les tableaux de bord de surveillance de l’utilisation de l’IA dédiée aux agences présentent l’activité des assistants AI, notamment les schémas d’utilisation, les informations au niveau de la conversation, les signaux de retour et les mesures opérationnelles. Certaines de ces informations peuvent inclure un contexte commercial sensible, des données d’activité d’invite ou d’interaction utilisateur.
+
+L’accès est basé sur des autorisations et est destiné uniquement aux administrateurs de code autorisés et aux utilisateurs de gouvernance approuvés. La section suivante décrit comment accorder des autorisations relatives aux tableaux de bord.
+
+## Activer les autorisations relatives aux tableaux de bord
+
+Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en mettant à jour le profil ou le rôle de produit pour chaque utilisateur autorisé.
+
+1. Accédez à [!DNL Experience Platform] **Administration** > **Autorisations**.
+
+1. Ouvrez le profil de produit ou le rôle à mettre à jour.
+
+   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-permissions.png)
+
+1. Sous **[!UICONTROL AI Assistant]** autorisations, cliquez sur **[!UICONTROL Add Resource]**, puis activez **[!UICONTROL View AI Assistant usage dashboard]**.
+
+   Cette autorisation accorde l’accès aux tableaux de bord de surveillance de l’utilisation d’Agentic AI.
+
+1. Sous Autorisations **[!UICONTROL Dashboards]**, configurez l’accès aux tableaux de bord en fonction des responsabilités de chaque utilisateur.
+
+   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-add-resource.png)
+
+   Autorisations recommandées pour les utilisateurs autorisés à utiliser la gouvernance :
+
+   * **[!UICONTROL View License Usage Dashboard]**
+   * **[!UICONTROL View Standard Dashboards]**
+   * **[!UICONTROL Export Dashboard Data]** (facultatif, pour les utilisateurs et utilisatrices de gouvernance approuvés uniquement)
+
+   Autorisations supplémentaires que vous pouvez accorder si nécessaire :
+
+   * **[!UICONTROL Manage Custom Dashboards]**
+   * **[!UICONTROL View Custom Dashboards]**
+   * **[!UICONTROL Manage Standard Dashboards]**
+
+## Plus d’aide sur cette rubrique
+
+* [IA dédiée aux agents dans Adobe CX Enterprise](agentic-ai.md)
+* [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
