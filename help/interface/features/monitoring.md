@@ -34,7 +34,7 @@ Les agents concernés par la surveillance de l’utilisation sont répertoriés 
 
 Le tableau de bord Utilisation de la licence [!DNL Adobe Experience Platform] affiche les droits de crédits AI sous licence de votre entreprise et le total des crédits AI consommés lorsque les utilisateurs s’exécutent [!DNL Experience Platform Agents].
 
-Les administrateurs utilisent ce tableau de bord pour suivre la consommation des licences par rapport aux droits. Pour accéder au tableau de bord, consultez [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) dans la documentation [!DNL Experience Platform].
+Les administrateurs utilisent ce tableau de bord pour suivre la consommation des licences par rapport aux droits. Pour accéder au tableau de bord, consultez [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans la documentation [!DNL Experience Platform].
 
 ## Tableau de bord de surveillance de l’IA dédiée aux agences
 
@@ -146,4 +146,4 @@ Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en 
 
 * [IA dédiée aux agents dans Adobe CX Enterprise](agentic-ai.md)
 * [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
-* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
