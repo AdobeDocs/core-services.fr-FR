@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 52%
+source-wordcount: 1501
+ht-degree: 50%
 
 ---
 
@@ -42,6 +42,12 @@ Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mise
 
 Pour consulter les notes de mise à jour couvrant toutes les applications, voir [Notes de mise à jour de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
+## Juin 2026
+
+| Date | Mise à jour | Description |
+| ------- | ------- | ------- |
+| 1er juin 2026 | Surveillance de l’utilisation de l’IA dédiée aux agences | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance de l’utilisation d’Agentic AI](../features/monitoring.md) pour accéder aux tableaux de bord et obtenir des autorisations. |
+
 ## Avril 2026
 
 | Date | Mise à jour | Description |
@@ -52,7 +58,7 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description | Produits concernés |
 | -----------| -----------| ---------- | ---------- |
-| 14 janvier 2026 | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans CX Enterprise. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
+| 14 janvier 2026 | Menu de navigation personnalisable de gauche | Vous pouvez désormais personnaliser le menu de navigation de gauche d’une application dans CX Enterprise. Réorganisez les éléments de navigation et réglez leur visibilité pour accéder rapidement aux fonctionnalités les plus importantes. Cette mise à jour vous permet de rationaliser les workflows, de réduire la charge cognitive et de bénéficier d’une accessibilité complète au clavier. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer édition B2B</li><li>Dynamic Chat</li></ul> |
 
 ## Septembre 2025
 

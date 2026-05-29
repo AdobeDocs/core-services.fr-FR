@@ -23,16 +23,21 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e86d1384fc183ebafdab2995ee3495f2184b0329
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 40%
+source-wordcount: 788
+ht-degree: 38%
 
 ---
 
 # Mises à jour de la documentation
 
 Découvrez où se produisent les mises à jour de la documentation pour l’interface centrale et l’administration d’CX Enterprise.
+
+## Juin 2026
+
+* Publié [Surveillance de l’utilisation de l’IA dédiée aux agences](../features/monitoring.md) avec une couverture des tableaux de bord Utilisation de la licence et Surveillance de l’IA dédiée aux agences, y compris les vues Présentation, Utilisateurs, Commentaires et Crédits IA , la relecture de la conversation et les autorisations pour les utilisateurs de la gouvernance.
+* Ajout de [notes de mise à jour de juin 2026](release-notes.md) pour la surveillance de l’utilisation de l’IA agentique.
 
 ## Mai 2026
 
@@ -41,7 +46,6 @@ Mises à jour d’avril et de mai pour le guide de l’interface centrale CX Ent
 * Redéfinition de la documentation d’Experience Cloud vers **CX Enterprise** dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
 * Ajout de [notes de mise à jour d’avril 2026](release-notes.md) pour la page d’accueil actualisée à l’adresse `https://experience.adobe.com/home` (actualisation de l’interface utilisateur, mode sombre et améliorations de l’accessibilité).
 * Mise à jour de [Agentic AI dans CX Enterprise](../features/agentic-ai.md) : Adobe Marketing Agent for Microsoft 365 Copilot, révision des fonctionnalités de l’agent et colonne **Health Data/HIPAA-ready** dans le tableau des agents existing-apps.
-<!-- * Published [Monitoring](../features/monitoring.md) with expanded coverage of Usage, Conversation Replay, Credits, User Feedback, and Active Users dashboards. -->
 * Mises à jour mineures des [collecte de données régionale](../data-collection/rdc.md), [validation du transfert du nom d’hôte](../data-collection/adobe-managed-cert.md) et [terminologie](terms.md).
 
 ## Mars 2026
