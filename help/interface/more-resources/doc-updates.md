@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 ## Juin 2026
 
-* Publié [Surveillance de l’utilisation de l’IA dédiée aux agences](../features/monitoring.md) avec une couverture des tableaux de bord Utilisation de la licence et Surveillance de l’IA dédiée aux agences, y compris les vues Présentation, Utilisateurs, Commentaires et Crédits IA , la relecture de la conversation et les autorisations pour les utilisateurs de la gouvernance.
+* Publié [Surveillance de l’IA dédiée aux agences](../features/monitoring.md) avec une couverture des tableaux de bord d’utilisation des licences et de surveillance de l’IA dédiée aux agences, y compris les vues Présentation, Utilisateurs, Commentaires et Crédits IA , la relecture de la conversation et les autorisations pour les utilisateurs de la gouvernance.
 * Ajout de [notes de mise à jour de juin 2026](release-notes.md) pour la surveillance de l’utilisation de l’IA agentique.
 
 ## Mai 2026

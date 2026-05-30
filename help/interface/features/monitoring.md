@@ -1,6 +1,6 @@
 ---
 title: Surveillance de l’utilisation de l’IA dédiée aux agences
-description: Découvrez la surveillance de l’utilisation de l’IA dans CX Enterprise. Suivez l’adoption, examinez les conversations et les commentaires, et gérez les crédits d’IA pour l’utilisation, la qualité et la visibilité des coûts.
+description: Découvrez les tableaux de bord pour la surveillance de l’utilisation de l’IA dans CX Enterprise. Suivez l’adoption, examinez les conversations et les commentaires, et gérez les crédits d’IA pour l’utilisation, la qualité et la visibilité des coûts.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Tableau de bord de surveillance de l’utilisation de l’IA dédiée aux agences
+# Surveillance IA agentique
 
 CX Enterprise fournit deux tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications CX Enterprise existantes. Ces tableaux de bord vous aident à comprendre l’adoption, l’engagement, la qualité des commentaires et la consommation de crédit de l’IA pour les [!DNL Experience Platform Agents] auxquelles les utilisateurs accèdent par le biais de [!DNL AI Assistant] et d’autres surfaces de conversation.
 
