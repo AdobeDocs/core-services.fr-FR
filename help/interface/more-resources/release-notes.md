@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
-source-wordcount: 1501
+source-wordcount: 1500
 ht-degree: 50%
 
 ---
@@ -46,7 +46,7 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
-| 1er juin 2026 | Surveillance de l’utilisation de l’IA dédiée aux agences | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance de l’utilisation d’Agentic AI](../features/monitoring.md) pour accéder aux tableaux de bord et obtenir des autorisations. |
+| 1er juin 2026 | Surveillance de l’utilisation de l’IA dédiée aux agences | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance IA dédiée aux agences](../features/monitoring.md) pour accéder aux tableaux de bord et connaître les autorisations. |
 
 ## Avril 2026
 
