@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Les agents concernés par la surveillance de l’utilisation sont répertoriés 
 
 [Voir la vidéo d’introduction](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## Activer les autorisations relatives aux tableaux de bord (administrateurs) {#permissions}
+## Activer les autorisations relatives aux tableaux de bord {#permissions}
 
 Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en mettant à jour le profil ou le rôle de produit pour chaque utilisateur autorisé. La fonction [!UICONTROL Surveillance] s’affiche pour les utilisateurs sur la page d’accueil de l’entreprise CX une fois les autorisations activées.
 
@@ -73,7 +73,7 @@ Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en 
 
 1. Pour afficher les tableaux de bord, revenez à la page d’accueil CX Enterprise, puis cliquez sur **[!UICONTROL Surveillance]**.
 
-![Tableau de bord de surveillance d’Agentic AI](../features/assets/monitoring.png)
+   ![Tableau de bord de surveillance d’Agentic AI](../features/assets/monitoring.png)
 
 ## Tableau de bord de présentation
 
