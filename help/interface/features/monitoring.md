@@ -17,28 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
+source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 882
 ht-degree: 2%
 
 ---
 
-# Surveillance IA agentique
+# Tableaux de bord de surveillance d’Agentic AI
 
-CX Enterprise fournit deux tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications CX Enterprise existantes. Ces tableaux de bord vous aident à comprendre l’adoption, l’engagement, la qualité des commentaires et la consommation de crédit de l’IA pour les [!DNL Experience Platform Agents] auxquelles les utilisateurs accèdent par le biais de [!DNL AI Assistant] et d’autres surfaces de conversation.
-
-Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
-
-## Tableau de bord d’utilisation des licences
-
-Le tableau de bord Utilisation de la licence [!DNL Adobe Experience Platform] affiche les droits de crédits AI sous licence de votre entreprise et le total des crédits AI consommés lorsque les utilisateurs s’exécutent [!DNL Experience Platform Agents].
-
-Les administrateurs utilisent ce tableau de bord pour suivre la consommation des licences par rapport aux droits. Pour accéder au tableau de bord, consultez [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans la documentation [!DNL Experience Platform].
-
-## Tableau de bord de surveillance de l’IA dédiée aux agences
-
-Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Vous pouvez afficher les tendances sur des périodes de 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces de conversation (comme [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents], ce qu’ils font dans ces interactions et la valeur qu’ils reçoivent.
+Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Vous pouvez afficher les tendances sur des périodes de 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces de conversation (comme [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents], ce qu’ils font dans ces interactions et la valeur qu’ils reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
 Le tableau de bord de surveillance d’Agentic AI comprend les vues suivantes :
 
@@ -49,7 +37,43 @@ Le tableau de bord de surveillance d’Agentic AI comprend les vues suivantes :
 | **Commentaires** | Signaux sur la qualité de la réponse et la satisfaction des utilisateurs |
 | **Crédits AI** | Tendances de la consommation de crédit et solde restant |
 
-Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
+Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
+
+[Voir la vidéo d’introduction](https://video.tv.adobe.com/v/3491864?learn=on)
+
+## Activer les autorisations relatives aux tableaux de bord (administrateurs) {#permissions}
+
+Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en mettant à jour le profil ou le rôle de produit pour chaque utilisateur autorisé. La fonction [!UICONTROL Surveillance] s’affiche pour les utilisateurs sur la page d’accueil de l’entreprise CX une fois les autorisations activées.
+
+1. Accédez à [!DNL Experience Platform] **Administration** > **Autorisations**.
+
+1. Ouvrez le profil de produit ou le rôle à mettre à jour.
+
+   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-permissions.png)
+
+1. Sous **[!UICONTROL Assistant AI]** autorisations, cliquez sur **[!UICONTROL Ajouter une ressource]**, puis activez **[!UICONTROL Afficher le tableau de bord d’utilisation de l’assistant AI]**.
+
+   Cette autorisation accorde l’accès aux tableaux de bord de surveillance de l’utilisation d’Agentic AI.
+
+1. Sous Autorisations **[!UICONTROL Tableaux de bord]**, configurez l’accès aux tableaux de bord en fonction des responsabilités de chaque utilisateur.
+
+   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-add-resource.png)
+
+   Autorisations recommandées pour les utilisateurs autorisés à utiliser la gouvernance :
+
+   * **[!UICONTROL Afficher le tableau de bord d’utilisation des licences]**
+   * **[!UICONTROL Afficher les tableaux de bord standard]**
+   * **[!UICONTROL Exporter les données du tableau de bord]** (facultatif, pour les utilisateurs et utilisatrices de gouvernance approuvés uniquement)
+
+   Autorisations supplémentaires que vous pouvez accorder si nécessaire :
+
+   * **[!UICONTROL Gérer les tableaux de bord personnalisés]**
+   * **[!UICONTROL Afficher les tableaux de bord personnalisés]**
+   * **[!UICONTROL Gestion des tableaux de bord standard]**
+
+1. Pour afficher les tableaux de bord, revenez à la page d’accueil CX Enterprise, puis cliquez sur **[!UICONTROL Surveillance]**.
+
+![Tableau de bord de surveillance d’Agentic AI](../features/assets/monitoring.png)
 
 ## Tableau de bord de présentation
 
@@ -62,12 +86,16 @@ Le tableau de bord Présentation est l’emplacement central des mesures d’ado
 * **Nombre moyen d’invites par conversation :** Profondeur d’engagement par conversation.
 * **Commentaires :** répartition des pouces vers le haut et des pouces vers le bas pour les commentaires des utilisateurs (pour les interactions [!DNL AI Assistant] uniquement).
 
+[Afficher la vidéo](https://video.tv.adobe.com/v/3491865?learn=on)
+
 ### Relecture de la conversation
 
 La relecture des conversations affiche les interactions individuelles, et pas seulement les agrégats. Vous pouvez analyser des modèles dans de nombreuses conversations et passer de tendances de haut niveau à une conversation spécifique.
 
 * **Invite et historique des réponses :** invite de l’utilisateur et réponses fournies.
 * **Signaux de retour d’informations :** utilisateurs d’interactions signalés par un pouce vers le haut ou vers le bas pour identifier une friction, des bloqueurs ou des besoins d’activation. Ces informations aident votre entreprise à améliorer la pertinence rapide et aident Adobe à améliorer la qualité de la réponse au fil du temps.
+
+[Afficher la vidéo](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Users dashboard
 
@@ -84,6 +112,8 @@ Le tableau de bord des utilisateurs montre comment l’adoption et l’engagemen
 * **Activité de conversation :** nombre de conversations et d’invites par utilisateur.
 * **Utilisateurs les plus actifs :** utilisateurs et équipes les plus engagés favorisent l’adoption des agents.
 
+[Afficher la vidéo](https://video.tv.adobe.com/v/3491868?learn=on)
+
 ## Tableau de bord des commentaires
 
 Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. À partir de résumés de commentaires, explorez les conversations individuelles pour examiner les invites, les réponses, les détails de raisonnement et les notes de commentaires.
@@ -96,6 +126,8 @@ Le tableau de bord des commentaires affiche les commentaires des utilisateurs en
 * **Invite et historique des réponses :** les invites de l&#39;utilisateur et les réponses associées aux retours envoyés.
 * **Détails et notes du retour d’informations :** contexte et commentaires supplémentaires des utilisateurs lors de l’envoi du retour d’informations.
 
+[Afficher la vidéo](https://video.tv.adobe.com/v/3491878?learn=on)
+
 ## Tableau de bord des crédits AI
 
 Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Experience Platform Agents] par votre entreprise se traduit par la consommation des crédits AI.
@@ -106,44 +138,11 @@ Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Exper
 * **Tendances quotidiennes et mensuelles :** pics, creux et changements dans les habitudes de consommation.
 * **Crédits AI restants :** solde restant pour que vous puissiez planifier de manière proactive et éviter les dépassements.
 
-## Accès et gouvernance
-
-Les tableaux de bord de surveillance de l’utilisation de l’IA dédiée aux agences présentent l’activité des assistants AI, notamment les schémas d’utilisation, les informations au niveau de la conversation, les signaux de retour et les mesures opérationnelles. Certaines de ces informations peuvent inclure un contexte commercial sensible, des données d’activité d’invite ou d’interaction utilisateur.
-
-L’accès est basé sur des autorisations et est destiné uniquement aux administrateurs de code autorisés et aux utilisateurs de gouvernance approuvés. La section suivante décrit comment accorder des autorisations relatives aux tableaux de bord.
-
-## Activer les autorisations relatives aux tableaux de bord
-
-Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en mettant à jour le profil ou le rôle de produit pour chaque utilisateur autorisé.
-
-1. Accédez à [!DNL Experience Platform] **Administration** > **Autorisations**.
-
-1. Ouvrez le profil de produit ou le rôle à mettre à jour.
-
-   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-permissions.png)
-
-1. Sous **[!UICONTROL AI Assistant]** autorisations, cliquez sur **[!UICONTROL Add Resource]**, puis activez **[!UICONTROL View AI Assistant usage dashboard]**.
-
-   Cette autorisation accorde l’accès aux tableaux de bord de surveillance de l’utilisation d’Agentic AI.
-
-1. Sous Autorisations **[!UICONTROL Dashboards]**, configurez l’accès aux tableaux de bord en fonction des responsabilités de chaque utilisateur.
-
-   ![Activer les autorisations relatives aux tableaux de bord](../features/assets/dashboards-add-resource.png)
-
-   Autorisations recommandées pour les utilisateurs autorisés à utiliser la gouvernance :
-
-   * **[!UICONTROL View License Usage Dashboard]**
-   * **[!UICONTROL View Standard Dashboards]**
-   * **[!UICONTROL Export Dashboard Data]** (facultatif, pour les utilisateurs et utilisatrices de gouvernance approuvés uniquement)
-
-   Autorisations supplémentaires que vous pouvez accorder si nécessaire :
-
-   * **[!UICONTROL Manage Custom Dashboards]**
-   * **[!UICONTROL View Custom Dashboards]**
-   * **[!UICONTROL Manage Standard Dashboards]**
+[Afficher la vidéo](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Plus d’aide sur cette rubrique
 
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
 * [IA dédiée aux agents dans Adobe CX Enterprise](agentic-ai.md)
 * [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
 * [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
