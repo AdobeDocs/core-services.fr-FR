@@ -142,7 +142,7 @@ Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Exper
 
 ## Plus d’aide sur cette rubrique
 
-* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
 * [IA dédiée aux agents dans Adobe CX Enterprise](agentic-ai.md)
 * [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
-* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
