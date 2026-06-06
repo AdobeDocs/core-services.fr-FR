@@ -39,7 +39,7 @@ Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 
 Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491870?captions=fre_fr&learn=on)
 
 ## Activer les autorisations relatives aux tableaux de bord {#permissions}
 
@@ -86,7 +86,7 @@ Le tableau de bord Présentation est l’emplacement central des mesures d’ado
 * **Nombre moyen d’invites par conversation :** Profondeur d’engagement par conversation.
 * **Commentaires :** répartition des pouces vers le haut et des pouces vers le bas pour les commentaires des utilisateurs (pour les interactions [!DNL AI Assistant] uniquement).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491880?captions=fre_fr&learn=on)
 
 ### Relecture de la conversation
 
@@ -95,7 +95,7 @@ La relecture des conversations affiche les interactions individuelles, et pas se
 * **Invite et historique des réponses :** invite de l’utilisateur et réponses fournies.
 * **Signaux de retour d’informations :** utilisateurs d’interactions signalés par un pouce vers le haut ou vers le bas pour identifier une friction, des bloqueurs ou des besoins d’activation. Ces informations aident votre entreprise à améliorer la pertinence rapide et aident Adobe à améliorer la qualité de la réponse au fil du temps.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491889?captions=fre_fr&learn=on)
 
 ## Users dashboard
 
@@ -112,7 +112,7 @@ Le tableau de bord des utilisateurs montre comment l’adoption et l’engagemen
 * **Activité de conversation :** nombre de conversations et d’invites par utilisateur.
 * **Utilisateurs les plus actifs :** utilisateurs et équipes les plus engagés favorisent l’adoption des agents.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491922?captions=fre_fr&learn=on)
 
 ## Tableau de bord des commentaires
 
@@ -126,7 +126,7 @@ Le tableau de bord des commentaires affiche les commentaires des utilisateurs en
 * **Invite et historique des réponses :** les invites de l&#39;utilisateur et les réponses associées aux retours envoyés.
 * **Détails et notes du retour d’informations :** contexte et commentaires supplémentaires des utilisateurs lors de l’envoi du retour d’informations.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491913?captions=fre_fr&learn=on)
 
 ## Tableau de bord des crédits AI
 
@@ -138,7 +138,7 @@ Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Exper
 * **Tendances quotidiennes et mensuelles :** pics, creux et changements dans les habitudes de consommation.
 * **Crédits AI restants :** solde restant pour que vous puissiez planifier de manière proactive et éviter les dépassements.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491904?captions=fre_fr&learn=on)
 
 ## Plus d’aide sur cette rubrique
 
