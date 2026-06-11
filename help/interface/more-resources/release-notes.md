@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 50%
+source-wordcount: 1559
+ht-degree: 54%
 
 ---
 
@@ -46,6 +46,7 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
+| 11 Juin 2026 | Collègue d’entreprise CX (disponibilité générale) | CX Enterprise Coworker est une application d’IA agentique qui automatise les workflows de bout en bout de l’expérience client. Il détecte les signaux, crée des audiences et lance des campagnes avec une gouvernance intégrée en quelques heures. Documentation bientôt disponible. |
 | 1er juin 2026 | Surveillance de l’utilisation de l’IA dédiée aux agences | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance IA dédiée aux agences](../features/monitoring.md) pour accéder aux tableaux de bord et connaître les autorisations. |
 
 ## Avril 2026
@@ -88,7 +89,7 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Accueil personnalisable | Sur la page de destination CX Enterprise, cliquez sur **[!UICONTROL Edit]**. Le mode [!UICONTROL Edit] vous permet de personnaliser votre page d&#39;accueil CX Enterprise avec un accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Edit] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des ajustements de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
+| Accueil personnalisable | Sur la page de destination CX Enterprise, cliquez sur **[!UICONTROL Modifier]**. Le mode [!UICONTROL Modifier] vous permet de personnaliser votre page d&#39;accueil CX Enterprise avec un accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Modifier] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des réglages de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
 
 ## mercredi 10 septembre 2024
 
@@ -118,13 +119,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Mai 2023
 
-* Dans le menu [!DNL CX Enterprise] **[!UICONTROL Help]**, la recherche de contenu a été mise à jour afin de filtrer par application dans les résultats de la recherche [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
+* Dans le menu d’**[!UICONTROL Aide]** d’[!DNL CX Enterprise], la recherche de contenu a été mise à jour afin de filtrer par application dans les résultats de la recherche sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
 
 ## Juillet 2022
 
 | Fonctionnalité | Description |
 | ------- | ------- |
-| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Quick Access]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées sur le [!UICONTROL Quick Access]. |
+| Widget unifié - Accueil/Accès rapide | **Naviguez plus rapidement :** vous pouvez maintenant personnaliser davantage votre expérience personnelle et choisir les applications du bout des doigts. Utilisez la nouvelle fonctionnalité d’épinglage pour sélectionner les applications qui apparaissent au premier plan et au centre sur votre [!UICONTROL Accès rapide]. <br>**Restez informé grâce à l’épinglage intelligent :** vos nouvelles applications sont désormais plus faciles à trouver. Les applications nouvellement attribuées arborent un badge _Nouveau_ et sont automatiquement épinglées dans [!UICONTROL Accès rapide]. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +141,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| Accès aux [!UICONTROL Recents] dans Experience Platform et Journey Optimizer via la barre de recherche | Les utilisateurs peuvent désormais accéder aux objets récemment consultés, sur chaque page d’AEP et d’AJO, via la barre de recherche unifiée. |
+| Accédez à [!UICONTROL Récents] dans Experience Platform et Journey Optimizer via la barre de recherche | Les utilisateurs peuvent désormais accéder aux objets récemment consultés, sur chaque page d’AEP et d’AJO, via la barre de recherche unifiée. |
 
 {style="table-layout:auto"}
 
@@ -148,8 +149,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| Raccourcis (**[!UICONTROL Recents]**) ajoutés à la page d’accueil de [CX Enterprise](https://experience.adobe.com/home) | Vous pouvez accéder à des raccourcis vers vos travaux Journey Optimizer et Experience Platform les plus récents sous le nouvel en-tête _Récents_ de la page de destination. Cette mise à jour comprend également des améliorations générales de la disposition et de la réactivité. |
-| **[!UICONTROL Sandboxes]** déplacé vers la barre d’en-tête | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications de l’interface dʼExperience Platform. Pour plus d’informations, consultez la section [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform. |
+| Raccourcis (**[!UICONTROL Récents]**) ajoutés à l’accueil de [CX Enterprise](https://experience.adobe.com/home) | Vous pouvez accéder à des raccourcis vers vos travaux Journey Optimizer et Experience Platform les plus récents sous le nouvel en-tête _Récents_ de la page de destination. Cette mise à jour comprend également des améliorations générales de la disposition et de la réactivité. |
+| **[!UICONTROL Sandbox]** déplacés vers la barre d’en-tête | L’indicateur Sandbox est désormais intégré à l’en-tête de toutes les applications de l’interface dʼExperience Platform. Pour plus d’informations, consultez la section [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) dans Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -176,7 +177,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| [!UICONTROL Unified Recents] - Prise en charge étendue des objets métier récemment consultés | [!UICONTROL Unified Recents] est étendu à d’autres objets commerciaux dans Journey Optimizer et Experience Platform. Les clients Journey Optimizer peuvent trouver leurs objets récemment consultés (messages, parcours, segments, schémas, jeux de données, sources de données, événements, actions, sources et destinations) à partir de la page dʼaccueil dʼAdobe Journey Optimizer. |
+| [!UICONTROL Éléments récents unifiés] : prise en charge étendue des objets métier récemment consultés | La fonctionnalité [!UICONTROL Récents unifiés] est étendue à d’autres objets commerciaux dans Journey Optimizer et Experience Platform. Les clients Journey Optimizer peuvent trouver leurs objets récemment consultés (messages, parcours, segments, schémas, jeux de données, sources de données, événements, actions, sources et destinations) à partir de la page dʼaccueil dʼAdobe Journey Optimizer. |
 
 {style="table-layout:auto"}
 
@@ -189,7 +190,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Fonctionnalité | Date | Description |
 | ------- | ------- | ------- |
 | Prise en charge de l’authentification unique pour les Federated ID d’Adobe | 17 juin 2021 | Si vous utilisez des Federated ID, vous pouvez vous connecter à CX Enterprise sans avoir à saisir d’adresse e-mail ou de mot de passe. Pour utiliser cette fonctionnalité, ajoutez `#/sso:@domain` à l’URL CX Enterprise. <br>Supposons, par exemple, que vous possédiez le domaine `example.com` et que vous souhaitiez vous connecter à Adobe Analytics. L’URL serait alors la suivante : `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [&#128279;](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Search]** pour trouver des tutoriels, de la documentation, des cours, etc. |
+| Fonctionnalité Rechercher dʼExperience League | 1 juin 2021 | La recherche de documentation d’Experience League a été améliorée. Accédez à [Experience League](https://experienceleague.adobe.com/docs/?lang=fr) et utilisez le champ **[!UICONTROL Rechercher]** pour localiser les tutoriels, la documentation, les cours, etc. |
 
 {style="table-layout:auto"}
 
@@ -213,7 +214,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 ## Avril 2020
 
-* La page [!UICONTROL Feed] d’entreprise CX était obsolète. (EXC-8505)
+* La page CX Enterprise [!UICONTROL Feed] était obsolète. (EXC-8505)
 * La page de connexion à CX Enterprise a été mise à jour pour refléter les nouveaux éléments de branding. (EXC-10747)
 
 ## Février 2020
