@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 6%
 # Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
 
 Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications CX Enterprise. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications CX Enterprise existantes, voir [IA dédiée aux agents dans CX Enterprise](agentic-ai.md#existing-apps).
+
+## Nouveautés
+
+| Fonctionnalité | Description |
+| --- | --- |
+| [Catalogue des fonctionnalités IA d’Enterprise Agentic CX](https://agentic-capability-explorer.entapp.adproto.com/) | Découvrez les tâches d’IA dédiée aux agents disponibles dans vos applications CX Enterprise sous licence. |
 
 ## Traitements de l&#39;agent
 
@@ -35,6 +41,8 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 * Les tâches simples (souvent en une seule étape) consomment moins de crédits
 * Les tâches complexes (souvent à plusieurs étapes) consomment davantage de crédits
 * Les tâches impliquant un raisonnement avancé, la validation, la coordination multi-agent ou l&#39;intégration consomment plus de crédits
+
+**Remarque :** le catalogue des fonctionnalités d’IA agentique pour les entreprises [CX](https://agentic-capability-explorer.entapp.adproto.com/) est également disponible pour vous aider à découvrir les tâches d’IA agentique disponibles dans vos applications d’entreprise CX sous licence.
 
 ### Taux estimés de consommation du crédit IA
 
