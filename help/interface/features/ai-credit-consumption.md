@@ -72,4 +72,4 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 * [GenAI dans CX Enterprise](/help/interface/features/generative-ai.md)
 * [IA dédiée aux agences dans CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
