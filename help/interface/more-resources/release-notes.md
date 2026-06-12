@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
+source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 54%
+source-wordcount: 1553
+ht-degree: 55%
 
 ---
 
@@ -46,8 +46,8 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
-| 11 Juin 2026 | Collègue d’entreprise CX (disponibilité générale) | CX Enterprise Coworker est une application d’IA agentique qui automatise les workflows de bout en bout de l’expérience client. Il détecte les signaux, crée des audiences et lance des campagnes avec une gouvernance intégrée en quelques heures. Documentation bientôt disponible. |
-| 1er juin 2026 | Surveillance de l’utilisation de l’IA dédiée aux agences | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance IA dédiée aux agences](../features/monitoring.md) pour accéder aux tableaux de bord et connaître les autorisations. |
+| 11 Juin 2026 | [!DNL CX Enterprise Coworker] (disponibilité générale) | CX Enterprise Coworker est une application d’IA agentique qui automatise les workflows de bout en bout de l’expérience client. Coworker détecte les signaux, crée des audiences et lance des campagnes avec une gouvernance intégrée en quelques heures. Documentation bientôt disponible. |
+| 1er juin 2026 | [!UICONTROL Surveillance] | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance IA dédiée aux agences](../features/monitoring.md) pour accéder aux tableaux de bord et connaître les autorisations. |
 
 ## Avril 2026
 
