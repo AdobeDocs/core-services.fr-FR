@@ -3,16 +3,9 @@ title: Collecte de données régionales
 description: Découvrez la collecte de données régionale dans CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 361
@@ -31,7 +24,7 @@ Le workflow de collecte de données régionale offre plusieurs avantages :
 
 ## Collecte de données propriétaire
 
-La collecte de données propriétaire utilise une implémentation CNAME pour acheminer les données vers Adobe via votre propre domaine. Votre type de collecte de données régionale est sélectionné dans le cadre du processus de configuration du [Programme de certificat géré par &#x200B;](adobe-managed-cert.md). Pour vérifier ou mettre à jour votre type de collecte de données régionale, contactez l’équipe de votre compte Adobe. Les types de collecte de données régionale suivants et les centres de données associés sont disponibles :
+La collecte de données propriétaire utilise une implémentation CNAME pour acheminer les données vers Adobe via votre propre domaine. Votre type de collecte de données régionale est sélectionné dans le cadre du processus de configuration du [Programme de certificat géré par ](adobe-managed-cert.md). Pour vérifier ou mettre à jour votre type de collecte de données régionale, contactez l’équipe de votre compte Adobe. Les types de collecte de données régionale suivants et les centres de données associés sont disponibles :
 
 | Type de collecte de données régionale | Centres de collecte de données |
 | --- | --- |

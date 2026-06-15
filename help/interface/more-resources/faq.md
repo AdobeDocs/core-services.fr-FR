@@ -9,19 +9,11 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
@@ -103,7 +95,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
+* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
 
 +++
 
@@ -113,7 +105,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 * La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
+* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
 
 +++
 
@@ -121,7 +113,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 +++
 

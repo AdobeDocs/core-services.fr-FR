@@ -10,8 +10,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 41%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ exemple
 
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié dans CX Enterprise, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs et des produits pour CX Enterprise, les cookies, les préférences de compte, les notifications, etc.
 
-Pour accéder à ces services dans CX Enterprise, sélectionnez **[!UICONTROL Application Selector]**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+Pour accéder à ces services dans CX Enterprise, sélectionnez le sélecteur d’applications ****
+![ Sélecteur de services ](../assets/apps-icon.png).
 
 ![Services CX Entreprise](../assets/platform-core-services.png)
 
@@ -32,12 +32,12 @@ Cette aide décrit les produits et services suivants :
 | --- | --- |
 | [Composants de l’interface centrale](../experience-cloud.md) | Accédez aux préférences du compte, recherchez de l’aide sur les produits et accédez aux applications et services. |
 | [Bibliothèque d’audiences](audiences/overview.md) | Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants visiteur). Adobe [!DNL Audience Library] vous permet de gérer la traduction des données du visiteur en segmentation d’audience. |
-| [Attributs du client](customer-attributes/attributes.md) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. [!UICONTROL Journey Orchestration] est un service applicatif intégré à Experience Platform. |
+| [Attributs du client](customer-attributes/attributes.md) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.  est un service applicatif intégré à Experience Platform. |
 | [Assets](assets/experience-cloud-assets.md) | CX Enterprise Assets fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentation du produit [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique destinée aux développeurs [!UICONTROL Experience Platform] se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
+>La documentation du produit [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
 
