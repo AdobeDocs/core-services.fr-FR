@@ -21,8 +21,8 @@ exemple
 
 Cette documentation s’applique aux fonctionnalités de l’en-tête unifié dans CX Enterprise, telles que le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]), la gestion des utilisateurs et des produits pour CX Enterprise, les cookies, les préférences de compte, les notifications, etc.
 
-Pour accéder à ces services dans CX Enterprise, sélectionnez le sélecteur d’applications ****
-![ Sélecteur de services ](../assets/apps-icon.png).
+Pour accéder à ces services dans CX Enterprise, sélectionnez le sélecteur d’applications **&#x200B;**
+![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
 
 ![Services CX Entreprise](../assets/platform-core-services.png)
 
@@ -39,5 +39,5 @@ Cette aide décrit les produits et services suivants :
 
 >[!NOTE]
 >
->La documentation du produit [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
+>La documentation du produit [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
 

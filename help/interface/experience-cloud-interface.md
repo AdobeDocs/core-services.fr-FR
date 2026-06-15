@@ -80,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans CX Enterprise
 
-La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [](https://experienceleague.adobe.com/?lang=fr#home).
+La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [&#128279;](https://experienceleague.adobe.com/?lang=fr#home).
 
 ![Recherche et assistance dans CX Enterprise](assets/search-menu.png)
 
@@ -113,9 +113,9 @@ Dans les préférences [!UICONTROL CX Enterprise], vous pouvez configurer les fo
 | Fonctionnalité | Description |
 | --- | --- |
 | Organisation par défaut | Sélectionnez l&#39;organisation que vous voulez voir lorsque vous lancez CX Enterprise. |
-| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL  Notifications ] et dans votre e-mail. |
+| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL &#x200B; Notifications &#x200B;] et dans votre e-mail. |
 | [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion telle que des alertes. |
-| [!UICONTROL Alertes ] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
+| [!UICONTROL Alertes &#x200B;] | Sélectionnez les notifications pour lesquelles vous souhaitez afficher les alertes dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
 
 {style="table-layout:auto"}
