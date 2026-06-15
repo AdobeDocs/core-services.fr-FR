@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 
 Comment supprimer et remplacer des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL Edit Customer Attribute Source], cliquez sur Configurer les abonnements.
+1. Sur la page [!UICONTROL Modifier le Source d’attributs du client], cliquez sur Configurer les abonnements.
 
 1. Supprimez les valeurs mappées pour **[!UICONTROL Target]** ou **[!UICONTROL Analytics]**.
 

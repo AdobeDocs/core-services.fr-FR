@@ -22,8 +22,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 88%
+source-wordcount: 131
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 
 Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
-**[!UICONTROL CX Enterprise]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
+**[!UICONTROL CX Entreprise]** > **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
 
 * Téléchargez des SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
 

@@ -31,7 +31,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1073
 ht-degree: 8%
 
 ---
@@ -62,7 +62,7 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------ |
-| [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Settings]** <br> Découvrez comment configurer les comptes de vos utilisateurs avec différents types d’ID avec ou sans authentification unique (SSO). Configurez l’authentification unique pour le logiciel Adobe, configurez les paramètres SAML et passez en revue les questions et erreurs les plus courantes. |
+| [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) | **&#x200B;**&#x200B;> **[!UICONTROL Paramètres]** <br> Découvrez comment configurer les comptes de vos utilisateurs avec différents types d’ID avec ou sans authentification unique (SSO). Configurez l’authentification unique pour le logiciel Adobe, configurez les paramètres SAML et passez en revue les questions et erreurs les plus courantes. |
 | [Configuration de l’organisation via l’approbation d’annuaire](https://helpx.adobe.com/fr/enterprise/using/directory-trust.html) | Authentifiez vos utilisateurs sur un domaine déjà demandé par une autre organisation. Pour plus d’informations sur la recherche et le changement d’organisation, voir [Organisations dans CX Enterprise](organizations.md). |
 | [Paramètres d’authentification (entreprise)](https://helpx.adobe.com/fr/enterprise/using/authentication-settings.html) | Admin Console prend en charge plusieurs niveaux de protection par mot de passe et stratégies pour assurer la sécurité. Vous pouvez indiquer d’utiliser un niveau de protection par mot de passe à appliquer à tous les utilisateurs de votre entreprise. |
 | [Contacts de confidentialité et de sécurité](https://helpx.adobe.com/fr/enterprise/using/security-contacts.html) | Protégez les données de votre entreprise et des utilisateurs. Si un incident de sécurité impliquant nos solutions logicielles se produit, des notifications sont envoyées aux responsables de la conformité appropriés. Les entreprises disposent de personnel dont le rôle est spécifique à la protection des données, à l’intégrité et à d’autres questions de conformité. Par conséquent, les coordonnées de ce personnel sont essentielles pour assurer une notification rapide en cas d’incident de sécurité. |
@@ -71,17 +71,17 @@ Voici les ressources dont vous pourriez avoir besoin lors de la prise en main en
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [Réinitialiser votre Adobe ID](https://helpx.adobe.com/fr/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Déconnectez-vous, puis cliquez sur **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
-| [Gérer plusieurs utilisateurs](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Découvrez comment gérer plusieurs utilisateurs et utilisatrices par le biais d’un chargement en masse de CSV vers Admin Console. |
+| [Réinitialiser votre Adobe ID](https://helpx.adobe.com/fr/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Déconnectez-vous, puis cliquez sur **[!UICONTROL Obtenir de l’aide pour vous connecter]** > **[!UICONTROL Réinitialiser votre mot de passe]**. |
+| [Gérer plusieurs utilisateurs](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) | **&#x200B;**&#x200B;> **[!UICONTROL Utilisateurs]** <br>Découvrez comment gérer plusieurs utilisateurs par le biais d’un téléchargement massif de fichiers CSV vers Admin Console. |
 | [Types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) | Les types d’identité permettent à l’organisation de contrôler à différents niveaux les comptes et données des utilisateurs. Le choix du modèle d’identité a une incidence sur la manière dont votre organisation stocke et partage les ressources. Alors que les modèles Federated ID et Enterprise ID sont créés et gérés par l’organisation, les Adobe ID sont créés et gérés par la personne concernée. |
 | [Outil de synchronisation des utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-sync.html) (UST) | L’outil de synchronisation des utilisateurs d’Adobe est une application de bureau utilisée pour automatiser la synchronisation des données utilisateur entre le système Identity Management d’une organisation (comme Active Directory) et Adobe Admin Console. Cet outil permet aux administrateurs de rationaliser l’approvisionnement, les mises à jour et la désactivation des utilisateurs et utilisatrices sur l’ensemble des produits Adobe. |
-| [Afficher les détails de l’utilisateur (outil d’administration)](admin-tool-experience-cloud.md) | Affichez une liste triable et filtrable de tous les utilisateurs et politiques CX Enterprise avec des détails dans la [!UICONTROL Admin Tool]. |
+| [Afficher les détails de l’utilisateur (outil d’administration)](admin-tool-experience-cloud.md) | Affichez une liste triable et filtrable de tous les utilisateurs et politiques CX Enterprise avec des détails dans l’outil [!UICONTROL Admin Tool]. |
 
 ### Rapports et journaux
 
 | Lien d’aide | Description |
 | ------- | ------- |
-| [&#x200B; Journal d’audit &#x200B;](https://helpx.adobe.com/fr/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Effectuez le suivi de toutes les modifications apportées dans Admin Console. |
+| [&#x200B; Journal d’audit &#x200B;](https://helpx.adobe.com/fr/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Journaux]** > **[!UICONTROL Journal d’audit]** <br> suivez toutes les modifications apportées dans Admin Console. |
 
 
 ## Ressources spécifiques à l’application

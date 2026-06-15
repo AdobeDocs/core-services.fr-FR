@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1116
 ht-degree: 31%
 
 ---
@@ -48,7 +48,7 @@ Décrit comment :
 * Configurez votre entreprise dans CX Enterprise.
 * Devenir un administrateur
 * [Mise en œuvre du service CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
-* Modernisez vos implémentations [!DNL Analytics] et [!DNL Target] via [!UICONTROL Platform Data Collection].
+* Modernisez vos implémentations [!DNL Analytics] et [!DNL Target] via [!UICONTROL collecte de données Platform].
 * Commencez à utiliser les services d’entreprise CX tels que [Attributs du client](../services/customer-attributes/attributes.md) et [Bibliothèque d’audiences](../services/audiences/overview.md).
 
 Solutions ou services :
@@ -73,7 +73,7 @@ Voir [Service CX Enterprise ID](https://experienceleague.adobe.com/docs/id-servi
 
 Aide : [Audiences](/help/interface/services/audiences/overview.md)
 
-Créez et gérez des audiences dans CX Enterprise [!UICONTROL Audience Library]. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
+Créer et gérer des audiences dans CX Enterprise [!UICONTROL Bibliothèque d’audiences]. Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
 * Nouveaux créés dans [!DNL CX Enterprise].
 * Depuis [!DNL Analytics] segments publiés vers [!DNL CX Enterprise].

@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 50%
+source-wordcount: '519'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 50%
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne [organisation](administration/organizations.md).
 
 1. Accédez à [Adobe CX Enterprise](https://experience.adobe.com?lang=fr).
-1. Saisissez votre adresse e-mail Adobe, puis cliquez sur **[!UICONTROL Continue]**.
+1. Saisissez votre adresse e-mail Adobe, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Cliquez sur un compte.
 1. Saisissez votre mot de passe.
 1. Assurez-vous que vous êtes dans la bonne organisation.
@@ -59,25 +59,25 @@ Pour accéder aux applications et services CX Enterprise configurés pour vous a
 
 ## Obtention d’aide et de support {#support}
 
-Accédez à l’apprentissage et à l’aide en utilisant l’**[!UICONTROL Help center]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu d’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
+Accédez à l’apprentissage et à l’aide à l’aide du **[!UICONTROL Centre d’aide]** (![ressource](assets/help-icon.png)) dans l’en-tête, y compris le contenu de l’aide (documentation, tutoriels et cours) sur [Experience League](https://experienceleague.adobe.com/fr?lang=fr#home), ainsi que des ressources supplémentaires pour des applications individuelles. Vous pouvez également envoyer des commentaires ouverts et créer des tickets dʼassistance prioritaires.
 
 ![Obtention dʼaide et de support](assets/search-menu.png)
 
-Le menu [!UICONTROL Help] permet également d&#39;accéder aux éléments suivants :
+Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants :
 
-* **[!UICONTROL Support]:** Créez un ticket d’assistance ou contactez [!UICONTROL Support] à l’aide de Twitter.
-* **[!UICONTROL Feedback]:** Partagez vos commentaires sur votre expérience CX Entreprise. Vos commentaires sont utilisés pour améliorer les produits et services d’Adobe.
-* **[!UICONTROL Status]:** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez l’état opérationnel et la [!UICONTROL Manage Subscriptions] du produit.
-* **[!UICONTROL Developer Connection]:** Navigation pour `adobe.io` et rechercher la documentation destinée aux développeurs.
+* **[!UICONTROL Assistance] :** créez un ticket d’assistance ou contactez l’[!UICONTROL assistance] sur Twitter.
+* **[!UICONTROL Commentaires] :** partagez vos commentaires au sujet de votre expérience CX Entreprise. Vos commentaires sont utilisés pour améliorer les produits et services d’Adobe.
+* **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL Gérer les abonnements].
+* **:** Navigation vers `adobe.io` et trouver la documentation destinée aux développeurs.
 
 ## Gérer votre profil d’utilisation
 
-Dans le menu [!UICONTROL Profile], vous pouvez :
+Dans le menu [!UICONTROL Profil], vous pouvez effectuer les opérations suivantes :
 
 * Spécifier un thème sombre (toutes les applications ne prennent pas en charge ce thème).
 * Gérer CX Enterprise [Préférences](features/account-preferences.md)
 * Sélectionner ou rechercher une [organisation](administration/organizations.md)
-* Afficher les [!UICONTROL Legal Notices]
+* Afficher [!UICONTROL Mentions légales]
 * Se déconnecter
 * Configurer des préférences, notifications et abonnements relatives au compte ;
 

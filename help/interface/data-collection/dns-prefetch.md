@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 77%
+source-wordcount: 352
+ht-degree: 76%
 
 ---
 
@@ -60,7 +60,7 @@ Les exemples suivants vous montrent comment effectuer des appels de prérécupé
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttech.net">`
 
-* **[!DNL Target]:** `<link rel="dns-prefetch" href="//example.tt.omtrdc.net">`
+* **[!DNL Target] :** `<link rel="dns-prefetch" href="//example.tt.omtrdc.net">`
 
 >[!MORELIKETHIS]
 >

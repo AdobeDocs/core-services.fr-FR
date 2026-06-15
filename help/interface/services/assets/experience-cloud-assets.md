@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 
 ## Accès à la barre dʼoutils
 
-Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Select]**.
+Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
 La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
 
@@ -78,13 +78,13 @@ Vous pouvez effectuer une recherche par mot-clé, type de fichier, taille, date 
 
 ## Annotation de ressources
 
-Cliquez sur **[!UICONTROL Annotate]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
+Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image, puis annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![Annotation de ressources](../../assets/assets-annotate.png)
 
 ## Affichage des ressources en plein écran et en mode zoom
 
-Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
+Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Image]** pour afficher l’image complète de la ressource et activer le zoom.
 
 ![Affichage des ressources en plein écran](../../assets/asset-zoom.png)
 
@@ -92,7 +92,7 @@ Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Image]** pour afficher l’im
 
 Choisissez entre l’affichage des cartes avec les propriétés, la vue Liste et sous forme de colonnes afin de localiser plus facilement vos ressources.
 
-Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Properties]** pour afficher les propriétés d’une ressource :
+Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher les propriétés d’une ressource :
 
 ![Affichage des propriétés des ressources](../../assets/asset-properties.png)
 
@@ -100,6 +100,6 @@ Cliquez sur **[!UICONTROL Views]** > **[!UICONTROL Properties]** pour afficher l
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport d’utilisation]**
 
 ![Exécution des rapports sur lʼutilisation](../../assets/assets-usage-report.png)

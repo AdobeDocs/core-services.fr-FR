@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -47,7 +47,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
    Vérifiez que vous êtes connecté à votre site FTP à l’adresse `ftp.adobe.com/<sftpname>`.
 
-1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Chargement de fichier]**.
 
 1. Chargez un fichier `.fin`, afin que le fichier puisse être récupéré.
 
@@ -61,7 +61,7 @@ Les chargements de fichiers vers le site FTP des attributs du client peuvent êt
 
 Configurez un compte FTP par source d’attributs.
 
-Sur la page [!UICONTROL File Upload and Schema Validation], cliquez sur **[!UICONTROL FTP Setup]**.
+Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation de schéma &#x200B;], cliquez sur **[!UICONTROL Configuration FTP]**.
 
 ![Modification dʼun schéma](assets/ftp-account.png)
 
@@ -69,9 +69,9 @@ Les fichiers chargés sont stockés dans le dossier racine de ce compte. Les don
 
 Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros servent à créer des mesures [!DNL Analytics].
 
-* **[!UICONTROL attribute:]** les données d’attribut lues à partir du fichier `.csv` chargé.
+* **[!UICONTROL attribute:]** données d’attribut lues à partir du fichier `.csv` chargé.
 
-* **[!UICONTROL Type:]** Type de données , par exemple :
+* **[!UICONTROL Type :]** type de données, par exemple :
 
    * **Chaîne :** séquence de caractères.
 
@@ -79,7 +79,7 @@ Les noms que vous appliquez aux chaînes, aux nombres entiers et aux numéros se
 
    * **Nombres :** peuvent contenir jusqu’à deux décimales.
 
-* **[!UICONTROL Display Name:]** Nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *client depuis*.
+* **[!UICONTROL Nom d’affichage :]** nom convivial de l’attribut. Par exemple, vous pouvez modifier l’attribut *âge du client* en *client depuis*.
 
-* **[!UICONTROL Description:]** Description conviviale de l’attribut.
+* **[!UICONTROL Description :]** description conviviale de l’attribut.
 

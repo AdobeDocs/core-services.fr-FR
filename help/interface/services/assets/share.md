@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 38%
+source-wordcount: 474
+ht-degree: 36%
 
 ---
 
@@ -44,26 +44,26 @@ Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doiven
 
 **Pour partager un dossier de ressources CX Enterprise**
 
-1. Dans un dossier de ressources, cliquez sur **[!UICONTROL Share to Creative Cloud]**.
+1. Dans un dossier de ressources, cliquez sur **[!UICONTROL Partager sur Creative Cloud]**.
 
    ![Partager sur Creative Cloud](../../assets/asset-share-cc.png)
-1. Sur la page Partager sur Creative Cloud, recherchez un utilisateur, puis cliquez sur **[!UICONTROL Add]**.
+1. Sur la page Partager sur Creative Cloud, recherchez un utilisateur, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Ajout dʼun utilisateur Creative Cloud](../../assets/asset-share-cc-page.png)
 
-1. Cliquez sur **[!UICONTROL Share]**.
-1. Ouvrez l’application de bureau [!DNL Creative Cloud] (ou accédez à la page [!UICONTROL Creative Cloud Files] dans un navigateur) et recherchez la notification de la demande.
+1. Cliquez sur **[!UICONTROL Partager]**.
+1. Ouvrez l’application de bureau [!DNL Creative Cloud] (ou accédez à la page [!UICONTROL Fichiers Creative Cloud] dans un navigateur) et recherchez la notification de la demande.
 
    ![Notification de la demande](../../assets/cc_share_request.png)
-1. Ouvrez la requête, puis cliquez sur **[!UICONTROL Accept]**.
+1. Ouvrez la requête, puis cliquez sur **[!UICONTROL Accepter]**.
 
    ![Acceptation de la demande](../../assets/cc_share_accept.png)
-1. Pour accéder au contenu du dossier, cliquez sur **[!UICONTROL Open Folder]** (ou **[!UICONTROL View on Web]**).
+1. Pour accéder au contenu du dossier, cliquez sur **[!UICONTROL Ouvrir le dossier]** (ou **[!UICONTROL Afficher sur le Web]**).
 
    ![Afficher sur le Web](../../assets/creative_cloud_open_folder.png)
 1. Continuez en ajoutant des commentaires à la ressource partagée :
 
-   Dans Creative Cloud, sélectionnez une image, puis cliquez sur **[!UICONTROL Activity]** pour ajouter un commentaire à cette image. Les commentaires sont synchronisés sur les ressources dans [!DNL Creative Cloud] et dans [!DNL CX Enterprise].
+   Dans Creative Cloud, sélectionnez une image, puis cliquez sur **[!UICONTROL Activité]** pour ajouter un commentaire à l’image. Les commentaires sont synchronisés sur les ressources dans [!DNL Creative Cloud] et dans [!DNL CX Enterprise].
 
    ![Ajout dʼun commentaire à lʼimage](../../assets/asset_comment_cc.png)
 
@@ -71,7 +71,7 @@ Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doiven
 
    ![Ajout dʼun commentaire à l’image](../../assets/asset_comment_mac.png)
 
-1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Share Using Creative Cloud]** (procédure similaire à [étape 3](share.md)), supprimez des utilisateurs en sélectionnant X, puis cliquez sur **[!UICONTROL Share]**.
+1. Pour annuler le partage d’un dossier, cliquez sur **[!UICONTROL Partager à l’aide de Creative Cloud]** (procédure similaire à [Étape 3](share.md)), puis supprimez des utilisateurs en sélectionnant X, puis cliquez sur **[!UICONTROL Partager]**.
 
    ![Annulation du partage dʼun dossier](../../assets/asset_remove_user.png)
 
@@ -91,7 +91,7 @@ Aide connexe :
 
 ## Partage de ressources avec Adobe Target
 
-Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource d’image partagée lors de la permutation d’images dans le [!UICONTROL Offers Library].
+Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource d’image partagée lors de la permutation d’images dans la bibliothèque [!UICONTROL Offres].
 
 Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans l’aide [!DNL Target].
 

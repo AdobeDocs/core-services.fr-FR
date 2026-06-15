@@ -43,7 +43,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 Mises à jour d’avril et de mai pour le guide de l’interface centrale CX Enterprise :
 
-* Redéfinition de la documentation d’Experience Cloud vers **CX Enterprise** dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
+* Refonte de la documentation d’Experience Cloud vers **CX Enterprise** dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
 * Ajout de [notes de mise à jour d’avril 2026](release-notes.md) pour la page d’accueil actualisée à l’adresse `https://experience.adobe.com/home` (actualisation de l’interface utilisateur, mode sombre et améliorations de l’accessibilité).
 * Mise à jour de [Agentic AI dans CX Enterprise](../features/agentic-ai.md) : Adobe Marketing Agent for Microsoft 365 Copilot, révision des fonctionnalités de l’agent et colonne **Health Data/HIPAA-ready** dans le tableau des agents existing-apps.
 * Mises à jour mineures des [collecte de données régionale](../data-collection/rdc.md), [validation du transfert du nom d’hôte](../data-collection/adobe-managed-cert.md) et [terminologie](terms.md).

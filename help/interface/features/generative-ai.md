@@ -43,7 +43,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 24583e75dd85c719b8f9eb14a948f58d714c2aa6
 workflow-type: tm+mt
-source-wordcount: 3165
+source-wordcount: 3196
 ht-degree: 8%
 
 ---
@@ -66,13 +66,13 @@ L’IA générative est un type d’IA qui peut créer du contenu original. Par 
 
 [!BADGE En savoir plus]{type=Informative url="https://business.adobe.com/ai/adobe-genai.html" tooltip="GenAI sur Adobe"}
 
-**En quoi consiste [!UICONTROL AI Assistant] ?**
+**Qu’est-ce que l’[!UICONTROL assistant IA] ?**
 
 [!UICONTROL AI Assistant] est un outil genAI conversationnel pris en charge dans de nombreuses applications d’entreprise CX. Utilisez-le pour acquérir rapidement des _connaissances sur les produits_ et _informations opérationnelles_, en fonction de l’application que vous utilisez.
 
 * **Connaissances des produits :** les connaissances des produits se rapportent à des concepts et à des sujets fondés sur la documentation des produits CX Enterprise sur Experience League. Par exemple, utilisez les [invites basées sur les objectifs](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) pour en savoir plus rapidement sur Experience Platform. Toutes les réponses d’Experience League sont vérifiables et citées avec des liens.
 
-* **Informations opérationnelles** par exemple, les [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/questions#objects-questions) dans Experience Platform se rapportent aux réponses générées concernant vos objets de métadonnées (attributs, audiences, flux de données, jeux de données, etc.). Avec [!UICONTROL AI Assistant], vous pouvez accomplir en quelques secondes ce qui, autrement, pourrait prendre des heures ou des jours.
+* **Informations opérationnelles** par exemple, les [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/questions#objects-questions) dans Experience Platform se rapportent aux réponses générées concernant vos objets de métadonnées (attributs, audiences, flux de données, jeux de données, etc.). Avec l’[!UICONTROL assistant AI], vous pouvez accomplir en quelques secondes ce qui, autrement, pourrait prendre des heures ou des jours.
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ L’assistant AI prend en charge AEM as a Cloud Service aux emplacements suivant
 
 #### Experience Manager Sites
 
-Dans AEM Sites, vous pouvez utiliser _[!UICONTROL Generate Variations]_. Cette fonctionnalité utilise l’intelligence artificielle générative pour créer des variations de contenu en fonction de vos invites de saisie. Les invites sont fournies par Adobe ou créées et gérées par vous.
+Dans AEM Sites, vous pouvez utiliser _[!UICONTROL Générer des variations]_. Cette fonctionnalité utilise l’intelligence artificielle générative pour créer des variations de contenu en fonction de vos invites de saisie. Les invites sont fournies par Adobe ou créées et gérées par vous.
 
 Après avoir créé des variations, vous pouvez utiliser le contenu sur votre site web et mesurer son succès à l’aide de la fonctionnalité [Expérimentation](https://www.aem.live/docs/experimentation) de Edge Delivery Services. Vous avez également la possibilité de générer des images dans Adobe Express à l’aide des fonctionnalités d’IA générative de Firefly.
 
@@ -201,7 +201,7 @@ Dans AEM Assets, vous pouvez utiliser l’IA générative dans les balises intel
 
 **&#x200B;**
 
-[!UICONTROL Content Hub] est disponible dans le cadre du [!DNL Experience Manager Assets as a Cloud Service] de démocratisation de l’accès au contenu de marque pour les organisations et leurs partenaires commerciaux. Il se concentre sur la distribution de ressources pour l’activation à grande échelle et la création de variantes de contenu sur la marque pour une meilleure agilité marketing.
+ est disponible dans le cadre d’[!DNL Experience Manager Assets as a Cloud Service] pour démocratiser l’accès au contenu de marque pour les organisations et leurs partenaires commerciaux. Il se concentre sur la distribution de ressources pour l’activation à grande échelle et la création de variantes de contenu sur la marque pour une meilleure agilité marketing.
 
 Dans Content Hub, vous pouvez créer du contenu avec Adobe Express (si vous disposez de droits Adobe Express). Vous pouvez modifier du contenu existant à l’aide d’outils simples, produire des variations sur la marque avec des modèles et des éléments de marque et créer du contenu avec les dernières fonctionnalités GenAI de [!DNL Adobe Firefly].
 
@@ -261,7 +261,7 @@ Voici un exemple d’entrée pour les informations opérationnelles :
 
 * _Combien de Parcours ont été créés au cours des sept derniers jours ?_
 
-  Pour la sortie, l’assistant AI interroge un magasin de données spécifique au client. Le magasin de données contient des données opérationnelles centralisées sur les [!UICONTROL Journeys]. Cette fonctionnalité est indépendante du client et extrait les métadonnées uniquement des objets métier. Il n’accède pas aux données de votre sandbox.
+  Pour la sortie, l’assistant AI interroge un magasin de données spécifique au client. Le magasin de données contient des données opérationnelles centralisées sur [!UICONTROL Parcours &#x200B;]. Cette fonctionnalité est indépendante du client et extrait les métadonnées uniquement des objets métier. Il n’accède pas aux données de votre sandbox.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/ai-assistant" tooltip="En savoir plus sur l’assistant AI dans AJO"}
 
@@ -279,7 +279,7 @@ Cette fonctionnalité est disponible pour les canaux e-mail, notification push, 
 
 +++Détails
 
-Journey Optimizer B2B edition utilise [!UICONTROL AI Assistant] pour vous aider à mieux connaître les produits.
+Journey Optimizer B2B edition utilise l’[!UICONTROL assistant AI] pour vous aider à mieux connaître les produits.
 
 Exemple d’entrée :
 
@@ -317,7 +317,7 @@ Vous pouvez utiliser les _Légendes intelligentes_ dans les [!DNL Customer Journ
 
 Par exemple :
 
-* **Entrée :** dans CJA, exécutez une visualisation prise en charge (avec une ligne, une zone, un graphique à barres, un flux ou un abandon), puis cliquez sur **[!UICONTROL Intelligent captions]**.
+* **Entrée :** dans CJA, exécutez une visualisation prise en charge (avec une ligne, une zone, un graphique à barres, un flux ou un abandon), puis cliquez sur **[!UICONTROL Légendes intelligentes]**.
 
 * **Output :** afficher les légendes générées automatiquement en langage naturel qui présentent le contexte et les principaux points à retenir. Vous pouvez ensuite agir sur les données générées, par exemple les examiner, les copier et les partager avec votre organisation. [Voir comment &#x200B;](https://video.tv.adobe.com/v/3443140/?captions=fre_fr&quality=12&learn=on#_blank)
 
@@ -337,9 +337,9 @@ Par exemple : le `color: red` de premier plan est un attribut attribué automati
 
 +++Détails
 
-Real-Time CDP utilise [!UICONTROL AI Assistant] pour vous aider à acquérir des connaissances sur les produits Experience League. Il offre également des informations opérationnelles (en version bêta). [!UICONTROL AI Assistant] interroge un magasin de données d’informations opérationnelles spécifique au client qui contient des données opérationnelles centralisées, partitionnées dans votre sandbox AEP. Le système extrait les métadonnées uniquement à partir des attributs, des audiences, des flux de données, des jeux de données, des destinations, des schémas et des sources et n’accède pas aux données dans le sandbox.
+Real-Time CDP utilise l’[!UICONTROL assistant AI] pour vous aider à acquérir des connaissances sur les produits Experience League. Il offre également des informations opérationnelles (en version bêta). [!UICONTROL Assistant AI] interroge un magasin de données d’informations opérationnelles spécifique au client qui contient des données opérationnelles centralisées, partitionnées dans votre sandbox AEP. Le système extrait les métadonnées uniquement à partir des attributs, des audiences, des flux de données, des jeux de données, des destinations, des schémas et des sources et n’accède pas aux données dans le sandbox.
 
-Par exemple, si vous effectuez une requête sur une audience, [!UICONTROL AI Assistant] pouvez accéder au nom de l’audience et aux autres métadonnées associées, mais pas aux profils au sein de cette audience.
+Par exemple, si vous effectuez une requête sur une audience, l’[!UICONTROL assistant AI] peut accéder au nom de l’audience et aux autres métadonnées associées, mais ne peut pas accéder aux profils au sein de cette audience.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home" tooltip="En savoir plus sur Real-Time CDP"}
 
@@ -349,7 +349,7 @@ Par exemple, si vous effectuez une requête sur une audience, [!UICONTROL AI Ass
 
 +++Détails
 
-Campaign Managed Cloud Services utilise des [!UICONTROL AI Assistant] pour la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur plusieurs canaux tels que les e-mails, les SMS et les notifications push.
+Campaign Managed Cloud Services utilise l’[!UICONTROL assistant IA] pour la génération de contenu. Cette fonctionnalité vous permet de générer automatiquement du contenu personnalisé, attrayant et efficace en fonction de votre objectif marketing, avec du contenu optimisé pour les styles de contour de marque, les mises en page, le ton, etc. Vous pouvez l’utiliser sur plusieurs canaux tels que les e-mails, les SMS et les notifications push.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/ai-assistant/generative-gs" tooltip="En savoir plus sur l’assistant AI dans AJO"}
 
@@ -380,7 +380,7 @@ Les fonctionnalités d’IA générative de Adobe Dynamic Chat vous permettent d
 
 **Concepteur d’e-mail**
 
-[!UICONTROL AI Assistant] dans Marketo Engage [!UICONTROL Email Designer] vous aide à créer des e-mails contemporains, performants et intuitifs. Pour ce faire, Adobe utilise une technologie d’IA générative et une bibliothèque d’invites, ainsi que Firefly pour la génération d’images, qui permettent de créer du contenu adapté à une personne/un groupe d’achat spécifique, une étape de parcours marketing, une stratégie de communication, un ton, etc. Des ressources de marque spécifiques peuvent également être utilisées pour créer du contenu.
+[!UICONTROL Assistant AI] dans Marketo Engage [!UICONTROL Email Designer] vous aide à créer des e-mails contemporains, performants et intuitifs. Pour ce faire, Adobe utilise une technologie d’IA générative et une bibliothèque d’invites, ainsi que Firefly pour la génération d’images, qui permettent de créer du contenu adapté à une personne/un groupe d’achat spécifique, une étape de parcours marketing, une stratégie de communication, un ton, etc. Des ressources de marque spécifiques peuvent également être utilisées pour créer du contenu.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="En savoir plus sur Dynamic Chat"}
 
@@ -394,10 +394,10 @@ Marketo s’intègre à GenStudio for Performance Marketing
 
 +++Détails
 
-[!UICONTROL AI Assistant] dans [!DNL Workfront] vous aide à accomplir votre travail en offrant des informations et des suggestions in-app. Vous pouvez :
+[!UICONTROL Assistant AI] dans [!DNL Workfront] vous aide à accomplir votre travail en offrant des informations et des suggestions in-app. Vous pouvez :
 
 * Obtenez des résumés de certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
-* Posez des questions et [!UICONTROL AI Assistant] laisser trouver des réponses sur Experience League.
+* Posez des questions et laissez [!UICONTROL AI Assistant] trouver des réponses sur Experience League.
 * Obtenez des formules générées en fonction de vos invites. Vous pouvez également résoudre des erreurs dans vos expressions personnalisées non valides dans les champs calculés.
 * Localisez les projets, les tâches et les événements.
 

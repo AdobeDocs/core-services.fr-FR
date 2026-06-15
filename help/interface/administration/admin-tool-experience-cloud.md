@@ -24,24 +24,24 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 69%
+source-wordcount: 1271
+ht-degree: 66%
 
 ---
 
-# [!UICONTROL Admin Tool] d’entreprise CX
+# CX Enterprise [!UICONTROL outil d’administration]
 
-Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise avec des détails dans le [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
+Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise avec des détails dans l&#39;outil [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
 
 1. Connectez-vous à `https://experience.adobe.com/.`
 
    ![Accès à Admin Console](../assets/admin-tool.png)
 
-1. Sous [!UICONTROL Quick Access], cliquez sur **[!UICONTROL Admin Tool]**.
+1. Sous [!UICONTROL &#x200B; Accès rapide &#x200B;], cliquez sur **[!UICONTROL Outil d’administration]**.
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
-   La page [!UICONTROL Users] s’affiche.
+   La page [!UICONTROL Utilisateurs] s’affiche.
 
 ## Page Utilisateurs
 
@@ -51,29 +51,29 @@ Cette page affiche la liste complète des utilisateurs ayant accès à CX Enterp
 
 | Élément | Description |
 | --- | ---|
-| [!UICONTROL Name] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Cliquez sur le nom d’un utilisateur pour afficher plus de détails sur cet utilisateur. |
-| [!UICONTROL Email] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL ID Type] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
+| [!UICONTROL Nom] | Prénom et nom de l’utilisateur. Vous pouvez trier cette colonne de A à Z et de Z à A. Cliquez sur le nom d’un utilisateur pour afficher plus de détails sur cet utilisateur. |
+| [!UICONTROL E-mail] | Adresse e-mail associée à l’utilisateur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
+| [!UICONTROL Type d’ID] | Type d’identité du compte de l’utilisateur. Le filtre peut être appliqué aux types d’ID spécifiques à un affichage. Voir [Gestion des types d’identité](https://helpx.adobe.com/fr/enterprise/using/identity.html) pour plus d’informations. |
 | [!UICONTROL Solutions] | Résumé des applications CX Enterprise auxquelles l&#39;utilisateur peut accéder. Vous pouvez appliquer des filtres pour réduire la liste des utilisateurs disposant dʼun accès aux applications spécifiques. |
-| [!UICONTROL Last Login] | Heure et date de la dernière connexion de l&#39;utilisateur à CX Enterprise. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations sont destinées à afficher l’activité de connexion actuelle dans CX Enterprise et non à recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
+| [!UICONTROL Dernière connexion] | Heure et date de la dernière connexion de l&#39;utilisateur à CX Enterprise. Cette colonne peut être triée par date ascendante ou descendante. <br> **Important :** à compter du 13 janvier 2020, les dernières données de connexion d’un utilisateur seront conservées pendant 365 jours. Ces informations sont destinées à afficher l’activité de connexion actuelle dans CX Enterprise et non à recommander une action sur les comptes inactifs avant le 13 janvier 2020. |
 
 ## Personnalisation de la vue Liste des utilisateurs et utilisatrices
 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des utilisateurs.
 
 * Recherchez des utilisateurs par nom ou adresse e-mail. Les recherches correspondent à la chaîne de texte que vous saisissez.
-* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux [!UICONTROL Email,] [!UICONTROL Name,] et aux colonnes [!UICONTROL Last Login].
-* Pour appliquer plusieurs filtres aux utilisateurs de la liste selon des critères spécifiques, cliquez sur **[!UICONTROL Filter By]**. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent Domaine de messagerie `AND` TYPE D’ID `AND` Solution.
+* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux colonnes [!UICONTROL Nom] [!UICONTROL E-mail] et [!UICONTROL Dernière connexion].
+* Pour appliquer plusieurs filtres aux utilisateurs de la liste selon des critères spécifiques, cliquez sur **[!UICONTROL Filtrer par]**. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent Domaine de messagerie `AND` TYPE D’ID `AND` Solution.
 
 | Élément | Description |
 | ---------| ----------|
-| filtre [!UICONTROL Email Domain] | Recherchez des chaînes de caractères dans la colonne E-mail pour restreindre les résultats à un ou plusieurs domaines. Ajoutez plusieurs filtres en appuyant sur la touche Entrée après chaque terme de recherche. |
-| filtre [!UICONTROL ID Type] | Choisissez parmi les types d’ID disponibles. Plusieurs types d’ID peuvent être utilisés comme filtre. |
-| filtre [!UICONTROL Solution] | Choisissez parmi les applications disponibles. Plusieurs filtres applicatifs recherchent des résultats contenant la solution 1 `OR` la solution 2. |
+| [!UICONTROL Domaine d’e-mail] filtre | Recherchez des chaînes de caractères dans la colonne E-mail pour restreindre les résultats à un ou plusieurs domaines. Ajoutez plusieurs filtres en appuyant sur la touche Entrée après chaque terme de recherche. |
+| [!UICONTROL Type d’ID] filtre | Choisissez parmi les types d’ID disponibles. Plusieurs types d’ID peuvent être utilisés comme filtre. |
+| [!UICONTROL Solution] filtre | Choisissez parmi les applications disponibles. Plusieurs filtres applicatifs recherchent des résultats contenant la solution 1 `OR` la solution 2. |
 
 ## Affichage des informations sur les utilisateurs
 
-Sur la page [!UICONTROL Users], pour afficher les détails d’un utilisateur, cliquez sur son adresse e-mail.
+Sur la page [!UICONTROL Utilisateurs], pour afficher les détails d’un utilisateur, cliquez sur son adresse e-mail.
 
 ![Affichage des informations sur les utilisateurs dans Admin Console](../assets/admin-tool-user-details.png)
 
@@ -101,11 +101,11 @@ Cette section affiche une liste complète de tous les profils d’abonnement de 
 
 | Élément | Description |
 | ---------| ----------|
-| [!UICONTROL Product] | Nom du produit associé au profil de produits. |
-| [!UICONTROL Instance] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
-| [!UICONTROL Product profile] | Nom unique du profil de produits. |
-| [!UICONTROL Assigned by Group] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit de manière directe, et non par l’intermédiaire d’un groupe. |
-| [!UICONTROL Product Roles] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
+| [!UICONTROL Produit] | Nom du produit associé au profil de produits. |
+| [!UICONTROL &#x200B; Instance &#x200B;] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
+| [!UICONTROL Profil de produit] | Nom unique du profil de produits. |
+| [!UICONTROL Affecté par groupe] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit de manière directe, et non par l’intermédiaire d’un groupe. |
+| [!UICONTROL Rôles de produit] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
 
 ## Page Politiques
 
@@ -115,34 +115,34 @@ Cette page affiche la liste complète des stratégies CX Enterprise de votre ent
 
 | Élément | Description |
 | ---| ---|
-| [!UICONTROL Product rofile] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus dʼinformations sur la politique, sélectionnez le nom dʼun profil de produit. |
-| [!UICONTROL Product] | Le produit associé au profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL Instance] | L’instance (par exemple, société de connexion ou client) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un « - » comme valeur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL Number of Users] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
-| [!UICONTROL Number of Developers] | Nombre de rôles de développeur associés au profil de produits. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
+| [!UICONTROL Profil de produit] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus dʼinformations sur la politique, sélectionnez le nom dʼun profil de produit. |
+| [!UICONTROL Produit] | Le produit associé au profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
+| [!UICONTROL &#x200B; Instance &#x200B;] | L’instance (par exemple, société de connexion ou client) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un « - » comme valeur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
+| [!UICONTROL &#x200B; Nombre d’utilisateurs &#x200B;] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
+| [!UICONTROL Nombre de développeurs] | Nombre de rôles de développeur associés au profil de produits. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
 
 ## Personnalisation de la vue Liste des politiques
 
 Vous pouvez rechercher, trier ou filtrer les colonnes pour personnaliser la liste des politiques.
 
 * Rechercher les profils de produits par nom. Les recherches correspondent à la chaîne de texte que vous saisissez.
-* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique aux [!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] et [!UICONTROL Number of Developers,] colonnes.
-* Cliquez sur l’icône **[!UICONTROL Filter By]** pour appliquer plusieurs filtres afin de répertorier les profils de produit selon des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la solution d’`AND` Instance `AND` associée aux groupes.
+* Triez la colonne par valeurs ascendantes ou descendantes. Ce tri s’applique à [!UICONTROL profil de produit,] [!UICONTROL Produit,] [!UICONTROL Instance,] [!UICONTROL Nombre d’utilisateurs,] et [!UICONTROL Nombre de développeurs,] colonnes.
+* Cliquez sur l’icône **[!UICONTROL Filtrer par]** pour appliquer plusieurs filtres afin de répertorier les profils de produit selon des critères spécifiques. Lorsque plusieurs catégories de filtres sont appliquées, les recherches contiennent la solution d’`AND` Instance `AND` associée aux groupes.
 
 | Élément | Description |
 | ---------| ----------|
-| filtre [!UICONTROL Instance] | Recherchez des chaînes de caractères dans la colonne Instance pour restreindre les résultats à une ou plusieurs instances. Ajoutez plusieurs filtres en appuyant sur la touche Entrée après chaque terme de recherche. |
-| filtre [!UICONTROL Solution] | Choisissez parmi les applications disponibles. Plusieurs filtres applicatifs recherchent des résultats contenant la solution 1 `OR` la solution 2. |
+| Filtre [!UICONTROL Instance] | Recherchez des chaînes de caractères dans la colonne Instance pour restreindre les résultats à une ou plusieurs instances. Ajoutez plusieurs filtres en appuyant sur la touche Entrée après chaque terme de recherche. |
+| [!UICONTROL Solution] filtre | Choisissez parmi les applications disponibles. Plusieurs filtres applicatifs recherchent des résultats contenant la solution 1 `OR` la solution 2. |
 
 ## Affichage des détails sur la politique
 
-Sur la page [!UICONTROL Policies], pour afficher les détails d’une politique, sélectionnez le nom du profil de produit.
+Sur la page [!UICONTROL Politiques], pour afficher les détails d’une politique, sélectionnez le nom du profil de produit.
 
 ![Affichage des détails sur la politique dans Admin Console](../assets/admin-tool-policy-detail.png)
 
 Une vue détaillée de chaque profil de produit affiche des détails importants sur les sujets du profil de produit (utilisateurs, groupes, etc.). Elle affiche également les autorisations et les ressources activées par le profil de produits.
 
-Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Export CSV] génère deux fichiers CSV :
+Les détails du profil du produit peuvent être exportés dans des fichiers CSV. L’option [!UICONTROL Exporter au format CSV] génère deux fichiers CSV :
 
 * Détails du sujet (utilisateurs, groupes d’utilisateurs, développeurs, intégrations, administrateurs)
 * Autorisations et éléments de ressources
@@ -164,11 +164,11 @@ Cette section présente une liste complète des utilisateurs et utilisatrices, g
 
 | Tabulation | Description |
 | ---------| ----------|
-| [!UICONTROL Users] | Liste des utilisateurs inclus dans le profil de produits. L’association de groupes d’utilisateurs apparaît dans [!UICONTROL Assigned by group] colonne. |
+| [!UICONTROL Utilisateurs] | Liste des utilisateurs inclus dans le profil de produits. L’association de groupes d’utilisateurs apparaît dans la colonne [!UICONTROL Affecté par groupe]. |
 | [!UICONTROL User Groups] | Liste des groupes d’utilisateurs associés au profil de produits. |
-| [!UICONTROL Developers] | Liste des développeurs associés au profil de produits. |
-| [!UICONTROL Integrations] | Liste des intégrations associées au profil de produits. |
-| [!UICONTROL Administrators] | Liste des administrateurs associés au profil de produits. |
+| [!UICONTROL Développeurs et développeuses] | Liste des développeurs associés au profil de produits. |
+| [!UICONTROL Intégrations] | Liste des intégrations associées au profil de produits. |
+| [!UICONTROL Administrateurs et administratrices] | Liste des administrateurs associés au profil de produits. |
 
 ## Listes détaillées des autorisations et des ressources
 

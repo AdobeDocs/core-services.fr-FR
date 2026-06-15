@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,13 +69,13 @@ En outre, un formatage spécifique aux paramètres régionaux (comme les dates, 
 
 **Pour spécifier une langue par défaut**
 
-1. Dans CX Enterprise, cliquez sur **[!UICONTROL Profile]** > [Préférences](https://experience.adobe.com/preferences).
+1. Dans CX Enterprise, cliquez sur **[!UICONTROL Profil]** > [Préférences](https://experience.adobe.com/preferences).
 
-1. Sous **[!UICONTROL Profile]**, cliquez sur le lien de la langue.
+1. Sous **[!UICONTROL Profil]**, cliquez sur le lien de la langue.
 
-1. Sur **[!UICONTROL Select language]**, sélectionnez une langue dans le menu **[!UICONTROL First language]**.
+1. Dans **[!UICONTROL Sélectionner une langue]**, sélectionnez une langue dans le menu **[!UICONTROL Première langue]**.
 
    Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues répertoriées dans l’interface. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez définir une langue secondaire par défaut, le cas échéant.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
