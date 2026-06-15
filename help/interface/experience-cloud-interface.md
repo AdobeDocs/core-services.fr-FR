@@ -80,7 +80,7 @@ Cliquez sur le sélecteur d’applications ![menu](assets/menu-icon.png) pour ac
 
 ## Recherche et assistance dans CX Enterprise
 
-La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [&#128279;](https://experienceleague.adobe.com/?lang=fr#home).
+La recherche Entreprise CX vous permet de rechercher de l’aide (documentation, tutoriels et cours) sur [&#128279;](https://experienceleague.adobe.com/fr?lang=fr#home).
 
 ![Recherche et assistance dans CX Enterprise](assets/search-menu.png)
 
@@ -88,7 +88,7 @@ Le menu [!UICONTROL Aide] vous donne également accès aux éléments suivants :
 
 * **[!UICONTROL Assistance] :** créez un ticket d’assistance ou contactez l’[!UICONTROL assistance] sur Twitter.
 * **[!UICONTROL Commentaires] :** contactez Adobe à l’aide des Commentaires et faites-nous savoir ce que vous pensez.
-* **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL Gérer les abonnements].
+* **[!UICONTROL Statut] :** accédez à `https://status.adobe.com/fr-fr/experience_cloud` et vérifiez le statut opérationnel du produit et [!UICONTROL Gérer les abonnements].
 * **:** Navigation vers `adobe.io` et trouver la documentation destinée aux développeurs.
 
 ## Préférences de compte
