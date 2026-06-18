@@ -10,11 +10,23 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: e53834d3-a86e-47ae-8257-15f5f3639855id: ecb4a972-6786-444c-a014-abc528b9407aid: f1299f18-ec4b-4531-b2a2-df3b94ff9a68id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: e53834d3-a86e-47ae-8257-15f5f3639855
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ebc6db2d5ef00f036ba97027f71129d426f18bf5
 workflow-type: tm+mt
 source-wordcount: 1556
@@ -26,7 +38,7 @@ ht-degree: 54%
 
 Fonctionnalités, notes de mise à jour et problèmes connus des composants de l’interface centrale d’entreprise CX.
 
-Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jour de la documentation ](doc-updates.md).
+Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](doc-updates.md).
 
 Pour consulter les notes de mise à jour couvrant toutes les applications, voir [Notes de mise à jour de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
@@ -187,7 +199,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Fonctionnalité | Description |
 | ------- | ------- |
 | En-tête et navigation de l’entreprise CX | Les mises à jour d’Adobe CX Enterprise incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre et au lien pour contrôler des préférences supplémentaires à partir de l’avatar de l’utilisateur dans l’en-tête CX Enterprise. Bien que toutes les applications de l’expérience client ne prennent pas en charge les thèmes, cette fonctionnalité libère la prise en charge future des thèmes. |
-| Recherche globale d’entreprise CX | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
+| Recherche globale d’entreprise CX | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[&#128279;](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
 | Préférences linguistiques de l&#39;entreprise CX | Cette mise à jour offre la possibilité de définir vos langues préférées dans CX Enterprise [Préférences](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}
