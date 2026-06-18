@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
+source-git-commit: ebc6db2d5ef00f036ba97027f71129d426f18bf5
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 55%
+source-wordcount: 1556
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ Pour consulter les notes de mise à jour couvrant toutes les applications, voir 
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
-| 11 Juin 2026 | [!DNL CX Enterprise Coworker] (disponibilité générale) | CX Enterprise Coworker est une application d’IA agentique qui automatise les workflows de bout en bout de l’expérience client. Coworker détecte les signaux, crée des audiences et lance des campagnes avec une gouvernance intégrée en quelques heures. Documentation bientôt disponible. |
+| 11 Juin 2026 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) est une application d’IA agentique qui automatise les workflows de bout en bout de l’expérience client. [!DNL Coworker] détecte les signaux, crée des audiences et lance des campagnes avec une gouvernance intégrée en quelques heures. Documentation bientôt disponible. |
 | 1er juin 2026 | [!UICONTROL Surveillance] | CX Enterprise fournit désormais des tableaux de bord pour surveiller l’utilisation de l’IA agentique dans les applications existantes. Suivez l’adoption, passez en revue les conversations et les commentaires, et gérez la consommation de crédit AI pour les agents Experience Platform accessibles via l’assistant AI et d’autres surfaces de conversation. Les vues Présentation, Utilisateurs, Commentaires et Crédits d’IA aident les parties prenantes de la gouvernance à orienter l’adoption avec les données. Consultez [Surveillance IA dédiée aux agences](../features/monitoring.md) pour accéder aux tableaux de bord et connaître les autorisations. |
 
 ## Avril 2026
@@ -108,7 +108,7 @@ Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=fr), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=fr), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
