@@ -416,7 +416,7 @@ Marketo s’intègre à GenStudio for Performance Marketing
 <!--
 ## More help on this topic
 
-* [AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai) documentation home
+* [AI in CX Enterprise](https://experienceleague.adobe.com/fr/docs/ai) documentation home
 -->
 
 **Clause de non-responsabilité :** les informations de cette page sont fournies à titre d’information uniquement. Bien que des efforts soient faits pour s&#39;assurer que les informations restent exactes et à jour, les fonctionnalités logicielles et d&#39;IA générative peuvent changer fréquemment. Par conséquent, Adobe ne garantit pas l’exhaustivité, l’exactitude ou la fiabilité des informations à tout moment. Veuillez vérifier tous les détails importants avant de prendre des décisions basées sur ce contenu.
