@@ -93,7 +93,7 @@ Ces liens vous aident à trouver des informations d&#39;administration pour des 
 | ------- | ------- |
 |  [!DNL Analytics] <p>Customer Journey Analytics| [Analytics in the Adobe Admin Console overview](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home) <p>[Administration requirements](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace) |
 | [!DNL Audience Manager] | [Audience Manager user migration to Admin Console](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/administration/admin-console-migration) |
-| [!DNL Campaign] v8 |  [Get started with permissions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions) |
+| [!DNL Campaign] v8 |  [Get started with permissions](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions) |
 | [!DNL Campaign Standard] to [!DNL Campaign v8] | [User access management from Campaign Standard to Campaign V8](https://experienceleague.adobe.com/fr/docs/campaign-web/acs-to-ac/user-management-acs) |
 | [!DNL Commerce] | [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/ims/adobe-ims-config) |
 | [!DNL Dynamic Media Classic] | [Administration setup](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/setup/administration-setup#user_administration) |
