@@ -17,10 +17,10 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 2%
+source-wordcount: 1009
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,14 @@ Les agents concernés par la surveillance de l’utilisation sont répertoriés 
 ## Activer les autorisations relatives aux tableaux de bord {#permissions}
 
 Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en mettant à jour le profil ou le rôle de produit pour chaque utilisateur autorisé. La fonction [!UICONTROL Surveillance] s’affiche pour les utilisateurs sur la page d’accueil de l’entreprise CX une fois les autorisations activées.
+
+>[!IMPORTANT]
+>
+>Les données de surveillance sont disponibles uniquement dans le sandbox de production par défaut. Les sandbox de développement ne sont pas pris en charge pour l’affichage des données de surveillance. Les utilisateurs doivent disposer des autorisations de surveillance requises pour le sandbox de production par défaut et passer à ce sandbox pour afficher les données de surveillance.
+>
+>Pour éviter toute confusion, Adobe recommande d’accorder des autorisations de surveillance sur tous les sandbox, y compris le sandbox de production par défaut. Cela permet de s’assurer que les utilisateurs peuvent accéder au tableau de bord de surveillance, quel que soit le sandbox actuellement sélectionné et réduit la probabilité de confondre un sandbox non pris en charge avec un tableau de bord vide ou non fonctionnel.
+
+**Pour activer les autorisations relatives aux tableaux de bord**
 
 1. Accédez à [!DNL Experience Platform] **Administration** > **Autorisations**.
 
