@@ -8,30 +8,25 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 3%
 
 ---
 
 # Tableaux de bord de surveillance d’Agentic AI
 
-Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Vous pouvez afficher les tendances sur des périodes de 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces de conversation (comme [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents], ce qu’ils font dans ces interactions et la valeur qu’ils reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
+Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
 **Disponibilité**
 
 * Actuellement, tout compte disposant d’une licence sur au moins une application native Experience Platform (Customer Journey Analytics, Journey Optimizer ou Real-Time CDP) peut accéder à ce tableau de bord
-* Les mesures d’utilisation et d’adoption des applications [IA-first](agentic-ai.md#ai-first-cx-enterprise-applications) telles qu’Experimentation Accelerator, LLM Optimizer, Sites Optimizer, etc., ne sont pas incluses dans ce tableau de bord
+* Les mesures d’utilisation et d’adoption des applications [IA-first](agentic-ai.md#ai-first-cx-enterprise-applications) telles qu’Experimentation Accelerator, LLM Optimizer et Sites Optimizer ne sont pas incluses dans ce tableau de bord.
 
 Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 
@@ -42,9 +37,9 @@ Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 | **Commentaires** | Signaux sur la qualité de la réponse et la satisfaction des utilisateurs |
 | **Crédits AI** | Tendances de la consommation de crédit et solde restant |
 
-Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
+La documentation [Agentic AI in Adobe CX Enterprise](agentic-ai.md) répertorie les agents concernés par la surveillance de l’utilisation dans les agents [AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491870?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Activer les autorisations relatives aux tableaux de bord {#permissions}
 
@@ -90,7 +85,7 @@ Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en 
 
 ## Tableau de bord de présentation
 
-Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. À partir de n’importe quelle mesure, vous pouvez explorer des conversations individuelles pour voir ce qui motive les chiffres.
+Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. Pour voir ce qui génère ces chiffres, explorez les conversations individuelles à partir de n’importe quelle mesure.
 
 ### Mesures dans le tableau de bord de présentation
 
@@ -99,7 +94,7 @@ Le tableau de bord Présentation est l’emplacement central des mesures d’ado
 * **Nombre moyen d’invites par conversation :** Profondeur d’engagement par conversation.
 * **Commentaires :** répartition des pouces vers le haut et des pouces vers le bas pour les commentaires des utilisateurs (pour les interactions [!DNL AI Assistant] uniquement).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491880?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Relecture de la conversation
 
@@ -108,7 +103,7 @@ La relecture des conversations affiche les interactions individuelles, et pas se
 * **Invite et historique des réponses :** invite de l’utilisateur et réponses fournies.
 * **Signaux de retour d’informations :** utilisateurs d’interactions signalés par un pouce vers le haut ou vers le bas pour identifier une friction, des bloqueurs ou des besoins d’activation. Ces informations aident votre entreprise à améliorer la pertinence rapide et aident Adobe à améliorer la qualité de la réponse au fil du temps.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491889?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Users dashboard
 
@@ -125,11 +120,11 @@ Le tableau de bord des utilisateurs montre comment l’adoption et l’engagemen
 * **Activité de conversation :** nombre de conversations et d’invites par utilisateur.
 * **Utilisateurs les plus actifs :** utilisateurs et équipes les plus engagés favorisent l’adoption des agents.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491922?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Tableau de bord des commentaires
 
-Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. À partir de résumés de commentaires, explorez les conversations individuelles pour examiner les invites, les réponses, les détails de raisonnement et les notes de commentaires.
+Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. Pour passer en revue les invites, les réponses, les détails du raisonnement et les notes de commentaires, explorez les conversations individuelles à partir des résumés de commentaires.
 
 ### Mesures dans le tableau de bord des commentaires
 
@@ -139,7 +134,7 @@ Le tableau de bord des commentaires affiche les commentaires des utilisateurs en
 * **Invite et historique des réponses :** les invites de l&#39;utilisateur et les réponses associées aux retours envoyés.
 * **Détails et notes du retour d’informations :** contexte et commentaires supplémentaires des utilisateurs lors de l’envoi du retour d’informations.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491913?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Tableau de bord des crédits AI
 
@@ -151,11 +146,11 @@ Le tableau de bord des crédits AI montre comment l’utilisation de [!DNL Exper
 * **Tendances quotidiennes et mensuelles :** pics, creux et changements dans les habitudes de consommation.
 * **Crédits AI restants :** solde restant pour que vous puissiez planifier de manière proactive et éviter les dépassements.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491904?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Plus d’aide sur cette rubrique
 
-* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
 * [IA dédiée aux agents dans Adobe CX Enterprise](agentic-ai.md)
 * [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
-* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
