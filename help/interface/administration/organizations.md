@@ -50,7 +50,7 @@ Par exemple, pour une organisation avec des Federated ID et le domaine `example.
 
 ### Comptes invités fédérés
 
-Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Ces utilisateurs peuvent basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
+Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Ces utilisateurs peuvent basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
 
 Pour passer à un compte invité fédéré, recherchez **[!UICONTROL Autres comptes]** dans le menu **[!UICONTROL Organisation]** sur n’importe quelle page [CX Enterprise](https://experience.adobe.com?lang=fr).
 
@@ -121,6 +121,6 @@ Aide pour résoudre les problèmes qui se produisent lors de la liaison de compt
 
 En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
 
-* [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) ;
+* [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) ;
 * Accédez à votre application à l’aide de la connexion standard pendant la résolution du problème.
 

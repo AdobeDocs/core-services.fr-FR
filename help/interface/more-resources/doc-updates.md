@@ -36,7 +36,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 ## Juillet 2026
 
-* Ajout de [notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge de l’expérience client Entreprise CX de [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
+* Ajout de [notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge de l’expérience client Entreprise CX de [Federated Guest Access](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
 
 ## Juin 2026
 
