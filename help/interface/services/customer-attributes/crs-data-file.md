@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: 1176
 ht-degree: 57%
 
 ---
@@ -70,7 +70,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonne d’ID client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service Enterprise ID CX. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel </span> set customerIDs <span class="codeph"> lorsqu’une personne se connecte. Cet identifiant est également utilisé comme clé dans le fichier de gestion de la relation client qui est chargé vers l’expérience client Entreprise. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service d’identification des visiteurs. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel </span> set customerIDs <span class="codeph"> lorsqu’une personne se connecte. Cet identifiant est également utilisé comme clé dans le fichier de gestion de la relation client qui est chargé vers l’expérience client Entreprise. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -122,7 +122,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
    <tr> 
    <td colname="col1"> <p>Données historiques </p> </td> 
-   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Par conséquent, les [!DNL Customer Attributes] sont associés au visiteur pendant toute la durée de vie du profil du visiteur en [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service Enterprise ID CX, les données sont liées à un post_visid_high/low qui repose sur l’expérience client Enterprise ID (MID). </p> <p> Notez que la méthode de renvoi Data Warehouse ne sera plus disponible à compter d’octobre 2022. </td> 
+   <td colname="col2"> <p> Les attributs du client sont liés au profil du visiteur sous-jacent dans [!DNL Analytics]. Par conséquent, les [!DNL Customer Attributes] sont associés au visiteur pendant toute la durée de vie du profil du visiteur en [!DNL Analytics]. Ce profil inclut le comportement survenu avant la première connexion du client. </p> <p> Si vous utilisez la méthode de renvoi de Data Warehouse, les données sont liées à un post_visid_high/low qui repose sur l’Analytics ID (AID). Si vous utilisez le service d’identification des visiteurs, les données sont liées à un post_visid_high/low basé sur l’ECID (MID). </p> <p> Notez que la méthode de renvoi Data Warehouse ne sera plus disponible à compter d’octobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flux de données </p> </td> 
@@ -137,7 +137,7 @@ Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, l
 
 L’ID d’alias de chaque source d’attributs du client doit être unique. Si plusieurs sources de données utilisent le même ID, elles peuvent être configurées comme suit :
 
-**Dans VisitorAPI.js ou l’outil CX Enterprise ID dans Dynamic Tag Management :**
+**Dans `VisitorAPI.js` ou l’extension de balise [!UICONTROL Experience Cloud ID Service] :**
 
 Définissez deux ID client qui correspondent aux sources de données adéquates :
 

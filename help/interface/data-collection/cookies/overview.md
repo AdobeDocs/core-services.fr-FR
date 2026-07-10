@@ -15,9 +15,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +32,9 @@ Les lois exigent souvent que vous obteniez une autorisation avant de stocker ou 
 
 Adobe CX Enterprise utilise des cookies pour suivre les informations qui ne durent pas entre les pages vues ou les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires (liés à votre propre site web). Pour effectuer le suivi de l’activité sur plusieurs sites ou domaines que vous possédez, des cookies tiers sont nécessaires.
 
-Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identités Experience Platform (ECID) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
+Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identification des visiteurs (`VisitorAPI.js`) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
-* [CX Enterprise Identity Service](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service ECID définit toujours les cookies propriétaires, que le domaine de collecte corresponde ou non au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
+* [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service d’identification des visiteurs définit toujours les cookies propriétaires, que le domaine de votre collection corresponde au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
 * [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
 

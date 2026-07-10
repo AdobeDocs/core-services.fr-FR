@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ Utilisez ce tableau lorsque le même mot apparaît dans différentes expérience
 | **Admin Console** | Plan de contrôle d’entreprise au `adminconsole.adobe.com` pour les utilisateurs, les profils de produit et l’identité ; lié à partir des rubriques CX Enterprise **Administration**. Voir [Gestion des utilisateurs et des produits](../administration/admin-console.md). | Différent de **administrateur intégré au produit** dans chaque application (par exemple, les outils d’administration Analytics ou les écrans d’autorisations Journey Optimizer). |
 | **Profil de produit** | Offre groupée de licences dans Admin Console qui accorde l’accès à un produit ou à une fonctionnalité. Les utilisateurs doivent appartenir à un profil pour pouvoir y accéder. Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products.html). | Non interchangeables avec chaque nom d’« espace de travail », de « conteneur » ou de « propriété » intégré au produit ; ils varient selon la solution. |
 | **Liaison de comptes** | La connexion d’une connexion à l’application (par exemple, les informations d’identification Analytics ou Target) à votre Adobe ID pour l’organisation afin que les services reconnaissent un utilisateur. Voir [Liaison d’organisations et de comptes](../administration/organizations.md). | Différent de la configuration **synchronisation des annuaires**, **SSO** ou **fédération** (il s’agit de décisions d’identité à l’échelle de l’organisation dans Admin Console). |
-| **Service Experience Cloud ID/ECID** | Identifiant visiteur persistant utilisé dans les solutions ; souvent déployé avec des balises ou une SDK Web. Toujours généralement référencée sous le nom **Experience Cloud ID** ou **MID** dans les anciennes discussions Analytics. Voir la présentation du service [ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). | Distinct du nom de cookie hérité d’une seule application ou des concepts de graphique d’identité **&#x200B;**, bien qu’ils puissent être associés dans une implémentation. |
+| **Service d’identification des visiteurs/ECID** | Identifiant visiteur persistant utilisé dans les solutions ; souvent déployé avec des balises ou une SDK Web. Généralement appelé **MID** dans les anciennes discussions Analytics. Voir la [présentation du service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). | Distinct du nom de cookie hérité d’une seule application ou des concepts **Experience Platform Identity Service**, bien qu’ils puissent être associés dans une implémentation. |
 | **Attributs du client** | Attributs CRM ou d’entreprise que vous chargez et mappez pour une utilisation dans Analytics, Target et les workflows associés via le service Personnes. Voir les rubriques [Attributs du client](../services/customer-attributes/attributes.md). | N’associez pas aux **caractéristiques** seules ou à chaque champ de profil **Real-Time CDP** sans vérifier la limite du produit. |
 | **Bibliothèque d’audiences** | Interface utilisateur d’entreprise CX pour composer et partager des audiences dans les applications intégrées. | **&#x200B;**&#x200B;et **Target** utilisent également les « audiences », mais les règles de segmentation et les destinations diffèrent selon les produits. |
 | **Segment** (Analytics) | Une définition d’audience basée sur des règles que vous pouvez créer dans Adobe Analytics et, lorsqu’elle est prise en charge, publier vers les audiences partagées. | Dans **&#x200B;**, les segments se combinent **caractéristiques** ; les noms se chevauchent, mais l’implémentation n’est pas identique. Dans **Target**, les libellés « audiences » ont remplacé les anciens libellés « segment » à de nombreux endroits. |

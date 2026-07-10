@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 * **[!UICONTROL Recherche d’ID :]** saisissez un ID de client (CID) issu de votre `.csv` pour rechercher les informations CX Enterprise relatives à cet ID. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
-   * **[!UICONTROL ECID (CX Enterprise ID) :]** s’affiche si vous utilisez le dernier service CX Enterprise ID. Si vous êtes sur le service MCID mais qu&#39;aucun ID n&#39;est répertorié ici, CX Enterprise n&#39;a pas reçu d&#39;alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
+   * **[!UICONTROL ECID :]** s’affiche si vous utilisez le service d’identification des visiteurs. Si vous êtes sur le service d’identification des visiteurs mais qu’aucun identifiant n’est répertorié ici, CX Enterprise n’a pas reçu d’alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
    * **[!UICONTROL CID (ID de client) :]** les attributs associés à cet CID. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 
