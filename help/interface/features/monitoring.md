@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 3%
 
 ---
 
 # Tableaux de bord de surveillance d’Agentic AI
 
-Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Vous pouvez afficher les tendances sur des périodes de 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces de conversation (comme [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents], ce qu’ils font dans ces interactions et la valeur qu’ils reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
+Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
 **Disponibilité**
 
 * Actuellement, tout compte disposant d’une licence sur au moins une application native Experience Platform (Customer Journey Analytics, Journey Optimizer ou Real-Time CDP) peut accéder à ce tableau de bord
-* Les mesures d’utilisation et d’adoption des applications [IA-first](agentic-ai.md#ai-first-cx-enterprise-applications) telles qu’Experimentation Accelerator, LLM Optimizer, Sites Optimizer, etc., ne sont pas incluses dans ce tableau de bord
+* Les mesures d’utilisation et d’adoption des applications [IA-first](agentic-ai.md#ai-first-cx-enterprise-applications) telles qu’Experimentation Accelerator, LLM Optimizer et Sites Optimizer ne sont pas incluses dans ce tableau de bord.
 
 Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 
@@ -42,7 +42,7 @@ Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 | **Commentaires** | Signaux sur la qualité de la réponse et la satisfaction des utilisateurs |
 | **Crédits AI** | Tendances de la consommation de crédit et solde restant |
 
-Les agents concernés par la surveillance de l’utilisation sont répertoriés dans la section [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table) dans la documentation [Agentic AI dans Adobe CX Enterprise](agentic-ai.md).
+La documentation [Agentic AI in Adobe CX Enterprise](agentic-ai.md) répertorie les agents concernés par la surveillance de l’utilisation dans les agents [AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491870?captions=fre_fr&learn=on)
 
@@ -90,7 +90,7 @@ Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en 
 
 ## Tableau de bord de présentation
 
-Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. À partir de n’importe quelle mesure, vous pouvez explorer des conversations individuelles pour voir ce qui motive les chiffres.
+Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. Pour voir ce qui génère ces chiffres, explorez les conversations individuelles à partir de n’importe quelle mesure.
 
 ### Mesures dans le tableau de bord de présentation
 
@@ -129,7 +129,7 @@ Le tableau de bord des utilisateurs montre comment l’adoption et l’engagemen
 
 ## Tableau de bord des commentaires
 
-Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. À partir de résumés de commentaires, explorez les conversations individuelles pour examiner les invites, les réponses, les détails de raisonnement et les notes de commentaires.
+Le tableau de bord des commentaires affiche les commentaires des utilisateurs envoyés pour les interactions avec les agents. Vous pouvez voir quelles conversations ont été positives ou négatives par les utilisateurs et utilisatrices, et examiner les interactions derrière les commentaires. Pour passer en revue les invites, les réponses, les détails du raisonnement et les notes de commentaires, explorez les conversations individuelles à partir des résumés de commentaires.
 
 ### Mesures dans le tableau de bord des commentaires
 
