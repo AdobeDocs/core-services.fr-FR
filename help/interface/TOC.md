@@ -5,10 +5,10 @@ breadcrumb-title: Interface et administration CX Enterprise
 title: Guide d’interface et d’administration pour l’entreprise CX
 description: Découvrez l’interface et l’administration de l’entreprise CX. Parcourez les rubriques sur l’IA, l’administration, les services partagés, la collecte de données, les cookies, les notes de mise à jour et les questions fréquentes.
 index: true
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: 88f8ee46073227afb5a9691155a70bd43f01a188
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 60%
+source-wordcount: '222'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 60%
    + [IA agentique](features/agentic-ai.md)
    + [Surveillance IA agentique](/help/interface/features/monitoring.md)
    + [Tâches de l’agent et consommation du crédit de l’IA](/help/interface/features/ai-credit-consumption.md)
+   + [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
 + Administration {#administration}
    + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
    + [Prise en charge des navigateurs et des langues](/help/interface/browser-language.md)
