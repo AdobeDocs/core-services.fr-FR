@@ -22,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+source-git-commit: 929f3df66ce2ff819248671dfc560f0a2a468836
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 # Terminologie
 
 <!--
-TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
 Utilisez ce tableau lorsque le même mot apparaît dans différentes expériences Adobe (expérience client d’entreprise, applications marketing, applications de conception ou sites d’assistance). Il ne s’agit pas d’un glossaire complet. Consultez l’aide spécifique au produit sur [&#128279;](https://experienceleague.adobe.com/fr) pour obtenir des définitions détaillées.
