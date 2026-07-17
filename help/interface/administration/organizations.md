@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ Par exemple, pour une organisation avec des Federated ID et le domaine `example.
 
 ## Comptes invités fédérés
 
-Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Si cette option est activée, le menu Organisation change pour permettre à ces utilisateurs de basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
+Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Si cette option est activée, le menu Organisation change pour permettre à ces utilisateurs de basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
 
 Pour passer à un compte invité fédéré, recherchez **[!UICONTROL Autres comptes]** dans le menu **[!UICONTROL Organisation]** sur n’importe quelle page [CX Enterprise](https://experience.adobe.com?lang=fr).
 
@@ -86,28 +79,6 @@ Vous pouvez afficher votre ID d’organisation ainsi que d’autres informations
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Liaison dʼun compte dʼapplication à un Adobe ID
-
-En règle générale, les administrateurs CX Enterprise accordent l’accès aux applications et services. Dans de rares cas, vous pouvez lier les informations d’identification de l’application à une Adobe ID.
-
-1. Suivez les étapes de votre invitation par e-mail à CX Enterprise.
-
-1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
-
-1. Cliquez sur le **[!UICONTROL sélecteur d’applications]**. ( ![menu](../assets/apps-icon.png)).
-
-   ![Liaison dʼun compte dʼapplication à un Adobe ID](../assets/solutions-active.png)
-
-   Les applications auxquelles vous avez accès sont indiquées à l’aide d’une couleur.
-
-1. Cliquez sur l’application de votre choix.
-
-   ![Cliquez sur votre application](../assets/analytics-link-accounts.png)
-
-   Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à lʼapplication), mais nʼavez pas encore lié les informations d’identification de votre compte à votre Adobe ID, ce type de message sʼaffiche.
-
-1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations d’identification.
-
 ## Spécifier une organisation par défaut
 
 Vous pouvez spécifier une organisation par défaut à utiliser lorsque vous vous connectez.
@@ -118,13 +89,3 @@ Vous pouvez spécifier une organisation par défaut à utiliser lorsque vous vou
 
 
 ![Modification du profil](../assets/edit-profile.png)
-
-## Résoudre les problèmes de liaison de comptes
-
-Aide pour résoudre les problèmes qui se produisent lors de la liaison de comptes.
-
-En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
-
-* [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) ;
-* Accédez à votre application à l’aide de la connexion standard pendant la résolution du problème.
-
