@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 29%
+source-wordcount: 677
+ht-degree: 28%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 29%
 Un *organisation* (ID d’organisation) est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans l’entreprise CX.
 
 L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et applications CX Enterprise. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
+
+**Menu Organisation**
 
 ![Organisations d’entreprise CX](../assets/organizations-menu.png)
 
@@ -48,11 +50,13 @@ Si votre entreprise utilise des Federated ID, CX Enterprise vous permet de vous 
 
 Par exemple, pour une organisation avec des Federated ID et le domaine `example.com`, définissez votre lien URL sur `https://experience.adobe.com/#/sso:@example.com`. Vous pouvez également accéder directement à une application spécifique en marquant cette URL avec le chemin de l’application. (Par exemple, pour Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-### Comptes invités fédérés
+## Comptes invités fédérés
 
-Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Ces utilisateurs peuvent basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
+Vous pouvez activer l’[accès des invités fédérés](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre domaine. Si cette option est activée, le menu Organisation change pour permettre à ces utilisateurs de basculer entre les comptes de l’organisation existante sur n’importe quelle page CX Enterprise.
 
 Pour passer à un compte invité fédéré, recherchez **[!UICONTROL Autres comptes]** dans le menu **[!UICONTROL Organisation]** sur n’importe quelle page [CX Enterprise](https://experience.adobe.com?lang=fr).
+
+**Menu Organisation d’un compte invité fédéré**
 
 ![Sélecteur de comptes fédérés](../assets/federated-account-switcher.png)
 
