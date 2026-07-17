@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,6 @@ Vous pouvez afficher votre ID d’organisation ainsi que d’autres informations
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Liaison dʼun compte dʼapplication à un Adobe ID
-
-En règle générale, les administrateurs CX Enterprise accordent l’accès aux applications et services. Dans de rares cas, vous pouvez lier les informations d’identification de l’application à une Adobe ID.
-
-1. Suivez les étapes de votre invitation par e-mail à CX Enterprise.
-
-1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID.
-
-1. Cliquez sur le **[!UICONTROL sélecteur d’applications]**. ( ![menu](../assets/apps-icon.png)).
-
-   ![Liaison dʼun compte dʼapplication à un Adobe ID](../assets/solutions-active.png)
-
-   Les applications auxquelles vous avez accès sont indiquées à l’aide d’une couleur.
-
-1. Cliquez sur l’application de votre choix.
-
-   ![Cliquez sur votre application](../assets/analytics-link-accounts.png)
-
-   Si vous faites partie du groupe approprié (et disposez des autorisations nécessaires pour accéder à lʼapplication), mais nʼavez pas encore lié les informations d’identification de votre compte à votre Adobe ID, ce type de message sʼaffiche.
-
-1. Cliquez sur **[!UICONTROL Lier le compte]**, puis fournissez vos informations d’identification.
-
 ## Spécifier une organisation par défaut
 
 Vous pouvez spécifier une organisation par défaut à utiliser lorsque vous vous connectez.
@@ -118,13 +96,3 @@ Vous pouvez spécifier une organisation par défaut à utiliser lorsque vous vou
 
 
 ![Modification du profil](../assets/edit-profile.png)
-
-## Résoudre les problèmes de liaison de comptes
-
-Aide pour résoudre les problèmes qui se produisent lors de la liaison de comptes.
-
-En règle générale, la liaison de comptes échoue, car l’Adobe ID est lié à un utilisateur précédent. Lorsque la liaison de comptes échoue, vous pouvez :
-
-* [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) ;
-* Accédez à votre application à l’aide de la connexion standard pendant la résolution du problème.
-
