@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: 1282
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 Le programme de certificat géré par Adobe est le processus recommandé pour configurer des certificats propriétaires nécessaires à une implémentation CNAME. Le programme est entièrement automatisé une fois configuré. Il renouvelle les certificats en temps opportun afin qu’il n’y ait aucun impact sur la collecte de données en raison de certificats expirés. Le programme est gratuit pour vos 100 premiers CNAME.
 
-Si vous gérez actuellement vos propres certificats, vous êtes responsable de l’achat, de la maintenance et de la fourniture d’un certificat à Adobe pour l’utilisation des cookies propriétaires. Vous pouvez contacter l’assistance clientèle d’Adobe pour discuter de la migration vers le programme de certificat géré par Adobe.
+Si vous gérez actuellement vos propres certificats, vous êtes responsable de l’achat, de la maintenance et de la fourniture d’un certificat à Adobe pour l’utilisation des cookies propriétaires. Pour discuter de la migration vers le programme de certificat géré par Adobe, contactez l’assistance clientèle d’Adobe.
 
 ## Mise en œuvre
 
@@ -53,6 +53,7 @@ Pour implémenter un nouveau certificat pour la collecte de données propriétai
 1. Ouvrez un ticket auprès de l’assistance clientèle d’Adobe afin de configurer la collecte de données propriétaire sur le programme de certificat géré par Adobe. Si votre organisation a des exigences de résidence des données ou de conformité, indiquez le [type de collecte de données régionale](rdc.md) souhaité dans votre demande.
 1. À la réception du ticket, le représentant Adobe vous fournit un enregistrement CNAME. Cet enregistrement doit être configuré sur le serveur DNS de votre entreprise avant qu’Adobe puisse acheter le certificat en votre nom. Par exemple, le nom d’hôte `data.example.com` pointe vers `hiodsibxvip01.data.adobedc.net`.
 1. Lorsque l’enregistrement CNAME est en place sur les serveurs de votre organisation, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de collecte de données Adobe.
+1. Si vous avez besoin d’une mise à jour de votre fichier `robots.txt` lorsqu’il est hébergé par Adobe CNAME à des fins propriétaires, contactez l’assistance clientèle avec une demande. Une telle requête est pertinente lorsque vous souhaitez mettre à jour le fichier `robots.txt` pour empêcher Google d’explorer à vos sous-domaines.
 
 ## Validation du transfert du nom d’hôte
 
@@ -112,7 +113,7 @@ Aliases: data.example.com
 
 ## Mettre à jour le code de mise en œuvre
 
-Une fois que vous avez validé que votre certificat fonctionne correctement, vous pouvez mettre à jour votre implémentation Adobe pour utiliser votre nouveau nom d’hôte CNAME.
+Pour utiliser votre nouveau nom d’hôte CNAME, mettez à jour votre implémentation Adobe une fois que vous avez validé le bon fonctionnement de votre certificat.
 
 * **Extension de balise Web SDK** : mettez à jour le champ [[!UICONTROL Domaine Edge]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) lors de la configuration de l’extension.
 * **Web SDK (alliage)** : mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/edgedomain) dans la commande `configure`.
@@ -133,13 +134,13 @@ Trente jours avant l’expiration de votre certificat propriétaire, Adobe véri
 
 +++Ce processus est-il sécurisé ?
 
-Oui. Le programme de certificat géré par Adobe est plus sécurisé que votre organisation qui fournit un certificat à Adobe. Aucun certificat ou clé privée ne change de main en dehors d’Adobe et de l’autorité de certification émettrice.
+Oui. Le programme de certificat géré par Adobe est plus sécurisé que votre organisation qui fournit un certificat à Adobe. Aucun certificat ou clé privée n’est transféré en dehors d’Adobe et de l’autorité de certification émettrice.
 
 +++
 
 +++Comment Adobe peut-il acheter un certificat pour notre domaine ?
 
-Le certificat ne peut être acheté que lorsque vous avez pointé le nom d’hôte spécifié vers un nom d’hôte détenu par Adobe. Pour l’essentiel, vous déléguez ce nom d’hôte à Adobe et permettez à Adobe d’acheter le certificat en votre nom.
+Le certificat ne peut être acheté que lorsque vous avez pointé le nom d’hôte spécifié vers un nom d’hôte détenu par Adobe. Vous déléguez ce nom d’hôte à Adobe et permettez à Adobe d’acheter le certificat en votre nom.
 
 +++
 
@@ -163,7 +164,7 @@ Non. Adobe offre ce service sans frais supplémentaires à tous les clients Adob
 
 +++Quels niveaux de sécurité de chiffrement Adobe propose-t-il ?
 
-Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec les serveurs Adobe. Adobe examine et met à jour régulièrement l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
+Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec les serveurs Adobe. Adobe examine et met à jour régulièrement l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Pour modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
 * **Standard** nécessite un chiffrement TLS 1.2 ou plus récent et au moins 128 bits. Il est conçu pour offrir une compatibilité de périphérique maximale tout en maintenant un chiffrement sécurisé.
 * **Élevé** nécessite TLS 1.2 ou une version ultérieure et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent le chiffrement le plus puissant et ne se soucient pas de la prise en charge des appareils plus anciens.
@@ -179,7 +180,7 @@ Les clients suivants sont connus pour ne pas pouvoir se connecter avec la sécur
 
 +++Quels types de certificat HTTPS sont pris en charge ?
 
-Adobe prend en charge les types de certificat RSA et ECC pour répondre aux différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA est requis et ECC est recommandé. Les clients modernes prennent en charge RSA et ECC. Les clients suivants ne prennent généralement en charge que les certificats RSA :
+Adobe prend en charge les types de certificat RSA et ECC pour répondre aux différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA est requis et ECC est recommandé. Les clients modernes prennent en charge RSA et ECC. Les clients suivants prennent uniquement en charge les certificats RSA :
 
 * Windows Vista et versions antérieures (dernière mise à jour en 2012)
 * Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
