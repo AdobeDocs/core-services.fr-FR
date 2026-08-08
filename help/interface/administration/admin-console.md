@@ -1,10 +1,10 @@
 ---
 title: Gestion des licences d’utilisation et de produit
 description: Gérez les utilisateurs et les licences de produits dans Admin Console pour les applications CX Enterprise.
-application: Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
+solution: CX Enterprise
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
@@ -28,7 +28,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
 source-wordcount: 1073
 ht-degree: 8%

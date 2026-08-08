@@ -1,7 +1,6 @@
 ---
 title: Affichage des utilisateurs et des détails utilisateur
 description: Découvrez l’outil d’administration dans CX Enterprise. Affichez une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise.
-application: Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
@@ -21,7 +20,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: c164f824b75aed7e39419f4edf99eaa44442382c
 workflow-type: tm+mt
 source-wordcount: 1271
 ht-degree: 66%
