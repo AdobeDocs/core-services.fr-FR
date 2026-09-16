@@ -51,7 +51,7 @@ ht-degree: 57%
 
 Fonctionnalités, notes de mise à jour et problèmes connus des composants de l’interface centrale d’entreprise CX.
 
-Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jour de la documentation ](doc-updates.md).
+Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](doc-updates.md).
 
 Pour consulter les notes de mise à jour couvrant toutes les applications, voir [Notes de mise à jour de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
@@ -218,7 +218,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Fonctionnalité | Description |
 | ------- | ------- |
 | En-tête et navigation de l’entreprise CX | Les mises à jour d’Adobe CX Enterprise incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre et au lien pour contrôler des préférences supplémentaires à partir de l’avatar de l’utilisateur dans l’en-tête CX Enterprise. Bien que toutes les applications de l’expérience client ne prennent pas en charge les thèmes, cette fonctionnalité libère la prise en charge future des thèmes. |
-| Recherche globale d’entreprise CX | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
+| Recherche globale d’entreprise CX | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[&#128279;](https://experienceleague.adobe.com/?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
 | Préférences linguistiques de l&#39;entreprise CX | Cette mise à jour offre la possibilité de définir vos langues préférées dans CX Enterprise [Préférences](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}

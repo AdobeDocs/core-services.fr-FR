@@ -52,7 +52,7 @@ Sur la page [!UICONTROL Préférences CX Enterprise], vous pouvez gérer les fon
 
 | Fonctionnalité | Description |
 | --- | --- |
-| [!UICONTROL Profile] | Mettez à jour votre [profil de compte ](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
+| [!UICONTROL Profile] | Mettez à jour votre [profil de compte &#x200B;](https://account.adobe.com/profile). <p>La photo et le nom de votre profil s’affichent lorsque vous vous connectez à Adobe.com, aux produits et services Adobe et sur des sites publics tels que [!DNL Behance]. |
 | [!UICONTROL Général] | Sélectionnez une [organisation](../administration/organizations.md).<p>Cette organisation est celle utilisée par défaut lorsque vous vous connectez à CX Enterprise. |
 | [!UICONTROL Données d’utilisation du produit] | Vous pouvez contrôler quelles données d’utilisation des produits sont partagées avec Adobe lors de l’utilisation des applications d’entreprise CX. Il s’agit de données sur la manière dont vous utilisez nos produits, et non du contenu ou des données de votre organisation elle-même. Adobe utilise ces informations pour améliorer ses produits, bénéficier d’une meilleure prise en charge intégrée au produit et personnaliser l’expérience et les communications de nos clients. <p>Pour en savoir plus, voir [Données d’utilisation des produits](#product-usage-data) (sur cette page). |
 | [!UICONTROL Notifications] | Configurez comment et quand vous souhaitez recevoir des notifications et des alertes relatives aux produits [notifications](#subscribe-to-notifications-in-experience-cloud) : <ul><li>Sélectionnez les produits auxquels vous souhaitez vous abonner pour recevoir des alertes</li><li>Configurez le type de notification ([!UICONTROL in-app], [!UICONTROL e-mail] ou [Slack](#slack-notifications))</li><li>Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.)</li><li>Déterminez la priorité de l’alerte. Les alertes in-app s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. Vous pouvez également spécifier si les alertes doivent s’afficher jusqu’à ce que vous les supprimiez.</li></ul> |
@@ -108,7 +108,7 @@ Vous pouvez configurer les préférences de votre compte pour envoyer des notifi
 
 1. Sous **[!UICONTROL Notifications]**, activez les notifications [!DNL Slack] pour les produits et catégories de votre choix.
 
-   ![Notifications ](../assets/slack.png)
+   ![Notifications &#x200B;](../assets/slack.png)
 
    Les mises à jour des notifications sont automatiquement enregistrées.
 

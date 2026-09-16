@@ -209,5 +209,5 @@ Ajout de la section [FAQ sur l’entreprise CX](faq.md) pour les administrateurs
 
 ## 22 Mai 2014
 
-Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
+Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
 

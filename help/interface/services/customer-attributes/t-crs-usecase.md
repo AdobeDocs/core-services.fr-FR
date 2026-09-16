@@ -50,7 +50,7 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 * **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à l’[CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **** > **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à l’[CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **&#x200B;**&#x200B;> **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
   Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface CX Enterprise.
 
@@ -141,7 +141,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Modifier le Source de données client], cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
+   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
@@ -171,7 +171,7 @@ Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (suppri
 
 Suppression des attributs et remplacement des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL  Modifier le Source d’attributs du client ], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
+1. Sur la page [!UICONTROL &#x200B; Modifier le Source d’attributs du client &#x200B;], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
 
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md).
 

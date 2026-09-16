@@ -81,7 +81,7 @@ Solutions ou services :
 
 Le service d’identification des visiteurs fournit un identifiant universel et persistant qui identifie vos visiteurs dans toutes les applications de l’expérience client. Il peut remplacer le code de génération des ID pour des services tels qu’Analytics, Audience Manager, Adobe Target, le suivi de pulsation vidéo et d’autres applications et produits d’entreprise CX.
 
-Voir [ Service d’identification des visiteurs ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
+Voir [&#x200B; Service d’identification des visiteurs &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 
 **Applications ou services applicables**
 
@@ -166,9 +166,9 @@ Intégrer Adobe Target à Adobe Analytics et à d’autres applications d’entr
 
 ## Intégrations Experience Manager
 
-* Tutoriels vidéo : [intégrations ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
+* Tutoriels vidéo : [intégrations &#x200B;](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* Documentation du produit : [documentation ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
+* Documentation du produit : [documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
 
 ## Experience Manager – Assets
 
@@ -186,7 +186,7 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ad
 
 * Aide (connexion requise) : [Intégration aux solutions et services Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentation ](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
+* [Documentation &#x200B;](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
 
 **Applications ou services applicables**
 

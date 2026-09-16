@@ -58,7 +58,7 @@ ht-degree: 41%
 ---
 # Prise en main de l’expérience client Entreprise
 
-Si vous avez récemment implémenté CX Enterprise à l’aide de [balises ](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home), vous disposez déjà des paramètres [Attributs du client](../services/overview.md) et CX Enterprise [Audiences](../services/audiences/overview.md). Vous pouvez également gérer les utilisateurs et les produits dans [](../administration/admin-console.md).
+Si vous avez récemment implémenté CX Enterprise à l’aide de [balises &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home), vous disposez déjà des paramètres [Attributs du client](../services/overview.md) et CX Enterprise [Audiences](../services/audiences/overview.md). Vous pouvez également gérer les utilisateurs et les produits dans [&#128279;](../administration/admin-console.md).
 
 Les clients existants peuvent moderniser leurs implémentations applicatives et implémenter CX Enterprise. Cela vous permet d’utiliser les attributs du client et les fonctionnalités d’audience dans Adobe Analytics, Audience Manager et Adobe Target.
 
@@ -66,7 +66,7 @@ Les clients existants peuvent moderniser leurs implémentations applicatives et 
 
 Une fois votre statut d’administrateur acquis, vous pouvez vous connecter à [experience.adobe.com](https://experience.adobe.com?lang=fr).
 
-Le lien **** est disponible dans la navigation du menu Entreprise CX pour gérer les utilisateurs et les licences de produits.
+Le lien **&#x200B;**&#x200B;est disponible dans la navigation du menu Entreprise CX pour gérer les utilisateurs et les licences de produits.
 
 ### Facultatif : liaison de comptes utilisateur existants {#link-accounts}
 
@@ -102,7 +102,7 @@ Exigences [!DNL Analytics] et [!DNL Adobe Target] pour l’utilisation de CX Ent
 
      >[!NOTE]
      >
-     >Pour [!DNL Target], migrez vers at.js depuis `mbox.js`. Voir [ Mise à niveau à partir d’at.js 1. x vers at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=fr).
+     >Pour [!DNL Target], migrez vers at.js depuis `mbox.js`. Voir [&#x200B; Mise à niveau à partir d’at.js 1. x vers at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=fr).
 
 1. [Gérer les utilisateurs et les produits](../administration/admin-console.md) dans [!UICONTROL Admin Console].
 
@@ -119,7 +119,7 @@ Pour obtenir une aide complète du service d’identification des visiteurs, voi
 
 **Vous n’utilisez pas [!UICONTROL les balises Experience Platform] ?**
 
-Si vous n’utilisez pas de [!UICONTROL balises ], mettez en œuvre manuellement le service d’identification des visiteurs par le biais du déploiement de JavaScript (`VisitorAPI.js`), en procédant comme suit :
+Si vous n’utilisez pas de [!UICONTROL balises &#x200B;], mettez en œuvre manuellement le service d’identification des visiteurs par le biais du déploiement de JavaScript (`VisitorAPI.js`), en procédant comme suit :
 
 | Tâche | Description |
 | --- | --- |
@@ -157,13 +157,13 @@ Contactez l’assistance technique pour activer les données historiques.
 
 ## Mettre à jour votre code Analytics AppMeasurement
 
-Si vous utilisez des cookies propriétaires, consultez le [programme de certificat géré par ](/help/interface/data-collection/adobe-managed-cert.md) pour plus d’informations sur les CNAME de collecte de données et le suivi inter-domaines.
+Si vous utilisez des cookies propriétaires, consultez le [programme de certificat géré par &#x200B;](/help/interface/data-collection/adobe-managed-cert.md) pour plus d’informations sur les CNAME de collecte de données et le suivi inter-domaines.
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. La méthode la plus simple pour y parvenir consiste à ajouter une [extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) dans la collecte de données Experience Platform.
 
 ## Mettre à jour votre implémentation Adobe Target
 
-* Il est recommandé d’ajouter une extension [](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) dans les balises [!UICONTROL Experience Platform], de sorte que la récupération de votre bibliothèque soit automatique. Vous pouvez également configurer l’extension de balise [[!UICONTROL Service Experience Cloud ID], qui met en œuvre le service d’identification des visiteurs pour Adobe Target (et d’autres applications)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) à l’aide de balises. Cette extension de balise est **obligatoire** pour qu’Adobe Target puisse utiliser les services Personnes.
+* Il est recommandé d’ajouter une extension [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) dans les balises [!UICONTROL Experience Platform], de sorte que la récupération de votre bibliothèque soit automatique. Vous pouvez également configurer l’extension de balise [[!UICONTROL Service Experience Cloud ID], qui met en œuvre le service d’identification des visiteurs pour Adobe Target (et d’autres applications)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) à l’aide de balises. Cette extension de balise est **obligatoire** pour qu’Adobe Target puisse utiliser les services Personnes.
 * Si vous n’utilisez pas de balises , [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html) manuellement.
 * Demandez lʼaccès afin dʼutiliser Adobe Analytics comme source de création de rapports pour [!DNL Adobe Target]. Les données de [!DNL Target] et dʼ[!DNL Analytics] sont combinées dans le même appel au serveur durant le traitement afin que les visiteurs soient connectés entre les deux applications. Voir [Implémentation d’Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 

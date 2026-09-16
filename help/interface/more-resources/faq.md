@@ -112,7 +112,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
+* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
 
 +++
 
