@@ -1,34 +1,44 @@
 ---
 description: Découvrez les points à prendre en compte et les bonnes pratiques concernant les informations d’identification personnelle chargées et utilisées dans CX Enterprise.
 solution: Experience Cloud
-title: Considérations relatives à la confidentialité pour  [!DNL Customer Attributes]
+title: Considérations relatives à la confidentialité des [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-TQID: https://experienceleague.adobe.com/4L-qz0n3h97DduJvPGGoJPl1VvrPAKJTeUnkJGs6xvc
+TQID: 'https://experienceleague.adobe.com/4L-qz0n3h97DduJvPGGoJPl1VvrPAKJTeUnkJGs6xvc'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: '511'
 ht-degree: 92%
-
 ---
-
 # Considérations relatives à la confidentialité des [!DNL Customer Attributes]
 
 Considérations et bonnes pratiques relatives aux informations d’identification personnelle chargées et utilisées dans Adobe CX Enterprise.

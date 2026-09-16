@@ -1,33 +1,42 @@
 ---
-description: Découvrez comment valider le schéma  [!DNL Customer Attributes]  dans Adobe CX Enterprise.
+description: Découvrez comment valider le schéma [!DNL Customer Attributes] dans Adobe CX Enterprise.
 solution: Experience Cloud
-title: 'Validation du schéma  [!DNL Customer Attributes] '
+title: Validation du schéma de [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-TQID: https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g
+TQID: 'https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '343'
 ht-degree: 39%
-
 ---
-
 # Valider le schéma
 
 Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs chargés (chaînes, nombres entiers, numéros, etc.).
@@ -44,7 +53,7 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 1. Dans **[!UICONTROL Modifier le Source d’attributs du client]**, cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-1. Sur la page [!UICONTROL &#x200B; Chargement de fichier et validation du schéma &#x200B;], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
+1. Sur la page [!UICONTROL  Chargement de fichier et validation du schéma ], cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Afficher/Modifier le schéma]**
 
    ![Modification dʼun schéma](assets/actions.png)
 
@@ -62,8 +71,8 @@ Un schéma est créé d’après ces paramètres. Le schéma permet de valider t
 
 * **[!UICONTROL Recherche d’ID :]** saisissez un ID de client (CID) issu de votre `.csv` pour rechercher les informations CX Enterprise relatives à cet ID. Cette fonction s’avère utile pour résoudre les problèmes de non-affichage des données d’attribut d’un visiteur :
 
-   * **[!UICONTROL ECID :]** s’affiche si vous utilisez le service d’identification des visiteurs. Si vous êtes sur le service d’identification des visiteurs mais qu’aucun identifiant n’est répertorié ici, CX Enterprise n’a pas reçu d’alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
+  * **[!UICONTROL ECID :]** s’affiche si vous utilisez le service d’identification des visiteurs. Si vous êtes sur le service d’identification des visiteurs mais qu’aucun identifiant n’est répertorié ici, CX Enterprise n’a pas reçu d’alias pour cet ID de client. En d’autres termes, le visiteur n’a pas encore ouvert de session ou votre mise en œuvre ne transmet pas cet identifiant.
 
-   * **[!UICONTROL CID (ID de client) :]** les attributs associés à cet CID. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
+  * **[!UICONTROL CID (ID de client) :]** les attributs associés à cet CID. Si vous utilisez une prop ou une eVar pour charger les ID de client (AVID) et que les attributs sont affichés, mais pas les identifiants AVID, cela signifie que le visiteur n’a pas encore ouvert de session sur votre site.
 
-   * **[!UICONTROL AVID (identifiant visiteur Analytics) :]** s’affiche si vous utilisez une prop ou eVar pour charger des CID. Si ces ID sont transmis à CX Enterprise, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.
+  * **[!UICONTROL AVID (identifiant visiteur Analytics) :]** s’affiche si vous utilisez une prop ou eVar pour charger des CID. Si ces ID sont transmis à CX Enterprise, tous les ID de visiteur associés à l’ID de client que vous avez saisi s’affichent ici.

@@ -7,27 +7,34 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-TQID: https://experienceleague.adobe.com/-1yWj0RNl4BeOPW8Z1c-vHOWS-ez38qqMBxwPma4H-Y
+TQID: 'https://experienceleague.adobe.com/-1yWj0RNl4BeOPW8Z1c-vHOWS-ez38qqMBxwPma4H-Y'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
+  - id: f41eca2a-7270-51d6-bfa7-4a123d0d38ab
+    internal-label: Account Preferences
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '249'
 ht-degree: 39%
-
 ---
-
 # Prise en charge des navigateurs et des langues dans CX Enterprise
 
 Pour des performances optimales, CX Enterprise est optimisé pour les navigateurs les plus populaires, y compris la dernière version, ainsi que les deux versions précédentes.

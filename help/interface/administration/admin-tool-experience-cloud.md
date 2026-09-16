@@ -11,22 +11,31 @@ autotag-review: '2026-05-12T21:20:07.920Z'
 TQID: 'https://experienceleague.adobe.com/UF7Yw3I7-TeV5zCGajQwMDyc57ousR8aRomOigntA68'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+    internal-label: Admin tools
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c164f824b75aed7e39419f4edf99eaa44442382c
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: '1271'
 ht-degree: 66%
-
 ---
-
 # CX Enterprise [!UICONTROL outil d’administration]
 
 Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs et stratégies CX Enterprise avec des détails dans l&#39;outil [!UICONTROL Admin Tool]. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Les détails de la politique incluent la liste des utilisateurs, des groupes, des développeurs, des intégrations et des administrateurs d’une politique (profil de produit), ainsi que des informations détaillées sur les autorisations et les ressources pour la politique.
@@ -35,7 +44,7 @@ Les administrateurs peuvent afficher une liste triable et filtrable de tous les 
 
    ![Accès à Admin Console](../assets/admin-tool.png)
 
-1. Sous [!UICONTROL &#x200B; Accès rapide &#x200B;], cliquez sur **[!UICONTROL Outil d’administration]**.
+1. Sous [!UICONTROL  Accès rapide ], cliquez sur **[!UICONTROL Outil d’administration]**.
 
    (Vous pouvez également remplacer la _page d’accueil_ par _admin_ dans l’URL de la page d’accueil.)
 
@@ -100,7 +109,7 @@ Cette section affiche une liste complète de tous les profils d’abonnement de 
 | Élément | Description |
 | ---------| ----------|
 | [!UICONTROL Produit] | Nom du produit associé au profil de produits. |
-| [!UICONTROL &#x200B; Instance &#x200B;] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
+| [!UICONTROL  Instance ] | Nom de l’instance (telle que la société de connexion ou le client) associée au produit et au profil de produits. |
 | [!UICONTROL Profil de produit] | Nom unique du profil de produits. |
 | [!UICONTROL Affecté par groupe] | Nom du groupe d’utilisateurs qui associe l’utilisateur à un profil de produits. Les résultats vides indiquent que l’utilisateur a été affecté au profil de produit de manière directe, et non par l’intermédiaire d’un groupe. |
 | [!UICONTROL Rôles de produit] | Affectation de rôle de l’utilisateur dans le profil de produits. Actuellement, ces informations s’appliquent uniquement aux profils de produits Adobe Target. |
@@ -115,8 +124,8 @@ Cette page affiche la liste complète des stratégies CX Enterprise de votre ent
 | ---| ---|
 | [!UICONTROL Profil de produit] | Le nom du profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. Pour afficher plus dʼinformations sur la politique, sélectionnez le nom dʼun profil de produit. |
 | [!UICONTROL Produit] | Le produit associé au profil de produits. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL &#x200B; Instance &#x200B;] | L’instance (par exemple, société de connexion ou client) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un « - » comme valeur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
-| [!UICONTROL &#x200B; Nombre d’utilisateurs &#x200B;] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
+| [!UICONTROL  Instance ] | L’instance (par exemple, société de connexion ou client) associée au profil de produit. Les produits qui n’ont pas d’instances ou de clients uniques affichent un « - » comme valeur. La colonne peut être triée des manières suivantes : A->Z, Z->A. |
+| [!UICONTROL  Nombre d’utilisateurs ] | Nombre unique d’utilisateurs associés au profil de produits, y compris l’affectation directe et l’affectation de groupe. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
 | [!UICONTROL Nombre de développeurs] | Nombre de rôles de développeur associés au profil de produits. La colonne peut être triée du plus petit au plus grand ou du plus grand au plus petit. |
 
 ## Personnalisation de la vue Liste des politiques

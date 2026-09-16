@@ -6,20 +6,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
-TQID: https://experienceleague.adobe.com/Rrw6Hh1r73V9BMRbyeKpcYUBaXsmcZjKit1vHbeWoVs
+TQID: 'https://experienceleague.adobe.com/Rrw6Hh1r73V9BMRbyeKpcYUBaXsmcZjKit1vHbeWoVs'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 60
+source-wordcount: '60'
 ht-degree: 38%
-
 ---
-
 # Mise à jour du schéma (suppression d’un attribut)
 
 Comment supprimer et remplacer des attributs dans le schéma.
