@@ -8,35 +8,54 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-TQID: https://experienceleague.adobe.com/6Sh6sOZ--ct2sz5sMR-qRwZmvoC51zQkV9LqVRXmi-o
+TQID: 'https://experienceleague.adobe.com/6Sh6sOZ--ct2sz5sMR-qRwZmvoC51zQkV9LqVRXmi-o'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
+    internal-label: Experience Cloud services
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: d27b1945-f442-4607-91bd-537a0b16e687
+    internal-label: Assets
   - id: ecb4a972-6786-444c-a014-abc528b9407a
+    internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1113'
 ht-degree: 32%
-
 ---
-
 # Intégrations CX Grands comptes
 
 Cette page décrit plusieurs façons de commencer à intégrer des applications CX Enterprise. Pour plus d’informations, consultez notre bibliothèque de [tutoriels vidéo sur l’intégration](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) sur Experience League.
@@ -96,7 +115,7 @@ Si vous capturez des données client d’entreprise dans une base de données de
 * Adobe Analytics : Rapport Attributs du client
 * Adobe Target : configuration d’Adobe Target [subscription](/help/interface/services/customer-attributes/subscription.md) pour utiliser les attributs du client
 
-## Assets CX Enterprise
+## Ressources CX Enterprise
 
 Aide : [Partage de dossiers CX Enterprise avec Creative Cloud](/help/interface/services/assets/share.md)
 

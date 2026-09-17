@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment utilise  [!DNL Adobe Target]  cookies pour permettre aux opérateurs du site web de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
+description: Découvrez comment utilise [!DNL Adobe Target] cookies pour permettre aux opérateurs du site de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
 solution: Experience Cloud,Analytics,Target
 title: Cookies Adobe Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
@@ -8,13 +8,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '754'
 ht-degree: 17%
-
 ---
-
 # Cookies [!DNL Adobe Target]
 
 [!DNL Adobe Target] utilise des cookies pour permettre aux opérateurs du site de tester le contenu et les offres en ligne les plus pertinents pour les visiteurs.
