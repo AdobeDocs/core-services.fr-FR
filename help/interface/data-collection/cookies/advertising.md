@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 15%
@@ -41,7 +41,7 @@ Adobe Advertising (anciennement Adobe Advertising Cloud) utilise des cookies pou
 
 >[!NOTE]
 >
->La balise JavaScript Adobe Advertising bêta qui utilise le service [Adobe CX Enterprise ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des cookies `s_ecid` [CX Enterprise](experience-cloud.md) propriétaires, et non des cookies Adobe Advertising.
+>La balise JavaScript Adobe Advertising bêta qui utilise le service [Adobe CX Enterprise ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des cookies [CX Enterprise](experience-cloud.md) `s_ecid` propriétaires, et non des cookies Adobe Advertising.
 
 | Nom du cookie | Expiration | Taille | Emplacement | Description |
 | --- | --- | --- | --- | --- |

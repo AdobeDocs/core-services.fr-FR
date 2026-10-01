@@ -1,5 +1,5 @@
 ---
-description: Découvrez la gestion des utilisateurs et des produits d’entreprise CX, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
+description: Découvrez la gestion des utilisateurs et des produits CX Enterprise, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
 solution: Experience Cloud
 title: Vue d’ensemble des services Experience Cloud
 feature: Central Interface Components
@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -36,23 +36,23 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 43%
 ---
-# Présentation de l’interface CX Enterprise
+# Présentation de l’interface de CX Enterprise
 
-Les fonctions d&#39;interface de CX Enterprise sont parfois appelées _services principaux_. Il s’agit des fonctionnalités d’en-tête unifié, y compris le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]).
+Les fonctions d’interface de CX Enterprise sont parfois appelées _services principaux_. Il s’agit des fonctionnalités d’en-tête unifié, y compris le service [!DNL People] ([!DNL Audience Library] et [!DNL Customer Attributes]).
 
 Les autres fonctionnalités partagées incluent l’administration (gestion des utilisateurs et des produits) pour CX Enterprise, les cookies, les préférences de compte, les notifications, etc.
 
-Pour accéder aux services partagés et aux applications dans CX Enterprise, cliquez sur le sélecteur d’applications **&#x200B;**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+Pour accéder aux services partagés et aux applications dans CX Enterprise, cliquez sur le **[!UICONTROL sélecteur d’applications]**
+![ Sélecteur de services ](../assets/apps-icon.png).
 
 **Sélecteur d’applications**
 
-![Services CX Entreprise](../assets/platform-core-services.png)
+![Services ](../assets/platform-core-services.png)
 
 Les pages Services de ce guide décrivent les produits et services suivants :
 
@@ -62,12 +62,12 @@ Les pages Services de ce guide décrivent les produits et services suivants :
 | [Bibliothèque d’audiences](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview) | Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants visiteur). Adobe [!DNL Audience Library] vous permet de gérer la traduction des données du visiteur en segmentation d’audience. |
 | [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.  est un service applicatif intégré à Experience Platform. |
 | [Assets](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. |
-| [Triggers](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/triggers) | Triggers dans CX Enterprise vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel. |
-| [Marché &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/exchange) | Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports. |
+| [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Triggers de CX Enterprise vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel. |
+| [Marché ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentation du produit [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
+>La documentation du produit [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
 
