@@ -30,7 +30,7 @@ ht-degree: 20%
 ---
 # Préférences d’apprentissage personnalisées
 
-Adobe vous fournit du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Les données d’utilisation des produits nous permettent d’adapter ce contexte à vos besoins. Vous pouvez vous inscrire ou refuser de partager vos données d’utilisation de produit sur la page Préférences de [](https://experience.adobe.com/preferences).
+Adobe vous fournit du contenu utile adapté à vos besoins, en fonction de votre travail dans vos produits Adobe. Les données d’utilisation des produits nous permettent d’adapter ce contexte à vos besoins. Vous pouvez vous inscrire ou refuser de partager vos données d’utilisation de produit sur la page Préférences de [&#128279;](https://experience.adobe.com/preferences).
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services
