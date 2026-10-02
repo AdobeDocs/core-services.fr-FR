@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment créer une source de données [!DNL Customer Attributes] et la charger vers CX Enterprise.
+description: Découvrez comment créer une source de données [!DNL Customer Attributes] et la charger dans CX Enterprise.
 solution: Experience Cloud
 title: Création et chargement d’un fichier de Source de données [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -50,9 +50,9 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 * **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à l’[CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **&#x200B;**&#x200B;> **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **&#x200B;**&#x200B;> **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
-  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface CX Enterprise.
+  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface de CX Enterprise.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
@@ -97,7 +97,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
    * **[!UICONTROL Description :]** (facultatif) description de la source d’attributs de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. [!UICONTROL ID d’alias] est un ID unique utilisé dans votre code [!UICONTROL Source d’attributs du client]. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans CX Enterprise doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par l’intermédiaire de la collecte de données Platform ou de JavaScript de Mobile SDK).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. [!UICONTROL ID d’alias] est un ID unique utilisé dans votre code [!UICONTROL Source d’attributs du client]. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans CX Enterprise doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par l’intermédiaire de la collecte de données Platform ou de JavaScript du SDK mobile).
 
      >[!IMPORTANT]
      >
@@ -145,13 +145,13 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
->[!IMPORTANT]
->
->Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](crs-data-file.md) pour en savoir plus.
+   >[!IMPORTANT]
+   >
+   >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](crs-data-file.md) pour en savoir plus.
 
-Une fois le fichier chargé, les données du tableau s’affichent sous l’en-tête [!UICONTROL Chargement de fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
+   Une fois le fichier chargé, les données du tableau s’affichent sous l’en-tête [!UICONTROL Chargement de fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
 
-![attributs](assets/file_upload_attributes.png)
+   ![attributs](assets/file_upload_attributes.png)
 
 * **[!UICONTROL ID de client unique :]** affiche le nombre d’ID uniques que vous avez chargés sur cette source d’attributs.
 
@@ -177,7 +177,7 @@ Suppression des attributs et remplacement des attributs dans le schéma.
 
 ## Configuration des abonnements et activation de la source d’attributs
 
-La configuration d&#39;un abonnement configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
+La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
 Voir [Configuration des abonnements et activation de la source de données](subscription.md).
 
@@ -189,7 +189,7 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 ![Segment Analytics dʼaprès les attributs téléchargés](assets/08_crs_usecase.png)
 
-Lorsque vous publiez un segment sur CX Enterprise, il est disponible dans CX Enterprise Audiences et Audience Manager.
+Lorsque vous publiez un segment dans CX Enterprise, il est disponible dans les audiences CX Enterprise et Audience Manager.
 
 ## Utilisation des données [!DNL Customer Attributes] dans Adobe Target
 
