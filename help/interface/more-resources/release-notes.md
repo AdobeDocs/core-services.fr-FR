@@ -15,7 +15,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud Services
+    internal-label: Experience Cloud services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 57%
@@ -110,7 +110,7 @@ Pour les notes de mise à jour couvrant toutes les applications, voir Notes de m
 | -----------| ---------- |
 | Accueil personnalisable | Sur la page de destination de CX Enterprise, cliquez sur **[!UICONTROL Modifier]**. Le mode [!UICONTROL Modifier] vous permet de personnaliser votre page d’accueil CX Enterprise avec un accès à une bibliothèque de widgets et à des arrière-plans personnalisés. Le mode [!UICONTROL Modifier] fournit des commandes intuitives et transparentes pour le déplacement, le redimensionnement et la gestion des widgets, y compris des actions en masse et des réglages de disposition, offrant ainsi une expérience plus esthétique et personnalisée. |
 
-## mercredi 10 septembre 2024
+## 10 septembre 2024
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
@@ -152,7 +152,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Fonctionnalité | Description |
 | ------- | -------|
-| Recherche en langage naturel | Obtenez des réponses instantanées à toutes vos questions, avec une interface unique via la Recherche unifiée. Retrouvez cette fonctionnalité sur chaque page d’[!DNL Experience Platform] et de [!DNL Journey Optimizer]. |
+| Recherche en langage naturel | Obtenez des réponses instantanées à toutes vos questions d’aide, avec une interface unique via la Recherche unifiée. Retrouvez cette fonctionnalité sur chaque page d’[!DNL Experience Platform] et de [!DNL Journey Optimizer]. |
 
 {style="table-layout:auto"}
 
@@ -202,7 +202,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Juillet 2021
 
-La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Optimizer, Offers et Experience League. Auparavant, cette fonctionnalité nʼétait disponible que pour les utilisateurs Experience Platform.
+La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Optimizer, Offers et Experience League. Auparavant, cette fonctionnalité nʼétait disponible que pour les utilisateurs et utilisatrices dʼExperience Platform.
 
 ## Juin 2021
 
@@ -218,7 +218,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 | Fonctionnalité | Description |
 | ------- | ------- |
 | En-tête et navigation CX Enterprise | Les mises à jour de Adobe CX Enterprise incluent une modification du thème clair de l’en-tête, avec la possibilité de revenir facilement au thème sombre ainsi qu’un lien pour contrôler les préférences supplémentaires de l’avatar de l’utilisateur dans l’en-tête de CX Enterprise. Bien que toutes les applications CX Enterprise ne prennent pas en charge les thèmes, cette fonctionnalité libère la prise en charge future des thèmes. |
-| Recherche globale CX Enterprise | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[Experience League](https://experienceleague.adobe.com/fr?lang=fr#home). (Actuellement, la recherche globale n’est disponible que pour les utilisateurs d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
+| Recherche globale CX Enterprise | Avec cette version, la recherche globale CX Enterprise vous permet de rechercher n’importe quelle documentation, cours et tutoriels d’[Experience League](https://experienceleague.adobe.com/fr?lang=fr#home). (actuellement, la recherche globale n’est disponible que pour les utilisateurs et utilisatrices d’Experience Platform. La recherche globale de [!UICONTROL Platform] vous permet de rechercher n’importe quel objet commercial dans CX Enterprise, tel que les segments, les jeux de données, les schémas, etc.). |
 | Préférences de langue CX Enterprise | Cette mise à jour offre la possibilité de définir vos langues préférées dans CX Enterprise [Préférences](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}

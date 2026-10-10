@@ -16,7 +16,7 @@ product_v2:
     internal-label: Admin Console
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud Services
+    internal-label: Experience Cloud services
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 32%
@@ -65,7 +65,7 @@ Cette page décrit plusieurs façons de commencer à intégrer des applications 
 Décrit comment :
 
 * Configurez votre société dans CX Enterprise.
-* Devenir un administrateur
+* Vous permettre de devenir administrateur ou administratrice.
 * [Implémenter le service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 * Modernisez vos implémentations [!DNL Analytics] et [!DNL Target] via [!UICONTROL collecte de données Platform].
 * Commencez à utiliser les services CX Enterprise tels que [Attributs du client](../services/customer-attributes/attributes.md) et [Bibliothèque d’audiences](../services/audiences/overview.md).
@@ -131,7 +131,7 @@ Partagez des dossiers et des ressources entre CX Enterprise et Creative Cloud. C
 
 Aide : [Rapports AEM Assets dans Analytics](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=fr)
 
-Permet à Analytics de collecter des impressions et des clics sur les ressources diffusées à partir dʼAEM Assets Insights.
+Permet à Analytics de collecter des impressions et des clics sur les ressources diffusées à partir dʼAEM Asset Insights.
 
 **Applications ou services applicables**
 
