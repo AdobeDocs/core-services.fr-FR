@@ -32,7 +32,7 @@ Avec un certificat géré par le client, votre entreprise obtient le certificat 
 
 ## Quand utiliser un certificat géré par le client
 
-* **Vous acheminez la collecte de données via un réseau CDN avec une origine propriétaire** : le programme de certificat géré par [Adobe](adobe-managed-cert.md) ne prend pas en charge les implémentations CDN. Voir [ Configuration d’un réseau CDN avec une origine propriétaire](cdn.md#first-party-origin).
+* **Vous acheminez la collecte de données via un réseau CDN avec une origine propriétaire** : le programme de certificat géré par [Adobe](adobe-managed-cert.md) ne prend pas en charge les implémentations CDN. Voir [&#x200B; Configuration d’un réseau CDN avec une origine propriétaire](cdn.md#first-party-origin).
 * **Votre politique de sécurité nécessite un contrôle direct du certificat** : par exemple, votre organisation doit pouvoir révoquer le certificat par l’intermédiaire de sa propre autorité de certification, au lieu de demander la révocation par l’intermédiaire de l’assistance clientèle d’Adobe.
 * **Votre organisation requiert une autorité de certification ou un type de certificat spécifique** : le programme de certificat géré par Adobe utilise des certificats émis par DigiCert.
 
@@ -52,7 +52,7 @@ Avec un certificat géré par le client, votre entreprise obtient le certificat 
 1. Envoyez chaque demande de signature de certificat à l’autorité de certification commerciale souhaitée pour obtenir un certificat signé. Les services de certificat gratuits ne sont pas pris en charge. Fournissez les certificats émis à Adobe conformément aux instructions de l’assistance clientèle.
 1. Une fois qu’Adobe a installé votre certificat, redirigez le trafic correspondant à votre nom d’hôte vers Adobe :
    * **Sans réseau CDN** : mettez à jour les enregistrements DNS de votre organisation comme indiqué par l’assistance clientèle d’Adobe.
-   * **Avec un réseau CDN** : définissez votre origine CDN sur votre nom d’hôte propriétaire. Voir [ Configuration d’un réseau CDN avec une origine propriétaire](cdn.md#first-party-origin).
+   * **Avec un réseau CDN** : définissez votre origine CDN sur votre nom d’hôte propriétaire. Voir [&#x200B; Configuration d’un réseau CDN avec une origine propriétaire](cdn.md#first-party-origin).
 1. Si votre implémentation n’envoie pas déjà de données à ce nom d’hôte, [mettez à jour votre implémentation](collection-domain.md#update-implementation).
 
 ## Renouveler votre certificat {#renewals}

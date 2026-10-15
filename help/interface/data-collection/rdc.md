@@ -36,7 +36,7 @@ Le workflow de collecte de données régionale offre plusieurs avantages :
 
 ## Collecte de données propriétaire
 
-La collecte de données propriétaire utilise une implémentation CNAME pour acheminer les données vers Adobe via votre propre domaine. Votre type de collecte de données régionale est sélectionné dans le cadre du processus de configuration du [Programme de certificat géré par ](adobe-managed-cert.md). Pour vérifier ou mettre à jour votre type de collecte de données régionale, contactez l’équipe de votre compte Adobe. Les types de collecte de données régionale suivants et les centres de données associés sont disponibles :
+La collecte de données propriétaire utilise une implémentation CNAME pour acheminer les données vers Adobe via votre propre domaine. Votre type de collecte de données régionale est sélectionné dans le cadre du processus de configuration du [Programme de certificat géré par &#x200B;](adobe-managed-cert.md). Pour vérifier ou mettre à jour votre type de collecte de données régionale, contactez l’équipe de votre compte Adobe. Les types de collecte de données régionale suivants et les centres de données associés sont disponibles :
 
 | Type de collecte de données régionale | Centres de collecte de données |
 | --- | --- |

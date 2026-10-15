@@ -35,14 +35,14 @@ Certaines organisations acheminent les demandes de collecte de données via leur
 | | Origine tierce (recommandée) | Origine propriétaire |
 | --- | --- | --- |
 | **Nom d’hôte original** | Votre sous-domaine d’ID client de `data.adobedc.net`, tel que `example.data.adobedc.net` | Votre nom d’hôte propriétaire, tel que `data.example.com` |
-| **Certificat sur les serveurs Adobe** | Certificat Adobe (`*.data.adobedc.net`) | [ Certificat géré par le client ](customer-managed-cert.md) |
+| **Certificat sur les serveurs Adobe** | Certificat Adobe (`*.data.adobedc.net`) | [&#x200B; Certificat géré par le client &#x200B;](customer-managed-cert.md) |
 | **Renouvellements de certificat** | Aucun requis | Votre entreprise renouvelle le certificat et le fournit à Adobe avant chaque expiration |
 | **Région verrouillée [RDC](rdc.md)** | Non pris en charge | Pris en charge |
 | **Quand l’utiliser** | Toutes les implémentations de réseau CDN, sauf si votre organisation nécessite une origine propriétaire | Votre politique de sécurité nécessite un contrôle direct du certificat d’origine ou votre organisation nécessite un type de collecte de données régionale verrouillé |
 
 >[!NOTE]
 >
->Le programme de certificat géré par Adobe [](adobe-managed-cert.md) ne prend pas en charge les implémentations CDN. Adobe ne peut pas valider la propriété du domaine ni renouveler les certificats pour les noms d’hôtes qui pointent vers votre réseau CDN. Utilisez une origine tierce ou une origine propriétaire avec un [ certificat géré par le client ](customer-managed-cert.md).
+>Le programme de certificat géré par Adobe [&#128279;](adobe-managed-cert.md) ne prend pas en charge les implémentations CDN. Adobe ne peut pas valider la propriété du domaine ni renouveler les certificats pour les noms d’hôtes qui pointent vers votre réseau CDN. Utilisez une origine tierce ou une origine propriétaire avec un [&#x200B; certificat géré par le client &#x200B;](customer-managed-cert.md).
 
 ## Conditions requises pour toutes les implémentations de réseau CDN {#requirements}
 
@@ -103,14 +103,14 @@ Utilisez une origine propriétaire uniquement si votre organisation en a besoin.
 
 >[!IMPORTANT]
 >
->Votre entreprise est chargée de renouveler votre certificat géré par le client et de le fournir à l’assistance clientèle d’Adobe avant son expiration. Si le certificat sur les serveurs Adobe expire, votre réseau CDN peut rejeter la connexion et ignorer les données sans vous en informer. Voir [ Renouveler votre certificat ](customer-managed-cert.md#renewals).
+>Votre entreprise est chargée de renouveler votre certificat géré par le client et de le fournir à l’assistance clientèle d’Adobe avant son expiration. Si le certificat sur les serveurs Adobe expire, votre réseau CDN peut rejeter la connexion et ignorer les données sans vous en informer. Voir [&#x200B; Renouveler votre certificat &#x200B;](customer-managed-cert.md#renewals).
 
 ## Déplacer une implémentation propriétaire existante vers un réseau CDN {#migrate}
 
 Si votre organisation envoie actuellement des données directement à un nom d’hôte propriétaire avec un certificat hébergé par Adobe, procédez comme suit pour passer à un réseau CDN :
 
 1. Identifiez chaque mise en œuvre qui envoie des données à votre nom d’hôte propriétaire, sur tous les produits Adobe. D’autres produits, tels qu’Adobe Target ou Adobe Journey Optimizer, peuvent utiliser le même nom d’hôte et un seul certificat peut couvrir de nombreux noms d’hôte.
-1. Choisissez un [type d’origine](#origin-type). Si vous choisissez une origine propriétaire, contactez l’assistance clientèle d’Adobe pour convertir votre certificat en [ certificat géré par le client ](customer-managed-cert.md) avant son expiration.
+1. Choisissez un [type d’origine](#origin-type). Si vous choisissez une origine propriétaire, contactez l’assistance clientèle d’Adobe pour convertir votre certificat en [&#x200B; certificat géré par le client &#x200B;](customer-managed-cert.md) avant son expiration.
 1. Configurez votre réseau CDN. Conservez votre nom d’hôte existant afin de ne pas avoir à mettre à jour vos implémentations.
 1. Avant l’expiration de votre certificat, pointez votre nom d’hôte sur votre réseau CDN et changez toutes les implémentations pour l’utiliser.
 1. [Vérifiez vos données](#check).

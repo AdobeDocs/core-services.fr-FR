@@ -29,7 +29,7 @@ Votre domaine de collecte de données est le nom d’hôte auquel votre impléme
 | Option | Domaine d’implémentation | Région verrouillée [RDC](rdc.md) | Maintenance des certificats |
 | --- | --- | --- | --- |
 | [Domaine tiers](#third-party) | `example.data.adobedc.net` | Non pris en charge | Aucun |
-| Domaine propriétaire avec un certificat géré par [](adobe-managed-cert.md) | `data.example.com` | Pris en charge | Aucune (Adobe renouvelle automatiquement le certificat) |
+| Domaine propriétaire avec un certificat géré par [&#128279;](adobe-managed-cert.md) | `data.example.com` | Pris en charge | Aucune (Adobe renouvelle automatiquement le certificat) |
 | Domaine propriétaire avec un [certificat géré par le client](customer-managed-cert.md) | `data.example.com` | Pris en charge | Votre entreprise renouvelle le certificat et le fournit à Adobe |
 | [Réseau de diffusion de contenu (CDN) avec une origine tierce](cdn.md#third-party-origin) | `data.example.com` | Non pris en charge | Aucun |
 | [Réseau CDN avec une origine propriétaire](cdn.md#first-party-origin) | `data.example.com` | Pris en charge | Votre entreprise renouvelle le certificat et le fournit à Adobe |
@@ -44,7 +44,7 @@ Si vous n’utilisez pas de domaine propriétaire, envoyez les données à un so
 
 ### Trouver votre identifiant client {#tenant-id}
 
-1. Connectez-vous à [](https://experience.adobe.com?lang=fr) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [&#128279;](https://experience.adobe.com?lang=fr) à l’aide de vos informations d’identification Adobe ID.
 1. N’importe où dans l’interface de CX Enterprise, appuyez sur `[Cmd]` + `[I]` (macOS) ou `[Ctrl]` + `[I]` (Windows).
 1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
 1. Développez l’organisation IMS souhaitée.
@@ -58,8 +58,8 @@ Lorsque vous modifiez votre domaine de collecte de données, mettez à jour chaq
 
 * **Extension de balise Web SDK** : mettez à jour le champ [[!UICONTROL Domaine Edge]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) lors de la configuration de l’extension.
 * **Web SDK (alliage)** : mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) dans la commande `configure`.
-* **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL Serveur de suivi SSL]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [ Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
-* **** : mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [ Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement) pour plus d’informations.
+* **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL Serveur de suivi SSL]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [&#x200B; Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
+* **&#x200B;**&#x200B;: mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement) pour plus d’informations.
 * **Autres implémentations** : mettez à jour le domaine de collecte de données dans toute autre implémentation qui envoie des données à Adobe, comme les applications mobiles ou les implémentations côté serveur.
 
 Si votre implémentation n’utilise pas le service d’identification des visiteurs ou le SDK web, la modification de votre domaine de collecte de données modifie le domaine des cookies des visiteurs et les visiteurs récurrents peuvent être comptabilisés comme de nouveaux visiteurs.
