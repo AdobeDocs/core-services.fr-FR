@@ -1,20 +1,18 @@
 ---
 role: User,Admin
-user-guide-title: Guide d’administration et de l’interface centrale d’entreprise CX
-breadcrumb-title: Interface et administration CX Enterprise
-title: Guide d’interface et d’administration pour l’entreprise CX
-description: Découvrez l’interface et l’administration de l’entreprise CX. Parcourez les rubriques sur l’IA, l’administration, les services partagés, la collecte de données, les cookies, les notes de mise à jour et les questions fréquentes.
+user-guide-title: Interface centrale de CX Enterprise et guide d’administration
+breadcrumb-title: Interface et administration de CX Enterprise
+title: Guide d’interface et d’administration de CX Enterprise
+description: Découvrez l’interface et l’administration de CX Enterprise. Parcourez les rubriques sur l’IA, l’administration, les services partagés, la collecte de données, les cookies, les notes de mise à jour et les questions fréquentes.
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 61%
-
+source-wordcount: '207'
+ht-degree: 57%
 ---
+# Interface et administration de CX Enterprise {#interface}
 
-# Interface et administration CX Enterprise {#interface}
-
-+ [Interface et administration CX Enterprise](/help/interface/experience-cloud.md)
++ [Interface et administration de CX Enterprise](/help/interface/experience-cloud.md)
 + Administration {#administration}
   + [Préférences et notifications du compte](/help/interface/features/account-preferences.md)
   + [Prise en charge des navigateurs et des langues](/help/interface/browser-language.md)
@@ -52,7 +50,10 @@ ht-degree: 61%
   + [Déclencheurs](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + Collecte de données {#data-collection}
+  + [Choisir un domaine de collecte de données](/help/interface/data-collection/collection-domain.md)
   + [Programme de certificat géré par Adobe](/help/interface/data-collection/adobe-managed-cert.md)
+  + [Certificats gérés par le client](/help/interface/data-collection/customer-managed-cert.md)
+  + [Acheminer la collecte de données via un réseau CDN](/help/interface/data-collection/cdn.md)
   + [Adresses IP](/help/interface/data-collection/ip-addresses.md)
   + [Domaines](/help/interface/data-collection/domains.md)
   + Cookies {#cookies}
@@ -60,7 +61,7 @@ ht-degree: 61%
     + [Cookies publicitaires](/help/interface/data-collection/cookies/advertising.md)
     + [Cookies Analytics](/help/interface/data-collection/cookies/analytics.md)
     + [Cookies Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-    + [Cookies d’entreprise CX](/help/interface/data-collection/cookies/experience-cloud.md)
+    + [Cookies CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
     + [Cookies Target](/help/interface/data-collection/cookies/target.md)
     + [Cookies du SDK web](/help/interface/data-collection/cookies/web-sdk.md)
   + [Collecte de données régionale](/help/interface/data-collection/rdc.md)

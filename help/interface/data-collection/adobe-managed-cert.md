@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment configurer des certificats sécurisés à utiliser avec les cookies propriétaires d’Adobe CX Enterprise.
+description: Découvrez comment configurer des certificats sécurisés à utiliser avec les cookies propriétaires de Adobe CX Enterprise.
 solution: Experience Cloud,Analytics
 title: Programme de certificat géré par Adobe
 index: true
@@ -55,16 +55,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1055'
 ht-degree: 2%
 ---
 # Programme de certificat géré par Adobe
 
 Le programme de certificat géré par Adobe est le processus recommandé pour configurer des certificats propriétaires nécessaires à une implémentation CNAME. Le programme est entièrement automatisé une fois configuré. Il renouvelle les certificats en temps opportun afin qu’il n’y ait aucun impact sur la collecte de données en raison de certificats expirés. Le programme est gratuit pour vos 100 premiers CNAME.
 
-Si vous gérez actuellement vos propres certificats, vous êtes responsable de l’achat, de la maintenance et de la fourniture d’un certificat à Adobe pour l’utilisation des cookies propriétaires. Pour discuter de la migration vers le programme de certificat géré par Adobe, contactez l’assistance clientèle d’Adobe.
+Le programme de certificat géré par Adobe ne prend pas en charge la collecte de données de routage via un réseau de diffusion de contenu (CDN). Si vous utilisez un réseau CDN, voir [Acheminer la collecte de données via un réseau CDN](cdn.md). Les organisations qui doivent gérer leurs propres certificats peuvent utiliser [certificats gérés par le client](customer-managed-cert.md) à la place. Si vous gérez actuellement vos propres certificats et souhaitez passer au programme de certificat géré par Adobe, contactez l’assistance clientèle d’Adobe.
 
 ## Implémentation
 
@@ -72,7 +72,7 @@ Pour implémenter un nouveau certificat pour la collecte de données propriétai
 
 1. Téléchargez et remplissez le [Formulaire de demande de domaine propriétaire](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 1. Ouvrez un ticket auprès de l’assistance clientèle d’Adobe afin de configurer la collecte de données propriétaire sur le programme de certificat géré par Adobe. Si votre organisation a des exigences de résidence des données ou de conformité, indiquez le [type de collecte de données régionale](rdc.md) souhaité dans votre demande.
-1. À la réception du ticket, le représentant Adobe vous fournit un enregistrement CNAME. Cet enregistrement doit être configuré sur le serveur DNS de votre entreprise avant qu’Adobe puisse acheter le certificat en votre nom. Par exemple, le nom d’hôte `data.example.com` pointe vers `hiodsibxvip01.data.adobedc.net`.
+1. À la réception du ticket, le représentant Adobe vous fournit un enregistrement CNAME. Cet enregistrement doit être configuré sur le serveur DNS de votre entreprise avant qu’Adobe puisse acheter le certificat en votre nom. Par exemple, le nom d’hôte `data.example.com` pointe vers `hiodsibxvip01.data.adobedc.net`. Si votre entreprise utilise des enregistrements d’autorisation d’autorité de certification (CAA) DNS, assurez-vous que vos enregistrements CAA permettent à DigiCert d’émettre des certificats. Voir [Maintenance et renouvellements](#renewals).
 1. Lorsque l’enregistrement CNAME est en place sur les serveurs de votre organisation, Adobe travaille avec DigiCert pour acheter et installer un certificat sur les serveurs de collecte de données Adobe.
 1. Si vous avez besoin d’une mise à jour de votre fichier `robots.txt` lorsqu’il est hébergé par Adobe CNAME à des fins propriétaires, contactez l’assistance clientèle avec une demande. Une telle requête est pertinente lorsque vous souhaitez mettre à jour le fichier `robots.txt` pour empêcher Google d’explorer à vos sous-domaines.
 
@@ -134,28 +134,25 @@ Aliases: data.example.com
 
 ## Mettre à jour le code de mise en œuvre
 
-Pour utiliser votre nouveau nom d’hôte CNAME, mettez à jour votre implémentation Adobe une fois que vous avez validé le bon fonctionnement de votre certificat.
+Pour utiliser votre nouveau nom d’hôte CNAME, mettez à jour votre implémentation Adobe une fois que vous avez validé le bon fonctionnement de votre certificat. Voir [Mise à jour de l’implémentation](collection-domain.md#update-implementation).
 
-* **Extension de balise Web SDK** : mettez à jour le champ [[!UICONTROL Domaine Edge]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) lors de la configuration de l’extension.
-* **Web SDK (alliage)** : mettez à jour la propriété [`edgeDomain`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/edgedomain) dans la commande `configure`.
-* **Extension Adobe Analytics** : mettez à jour le champ [[!UICONTROL Serveur de suivi SSL]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) lors de la configuration de l’extension. Assurez-vous que l’extension [extension du service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview) est également installée. Voir [&#x200B; Identification des visiteurs à l’aide de l’extension de balise Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/analytics-extension) pour plus d’informations.
-* **&#x200B;**&#x200B;: mettez à jour la variable de configuration [`trackingServerSecure`](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assurez-vous également que le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté à l’aide de `VisitorAPI.js`. Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/appmeasurement) pour plus d’informations.
+## Maintenance et renouvellements {#renewals}
 
-Si votre site utilise plusieurs méthodes d’implémentation et que vous ne pouvez pas toutes les mettre à jour simultanément, pensez à configurer un délai de grâce. Consultez [Considérations relatives à la migration du service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/migration) pour obtenir des instructions supplémentaires sur la manière d’empêcher que les visiteurs ne soient comptabilisés comme de nouveaux visiteurs sur l’ensemble de votre site.
+Adobe renouvelle automatiquement votre certificat. Trente jours avant l’expiration de votre certificat, Adobe vérifie que le CNAME est toujours valide et en cours d’utilisation, puis renouvelle le certificat en votre nom. Pour que les renouvellements continuent de fonctionner, évitez les modifications DNS suivantes :
 
-## Maintenance et renouvellements
-
-Trente jours avant l’expiration de votre certificat propriétaire, Adobe vérifie si le CNAME est toujours valide et en cours d’utilisation. Si tel est le cas, Adobe suppose que vous souhaitez continuer à utiliser le service et renouvelle automatiquement le certificat en votre nom.
+* **Suppression ou repointage de votre enregistrement CNAME** : si l’enregistrement CNAME est supprimé ou ne pointe plus vers le nom d’hôte sécurisé Adobe, Adobe ne peut pas renouveler le certificat. Cette condition inclut le pointage de l’enregistrement CNAME vers un réseau de diffusion de contenu (CDN). Si vous prévoyez d’utiliser un réseau CDN, voir [Déplacer une implémentation propriétaire existante vers un réseau CDN](cdn.md#migrate) avant de modifier vos enregistrements DNS.
+* **Ajout d’enregistrements CAA qui n’autorisent pas DigiCert** : les autorités de certification vérifient les enregistrements d’autorisation de l’autorité de certification (CAA) sur votre nom d’hôte et ses domaines parents. Si vous utilisez des enregistrements CAA, incluez `digicert.com` en tant qu&#39;émetteur autorisé. Par exemple : `example.com. IN CAA 0 issue "digicert.com"`.
+* **Limitation de l’émission de DigiCert à un compte spécifique** : la fonction de verrouillage de domaine de DigiCert ajoute un paramètre `account=` à un enregistrement CAA, tel que `example.com. IN CAA 0 issue "digicert.com; account=<token>"`. Ce paramètre limite l’émission au compte DigiCert de votre organisation, même si `digicert.com` est autorisé, ce qui empêche Adobe d’obtenir un certificat. Si votre organisation nécessite le verrouillage de domaine DigiCert, utilisez plutôt [certificats gérés par le client](customer-managed-cert.md). Les verrous de domaine définis dans votre bureau d’enregistrement de domaines, parfois appelés verrous de transfert, ne sont pas liés et n’affectent pas les certificats gérés par Adobe.
 
 >[!IMPORTANT]
 >
->Si l’enregistrement CNAME de votre organisation est supprimé ou ne correspond plus au nom d’hôte sécurisé Adobe fourni, Adobe ne peut pas renouveler le certificat. L’entrée dans le système Adobe est marquée pour suppression sans autre communication.
+>Si votre enregistrement CNAME ne pointe plus vers le nom d’hôte sécurisé Adobe, l’entrée dans le système Adobe est marquée pour suppression sans autre communication.
 
 ## Questions fréquentes
 
 +++Ce processus est-il sécurisé ?
 
-Oui. Le programme de certificat géré par Adobe est plus sécurisé que votre organisation qui fournit un certificat à Adobe. Aucun certificat ou clé privée n’est transféré en dehors d’Adobe et de l’autorité de certification émettrice.
+Oui. Le programme de certificat géré par Adobe est plus sécurisé que les [certificats gérés par le client](customer-managed-cert.md). Aucun certificat ou clé privée n’est transféré en dehors d’Adobe et de l’autorité de certification émettrice.
 
 +++
 
@@ -179,7 +176,7 @@ Adobe travaille avec DigiCert pour émettre un certificat SHA-2.
 
 +++Ce programme entraîne-t-il des frais supplémentaires?
 
-Non. Adobe offre ce service sans frais supplémentaires à tous les clients Adobe CX Enterprise.
+Adobe propose ce programme à tous les clients Adobe CX Enterprise sans frais supplémentaires pour les 100 premiers CNAME.
 
 +++
 
@@ -188,31 +185,13 @@ Non. Adobe offre ce service sans frais supplémentaires à tous les clients Adob
 Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec les serveurs Adobe. Adobe examine et met à jour régulièrement l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Pour modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
 * **Standard** nécessite un chiffrement TLS 1.2 ou plus récent et au moins 128 bits. Il est conçu pour offrir une compatibilité de périphérique maximale tout en maintenant un chiffrement sécurisé.
-* **Élevé** nécessite TLS 1.2 ou une version ultérieure et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent le chiffrement le plus puissant et ne se soucient pas de la prise en charge des appareils plus anciens.
-
-Les clients suivants sont connus pour ne pas pouvoir se connecter avec la sécurité du chiffrement définie sur **Élevé** :
-
-* Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
-* Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
-* OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
-* iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
+* **Élevé** nécessite TLS 1.2 ou une version ultérieure et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent le chiffrement le plus puissant. Les clients publiés avant 2015 ne peuvent généralement pas se connecter lorsque la sécurité du chiffrement est définie sur **Élevé**.
 
 +++
 
 +++Quels types de certificat HTTPS sont pris en charge ?
 
-Adobe prend en charge les types de certificat RSA et ECC pour répondre aux différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA est requis et ECC est recommandé. Les clients modernes prennent en charge RSA et ECC. Les clients suivants prennent uniquement en charge les certificats RSA :
+Adobe prend en charge les certificats RSA et ECC, tandis que les clients modernes prennent en charge les deux types de certificats. Les certificats ECC nécessitent moins de traitement sur le serveur et le client. Pour les certificats gérés par Adobe, Adobe fournit des certificats RSA et ECC. Pour les [certificats gérés par le client](customer-managed-cert.md), RSA est requis et ECC est recommandé.
 
-* Windows Vista et versions antérieures (dernière mise à jour en 2012)
-* Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
-* OS X 10.8 et versions antérieures (dernière mise à jour en 2013)
-* iOS 5.1 et versions antérieures (dernière mise à jour en 2012)
-* Android 4.3 et versions antérieures (dernière mise à jour en 2013)
-
-+++
-
-+++Puis-je gérer mes propres certificats à la place ?
-
-Oui. Cependant, si vous gérez vos propres certificats, vous êtes chargé de les renouveler et de les fournir à Adobe chaque fois que vous les renouvelez. Ce processus est moins sécurisé et peut entraîner des lacunes dans la collecte de données si votre organisation oublie de renouveler un certificat à temps. Adobe recommande d’utiliser le programme de certificat géré au lieu de gérer les certificats vous-même, en particulier en raison des réductions de la durée de vie maximale du certificat TLS. Voir [6.3.2 Périodes d’exploitation du certificat et périodes d’utilisation des paires de clés](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) dans la section CA/Browser Forum Server Certificate Baseline Requirements pour plus d’informations.
 +++
 

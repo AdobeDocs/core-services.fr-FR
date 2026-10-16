@@ -1,27 +1,33 @@
 ---
-description: Découvrez comment les solutions et services Adobe CX Enterprise utilisent les cookies.
+description: Découvrez comment les solutions et services de Adobe CX Enterprise utilisent les cookies.
 title: Utilisation des cookies dans Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Utilisation des cookies dans CX Enterprise
 
 Adobe CX Enterprise utilise des cookies. Un cookie est un petit élément de données qu&#39;un site Web envoie à votre navigateur, qui le stocke pour une utilisation ultérieure. Les cookies aident le site web à se souvenir de choses lorsque vous le visitez à nouveau ou passez d&#39;une page à l&#39;autre. Les cookies permettent de suivre les visites et de distinguer un appareil d’un autre.
@@ -32,16 +38,16 @@ Les lois exigent souvent que vous obteniez une autorisation avant de stocker ou 
 
 Adobe CX Enterprise utilise des cookies pour suivre les informations qui ne durent pas entre les pages vues ou les sessions de navigateur. Lorsque cela est possible, Adobe utilise des cookies propriétaires (liés à votre propre site web). Pour effectuer le suivi de l’activité sur plusieurs sites ou domaines que vous possédez, des cookies tiers sont nécessaires.
 
-Certains navigateurs et outils anti-logiciels espions bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Son fonctionnement dépend de l’utilisation du service d’identification des visiteurs (`VisitorAPI.js`) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
+Certains navigateurs bloquent les cookies tiers. Adobe dispose de moyens pour s’assurer que les cookies fonctionnent toujours, même si les cookies sont bloqués. Le fonctionnement de ce processus dépend de l’utilisation du service d’identification des visiteurs (`VisitorAPI.js`) ou d’anciens cookies Analytics (comme le cookie `s_vi`) :
 
 * [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/overview) : le service d’identification des visiteurs définit toujours les cookies propriétaires, que le domaine de votre collection corresponde au domaine de votre site. Il utilise JavaScript pour placer le cookie sur le domaine de votre site.
 
 * [Identifiants Analytics hérités](analytics.md) (par exemple, le cookie `s_vi`) : selon votre configuration, les cookies peuvent être propriétaires ou tiers :
 
-   * Si votre serveur de collecte de données correspond au domaine de votre site, les cookies sont propriétaires.
-   * S’il ne correspond pas, les cookies sont tiers. Si les cookies tiers sont bloqués, Adobe définit un cookie de secours (`s_fid`) au lieu du cookie habituel.
+  * Si votre serveur de collecte de données correspond au domaine de votre site, les cookies sont propriétaires.
+  * S’il ne correspond pas, les cookies sont tiers. Si les cookies tiers sont bloqués, Adobe définit un cookie de secours (`s_fid`) au lieu du cookie habituel.
 
-Pour vous assurer que votre serveur de collection correspond au domaine de votre site, vous pouvez utiliser une **configuration CNAME**. Cela implique la mise à jour de vos paramètres DNS pour pointer un domaine personnalisé (que vous possédez) vers des serveurs Adobe. Le cookie de suivi apparaît alors comme propriétaire. Bien qu’un CNAME puisse fonctionner sur plusieurs domaines, tout domaine qui ne correspond pas au CNAME définit toujours des cookies tiers.
+Pour vous assurer que votre serveur de collection correspond au domaine de votre site, vous pouvez utiliser une **configuration CNAME**. Cette configuration implique la mise à jour de vos paramètres DNS pour pointer un domaine personnalisé (que vous possédez) vers des serveurs Adobe. Cette configuration fait apparaître le cookie de suivi comme propriétaire. Bien qu’un CNAME puisse fonctionner sur plusieurs domaines, tout domaine qui ne correspond pas au CNAME définit toujours des cookies tiers. Vous pouvez également [acheminer la collecte de données via un réseau CDN](../cdn.md) qui utilise votre propre domaine. Pour toutes les options, voir [Choisir un domaine de collecte de données](../collection-domain.md).
 
 >[!NOTE]
 >
@@ -53,7 +59,7 @@ Voici une version simplifiée du texte :
 
 Adobe prend au sérieux la confidentialité et la sécurité des données. Il collabore avec des organisations de protection de la vie privée, des organismes de réglementation et des programmes comme AdChoices pour donner aux gens le contrôle sur l&#39;utilisation de leurs données.
 
-La plupart des cookies d’Adobe CX Enterprise ne stockent pas d’informations personnelles. Ils sont sécurisés et ne sont utilisés que par votre entreprise pour le reporting, le contenu et la publicité. Adobe ne partage pas ces données avec d’autres clients ou tiers, à l’exception des rapports anonymes à l’échelle du secteur (tels que les rapports d’Insight de marketing numérique).
+La plupart des cookies de Adobe CX Enterprise ne stockent pas d’informations personnelles. Ils sont sécurisés et ne sont utilisés que par votre entreprise pour le reporting, le contenu et la publicité. Adobe ne partage pas ces données avec d’autres clients ou tiers, à l’exception des rapports anonymes à l’échelle du secteur (tels que les rapports d’Insight de marketing numérique).
 
 Adobe ne regroupe pas les données de navigateur de différentes sociétés. Pour protéger la confidentialité, certains outils Adobe permettent à chaque site web d’utiliser son propre jeu de cookies. Certains permettent également d’utiliser votre propre domaine pour les cookies, ce qui les rend propriétaires et plus sécurisés.
 
