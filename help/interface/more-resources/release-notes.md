@@ -51,15 +51,15 @@ ht-degree: 57%
 
 Fonctionnalités, notes de mise à jour et problèmes connus des composants de l’interface centrale de CX Enterprise.
 
-Pour obtenir la liste des mises à jour de la documentation, voir [ Mises à jour de la documentation ](doc-updates.md).
+Pour obtenir la liste des mises à jour de la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](doc-updates.md).
 
-Pour les notes de mise à jour couvrant toutes les applications, voir Notes de mise à jour de [](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
+Pour les notes de mise à jour couvrant toutes les applications, voir Notes de mise à jour de [&#128279;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
 
 ## Juillet 2026
 
 | Date | Mise à jour | Description |
 | ------- | ------- | ------- |
-| 10 Juillet 2026 | Prise en charge de CX Enterprise pour Federated Guest Access | Si vous avez activé [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre propre domaine, CX Enterprise permet à ces utilisateurs de basculer entre les comptes. Le changement de compte est disponible à partir du sélecteur d’organisation sur n’importe quelle page [](https://experience.adobe.com?lang=fr). |
+| 10 Juillet 2026 | Prise en charge de CX Enterprise pour Federated Guest Access | Si vous avez activé [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) pour authentifier en toute sécurité les utilisateurs invités sur votre propre domaine, CX Enterprise permet à ces utilisateurs de basculer entre les comptes. Le changement de compte est disponible à partir du sélecteur d’organisation sur n’importe quelle page [&#128279;](https://experience.adobe.com?lang=fr). |
 
 ## Juin 2026
 
@@ -102,7 +102,7 @@ Pour les notes de mise à jour couvrant toutes les applications, voir Notes de m
 
 | Date | Fonctionnalité | Description |
 | -----------| -----------| ---------- |
-| Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits CX Enterprise, nous avons rationalisé notre page CX Enterprise [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles. Vous pouvez mettre à jour vos préférences à tout moment sur les [préférences ](https://experience.adobe.com/preferences). |
+| Janvier 9 | Données sur l’utilisation des produits | Pour faciliter le contrôle des préférences de données d’utilisation des produits CX Enterprise, nous avons rationalisé notre page CX Enterprise [Préférences](../features/account-preferences.md#product-usage-data) afin de supprimer les options en double. Grâce à cette simplification, nous avons conservé les préférences utilisateur actuelles. Vous pouvez mettre à jour vos préférences à tout moment sur les [préférences &#x200B;](https://experience.adobe.com/preferences). |
 
 ## jeudi 2 octobre 2024
 
@@ -227,7 +227,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Politiques | Cette page affiche la liste complète des politiques CX Enterprise de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques. Voir l’aide de l’outil d’administration CX Enterprise [](../administration/admin-tool-experience-cloud.md) pour plus d’informations. |
+| Outil d’administration - Politiques | Cette page affiche la liste complète des politiques CX Enterprise de votre organisation. Elle fournit des informations sur les produits, les instances, les utilisateurs et les développeurs. Vous pouvez rechercher, trier et filtrer des affichages personnalisés de la liste des politiques. Voir l’aide de l’outil d’administration CX Enterprise [&#128279;](../administration/admin-tool-experience-cloud.md) pour plus d’informations. |
 
 {style="table-layout:auto"}
 
@@ -240,7 +240,7 @@ La recherche unifiée est mise à jour afin dʼêtre disponible pour Journey Opt
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs de CX Enterprise et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Voir l’aide de l’outil d’administration CX Enterprise [](../administration/admin-tool-experience-cloud.md) pour plus d’informations. |
+| Outil d’administration - Affichage des détails utilisateur | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs de CX Enterprise et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les dernières informations consultées. Voir l’aide de l’outil d’administration CX Enterprise [&#128279;](../administration/admin-tool-experience-cloud.md) pour plus d’informations. |
 
 {style="table-layout:auto"}
 
