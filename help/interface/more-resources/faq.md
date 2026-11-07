@@ -1,7 +1,7 @@
 ---
-description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions courantes à l’intention des administrateurs dans l’Adobe CX Enterprise.
+description: Découvrez la prise en charge des navigateurs et obtenez des réponses aux questions courantes à l’intention des administrateurs dans Adobe CX Enterprise.
 solution: Experience Cloud
-title: Questions fréquentes à propos d’Experience Cloud
+title: Questions fréquentes sur CX Enterprise
 index: true
 feature: Admin Console
 topic: Administration
@@ -33,16 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 47%
+ht-degree: 46%
 ---
 # Questions fréquentes sur CX Enterprise
 
-Découvrez la prise en charge des navigateurs et les questions et réponses fréquentes destinées aux administrateurs dans CX Enterprise.
+Découvrez la prise en charge des navigateurs et les questions et réponses fréquentes à l’intention des administrateurs dans CX Enterprise.
 
-+++Quels sont les navigateurs pris en charge dans CX Enterprise ?
++++Quels navigateurs sont pris en charge dans CX Enterprise ?
 
 Adobe prend en charge les deux versions actuelle et précédente des navigateurs suivants :
 
@@ -75,19 +75,19 @@ CX Enterprise prend en charge les langues préférées de chaque utilisateur, te
 * Espagnol
 * Taïwanais
 
-Bien que les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application d’entreprise CX, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans [Préférences utilisateur CX Enterprise](https://experience.adobe.com/preferences).
+Bien que les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [](https://experience.adobe.com/preferences).
 
 +++
 
-+++Adobe facture-t-il l’accès Adobe CX Enterprise à ma société ?
++++L’accès à Adobe CX Enterprise est-il facturé à ma société par Adobe ?
 
-Non. Adobe CX Enterprise est inclus sans frais supplémentaires. Toutefois, certains services de base pourraient entraîner des coûts supplémentaires.
+Non. Adobe CX Enterprise est inclus sans frais supplémentaires. Toutefois, certains services principaux pourraient entraîner des coûts supplémentaires.
 
 +++
 
-+++Pourquoi ma société doit-elle se connecter via l’interface CX Enterprise ?
++++Pourquoi ma société doit-elle se connecter via l’interface de CX Enterprise ?
 
-La fonctionnalité offerte par l&#39;interface CX Entreprise ajoute une nouvelle valeur à votre entreprise. À partir de maintenant, cela constitue également le chemin dʼaccès standard aux applications et remplacera à terme dʼautres flux individuels de connexion aux applications. La connexion via CX Enterprise facilite une transition ultérieure plus fluide.
+Les fonctionnalités de l’interface de CX Enterprise apportent une nouvelle valeur ajoutée à votre entreprise. À partir de maintenant, cela constitue également le chemin dʼaccès standard aux applications et remplacera à terme dʼautres flux individuels de connexion aux applications. La connexion via CX Enterprise facilite une transition ultérieure plus fluide.
 
 +++
 
@@ -101,9 +101,9 @@ L’assistance clientèle d’Adobe peut envoyer une demande d’emprunt d’ide
 
 +++Qu’est-ce que l’« approvisionnement » ?
 
-Dans CX Enterprise, le provisioning se traduit par :
+Dans CX Enterprise, l’approvisionnement signifie ce qui suit :
 
-* Vos utilisateurs peuvent commencer à se connecter à l’entreprise CX et à lier des applications.
+* Vos utilisateurs peuvent commencer à se connecter à CX Enterprise et à lier des applications.
 * Ils peuvent commencer à utiliser les fonctionnalités disponibles via CX Enterprise.
 * Vous pouvez vous préparer à supprimer votre processus de connexion spécifique à une application.
 * Vous pouvez conserver le contrôle de lʼaccès aux applications.
@@ -112,7 +112,7 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
+* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
 
 +++
 
@@ -122,15 +122,15 @@ Dans CX Enterprise, le provisioning se traduit par :
 
 * La gestion des droits des utilisateurs et des produits s’effectue dans [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (lien du produit).
 
-* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=fr) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
+* **Important :** pour les administrateurs et administratrices d’Analytics, voir [Gestion des utilisateurs et utilisatrices d’Analytics dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) au sujet de la migration des ID d’utilisateurs et d’utilisatrices des outils d’administration Analytics vers Admin Console.
 
 +++
 
 +++Que puis-je faire si quelqu’un ne parvient pas à se connecter à CX Enterprise ?
 
-Les administrateurs Admin Console peuvent accorder l’accès aux utilisateurs. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
+Les administrateurs et administratrices de l’Admin Console peuvent accorder l’accès aux utilisateurs et utilisatrices. Les utilisateurs reçoivent des e-mails contenant des instructions de connexion.
 
-Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/fr?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
+Il se peut que vous deviez [contacter l’assistance Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=fr#support) pour vérifier que votre société a reçu l’intégralité des privilèges d’accès.
 
 +++
 
@@ -150,7 +150,7 @@ Reportez-vous à la page [Gestion des comptes d’utilisateurs](../administratio
 
 +++Qu’est-ce qu’une organisation ?
 
-Une [organisation](../administration/organizations.md) est l&#39;entité qui permet à un administrateur de configurer des groupes et des utilisateurs, et de contrôler l&#39;authentification unique dans CX Enterprise. L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et applications CX Enterprise. La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations.
+Une [organisation](../administration/organizations.md) est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs, et de contrôler l’authentification unique dans CX Enterprise. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et applications CX Enterprise. La plupart du temps, une organisation correspond au nom de votre société. Cependant, une société peut avoir plusieurs organisations.
 
 +++
 
@@ -162,7 +162,7 @@ Pour plus d’informations, consultez la section [Afficher l’ID de votre organ
 
 +++Que faire quand lʼun de mes utilisateurs quitte ma société ?
 
-Son accès doit être supprimé de lʼapplication. Ils ne pourront pas accéder au produit à partir de CX Enterprise ni par connexion directe. Vous devez également les supprimer au niveau de l’entreprise CX.
+Leur accès doit être supprimé de lʼapplication. Ils ne pourront pas accéder au produit à partir de CX Enterprise ni par connexion directe. Vous devez également les supprimer au niveau du CX Enterprise.
 
 +++
 

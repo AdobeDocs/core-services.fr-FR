@@ -30,18 +30,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '306'
 ht-degree: 15%
 ---
-# Cookies Adobe Advertising
+# Cookies d’Adobe Advertising
 
 Adobe Advertising (anciennement Adobe Advertising Cloud) utilise des cookies pour mapper les événements d’engagement publicitaire aux événements de conversion et, potentiellement, pour utiliser ces informations afin d’optimiser les offres publicitaires.
 
 >[!NOTE]
 >
->La balise JavaScript Adobe Advertising bêta qui utilise le service [Adobe CX Enterprise ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des cookies [CX Enterprise](experience-cloud.md) `s_ecid` propriétaires, et non des cookies Adobe Advertising.
+>La balise JavaScript Adobe Advertising bêta qui utilise le [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) crée des cookies [CX Enterprise](experience-cloud.md) `s_ecid` propriétaires, et non des cookies Adobe Advertising.
 
 | Nom du cookie | Expiration | Taille | Emplacement | Description |
 | --- | --- | --- | --- | --- |

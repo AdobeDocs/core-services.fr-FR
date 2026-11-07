@@ -1,5 +1,5 @@
 ---
-title: Adresses IP utilisées par Experience Cloud
+title: Adresses IP utilisées par CX Enterprise
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 9%
-
 ---
-
 # Adresses IP utilisées par CX Enterprise
 
 Certaines configurations de pare-feu bloquent les adresses IP issues des serveurs de collecte de données d’Adobe ou des serveurs chargés d’accéder aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres du pare-feu de votre organisation afin d’autoriser l’accès et d’envoyer des données depuis votre organisation. Cette page comprend les systèmes entrants (tels que la collecte de données) et sortants (tels que les flux de données dans Adobe Analytics) qu’Adobe utilise.
@@ -31,12 +29,12 @@ Certaines configurations de pare-feu bloquent les adresses IP issues des serveur
 >
 >Bien qu’Adobe fasse de son mieux pour tenir ce document à jour, il ne peut pas garantir que la liste des plages d’adresses IP reste la même. Les changements possibles comprennent la croissance et l&#39;expansion de l&#39;entreprise, un registre Internet qui nécessite des modifications à l&#39;espace d&#39;adresse IP d&#39;Adobe ou un fournisseur de services Internet qui cesse de fonctionner.
 
-Outre les blocs d’adresses IP répertoriés ci-dessous, les différents produits Adobe CX Enterprise utilisent leurs propres adresses IP :
+Outre les blocs d’adresses IP répertoriés ci-dessous, les produits Adobe CX Enterprise individuels possèdent leurs propres adresses IP qu’ils utilisent :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Tous les blocs d’adresses IP Adobe
 
@@ -54,7 +52,7 @@ Le tableau suivant couvre toutes les adresses IP détenues par Adobe. Ce tableau
 
 {style="table-layout:auto"}
 
-## Collecte de données d’entreprise Adobe CX et blocs d’adresses IP FTP
+## Collecte de données Adobe CX Enterprise et blocs d’adresses IP FTP
 
 Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez consulter le tableau suivant. Comprend :
 
@@ -97,7 +95,7 @@ Toutes les plages d’adresses IP de cette section sont incluses dans le tableau
 
 {style="table-layout:auto"}
 
-Adobe CX Enterprise prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
+Le Adobe CX Enterprise prend également en charge IPv6 à capacité limitée. Ces blocs IP ont des objectifs de collecte de données similaires à ceux de leurs homologues IPv4 ci-dessus, mais n’incluent pas le protocole FTP.
 
 | Emplacement | Hôte |
 | --- | --- |

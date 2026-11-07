@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Cookies Adobe Analytics
@@ -43,18 +43,18 @@ Analytics utilise des cookies pour définir de nouveaux visiteurs de manière an
 
 | Nom du cookie | Expiration | Taille | Emplacement | Description |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 mois | 45 octets | Premier niveau | Stocke l’expérience client Enterprise ID (ECID) ou MID. Défini par la réponse HTTP. Le MID est stocké au format `s_ecid=MCMID`. Définissez après que le client a défini le cookie AMCV. Il permet le suivi des identifiants propriétaires persistants et est utilisé comme identifiant de référence si le cookie AMCV expire. `SameSite` est défini sur « Lax ». Si vous utilisez le Web SDK pour implémenter Adobe Analytics, l’expiration du cookie est définie sur 2 ans. Cependant, la plupart des navigateurs modernes tronquent l’expiration à 13 mois. |
+| **`s_ecid`** | 13 mois | 45 octets | Premier niveau | Stocke l’ECID ou le MID. Défini par la réponse HTTP. Le MID est stocké au format `s_ecid=MCMID`. Définissez après que le client a défini le cookie AMCV. Il permet le suivi des identifiants propriétaires persistants et est utilisé comme identifiant de référence si le cookie AMCV expire. `SameSite` est défini sur « Lax ». Si vous utilisez le Web SDK pour implémenter Adobe Analytics, l’expiration du cookie est définie sur 2 ans. Cependant, la plupart des navigateurs modernes tronquent l’expiration à 13 mois. |
 | **`s_cc`** | Session | 4 octets | Premier niveau | Détermine si les cookies sont activés. Défini par JavaScript. |
 | **`s_sq`** | Session | 100 à 200 octets | Premier niveau | Utilisé par Activity Map. Il contient des informations sur le lien précédent sur lequel le visiteur a cliqué. Défini par JavaScript. |
 | **`s_vi`** | 2 ans | 44 octets | Propriétaire, ou `*.omtrdc.net` (tiers) | Stocke un identifiant visiteur unique et un horodatage. Défini par la réponse HTTP. Chaque identifiant visiteur est associé à un profil de visiteur sur les serveurs Adobe. Les profils des visiteurs sont supprimés après 1 an d’inactivité, quelle que soit l’expiration du cookie de l’identifiant visiteur. L’indicateur `Secure` est défini lorsque la `SameSite` est définie sur « Aucune » et que la connexion est HTTPS. Par défaut, la `SameSite` est « Lax » pour les cookies propriétaires. `SameSite` valeur est définie sur « Aucun » lors de l’utilisation de cookies tiers, tels que sur `omtrdc.net` ou `2o7.net`. Définissez `SameSite` sur « Aucun » lors de l’utilisation d’un seul CNAME pour effectuer le suivi de plusieurs domaines ou propriétés. |
 | **`s_fid`** | 2 ans | 33 octets | Premier niveau | Stocke l’identifiant visiteur unique de secours et l’horodatage. Défini par JavaScript si le cookie `s_vi` standard ne peut pas être défini en raison de restrictions liées aux cookies tiers. Non utilisé pour les implémentations de cookies propriétaires. |
 | **`s_ac`** | Immédiat | 1 octet | Premier niveau | Permet de déterminer le domaine approprié pour définir les cookies AppMeasurement. Contient la valeur statique `"1"`. Une fois ce cookie défini, il est immédiatement supprimé. |
 
-Voir [&#x200B; Identification des visiteurs dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/overview) pour plus d’informations sur la manière dont Adobe Analytics identifie les visiteurs à l’aide de cookies.
+Voir [ Identification des visiteurs dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) pour plus d’informations sur la manière dont Adobe Analytics identifie les visiteurs à l’aide de cookies.
 
 ## Cookies définis par des modules externes
 
-Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [&#x200B; Présentation des plug-ins Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
+Certaines implémentations utilisent des plug-ins, qui sont des extraits de code offrant des fonctionnalités supplémentaires à Analytics. Ces plug-ins peuvent définir des cookies qui ne sont pas répertoriés ci-dessus. Consultez [ Présentation des plug-ins Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) pour obtenir la liste des plug-ins disponibles et des cookies qu’ils définissent.
 
 ## Conséquences de la suppression des cookies Analytics
 

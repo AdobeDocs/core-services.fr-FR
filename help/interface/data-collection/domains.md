@@ -1,6 +1,6 @@
 ---
 description: Découvrez les domaines utilisés par CX Enterprise.
-title: Domaines utilisés par Experience Cloud
+title: Domaines utilisés par CX Enterprise
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -18,20 +18,20 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 19%
 ---
 # Domaines utilisés par CX Enterprise
 
-CX Enterprise utilise les hôtes suivants pour fournir l’application, améliorer les performances et améliorer l’expérience du produit. Adobe recommande d’autoriser ces domaines via le réseau ou le pare-feu de votre entreprise pour une expérience optimale.
+CX Enterprise utilise les hôtes suivants pour diffuser l’application, améliorer les performances et améliorer l’expérience du produit. Adobe recommande d’autoriser ces domaines via le réseau ou le pare-feu de votre entreprise pour une expérience optimale.
 
 Outre les domaines répertoriés ci-dessous, les différents produits Adobe CX Enterprise utilisent leurs propres domaines :
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Technologie | Domaines |
 | --- | --- |

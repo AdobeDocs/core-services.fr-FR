@@ -1,7 +1,7 @@
 ---
 description: Découvrez les outils administratifs permettant de gérer les utilisateurs Creative Cloud approuvés dans CX Enterprise.
 solution: Experience Cloud
-title: Gestion des utilisateurs Creative Cloud dans Experience Cloud
+title: Gestion des utilisateurs Creative Cloud dans CX Enterprise
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,12 +28,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
-# Gestion des utilisateurs Creative Cloud
+# Gérer les utilisateurs et utilisatrices Creative Cloud
 
 CX Enterprise fournit des outils administratifs pour gérer les utilisateurs Creative Cloud approuvés. Ces utilisateurs peuvent être invités à participer à un dossier de campagne sur une base ponctuelle. Seuls les utilisateurs qui ont été ajoutés à la liste par un administrateur peuvent être invités à une campagne. Les utilisateurs ajoutés s’affichent dans la liste d’utilisateurs à saisie automatique de CX Enterprise.
 
