@@ -1,7 +1,7 @@
 ---
-description: Découvrez comment partager un dossier de ressources d’entreprise CX avec des utilisateurs de Creative Cloud.
+description: Découvrez comment partager un dossier de ressources CX Enterprise avec des utilisateurs de Creative Cloud.
 solution: Experience Cloud
-title: Partage d’un dossier de ressources Experience Cloud
+title: Partage d’un dossier de ressources CX Enterprise
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -31,14 +31,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 36%
 ---
 # Partage d’un dossier de ressources CX Enterprise
 
-Partage de dossiers et de ressources entre CX Enterprise et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des applications d’entreprise CX telles qu’Adobe Target. Le dossier partagé doit provenir de CX Enterprise.
+Partagez des dossiers et des ressources entre CX Enterprise et Creative Cloud. Collaborez, annotez des ressources partagées et utilisez-les dans des applications CX Enterprise comme Adobe Target. Le dossier partagé doit provenir de CX Enterprise.
 
 **Avantages du partage**
 
@@ -48,7 +48,7 @@ Partage de dossiers et de ressources entre CX Enterprise et Creative Cloud. Coll
 * Optimisation de la sécurité de l’entreprise
 * Partage, enregistrement et envoi faciles de fichiers entre les créatifs et les spécialistes marketing
 
-Pour que les utilisateurs Creative Cloud aient accès aux ressources, ils doivent figurer sur la liste autorisée de l’expérience client Entreprise. Voir [Gestion des utilisateurs Creative Cloud](manage-cc-users.md).
+Pour que les utilisateurs de Creative Cloud aient accès aux ressources, ils doivent figurer sur la liste autorisée de CX Enterprise. Voir [Gestion des utilisateurs Creative Cloud](manage-cc-users.md).
 
 **Pour partager un dossier de ressources CX Enterprise**
 
