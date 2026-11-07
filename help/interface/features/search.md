@@ -42,7 +42,7 @@ La recherche [!UICONTROL Recherche unifiée] vous permet de rechercher en un cli
 
 ## Accès à [!UICONTROL Recherche unifiée]
 
-La [!UICONTROL  Recherche unifiée ] est disponible sur chaque page dans l’en-tête CX Enterprise en haut de la page. Pour accéder à la recherche, vous pouvez également utiliser le raccourci clavier `command /` ou `ctrl /`.
+La [!UICONTROL &#x200B; Recherche unifiée &#x200B;] est disponible sur chaque page dans l’en-tête CX Enterprise en haut de la page. Pour accéder à la recherche, vous pouvez également utiliser le raccourci clavier `command /` ou `ctrl /`.
 
 Cette fonctionnalité est disponible uniquement pour les produits pris en charge actuellement, à savoir :
 
@@ -61,7 +61,7 @@ Vos autorisations de fonctionnalité et d’objet
 Le pourcentage de correspondance.
 S’il existe une correspondance exacte
 
-![[!UICONTROL Recherche unifiée] dans CX Enterprise ](../assets/unified-search-results.png)
+![[!UICONTROL Recherche unifiée] dans CX Enterprise &#x200B;](../assets/unified-search-results.png)
 
 Les objets métier pouvant faire l’objet d’une recherche sont les suivants :
 

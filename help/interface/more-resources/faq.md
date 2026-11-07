@@ -75,7 +75,7 @@ CX Enterprise prend en charge les langues préférées de chaque utilisateur, te
 * Espagnol
 * Taïwanais
 
-Bien que les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [](https://experience.adobe.com/preferences).
+Bien que les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [&#128279;](https://experience.adobe.com/preferences).
 
 +++
 
@@ -112,7 +112,7 @@ Dans CX Enterprise, l’approvisionnement signifie ce qui suit :
 
 +++Comment gérer les préférences, les notifications et les alertes des utilisateurs et utilisatrices ?
 
-* Voir [ Préférences et notifications du compte ](/help/interface/features/account-preferences.md)
+* Voir [&#x200B; Préférences et notifications du compte &#x200B;](/help/interface/features/account-preferences.md)
 
 +++
 
