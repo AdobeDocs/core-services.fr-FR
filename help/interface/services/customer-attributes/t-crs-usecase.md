@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment créer une source de données [!DNL Customer Attributes] et la charger dans CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Création et chargement d’un fichier de Source de données [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -58,7 +58,7 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
   Voir [Comment déployer at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/overview).
 
-## Création d’un fichier de données
+## Créer un fichier de données
 
 Ces données des clients de l’entreprise proviennent de votre système de gestion de la relation client. Elles peuvent inclure des données sur les abonnés pour les produits, y compris les ID des membres, les produits autorisés, les produits les plus souvent utilisés, etc.
 
@@ -75,13 +75,13 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 1. Avant de poursuivre, passez en revue les informations importantes dans [Exigences liées aux fichiers de données](crs-data-file.md) avant de télécharger le fichier.
 1. [Créez une source d’attributs du client et chargez les données](t-crs-usecase.md#create-source), comme décrit ci-dessous.
 
-## Création d’une source d’attributs et chargement du fichier de données
+## Créer la source d’attributs et charger le fichier de données
 
 Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’attributs du client]_ dans CX Enterprise.
 
 >[!IMPORTANT]
 >
->Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
+>Lorsque vous créez, modifiez ou supprimez des sources d’attributs du client ou de la cliente, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
 
 1. Pour ouvrir [!UICONTROL Attributs du client], cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
@@ -175,9 +175,9 @@ Suppression des attributs et remplacement des attributs dans le schéma.
 
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md).
 
-## Configuration des abonnements et activation de la source d’attributs
+## Configurer les abonnements et activer la source d’attributs
 
-La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
+La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. L’activation de la source d’attributs permet aux données de circuler vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
 Voir [Configuration des abonnements et activation de la source de données](subscription.md).
 

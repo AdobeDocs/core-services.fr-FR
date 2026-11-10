@@ -1,6 +1,6 @@
 ---
-description: Découvrez les exigences en matière de fichiers de données et les sources de données multiples pour charger des données dans [!DNL Customer Attributes] vers CX Enterprise.
-solution: Experience Cloud
+description: Découvrez les exigences en matière de fichiers de données et de sources de données multiples pour charger des données dans [!DNL Customer Attributes] vers CX Enterprise.
+solution: CX Enterprise
 title: Fichier de données d’attributs du client et sources de données
 feature: Customer Attributes
 topic: Administration
@@ -28,24 +28,24 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 57%
 ---
 # Fichiers et sources de données des attributs du client
 
-Exigences en matière de fichiers de données et sources de données multiples pour charger les données d’attributs du client vers CX Enterprise.
+Exigences en matière de fichiers de données et sources de données multiples pour charger les données d’attributs du client dans CX Enterprise.
 
-Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres données similaires de votre société. Les données que vous chargez vers CX Enterprise doivent être un fichier `.csv`. Si vous chargez le fichier via FTP ou sFTP, vous devez également charger un fichier `.fin`.
+Il vous faut accéder à la gestion de la relation client (CRM) ou à d’autres données similaires de votre société. Les données chargées vers CX Enterprise doivent être un fichier `.csv`. Si vous chargez le fichier via FTP ou sFTP, vous devez également charger un fichier `.fin`.
 
 [!DNL Customer Attributes] est conçu pour gérer quelques fichiers par jour. Pour atténuer le problème lié au retardement du traitement dû à un grand nombre de petits fichiers, les fichiers envoyés dans les 30 minutes suivant un lot précédent depuis une même organisation sont acheminés vers une file d’attente de priorité inférieure.
 
-## Types de fichiers autorisés et exigences en termes d’attribution de noms
+## Types de fichiers autorisés et exigences de nommage
 
 | Type de fichier | Description |
 | --- | --- |
-| `.csv` | Fichier de valeurs séparées par des virgules (tels ceux créés dans Excel). Ce fichier contient les données d’attributs du client.   Exigences en matière de dénomination : assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. |
+| `.csv` | Fichier de valeurs séparées par des virgules (comme celui créé dans Excel). Ce fichier contient les données d’attributs du client.   Exigences en matière de dénomination : assurez-vous que les extensions de nom de fichier ne contiennent pas d’espaces vides. |
 | `.fin` | (Obligatoire) Le fichier `.fin` indique au système que vous avez terminé le chargement des données. Le nom du fichier `.fin` doit correspondre au nom du fichier `.csv`.  Adobe recommande de créer un fichier texte vide avec une extension `.fin`. Un fichier vide économise de l’espace et du temps de chargement. **Remarque :** il n’est pas permis de renommer un fichier `.fin` après son chargement. Le fichier `.fin` doit être téléchargé séparément et ne peut pas être un fichier renommé précédemment téléchargé. Après avoir chargé le fichier `.fin` dans le FTP Attributs du client, le système récupère rapidement les données (en une minute). Elle se distingue des autres systèmes FTP Adobe, qui récupèrent les données moins fréquemment (environ une fois par heure). Le fichier `.fin` n’est pas requis lors de l’utilisation de la méthode de chargement par glisser-déposer. |
 | `.gz` ou `.zip`. | `.gz` (gzip) ou `.zip` - pour les fichiers compressés. Un fichier `.zip` ne peut pas contenir plusieurs fichiers dans l&#39;archive. Exigences en matière de dénomination : le nom du `.zip` ou du `.gz` doit correspondre au nom du fichier `.csv` . Par exemple, si votre fichier `.csv` est `crm_small.csv`, le fichier `.zip` doit être `crm_small.csv.zip` . Le fichier `.fin` doit correspondre au `.csv`. |
 
@@ -77,7 +77,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonne d’ID client </p> </td> 
-   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service d’identification des visiteurs. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent les attributs issus de la gestion de la relation client. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un ID de client provenant d’un système de gestion de la relation client. Cet ID est défini à l’aide de l’appel </span> set customerIDs <span class="codeph"> lorsqu’une personne se connecte. Cet identifiant est également utilisé comme clé dans le fichier de gestion de la relation client qui est chargé vers l’expérience client Entreprise. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
+   <td colname="col2"> <p> La première colonne doit être un ID de client unique. L’ID utilisé doit correspondre à l’ID transmis au service d’identification des visiteurs. </p> <p>Pour Analytics, l’ID est stocké dans une prop ou une eVar. </p> <p>Pour Target, définissez la valeur customerID. </p> <p> Cet ID de client est l’identifiant unique utilisé par la gestion de la relation client pour chaque personne de votre base de données. Les autres colonnes contiennent des attributs issus de votre système GRC. Vous choisissez le nombre d’attributs à charger. </p> <p>Il est préférable d’utiliser des noms lisibles et faciles à retenir pour les titres de colonne, mais cela n’est pas obligatoire. Lorsque vous validez le schéma après le chargement, vous pouvez mapper des noms conviviaux aux lignes et colonnes chargées. </p> <p> <b>À propos des ID de client</b> </p> <p>En règle générale, une entreprise utilise un identifiant client provenant d’un système GRC. Cet ID est défini à l’aide de l’appel </span> set customerIDs <span class="codeph"> lorsqu’une personne se connecte. Cet identifiant sert également de clé dans le fichier de gestion de la relation client qui est chargé vers CX Enterprise. Un ID d’alias <a href="t-crs-usecase.md" format="dita" scope="local"> est un </a> convivial pour un magasin de données dans Audience Manager, où les données d’alias sont stockées. Le système envoie des alias à ce magasin de données (via set customerIDs). Le fichier de gestion de la relation client (CRM) est appliqué aux données de ce magasin de données. </p> <p>Pour <span class="codeph"> d’informations sur la </span> de setcustomerID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr" format="https" scope="external"> des ID de client et des états d’authentification </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>En-têtes et colonnes suivants </p> </td> 
@@ -121,7 +121,7 @@ Le même fichier affiché dans un éditeur de texte :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers multiples </p> </td> 
-   <td colname="col2"> <p>Lors du transfert des données d’attributs du client, si vous souhaitez transférer plusieurs fichiers en succession rapide, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de télécharger le fichier suivant. Vous pouvez surveiller cela en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP [!DNL Customer Attributes]. </p> <p> Diviser un fichier volumineux en fichiers de plus petite taille puis les envoyer en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer du traitement de chaque fichier avant l’envoi du suivant. </p> </td> 
+   <td colname="col2"> <p>Lors du chargement des données d’attributs de la clientèle, si vous souhaitez charger plusieurs fichiers rapidement, en particulier si les fichiers sont volumineux, vérifiez que le fichier précédent a été traité avant de charger le suivant. Vous pouvez surveiller cela en vérifiant le moment où le fichier précédent a été déplacé vers le dossier traité ou en échec dans votre compte FTP [!DNL Customer Attributes]. </p> <p> Diviser un fichier volumineux en fichiers de plus petite taille puis les envoyer en succession rapide peut ralentir le traitement, sauf si vous pouvez vous assurer du traitement de chaque fichier avant l’envoi du suivant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encodage des caractères </p> </td> 

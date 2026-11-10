@@ -1,6 +1,6 @@
 ---
 description: Modernisez vos applications Adobe Analytics et Adobe Target pour bénéficier de services inter-applications. Découvrez comment commencer à utiliser les services CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Prise en main de CX Enterprise
 index: true
 feature: Central Interface Components
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%
@@ -88,7 +88,7 @@ Pour vous connecter à CX Enterprise, les utilisateurs doivent :
 
 * Posséder un Adobe ID (ou un Enterprise ID pour votre société).
 * Connectez-vous à [experiencecloud.adobe.com](https://experience.adobe.com?lang=fr).
-* Appartenir à un groupe dʼapplications mappé avec un groupe dʼentreprises.
+* Appartenir à un groupe dʼapplications mappé à un groupe dʼentreprise.
 * Si nécessaire, liez leurs comptes dʼapplication à leur Adobe ID (comme décrit ci-après).
 
 ## Configuration requise pour Adobe Analytics et Adobe Target pour CX Enterprise {#experience-cloud-requirements}
@@ -134,7 +134,7 @@ Dans Adobe Target, le paramètre `mbox3rdpartyid` doit obtenir l’ID client et
 
 Chaque fois qu’un visiteur ou une visiteuse s’authentifie sur votre site web ou s’identifie d’une autre manière, votre mise en œuvre doit afficher son ID client CRM sur la page ou dans l’application. Vous pouvez ensuite utiliser l’appel de fonction approprié pour synchroniser votre ID client avec CX Enterprise. Cette synchronisation stocke l’ID de client CRM du visiteur dans CX Enterprise et active les attributs de ce client en vue d’une utilisation dans CX Enterprise.
 
-Par exemple, supposons que Robert a l’identifiant de client `52mc210tr42` dans votre système de gestion de la relation client. Quand Robert s’authentifie sur votre site, vous devez exposer cet identifiant sur la page, puis le synchroniser de l’une des deux façons suivantes :
+Par exemple, supposons que Robert a l’identifiant de client `52mc210tr42` dans votre système de gestion de la relation client. Lorsque Bob s’authentifie sur votre site, vous devez rendre cet identifiant accessible sur la page et l’utiliser pour effectuer la synchronisation de l’une des deux manières suivantes :
 
 * Appelez `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` à l’aide du service d’identification des visiteurs. Sinon,
 * renseignez le *`Customer ID (52mc210tr42)`* dans une variable prop ou eVar.
@@ -161,7 +161,7 @@ Si vous utilisez des cookies propriétaires, consultez le [programme de certific
 
 Il vous est recommandé d’actualiser votre mise en œuvre Analytics en mettant à jour vos bibliothèques JavaScript, y compris l’API visiteur. La méthode la plus simple pour y parvenir consiste à ajouter une [extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) dans la collecte de données Experience Platform.
 
-## Mettre à jour votre implémentation Adobe Target
+## Mettre à jour votre implémentation Adobe Target
 
 * Il est recommandé d’ajouter une extension [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=fr) dans les balises [!UICONTROL Experience Platform], de sorte que la récupération de votre bibliothèque soit automatique. Vous pouvez également configurer l’extension de balise [[!UICONTROL Service Experience Cloud ID], qui met en œuvre le service d’identification des visiteurs pour Adobe Target (et d’autres applications)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) à l’aide de balises. Cette extension de balise est **obligatoire** pour qu’Adobe Target puisse utiliser les services Personnes.
 * Si vous n’utilisez pas de balises , [mettez à jour votre bibliothèque mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=fr) manuellement.

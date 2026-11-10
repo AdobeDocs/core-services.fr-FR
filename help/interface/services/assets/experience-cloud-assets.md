@@ -1,6 +1,6 @@
 ---
 description: Découvrez les ressources CX Enterprise Assets que vous pouvez partager entre les applications.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Vue d’ensemble d’Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,7 +43,7 @@ CX Enterprise Assets fournit un référentiel unique et centralisé de ressource
 Les services de ressources comprennent ce qui suit :
 
 * Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les applications).
-* Intégrations avec Creative Cloud, collaboration CX Entreprise et applications CX Entreprise.
+* Intégrations à Creative Cloud, collaboration CX Enterprise et applications CX Enterprise.
 
 Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 
@@ -56,7 +56,7 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 
 ![Accéder à CX Enterprise Assets](../../assets/asset-nav.png)
 
-## Accès à la barre dʼoutils
+## Accéder à la barre d’outils
 
 Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
 

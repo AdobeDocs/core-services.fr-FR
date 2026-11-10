@@ -1,6 +1,6 @@
 ---
 description: Recherchez les intégrations d’applications disponibles dans Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Intégrations CX Enterprise
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 32%

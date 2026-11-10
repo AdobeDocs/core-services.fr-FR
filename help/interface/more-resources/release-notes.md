@@ -1,6 +1,6 @@
 ---
 description: Découvrez les dernières fonctionnalités, notes de mise à jour et problèmes connus concernant les services CX Enterprise tels que les attributs du client, les audiences et la gestion des utilisateurs.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Notes de mise à jour cumulatives de l’interface de CX Enterprise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%

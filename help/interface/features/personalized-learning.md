@@ -1,6 +1,6 @@
 ---
 description: Recevez une aide et des promotions personnalisées par e-mail, dans vos produits CX Enterprise et dans les communautés Experience League en fonction de vos données d’utilisation.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Préférences d’apprentissage personnalisées CX Enterprise
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 16%

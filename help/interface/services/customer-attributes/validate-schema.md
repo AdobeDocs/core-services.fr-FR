@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment valider le schéma [!DNL Customer Attributes] dans Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Validation du schéma de [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -32,14 +32,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 39%
 ---
 # Valider le schéma
 
-Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs chargés (chaînes, nombres entiers, numéros, etc.).
+Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs chargés (chaînes, nombres entiers, nombres, etc.).
 
 Un schéma est créé d’après ces paramètres. Le schéma permet de valider toutes les données chargées par la suite vers cette source de données. Le processus de mappage ne modifie pas les données d’origine.
 

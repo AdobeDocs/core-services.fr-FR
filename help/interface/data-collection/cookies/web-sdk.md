@@ -1,7 +1,7 @@
 ---
 title: Cookies Adobe Experience Platform Web SDK
 description: Découvrez comment le SDK Web utilise les cookies applicables à votre implémentation.
-solution: Experience Cloud
+solution: CX Enterprise
 feature: Cookies
 topic: Administration
 role: Admin
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%

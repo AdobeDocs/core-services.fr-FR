@@ -1,6 +1,6 @@
 ---
 description: Découvrez Exchange Marketplace, une destination unique où vous pouvez rechercher des extensions de marketing numérique, les parcourir, les sélectionner, les payer et les télécharger via des applications.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
@@ -38,20 +38,20 @@ ht-degree: 85%
 
 Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports.
 
-**[!UICONTROL CX Entreprise]** > **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
+**&#x200B;**&#x200B;> **[!UICONTROL Aide]** > **[!UICONTROL Exchange]**
 
-* Téléchargez des SDK, lisez la documentation et envoyez des applications à Digital Marketing pour révision.
+* Téléchargez des SDK, lisez la documentation et envoyez des applications à Digital Marketing pour examen.
 
 * Les clients peuvent rechercher, sélectionner et installer des extensions Digital Marketing.
 
 * Les administrateurs peuvent configurer les applications téléchargées.
 
-* Examinez les envois des développeurs, parcourez une application et ajoutez des commentaires ou évaluez chaque application.
+* Examinez les soumissions des développeurs et développeuses, parcourez une application et ajoutez des commentaires ou évaluez chaque application.
 
-* Refusez ou approuvez des applications.
+* Refuser ou approuver des applications.
 
-* Publication dans CX Enterprise.
+* Publiez dans CX Enterprise.
 
 * Effectuez une recherche ou appliquez un filtre par catégorie, société, type, utilisateur, etc.
 
-Voir [CX Enterprise Exchange](https://exchange.adobe.com/experiencecloud.html) pour plus d’informations.
+Voir [CX Enterprise Exchange](https://exchange.adobe.com/experiencecloud.html) pour plus d&#39;informations.

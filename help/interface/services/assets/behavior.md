@@ -1,7 +1,7 @@
 ---
 description: Découvrez les règles relatives au comportement des dossiers partagés lorsqu’ils sont déplacés, supprimés et restaurés dans CX Enterprise.
-keywords: partage de ressources;Creative Cloud;services principaux
-solution: Experience Cloud
+keywords: partage de ressources ;Creative Cloud ;services principaux
+solution: CX Enterprise
 title: Comportement des dossiers partagés
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -91,7 +91,7 @@ Vous déplacez le contenu dʼun dossier partagé détenu par une autre personne 
 
 **Résultat :** le contenu apparaît dans le dossier non partagé et est supprimé du dossier partagé. Les collaborateurs du dossier partagé n’ont plus accès au contenu. Le contenu est archivé pour le propriétaire du dossier partagé.
 
-Contrairement aux observateurs, les propriétaires et éditeurs peuvent déplacer le contenu qu’ils ne détiennent pas. Si les propriétaires et les éditeurs déplacent du contenu, celui-ci n’est disponible dans un dossier partagé pour aucun utilisateur.
+Contrairement aux observateurs, les propriétaires et éditeurs peuvent déplacer le contenu qu’ils ne détiennent pas. Si les propriétaires et les éditeurs déplacent du contenu, celui-ci n’est pas disponible dans un dossier partagé pour aucun utilisateur.
 
 ## Dossier détenu archivé ou supprimé
 
@@ -115,7 +115,7 @@ Vous déplacez le contenu dʼun dossier partagé dans un autre dossier partagé.
 
 ![Contenu partagé dans un autre dossier partagé](../../assets/11_assets_move.png)
 
-**Résultat :** le contenu apparaît dans le dossier 2 et est maintenant partagé avec les nouveaux collaborateurs. Le contenu est supprimé du dossier 1 et le propriétaire le voit comme archivé, tandis que les autres collaborateurs n’y ont plus accès.
+**Résultat :** le contenu apparaît dans le dossier 2 et est maintenant partagé avec les nouveaux collaborateurs. Le contenu est retiré du dossier 1 et le propriétaire le voit comme archivé, tandis que les autres collaborateurs n’y ont plus accès.
 
 ## Contenu restauré issu de l’archive
 

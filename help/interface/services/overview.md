@@ -1,6 +1,6 @@
 ---
 description: Découvrez la gestion des utilisateurs et des produits CX Enterprise, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Présentation des services CX Enterprise
 feature: Central Interface Components
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 41%
