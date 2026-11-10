@@ -46,7 +46,7 @@ L’organisation fonctionne comme une société de connexion qui couvre tous les
 
 **Menu Organisation**
 
-![Organisations ](../assets/organizations-menu.png)
+![Organisations &#x200B;](../assets/organizations-menu.png)
 
 Pour vérifier que vous vous êtes connecté à l’organisation appropriée, cliquez sur **[!UICONTROL Profil]** pour afficher le nom d’organisation par défaut. Si vous avez accès à plusieurs organisations, vous pouvez également afficher et passer à une autre organisation dans la barre d’en-tête.
 
@@ -80,7 +80,7 @@ Vous pouvez afficher votre ID d’organisation ainsi que d’autres informations
 
 **Pour afficher l’ID de votre organisation**
 
-1. Dans [](https://experience.adobe.com?lang=fr), appuyez sur **Ctrl+i** sur le clavier.
+1. Dans [&#128279;](https://experience.adobe.com?lang=fr), appuyez sur **Ctrl+i** sur le clavier.
 
    ![Identifiant d’organisation affecté](../assets/assigned-organization.png)
 

@@ -81,7 +81,7 @@ Solutions ou services :
 
 Le service d’identification des visiteurs fournit un identifiant persistant universel qui identifie vos visiteurs dans toutes les applications de CX Enterprise. Il peut remplacer le code de génération des identifiants pour des services tels qu’Analytics, Audience Manager, Adobe Target, le suivi de pulsation vidéo et d’autres applications et produits CX Enterprise.
 
-Voir [ Service d’identification des visiteurs ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
+Voir [&#x200B; Service d’identification des visiteurs &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 
 **Applications ou services applicables**
 
@@ -152,7 +152,7 @@ Utilisez des données provenant d’applications CX Enterprise ou d’autres sys
 
 ## Adobe Target
 
-Aide : [ Intégration d’Adobe Target à CX Enterprise ](/help/interface/services/audiences/overview.md)
+Aide : [&#x200B; Intégration d’Adobe Target à CX Enterprise &#x200B;](/help/interface/services/audiences/overview.md)
 
 Intégrez Adobe Target à Adobe Analytics et à d’autres applications CX Enterprise pour permettre l’utilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 
@@ -166,9 +166,9 @@ Intégrez Adobe Target à Adobe Analytics et à d’autres applications CX Enter
 
 ## Intégrations Experience Manager
 
-* Tutoriels vidéo : [intégrations ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
+* Tutoriels vidéo : [intégrations &#x200B;](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* Documentation du produit : [documentation ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
+* Documentation du produit : [documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
 
 ## Experience Manager – Assets
 
@@ -186,7 +186,7 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ad
 
 * Aide (connexion requise) : [Intégration aux solutions et services Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentation ](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
+* [Documentation &#x200B;](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
 
 **Applications ou services applicables**
 

@@ -47,7 +47,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 ## Juillet 2026
 
-* Ajout de [ notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge par CX Enterprise de [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
+* Ajout de [&#x200B; notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge par CX Enterprise de [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
 
 ## Juin 2026
 
@@ -58,7 +58,7 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 Mises à jour d’avril et de mai pour le guide de l’interface centrale de CX Enterprise :
 
-* Refonte de la documentation d’Experience Cloud vers **** dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
+* Refonte de la documentation d’Experience Cloud vers **&#x200B;**&#x200B;dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
 * Ajout de [notes de mise à jour d’avril 2026](release-notes.md) pour la page d’accueil actualisée à l’adresse `https://experience.adobe.com/home` (actualisation de l’interface utilisateur, mode sombre et améliorations de l’accessibilité).
 * Mise à jour de l’[IA dédiée aux agents dans CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai) : Adobe Marketing Agent for Microsoft 365 Copilot, révision des fonctionnalités de l’agent et ajout d’une colonne **Health Data / HIPAA-ready** dans le tableau des agents existing-apps.
 * Mises à jour mineures des [collecte de données régionale](../data-collection/rdc.md), [validation du transfert du nom d’hôte](../data-collection/adobe-managed-cert.md) et [terminologie](terms.md).
@@ -95,7 +95,7 @@ Mise à jour [préférences utilisateur](../features/account-preferences.md).
 
 ## 26 Avril 2024
 
-Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP ](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
+Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP &#x200B;](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
 
 ## 9 Avril 2024
 
@@ -193,7 +193,7 @@ Mise à jour de la définition des données Analytics brutes dans [Création d�
 
 ## 9 Mai 2016
 
-Ajout de [Intégrations ](../administration/integrations.md), un résumé de la documentation d’intégration.
+Ajout de [Intégrations &#x200B;](../administration/integrations.md), un résumé de la documentation d’intégration.
 
 ## 11 Février 2016
 
@@ -205,9 +205,9 @@ Ajout de CX Enterprise Les utilisateurs peuvent désormais partager des dossiers
 
 ## 17 Juillet 2014
 
-Ajout de [FAQ ](faq.md) pour les administrateurs.
+Ajout de [FAQ &#x200B;](faq.md) pour les administrateurs.
 
 ## 22 Mai 2014
 
-Ajout de la documentation relative à [ Audiences ](../services/audiences/overview.md)
+Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
 

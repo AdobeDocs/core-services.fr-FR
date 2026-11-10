@@ -69,7 +69,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 1. Cliquez sur [!DNL CX Enterprise] des applications (![Icône des applications](assets/apps-icon.png)), puis sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 
-1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ Nouvelle audience ](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![&#x200B; Nouvelle audience &#x200B;](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 
@@ -113,7 +113,7 @@ Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour affiche
 
 La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Maison et jardin. Le segment Patio et meubles fournit des informations supplémentaires sur tous les visiteurs qui visitent cette section du site.
 
-![ Audience définie dans CX Enterprise ](assets/defined_audience.png)
+![&#x200B; Audience définie dans CX Enterprise &#x200B;](assets/defined_audience.png)
 
 * **Historique (estimation) :** (cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
 * **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.

@@ -62,13 +62,13 @@ CX Enterprise prend en charge les langues préférées de chaque utilisateur, te
 * Espagnol
 * Taïwanais
 
-Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [](https://experience.adobe.com/preferences).
+Bien que toutes les équipes d’applications se soient engagées à assurer la prise en charge linguistique globale, toutes les applications ne sont pas proposées dans toutes les langues mentionnées ci-dessus. Si votre langue principale n’est pas prise en charge dans une application CX Enterprise, vous pouvez également définir une langue secondaire par défaut, le cas échéant. Vous pouvez le faire dans les préférences utilisateur de [&#128279;](https://experience.adobe.com/preferences).
 
 ## Connexion à CX Enterprise
 
 Connectez-vous et vérifiez que vous vous trouvez dans la bonne organisation.
 
-1. Accédez à [](https://experience.adobe.com?lang=fr).
+1. Accédez à [&#128279;](https://experience.adobe.com?lang=fr).
 1. Cliquez sur **[!UICONTROL Se connecter avec un Adobe ID]**.
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
@@ -118,12 +118,12 @@ Les préférences CX Enterprise incluent les notifications, les abonnements et l
 
 ![Gérer CX Enterprise](assets/preferences-page.png)
 
-Dans les [!UICONTROL préférences ], vous pouvez configurer les fonctionnalités suivantes :
+Dans les [!UICONTROL préférences &#x200B;], vous pouvez configurer les fonctionnalités suivantes :
 
 | Fonctionnalité | Description |
 | --- | --- |
 | Organisation par défaut | Sélectionnez l’organisation que vous souhaitez afficher lorsque vous lancez CX Enterprise. |
-| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL  Notifications ] et dans votre e-mail. |
+| [!UICONTROL Abonnements] | Sélectionnez les produits et catégories auxquels vous souhaitez vous abonner. Notifications dans la fenêtre contextuelle [!UICONTROL &#x200B; Notifications &#x200B;] et dans votre e-mail. |
 | [!UICONTROL Priorité] | Sélectionnez les catégories qui doivent être considérées comme prioritaires. Ces catégories sont marquées d’une balise Élevée et peuvent être configurées pour une diffusion comme les alertes. |
 | [!UICONTROL Alertes] | Sélectionnez les notifications pour lesquelles vous souhaitez voir des alertes s’afficher dans votre navigateur. Les alertes s’affichent dans le coin supérieur droit de la fenêtre pendant quelques secondes. |
 | E-mails | Indiquez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification. (Non envoyé, instantané, quotidien ou hebdomadaire.) |
@@ -136,4 +136,4 @@ Cliquez sur **[!UICONTROL Notifications]** pour afficher les notifications qui s
 
 ![Notifications et annonces](assets/notifications-menu-small.png)
 
-Vous pouvez configurer des notifications dans les préférences de [](#preferences).
+Vous pouvez configurer des notifications dans les préférences de [&#128279;](#preferences).
