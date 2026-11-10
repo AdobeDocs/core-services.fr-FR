@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment partager un dossier de ressources CX Enterprise avec des utilisateurs de Creative Cloud.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Partage d’un dossier de ressources CX Enterprise
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 36%
@@ -85,7 +85,7 @@ Pour que les utilisateurs de Creative Cloud aient accès aux ressources, ils doi
 
    Une fois tous les utilisateurs Creative Cloud supprimés, le partage du dossier est annulé et les utilisateurs de Creative Cloud nʼy ont plus accès.
 
-Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [&#x200B; Bibliothèque des offres &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans Adobe Target pour des images dans des activités .
+Parmi les autres façons d’utiliser une ressource partagée, citons le chargement ou la permutation de ressources dans la [ Bibliothèque des offres ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans Adobe Target pour des images dans des activités .
 
 Une fois que vous avez partagé un dossier sur Creative Cloud, le logo Creative Cloud apparaît sur le dossier.
 
@@ -101,5 +101,5 @@ Aide connexe :
 
 Lors de la création d’activités dans [!DNL Adobe Target], vous pouvez utiliser une ressource d’image partagée lors de la permutation d’images dans la bibliothèque [!UICONTROL Offres].
 
-Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=fr) dans l’aide [!DNL Target].
+Reportez-vous à la [bibliothèque d’offres](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) dans l’aide [!DNL Target].
 

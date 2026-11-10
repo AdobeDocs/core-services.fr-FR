@@ -1,6 +1,6 @@
 ---
 description: Découvrez la gestion des utilisateurs et des produits CX Enterprise, les audiences, les attributs du client, Journey Orchestration, les offres, Places, Experience Platform et Mobile Services.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Présentation des services CX Enterprise
 feature: Central Interface Components
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 41%
@@ -48,11 +48,11 @@ Les fonctions d’interface de CX Enterprise sont parfois appelées _services pr
 Les autres fonctionnalités partagées incluent l’administration (gestion des utilisateurs et des produits) pour CX Enterprise, les cookies, les préférences de compte, les notifications, etc.
 
 Pour accéder aux services partagés et aux applications dans CX Enterprise, cliquez sur le **[!UICONTROL sélecteur d’applications]**
-![&#x200B; Sélecteur de services &#x200B;](../assets/apps-icon.png).
+![ Sélecteur de services ](../assets/apps-icon.png).
 
 **Sélecteur d’applications**
 
-![Services &#x200B;](../assets/platform-core-services.png)
+![Services ](../assets/platform-core-services.png)
 
 Les pages Services de ce guide décrivent les produits et services suivants :
 
@@ -62,12 +62,12 @@ Les pages Services de ce guide décrivent les produits et services suivants :
 | [Bibliothèque d’audiences](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview) | Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants visiteur). Adobe [!DNL Audience Library] vous permet de gérer la traduction des données du visiteur en segmentation d’audience. |
 | [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) | Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.  est un service applicatif intégré à Experience Platform. |
 | [Assets](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. |
-| [Triggers](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/triggers) | Triggers de CX Enterprise vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel. |
-| [Marché &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/exchange) | Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports. |
+| [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Triggers de CX Enterprise vous permet d’identifier, définir et surveiller les comportements clés des consommateurs, puis de générer une communication entre applications destinée à réengager les visiteurs. Vous pouvez utiliser des déclencheurs pour la personnalisation et les décisions en temps réel. |
+| [Marché ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Marketplace est une destination unique où vous pouvez rechercher des extensions Digital Marketing, les parcourir, les sélectionner, les payer et les télécharger via des applications. Les applications comprennent des connecteurs de données, des configurations personnalisées du produit principal d’Adobe, des applications tierces et des rapports. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentation du produit [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
+>La documentation du produit [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) est disponible. La documentation technique pour les développeurs  se trouve sur [Adobe Developer](https://developer.adobe.com/apis).
 

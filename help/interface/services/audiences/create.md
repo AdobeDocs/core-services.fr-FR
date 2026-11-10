@@ -1,7 +1,7 @@
 ---
 title: Création d’une audience dans la bibliothèque d’audiences
 description: Découvrez comment utiliser les règles d’attribut pour créer une audience partageable dans la bibliothèque d’audiences. Découvrez comment configurer une règle et définir une audience composite.
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # Créer une audience
 
-Dans [!UICONTROL Bibliothèque d’audiences], vous pouvez utiliser des règles d’attribut pour créer une audience et définir une audience composite pour le partage dans les applications d’entreprise CX.
+Dans [!UICONTROL Bibliothèque d’audiences], vous pouvez utiliser des règles d’attributs pour créer une audience et définir une audience composite à partager dans les applications CX Enterprise.
 
 Cet article vous aidera à accomplir ce qui suit :
 
@@ -52,7 +52,7 @@ Le graphique suivant représente deux règles dans une audience composite.
 
 ![Deux règles dans une audience composite](assets/audience_sharing.png)
 
-Chaque cercle représente une règle qui définit l’appartenance à une audience. Les visiteurs qui remplissent les conditions requises pour devenir membres dans les deux règles d’audience se chevauchent pour devenir l’audience composite définie.
+Chaque cercle représente une règle qui définit l’appartenance à une audience. Les visiteurs et visiteuses qui remplissent les conditions pour être membres dans les deux règles d’audience se recoupent pour former l’audience composite définie.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
 1. Cliquez sur [!DNL CX Enterprise] des applications (![Icône des applications](assets/apps-icon.png)), puis sur **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences].**
 
-1. Sur la page [!UICONTROL &#x200B; Audiences &#x200B;], cliquez sur **[!UICONTROL Nouveau]**. ![&#x200B; Nouvelle audience &#x200B;](assets/add_icon_small.png)
+1. Sur la page [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Nouveau]**. ![ Nouvelle audience ](assets/add_icon_small.png)
 
    ![Création d’une audience](assets/audience_create_new.png)
 
@@ -80,9 +80,9 @@ L’exemple suivant explique comment créer des règles pour une audience compos
 
      >[!NOTE]
      >
-     >En raison de la mise en cache, les suites de rapports supprimées dans Analytics nécessitent 12 heures avant que la suppression ne s’affiche dans CX Enterprise.
+     >En raison de la mise en cache, les suites de rapports supprimées dans Analytics ne s’affichent dans CX Enterprise qu’au bout de 12 heures.
 
-   * **[!UICONTROL CX Enterprise :]** données d’attributs provenant de sources [!DNL CX Enterprise]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
+   * **[!UICONTROL CX Enterprise:]** données d’attributs provenant de sources [!DNL CX Enterprise]. Il peut, par exemple, s’agir de données de segments d’audience que vous créez dans [!DNL Analytics], ou de données d’[!DNL Audience Manager].
 
 1. Définissez les règles d’audience, puis cliquez sur **[!UICONTROL Enregistrer].**
 
@@ -113,11 +113,11 @@ Pour effectuer une comparaison, vous pouvez ajouter une règle *OU* pour affiche
 
 La règle obtenue est une audience définie composée des utilisateurs Chrome et Safari ayant visité Maison et jardin. Le segment Patio et meubles fournit des informations supplémentaires sur tous les visiteurs qui visitent cette section du site.
 
-![Audience définie dans CX Enterprise](assets/defined_audience.png)
+![ Audience définie dans CX Enterprise ](assets/defined_audience.png)
 
 * **Historique (estimation) :** (cercle en pointillé) représente les règles créées en fonction des données [!DNL Analytics].
 * **Audience réelle :** (cercle plein) règle créée qui possède 30 jours de données d’Audience Manager. Lorsque les données d’Audience Manager atteignent 30 jours, la ligne devient pleine et représente les chiffres réels.
 
 Une fois la collecte des données terminée pour la période spécifiée, les cercles se combinent pour afficher une audience définie.
 
-Une fois l’audience enregistrée, elle est disponible pour d’autres applications d’entreprise CX. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/fr/docs/target/using/activities/activities) Adobe Target.
+Une fois l’audience enregistrée, elle est disponible pour d’autres applications CX Enterprise. Par exemple, vous pouvez inclure une audience partagée dans une [activité](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) Adobe Target.

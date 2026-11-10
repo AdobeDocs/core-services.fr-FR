@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment créer une source de données [!DNL Customer Attributes] et la charger dans CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Création et chargement d’un fichier de Source de données [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -50,15 +50,15 @@ Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez 
 
 * **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **&#x200B;**&#x200B;> **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **** > **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
   Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface de CX Enterprise.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/overview).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview).
 
-## Création d’un fichier de données
+## Créer un fichier de données
 
 Ces données des clients de l’entreprise proviennent de votre système de gestion de la relation client. Elles peuvent inclure des données sur les abonnés pour les produits, y compris les ID des membres, les produits autorisés, les produits les plus souvent utilisés, etc.
 
@@ -75,13 +75,13 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 1. Avant de poursuivre, passez en revue les informations importantes dans [Exigences liées aux fichiers de données](crs-data-file.md) avant de télécharger le fichier.
 1. [Créez une source d’attributs du client et chargez les données](t-crs-usecase.md#create-source), comme décrit ci-dessous.
 
-## Création d’une source d’attributs et chargement du fichier de données
+## Créer la source d’attributs et charger le fichier de données
 
 Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’attributs du client]_ dans CX Enterprise.
 
 >[!IMPORTANT]
 >
->Lorsque vous créez, modifiez ou supprimez une source d’attributs du client, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
+>Lorsque vous créez, modifiez ou supprimez des sources d’attributs du client ou de la cliente, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
 
 1. Pour ouvrir [!UICONTROL Attributs du client], cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
@@ -107,7 +107,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
      * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-     * **Service d’identification des visiteurs :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
+     * **Service d’identification des visiteurs :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
 
        Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -129,7 +129,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
        Voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -141,7 +141,7 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
 
 1. Sur la page [!UICONTROL Modifier le Source de données client], cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
+   ![ Chargement de fichier et validation de schéma ](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
@@ -171,13 +171,13 @@ Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (suppri
 
 Suppression des attributs et remplacement des attributs dans le schéma.
 
-1. Sur la page [!UICONTROL &#x200B; Modifier le Source d’attributs du client &#x200B;], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
+1. Sur la page [!UICONTROL  Modifier le Source d’attributs du client ], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
 
 1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md).
 
-## Configuration des abonnements et activation de la source d’attributs
+## Configurer les abonnements et activer la source d’attributs
 
-La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. Activez la source dʼattributs pour que les données circulent vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
+La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. L’activation de la source d’attributs permet aux données de circuler vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
 Voir [Configuration des abonnements et activation de la source de données](subscription.md).
 

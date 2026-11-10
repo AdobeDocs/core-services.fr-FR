@@ -1,7 +1,7 @@
 ---
 description: Découvrez les cookies Audience Manager dans Adobe CX Enterprise.
 keywords: Cookies
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Cookies Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 96%
@@ -140,7 +140,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
      </ul> </p> <p>Le cookie utilisant le nouveau style de formatage : </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">Remplace le nom lisible du fournisseur de données par un ID numérique. </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">Identifie le type d’appel avec l’ID 1 ou l’ID 2. L’ID 1 représente un appel de synchronisation des ID. L’ID 2 représente un appel obsolète qui n’est plus utilisé. Il est peu probable (voire impossible) que vous rencontriez de nombreux cookies dextp avec l’ID 2. </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">Identifie le type d’appel avec l’ID 1 ou l’ID 2. L’ID 1 représente un appel de synchronisation des ID. L’ID 2 représente un appel obsolète qui n’est plus utilisé. Vous ne devriez pas voir beaucoup de cookies dextp avec l’ID 2, voire aucun. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -162,7 +162,7 @@ Le tableau suivant répertorie et définit les éléments d’un cookie `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Rôle</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=fr" format="https" scope="external">destination</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> définit ce cookie lorsqu’une erreur survient lors de l’envoi des données à une <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">destination</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenu</b> </p> </td> 

@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Audience Library]'
 description: Découvrez comment gérer la traduction des données du visiteur en segmentation d’audience dans CX Enterprise [!DNL Audience Library].
-solution: Experience Cloud
+solution: CX Enterprise
 type: Documentation
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 feature: Audience Library
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 45%
@@ -41,7 +41,7 @@ ht-degree: 45%
 
 [!DNL Audience Library] affiche les audiences dans CX Enterprise. Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants [!DNL CX Enterprise]). Vous pouvez gérer la traduction des données de visiteurs et visiteuses en segmentation d’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments. Vous pouvez également partager les segments d’audiencde avec des produits et services dans [!DNL CX Enterprise].
 
-![audiences &#x200B;](assets/audiences.png)
+![audiences ](assets/audiences.png)
 
 Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
@@ -80,7 +80,7 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 [!DNL CX Enterprise] fournit une bibliothèque pour la création et la gestion des audiences, avec une identification d’audience native en temps réel.
 
-**&#x200B;**&#x200B;> **[!UICONTROL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences]**
+**** > **[!UICONTROL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences]**
 
 ![Ajout dʼune audience dans la bibliothèque dʼaudiences](assets/audience_library.png)
 
@@ -98,4 +98,4 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Consultez [&#x200B; Publication de segments sur CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Consultez [ Publication de segments sur CX Enterprise ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.

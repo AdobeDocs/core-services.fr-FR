@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment configurer les déclencheurs CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Présentation de Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 62%
@@ -92,7 +92,7 @@ Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez
    | [!UICONTROL Description] | Description du déclencheur, de sa fonction, etc. |
    | [!UICONTROL Suite de rapports] | La [suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) Analytics utilisée pour ce déclencheur. Ce paramètre identifie les données de rapport à utiliser. |
    | Visite doit inclure<br>Visite ne doit pas inclure<br>Déclencheur après aucune action<br>Inclure métadonnées | Vous pouvez définir des critères ou des comportements de visiteur qui doivent se produire ou ne pas se produire. Par exemple, les règles pour un déclencheur d’abandon de panier simple peuvent ressembler à celles-ci :<ul><li>La visite doit inclure : [!UICONTROL Ajout au panier] (mesure) et [!UICONTROL Existe]. (Vous pouvez affiner davantage la règle avec une vue de produit spécifique ou des dimensions telles que Types de navigateur.)</li><li>La visite ne doit pas inclure : [!UICONTROL Passage en caisse].</li><li>Déclencheur après aucune action pendant : 10 minutes</li><li>[!UICONTROL Inclure les données Meta] : permet d’ajouter une dimension de [!DNL Campaign] spécifique ou des variables pertinentes par rapport au comportement d’un visiteur. Ce champ peut s’avérer utile pour la création d’un e-mail de remarketing correct par Adobe Campaign.</li></ul><br>Vous pouvez spécifier une logique [!UICONTROL Any], [!UICONTROL And] ou [!UICONTROL Or] dans ou entre les conteneurs, selon les critères que vous déterminez comme étant importants pour la règle. |
-   | [!UICONTROL &#x200B; Conteneur &#x200B;] | Vous définissez et stockez des règles des conditions ou des filtres qui définissent un déclencheur dans les  Conteneurs. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau du hit. Par exemple, si deux conteneurs sont associés par l’opérateur AND, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux hits répondent aux exigences. |
+   | [!UICONTROL  Conteneur ] | Vous définissez et stockez des règles] des conditions ou des filtres qui définissent un déclencheur dans les [!UICONTROL  Conteneurs. Si vous souhaitez que des événements se produisent en même temps, placez-les dans un même conteneur. En effet, chaque conteneur procède indépendamment au traitement au niveau du hit. Par exemple, si deux conteneurs sont associés par l’opérateur AND, vous pouvez vous attendre à ce que les règles remplissent les critères lorsque deux hits répondent aux exigences. |
    | Démarrer une nouvelle session après | Créez un déclencheur pour les événements de début et de fin de session. |
 
    {style="table-layout:auto"}

@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment configurer des certificats sécurisés à utiliser avec les cookies propriétaires de Adobe CX Enterprise.
-solution: Experience Cloud,Analytics
+solution: CX Enterprise,Analytics
 title: Programme de certificat géré par Adobe
 index: true
 snippet: 'y'
@@ -55,7 +55,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Le programme de certificat géré par Adobe est le processus recommandé pour co
 
 Le programme de certificat géré par Adobe ne prend pas en charge la collecte de données de routage via un réseau de diffusion de contenu (CDN). Si vous utilisez un réseau CDN, voir [Acheminer la collecte de données via un réseau CDN](cdn.md). Les organisations qui doivent gérer leurs propres certificats peuvent utiliser [certificats gérés par le client](customer-managed-cert.md) à la place. Si vous gérez actuellement vos propres certificats et souhaitez passer au programme de certificat géré par Adobe, contactez l’assistance clientèle d’Adobe.
 
-## Implémentation
+## Mise en œuvre
 
 Pour implémenter un nouveau certificat pour la collecte de données propriétaire, procédez comme suit :
 

@@ -1,7 +1,7 @@
 ---
 title: Prise en charge des navigateurs et des langues
 description: Découvrez la prise en charge des navigateurs et des langues pour les applications CX Enterprise. Sélectionnez une langue principale et une langue secondaire dans le profil de votre compte.
-solution: Experience Cloud
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
@@ -51,7 +51,7 @@ Si votre navigateur n’est pas répertorié, il peut tout de même être pris e
 >
 >Toutes les applications s’exécutant sur le domaine CX Enterprise ne prennent pas en charge tous les navigateurs. Si vous n’êtes pas sûr, consultez la documentation d’une application spécifique.
 
-## Prise en charge linguistique dans CX Enterprise
+## Prise en charge des langues dans CX Enterprise
 
 L’interface utilisateur de CX Enterprise est disponible dans les langues suivantes :
 

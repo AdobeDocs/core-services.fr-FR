@@ -1,6 +1,6 @@
 ---
 description: Recherchez les intégrations d’applications disponibles dans Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Intégrations CX Enterprise
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 32%
@@ -74,19 +74,19 @@ Solutions ou services :
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=fr)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=fr)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
 * [Service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 
 ## Service d’identification des visiteurs
 
 Le service d’identification des visiteurs fournit un identifiant persistant universel qui identifie vos visiteurs dans toutes les applications de CX Enterprise. Il peut remplacer le code de génération des identifiants pour des services tels qu’Analytics, Audience Manager, Adobe Target, le suivi de pulsation vidéo et d’autres applications et produits CX Enterprise.
 
-Voir [&#x200B; Service d’identification des visiteurs &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
+Voir [ Service d’identification des visiteurs ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr)
 
 **Applications ou services applicables**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/overview)
-* [Adobe Target](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/setup-target)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+* [Adobe Target](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-target)
 
 ## Audiences
 
@@ -100,8 +100,8 @@ Créer et gérer des audiences dans CX Enterprise [!UICONTROL Bibliothèque d’
 
 **Solutions ou services applicables**
 
-* [Activités dans Adobe Target](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=fr)
-* [Segmentation](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=fr) dans Audience Manager
+* [Activités dans Adobe Target](https://experienceleague.adobe.com/docs/target/using/activities/activities.html)
+* [Segmentation](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) dans Audience Manager
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (connexion requise)
 
 ## Attributs du client
@@ -129,7 +129,7 @@ Partagez des dossiers et des ressources entre CX Enterprise et Creative Cloud. C
 
 ## Analytics - Création de rapports AEM Assets dans Analytics
 
-Aide : [Rapports AEM Assets dans Analytics](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=fr)
+Aide : [Rapports AEM Assets dans Analytics](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Permet à Analytics de collecter des impressions et des clics sur les ressources diffusées à partir dʼAEM Asset Insights.
 
@@ -140,19 +140,19 @@ Permet à Analytics de collecter des impressions et des clics sur les ressources
 
 ## Intégrations Audience Manager
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=fr)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Utilisez des données provenant d’applications CX Enterprise ou d’autres systèmes externes dans Audience Manager.
 
 **Applications ou services applicables**
 
 * [Transfert côté serveur Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr)
-* [Envoi de segments Audience Manager à Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
-* [Intégration des données Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=fr)
+* [Envoi de segments Audience Manager à Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [Intégration des données Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target
 
-Aide : [&#x200B; Intégration d’Adobe Target à CX Enterprise &#x200B;](/help/interface/services/audiences/overview.md)
+Aide : [ Intégration d’Adobe Target à CX Enterprise ](/help/interface/services/audiences/overview.md)
 
 Intégrez Adobe Target à Adobe Analytics et à d’autres applications CX Enterprise pour permettre l’utilisation des mêmes données, audiences, attributs et mesures dans les deux applications.
 
@@ -160,15 +160,15 @@ Intégrez Adobe Target à Adobe Analytics et à d’autres applications CX Enter
 
 * Attributs du client : configuration d’un [abonnement](/help/interface/services/customer-attributes/subscription.md) Adobe Target pour les attributs du client
 * Audiences CX Enterprise : [Bibliothèque d’audiences CX Enterprise](/help/interface/services/audiences/overview.md)
-* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
-* Audience Manager : [Intégration des données Adobe Target avec Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=fr)
+* Analytics : [Adobe Analytics comme source de création de rapports pour Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Audience Manager : [Intégration des données Adobe Target avec Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign : [Intégration d’Adobe Target à Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr)
 
 ## Intégrations Experience Manager
 
-* Tutoriels vidéo : [intégrations &#x200B;](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=fr)
+* Tutoriels vidéo : [intégrations ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* Documentation du produit : [documentation &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
+* Documentation du produit : [documentation ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr)
 
 ## Experience Manager – Assets
 
@@ -186,7 +186,7 @@ Synchronisez vos ressources dans Adobe Experience Manager (AEM) Assets avec Ad
 
 * Aide (connexion requise) : [Intégration aux solutions et services Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentation &#x200B;](https://experienceleague.adobe.com/docs/advertising.html?lang=fr) sur Experience League
+* [Documentation ](https://experienceleague.adobe.com/docs/advertising.html) sur Experience League
 
 **Applications ou services applicables**
 

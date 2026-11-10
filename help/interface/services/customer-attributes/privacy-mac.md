@@ -1,6 +1,6 @@
 ---
-description: Découvrez les points à prendre en compte et les bonnes pratiques concernant les informations d’identification personnelle chargées et utilisées dans CX Enterprise.
-solution: Experience Cloud
+description: Découvrez les considérations et les bonnes pratiques relatives aux informations d’identification personnelle chargées et utilisées dans CX Enterprise.
+solution: CX Enterprise
 title: Considérations relatives à la confidentialité des [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
@@ -48,9 +48,9 @@ Considérations et bonnes pratiques relatives aux informations d’identificatio
 * Adresse e-mail
 * Numéro de téléphone
 * Numéro de sécurité sociale
-* Autre information permettant de contacter physiquement ou en ligne un individu (varie selon les régions. Veuillez vérifier et respecter les lois et réglementations relatives à la vie privée et aux informations d’identification personnelle pour tous les lieux où vous faites des affaires.)
+* Autre identifiant permettant de contacter physiquement ou en ligne un individu. (Varie selon les régions. Veuillez vérifier et respecter les lois et réglementations relatives à la vie privée et aux informations d’identification personnelle pour tous les lieux où vous faites des affaires.)
 
-Adobe fournit des outils grâce auxquels les annonceurs peuvent recueillir des informations sur le comportement des visiteurs de leurs sites ou des utilisateurs de leurs applications. Adobe propose également des outils qui permettent d’améliorer ces informations avec des enregistrements de clients hors ligne ou externes que l’annonceur peut avoir dans d’autres systèmes de gestion de l’information.
+Adobe fournit des outils grâce auxquels les annonceurs peuvent recueillir des informations sur le comportement des clients et clients de leurs sites ou des utilisateurs de leurs applications. Adobe propose également des outils qui permettent d’améliorer ces informations avec des enregistrements de clients hors ligne ou externes que l’annonceur peut avoir dans d’autres systèmes de gestion de l’information.
 
 Souvent, les publicitaires ont recours à cette pratique pour préciser les informations disponibles au moment de prendre des décisions marketing et publicitaires appropriées pour leurs clients. Avec Adobe Analytics et Target, les publicitaires peuvent charger des informations d’identification personnelle (adresses électroniques par exemple) uniquement une fois qu’elles ont été hachées afin qu’il soit impossible de les utiliser pour contacter la personne qu’elles concernent. Il est possible d’utiliser les informations hachées à des fins d’analyse et de marketing. Pour rappel, Adobe interdit aux annonceurs d’envoyer des informations personnelles sensibles à Adobe, telles que des dossiers médicaux, des informations de compte financier et des informations sur les mineurs.
 
