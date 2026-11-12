@@ -54,7 +54,7 @@ Avant de charger des données d’attributs du client, veillez à respecter les 
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
-  Voir [Comment déployer at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview).
+  Voir [Comment déployer at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/overview).
 
 ## Workflow Attributs du client {#workflow}
 
@@ -111,7 +111,7 @@ Effectuez ces étapes sur la page _[!UICONTROL Créer un Source d’attributs du
 
      * **Balises :** L’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
-     * **Service d’identification des visiteurs :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) supplémentaires que vous pouvez associer à chaque visiteur.
+     * **Service d’identification des visiteurs :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
 
        Par exemple, *&quot;crm_ id&quot;* dans :
 
@@ -133,7 +133,7 @@ Effectuez ces étapes sur la page _[!UICONTROL Créer un Source d’attributs du
 
        Consultez [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation de [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation de [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
