@@ -1,7 +1,7 @@
 ---
 description: Découvrez comment créer une source de données [!DNL Customer Attributes] et la charger dans CX Enterprise.
 solution: CX Enterprise
-title: Création et chargement d’un fichier de Source de données [!DNL Customer Attributes]
+title: Créer et charger un fichier de Source de données [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -33,32 +33,36 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: efb723004203e57984a55ae4baa1cccc6564577a
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 41%
+source-wordcount: '1230'
+ht-degree: 33%
 ---
-# Création et chargement de données d’attributs du client
+# Création et chargement de données d’attributs du client {#create-upload-customer-attribute-data}
 
-Créez la source d’attributs du client (fichiers `.csv` et `.fin`) et chargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois la source de données active, partagez les données d’attribut avec [!DNL Analytics] et [!DNL Target].
+Créez une source de données [!DNL Customer Attributes], chargez les données de vos clients d’entreprise et activez la source lorsque vous êtes prêt. Une fois la source active, partagez les données d’attribut avec [!DNL Analytics] et [!DNL Target].
 
-**[!DNL Customer Attributes]workflow**
+## Avant de commencer {#before-you-begin}
 
-![Workflow Attributs du client](assets/crs.png)
+Avant de charger des données d’attributs du client, veillez à respecter les exigences suivantes.
 
-## Conditions préalables à l’utilisation de [!DNL Customer Attributes] {#prerequisites}
+* **Appartenance à un groupe :** Pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
 
-* **Appartenance à un groupe :** pour charger les données, les utilisateurs doivent être membres du groupe [!DNL Customer Attributes]. Vous devez également appartenir à un groupe d’Adobe Analytics ou d’Adobe Target.
+  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **[!UICONTROL Admin Console]** > **[!UICONTROL Produits]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
 
-  Pour savoir si votre société a accès aux attributs du client, votre administrateur [!DNL CX Enterprise] doit se connecter à [CX Enterprise](https://experience.adobe.com?lang=fr). Accédez à **&#x200B;**&#x200B;> **[!UICONTROL Products]**. Si *[!DNL Customer Attributes]* s’affiche comme l’un des [!UICONTROL profils de produit], vous êtes prêt à commencer.
-
-  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’option de menu [!DNL Customer Attributes] sur le côté gauche de l’interface de CX Enterprise.
+  Les utilisateurs ajoutés à [!DNL Customer Attributes] voient l’élément de menu [!DNL Customer Attributes] sur le côté gauche de l’interface de CX Enterprise.
 
 * **Adobe Target** `at.js` (toute version) ou `mbox.js` version 58 ou ultérieure est requis pour utiliser les attributs du client ou de la cliente.
 
   Voir [Comment déployer at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/overview).
 
-## Créer un fichier de données
+## Workflow Attributs du client {#workflow}
+
+Le diagramme suivant illustre le workflow de bout en bout pour la création, le chargement et l’utilisation des données d’attributs du client.
+
+![Workflow Attributs du client](assets/crs.png)
+
+## Créer un fichier de données {#create-data-file}
 
 Ces données des clients de l’entreprise proviennent de votre système de gestion de la relation client. Elles peuvent inclure des données sur les abonnés pour les produits, y compris les ID des membres, les produits autorisés, les produits les plus souvent utilisés, etc.
 
@@ -72,18 +76,18 @@ Ces données des clients de l’entreprise proviennent de votre système de gest
 
    ![Exemple de fichier de données client dʼentreprise](assets/01_crs_usecase.png)
 
-1. Avant de poursuivre, passez en revue les informations importantes dans [Exigences liées aux fichiers de données](crs-data-file.md) avant de télécharger le fichier.
-1. [Créez une source d’attributs du client et chargez les données](t-crs-usecase.md#create-source), comme décrit ci-dessous.
+1. Consultez les informations importantes dans [Exigences relatives aux fichiers de données](crs-data-file.md) avant de télécharger le fichier.
+1. Continuez vers [créer la source d&#39;attributs et chargez les données](t-crs-usecase.md#create-source).
 
-## Créer la source d’attributs et charger le fichier de données
+## Créer la source d’attributs et charger le fichier de données {#create-source}
 
-Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’attributs du client]_ dans CX Enterprise.
+Effectuez ces étapes sur la page _[!UICONTROL Créer un Source d’attributs du client]_ dans CX Enterprise.
 
 >[!IMPORTANT]
 >
 >Lorsque vous créez, modifiez ou supprimez des sources d’attributs du client ou de la cliente, la synchronisation des identifiants avec la nouvelle source de données peut prendre jusqu’à une heure. Pour créer ou modifier des sources d’attributs du client, vous devez disposer des droits d’administration dans Audience Manager. Contactez l’assistance clientèle ou le consulting d’Audience Manager pour obtenir les droits d’administration.
 
-1. Pour ouvrir [!UICONTROL Attributs du client], cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+1. Cliquez sur **[!UICONTROL Applications]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]** pour ouvrir [!UICONTROL Attributs du client].
 
    ![Page Attributs du client](assets/cust-attr.png)
 
@@ -93,11 +97,11 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
 1. Sur la page [!UICONTROL Créer un Source d’attributs du client], configurez les champs suivants :
 
-   * **[!UICONTROL Name :]** nom convivial pour la source d’attributs de données. Pour [!DNL Adobe Target], les noms d’attribut ne peuvent pas contenir d’espaces. Si un attribut comportant un espace est transmis, [!DNL Target] l’ignore. Les autres caractères non pris en charge sont les suivants :`< , >, ', "`.
+   * **[!UICONTROL Nom :]** nom convivial pour la source d’attributs de données. Pour [!DNL Adobe Target], les noms d’attribut ne peuvent pas contenir d’espaces. Si un attribut comportant un espace est transmis, [!DNL Target] l’ignore. Les autres caractères non pris en charge sont les suivants :`< , >, ', "`.
 
-   * **[!UICONTROL Description :]** (facultatif) description de la source d’attributs de données.
+   * **[!UICONTROL Description :]** (facultatif) Description de la source d’attributs de données.
 
-   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. [!UICONTROL ID d’alias] est un ID unique utilisé dans votre code [!UICONTROL Source d’attributs du client]. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans CX Enterprise doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit par l’intermédiaire de la collecte de données Platform ou de JavaScript du SDK mobile).
+   * **[!UICONTROL ID d’alias :]** représente une source de données d’attributs du client, par exemple un système de gestion de la relation client spécifique. [!UICONTROL L’ID d’alias] est un ID unique utilisé dans votre code [!UICONTROL Source d’attributs du client]. L’identifiant doit être unique, en minuscules, sans espace. La valeur saisie dans le champ [!UICONTROL ID d’alias] pour une source d’attributs du client dans CX Enterprise doit correspondre aux valeurs transmises à partir de l’implémentation (que ce soit via la collecte de données Platform ou JavaScript du SDK mobile).
 
      >[!IMPORTANT]
      >
@@ -105,7 +109,7 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
      L’ID d’alias correspond à certaines zones où vous définissez des valeurs d’ID de client supplémentaires. Par exemple :
 
-     * **Balises :** l’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
+     * **Balises :** L’ID d’alias correspond à la valeur *Code d’intégration* sous [!UICONTROL Paramètres client], dans l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
      * **Service d’identification des visiteurs :** l’ID d’alias correspond aux [ID de client](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) supplémentaires que vous pouvez associer à chaque visiteur.
 
@@ -127,9 +131,9 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 
        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-       Voir [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
+       Consultez [Utilisation de plusieurs sources de données](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) pour plus d’informations sur le traitement des données concernant le champ ID d’alias et les ID de client.
 
-   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation du [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
+   * **[!UICONTROL Code d’espace de noms :]** utilisez cette valeur pour identifier la source d’attributs du client lors de l’utilisation de [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/identity/overview) dans le cadre d’une implémentation du SDK Web AEP.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -138,10 +142,9 @@ Effectuez les étapes suivantes sur la page _[!UICONTROL Créer un Source d’at
 L’enregistrement d’attribut du client est créé et vous pouvez charger le fichier en modifiant l’attribut du client.
 
 1. Sur la page [!DNL Customer Attributes], cliquez sur la source d’attributs.
-
 1. Sur la page [!UICONTROL Modifier le Source de données client], cliquez sur **[!UICONTROL Chargement de fichier]**.
 
-   ![&#x200B; Chargement de fichier et validation de schéma &#x200B;](assets/file-upload-schema-validation.png)
+   ![Chargement de fichier et validation de schéma](assets/file-upload-schema-validation.png)
 
 1. Faites glisser et déposez le fichier de données `.csv`, `.zip` ou `.gzip` dans la fenêtre glisser-déposer.
 
@@ -149,39 +152,40 @@ L’enregistrement d’attribut du client est créé et vous pouvez charger le f
    >
    >Il existe des exigences spécifiques liées aux fichiers de données. Voir [Exigences liées aux fichiers de données](crs-data-file.md) pour en savoir plus.
 
-   Une fois le fichier chargé, les données du tableau s’affichent sous l’en-tête [!UICONTROL Chargement de fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
+   Après avoir chargé le fichier, les données du tableau s’affichent sous l’en-tête [!UICONTROL Chargement de fichier] sur cette page. Vous pouvez valider le schéma, configurer les abonnements ou configurer le FTP.
 
    ![attributs](assets/file_upload_attributes.png)
+
+### Vérifier les résultats du chargement {#review-upload-results}
+
+Une fois le chargement terminé, passez en revue les nombres suivants pour confirmer que les données ont été chargées comme prévu.
 
 * **[!UICONTROL ID de client unique :]** affiche le nombre d’ID uniques que vous avez chargés sur cette source d’attributs.
 
 * **[!UICONTROL ID fournis par le client avec alias pour les ID de visiteurs Experience Cloud :]** affiche le nombre d’ID qui ont reçu un alias vers les ECID.
 
-* **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’identifiants fournis par le client avec 500 ECID avec alias ou plus. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 ECID en alias les plus récents, jusqu’à ce que le nombre d’alias atteigne 10 000. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
+* **[!UICONTROL ID fournis par le client avec un nombre élevé d’alias :]** affiche le nombre d’ID fournis par le client avec 500 ECID avec alias ou plus. Ces identifiants fournis par le client représentent probablement un certain type de connexion partagée plutôt que des individus. Le système distribue les attributs associés à ces identifiants aux 500 ECID en alias les plus récents, jusqu’à ce que le nombre d’alias atteigne 10 000. Ensuite, le système invalide l’ID fourni par le client et ne distribue plus les attributs associés.
 
 ## Validation du schéma {#validate-schema}
 
 Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs chargés (chaînes, nombres entiers, numéros, etc.). Vous pouvez également supprimer des attributs en mettant à jour le schéma.
 
-Voir [Validation du schéma](validate-schema.md).
+Voir [Validation du schéma](validate-schema.md). Pour supprimer des attributs, voir [Supprimer des attributs du schéma](#delete-attributes).
 
-Pour supprimer des attributs, voir [(Facultatif) Mise à jour du schéma (supprime les attributs)](t-crs-usecase.md).
+## Suppression d’attributs du schéma {#delete-attributes}
 
-## (Facultatif) Mise à jour du schéma (suppression des attributs)
+Supprimez un abonnement pour supprimer les attributs qu’il fournit, puis chargez un fichier de remplacement si vous devez ajouter à nouveau des attributs.
 
-Suppression des attributs et remplacement des attributs dans le schéma.
+1. Sur la page [!UICONTROL Modifier le Source d’attributs du client], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
+1. Chargez un nouveau fichier de données avec les champs mis à jour.
 
-1. Sur la page [!UICONTROL &#x200B; Modifier le Source d’attributs du client &#x200B;], supprimez l’abonnement **[!UICONTROL Target]** ou **[!UICONTROL Analytics]** (sous **[!UICONTROL Configurer les abonnements]**).
-
-1. [Chargez un nouveau fichier de données avec les champs mis à jour](t-crs-usecase.md).
-
-## Configurer les abonnements et activer la source d’attributs
+## Configuration et activation des abonnements {#configure-subscriptions}
 
 La configuration des abonnements configure le flux de données entre CX Enterprise et les applications. L’activation de la source d’attributs permet aux données de circuler vers les applications abonnées. Les enregistrements de client que vous avez chargés sont mis en correspondance avec les signaux d’ID entrants provenant de votre site web ou de votre application.
 
-Voir [Configuration des abonnements et activation de la source de données](subscription.md).
+Voir [Configurer les abonnements et activer la source de données](subscription.md).
 
-## Utilisation des données [!DNL Customer Attributes] dans Adobe Analytics
+## Utiliser les données d’attribut dans [!DNL Analytics] {#use-in-analytics}
 
 Les données étant désormais disponibles dans des applications telles quʼAdobe Analytics, vous pouvez créer des rapports sur les données, les analyser et prendre les mesures appropriées dans vos campagnes marketing.
 
@@ -191,10 +195,10 @@ L’exemple suivant présente un segment [!DNL Analytics] d’après les attribu
 
 Lorsque vous publiez un segment dans CX Enterprise, il est disponible dans les audiences CX Enterprise et Audience Manager.
 
-## Utilisation des données [!DNL Customer Attributes] dans Adobe Target
+## Utiliser les données d’attribut dans [!DNL Target] {#use-in-target}
 
 Dans [!DNL Target], vous pouvez sélectionner un attribut du client dans la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. Tous les attributs du client comportent le préfixe `crs.` dans la liste. Suivant les besoins, combinez ces attributs avec dʼautres attributs de données afin de créer des audiences.
 
 ![Utilisation des attributs du client dans Adobe Target](assets/crs-add-attribute-target.png)
 
-Voir [Création d’une audience](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=fr) dans l’aide [!DNL Target].
+Voir [Créer une audience](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=fr) dans l’aide de [!DNL Target].
