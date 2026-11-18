@@ -32,21 +32,21 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 45%
+source-wordcount: '741'
+ht-degree: 44%
 ---
 # Audiences CX Enterprise
 
 [!DNL Audience Library] affiche les audiences dans CX Enterprise. Les audiences sont des collections de visiteurs et visiteuses (une liste d’identifiants [!DNL CX Enterprise]). Vous pouvez gérer la traduction des données de visiteurs et visiteuses en segmentation d’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments. Vous pouvez également partager les segments d’audiencde avec des produits et services dans [!DNL CX Enterprise].
 
-![audiences &#x200B;](assets/audiences.png)
+![Audiences CX Enterprise](assets/audiences.png)
 
 Les audiences peuvent être créées ou dérivées à partir de diverses sources, par exemple :
 
-* Nouveaux fichiers créés dans [!DNL CX Enterprise]
-* [!DNL Analytics] les segments publiés sur [!DNL CX Enterprise]
+* Nouveaux créés dans [!DNL CX Enterprise]
+* [!DNL Analytics] segments publiés sur [!DNL CX Enterprise]
 * [!DNL Audience Manager]
 
 **Audiences en temps réel et historiques**
@@ -63,9 +63,9 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 | Solution | Description |
 | --- | --- |
 | Audiences CX Enterprise | Créez, gérez et partagez des audiences en mode natif à l’aide de la bibliothèque d’audiences. Vous pouvez :<ul><li>Utilisez des audiences en temps réel à l’aide d’attributs d’analyse bruts.</li><li>Combinez les audiences pour créer des audiences composites, en associant les données historiques et en temps réel.</li><li>Consultez des vues graphiques de la taille estimée des audiences.</li></ul><br>Pour obtenir des suggestions sur le type d’audience à créer, voir [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr). |
-| Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis publier le segment dans CX Enterprise. La publication du segment l’affiche sur la page [!DNL Audience Library] de CX Enterprise. (Voir [Publication de segments dans CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr) dans l’aide [!DNL Analytics] pour plus d’informations.) L’audience est également disponible en tant qu’audience ciblée pour une expérience de campagne diffusée par [!DNL Adobe Target] et dans [!DNL Audience Manager]. Une fois que vous avez partagé une audience à partir de [!DNL Adobe Analytics] et que vous l’avez sélectionnée afin de l’utiliser dans une campagne active, les profils du visiteur répondant aux critères de définition du segment des 90 derniers jours sont envoyés à [!UICONTROL Services d’audience]. La limite pour les audiences partagées a été portée à 75. Les audiences partagées avec CX Enterprise depuis [!DNL Analytics] ne peuvent pas dépasser 20 millions de membres uniques. En outre, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne s’affichent dans CX Enterprise qu’au bout de 12 heures. |
+| Analytics | Dans la segmentation, vous pouvez créer un segment, le combiner avec une suite de rapports, puis publier le segment dans CX Enterprise. La publication du segment l’affiche sur la page [!DNL Audience Library] de CX Enterprise. (Voir [Publication de segments sur CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr) dans l’aide de [!DNL Analytics] pour plus d’informations.) L’audience est également disponible en tant qu’audience ciblée pour une expérience de campagne diffusée par [!DNL Adobe Target] et dans [!DNL Audience Manager]. Une fois que vous avez partagé une audience à partir de [!DNL Adobe Analytics] et que vous l’avez sélectionnée afin de l’utiliser dans une campagne active, les profils du visiteur répondant aux critères de définition du segment des 90 derniers jours sont envoyés aux [!UICONTROL Services d’audience]. La limite pour les audiences partagées a été portée à 75. Les audiences partagées avec CX Enterprise depuis [!DNL Analytics] ne peuvent pas dépasser 20 millions de membres uniques. En outre, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne s’affichent dans CX Enterprise qu’au bout de 12 heures. |
 | Mobile Services | Analysez le trafic mobile à l’aide de la visualisation Sunburst dans le rapport [!UICONTROL Types d’appareils]. |
-| [!DNL Target] | Le [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) regroupe les identifiants des visiteurs et les données dans un profil exploitable unique pouvant être utilisé dans plusieurs applications. La case à cocher [!UICONTROL Publier dans CX Enterprise] pendant le processus de création de segment dans Adobe Analytics permet au segment d’être disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans [!DNL Analytics] ou dans [!DNL Audience Manager] peut être utilisé pour des activités dans [!DNL Target]. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’[!DNL Analytics] et les segments d’audience créés dans [!DNL Analytics]. |
+| [!DNL Target] | Le [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) regroupe les identifiants des visiteurs et les données en un seul profil exploitable à utiliser dans toutes les applications. La case à cocher [!UICONTROL Publier sur CX Enterprise] pendant le processus de création de segment dans Adobe Analytics permet au segment d’être disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans [!DNL Analytics] ou dans [!DNL Audience Manager] peut être utilisé pour des activités dans [!DNL Target]. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’[!DNL Analytics] et les segments d’audience créés dans [!DNL Analytics]. |
 | [!DNL Audience Manager] | Les audiences partagées sont disponibles dans la segmentation [!DNL Audience Manager]. Toutes les audiences CX Enterprise sont disponibles en mode natif dans [!DNL Audience Manager], ce qui permet ce qui suit :<ul><li>Automatisation intégrée relative à la façon dont elles sont partagées et consommées dans les workflows dʼapplication.</li><li>Destinations hors site</li><li>Modélisation analogue</li></ul> |
 | Campaign | <ul><li>Importez les audiences partagées de différentes applications Adobe CX Enterprise dans Adobe Campaign.</li><li>Exportation des listes de destinataires sous la forme dʼaudiences partagées. Ces audiences partagées peuvent être utilisées dans les différentes applications Adobe CX Enterprise que vous utilisez.</li></ul> |
 | Advertising Cloud | Utilisez l’audience comme cibles. |
@@ -78,19 +78,19 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Éléments de l’interface de la bibliothèque d’audiences
 
-[!DNL CX Enterprise] fournit une bibliothèque pour la création et la gestion des audiences, avec une identification d’audience native en temps réel.
+[!DNL CX Enterprise] fournit une bibliothèque pour la création et la gestion des audiences, avec une identification d&#39;audience native en temps réel.
 
-**&#x200B;**&#x200B;> **[!UICONTROL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque d’audiences]**
+**[!UICONTROL CX Enterprise]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL Personnes]** > **[!UICONTROL Bibliothèque D’Audiences]**
 
 ![Ajout dʼune audience dans la bibliothèque dʼaudiences](assets/audience_library.png)
 
 
 | Élément | Description |
 | --- | --- |
-| Nouveau | [Création d’une audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create). |
+| Nouveau | [Création d’une audience](create.md). |
 | Titre et description | En-tête de colonne qui identifie et décrit l’audience. |
 | Auteur | Personne qui a créé le segment d’audience. |
-| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** segment créé dans Adobe Analytics, puis publié sur CX Enterprise.</li><li>**CX Enterprise :** une nouvelle audience [créée dans les audiences CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager :** Les audiences créées dans Audience Manager s’affichent automatiquement dans les audiences CX Enterprise.</li></ul> |
+| Source | Identifie l’emplacement où l’audience a été créée.<ul><li>**Analytics :** segment créé dans Adobe Analytics, puis publié sur CX Enterprise.</li><li>**CX Enterprise :** nouvelle audience [créée dans les audiences CX Enterprise](create.md).</li><li>**Audience Manager :** les audiences créées dans Audience Manager s’affichent automatiquement dans les audiences CX Enterprise.</li></ul> |
 | Taille actuelle | Taille actuelle de l’audience. |
 | Actif | État actif du segment. |
 
@@ -98,4 +98,4 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Consultez [&#x200B; Publication de segments sur CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation d’Adobe Analytics pour plus d’informations.
+Consultez [Publication de segments sur CX Enterprise](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics pour plus d’informations.
