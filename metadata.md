@@ -7,15 +7,15 @@ solution: CX Enterprise
 solution-title: Experience Platform
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/fr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.fr-FR
+git-repo: https://github.com/AdobeDocs/core-services.en
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
+source-git-commit: 61df034bf2b0f6bd55d1d32fe5c358771a034a55
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -33,7 +33,7 @@ Le fichier metadata.md inclut des métadonnées au niveau du référentiel qui s
 | getting-started-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
 | getting-started-url | Lien vers la page de prise en main de l’aide |
 | tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
-| tutorials-url | Lien vers des tutoriels vidéo : tutoriels d’assistance ou tutoriels KT |
+| tutorials-url | Lien vers des tutoriels vidéo – Tutoriels Helpx ou tutoriels KT |
 | mini-toc-levels | Détermine le nombre de niveaux de titre qui apparaissent dans le rail de droite. la valeur par défaut est 2 |
 | git-repo | Indique l’emplacement du référentiel de collaboration. Utiliser le miroir github.com pour les documents destinés au public |
 
