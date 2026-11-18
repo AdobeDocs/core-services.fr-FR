@@ -98,4 +98,4 @@ Le tableau suivant décrit l’utilisation des audiences dans les applications C
 
 ## Publication d’audiences à partir d’Adobe Analytics
 
-Consultez [Publication de segments sur CX Enterprise](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics pour plus d’informations.
+Consultez [Publication de segments sur CX Enterprise](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) dans la documentation Adobe Analytics pour plus d’informations.
