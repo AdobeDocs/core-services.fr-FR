@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# Présentation de CX Enterprise Assets
+# Présentation de CX Enterprise [!DNL Assets]
 
-CX Enterprise Assets fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
+CX Enterprise [!DNL Assets] fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager entre les applications. Une ressource est un document, une image, une vidéo ou de l’audio numérique (en tout ou en partie) qui peut comporter plusieurs rendus et des sous-ressources (par exemple, les calques d’un fichier [!DNL Photoshop], les diapositives d’un fichier [!DNL PowerPoint], les pages d’un PDF ou les fichiers d’un ZIP).
 
-Les services de ressources comprennent ce qui suit :
+Le service [!DNL Assets] comprend :
 
 * Stockage des ressources, interface de gestion, interface de sélection incorporée (accessible dans les applications).
 * Intégrations à Creative Cloud, collaboration CX Enterprise et applications CX Enterprise.
@@ -48,9 +48,8 @@ Les services de ressources comprennent ce qui suit :
 Lʼutilisation des ressources améliore la cohérence et l’homogénéité de la marque. Elle accélère également la mise sur le marché. Vous pouvez rationaliser les workflows dans les applications :
 
 * **[!DNL Adobe Target]** : créez du contenu pour des tests A/B et multivariés.
-* **[!DNL Ad Cloud]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
+* **[!DNL Adobe Advertising]** : développez des unités d’annonce à l’échelle de différents canaux et campagnes.
 * **[!DNL Adobe Campaign]** : placez des ressources dans les bulletins électroniques et les campagnes.
-
 
 ## Accéder à CX Enterprise Assets
 
@@ -60,7 +59,7 @@ Lʼutilisation des ressources améliore la cohérence et l’homogénéité de l
 
 Accédez à une ressource (ou un répertoire de ressources), puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-La barre dʼoutils permet dʼaccéder rapidement aux fonctionnalités telles que la recherche, le journal, les rendus, la modification, les annotations et le téléchargement.
+La barre d’outils permet d’accéder rapidement aux fonctionnalités, notamment la [!UICONTROL recherche], la [!UICONTROL chronologie], les [!UICONTROL rendus], la [!UICONTROL modification], l’[!UICONTROL annotation] et le [!UICONTROL téléchargement].
 
 ![Accès à la barre dʼoutils](../../assets/asset-tools.png)
 
@@ -86,7 +85,7 @@ Vous pouvez effectuer une recherche par mot-clé, type de fichier, taille, date 
 
 ## Annotation de ressources
 
-Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image, puis annotez la ressource pour permettre sa consultation par vos collaborateurs.
+Cliquez sur **[!UICONTROL Annoter]** en dessinant des cercles ou des flèches sur une image et annotez la ressource pour permettre sa consultation par vos collaborateurs.
 
 ![Annotation de ressources](../../assets/assets-annotate.png)
 
@@ -108,6 +107,6 @@ Cliquez sur **[!UICONTROL Vues]** > **[!UICONTROL Propriétés]** pour afficher 
 
 Affichez le nombre d’utilisateurs, l’espace de stockage utilisé et le nombre total de ressources.
 
-Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport d’utilisation]**
+Cliquez Sur **[!UICONTROL Outils]** > **[!UICONTROL Rapports]** > **[!UICONTROL Rapport D’Utilisation]**
 
 ![Exécution des rapports sur lʼutilisation](../../assets/assets-usage-report.png)

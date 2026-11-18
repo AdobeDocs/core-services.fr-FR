@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -47,21 +47,21 @@ Découvrez où se produisent les mises à jour de la documentation pour l’inte
 
 ## Juillet 2026
 
-* Ajout de [&#x200B; notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge par CX Enterprise de [Federated Guest Access](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
+* Ajout de [notes de mise à jour de juillet 2026](release-notes.md) pour la prise en charge par CX Enterprise de [Federated Guest Access](https://helpx.adobe.com/fr/business/enterprise/using/federated-guest-access.html), y compris le changement de compte pour les utilisateurs invités à partir du sélecteur d’organisation.
 
 ## Juin 2026
 
-* Publié [Surveillance de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) avec une couverture des tableaux de bord d’utilisation des licences et de surveillance de l’IA dédiée aux agences, y compris les vues Présentation, Utilisateurs, Commentaires et Crédits IA , la relecture de la conversation et les autorisations pour les utilisateurs de la gouvernance.
+* Publication de [Agentic AI monitoring](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) avec couverture des tableaux de bord Utilisation de la licence et Surveillance Agentic AI, y compris les vues Présentation, Utilisateurs, Commentaires et Crédits AI, la relecture de la conversation et les autorisations pour les utilisateurs de la gouvernance.
 * Ajout de [notes de mise à jour de juin 2026](release-notes.md) pour la surveillance de l’utilisation de l’IA agentique.
 
 ## Mai 2026
 
 Mises à jour d’avril et de mai pour le guide de l’interface centrale de CX Enterprise :
 
-* Refonte de la documentation d’Experience Cloud vers **&#x200B;**&#x200B;dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
+* Refonte de la documentation d’Experience Cloud vers **CX Enterprise** dans le guide, y compris les descriptions, le texte du lien et les métadonnées de balisage automatique.
 * Ajout de [notes de mise à jour d’avril 2026](release-notes.md) pour la page d’accueil actualisée à l’adresse `https://experience.adobe.com/home` (actualisation de l’interface utilisateur, mode sombre et améliorations de l’accessibilité).
-* Mise à jour de l’[IA dédiée aux agents dans CX Enterprise](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai) : Adobe Marketing Agent for Microsoft 365 Copilot, révision des fonctionnalités de l’agent et ajout d’une colonne **Health Data / HIPAA-ready** dans le tableau des agents existing-apps.
-* Mises à jour mineures des [collecte de données régionale](../data-collection/rdc.md), [validation du transfert du nom d’hôte](../data-collection/adobe-managed-cert.md) et [terminologie](terms.md).
+* Mise à jour de l’[IA dédiée aux agents dans CX Enterprise](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai) : Adobe Marketing Agent for Microsoft 365 Copilot, révision des fonctionnalités de l’agent et une colonne **Données de santé/conforme à la loi HIPAA** dans le tableau de l’agent existing-apps.
+* Mises à jour mineures de la [collecte de données régionale](../data-collection/rdc.md), [Validation du transfert du nom d’hôte](../data-collection/adobe-managed-cert.md) et [Terminologie](terms.md).
 
 ## Mars 2026
 
@@ -69,11 +69,11 @@ Ajout de [tâches d’IA et consommation de crédits](https://experienceleague.a
 
 ## Novembre 2025
 
-Mises à jour de [Agentic AI dans CX Enterprise](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Mises à jour vers l’IA dédiée aux agents [dans CX Enterprise](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Octobre 2025
 
-Mise à jour de la section [Vérification de votre organisation](../experience-cloud.md) avec une note sur le message d’erreur si un administrateur restreint l’accès aux produits Adobe par des adresses IP.
+Mise à jour de la rubrique [Vérification de votre organisation](../home.md) avec une note sur le message d’erreur si un administrateur restreint l’accès aux produits Adobe par des adresses IP.
 
 ## Août 2025
 
@@ -81,21 +81,21 @@ Ajout d’informations sur la [réinitialisation de votre Adobe ID](../features/
 
 ## Février 2025
 
-Ajout de la section [Gestion des utilisateurs et des produits dans CX Enterprise](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
+Ajout de [Gérer les utilisateurs et les produits dans CX Enterprise](../administration/admin-console.md). Cette page permet aux administrateurs de trouver l’aide de la gestion des utilisateurs et des produits (Admin Console) pour toutes les applications.
 
 ## Novembre 2024
 
-Mises à jour des [données d’utilisation des produits](../features/account-preferences.md) et [apprentissage personnalisé](../features/personalized-learning.md).
+Mises à jour des [données d’utilisation du produit](../features/account-preferences.md) et [apprentissage personnalisé](../features/personalized-learning.md).
 
 ## Septembre 2024
 
-Ajout d’une aide sur l’[abonnement aux notifications Slack](../features/account-preferences.md#subscribe-to-slack-notifications).
+Ajout d’une aide sur [l’abonnement aux notifications Slack](../features/account-preferences.md#subscribe-to-slack-notifications).
 
-Mise à jour [préférences utilisateur](../features/account-preferences.md).
+Mise à jour des [préférences utilisateur](../features/account-preferences.md).
 
 ## 26 Avril 2024
 
-Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP &#x200B;](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
+Réorganisation complète de l’architecture de la documentation. Ajout également de [adresses IP Adobe CX Enterprise](../data-collection/ip-addresses.md) et [collecte de données régionale](../data-collection/rdc.md).
 
 ## 9 Avril 2024
 
@@ -130,7 +130,7 @@ Mise à jour de la [FAQ sur l’administration](faq.md) avec des informations su
 
 ## 24 Août 2021
 
-Mise à jour de la page [Composants de lʼinterface centrale](../experience-cloud.md) (page de destination de ce guide). Ajout de la prise en charge des navigateurs et des langues, mises à jour des organisations, de la connexion et ajout dʼinformations relatives aux domaines.
+Mise à jour de la page [Composants de lʼinterface centrale](../home.md) (page de destination de ce guide). Ajout de la prise en charge des navigateurs et des langues, mises à jour des organisations, de la connexion et ajout dʼinformations relatives aux domaines.
 
 ## 6 Août 2021
 
@@ -142,11 +142,11 @@ Réorganisation de la structure et de la table des matières du guide.
 
 ## 1Er Juin 2021
 
-Mise à jour de la [page de destination](../experience-cloud.md) avec une nouvelle aide sur l’accès à CX Enterprise, à la recherche globale, aux préférences et aux notifications.
+Mise à jour de la [page de destination](../home.md) avec une nouvelle aide sur l’accès à CX Enterprise, à la recherche globale, aux préférences et aux notifications.
 
 ## 19 Août 2020
 
-Mise à jour de [Afficher les détails de l’utilisateur CX Enterprise (outil d’administration)](../administration/admin-tool-experience-cloud.md) avec les informations sur les politiques.
+Mise à jour de [Afficher les détails de l&#39;utilisateur CX Enterprise (outil d&#39;administration)](../administration/admin-tool-experience-cloud.md) avec les informations sur les politiques.
 
 ## 19 Mai 2020
 
@@ -165,7 +165,7 @@ Mise à jour de [Validation du transfert du nom d’hôte](../data-collection/ad
 
 ## 20 Février 2020
 
-Ajout de la fonction [Afficher les détails de l’utilisateur CX Enterprise (outil d’administration)](../administration/admin-tool-experience-cloud.md).
+Ajout de [Afficher les détails de l&#39;utilisateur CX Enterprise (outil d&#39;administration)](../administration/admin-tool-experience-cloud.md).
 
 ## Mise à jour : 9/5/2018
 
@@ -193,21 +193,21 @@ Mise à jour de la définition des données Analytics brutes dans [Création d�
 
 ## 9 Mai 2016
 
-Ajout de [Intégrations &#x200B;](../administration/integrations.md), un résumé de la documentation d’intégration.
+Ajout de [Intégrations CX Enterprise](../administration/integrations.md), un résumé de la documentation sur l’intégration.
 
 ## 11 Février 2016
 
-Ajout de [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
+Ajout de [CX Enterprise Assets](../services/assets/overview-assets.md).
 
 ## 15 Janvier 2015
 
-Ajout de CX Enterprise Les utilisateurs peuvent désormais partager des dossiers sur Creative Cloud et synchroniser les ressources et les commentaires sur les deux clouds. Voir [Partage de ressources](../services/assets/share.md).
+Ajout de CX Enterprise Les utilisateurs peuvent désormais partager des dossiers sur Creative Cloud et synchroniser les ressources et les commentaires sur les deux clouds. Voir [Partage De Ressources](../services/assets/share.md).
 
 ## 17 Juillet 2014
 
-Ajout de [FAQ &#x200B;](faq.md) pour les administrateurs.
+Ajout de [FAQ CX Enterprise](faq.md) pour les administrateurs.
 
 ## 22 Mai 2014
 
-Ajout de la documentation relative à [&#x200B; Audiences &#x200B;](../services/audiences/overview.md)
+Ajout de la documentation pour les [audiences](../services/audiences/overview.md)
 
