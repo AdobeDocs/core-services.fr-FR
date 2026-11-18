@@ -55,7 +55,7 @@ Ce guide couvre l’interface partagée et la couche d’administration qui lie 
 
 * [Accédez](get-started-using-cxe.md#applications) à l’ensemble de vos applications et services CX Enterprise
 * Dans le menu **[!UICONTROL Aide]**, recherchez la documentation du produit, les tutoriels et les publications de la communauté. Affichez les résultats dans Experience League.
-* Effectuez une recherche globale de [1} objets commerciaux à l’aide d’une recherche globale (utilisateurs Experience Platform uniquement) dans le champ Rechercher .](/help/interface/features/search.md)
+* Effectuez une recherche globale de [1&rbrace; objets commerciaux à l’aide d’une recherche globale (utilisateurs Experience Platform uniquement) dans le champ Rechercher .](/help/interface/features/search.md)
 * Accéder à [Admin Console](/help/interface/administration/admin-console.md) pour la gestion des utilisateurs et des produits
 * Gérer les [préférences](features/account-preferences.md) du compte (alertes, notifications et abonnements)
 

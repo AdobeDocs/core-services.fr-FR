@@ -49,7 +49,7 @@ Certaines fonctionnalités partagées dans CX Enterprise sont également appelé
 >
 >L’utilisation des services Personnes peut vous obliger à suivre des étapes d’implémentation spécifiques. Pour plus d&#39;informations, consultez la section [Prise en main du service Personnes](getting-started.md).
 
-Pour accéder aux services partagés et aux applications dans CX Enterprise, cliquez sur le sélecteur d’applications ****
+Pour accéder aux services partagés et aux applications dans CX Enterprise, cliquez sur le sélecteur d’applications **&#x200B;**
 ![Sélecteur de services](../assets/apps-icon.png).
 
 | Service principal | Description |
